@@ -2,14 +2,51 @@
   "doc_id": "D031",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "extracted_at": "2026-10-03T17:22:08.074Z",
+  "extracted_at": "2026-10-03T22:26:37.091Z",
   "stop_reason": "end_turn",
   "usage": {
     "input": 2211,
-    "output": 281,
-    "cache_read": 4936,
-    "cache_write": 0
+    "output": 1243,
+    "cache_read": 0,
+    "cache_write": 5502
   },
-  "rules": [],
-  "notes": "The document describes Cambridge's Tenants Rights and Resources Notification Ordinance (Cambridge Municipal Code Ch. 8.71). It only requires landlords to give tenants an information guide at the start of a tenancy and when termination begins, with a $300-per-day fine for violations. That is a disclosure rule, not one of the six categories. The page says the ordinance 'does not prevent a landlord from initiating an eviction action if otherwise allowed by law,' so it is not a just-cause eviction rule. No rent cap, deposit, fee, screening or algorithmic-pricing rule is stated, so no records were extracted."
+  "rules": [
+    {
+      "jurisdiction": "Cambridge, MA",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Tenants Rights and Resources Notification Ordinance: notice of rights when a tenancy is terminated",
+      "requirement": "When your landlord takes legal steps to end your tenancy, such as a Notice to Quit or a Summary Process case, they must give you the City's Tenants Rights and Resources Guide at the same time. If you did not get it, you can download it from the City website and contact the Office of the Housing Liaison at 617-349-7222.",
+      "key_value": null,
+      "coverage": {
+        "summary": "All residential rental agreements in Cambridge, including a single rental unit in an owner-occupied building and tenants at will, except units in hospitals, skilled nursing or health facilities, non-profit short-term substance-abuse treatment facilities, and short-term rental units.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Rental units in a hospital, skilled nursing facility or health facility",
+          "Non-profit facilities providing short-term substance-abuse treatment",
+          "Short Term Rental Units under Cambridge Zoning Ordinance Art. 4, § 4.60"
+        ]
+      },
+      "exemptions": "Does not apply to rental units in a hospital, skilled nursing facility or health facility, non-profit short-term substance-abuse treatment facilities, or Short Term Rental Units under Cambridge Zoning Ordinance Article 4, Section 4.60.",
+      "effective_date": null,
+      "penalty": "Fine of up to $300 for each day's violation (Sec. 8.71.070).",
+      "citation": "Cambridge Mun. Code ch. 8.71",
+      "quoted_span": "The Ordinance also requires that a landlord provide the Guide to tenants when legal steps to terminate a tenancy are taken (ex. Notice to Quit or Summary Process).",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "The page states the Ordinance does not prevent a landlord from initiating an eviction action if otherwise allowed by law.",
+      "confidence": 0.82,
+      "conflict_flag": true,
+      "conflict_note": "Notice requirement only; Cambridge, MA has no just-cause eviction law."
+    }
+  ],
+  "notes": "Official city FAQ page summarizing Cambridge Municipal Code Chapter 8.71. The requirement to provide the Guide at the start of tenancy is not in any of the six categories and was not recorded separately. No effective date is stated on the page."
 }

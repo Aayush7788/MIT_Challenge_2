@@ -1,15 +1,15 @@
 {
- "key": "870472620071cadbf984a77c705ff50f26b4de3c",
+ "key": "385a42afc419b40a2e43dc1d6824210d4b98fad8",
  "doc_id": "D006",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:41:42.892Z",
+ "audited_at": "2026-10-03T22:29:07.756Z",
  "cards": [
   {
-   "team_rule_id": "r-0051",
+   "team_rule_id": "r-0049",
    "requirement": {
     "verdict": "supported",
-    "evidence": "For a landlord to evict a tenant for nonpayment of rent, the tenant must owe an amount of rental debt equal to or greater than one month of the Fair Market Rent (FMR) value for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR",
-    "note": "Just cause for fully or partially covered units is also stated in the document."
+    "evidence": "In Berkeley, tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is \"just cause” (previously called “good cause”).",
+    "note": "The nonpayment threshold of one month's FMR in the Oakland-Fremont HUD Metro FMR is also stated in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -23,8 +23,8 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "Eviction for nonpayment of rent is no longer allowed for rental debt less than one month of the Fair Market Rent for the unit",
-    "note": "Document presents the rule as current law."
+    "evidence": "Eviction for nonpayment of rent is no longer permitted for rental debt of less than one month’s Fair Market Rent for a unit of equivalent size.",
+    "note": "The document presents the rule as current law."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -34,20 +34,20 @@
    "citation": {
     "verdict": "partly_supported",
     "evidence": "Measure BB, a ballot measure passed by Berkeley voters in the November 2024 election, makes several changes to Berkeley’s Rent Ordinance",
-    "note": "Document supports Measure BB, Nov 2024, amending Berkeley's Rent Ordinance; it does not give the ordinance's full name ('Rent Stabilization and Eviction for Good Cause Ordinance') or a code section."
+    "note": "Measure BB and the November 2024 election are supported. The document does not give the ordinance's full name, 'Rent Stabilization and Eviction for Good Cause Ordinance', and states no code section."
    }
   },
   {
-   "team_rule_id": "r-0054",
+   "team_rule_id": "r-0052",
    "requirement": {
     "verdict": "supported",
-    "evidence": "The maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%. This cap does not prevent a landlord who has “banked” (unused) AGAs from previous years from implementing a rent increase that is greater than 5% in order to raise the rent to the rent ceiling.",
-    "note": null
+    "evidence": "This cap does not prevent a landlord who has “banked” (unused) AGAs from previous years from implementing a rent increase that is greater than 5% in order to raise the rent to the rent ceiling.",
+    "note": "The document also says the maximum AGA is 5% and that the AGA is the amount by which a landlord of a fully covered unit may raise the rent each year."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "The elected Rent Board sets the AGA by following a formula in the Rent Ordinance that ties the AGA to the Consumer Price Index.",
-    "note": "Max 5% is also stated."
+    "note": "The 5% maximum is also stated: 'The maximum AGA is 5%.'"
    },
    "effective_date": {
     "verdict": "not_applicable",
@@ -57,17 +57,17 @@
    "status": {
     "verdict": "supported",
     "evidence": "The maximum AGA is 5%.",
-    "note": "Presented as current law."
+    "note": "The document presents the cap as current law."
    },
    "coverage": {
     "verdict": "not_supported",
     "evidence": "Most units in multifamily properties built before 1980",
-    "note": "Document says 'built before 1980' and new construction is CO issued 'after 1980'. The card's 1980-12-31 cutoff is not stated, and the document does not tie the AGA's coverage to a CO cutoff. The card's own notes concede the ambiguity."
+    "note": "The document does not set a 1980-12-31 cutoff. It says 'built before 1980' for most fully covered multifamily units and 'certificate of occupancy issued after 1980' for new construction. It does not say that the AGA cap depends on a built-on-or-before-1980-12-31 date, so the card's date is not stated."
    },
    "citation": {
     "verdict": "partly_supported",
     "evidence": "Measure BB, a ballot measure passed by Berkeley voters in the November 2024 election, makes several changes to Berkeley’s Rent Ordinance",
-    "note": "Supports Measure BB, Nov 2024, amending the Rent Ordinance; the full ordinance name is not given in the document."
+    "note": "Measure BB and the November 2024 election are supported. The full ordinance name is not given in the document, and no code section is stated."
    }
   }
  ]

@@ -1,20 +1,20 @@
 {
- "key": "4053b444499ff7c42de78ec5004d543fc51363ff",
+ "key": "4dd7efa9983914789ed5e1dd10409b729fa5d5fb",
  "doc_id": "D013",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:42:03.774Z",
+ "audited_at": "2026-10-03T22:29:27.134Z",
  "cards": [
   {
-   "team_rule_id": "r-0059",
+   "team_rule_id": "r-0057",
    "requirement": {
     "verdict": "supported",
     "evidence": "The Notice of Tenants’ Rights and Resources should be delivered at the same time as the Notice to quit or Notice of non-renewal of lease.",
-    "note": "Document also states landlords must submit a copy of the notice to quit to the City via portal, report to Fair Housing at 617-635-2500 or 311, and that violation does not halt eviction. Minor nuance: the portal submission is of the Notice to Quit/non-renewal, not of the Rights notice itself."
+    "note": "Reporting to Fair Housing at 617-635-2500 or 311 and the statement that a violation does not halt eviction are also in the document."
    },
    "key_value": {
-    "verdict": "supported",
-    "evidence": "The Notice of Tenants’ Rights and Resources should be delivered at the same time as the Notice to quit or Notice of non-renewal of lease.",
-    "note": null
+    "verdict": "partly_supported",
+    "evidence": "Failure to submit this information may result in a fine up to $300 per day.",
+    "note": "The $300/day applies to failure to submit the city portal form; the enforcement table says the first offense is a warning and $300 per day applies to second and later offenses. The card's simplified fine is incomplete."
    },
    "effective_date": {
     "verdict": "not_applicable",
@@ -23,8 +23,8 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "The Housing Stability Notification Act requires\nALL LANDLORDS\nplanning to end a tenancy agreement to provide the tenant with a Notice of Tenants’ Rights and Resources.",
-    "note": "Document presents the act as current law, with no effective date."
+    "evidence": "The Housing Stability Notification Act requires ALL LANDLORDS planning to end a tenancy agreement to provide the tenant with a Notice of Tenants’ Rights and Resources.",
+    "note": "The page presents the act as current law, with no effective date stated."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -34,7 +34,7 @@
    "citation": {
     "verdict": "supported",
     "evidence": "Housing Stability Notification Act (Sec. 10-11.7)",
-    "note": "Document cites Sec. 10-11.7; the 'Boston City Ordinances' wording is a reasonable expansion."
+    "note": "The document gives Sec. 10-11.7. The 'Boston City Code' label is not stated verbatim, though the page refers to City of Boston Ordinances."
    }
   }
  ]

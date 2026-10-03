@@ -11,6 +11,7 @@ export type Building = {
   units: number | null;
   units_min?: number | null; // bounds from the land-use code when the exact count is missing
   units_max?: number | null;
+  units_note?: string | null; // where an inferred unit count came from, shown in the explanation
   co_date?: string | null; // certificate of occupancy date (YYYY-MM-DD), only when a user enters it
 };
 
@@ -54,7 +55,8 @@ export function coverage(rule: RuleRecord, b: Building, asOf: string): { tri: Tr
 
   const lo = b.units ?? b.units_min ?? null;
   const hi = b.units ?? b.units_max ?? null;
-  const unitText = b.units != null ? `${b.units} units` : lo != null && hi != null ? `${lo} to ${hi} units` : lo != null ? `at least ${lo} units` : hi != null ? `at most ${hi} units` : "";
+  const unitCount = b.units != null ? `${b.units} units` : lo != null && hi != null ? `${lo} to ${hi} units` : lo != null ? `at least ${lo} units` : hi != null ? `at most ${hi} units` : "";
+  const unitText = unitCount && b.units_note ? `${unitCount}, ${b.units_note}` : unitCount;
 
   if (c.min_units != null) {
     if (lo != null && lo >= c.min_units) reasons.push(`${unitText} (rule covers ${c.min_units}+)`);

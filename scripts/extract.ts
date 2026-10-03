@@ -38,7 +38,7 @@ const SYSTEM = `You extract housing-law rules from one source document at a time
 
 Scope: rental housing rules in exactly six categories.
 - rent_increase_limits: rent caps and the formula, which buildings are covered, exemptions, and whether a state cap yields to local rent control. A state law that forbids local rent control also belongs here.
-- just_cause_eviction: whether a landlord needs a listed cause to evict, the allowed causes, notice, relocation assistance, and coverage.
+- just_cause_eviction: rules that limit whether a landlord may end a tenancy or evict: a requirement of listed just causes, the allowed causes, protection against retaliatory eviction (including a presumption that an eviction after a tenant complaint is retaliation), relocation assistance for no-fault evictions, and coverage. Rules that only govern how a tenancy is ended (notice-to-quit periods, forms, timing and anything a notice to quit must contain or attach) do not limit whether the landlord may end it: they are out of scope, so do not record them. A separate requirement, usually a city ordinance, to give tenants a notice or guide of their rights when a tenancy ends belongs here only as a notice requirement: when the jurisdiction has no just-cause law, set conflict_flag and write in conflict_note "Notice requirement only; <jurisdiction> has no just-cause eviction law."
 - security_deposits: maximum deposit, exceptions, effective date.
 - application_screening_fees: caps on application or screening fees, other allowed upfront charges (including broker-fee rules), receipts and refunds.
 - screening_restrictions: limits on using criminal history or source of income when screening applicants, and timing rules.

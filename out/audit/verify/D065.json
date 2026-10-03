@@ -1,15 +1,15 @@
 {
- "key": "a55ffd10fba7f7a7bf9152dbf7f9fdeff4e40582",
+ "key": "4b9437dac6a36c02aa9432a666d4801166a520ad",
  "doc_id": "D065",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:41:19.286Z",
+ "audited_at": "2026-10-03T22:28:46.752Z",
  "cards": [
   {
-   "team_rule_id": "r-0042",
+   "team_rule_id": "r-0040",
    "requirement": {
     "verdict": "supported",
     "evidence": "A housing provider shall not make any oral or written inquiry regarding an applicant’s criminal record prior to making a conditional offer.",
-    "note": "Exceptions (meth production on federally assisted housing, lifetime sex offender registration) and the right to provide evidence are in section 4a(1) and (3)."
+    "note": "Exceptions for methamphetamine on federally assisted housing and lifetime sex offender registration, and applicant's right to provide evidence, are also stated in section 4."
    },
    "key_value": {
     "verdict": "supported",
@@ -19,30 +19,30 @@
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "This act shall take effect on the first day of the seventh month next following the date of enactment,",
-    "note": "Approved June 18, 2021; seventh month following is January, so Jan 1, 2022 follows by a small computation. Card does not explain the computation."
+    "note": "Approved June 18, 2021; seventh month following is January 2022, so 2022-01-01 follows by a small computation. The document does not state the date directly."
    },
    "status": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "This act shall take effect on the first day of the seventh month next following the date of enactment,",
-    "note": "Presented as current law, effective date passed before 2026-10-01."
+    "note": "The document presents the act as law taking effect in early 2022 with no repeal; in force as of 2026-10-01 is reasonable but not explicitly stated."
    },
    "coverage": {
     "verdict": "supported",
-    "evidence": "other than a dwelling unit in an owner-occupied premises of not more than four dwelling units.",
+    "evidence": "“Rental dwelling unit” means a dwelling unit offered for rent by a housing provider for residential purposes, other than a dwelling unit in an owner-occupied premises of not more than four dwelling units.",
     "note": null
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "C.46:8-55  Application process.",
-    "note": "Section 4 of P.L. 2021, c.110 is codified at C.46:8-55."
+    "evidence": "4.\na.  (1)\nA\nhousing\nprovider\nshall not require an applicant to\ncomplete any housing application that includes any inquiries regarding an\napplicant’s criminal record prior to the provision of a conditional offer,",
+    "note": "Section 4 is codified at C.46:8-55 in P.L. 2021, c.110; the Fair Chance in Housing Act short title is stated."
    }
   },
   {
-   "team_rule_id": "r-0043",
+   "team_rule_id": "r-0041",
    "requirement": {
     "verdict": "supported",
-    "evidence": "Prior to accepting any application fee, a housing provider shall disclose in writing to the applicant:",
-    "note": "Both required disclosures are in b(1) and b(2)."
+    "evidence": "Prior to\naccepting any application fee, a housing provider shall disclose in writing to\nthe applicant:",
+    "note": "Both disclosure items match section 4(b)(1) and (2)."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -52,54 +52,54 @@
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "This act shall take effect on the first day of the seventh month next following the date of enactment,",
-    "note": "Enactment June 18, 2021 gives Jan 1, 2022 by computation; the card does not explain it."
+    "note": "Approved June 18, 2021; 2022-01-01 is computed from this."
    },
    "status": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "This act shall take effect on the first day of the seventh month next following the date of enactment,",
-    "note": "Current law; effective date has passed."
+    "note": "Presented as current law; no repeal. In-force as of 2026-10-01 is inferred."
    },
    "coverage": {
     "verdict": "supported",
-    "evidence": "other than a dwelling unit in an owner-occupied premises of not more than four dwelling units.",
+    "evidence": "“Rental dwelling unit” means a dwelling unit offered for rent by a housing provider for residential purposes, other than a dwelling unit in an owner-occupied premises of not more than four dwelling units.",
     "note": null
    },
    "citation": {
     "verdict": "supported",
     "evidence": "C.46:8-55  Application process.",
-    "note": "Subsection b of section 4 is codified in C.46:8-55."
+    "note": "Subsection b. of section 4 contains the disclosure requirement."
    }
   },
   {
-   "team_rule_id": "r-0044",
+   "team_rule_id": "r-0042",
    "requirement": {
     "verdict": "supported",
-    "evidence": "A housing provider shall not, either before or after the issuance of a conditional offer, evaluate an applicant based on any of the following types of criminal records:",
-    "note": "Lookback periods, written withdrawal notice, individualized assessment, 30-day request and free-of-charge info all appear in section 5."
+    "evidence": "(1)   arrests or charges that have not resulted in a\ncriminal conviction;",
+    "note": "Section 5 covers excluded record types, the listed serious convictions, the lookbacks of 6/4/1 years, written reasons, individualized assessment, and the 30-day, free-of-charge information request."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "is for an indictable offense of the first degree that was issued, or if the conviction resulted in a prison sentence that sentence concluded, within the six years immediately preceding the issuance of the conditional offer;",
+    "evidence": "(2)   is for an indictable offense of the first degree\nthat was issued, or if the conviction resulted in a prison sentence that\nsentence concluded, within the six years immediately preceding the issuance of\nthe conditional offer;",
     "note": "Second/third degree four years and fourth degree one year are also stated."
    },
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "This act shall take effect on the first day of the seventh month next following the date of enactment,",
-    "note": "Jan 1, 2022 follows from the June 18, 2021 approval date; computation not explained."
+    "note": "Approved June 18, 2021; 2022-01-01 is computed."
    },
    "status": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "This act shall take effect on the first day of the seventh month next following the date of enactment,",
-    "note": "Current law."
+    "note": "Presented as current law; in force as of 2026-10-01 inferred."
    },
    "coverage": {
     "verdict": "supported",
-    "evidence": "other than a dwelling unit in an owner-occupied premises of not more than four dwelling units.",
+    "evidence": "“Rental dwelling unit” means a dwelling unit offered for rent by a housing provider for residential purposes, other than a dwelling unit in an owner-occupied premises of not more than four dwelling units.",
     "note": null
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "C.46:8-56  Housing provider’s consideration of applicant’s record.",
+    "evidence": "C.46:8-56  Housing provider’s consideration of applicant’s\nrecord.",
     "note": "Section 5 is codified at C.46:8-56."
    }
   }

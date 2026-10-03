@@ -1,15 +1,15 @@
 {
- "key": "4d295528dc2f18a011126d86be43421f531e4ebd",
+ "key": "4013db953b501bf0b62fbb2f654c88fbd40839e1",
  "doc_id": "D068",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:41:23.917Z",
+ "audited_at": "2026-10-03T22:28:51.372Z",
  "cards": [
   {
-   "team_rule_id": "r-0045",
+   "team_rule_id": "r-0043",
    "requirement": {
     "verdict": "supported",
     "evidence": "The LAD also prohibits housing discrimination  based\non the source of lawful income or source of lawful rent\nor mortgage payment a tenant or purchaser uses.",
-    "note": "Complaint timelines (180 days; two years in Superior Court) are also stated in the document."
+    "note": "Complaint deadlines (180 days, two years) are also stated in the document."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -24,17 +24,17 @@
    "status": {
     "verdict": "supported",
     "evidence": "The LAD also prohibits housing discrimination  based\non the source of lawful income or source of lawful rent\nor mortgage payment a tenant or purchaser uses.",
-    "note": "Document presents the rule as current law; no effective date needed."
+    "note": "The document presents the rule as current law, with no effective date given."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "The rental of a single apartment or flat in a two-family\ndwelling, the other occupancy unit of which is occupied\nby the owner as his/her residence at the time of such\nrentals;",
-    "note": "The owner-occupied two-family exemption exists, but the document does not frame it as a unit maximum of 2. It also omits the one-family room-rental and other exemptions. The card's number is a loose paraphrase."
+    "note": "The owner-occupied two-family exemption supports a 2-unit figure. The document also exempts rooms rented in an owner-occupied one-family dwelling and other exemptions. It does not state the exemption applies to source-of-income specifically, and it names no construction or certificate-of-occupancy cutoffs."
    },
    "citation": {
-    "verdict": "partly_supported",
+    "verdict": "supported",
     "evidence": "The Division on Civil Rights enforces the New Jersey\nLaw Against Discrimination.",
-    "note": "The document names the LAD, but gives no statute section for the source-of-income provision. The citation is only a general name."
+    "note": "The citation names the LAD generally, which the document names. It gives no section number."
    }
   }
  ]

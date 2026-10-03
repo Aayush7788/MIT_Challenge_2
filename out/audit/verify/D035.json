@@ -1,40 +1,40 @@
 {
- "key": "42a74f9b6c246788cc88c6dca9f45247c962ff34",
+ "key": "bc25d7a614371a5865a1f58562c5e4b3c4369688",
  "doc_id": "D035",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:42:47.669Z",
+ "audited_at": "2026-10-03T22:30:14.383Z",
  "cards": [
   {
-   "team_rule_id": "r-0070",
+   "team_rule_id": "r-0069",
    "requirement": {
     "verdict": "supported",
     "evidence": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise exchange anything of value in return for the services of a Service Provider.",
-    "note": "Ban on lessors using service providers, the provider's duty not to facilitate non-compete agreements, the reporting channel and the private right of action are all stated in the ordinance."
+    "note": "Definitions of coordination, the facilitation ban, reporting to Landlord/Tenant Relations, and the private right of action are all in the text."
    },
    "key_value": {
     "verdict": "partly_supported",
     "evidence": "Subsequent violations shall be punished by a fine of not less than $100 and up to $2000, as provided in Chapter 1, General Provisions, Art. I, § 1-25. Each day during which an owner is in violation of § 218-12 shall constitute a separate violation hereunder.",
-    "note": "The $100-$2,000 range applies only to subsequent violations, and each day is a separate violation. The card's \"per day\" phrasing is a small inference. The first violation is penalized under § 1-25, with no amount stated."
+    "note": "The $100-$2,000 range applies to subsequent violations, and each day is a separate violation. The card omits that the first violation is punished under § 1-25, and 'per day' is a compressed reading."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "The field is empty on the card."
+    "note": "The card's effective_date is empty."
    },
    "status": {
     "verdict": "supported",
     "evidence": "Adopted on second and final reading after hearing on May 21 2025",
-    "note": "The ordinance was adopted and approved by the Mayor on May 22 2025, and the document presents it as current law. It states no effective date or repeal."
+    "note": "The ordinance was adopted and approved by the Mayor May 22 2025. No repeal or stay appears, so in_force is reasonable. The document gives no effective-date clause."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "The field is empty on the card."
+    "note": "The card's coverage is empty."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "§218-12 Preventing Algorithmic Rent Fixing in the Rental Housing Market:",
-    "note": "The ordinance is Ord. 25-057, adding § 218-12 to Chapter 218."
+    "note": "The document is Ord. 25-057, which adds section 218-12 to Chapter 218."
    }
   }
  ]

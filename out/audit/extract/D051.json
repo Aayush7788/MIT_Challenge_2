@@ -2,83 +2,14 @@
   "doc_id": "D051",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "extracted_at": "2026-10-03T17:25:52.780Z",
+  "extracted_at": "2026-10-03T22:26:51.471Z",
   "stop_reason": "end_turn",
   "usage": {
     "input": 1450,
-    "output": 1947,
-    "cache_read": 4936,
+    "output": 366,
+    "cache_read": 5502,
     "cache_write": 0
   },
-  "rules": [
-    {
-      "jurisdiction": "MA",
-      "level": "state",
-      "category": "just_cause_eviction",
-      "status": "in_force",
-      "title": "Notice required to end a tenancy at will (no cause required)",
-      "requirement": "Massachusetts state law does not require a reason to end a tenancy at will, but the landlord must give written notice equal to the rent payment interval or 30 days, whichever is longer (three months if rent is paid less often). A notice ending your tenancy may also offer a new tenancy on different terms.",
-      "key_value": "Longer of one rental period or 30 days written notice",
-      "coverage": {
-        "summary": "All tenancies at will in Massachusetts (tenants without a fixed-term lease); no building size or age limits are stated.",
-        "min_units": null,
-        "max_units": null,
-        "built_on_or_before": null,
-        "built_after": null,
-        "cutoff_uses_certificate_of_occupancy": false,
-        "exempt_if_newer_than_years": null,
-        "owner_based_exemption_max_units": null,
-        "required_facts_not_in_data": [],
-        "minor_exemptions_not_in_data": [
-          "Applies only to tenancies at will, not fixed-term leases"
-        ]
-      },
-      "exemptions": null,
-      "effective_date": null,
-      "penalty": null,
-      "citation": "M.G.L. c. 186 § 12",
-      "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party; and, if the rent reserved is payable at periods of less than three months, the time of such notice shall be sufficient if it is equal to the interval between the days of payment or thirty days, whichever is longer.",
-      "yields_to_local_rule": false,
-      "may_preempt_local_rules": false,
-      "interaction": null,
-      "confidence": 0.7,
-      "conflict_flag": false,
-      "conflict_note": null
-    },
-    {
-      "jurisdiction": "MA",
-      "level": "state",
-      "category": "just_cause_eviction",
-      "status": "in_force",
-      "title": "14-day notice to quit for nonpayment and right to cure",
-      "requirement": "For nonpayment of rent, a landlord may end a tenancy at will with a 14-day written notice to quit, but if you have not received such a notice in the past 12 months you can stop the termination by paying all rent due within 10 days of receiving it. If the notice omits the required statement of this right, you can pay up until your answer is due in the eviction case.",
-      "key_value": "14 days' notice; 10 days to cure once per 12 months",
-      "coverage": {
-        "summary": "All tenancies at will in Massachusetts terminated for nonpayment of rent.",
-        "min_units": null,
-        "max_units": null,
-        "built_on_or_before": null,
-        "built_after": null,
-        "cutoff_uses_certificate_of_occupancy": false,
-        "exempt_if_newer_than_years": null,
-        "owner_based_exemption_max_units": null,
-        "required_facts_not_in_data": [],
-        "minor_exemptions_not_in_data": [
-          "Applies only to tenancies at will"
-        ]
-      },
-      "exemptions": "Right to cure applies only if the tenant has not received a similar nonpayment notice within the preceding twelve months.",
-      "effective_date": null,
-      "penalty": "If the notice lacks the required notification, the tenant's time to pay or tender rent is extended to the day the answer is due in the possession action.",
-      "citation": "M.G.L. c. 186 § 12",
-      "quoted_span": "In case of neglect or refusal to pay the rent due from a tenant at will, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the tenancy; provided, that the tenancy of a tenant who has not received a similar notice from the landlord within the twelve months next preceding the receipt of such notice shall not be determined if the tenant, within ten days after the receipt thereof, pays or tenders to the landlord, the landlord's attorney, or the person to whom the tenant customarily pays rent, the full amount of any rent due.",
-      "yields_to_local_rule": false,
-      "may_preempt_local_rules": false,
-      "interaction": null,
-      "confidence": 0.7,
-      "conflict_flag": false,
-      "conflict_note": null
-    }
-  ],
-  "notes": "M.G.L. c. 186 § 12 sets notice periods for terminating tenancies at will; it does not impose a just-cause requirement. Classified under just_cause_eviction because the category covers eviction notice rules. Also provides that hearings are continued at least 7 days when nonpayment was caused by government payment delays."
+  "rules": [],
+  "notes": "M.G.L. c. 186 § 12 governs notice to determine an estate at will: notice periods (three months or the rent interval/30 days), a 14-day notice to quit for nonpayment, a 10-day right to cure once per 12 months, required notice language, and court continuances for delayed government payments. These rules govern how a tenancy is ended (notice-to-quit periods, forms, timing, cure), not whether the landlord may end it, so they are out of scope under the just_cause_eviction definition. No rule in the six categories was extracted. A reviewer may consider whether the 10-day cure right should be treated as a limit on eviction."
 }

@@ -1,48 +1,15 @@
 {
- "key": "7df22fd77a984edfa06f36be69659912b65a7ffa",
+ "key": "022fe5033a4abff2445754f2f49993bd7bd27245",
  "doc_id": "D009",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:41:49.367Z",
+ "audited_at": "2026-10-03T22:29:14.726Z",
  "cards": [
   {
-   "team_rule_id": "r-0052",
-   "requirement": {
-    "verdict": "supported",
-    "evidence": "New construction: units that were built and received a Certificate of Occupancy after June 1980** Partially Covered Yes No Yes Yes",
-    "note": "Just cause column is Yes for covered types; exempt types listed match the card's list (golden duplex, shared kitchen/bath, ADU, university, nonprofit cooperative)."
-   },
-   "key_value": {
-    "verdict": "not_applicable",
-    "evidence": null,
-    "note": "Field is empty on the card."
-   },
-   "effective_date": {
-    "verdict": "not_applicable",
-    "evidence": null,
-    "note": "Field is empty on the card."
-   },
-   "status": {
-    "verdict": "supported",
-    "evidence": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance",
-    "note": "Document presents the rules as current law with no effective date."
-   },
-   "coverage": {
-    "verdict": "partly_supported",
-    "evidence": "“Golden Duplex”: duplex that was owner-occupied on December 31, 1979, and currently has an owner living in one of the units",
-    "note": "Document mentions a duplex (two units) for the golden duplex exemption, but does not state a general owner-based exemption max of 2 units. The value is inferred only loosely."
-   },
-   "citation": {
-    "verdict": "partly_supported",
-    "evidence": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance",
-    "note": "Ordinance name matches the document title, but no section number is given; the document is a guide, not the ordinance."
-   }
-  },
-  {
-   "team_rule_id": "r-0056",
+   "team_rule_id": "r-0050",
    "requirement": {
     "verdict": "supported",
     "evidence": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes",
-    "note": "Rent control Yes for pre-1980 multifamily, single family pre-1996, rooming house; No for new construction, post-1996 single-family, condos. Registration Yes for those."
+    "note": "Just cause column is Yes for all covered types (including new construction, single-family homes, condos); exempt list matches the document's exempt categories."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -57,17 +24,50 @@
    "status": {
     "verdict": "supported",
     "evidence": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance",
-    "note": "Presented as current guidance with no effective date."
+    "note": "Document presents the rules as current guidance with no repeal or expiry."
    },
    "coverage": {
-    "verdict": "partly_supported",
-    "evidence": "New construction: units that were built and received a Certificate of Occupancy after June 1980** Partially Covered Yes No Yes Yes",
-    "note": "Certificate of Occupancy after June 1980 supports the cutoff concept, but the exact date 1980-06-30 is the card's inference, and the document says 'before 1980' elsewhere. The owner_based_exemption_max_units of 2 is not stated in the document."
+    "verdict": "not_supported",
+    "evidence": "“Golden Duplex”: duplex that was owner-occupied on December 31, 1979, and currently has an owner living in one of the units",
+    "note": "The document states no 2-unit owner-based exemption threshold; a duplex is mentioned only for the Golden Duplex, which is a narrower exemption. The card also omits the construction and certificate-of-occupancy cutoffs the document does give."
    },
    "citation": {
     "verdict": "partly_supported",
     "evidence": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance",
-    "note": "Ordinance name matches the document title, but no section is cited."
+    "note": "The document is a coverage guide naming the ordinance, but it gives no section number or code citation."
+   }
+  },
+  {
+   "team_rule_id": "r-0054",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes",
+    "note": "Fully covered rows have Rent Control Yes. Single-family tenancies before 1996 and rooming houses are fully covered, while new construction, condos, and tenancies beginning on or after Jan 1, 1996 are Rent Control No but Registration Yes."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance",
+    "note": "Document presents the rules as current guidance."
+   },
+   "coverage": {
+    "verdict": "partly_supported",
+    "evidence": "New construction: units that were built and received a Certificate of Occupancy after June 1980** Partially Covered Yes No Yes Yes",
+    "note": "The document supports the certificate-of-occupancy cutoff of after June 1980, though the card's exact date of 1980-06-30 is an interpretation. The document also gives 'built before 1980' for full coverage, leaving a gap. The 2-unit owner-based exemption value is not stated in the document."
+   },
+   "citation": {
+    "verdict": "partly_supported",
+    "evidence": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance",
+    "note": "The document names the ordinance but gives no section number."
    }
   }
  ]

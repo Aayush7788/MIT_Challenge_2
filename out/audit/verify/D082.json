@@ -1,40 +1,40 @@
 {
- "key": "f8a7b36a2c944894416d71ea7b462e5840246b54",
+ "key": "e1a5202977c5cb9aaf987b4308bdb97fdc662d7d",
  "doc_id": "D082",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:44:02.990Z",
+ "audited_at": "2026-10-03T22:31:24.188Z",
  "cards": [
   {
-   "team_rule_id": "r-0090",
+   "team_rule_id": "r-0089",
    "requirement": {
     "verdict": "supported",
-    "evidence": "3/01/26 – 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90",
-    "note": "The Ellis Act table lists these amounts for notices served 3/1/26–2/28/27, with the additional amount for elderly (62+) or disabled tenants. The card's 'per tenant' and 'per unit' wording matches the column headings."
+    "evidence": "3/01/26 – 2/28/27 $11,110.05 $33,330.13 $7,443.90",
+    "note": "Table gives per-tenant, per-unit max, and additional amount for elderly (62+) or disabled tenants for Ellis Act notices served in that period."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "3/01/26 – 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90",
-    "note": "All three amounts and the notice-service period match the Ellis Act table."
+    "evidence": "3/01/26 – 2/28/27 $11,110.05 $33,330.13 $7,443.90",
+    "note": "Amounts and period match the Ellis Act table."
    },
    "effective_date": {
-    "verdict": "partly_supported",
+    "verdict": "supported",
     "evidence": "3/01/26 – 2/28/27",
-    "note": "The document gives 3/01/26 as the start of the notice-service period for this rate, which matches 2026-03-01. It does not use the term 'effective date', so the card's reading is a small inference."
+    "note": "The rate period for notices served begins 3/01/26, matching 2026-03-01."
    },
    "status": {
     "verdict": "supported",
     "evidence": "3/01/26 – 2/28/27",
-    "note": "As of 2026-10-01 the date falls within this period, and the page lists it as the current rate."
+    "note": "As of 2026-10-01 the date falls within the 3/01/26–2/28/27 period, so the rate is current, though the page is an archive listing."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "The coverage field is null on the card."
+    "note": "Coverage is null on the card."
    },
    "citation": {
-    "verdict": "not_supported",
-    "evidence": "*The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C.",
-    "note": "The document is a Rent Board rate archive. It never cites a specific section for Ellis Act relocation payments; the only section it mentions is 37.9C, in a footnote about capital improvement evictions. The card's generic 'S.F. Rent Ordinance' citation is therefore not stated for this rule."
+    "verdict": "partly_supported",
+    "evidence": "Relocation payments for tenants evicted under the Ellis Act",
+    "note": "The document is the SF Rent Board relocation rates archive. It does not name 'S.F. Rent Ordinance' for Ellis Act payments; it mentions Rent Ordinance Section 37.9C only in a footnote about other evictions."
    }
   }
  ]

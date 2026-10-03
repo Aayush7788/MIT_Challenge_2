@@ -469,22 +469,22 @@
    },
    "exemptions": "Hotels; care facilities; school dorms; units sharing a kitchen or bath with a resident owner; owner-occupied single-family homes renting up to two units or bedrooms; owner-occupied duplexes (neither unit an ADU); housing with a certificate of occupancy within the previous 15 years (except mobilehomes); separately alienable property not owned by a REIT, corporation or corporate-member LLC, with written notice; deed-restricted affordable housing; property covered by a qualifying local just cause ordinance.",
    "overrides": [
+    "r-0048",
+    "r-0049",
     "r-0050",
     "r-0051",
-    "r-0052",
-    "r-0053",
+    "r-0071",
     "r-0072",
     "r-0073",
     "r-0074",
-    "r-0075",
+    "r-0082",
     "r-0083",
-    "r-0084",
+    "r-0086",
     "r-0087",
     "r-0088",
     "r-0089",
-    "r-0090",
-    "r-0096",
-    "r-0097"
+    "r-0095",
+    "r-0096"
    ],
    "interaction": "Does not apply to property covered by a local just cause ordinance adopted on or before Sept. 1, 2019, or to a later-adopted or amended local ordinance that is more protective (with a binding local finding); in those cases the local ordinance applies. A property cannot be subject to both. A local ordinance adopted after Sept. 1, 2019 that is less protective cannot be enforced unless this section is repealed.",
    "effective_date": "2024-04-01",
@@ -590,7 +590,7 @@
      "effective_date": "not_applicable",
      "status": "supported",
      "coverage": "not_applicable",
-     "citation": "supported"
+     "citation": "partly_supported"
     },
     "evidence": [
      {
@@ -599,7 +599,7 @@
      },
      {
       "field": "key_value",
-      "quote": "receive relocation payment consistent to the relocation benefits\nrequired to be paid by public entities under Chapter 16 (commencing with Section 7260) of\nDivision 7 of Title 1 (Government Code 66300.6(b)(4)(A))"
+      "quote": "relocation payment consistent to the relocation benefits\nrequired to be paid by public entities under Chapter 16 (commencing with Section 7260) of\nDivision 7 of Title 1 (Government Code 66300.6(b)(4)(A))"
      },
      {
       "field": "status",
@@ -644,16 +644,16 @@
    },
    "exemptions": "Affordable deed-restricted or subsidized housing; school dormitories; housing under stricter local rent control; housing with a certificate of occupancy issued within the previous 15 years (unless a mobilehome); separately alienable homes or condos not owned by a REIT, corporation, or LLC with a corporate member, with the required notice; owner-occupied two-unit properties (neither unit an ADU or JADU); mobilehome homeowners. A new tenancy may set the initial rent freely.",
    "overrides": [
+    "r-0052",
+    "r-0053",
     "r-0054",
-    "r-0055",
-    "r-0056",
+    "r-0075",
     "r-0076",
     "r-0077",
-    "r-0078",
+    "r-0090",
     "r-0091",
-    "r-0092",
-    "r-0098",
-    "r-0099"
+    "r-0097",
+    "r-0098"
    ],
    "interaction": "Does not apply to housing subject to local rent control (consistent with Costa-Hawkins, Civ. Code § 1954.50 et seq.) that restricts annual increases to less than the state cap. The section does not expand or limit local authority to regulate rents.",
    "effective_date": "2024-04-01",
@@ -1047,7 +1047,7 @@
      },
      {
       "field": "key_value",
-      "quote": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons"
+      "quote": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and furnished units"
      },
      {
       "field": "effective_date",
@@ -1059,7 +1059,7 @@
      },
      {
       "field": "coverage",
-      "quote": "landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons"
+      "quote": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons"
      },
      {
       "field": "citation",
@@ -1641,7 +1641,7 @@
      },
      {
       "field": "citation",
-      "quote": "[ Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]"
+      "quote": "[ Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.  See 2025, 9, Sec. 136."
      }
     ],
     "changes": []
@@ -1653,14 +1653,14 @@
    "level": "state",
    "category": "just_cause_eviction",
    "status": "in_force",
-   "title": "14-day notice to quit for nonpayment of rent under a written lease, with right to cure",
-   "requirement": "If you fall behind on rent under a written lease, your landlord must give you a written 14-day notice to quit before ending the lease. You can stop the eviction by paying all rent due, plus interest and court costs, by the day your answer is due in the eviction case. If the late rent was caused by a delayed government payment or voucher, the court must postpone the hearing at least 7 days so you can pay.",
-   "citation": "M.G.L. c. 186 § 11",
-   "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section11",
-   "quoted_span": "Section 11. Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease, unless the tenant, on or before the day the answer is due, in an action by the landlord to recover possession of the premises, pays or tenders to the landlord or to his attorney all rent then due, with interest and costs of suit.",
-   "key_value": "14 days' written notice to quit",
+   "title": "Protection against retaliatory reprisal and eviction; six-month presumption",
+   "requirement": "A landlord who threatens or takes reprisals (including eviction notices, rent increases or changed lease terms) because you complained about code violations, took legal action, or joined a tenants' union owes you at least one to three months' rent or your actual damages plus attorney's fees. A termination notice (other than for nonpayment), rent increase or substantial change in terms within six months after such activity is presumed to be retaliation, rebuttable only by clear and convincing evidence.",
+   "citation": "M.G.L. c. 186 § 18",
+   "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section18",
+   "quoted_span": "The receipt of any notice of termination of tenancy, except for nonpayment of rent, or, of increase in rent, or, of any substantial alteration in the terms of tenancy within six months after the tenant has commenced, proceeded with, or obtained relief in such action, exercised such rights, made such report or complaint, or organized or joined such tenants' union or within six months after any other person has taken such action or actions on behalf of the tenant or in, or relating to, the building in which the tenant resides, shall create a rebuttable presumption that such notice or other action is a reprisal against the tenant for engaging in such activities.",
+   "key_value": "Damages 1-3 months' rent or actual damages, whichever greater; 6-month presumption",
    "coverage_conditions": {
-    "summary": "Tenancies under a written lease in Massachusetts where the tenant has not paid rent; no unit-count or construction-date limits are stated.",
+    "summary": "All tenants of residential premises in Massachusetts.",
     "min_units": null,
     "max_units": null,
     "built_on_or_before": null,
@@ -1671,17 +1671,17 @@
     "required_facts_not_in_data": [],
     "minor_exemptions_not_in_data": []
    },
-   "exemptions": null,
+   "exemptions": "Notices of termination for nonpayment of rent do not trigger the presumption.",
    "overrides": [],
    "interaction": null,
    "effective_date": null,
-   "source_doc_id": "D050",
+   "source_doc_id": "D053",
    "retrieved_at": "2026-10-01T22:37Z",
    "span_verified": true,
-   "confidence": 0.6,
+   "confidence": 0.9,
    "conflict_flag": false,
    "conflict_note": null,
-   "penalty": null,
+   "penalty": "Damages not less than one month's rent or more than three months' rent, or actual damages, whichever is greater, plus costs and reasonable attorney's fees.",
    "yields_to_local_rule": false,
    "may_preempt_local_rules": false,
    "source_type": "official",
@@ -1700,19 +1700,19 @@
     "evidence": [
      {
       "field": "requirement",
-      "quote": "Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease, unless the tenant, on or before the day the answer is due, in an action by the landlord to recover possession of the premises, pays or tenders to the landlord or to his attorney all rent then due, with interest and costs of suit."
+      "quote": "The receipt of any notice of termination of tenancy, except for nonpayment of rent, or, of increase in rent, or, of any substantial alteration in the terms of tenancy within six months after the tenant has commenced, proceeded with, or obtained relief in such action, exercised such rights, made such report or complaint, or organized or joined such tenants' union or within six months after any other person has taken such action or actions on behalf of the tenant or in, or relating to, the building in which the tenant resides, shall create a rebuttable presumption that such notice or other action is a reprisal against the tenant for engaging in such activities."
      },
      {
       "field": "key_value",
-      "quote": "fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease"
+      "quote": "shall be liable for damages which shall not be less than one month's rent or more than three month's rent, or the actual damages sustained by the tenant, whichever is greater, and the costs of the suit, including a reasonable attorney's fee."
      },
      {
       "field": "status",
-      "quote": "Section 11. Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease"
+      "quote": "Section 18. Any person or agent thereof who threatens to or takes reprisals against any tenant of residential premises"
      },
      {
       "field": "citation",
-      "quote": "General Law - Part II, Title I, Chapter 186, Section 11"
+      "quote": "General Law - Part II, Title I, Chapter 186, Section 18"
      }
     ],
     "changes": []
@@ -1720,146 +1720,6 @@
   },
   {
    "team_rule_id": "r-0027",
-   "jurisdiction": "MA",
-   "level": "state",
-   "category": "just_cause_eviction",
-   "status": "in_force",
-   "title": "Notice required to end a tenancy at will (no cause required)",
-   "requirement": "Massachusetts state law does not require a reason to end a tenancy at will, but the landlord must give written notice equal to the rent payment interval or 30 days, whichever is longer (three months if rent is paid less often). A notice ending your tenancy may also offer a new tenancy on different terms.",
-   "citation": "M.G.L. c. 186 § 12",
-   "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section12",
-   "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party; and, if the rent reserved is payable at periods of less than three months, the time of such notice shall be sufficient if it is equal to the interval between the days of payment or thirty days, whichever is longer.",
-   "key_value": "Longer of one rental period or 30 days written notice",
-   "coverage_conditions": {
-    "summary": "All tenancies at will in Massachusetts (tenants without a fixed-term lease); no building size or age limits are stated.",
-    "min_units": null,
-    "max_units": null,
-    "built_on_or_before": null,
-    "built_after": null,
-    "cutoff_uses_certificate_of_occupancy": false,
-    "exempt_if_newer_than_years": null,
-    "owner_based_exemption_max_units": null,
-    "required_facts_not_in_data": [],
-    "minor_exemptions_not_in_data": [
-     "Applies only to tenancies at will, not fixed-term leases"
-    ]
-   },
-   "exemptions": null,
-   "overrides": [],
-   "interaction": null,
-   "effective_date": null,
-   "source_doc_id": "D051",
-   "retrieved_at": "2026-10-01T22:37Z",
-   "span_verified": true,
-   "confidence": 0.7,
-   "conflict_flag": false,
-   "conflict_note": null,
-   "penalty": null,
-   "yields_to_local_rule": false,
-   "may_preempt_local_rules": false,
-   "source_type": "official",
-   "coverage_note": null,
-   "consolidation_note": null,
-   "verification": {
-    "model": "claude-sonnet-5-5",
-    "verdicts": {
-     "requirement": "partly_supported",
-     "key_value": "partly_supported",
-     "effective_date": "not_applicable",
-     "status": "supported",
-     "coverage": "not_applicable",
-     "citation": "supported"
-    },
-    "evidence": [
-     {
-      "field": "requirement",
-      "quote": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party; and, if the rent reserved is payable at periods of less than three months, the time of such notice shall be sufficient if it is equal to the interval between the days of payment or thirty days, whichever is longer."
-     },
-     {
-      "field": "key_value",
-      "quote": "if the rent reserved is payable at periods of less than three months, the time of such notice shall be sufficient if it is equal to the interval between the days of payment or thirty days, whichever is longer."
-     },
-     {
-      "field": "status",
-      "quote": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party;"
-     },
-     {
-      "field": "citation",
-      "quote": "General Law - Part II, Title I, Chapter 186, Section 12"
-     }
-    ],
-    "changes": []
-   }
-  },
-  {
-   "team_rule_id": "r-0028",
-   "jurisdiction": "MA",
-   "level": "state",
-   "category": "just_cause_eviction",
-   "status": "in_force",
-   "title": "Required notice form accompanying a notice to quit for nonpayment of rent",
-   "requirement": "If your landlord gives you a written notice to quit for nonpayment of rent, it must come with a state form listing any repayment agreements, rental assistance programs (such as RAFT), court rules, and eviction protections, and stating that the notice is not an eviction. A court cannot accept the landlord's nonpayment eviction filing without proof that this form was delivered to you.",
-   "citation": "M.G.L. c. 186 § 31",
-   "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section31",
-   "quoted_span": "No court having jurisdiction over an action for summary process pursuant to chapter 239, including the Boston municipal court department, shall, in an eviction for nonpayment of rent for a residential dwelling unit, accept for filing a writ, summons or complaint without proof of delivery of the form required under this section.",
-   "key_value": null,
-   "coverage_conditions": {
-    "summary": "All residential tenants in Massachusetts who receive a written notice to quit for nonpayment of rent.",
-    "min_units": null,
-    "max_units": null,
-    "built_on_or_before": null,
-    "built_after": null,
-    "cutoff_uses_certificate_of_occupancy": false,
-    "exempt_if_newer_than_years": null,
-    "owner_based_exemption_max_units": null,
-    "required_facts_not_in_data": [],
-    "minor_exemptions_not_in_data": []
-   },
-   "exemptions": null,
-   "overrides": [],
-   "interaction": null,
-   "effective_date": null,
-   "source_doc_id": "D058",
-   "retrieved_at": "2026-10-01T22:54Z",
-   "span_verified": true,
-   "confidence": 0.6,
-   "conflict_flag": false,
-   "conflict_note": null,
-   "penalty": "No court, including the Boston municipal court department, may accept for filing a writ, summons or complaint in a nonpayment eviction without proof of delivery of the required form.",
-   "yields_to_local_rule": false,
-   "may_preempt_local_rules": false,
-   "source_type": "official",
-   "coverage_note": null,
-   "consolidation_note": null,
-   "verification": {
-    "model": "claude-sonnet-5-5",
-    "verdicts": {
-     "requirement": "partly_supported",
-     "key_value": "not_applicable",
-     "effective_date": "not_applicable",
-     "status": "supported",
-     "coverage": "not_applicable",
-     "citation": "supported"
-    },
-    "evidence": [
-     {
-      "field": "requirement",
-      "quote": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form that shall include, but not be limited to: (i) documentation of any agreements between the tenant and landlord for the tenant to repay the landlord for nonpayment of rent;"
-     },
-     {
-      "field": "status",
-      "quote": "Section 31. (a) A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form"
-     },
-     {
-      "field": "citation",
-      "quote": "General Law - Part II, Title I, Chapter 186, Section 31"
-     }
-    ],
-    "changes": []
-   }
-  },
-  {
-   "team_rule_id": "r-0029",
    "jurisdiction": "MA",
    "level": "state",
    "category": "rent_increase_limits",
@@ -1919,7 +1779,7 @@
      },
      {
       "field": "status",
-      "quote": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:"
+      "quote": "No city or town may enact, maintain or enforce rent control of any kind"
      },
      {
       "field": "citation",
@@ -1930,7 +1790,7 @@
    }
   },
   {
-   "team_rule_id": "r-0031",
+   "team_rule_id": "r-0029",
    "jurisdiction": "MA",
    "level": "state",
    "category": "rent_increase_limits",
@@ -1999,7 +1859,7 @@
    }
   },
   {
-   "team_rule_id": "r-0032",
+   "team_rule_id": "r-0030",
    "jurisdiction": "MA",
    "level": "state",
    "category": "screening_restrictions",
@@ -2066,7 +1926,7 @@
    }
   },
   {
-   "team_rule_id": "r-0033",
+   "team_rule_id": "r-0031",
    "jurisdiction": "MA",
    "level": "state",
    "category": "security_deposits",
@@ -2124,11 +1984,11 @@
      },
      {
       "field": "key_value",
-      "quote": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3)"
+      "quote": "(iii) a security deposit equal to the first month's rent"
      },
      {
       "field": "status",
-      "quote": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3)"
+      "quote": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2);"
      },
      {
       "field": "citation",
@@ -2139,7 +1999,7 @@
    }
   },
   {
-   "team_rule_id": "r-0034",
+   "team_rule_id": "r-0032",
    "jurisdiction": "MA",
    "level": "state",
    "category": "security_deposits",
@@ -2183,7 +2043,7 @@
    "verification": {
     "model": "claude-sonnet-5-5",
     "verdicts": {
-     "requirement": "partly_supported",
+     "requirement": "supported",
      "key_value": "supported",
      "effective_date": "not_applicable",
      "status": "supported",
@@ -2197,7 +2057,7 @@
      },
      {
       "field": "key_value",
-      "quote": "the tenant shall be awarded damages in an amount equal to three times the amount of such security deposit or balance thereof to which the tenant is entitled plus interest at the rate of five per cent from the date when such payment became due, together with court costs and reasonable attorney's fees."
+      "quote": "(e) fails to return to the tenant the security deposit or balance thereof to which the tenant is entitled after deducting therefrom any sums in accordance with the provisions of this section, together with any interest thereon, within thirty days after termination of the tenancy."
      },
      {
       "field": "status",
@@ -2205,14 +2065,14 @@
      },
      {
       "field": "citation",
-      "quote": "(7) If the lessor or his agent fails to comply with clauses (a), (d), or (e) of subsection 6, the tenant shall be awarded damages"
+      "quote": "(7) If the lessor or his agent fails to comply with clauses (a), (d), or (e) of subsection 6, the tenant shall be awarded damages in an amount equal to three times the amount of such security deposit or balance thereof to which the tenant is entitled plus interest at the rate of five per cent from the date when such payment became due, together with court costs and reasonable attorney's fees."
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0035",
+   "team_rule_id": "r-0033",
    "jurisdiction": "NJ",
    "level": "state",
    "category": "algorithmic_rent_setting",
@@ -2260,7 +2120,7 @@
      "requirement": "supported",
      "key_value": "supported",
      "effective_date": "partly_supported",
-     "status": "supported",
+     "status": "partly_supported",
      "coverage": "not_applicable",
      "citation": "partly_supported"
     },
@@ -2279,18 +2139,18 @@
      },
      {
       "field": "status",
-      "quote": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment."
+      "quote": "9.    This act shall take effect on the first day of\nthe twelfth month next following the date of enactment."
      },
      {
       "field": "citation",
-      "quote": "P.L.\n2026, CHAPTER 43,\napproved July 20, 2026"
+      "quote": "P.L.\n2026, CHAPTER 43,"
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0036",
+   "team_rule_id": "r-0034",
    "jurisdiction": "NJ",
    "level": "state",
    "category": "application_screening_fees",
@@ -2356,20 +2216,20 @@
      },
      {
       "field": "status",
-      "quote": "Approved January 20, 2026."
+      "quote": "3.  This act shall take effect on the first day of the\nfourth month next following the date of enactment, except that the Director of\nthe Division of Consumer Affairs in the Department of Law and Public Safety\nshall be permitted to take anticipatory action necessary to effectuate the\nprovisions of this act."
      },
      {
       "field": "citation",
-      "quote": "P.L. 2025, c.405 (A4899 4R)"
+      "quote": "C.46:8-18.1  Residential rental property application fee not\nto exceed $50."
      }
     ],
     "changes": [
-     "second check disputes the coverage: The document exempts units in one- or two-family dwellings. It states no unit-count threshold. min_units: 3 is a loose inference, and the exemption for licensees of the Real Estate Commission is omitted."
+     "second check disputes the coverage: The document exempts one- and two-family dwellings, so coverage would be buildings of 3+ units, but it also exempts New Jersey Real Estate Commission licensees who are not the landlord. The card's min_units 3 is only a rough inference and omits the licensee exemption; no unit threshold is stated as such."
     ]
    }
   },
   {
-   "team_rule_id": "r-0037",
+   "team_rule_id": "r-0035",
    "jurisdiction": "NJ",
    "level": "state",
    "category": "just_cause_eviction",
@@ -2447,7 +2307,7 @@
    }
   },
   {
-   "team_rule_id": "r-0038",
+   "team_rule_id": "r-0036",
    "jurisdiction": "NJ",
    "level": "state",
    "category": "rent_increase_limits",
@@ -2520,7 +2380,7 @@
    }
   },
   {
-   "team_rule_id": "r-0039",
+   "team_rule_id": "r-0037",
    "jurisdiction": "NJ",
    "level": "state",
    "category": "rent_increase_limits",
@@ -2578,7 +2438,7 @@
      },
      {
       "field": "status",
-      "quote": "simple ownership of units, rents may not be increased to cover cos ts resulting solely from the \nconversion (N.J.S.A. 2A:18-61.31). This does not mean that rents may not be increased to cover"
+      "quote": "This prohibition applies to all tenants in the building \nregardless of whether they are eligible for protected tenancy as senior citizens or disabled persons."
      },
      {
       "field": "citation",
@@ -2589,7 +2449,7 @@
    }
   },
   {
-   "team_rule_id": "r-0040",
+   "team_rule_id": "r-0038",
    "jurisdiction": "NJ",
    "level": "state",
    "category": "rent_increase_limits",
@@ -2664,7 +2524,7 @@
    }
   },
   {
-   "team_rule_id": "r-0041",
+   "team_rule_id": "r-0039",
    "jurisdiction": "NJ",
    "level": "state",
    "category": "screening_restrictions",
@@ -2709,7 +2569,7 @@
    "verification": {
     "model": "claude-sonnet-5-5",
     "verdicts": {
-     "requirement": "supported",
+     "requirement": "partly_supported",
      "key_value": "supported",
      "effective_date": "not_applicable",
      "status": "supported",
@@ -2731,7 +2591,7 @@
      },
      {
       "field": "coverage",
-      "quote": "The law applies to all landlord -tenant relationships, except those involving two -family \nowner occupied dwellings, rooms in an owner or resident -occupied single home"
+      "quote": "The law applies to all landlord -tenant relationships, except those involving two -family \nowner occupied dwellings, rooms in an owner or resident -occupied single home,"
      },
      {
       "field": "citation",
@@ -2742,7 +2602,7 @@
    }
   },
   {
-   "team_rule_id": "r-0042",
+   "team_rule_id": "r-0040",
    "jurisdiction": "NJ",
    "level": "state",
    "category": "screening_restrictions",
@@ -2787,7 +2647,7 @@
      "requirement": "supported",
      "key_value": "supported",
      "effective_date": "partly_supported",
-     "status": "supported",
+     "status": "partly_supported",
      "coverage": "supported",
      "citation": "supported"
     },
@@ -2810,18 +2670,18 @@
      },
      {
       "field": "coverage",
-      "quote": "other than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units."
+      "quote": "“Rental dwelling unit” means a dwelling unit offered\nfor rent by a housing provider for residential purposes,\nother than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units."
      },
      {
       "field": "citation",
-      "quote": "C.46:8-55  Application process."
+      "quote": "4.\na.  (1)\nA\nhousing provider\nshall not require an applicant to\ncomplete any housing application that includes any inquiries regarding an\napplicant’s criminal record prior to the provision of a conditional offer,"
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0043",
+   "team_rule_id": "r-0041",
    "jurisdiction": "NJ",
    "level": "state",
    "category": "screening_restrictions",
@@ -2866,7 +2726,7 @@
      "requirement": "supported",
      "key_value": "not_applicable",
      "effective_date": "partly_supported",
-     "status": "supported",
+     "status": "partly_supported",
      "coverage": "supported",
      "citation": "supported"
     },
@@ -2885,7 +2745,7 @@
      },
      {
       "field": "coverage",
-      "quote": "other than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units."
+      "quote": "“Rental dwelling unit” means a dwelling unit offered\nfor rent by a housing provider for residential purposes,\nother than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units."
      },
      {
       "field": "citation",
@@ -2896,7 +2756,7 @@
    }
   },
   {
-   "team_rule_id": "r-0044",
+   "team_rule_id": "r-0042",
    "jurisdiction": "NJ",
    "level": "state",
    "category": "screening_restrictions",
@@ -2941,18 +2801,18 @@
      "requirement": "supported",
      "key_value": "supported",
      "effective_date": "partly_supported",
-     "status": "supported",
+     "status": "partly_supported",
      "coverage": "supported",
      "citation": "supported"
     },
     "evidence": [
      {
       "field": "requirement",
-      "quote": "A housing provider shall not, either before\nor after the issuance of a conditional offer, evaluate an applicant based on\nany of the following types of criminal records:"
+      "quote": "(1)   arrests or charges that have not resulted in a\ncriminal conviction;"
      },
      {
       "field": "key_value",
-      "quote": "is for an indictable offense of the first degree\nthat was issued, or if the conviction resulted in a prison sentence that\nsentence concluded, within the six years immediately preceding the issuance of\nthe conditional offer;"
+      "quote": "(2)   is for an indictable offense of the first degree\nthat was issued, or if the conviction resulted in a prison sentence that\nsentence concluded, within the six years immediately preceding the issuance of\nthe conditional offer;"
      },
      {
       "field": "effective_date",
@@ -2964,7 +2824,7 @@
      },
      {
       "field": "coverage",
-      "quote": "other than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units."
+      "quote": "“Rental dwelling unit” means a dwelling unit offered\nfor rent by a housing provider for residential purposes,\nother than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units."
      },
      {
       "field": "citation",
@@ -2975,7 +2835,7 @@
    }
   },
   {
-   "team_rule_id": "r-0045",
+   "team_rule_id": "r-0043",
    "jurisdiction": "NJ",
    "level": "state",
    "category": "screening_restrictions",
@@ -3025,7 +2885,7 @@
      "effective_date": "not_applicable",
      "status": "supported",
      "coverage": "partly_supported",
-     "citation": "partly_supported"
+     "citation": "supported"
     },
     "evidence": [
      {
@@ -3049,7 +2909,7 @@
    }
   },
   {
-   "team_rule_id": "r-0046",
+   "team_rule_id": "r-0044",
    "jurisdiction": "NJ",
    "level": "state",
    "category": "security_deposits",
@@ -3115,7 +2975,7 @@
      },
      {
       "field": "coverage",
-      "quote": "The exception is an owner-occupied two-, or three-family dwelling."
+      "quote": "The exception is an owner-occupied two-, or three-family dwelling. A tenant in an owner-\noccupied two-, or three-family dwelling may, however, make this provision applicable to their \ntenancy 30 days  after sending a  written  request  to the landlord  that  the landlord  fulfill  the"
      },
      {
       "field": "citation",
@@ -3126,7 +2986,7 @@
    }
   },
   {
-   "team_rule_id": "r-0047",
+   "team_rule_id": "r-0045",
    "jurisdiction": "Berkeley, CA",
    "level": "city",
    "category": "algorithmic_rent_setting",
@@ -3173,7 +3033,7 @@
      "requirement": "supported",
      "key_value": "supported",
      "effective_date": "not_applicable",
-     "status": "partly_supported",
+     "status": "supported",
      "coverage": "not_applicable",
      "citation": "supported"
     },
@@ -3188,18 +3048,18 @@
      },
      {
       "field": "status",
-      "quote": "At a regular meeting of the Council of the City of Berkeley held on November 18, \n2025, this Ordinance was passed to print and ordered published by posting by the \nfollowing vote:"
+      "quote": "It shall be unlawful to sell, license, or otherwise provide to City of Berkeley \nlandlords any coordinated pricing algorithm that sets or recommends rents or occupancy \nlevels that may be achieved for residential dwelling units in the City of Berkeley."
      },
      {
       "field": "citation",
-      "quote": "ORDINANCE NO. 7,992-N.S. \nAMENDING CHAPTER 13.63 OF THE BERKELEY MUNICIPAL CODE"
+      "quote": "13.63.030   Use and sale of coordinated pricing algorithms prohibited."
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0048",
+   "team_rule_id": "r-0046",
    "jurisdiction": "Berkeley, CA",
    "level": "city",
    "category": "application_screening_fees",
@@ -3255,7 +3115,7 @@
      },
      {
       "field": "status",
-      "quote": "When an owner or the owner’s agent gets a request to rent residential property in Berkeley from an applicant and the owner charges a fee to purchase a consumer credit report and to validate, review, or otherwise process an application, the owner must provide,"
+      "quote": "the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement"
      },
      {
       "field": "citation",
@@ -3266,7 +3126,7 @@
    }
   },
   {
-   "team_rule_id": "r-0049",
+   "team_rule_id": "r-0047",
    "jurisdiction": "Berkeley, CA",
    "level": "city",
    "category": "application_screening_fees",
@@ -3322,11 +3182,11 @@
      },
      {
       "field": "key_value",
-      "quote": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy"
+      "quote": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part"
      },
      {
       "field": "status",
-      "quote": "Chapter 13.78 applies to all residential rental agreements regardless of any contractual language in any rental agreement or lease to the contrary."
+      "quote": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy"
      },
      {
       "field": "citation",
@@ -3337,7 +3197,7 @@
    }
   },
   {
-   "team_rule_id": "r-0050",
+   "team_rule_id": "r-0048",
    "jurisdiction": "Berkeley, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -3399,11 +3259,11 @@
      },
      {
       "field": "effective_date",
-      "quote": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026."
+      "quote": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026."
      },
      {
       "field": "status",
-      "quote": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026."
+      "quote": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026."
      },
      {
       "field": "citation",
@@ -3414,7 +3274,7 @@
    }
   },
   {
-   "team_rule_id": "r-0051",
+   "team_rule_id": "r-0049",
    "jurisdiction": "Berkeley, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -3470,7 +3330,7 @@
     "evidence": [
      {
       "field": "requirement",
-      "quote": "For a landlord to evict a tenant for nonpayment of rent, the tenant must owe an amount of rental debt equal to or greater than one month of the Fair Market Rent (FMR) value for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR"
+      "quote": "In Berkeley, tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is \"just cause” (previously called “good cause”)."
      },
      {
       "field": "key_value",
@@ -3478,7 +3338,7 @@
      },
      {
       "field": "status",
-      "quote": "Eviction for nonpayment of rent is no longer allowed for rental debt less than one month of the Fair Market Rent for the unit"
+      "quote": "Eviction for nonpayment of rent is no longer permitted for rental debt of less than one month’s Fair Market Rent for a unit of equivalent size."
      },
      {
       "field": "citation",
@@ -3489,7 +3349,7 @@
    }
   },
   {
-   "team_rule_id": "r-0052",
+   "team_rule_id": "r-0050",
    "jurisdiction": "Berkeley, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -3525,7 +3385,7 @@
    "source_doc_id": "D009",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.7,
+   "confidence": 0.6,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -3541,32 +3401,30 @@
      "key_value": "not_applicable",
      "effective_date": "not_applicable",
      "status": "supported",
-     "coverage": "partly_supported",
+     "coverage": "not_supported",
      "citation": "partly_supported"
     },
     "evidence": [
      {
       "field": "requirement",
-      "quote": "New construction: units that were built and received a Certificate of \nOccupancy after June 1980** \nPartially Covered Yes No Yes Yes"
+      "quote": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes"
      },
      {
       "field": "status",
       "quote": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance"
      },
      {
-      "field": "coverage",
-      "quote": "“Golden Duplex”: duplex that was owner-occupied on December 31, \n1979, and currently has an owner living in one of the units"
-     },
-     {
       "field": "citation",
       "quote": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance"
      }
     ],
-    "changes": []
+    "changes": [
+     "second check disputes the coverage: The document states no 2-unit owner-based exemption threshold; a duplex is mentioned only for the Golden Duplex, which is a narrower exemption. The card also omits the construction and certificate-of-occupancy cutoffs the document does give."
+    ]
    }
   },
   {
-   "team_rule_id": "r-0053",
+   "team_rule_id": "r-0051",
    "jurisdiction": "Berkeley, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -3628,11 +3486,11 @@
      },
      {
       "field": "effective_date",
-      "quote": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026."
+      "quote": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026."
      },
      {
       "field": "status",
-      "quote": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026."
+      "quote": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026."
      },
      {
       "field": "citation",
@@ -3643,7 +3501,7 @@
    }
   },
   {
-   "team_rule_id": "r-0054",
+   "team_rule_id": "r-0052",
    "jurisdiction": "Berkeley, CA",
    "level": "city",
    "category": "rent_increase_limits",
@@ -3702,7 +3560,7 @@
     "evidence": [
      {
       "field": "requirement",
-      "quote": "The maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%. This cap does not prevent a landlord who has “banked” (unused) AGAs from previous years from implementing a rent increase that is greater than 5% in order to raise the rent to the rent ceiling."
+      "quote": "This cap does not prevent a landlord who has “banked” (unused) AGAs from previous years from implementing a rent increase that is greater than 5% in order to raise the rent to the rent ceiling."
      },
      {
       "field": "key_value",
@@ -3718,12 +3576,12 @@
      }
     ],
     "changes": [
-     "second check disputes the coverage: Document says 'built before 1980' and new construction is CO issued 'after 1980'. The card's 1980-12-31 cutoff is not stated, and the document does not tie the AGA's coverage to a CO cutoff. The card's own notes concede the ambiguity."
+     "second check disputes the coverage: The document does not set a 1980-12-31 cutoff. It says 'built before 1980' for most fully covered multifamily units and 'certificate of occupancy issued after 1980' for new construction. It does not say that the AGA cap depends on a built-on-or-before-1980-12-31 date, so the card's date is not stated."
     ]
    }
   },
   {
-   "team_rule_id": "r-0055",
+   "team_rule_id": "r-0053",
    "jurisdiction": "Berkeley, CA",
    "level": "city",
    "category": "rent_increase_limits",
@@ -3763,7 +3621,7 @@
    "yields_to_local_rule": false,
    "may_preempt_local_rules": false,
    "source_type": "official",
-   "coverage_note": "Coverage cutoff taken from r-0056 (Berkeley Rent Stabilization and Eviction for Just Cause Ordinance), the same city's rent rule, because this record states none. Other records give a different cutoff: r-0054 1980-12-31.",
+   "coverage_note": "Coverage cutoff taken from r-0054 (Berkeley Rent Stabilization and Eviction for Just Cause Ordinance), the same city's rent rule, because this record states none. Other records give a different cutoff: r-0052 1980-12-31.",
    "consolidation_note": null,
    "verification": {
     "model": "claude-sonnet-5-5",
@@ -3773,7 +3631,7 @@
      "effective_date": "supported",
      "status": "partly_supported",
      "coverage": "not_applicable",
-     "citation": "partly_supported"
+     "citation": "supported"
     },
     "evidence": [
      {
@@ -3786,7 +3644,7 @@
      },
      {
       "field": "effective_date",
-      "quote": "increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026."
+      "quote": "allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026."
      },
      {
       "field": "status",
@@ -3801,7 +3659,7 @@
    }
   },
   {
-   "team_rule_id": "r-0056",
+   "team_rule_id": "r-0054",
    "jurisdiction": "Berkeley, CA",
    "level": "city",
    "category": "rent_increase_limits",
@@ -3883,7 +3741,7 @@
    }
   },
   {
-   "team_rule_id": "r-0057",
+   "team_rule_id": "r-0055",
    "jurisdiction": "Berkeley, CA",
    "level": "city",
    "category": "screening_restrictions",
@@ -3918,7 +3776,7 @@
    "source_doc_id": "D003",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.8,
+   "confidence": 0.85,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": "Administrative fines of at least $1,000 and up to $10,000 per violation; civil damages including actual damages or three times one month's rent; punitive damages; attorneys' fees and costs; injunctive relief.",
@@ -3930,7 +3788,7 @@
    "verification": {
     "model": "claude-sonnet-5-5",
     "verdicts": {
-     "requirement": "partly_supported",
+     "requirement": "supported",
      "key_value": "supported",
      "effective_date": "not_applicable",
      "status": "supported",
@@ -3944,7 +3802,7 @@
      },
      {
       "field": "key_value",
-      "quote": "Any landlord found to be in violation of the Ordinance shall be subject to administrative fines of at least $1,000 and up to $10,000 per violation"
+      "quote": "Any landlord found to be in violation of the Ordinance shall be subject to administrative fines of at least $1,000 and up to $10,000 per violation, civil damages including actual damages or three times the amount of one month's rent, punitive damages, attorneys' fees and costs, and injunctive relief."
      },
      {
       "field": "status",
@@ -3963,7 +3821,7 @@
    }
   },
   {
-   "team_rule_id": "r-0058",
+   "team_rule_id": "r-0056",
    "jurisdiction": "Berkeley, CA",
    "level": "city",
    "category": "security_deposits",
@@ -4023,26 +3881,26 @@
      },
      {
       "field": "citation",
-      "quote": "landlords must pay tenants interest on their security deposit at the end of each year"
+      "quote": "security deposit interest requirements under the Berkeley Rent Ordinance"
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0059",
+   "team_rule_id": "r-0057",
    "jurisdiction": "Boston, MA",
    "level": "city",
    "category": "just_cause_eviction",
    "status": "in_force",
    "title": "Housing Stability Notification Act – Notice of Tenants' Rights and Resources",
-   "requirement": "If your landlord plans to end your tenancy, they must give you a Notice of Tenants' Rights and Resources at the same time as the notice to quit or non-renewal, and must file a copy of that notice with the City. If you don't get it, report it to the Office of Fair Housing and Equity (617-635-2500 or 311). The violation does not stop the eviction.",
-   "citation": "Boston City Ordinances § 10-11.7 (Housing Stability Notification Act)",
+   "requirement": "Any Boston landlord planning to end your tenancy must give you a Notice of Tenants' Rights and Resources together with the Notice to Quit or non-renewal notice; if you didn't get it, report it to the Office of Fair Housing and Equity (617-635-2500 or 311). A violation does not stop the eviction process.",
+   "citation": "Boston City Code § 10-11.7 (Housing Stability Notification Act)",
    "source_url": "https://www.boston.gov/housing-stability-notification-act",
-   "quoted_span": "The Housing Stability Notification Act requires any landlord to provide renters with a Notice of Tenant’s Rights and Resources when planning to end a tenancy agreement.",
-   "key_value": "Notice of Tenants' Rights and Resources delivered with notice to quit/non-renewal",
+   "quoted_span": "The Housing Stability Notification Act requires\nALL LANDLORDS\nplanning to end a tenancy agreement to provide the tenant with a Notice of Tenants’ Rights and Resources.",
+   "key_value": "Notice of Tenants' Rights and Resources with Notice to Quit; fine up to $300/day",
    "coverage_conditions": {
-    "summary": "All landlords, and foreclosing owners for the City filing, in Boston who plan to end a tenancy agreement.",
+    "summary": "All landlords in Boston (and foreclosing owners for the city filing requirement) who plan to end a tenancy.",
     "min_units": null,
     "max_units": null,
     "built_on_or_before": null,
@@ -4060,20 +3918,20 @@
    "source_doc_id": "D013",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.6,
-   "conflict_flag": false,
-   "conflict_note": null,
-   "penalty": "Enforced by Inspectional Services Department: warning for the 1st offense; $300 per day for the 2nd and later offenses. Failure to submit the notice to the City's portal may result in a fine of up to $300 per day. A violation does not halt the eviction process.",
+   "confidence": 0.8,
+   "conflict_flag": true,
+   "conflict_note": "Notice requirement only; Boston, MA has no just-cause eviction law.",
+   "penalty": "1st offense: warning; 2nd and subsequent offenses: $300 per day, enforced by Inspectional Services Department. Failure to submit Notice to Quit to the City may result in fine up to $300 per day. Violation does not halt the eviction process.",
    "yields_to_local_rule": false,
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": "Effective date taken from r-0060 (Boston Code of Ordinances § 10-11.7 (Housing Stability Notification Act)), which states it for the same code section. Also stated in D014 (merged r-0060).",
+   "consolidation_note": "Effective date taken from r-0058 (Boston Code § 10-11.7 (Housing Stability Notification Act)), which states it for the same code section. Also stated in D014 (merged r-0058).",
    "verification": {
     "model": "claude-sonnet-5-5",
     "verdicts": {
      "requirement": "supported",
-     "key_value": "supported",
+     "key_value": "partly_supported",
      "effective_date": "not_applicable",
      "status": "supported",
      "coverage": "not_applicable",
@@ -4086,7 +3944,7 @@
      },
      {
       "field": "key_value",
-      "quote": "The Notice of Tenants’ Rights and Resources should be delivered at the same time as the Notice to quit or Notice of non-renewal of lease."
+      "quote": "Failure to submit this information may result in a fine up to $300 per day."
      },
      {
       "field": "status",
@@ -4101,19 +3959,19 @@
    }
   },
   {
-   "team_rule_id": "r-0061",
+   "team_rule_id": "r-0059",
    "jurisdiction": "Boston, MA",
    "level": "city",
    "category": "just_cause_eviction",
    "status": "failed",
-   "title": "H.3744 home rule petition authorizing Boston tenant eviction protections (not enacted)",
-   "requirement": "This bill would have let Boston adopt tenant eviction protections, but it was sent to a study order in September 2024 and was not enacted. It gives you no just-cause eviction rights.",
+   "title": "Boston home rule petition for tenant eviction protections (H.3744)",
+   "requirement": "This bill would have authorized Boston to adopt tenant eviction protections, but it was sent to a study order in September 2024 and was not enacted. It is not law.",
    "citation": "H.3744 (193rd General Court, 2023-2024)",
    "source_url": "https://malegislature.gov/Bills/193/H3744",
-   "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections.",
+   "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
    "key_value": null,
    "coverage_conditions": {
-    "summary": "Proposed authorization for tenant eviction protections in the City of Boston; the page does not show bill text or coverage details.",
+    "summary": "Would have authorized tenant eviction protections in the City of Boston. The page does not give coverage details.",
     "min_units": null,
     "max_units": null,
     "built_on_or_before": null,
@@ -4131,9 +3989,9 @@
    "source_doc_id": "D011",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.6,
-   "conflict_flag": false,
-   "conflict_note": null,
+   "confidence": 0.55,
+   "conflict_flag": true,
+   "conflict_note": "Bill history ends with 'Accompanied a study order, see H5035' (9/9/2024). Treated as failed because the 193rd session ended. The page gives no details on what the eviction protections would have been.",
    "penalty": null,
    "yields_to_local_rule": false,
    "may_preempt_local_rules": false,
@@ -4161,26 +4019,26 @@
      },
      {
       "field": "citation",
-      "quote": "Bill H.3744\n193rd (2023 - 2024)"
+      "quote": "Bill H.3744\nSkip to Content\nBill H.3744\n193rd (2023 - 2024)"
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0062",
+   "team_rule_id": "r-0060",
    "jurisdiction": "Boston, MA",
    "level": "city",
    "category": "rent_increase_limits",
    "status": "failed",
-   "title": "H.3744 home rule petition authorizing Boston rent stabilization (not enacted)",
-   "requirement": "This bill would have let Boston adopt rent stabilization, but it was sent to a study order in September 2024 and the 2023-2024 session ended. It does not limit your rent increases.",
+   "title": "Boston home rule petition for rent stabilization (H.3744)",
+   "requirement": "This bill would have authorized Boston to adopt rent stabilization, but it was sent to a study order in September 2024 and the 2023-2024 session ended. It is not law, and Boston has no rent cap from this bill.",
    "citation": "H.3744 (193rd General Court, 2023-2024)",
    "source_url": "https://malegislature.gov/Bills/193/H3744",
-   "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections.",
+   "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
    "key_value": null,
    "coverage_conditions": {
-    "summary": "Proposed authorization for rent stabilization in the City of Boston; the page does not show bill text or coverage details.",
+    "summary": "Would have authorized rent stabilization in the City of Boston. The page does not give coverage details.",
     "min_units": null,
     "max_units": null,
     "built_on_or_before": null,
@@ -4193,14 +4051,14 @@
    },
    "exemptions": null,
    "overrides": [],
-   "interaction": "Home rule petition seeking state legislative authorization for Boston to implement rent stabilization. Massachusetts state law otherwise bars local rent control.",
+   "interaction": "Home rule petition needing state legislative approval. Massachusetts law otherwise bars local rent control.",
    "effective_date": null,
    "source_doc_id": "D011",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
    "confidence": 0.6,
-   "conflict_flag": false,
-   "conflict_note": null,
+   "conflict_flag": true,
+   "conflict_note": "Bill history ends with 'Accompanied a study order, see H5035' (9/9/2024). Treated as failed because the 193rd session ended, but the page does not expressly say the bill died.",
    "penalty": null,
    "yields_to_local_rule": false,
    "may_preempt_local_rules": false,
@@ -4228,14 +4086,14 @@
      },
      {
       "field": "citation",
-      "quote": "Bill H.3744\n193rd (2023 - 2024)"
+      "quote": "Bill H.3744\nSkip to Content\nBill H.3744\n193rd (2023 - 2024)"
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0063",
+   "team_rule_id": "r-0061",
    "jurisdiction": "Boston, MA",
    "level": "city",
    "category": "screening_restrictions",
@@ -4290,7 +4148,7 @@
     "evidence": [
      {
       "field": "requirement",
-      "quote": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or \nland, or that have income restricted units created under the Boston Planning and Development \nAgency (BPDA) Inclusionary Development Policy will not impose a blanket policy that denies \nhousing to anyone with arrests and or convictions. Housing providers will consider applicants on \na case-by-case basis."
+      "quote": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or \nland, or that have income restricted units created under the Boston Planning and Development \nAgency (BPDA) Inclusionary Development Policy will not impose a blanket policy that denies \nhousing to anyone with arrests and or convictions."
      },
      {
       "field": "key_value",
@@ -4309,7 +4167,7 @@
    }
   },
   {
-   "team_rule_id": "r-0064",
+   "team_rule_id": "r-0062",
    "jurisdiction": "Boston, MA",
    "level": "city",
    "category": "screening_restrictions",
@@ -4369,14 +4227,85 @@
      },
      {
       "field": "citation",
-      "quote": "We enforce local, state, and federal fair housing laws."
+      "quote": "Boston Fair Housing Regulations | Boston.gov"
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0065",
+   "team_rule_id": "r-0063",
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "status": "in_force",
+   "title": "Tenants Rights and Resources Notification Ordinance: notice of rights when a tenancy is terminated",
+   "requirement": "When your landlord takes legal steps to end your tenancy, such as a Notice to Quit or a Summary Process case, they must give you the City's Tenants Rights and Resources Guide at the same time. If you did not get it, you can download it from the City website and contact the Office of the Housing Liaison at 617-349-7222.",
+   "citation": "Cambridge Mun. Code ch. 8.71",
+   "source_url": "https://www.cambridgema.gov/tenantrights",
+   "quoted_span": "The Ordinance also requires that a landlord provide the Guide to tenants when legal steps to terminate a tenancy are taken (ex. Notice to Quit or Summary Process).",
+   "key_value": null,
+   "coverage_conditions": {
+    "summary": "All residential rental agreements in Cambridge, including a single rental unit in an owner-occupied building and tenants at will, except units in hospitals, skilled nursing or health facilities, non-profit short-term substance-abuse treatment facilities, and short-term rental units.",
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "cutoff_uses_certificate_of_occupancy": false,
+    "exempt_if_newer_than_years": null,
+    "owner_based_exemption_max_units": null,
+    "required_facts_not_in_data": [],
+    "minor_exemptions_not_in_data": [
+     "Rental units in a hospital, skilled nursing facility or health facility",
+     "Non-profit facilities providing short-term substance-abuse treatment",
+     "Short Term Rental Units under Cambridge Zoning Ordinance Art. 4, § 4.60"
+    ]
+   },
+   "exemptions": "Does not apply to rental units in a hospital, skilled nursing facility or health facility, non-profit short-term substance-abuse treatment facilities, or Short Term Rental Units under Cambridge Zoning Ordinance Article 4, Section 4.60.",
+   "overrides": [],
+   "interaction": "The page states the Ordinance does not prevent a landlord from initiating an eviction action if otherwise allowed by law.",
+   "effective_date": null,
+   "source_doc_id": "D031",
+   "retrieved_at": "2026-10-01T22:36Z",
+   "span_verified": true,
+   "confidence": 0.82,
+   "conflict_flag": true,
+   "conflict_note": "Notice requirement only; Cambridge, MA has no just-cause eviction law.",
+   "penalty": "Fine of up to $300 for each day's violation (Sec. 8.71.070).",
+   "yields_to_local_rule": false,
+   "may_preempt_local_rules": false,
+   "source_type": "official",
+   "coverage_note": null,
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The Ordinance also requires that a landlord provide the Guide to tenants when legal steps to terminate a tenancy are taken (ex. Notice to Quit or Summary Process)."
+     },
+     {
+      "field": "status",
+      "quote": "The Ordinance requires owners, landlords, and management companies to provide you with information at the start of your lease or tenancy as well as when your tenancy is being terminated."
+     },
+     {
+      "field": "citation",
+      "quote": "The City of Cambridge Tenants Rights and Resources Ordinance, Chapter 8.71 of the Cambridge Municipal Code was established to inform and educate both residential tenants and landlords in Cambridge of their rights and responsibilities as a landlord or tenant."
+     }
+    ],
+    "changes": []
+   }
+  },
+  {
+   "team_rule_id": "r-0064",
    "jurisdiction": "Cambridge, MA",
    "level": "city",
    "category": "screening_restrictions",
@@ -4423,7 +4352,7 @@
      "effective_date": "not_applicable",
      "status": "supported",
      "coverage": "partly_supported",
-     "citation": "supported"
+     "citation": "partly_supported"
     },
     "evidence": [
      {
@@ -4432,7 +4361,7 @@
      },
      {
       "field": "status",
-      "quote": "The Commission enforces two ordinances: the\nCambridge Human Rights Ordinance, chapter 2.76\nand the\nCambridge Fair Housing Ordinance, chapter 14.04"
+      "quote": "The Fair Housing Ordinance prohibits discrimination in real estate transactions such as:"
      },
      {
       "field": "coverage",
@@ -4440,14 +4369,14 @@
      },
      {
       "field": "citation",
-      "quote": "the\nCambridge Fair Housing Ordinance, chapter 14.04"
+      "quote": "Cambridge Fair Housing Ordinance, chapter 14.04"
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0066",
+   "team_rule_id": "r-0065",
    "jurisdiction": "Hoboken, NJ",
    "level": "city",
    "category": "algorithmic_rent_setting",
@@ -4497,7 +4426,7 @@
      "effective_date": "partly_supported",
      "status": "supported",
      "coverage": "not_applicable",
-     "citation": "supported"
+     "citation": "partly_supported"
     },
     "evidence": [
      {
@@ -4518,14 +4447,14 @@
      },
      {
       "field": "citation",
-      "quote": "Ordinance Amending and Supplementing Chapter 158 (Rent Increases) of the Hoboken City Code by Adding a New Section 158-2, Entitled “Prohibition Against Algorithmic Rent-Fixing in the Rental Housing Market”"
+      "quote": "ORDINANCE AMENDING AND SUPPLEMENTING CHAPTER 158 (RENT INCREASES) OF THE HOBOKEN CITY CODE BY ADDING A NEW SECTION 158-2, ENTITLED “PROHIBITION AGAINST ALGORITHMIC RENT-FIXING IN THE RENTAL HOUSING MARKET”"
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0067",
+   "team_rule_id": "r-0066",
    "jurisdiction": "Hoboken, NJ",
    "level": "city",
    "category": "rent_increase_limits",
@@ -4581,11 +4510,11 @@
      },
      {
       "field": "key_value",
-      "quote": "said rental shall be limited to an\nincrease of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit, exclusive of\nany capital improvement surcharge that is a component of said last rental."
+      "quote": "No dwelling unit shall be decontrolled pursuant to this article more than once in any three-year period."
      },
      {
       "field": "status",
-      "quote": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential\napartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions\nof this chapter for the new tenant's initial rental"
+      "quote": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential\napartment unit by a tenant, the apartment unit shall become decontrolled"
      },
      {
       "field": "citation",
@@ -4596,7 +4525,7 @@
    }
   },
   {
-   "team_rule_id": "r-0068",
+   "team_rule_id": "r-0067",
    "jurisdiction": "Hoboken, NJ",
    "level": "city",
    "category": "rent_increase_limits",
@@ -4664,7 +4593,7 @@
      },
      {
       "field": "status",
-      "quote": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request\nor receive a percentage increase in rent which is greater than 5% or the percentage difference between the\nconsumer price index three months prior to the expiration or termination of the lease and three months\nprior to the commencement of the lease term, whichever is less."
+      "quote": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request\nor receive a percentage increase in rent which is greater than 5%"
      },
      {
       "field": "citation",
@@ -4675,7 +4604,7 @@
    }
   },
   {
-   "team_rule_id": "r-0069",
+   "team_rule_id": "r-0068",
    "jurisdiction": "Hoboken, NJ",
    "level": "city",
    "category": "rent_increase_limits",
@@ -4731,7 +4660,7 @@
     "evidence": [
      {
       "field": "requirement",
-      "quote": "The majority of Hoboken rental properties, including many condominium units, are covered under rent control regulations."
+      "quote": "The City is also reminding all property owners, landlords, and responsible agents that residential properties offered for rent must be registered annually with the Rent Leveling and Stabilization Office by June 30. The majority of Hoboken rental properties, including many condominium units, are covered under rent control regulations."
      },
      {
       "field": "status",
@@ -4746,7 +4675,7 @@
    }
   },
   {
-   "team_rule_id": "r-0070",
+   "team_rule_id": "r-0069",
    "jurisdiction": "Jersey City, NJ",
    "level": "city",
    "category": "algorithmic_rent_setting",
@@ -4819,7 +4748,7 @@
    }
   },
   {
-   "team_rule_id": "r-0071",
+   "team_rule_id": "r-0070",
    "jurisdiction": "Jersey City, NJ",
    "level": "city",
    "category": "rent_increase_limits",
@@ -4871,11 +4800,11 @@
     "evidence": [
      {
       "field": "requirement",
-      "quote": "(Please Note: All 1-4 Unit Properties are exempt from rent control)"
+      "quote": "A tenant claiming the rent they are being charged is illegal may file an Illegal Rent Petition:"
      },
      {
       "field": "status",
-      "quote": "The Office of Landlord Tenant Relations administers and enforces the\nRent Control Ordinance, Chapter 260\nof the Jersey City Municipal Code"
+      "quote": "The Office of Landlord Tenant Relations administers and enforces the"
      },
      {
       "field": "coverage",
@@ -4883,14 +4812,14 @@
      },
      {
       "field": "citation",
-      "quote": "The Office of Landlord Tenant Relations administers and enforces the\nRent Control Ordinance, Chapter 260\nof the Jersey City Municipal Code"
+      "quote": "Rent Control Ordinance, Chapter 260"
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0072",
+   "team_rule_id": "r-0071",
    "jurisdiction": "Los Angeles, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -4954,11 +4883,11 @@
      },
      {
       "field": "status",
-      "quote": "All notices to terminate a tenancy for all rental units subject to"
+      "quote": "Types of Evictions Requiring Payment of Tenant Relocation Assistance\nNo-fault evictions require the payment of\nrelocation assistance"
      },
      {
       "field": "coverage",
-      "quote": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978"
+      "quote": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
      },
      {
       "field": "citation",
@@ -4969,7 +4898,7 @@
    }
   },
   {
-   "team_rule_id": "r-0073",
+   "team_rule_id": "r-0072",
    "jurisdiction": "Los Angeles, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -5006,7 +4935,7 @@
    "source_doc_id": "D043",
    "retrieved_at": "2026-10-01T22:36Z",
    "span_verified": true,
-   "confidence": 0.82,
+   "confidence": 0.8,
    "conflict_flag": true,
    "conflict_note": "Bulletin A says a copy of the termination notice must be filed with LAHD no later than 3 days after service, while Bulletin B says within 3 business days. The fee chart in Bulletin B is labeled effective July 1, 2025 to June 30, 2026, while Bulletin A labels the same fees July 1, 2026 to June 30, 2027.",
    "penalty": "Failure to file the Landlord Declaration with LAHD makes the eviction a violation of the RSO or JCO. Non-payment of relocation assistance is an affirmative defense to eviction, and the tenant has a private right of action.",
@@ -5018,17 +4947,17 @@
    "verification": {
     "model": "claude-sonnet-5-5",
     "verdicts": {
-     "requirement": "supported",
+     "requirement": "partly_supported",
      "key_value": "supported",
      "effective_date": "supported",
      "status": "supported",
-     "coverage": "supported",
+     "coverage": "partly_supported",
      "citation": "supported"
     },
     "evidence": [
      {
       "field": "requirement",
-      "quote": "All tenant not- at-fault evictions require payment of relocation assistance and the filing of a \nDeclaration of Intent to Evict form with the Los Angeles Housing Department (LAHD) before \nevicting tenants from units covered by the Rent Stabilization Ordinance (RSO) or the Just Cause \nOrdinance (JCO)."
+      "quote": "Payment shall be made available within fifteen (15) days of service of the written notice of\neviction; however,"
      },
      {
       "field": "key_value",
@@ -5040,22 +4969,22 @@
      },
      {
       "field": "status",
-      "quote": "Chart A: Relocation Assistance Amounts \nEffective July 1, 2026 through June 30, 2027"
+      "quote": "All tenant not- at-fault evictions require payment of relocation assistance and the filing of a \nDeclaration of Intent to Evict form with the Los Angeles Housing Department (LAHD)"
      },
      {
       "field": "coverage",
-      "quote": "The landlord owns no more than four units of residential property and a single-family\nhome on a separate lot in the City of Los Angeles; and"
+      "quote": "The building containing the rental unit contains four or fewer rental units;"
      },
      {
       "field": "citation",
-      "quote": "Relocation Assistance\nDispute Resolution Fee (LAMC 151.09.G, 165.06.C.)."
+      "quote": "Failure to file the Landlord Declaration with the LAHD makes the eviction a \nviolation of the RSO or JCO."
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0074",
+   "team_rule_id": "r-0073",
    "jurisdiction": "Los Angeles, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -5112,7 +5041,7 @@
      "effective_date": "not_supported",
      "status": "supported",
      "coverage": "not_applicable",
-     "citation": "supported"
+     "citation": "partly_supported"
     },
     "evidence": [
      {
@@ -5133,12 +5062,12 @@
      }
     ],
     "changes": [
-     "second check disputes the effective date: March 27, 2023 is the effective date of the non-payment threshold rule, not of the JCO itself. The page gives no JCO effective date."
+     "second check disputes the effective date: March 27, 2023 is the effective date of the non-payment FMR threshold, not of the JCO itself. The document gives no JCO effective date."
     ]
    }
   },
   {
-   "team_rule_id": "r-0075",
+   "team_rule_id": "r-0074",
    "jurisdiction": "Los Angeles, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -5204,22 +5133,22 @@
      },
      {
       "field": "effective_date",
-      "quote": "On February 11, 2025, the Los Angeles City Council adopted the RPO which codified and expanded upon \nreplacement requirements and occupant protections of the HCA"
-     },
-     {
-      "field": "status",
       "quote": "effective 2/11/2025\nunder Ordinances # 188481 and #188482"
      },
      {
+      "field": "status",
+      "quote": "On February 11, 2025, the Los Angeles City Council adopted the RPO which codified and expanded upon \nreplacement requirements and occupant protections of the HCA"
+     },
+     {
       "field": "citation",
-      "quote": "which must be enhanced for lower income\ntenants if the project is subject to the Resident Protections Ordinance (RPO), effective 2/11/2025\nunder Ordinances # 188481 and #188482."
+      "quote": "effective 2/11/2025\nunder Ordinances # 188481 and #188482"
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0076",
+   "team_rule_id": "r-0075",
    "jurisdiction": "Los Angeles, CA",
    "level": "city",
    "category": "rent_increase_limits",
@@ -5266,7 +5195,7 @@
    "verification": {
     "model": "claude-sonnet-5-5",
     "verdicts": {
-     "requirement": "supported",
+     "requirement": "partly_supported",
      "key_value": "not_applicable",
      "effective_date": "not_applicable",
      "status": "supported",
@@ -5280,7 +5209,7 @@
      },
      {
       "field": "status",
-      "quote": "The interest rate set by the Rent Adjustment Commission for 2026 is 3.03%."
+      "quote": "Landlords of rental units subject to the Rent Stabilization Ordinance (RSO)"
      },
      {
       "field": "coverage",
@@ -5295,7 +5224,7 @@
    }
   },
   {
-   "team_rule_id": "r-0077",
+   "team_rule_id": "r-0076",
    "jurisdiction": "Los Angeles, CA",
    "level": "city",
    "category": "rent_increase_limits",
@@ -5377,7 +5306,7 @@
    }
   },
   {
-   "team_rule_id": "r-0078",
+   "team_rule_id": "r-0077",
    "jurisdiction": "Los Angeles, CA",
    "level": "city",
    "category": "rent_increase_limits",
@@ -5417,7 +5346,7 @@
    "yields_to_local_rule": false,
    "may_preempt_local_rules": false,
    "source_type": "official",
-   "coverage_note": "Coverage cutoff taken from r-0077 (Los Angeles Rent Stabilization Ordinance (LAMC Chapter XV; replacement units LAMC § 151.28)), the same city's rent rule, because this record states none. Other records give a different cutoff: r-0076 1978-09-30.",
+   "coverage_note": "Coverage cutoff taken from r-0076 (Los Angeles Rent Stabilization Ordinance (LAMC Chapter XV; replacement units LAMC § 151.28)), the same city's rent rule, because this record states none. Other records give a different cutoff: r-0075 1978-09-30.",
    "consolidation_note": null,
    "verification": {
     "model": "claude-sonnet-5-5",
@@ -5455,7 +5384,7 @@
    }
   },
   {
-   "team_rule_id": "r-0079",
+   "team_rule_id": "r-0078",
    "jurisdiction": "Los Angeles, CA",
    "level": "city",
    "category": "security_deposits",
@@ -5510,7 +5439,7 @@
     "evidence": [
      {
       "field": "requirement",
-      "quote": "If the second method is used, \nthe landlord must provide the tenant with a copy of a bank statement indicating the \ninterest earned on their deposit for the year."
+      "quote": "The tenant may bring an action in a court of appropriate jurisdiction including, but not limited \nto, Small Claims Court, to recover the amou nt owed as provided in the Rent Stabilization \nOrdinance 151.06.02 (G)."
      },
      {
       "field": "key_value",
@@ -5530,14 +5459,14 @@
      },
      {
       "field": "citation",
-      "quote": "Nothing in the Rent St abilization Ordinance No. 151. 06.02(F) prevents landlords \nfrom exercising their own discretion rights in investing deposits."
+      "quote": "This was amended \nby Ordinance 174017, effective June 7, 2001."
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0080",
+   "team_rule_id": "r-0079",
    "jurisdiction": "Newark, NJ",
    "level": "city",
    "category": "rent_increase_limits",
@@ -5589,19 +5518,19 @@
     "evidence": [
      {
       "field": "requirement",
-      "quote": "The allowable annual increase will not be permitted, if the dwelling is not in substantial compliance and/or if the landlord has not met the registration requirements as specified in this subsection 19:2-9.8."
+      "quote": "In no case shall the allowable rent increase exceed 4%. The allowable annual increase will not be permitted, if the dwelling is not in substantial compliance and/or if the landlord has not met the registration requirements as specified in this subsection 19:2-9.8."
      },
      {
       "field": "key_value",
-      "quote": "In no case shall the allowable rent increase exceed 4%."
+      "quote": "The rents for any housing space shall not be increased more than the percentages stated below in any consecutive 12-month period, irrespective of the number of different tenants occupying the housing space during the 12-month period, any change of ownership of the Landlord or vacancy of the housing space."
      },
      {
       "field": "effective_date",
-      "quote": "The Rent Control Ordinance was amended on September 05, 2017."
+      "quote": "(Ord. 6 PSF-A(S), 9-5-17)"
      },
      {
       "field": "status",
-      "quote": "In no case shall the allowable rent increase exceed 4%."
+      "quote": "Pursuant to 19:2-3. Rent Increases. 19:2-3.1. Determination of Rents. In no case shall the allowable rent increase exceed 4%."
      },
      {
       "field": "citation",
@@ -5612,7 +5541,7 @@
    }
   },
   {
-   "team_rule_id": "r-0082",
+   "team_rule_id": "r-0081",
    "jurisdiction": "San Diego, CA",
    "level": "city",
    "category": "algorithmic_rent_setting",
@@ -5668,15 +5597,15 @@
      },
      {
       "field": "key_value",
-      "quote": "For each month a violation of section 98.1103(b) exists or continues, and for \neach residential rental property a landlord uses an algorithmic device, it shall \nconstitute a separate and distinct violation."
+      "quote": "A tenant may seek injunctive relief, damages, or civil penalties of up to \n$1,000 per violation of this Division, in a civil action against a landlord."
      },
      {
       "field": "effective_date",
-      "quote": "(“Purpose and Intent” added 5-22-2025 by O-21955 N.S.; effective 6-21-2025.)"
+      "quote": "(“Prohibition of Anti-Competitive Automated Rent Price-Fixing”  \nadded 5-22-2025 by O-21955 N.S.; effective 6-21-2025.)"
      },
      {
       "field": "status",
-      "quote": "(“Prohibition of Anti-Competitive Automated Rent Price-Fixing”  \nadded 5-22-2025 by O-21955 N.S.; effective 6-21-2025.)"
+      "quote": "(“Use and Sale of Algorithmic Devices Prohibited” added 5-22-2025 by \nO-21955 N.S.; effective 6-21-2025.)"
      },
      {
       "field": "citation",
@@ -5687,7 +5616,7 @@
    }
   },
   {
-   "team_rule_id": "r-0083",
+   "team_rule_id": "r-0082",
    "jurisdiction": "San Diego, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -5762,7 +5691,7 @@
      },
      {
       "field": "status",
-      "quote": "(Amended 2-27-2024 by O-21769 N.S.; effective 3-28-2024.)"
+      "quote": "A landlord shall not terminate a tenancy without just cause."
      },
      {
       "field": "coverage",
@@ -5777,7 +5706,7 @@
    }
   },
   {
-   "team_rule_id": "r-0084",
+   "team_rule_id": "r-0083",
    "jurisdiction": "San Diego, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -5839,7 +5768,7 @@
     "evidence": [
      {
       "field": "requirement",
-      "quote": "(i) If the landlord elects to provide relocation assistance by \na direct payment to the tenant, the notice shall state the \namount of relocation assistance available to the tenant \nand that the landlord shall provide the payment within \n15 days from the date of the notice."
+      "quote": "(i) Unless section 98.0706(c)(1)(A)(ii) applies, the direct \npayment to the tenant shall be in an amount equal to \ntwo months of actual rent under the tenant’s lease in \neffect at the date of the notice."
      },
      {
       "field": "key_value",
@@ -5851,7 +5780,7 @@
      },
      {
       "field": "status",
-      "quote": "(“Requirements Upon Termination of Tenancy” added 5-25-2023 by O-21647 N.S.; \neffective 6-24-2023.)"
+      "quote": "(c) Relocation Assistance for Termination of Tenancy for No-Fault Just Cause."
      },
      {
       "field": "coverage",
@@ -5866,7 +5795,7 @@
    }
   },
   {
-   "team_rule_id": "r-0085",
+   "team_rule_id": "r-0084",
    "jurisdiction": "San Diego, CA",
    "level": "city",
    "category": "screening_restrictions",
@@ -5920,7 +5849,7 @@
     "evidence": [
      {
       "field": "requirement",
-      "quote": "It is unlawful for any person to make, print, publish, advertise, or \ndisseminate in any  way, or cause to be made, printed, published, \nadvertised, or disseminated in any way, any notice, statement, or \nadvertisement with respect to a rental-unit, or with respect to financing \nrelated to a rental-unit, which indicates discrimination based on a \nperson’s source of income ."
+      "quote": "It is unlawful for any person to do any of the following acts, wholly or in \npart, based on a person’s source of income  (except as may be necessary to \ncomply with any program requirements related to source of income ):"
      },
      {
       "field": "key_value",
@@ -5943,7 +5872,7 @@
    }
   },
   {
-   "team_rule_id": "r-0086",
+   "team_rule_id": "r-0085",
    "jurisdiction": "San Francisco, CA",
    "level": "city",
    "category": "algorithmic_rent_setting",
@@ -6014,7 +5943,7 @@
    }
   },
   {
-   "team_rule_id": "r-0087",
+   "team_rule_id": "r-0086",
    "jurisdiction": "San Francisco, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -6068,11 +5997,11 @@
     "evidence": [
      {
       "field": "requirement",
-      "quote": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction."
+      "quote": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction. Note that the mere expiration of a rental agreement or a change in ownership does not constitute \"just cause\" for eviction."
      },
      {
       "field": "key_value",
-      "quote": "The 17 just cause reasons for eviction under\nOrdinance Section 37.9(a)\nare summarized below:"
+      "quote": "The 17 just cause reasons for eviction under"
      },
      {
       "field": "status",
@@ -6087,7 +6016,7 @@
    }
   },
   {
-   "team_rule_id": "r-0088",
+   "team_rule_id": "r-0087",
    "jurisdiction": "San Francisco, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -6149,7 +6078,7 @@
      },
      {
       "field": "status",
-      "quote": "For March 1, 2026 - February 28, 2027"
+      "quote": "Relocation payments for tenants evicted under the Ellis Act"
      },
      {
       "field": "citation",
@@ -6160,7 +6089,7 @@
    }
   },
   {
-   "team_rule_id": "r-0089",
+   "team_rule_id": "r-0088",
    "jurisdiction": "San Francisco, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -6222,7 +6151,7 @@
      },
      {
       "field": "status",
-      "quote": "For March 1, 2026 - February 28, 2027"
+      "quote": "Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation"
      },
      {
       "field": "citation",
@@ -6233,7 +6162,7 @@
    }
   },
   {
-   "team_rule_id": "r-0090",
+   "team_rule_id": "r-0089",
    "jurisdiction": "San Francisco, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -6265,7 +6194,7 @@
    "source_doc_id": "D082",
    "retrieved_at": "2026-10-01T22:37Z",
    "span_verified": true,
-   "confidence": 0.6,
+   "confidence": 0.65,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -6279,10 +6208,10 @@
     "verdicts": {
      "requirement": "supported",
      "key_value": "supported",
-     "effective_date": "partly_supported",
+     "effective_date": "supported",
      "status": "supported",
      "coverage": "not_applicable",
-     "citation": "not_supported"
+     "citation": "partly_supported"
     },
     "evidence": [
      {
@@ -6292,15 +6221,17 @@
      {
       "field": "key_value",
       "quote": "3/01/26 – 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90"
+     },
+     {
+      "field": "citation",
+      "quote": "Relocation payments for tenants evicted under the Ellis Act"
      }
     ],
-    "changes": [
-     "second check disputes the citation: The document is a Rent Board rate archive. It never cites a specific section for Ellis Act relocation payments; the only section it mentions is 37.9C, in a footnote about capital improvement evictions. The card's generic 'S.F. Rent Ordinance' citation is therefore not stated for this rule."
-    ]
+    "changes": []
    }
   },
   {
-   "team_rule_id": "r-0091",
+   "team_rule_id": "r-0090",
    "jurisdiction": "San Francisco, CA",
    "level": "city",
    "category": "rent_increase_limits",
@@ -6371,16 +6302,16 @@
      },
      {
       "field": "coverage",
-      "quote": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979, tenancies that are eligible for a rent increase under the\nCosta-Hawkins Rental Housing Act,"
+      "quote": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979, tenancies that are eligible for a rent increase under the\nCosta-Hawkins Rental Housing Act,\nand some tenancies where the rent is regulated by another government agency."
      }
     ],
     "changes": [
-     "second check disputes the citation: The documents cite Ordinance Section 37.9(a) and 37.2(r), but none cites S.F. Admin. Code § 37.3 for the annual increase."
+     "second check disputes the citation: Neither document cites S.F. Admin. Code § 37.3. D079 mentions only Ordinance Sections 37.9(a) and 37.2(r)."
     ]
    }
   },
   {
-   "team_rule_id": "r-0092",
+   "team_rule_id": "r-0091",
    "jurisdiction": "San Francisco, CA",
    "level": "city",
    "category": "rent_increase_limits",
@@ -6420,7 +6351,7 @@
    "yields_to_local_rule": false,
    "may_preempt_local_rules": false,
    "source_type": "official",
-   "coverage_note": "Coverage cutoff taken from r-0091 (S.F. Admin. Code § 37.3), the same city's rent rule, because this record states none.",
+   "coverage_note": "Coverage cutoff taken from r-0090 (S.F. Admin. Code § 37.3), the same city's rent rule, because this record states none.",
    "consolidation_note": null,
    "verification": {
     "model": "claude-sonnet-5-5",
@@ -6447,7 +6378,7 @@
      },
      {
       "field": "status",
-      "quote": "For March 1, 2026 - February 28, 2027"
+      "quote": "1.6% for March 1, 2026 – February 28, 2027"
      },
      {
       "field": "citation",
@@ -6458,7 +6389,7 @@
    }
   },
   {
-   "team_rule_id": "r-0093",
+   "team_rule_id": "r-0092",
    "jurisdiction": "San Francisco, CA",
    "level": "city",
    "category": "screening_restrictions",
@@ -6507,7 +6438,7 @@
      "effective_date": "not_applicable",
      "status": "supported",
      "coverage": "not_applicable",
-     "citation": "supported"
+     "citation": "partly_supported"
     },
     "evidence": [
      {
@@ -6527,7 +6458,7 @@
    }
   },
   {
-   "team_rule_id": "r-0094",
+   "team_rule_id": "r-0093",
    "jurisdiction": "Santa Ana, CA",
    "level": "city",
    "category": "algorithmic_rent_setting",
@@ -6569,17 +6500,17 @@
    "verification": {
     "model": "claude-sonnet-5-5",
     "verdicts": {
-     "requirement": "partly_supported",
+     "requirement": "supported",
      "key_value": "supported",
      "effective_date": "not_applicable",
-     "status": "partly_supported",
+     "status": "supported",
      "coverage": "not_applicable",
      "citation": "supported"
     },
     "evidence": [
      {
       "field": "requirement",
-      "quote": "Prohibits the use of certain algorithmic rent-setting tools in the local rental market."
+      "quote": "The Santa Ana City Council has adopted a new ordinance to strengthen renter protections by limiting the use of certain rent-setting software for residential properties."
      },
      {
       "field": "key_value",
@@ -6598,7 +6529,7 @@
    }
   },
   {
-   "team_rule_id": "r-0096",
+   "team_rule_id": "r-0095",
    "jurisdiction": "Santa Ana, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -6648,7 +6579,7 @@
    "verification": {
     "model": "claude-sonnet-5-5",
     "verdicts": {
-     "requirement": "partly_supported",
+     "requirement": "supported",
      "key_value": "supported",
      "effective_date": "supported",
      "status": "supported",
@@ -6658,7 +6589,7 @@
     "evidence": [
      {
       "field": "requirement",
-      "quote": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice."
+      "quote": "Under a no-fault just cause termination, the owner shall either provide 3 months of relocation assistance or waive payment of rent for the final 3 months of the tenancy."
      },
      {
       "field": "key_value",
@@ -6678,14 +6609,14 @@
      },
      {
       "field": "citation",
-      "quote": "Key provisions of the Just Cause Eviction Ordinance"
+      "quote": "Santa Ana City Council adopts rent stabilization and just cause eviction ordinances, effective Nov. 19 - City of Santa Ana"
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0097",
+   "team_rule_id": "r-0096",
    "jurisdiction": "Santa Ana, CA",
    "level": "city",
    "category": "just_cause_eviction",
@@ -6734,7 +6665,7 @@
      "effective_date": "not_applicable",
      "status": "supported",
      "coverage": "not_applicable",
-     "citation": "supported"
+     "citation": "partly_supported"
     },
     "evidence": [
      {
@@ -6747,14 +6678,14 @@
      },
      {
       "field": "citation",
-      "quote": "Rent Stabilization and Just Cause Eviction"
+      "quote": "Your landlord can only raise your rent by a certain amount each year."
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0098",
+   "team_rule_id": "r-0097",
    "jurisdiction": "Santa Ana, CA",
    "level": "city",
    "category": "rent_increase_limits",
@@ -6794,7 +6725,7 @@
    "yields_to_local_rule": false,
    "may_preempt_local_rules": false,
    "source_type": "official",
-   "coverage_note": "Coverage cutoff taken from r-0099 (Santa Ana Rent Stabilization Ordinance), the same city's rent rule, because this record states none.",
+   "coverage_note": "Coverage cutoff taken from r-0098 (Santa Ana Rent Stabilization Ordinance), the same city's rent rule, because this record states none.",
    "consolidation_note": null,
    "verification": {
     "model": "claude-sonnet-5-5",
@@ -6804,7 +6735,7 @@
      "effective_date": "not_applicable",
      "status": "supported",
      "coverage": "not_applicable",
-     "citation": "supported"
+     "citation": "partly_supported"
     },
     "evidence": [
      {
@@ -6818,17 +6749,13 @@
      {
       "field": "status",
       "quote": "2.87 percent is the maximum allowable rent increase for the period of September 1, 2026 through August 31, 2027."
-     },
-     {
-      "field": "citation",
-      "quote": "Rent Stabilization and Just Cause Eviction"
      }
     ],
     "changes": []
    }
   },
   {
-   "team_rule_id": "r-0099",
+   "team_rule_id": "r-0098",
    "jurisdiction": "Santa Ana, CA",
    "level": "city",
    "category": "rent_increase_limits",
@@ -6875,7 +6802,7 @@
    "verification": {
     "model": "claude-sonnet-5-5",
     "verdicts": {
-     "requirement": "partly_supported",
+     "requirement": "supported",
      "key_value": "supported",
      "effective_date": "supported",
      "status": "supported",
@@ -6905,7 +6832,7 @@
      },
      {
       "field": "citation",
-      "quote": "Key requirements of the Rent Stabilization Ordinance"
+      "quote": "Santa Ana City Council adopts rent stabilization and just cause eviction ordinances, effective Nov. 19 - City of Santa Ana"
      }
     ],
     "changes": []

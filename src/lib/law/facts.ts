@@ -26,24 +26,26 @@ export function unitsFromLandUse(state: string, useCode: string, desc: string): 
   const d = desc.replace(/(\d)O(?=U\b)/gi, "$10"); // "5B-1OU" is a typo for 10U
   // NJ class codes give a unit count per building, e.g. "3S-F-D-6U-NH" or "3B-7U/4B-24U-G".
   const per = [...d.matchAll(/(\d+)\s*U\b/gi)].map((m) => Number(m[1]));
-  if (per.length === 1) return { min: per[0], max: per[0], exact: per[0], basis: `assessor class code "${desc}"` };
-  if (per.length > 1) return { min: Math.max(...per), max: per.reduce((a, b) => a + b, 0), exact: null, basis: `assessor class code "${desc}" (several buildings)` };
+  if (per.length === 1) return { min: per[0], max: per[0], exact: per[0], basis: `from the assessor class code "${desc}"` };
+  if (per.length > 1) return { min: Math.max(...per), max: per.reduce((a, b) => a + b, 0), exact: null, basis: `from the assessor class code "${desc}" (several buildings)` };
 
   let m = d.match(/(\d+)\s*(?:to|-)\s*(\d+)\s*-?\s*units?\b/i);
-  if (m) return { min: Number(m[1]), max: Number(m[2]), exact: null, basis: `land-use description "${desc}"` };
+  if (m) return { min: Number(m[1]), max: Number(m[2]), exact: null, basis: `from the land-use description "${desc}"` };
   m = d.match(/>\s*(\d+)\s*-?\s*units?\b/i);
-  if (m) return { min: Number(m[1]) + 1, max: null, exact: null, basis: `land-use description "${desc}"` };
+  if (m) return { min: Number(m[1]) + 1, max: null, exact: null, basis: `from the land-use description "${desc}"` };
   m = d.match(/(\d+)\s*\+\s*units?\b/i) ?? d.match(/(\d+)\s*units?\s*or\s*more/i);
-  if (m) return { min: Number(m[1]), max: null, exact: null, basis: `land-use description "${desc}"` };
+  if (m) return { min: Number(m[1]), max: null, exact: null, basis: `from the land-use description "${desc}"` };
   m = d.match(/(\d+)\s*units?\s*or\s*less/i);
-  if (m) return { min: null, max: Number(m[1]), exact: null, basis: `land-use description "${desc}"` };
+  if (m) return { min: null, max: Number(m[1]), exact: null, basis: `from the land-use description "${desc}"` };
   m = d.match(/\b(two|three|four|five|six|seven|eight|nine|ten)\s+or\s+more\s+(?:apartments|units)/i);
-  if (m) return { min: WORDS[m[1].toLowerCase()], max: null, exact: null, basis: `land-use description "${desc}"` };
+  if (m) return { min: WORDS[m[1].toLowerCase()], max: null, exact: null, basis: `from the land-use description "${desc}"` };
 
-  // We read NJ property class 4C as apartments with 5+ units, since 1-4 family
-  // homes are class 2. Worth confirming against the state's classification manual.
+  // NJ law defines class 4C (apartments) as property for 5 or more families, and
+  // class 2 as dwellings for up to 4. Gulnur (our lawyer) confirmed the reading.
+  // It's a tax class, though: a mixed-use building with 5+ units can sit in 4A, so
+  // any other class (4A included) leaves the unit count unknown.
   if (state === "NJ" && useCode.trim().toUpperCase() === "4C") {
-    return { min: 5, max: null, exact: null, basis: "New Jersey property class 4C (apartment building, 5 or more units)" };
+    return { min: 5, max: null, exact: null, basis: "inferred from New Jersey property class 4C, which state law defines as property for 5 or more families" };
   }
   return null;
 }
@@ -68,6 +70,8 @@ export function factSheet(a: Pick<Address, "state" | "year_built" | "units" | "u
 }
 
 export function buildingFrom(state: string, city: string | null, facts: FactSheet): Building {
+  // Say where a unit count came from whenever it isn't straight from the parcel record.
+  const unitsNote = facts.units.source === "land-use code" ? facts.units.note : facts.units.value == null ? facts.units_min.note ?? facts.units_max.note : undefined;
   return {
     state,
     city,
@@ -75,6 +79,7 @@ export function buildingFrom(state: string, city: string | null, facts: FactShee
     units: facts.units.value,
     units_min: facts.units_min.value,
     units_max: facts.units_max.value,
+    units_note: unitsNote ?? null,
     co_date: facts.co_date.value,
   };
 }

@@ -1,15 +1,15 @@
 {
- "key": "3581aab790973a55ee8c2341afbae354f7a2f9ae",
+ "key": "357430969e89eae42060fb3cc103e26d7020929a",
  "doc_id": "D067",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:41:10.799Z",
+ "audited_at": "2026-10-03T22:28:36.897Z",
  "cards": [
   {
-   "team_rule_id": "r-0037",
+   "team_rule_id": "r-0035",
    "requirement": {
     "verdict": "supported",
     "evidence": "No residential landlord may evict or fail to renew a lease, whether it is a written or an oral lease without good cause. The landlord must be able to prove in court that he has grounds for an eviction.",
-    "note": "Notice periods (3 days to 3 years) and 6x rent relocation for illegal occupancy are also stated in the document."
+    "note": "Notice periods (3 days to 3 years) and 6x relocation for illegal occupancy are also in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -23,26 +23,26 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "The Anti-Eviction Act, N.J.S.A. 2A:18-61.1 to 61.12, was created to protect blameless tenants from eviction",
+    "evidence": "The Anti-Eviction Act,  N.J.S.A. 2A:18-61.1 to 61.12, was created to protect blameless tenants from eviction",
     "note": "Presented as current law."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "This law may not apply to two - or three-unit owner-occupied premises with two (2) or fewer rental units.",
-    "note": "Document is muddled on the owner-occupied exemption; elsewhere it says 'owner occupied two or three family dwellings' are excepted from the good cause requirement, so 3 is roughly supported but not cleanly."
+    "note": "Document is muddled on the owner-occupied exemption; elsewhere it says owner-occupied two- or three-family dwellings are treated separately (a limited set of causes, not full exemption). A single threshold of 3 is a simplification."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "The Anti-Eviction Act, N.J.S.A. 2A:18-61.1 to 61.12, was created to protect blameless tenants from eviction",
+    "evidence": "The Anti-Eviction Act,  N.J.S.A. 2A:18-61.1 to 61.12, was created to protect blameless tenants from eviction",
     "note": null
    }
   },
   {
-   "team_rule_id": "r-0038",
+   "team_rule_id": "r-0036",
    "requirement": {
     "verdict": "supported",
     "evidence": "A landlord cannot raise the rent mid-lease term. The old lease must be terminated, and the new lease must have the increased rental payment.",
-    "note": "Unconscionable and rent control compliance also stated."
+    "note": "Also states no state cap, unconscionable standard, and rent control board contact."
    },
    "key_value": {
     "verdict": "supported",
@@ -71,7 +71,7 @@
    }
   },
   {
-   "team_rule_id": "r-0039",
+   "team_rule_id": "r-0037",
    "requirement": {
     "verdict": "supported",
     "evidence": "If a building is converted to a condominium or cooperative form of ownership, or to fee simple ownership of units, rents may not be increased to cover costs resulting solely from the conversion (N.J.S.A. 2A:18-61.31). This does not mean that rents may not be increased to cover the cost of new services or amenities.",
@@ -89,7 +89,7 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "rents may not be increased to cover costs resulting solely from the conversion (N.J.S.A. 2A:18-61.31).",
+    "evidence": "This prohibition applies to all tenants in the building regardless of whether they are eligible for protected tenancy as senior citizens or disabled persons.",
     "note": "Presented as current."
    },
    "coverage": {
@@ -104,7 +104,7 @@
    }
   },
   {
-   "team_rule_id": "r-0040",
+   "team_rule_id": "r-0038",
    "requirement": {
     "verdict": "supported",
     "evidence": "newly constructed multiple dwellings shall be exempt from any local rent control ordinances for a period of 30 years following completion of construction of the building.",
@@ -123,12 +123,12 @@
    "status": {
     "verdict": "supported",
     "evidence": "Under the Newly Constructed Multiple Dwellings Law ( N.J.S.A. 2A:42 -84.5), newly constructed multiple dwellings shall be exempt",
-    "note": "Presented as current."
+    "note": "Presented as current law."
    },
    "coverage": {
     "verdict": "supported",
     "evidence": "newly constructed multiple dwellings shall be exempt from any local rent control ordinances for a period of 30 years following completion of construction of the building.",
-    "note": "30-year window matches."
+    "note": "30 years from completion matches."
    },
    "citation": {
     "verdict": "supported",
@@ -137,11 +137,11 @@
    }
   },
   {
-   "team_rule_id": "r-0041",
+   "team_rule_id": "r-0039",
    "requirement": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "requires equal treatment in the sale or rental of housing regardless of race, creed, color, national origin, ancestry, sex, marital status, civil union status, domestic partnership status, familial status, affectional or sexual orientation, gender  identity or expression, mental and physical disability, nationality, or source of lawful income.",
-    "note": "Complaint venues (Division of Civil Rights, Superior Court) also stated. Housing voucher example is the card's gloss."
+    "note": "Source of lawful income and complaint venues supported; the housing voucher example is not in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -160,8 +160,8 @@
    },
    "coverage": {
     "verdict": "partly_supported",
-    "evidence": "The law applies to all landlord -tenant relationships, except those involving two -family owner occupied dwellings, rooms in an owner or resident -occupied single home",
-    "note": "Two-family owner-occupied exemption supported; other exceptions exist and the exemption is described only loosely as to 'two units'."
+    "evidence": "The law applies to all landlord -tenant relationships, except those involving two -family owner occupied dwellings, rooms in an owner or resident -occupied single home,",
+    "note": "Exemption for two-family owner-occupied supported; additional exceptions exist."
    },
    "citation": {
     "verdict": "supported",
@@ -170,11 +170,11 @@
    }
   },
   {
-   "team_rule_id": "r-0046",
+   "team_rule_id": "r-0044",
    "requirement": {
     "verdict": "supported",
     "evidence": "The maximum-security deposit to be collected by the landlord cannot be more than one and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 ). It can be less. Any additional yearly security deposit increase may not exceed 10% of the current security deposit.",
-    "note": "Pet deposit, prepaid rent, 30-day return with interest and double damages are also stated."
+    "note": "Return within 30 days and double damages also stated."
    },
    "key_value": {
     "verdict": "supported",
@@ -193,8 +193,8 @@
    },
    "coverage": {
     "verdict": "partly_supported",
-    "evidence": "The exception is an owner-occupied two-, or three-family dwelling.",
-    "note": "Exemption stated, but a tenant can opt in 30 days after written request."
+    "evidence": "The exception is an owner-occupied two-, or three-family dwelling. A tenant in an owner-occupied two-, or three-family dwelling may, however, make this provision applicable to their tenancy 30 days  after sending a  written  request",
+    "note": "Exemption up to 3 units supported, but tenant can opt in; the card omits that."
    },
    "citation": {
     "verdict": "supported",

@@ -1,15 +1,15 @@
 {
- "key": "71972db6dab69d3889edcf27dda6c3f56d0315c7",
+ "key": "269f1ee8f992bfb0ff1a5b1c9d0493f6f8ec7f8b",
  "doc_id": "D087",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:44:21.440Z",
+ "audited_at": "2026-10-03T22:31:41.695Z",
  "cards": [
   {
-   "team_rule_id": "r-0095",
+   "team_rule_id": "r-0094",
    "requirement": {
     "verdict": "supported",
-    "evidence": "Under the ordinance, a tenant affected by a violation may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation, plus attorney’s fees.",
-    "note": "Ban on sale, licensing, provision and use, nonpublic competitor data, and the burden-of-proof point are all in the document. Document says 'certain' tools and carves out public/aggregate data; the card is a fair summary."
+    "evidence": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3, prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties.",
+    "note": "Prohibition, nonpublic competitor data, remedies and the burden of proof are all stated. The card says 'landlords may not use' and 'vendors may not sell', which fits 'sale, licensing, provision and use'."
    },
    "key_value": {
     "verdict": "supported",
@@ -19,22 +19,22 @@
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card; document gives no effective date."
+    "note": "The field is null on the card."
    },
    "status": {
     "verdict": "partly_supported",
     "evidence": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3, prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties.",
-    "note": "Document only reports first reading and a scheduled March 3 final vote. It does not confirm final adoption, so 'pending' is only partly supported as of 2026-10-01 (the March 3 vote date has passed, and the capture note calls it 'adopted'). The document does not show the current status."
+    "note": "The document confirms only first-reading approval and a scheduled final vote. It does not say final adoption occurred, so 'pending' is a reasonable reading but is not confirmed as of 2026-10-01. The capture note calls it 'adopted', and the document gives no later status."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "The field is null on the card."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3, prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties.",
-    "note": "Card correctly notes that no ordinance number is stated and gives the first reading date Feb. 17, 2026, which matches the document."
+    "evidence": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3",
+    "note": "The citation accurately says the ordinance number is not stated and gives the first reading date of Feb. 17, 2026. The year comes from the post date of Feb. 20, 2026."
    }
   }
  ]

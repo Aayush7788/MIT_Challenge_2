@@ -1,15 +1,15 @@
 {
- "key": "9f7085c6307c08cd8f76ab33454d9a8fea247465",
+ "key": "195c1a076edcdd4e0408a698de7de47f1f078552",
  "doc_id": "D004",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:41:35.710Z",
+ "audited_at": "2026-10-03T22:29:00.714Z",
  "cards": [
   {
-   "team_rule_id": "r-0050",
+   "team_rule_id": "r-0048",
    "requirement": {
     "verdict": "supported",
     "evidence": "The Ellis Implementation Ordinance requires the same relocation assistance payments for tenants evicted so the owner can remove a property from the rental housing market.",
-    "note": "Amounts and date also stated in the document; the card words it in plainer terms."
+    "note": "Amounts of $19,413 and $6,471 effective January 1, 2026 are stated in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -18,13 +18,13 @@
    },
    "effective_date": {
     "verdict": "supported",
-    "evidence": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026.",
+    "evidence": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026.",
     "note": null
    },
    "status": {
     "verdict": "supported",
-    "evidence": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026.",
-    "note": "As of 2026-10-01 the increase is already effective and presented as current."
+    "evidence": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026.",
+    "note": "As of 2026-10-01 the date has passed, and the document presents the amounts as current."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -38,11 +38,11 @@
    }
   },
   {
-   "team_rule_id": "r-0053",
+   "team_rule_id": "r-0051",
    "requirement": {
     "verdict": "supported",
     "evidence": "The Rent Stabilization and Good Cause for Eviction Ordinance requires owners to pay tenants relocation assistance in the event of an owner move-in eviction.",
-    "note": "Amounts and date also stated in the document."
+    "note": "Amounts and date are also stated in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -51,13 +51,13 @@
    },
    "effective_date": {
     "verdict": "supported",
-    "evidence": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026.",
+    "evidence": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026.",
     "note": null
    },
    "status": {
     "verdict": "supported",
-    "evidence": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026.",
-    "note": "As of 2026-10-01 the increase is already effective and presented as current."
+    "evidence": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026.",
+    "note": "As of 2026-10-01 the date has passed, and the document presents the amounts as current."
    },
    "coverage": {
     "verdict": "not_applicable",

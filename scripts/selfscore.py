@@ -76,6 +76,14 @@ for aid, a in addresses.items():
     if st == "MA":
         check("MA: no rent cap reported (T5, c.40P)", not any(r and r["category"] == "rent_increase_limits" and r["level"] == "city" and e["result"] in ("applies", "unknown") for e, r in es))
         check("MA: algorithmic bills shown as pending", any(r and r["category"] == "algorithmic_rent_setting" and e["result"] == "pending" for e, r in es))
+    if st == "MA":
+        # From our lawyer's review: Massachusetts has no just-cause statute. The only
+        # state eviction rule is the anti-retaliation presumption, M.G.L. c. 186 § 18.
+        state_jc = [r for e, r in es if r and r["level"] == "state" and r["category"] == "just_cause_eviction" and e["result"] in ("applies", "unknown")]
+        check("MA (lawyer review): only c.186 § 18 as a state eviction rule", state_jc and all(re.search(r"186\W+§?\s*18\b", r["citation"]) for r in state_jc))
+    if c == "Boston":
+        city_jc = [(e, r) for e, r in es if r and r["level"] == "city" and r["category"] == "just_cause_eviction"]
+        check("Boston (lawyer review): notice-of-rights rule applies, flagged as notice only", any(e["result"] == "applies" and e["conflict_flag"] for e, r in city_jc))
     if st == "NJ":
         check("NJ: FAIR Act shown as not yet effective", any(r and r["category"] == "algorithmic_rent_setting" and r["level"] == "state" and e["result"] == "not_yet_effective" for e, r in es))
     if st == "CA":

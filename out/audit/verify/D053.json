@@ -1,0 +1,41 @@
+{
+ "key": "6a87e5369444ed08f50d14028dc5aca5b1a15f4e",
+ "doc_id": "D053",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T22:27:57.105Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0026",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "The receipt of any notice of termination of tenancy, except for nonpayment of rent, or, of increase in rent, or, of any substantial alteration in the terms of tenancy within six months after the tenant has commenced, proceeded with, or obtained relief in such action, exercised such rights, made such report or complaint, or organized or joined such tenants' union or within six months after any other person has taken such action or actions on behalf of the tenant or in, or relating to, the building in which the tenant resides, shall create a rebuttable presumption that such notice or other action is a reprisal against the tenant for engaging in such activities.",
+    "note": "Damages, attorney's fees, protected activities, and clear and convincing rebuttal standard are all stated in the document."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "shall be liable for damages which shall not be less than one month's rent or more than three month's rent, or the actual damages sustained by the tenant, whichever is greater, and the costs of the suit, including a reasonable attorney's fee.",
+    "note": "The 6-month presumption is also stated in the second paragraph."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Section 18. Any person or agent thereof who threatens to or takes reprisals against any tenant of residential premises",
+    "note": "The document presents the section as current law with no repeal or expiry noted."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "General Law - Part II, Title I, Chapter 186, Section 18",
+    "note": "Matches M.G.L. c. 186 § 18."
+   }
+  }
+ ]
+}

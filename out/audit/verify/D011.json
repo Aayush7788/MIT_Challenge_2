@@ -1,15 +1,15 @@
 {
- "key": "6e8332e58c7b59e82a0d3f0178dd0bb07284626a",
+ "key": "5866ece999b48a895960ea8c2b6e85abea622564",
  "doc_id": "D011",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:42:13.591Z",
+ "audited_at": "2026-10-03T22:29:35.746Z",
  "cards": [
   {
-   "team_rule_id": "r-0061",
+   "team_rule_id": "r-0059",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
-    "note": "The document supports that the bill sought authorization for Boston eviction protections and that it was accompanied by a study order on 9/9/2024. It does not say the bill was not enacted. It does not mention just-cause eviction rights. Non-enactment is only inferred from the study order."
+    "note": "The document supports the bill's purpose and the 9/9/2024 study order. It does not say the bill was not enacted or that it is not law; that is inferred from the history ending in a study order."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -24,7 +24,7 @@
    "status": {
     "verdict": "partly_supported",
     "evidence": "Accompanied a study order, see",
-    "note": "The study order suggests the bill did not advance, but the document never says it failed or was not enacted. Status 'failed' is an inference."
+    "note": "The history ends with a study order and no enactment, which is consistent with failure. The document never says the bill failed or died, and nothing in it speaks to the end of the session."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -33,16 +33,16 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "Bill H.3744\n193rd (2023 - 2024)",
-    "note": "Bill number and session match the card's citation."
+    "evidence": "Bill H.3744\nSkip to Content\nBill H.3744\n193rd (2023 - 2024)",
+    "note": "Bill number and session match the card."
    }
   },
   {
-   "team_rule_id": "r-0062",
+   "team_rule_id": "r-0060",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
-    "note": "The document supports that the bill sought authorization for Boston rent stabilization and that it was accompanied by a study order on 9/9/2024. It does not say the session ended or that the bill was not enacted. Non-enactment is inferred."
+    "note": "The document supports the bill's purpose and the study order. It does not say the session ended, that the bill is not law, or that Boston has no rent cap; those are inferences."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -57,7 +57,7 @@
    "status": {
     "verdict": "partly_supported",
     "evidence": "Accompanied a study order, see",
-    "note": "The study order suggests the bill did not advance, but the document never states that it failed. Status 'failed' is inferred."
+    "note": "The study order is consistent with the bill not advancing, but the document does not state that the bill failed."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -66,8 +66,8 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "Bill H.3744\n193rd (2023 - 2024)",
-    "note": "Bill number and session match the card's citation."
+    "evidence": "Bill H.3744\nSkip to Content\nBill H.3744\n193rd (2023 - 2024)",
+    "note": "Bill number and session match the card."
    }
   }
  ]

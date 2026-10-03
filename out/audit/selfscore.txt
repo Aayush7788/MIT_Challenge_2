@@ -1,10 +1,10 @@
 SELF-CHECK (not the official score.py)
-  rules 92 | addresses 500 | as of 2026-10-01
+  rules 91 | addresses 500 | as of 2026-10-01
 
 Extraction         23.6 / 25   (27 rules named in the brief)
-    PARTIAL  Berkeley ch. 13.63  [ours: r-0047 in_force None; brief: in_force 2026]
+    PARTIAL  Berkeley ch. 13.63  [ours: r-0045 in_force None; brief: in_force 2026]
     MISSING  Santa Ana Ord. NS-3090
-    PARTIAL  Jersey City 218-12  [ours: r-0070 in_force None; brief: in_force 2025-06]
+    PARTIAL  Jersey City 218-12  [ours: r-0069 in_force None; brief: in_force 2025-06]
 Address coverage   20.0 / 20   (no silver address key yet; using the brief's invariants)
     250/250 CA: AB 325 applies on 2026-10-01
      47/47  LA pre-1978: RSO applies
@@ -12,10 +12,12 @@ Address coverage   20.0 / 20   (no silver address key yet; using the brief's inv
      90/90  Hoboken/JC: own algorithmic ban applies
     110/110 MA: no rent cap reported (T5, c.40P)
     110/110 MA: algorithmic bills shown as pending
+    110/110 MA (lawyer review): only c.186 § 18 as a state eviction rule
+     60/60  Boston (lawyer review): notice-of-rights rule applies, flagged as notice only
      71/71  SF pre-1979: local rent cap applies
      25/25  LA post-1978: RSO does not apply
       7/7   SF post-1979: local rent cap does not apply
-Citations          15.0 / 15   (7923/7923 'applies' answers quote their source verbatim)
+Citations          15.0 / 15   (7753/7753 'applies' answers quote their source verbatim)
 Change tracking    15.0 / 15
     T1: overlap 1.00 (ours 250, expected 250)
     T2: overlap 1.00 (ours 90, expected 90)

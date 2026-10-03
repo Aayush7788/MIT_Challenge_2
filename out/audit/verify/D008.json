@@ -1,15 +1,15 @@
 {
- "key": "144e3c913a6bcd2b7ec4ab534f847ecc8d33a344",
+ "key": "8ee65f542bc1000948e31bcbcfec3b5df4e7b641",
  "doc_id": "D008",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:41:54.047Z",
+ "audited_at": "2026-10-03T22:29:18.948Z",
  "cards": [
   {
-   "team_rule_id": "r-0055",
+   "team_rule_id": "r-0053",
    "requirement": {
     "verdict": "supported",
     "evidence": "adopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
-    "note": "Regulation 1148 conditions and notice, and the phone number, are also in the document. 'No more than 1.0%' is a mild paraphrase of the increase allowed."
+    "note": "Regulation 1148 conditions and notice, plus the contact number, are also stated in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -18,13 +18,13 @@
    },
    "effective_date": {
     "verdict": "supported",
-    "evidence": "increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
-    "note": "January 1, 2026 is the earliest date the increase may take effect."
+    "evidence": "allow eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
+    "note": "January 1, 2026 is the earliest date the increase may be applied."
    },
    "status": {
     "verdict": "partly_supported",
     "evidence": "At its regular meeting on October 16, 2025, the Berkeley Rent Stabilization Board adopted the Annual General Adjustment (AGA) Order for Year 2026",
-    "note": "The order was adopted and applies from 2026-01-01, so in_force as of 2026-10-01 is a reasonable inference. The document does not state current status explicitly and was posted in October 2025."
+    "note": "The order was adopted and presented as the current 2026 adjustment. The notice does not say in so many words that it is in force as of 2026-10-01, but that follows from the text."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -32,9 +32,9 @@
     "note": "Coverage is null on the card."
    },
    "citation": {
-    "verdict": "partly_supported",
+    "verdict": "supported",
     "evidence": "See Berkeley Municipal Code section 13.76.110A. for rules related to establishing the AGA.",
-    "note": "BMC 13.76.110A and Regulation 1148 are both named in the document. However, the card cites § 13.76.110A with Regulation 1148 in parentheses, which blurs them. 110A covers how the AGA is established, while Regulation 1148 is the Order itself."
+    "note": "The document also names the order as Rent Board Regulation 1148."
    }
   }
  ]

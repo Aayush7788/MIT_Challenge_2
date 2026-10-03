@@ -1,73 +1,73 @@
 {
- "key": "d912a38b640d20f05afc2793ec640da8ffd42525",
+ "key": "5a62435c7c9faa1cd716f08e976c8df2e3021b71",
  "doc_id": "D032",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:42:38.271Z",
+ "audited_at": "2026-10-03T22:30:05.927Z",
  "cards": [
   {
-   "team_rule_id": "r-0067",
+   "team_rule_id": "r-0066",
    "requirement": {
     "verdict": "supported",
     "evidence": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential apartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions of this chapter for the new tenant's initial rental; provided, however, that said rental shall be limited to an increase of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit",
-    "note": "Once per three years is in § 155-34: \"No dwelling unit shall be decontrolled pursuant to this article more than once in any three-year period.\" Later increases are controlled per § 155-31."
+    "note": "The once-per-three-year limit is in § 155-34. Later increases are controlled again, per § 155-31. The card's 'voluntarily leaves' wording is slightly narrower than § 155-32, which also allows legal eviction and court order, but the core rule is stated."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "said rental shall be limited to an increase of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit, exclusive of any capital improvement surcharge that is a component of said last rental.",
-    "note": "The once-per-3-year limit is in § 155-34. The 25% is exclusive of capital improvement surcharge."
+    "evidence": "No dwelling unit shall be decontrolled pursuant to this article more than once in any three-year period.",
+    "note": "The 25% cap is in § 155-31 and the once-per-three-year limit is in § 155-34."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field empty on card."
+    "note": "Field is empty on the card."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential apartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions of this chapter for the new tenant's initial rental",
-    "note": "Presented as current code; the document is a 2024 third-party copy, so a reviewer should confirm against the official code."
+    "evidence": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential apartment unit by a tenant, the apartment unit shall become decontrolled",
+    "note": "The document presents the rule as current code. It is a third-party mirror downloaded in 2024, so it carries no later amendment history."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field empty on card."
+    "note": "Field is empty on the card."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "§ 155-31. Dwelling decontrolled and exempted.",
-    "note": "§§ 155-32 and 155-34 are also in the document."
+    "note": "§§ 155-32 and 155-34 are also in the document and match the card's content."
    }
   },
   {
-   "team_rule_id": "r-0068",
+   "team_rule_id": "r-0067",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
-    "note": "Most is supported: the 5%/CPI cap, once per 12 months, 30 days' notice with reasons (§ 155-4), the substantial compliance certificate (§ 155-26), void excess increases and refunds, and the two-year limit. The card's \"once in any 12 months\" and \"only when your lease ends\" are slight simplifications, since periodic tenants and leases under one year are treated differently."
+    "note": "The 5%/CPI cap, once-per-12-months limit, 30-day written notice with reasons (§ 155-4), void excess increases and refund subject to a two-year limit are all supported. The certificate of substantial compliance is required by § 155-26, not § 155-5. The 'only when your lease ends' framing is accurate for § 155-3."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "No more than one such cost-of-living rental increase in any one twelve-month period shall be permitted irrespective of the number of different tenants occupying said housing space during said twelve-month period.",
-    "note": "The lesser of 5% or CPI is in § 155-5."
+    "note": "The 5%-or-CPI, whichever is less, cap is in the preceding sentence of § 155-5."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field empty on card."
+    "note": "Field is empty on the card."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
-    "note": "Presented as current code, amended 2-1-2023. The document is a 2024 third-party copy."
+    "evidence": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5%",
+    "note": "The rule is presented as current law. Amendment history shows Ord. B-532, 2-1-2023."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field empty on card."
+    "note": "Field is empty on the card."
    },
    "citation": {
     "verdict": "partly_supported",
     "evidence": "§ 155-5. Expiration or termination of lease. [Amended 2-1-2023 by Ord. No. B-532 ]",
-    "note": "§ 155-5 and Ord. B-532 are supported. Ord. No. C329 is the original 1984 adoption of the chapter, so it is cited loosely for this section."
+    "note": "§ 155-5 and Ord. B-532 are supported. Ord. C329 is the 1984 adoption of the chapter. The notice, certificate and refund elements the card describes come from §§ 155-4 and 155-26, which are not cited."
    }
   }
  ]

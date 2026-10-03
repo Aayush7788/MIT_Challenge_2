@@ -1,15 +1,15 @@
 {
- "key": "7d006c669639df203249da4406a78353e68e3f62",
+ "key": "6d076393087e4d6207eeb74f338b75ededfe0475",
  "doc_id": "D012",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:42:21.831Z",
+ "audited_at": "2026-10-03T22:29:44.685Z",
  "cards": [
   {
-   "team_rule_id": "r-0064",
+   "team_rule_id": "r-0062",
    "requirement": {
     "verdict": "supported",
     "evidence": "The landlord tells you they don't accept rental assistance. This includes Section\n8 vouchers, social security disability vouchers, and veterans vouchers.",
-    "note": "The page lists rental assistance as a protected class, gives landlord refusal of vouchers as an example of discrimination, and says people can file a complaint with the commission."
+    "note": "The page lists rental assistance as a protected class and gives refusal of vouchers as an example of discrimination. It also says people can file a complaint with the commission."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -24,7 +24,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "In the City of Boston, it’s illegal to discriminate when renting, buying, selling, or securing financing for any housing.",
-    "note": "The page presents the rule as current law and gives no effective date."
+    "note": "The page presents the rule as current law, and no effective date is given."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -33,8 +33,8 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "We enforce local, state, and federal fair housing laws.",
-    "note": "The card cites the Boston Fair Housing Regulations page and admits no ordinance section is given, which matches the document."
+    "evidence": "Boston Fair Housing Regulations | Boston.gov",
+    "note": "The card names the page title and the Fair Housing Commission, and correctly says no ordinance section is stated."
    }
   }
  ]

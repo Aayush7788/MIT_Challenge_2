@@ -2,14 +2,47 @@
   "doc_id": "D053",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "extracted_at": "2026-10-03T17:26:23.573Z",
+  "extracted_at": "2026-10-03T22:26:59.500Z",
   "stop_reason": "end_turn",
   "usage": {
     "input": 1507,
-    "output": 458,
-    "cache_read": 4936,
+    "output": 819,
+    "cache_read": 5502,
     "cache_write": 0
   },
-  "rules": [],
-  "notes": "M.G.L. c. 186 § 18 is Massachusetts' anti-retaliation (reprisal) statute. It makes a landlord liable for damages of 1 to 3 months' rent, or actual damages if greater, plus costs and attorney's fees, for reprisals against tenants who report code violations, take legal action, or organize. A notice of termination (except for nonpayment), a rent increase, or a substantial change in tenancy terms within six months of protected activity creates a rebuttable presumption of reprisal. It does not require a listed cause to evict, cap rent increases, or regulate deposits, fees, screening, or rent-setting software, so no rule was extracted under the six in-scope categories. A reviewer may decide whether retaliation protections should be tracked separately or folded into just_cause_eviction."
+  "rules": [
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Protection against retaliatory reprisal and eviction; six-month presumption",
+      "requirement": "A landlord who threatens or takes reprisals (including eviction notices, rent increases or changed lease terms) because you complained about code violations, took legal action, or joined a tenants' union owes you at least one to three months' rent or your actual damages plus attorney's fees. A termination notice (other than for nonpayment), rent increase or substantial change in terms within six months after such activity is presumed to be retaliation, rebuttable only by clear and convincing evidence.",
+      "key_value": "Damages 1-3 months' rent or actual damages, whichever greater; 6-month presumption",
+      "coverage": {
+        "summary": "All tenants of residential premises in Massachusetts.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": "Notices of termination for nonpayment of rent do not trigger the presumption.",
+      "effective_date": null,
+      "penalty": "Damages not less than one month's rent or more than three months' rent, or actual damages, whichever is greater, plus costs and reasonable attorney's fees.",
+      "citation": "M.G.L. c. 186 § 18",
+      "quoted_span": "The receipt of any notice of termination of tenancy, except for nonpayment of rent, or, of increase in rent, or, of any substantial alteration in the terms of tenancy within six months after the tenant has commenced, proceeded with, or obtained relief in such action, exercised such rights, made such report or complaint, or organized or joined such tenants' union or within six months after any other person has taken such action or actions on behalf of the tenant or in, or relating to, the building in which the tenant resides, shall create a rebuttable presumption that such notice or other action is a reprisal against the tenant for engaging in such activities.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.9,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Single retaliation statute; waiver in leases is void. No effective date stated."
 }

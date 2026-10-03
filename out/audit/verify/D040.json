@@ -1,15 +1,15 @@
 {
- "key": "f41f0235b826b895a300fb58983674a886e0f20f",
+ "key": "e8986ac9daebedf7320b4115a0476a6c9cab12b3",
  "doc_id": "D040",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:39:08.429Z",
+ "audited_at": "2026-10-03T22:27:42.623Z",
  "cards": [
   {
    "team_rule_id": "r-0009",
    "requirement": {
     "verdict": "supported",
     "evidence": "(Annual rent increases are limited to no more than 5% plus the percentage change in the cost of living for the region in which the property is located, or 10% whichever is lower).",
-    "note": "The page also says AB 1482 may regulate buildings older than 15 years and that units already subject to the RSO are not covered."
+    "note": "Document also says AB 1482 may regulate buildings older than 15 years and RSO units are not covered; 'not under local rent control' matches the RSO exclusion."
    },
    "key_value": {
     "verdict": "supported",
@@ -23,41 +23,41 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "Effective August 1, 2024 to July 31, 2025, the maximum allowable increase is 8.9%.",
-    "note": "The page presents AB 1482 as current law, though its figures are dated. No end or repeal is stated."
+    "evidence": "state law AB 1482, the California Tenant Protection Act of 2019 , may regulate the rent amount in buildings that are older than 15 years old.",
+    "note": "Presented as current law."
    },
    "coverage": {
     "verdict": "partly_supported",
-    "evidence": "-Units that were constructed within the last 15 years (this applies on a rolling basis – i.e.. a unit constructed on January 1, 2006 is not covered as of January, 1 2020, but is covered on and after January 1, 2021).",
-    "note": "The 15-year cutoff is supported. The two-unit owner-occupied exemption is stated (second unit occupied by an owner for the entire tenancy), but the card's 'max units 2' is a loose rendering."
+    "evidence": "-Units that were constructed within the last 15 years (this applies on a rolling basis",
+    "note": "15-year exemption is supported. The two-unit owner-occupied exemption is stated, but the card's 'owner_based_exemption_max_units: 2' is a loose paraphrase, and it omits other exemptions."
    },
    "citation": {
     "verdict": "partly_supported",
     "evidence": "state law AB 1482, the California Tenant Protection Act of 2019",
-    "note": "AB 1482 is named, and Civil Code 1947.12(d)(5)(B)(i) is cited for the single-family exemption. The page does not cite 1947.12 as the source of the cap."
+    "note": "AB 1482 is named, and Civ. Code 1947.12(d)(5)(B)(i) is cited in the document for the single-family exemption. However, the document does not cite § 1947.12 as the source of the rent cap itself."
    }
   },
   {
-   "team_rule_id": "r-0074",
+   "team_rule_id": "r-0073",
    "requirement": {
     "verdict": "supported",
     "evidence": "In order to apply to a tenancy, it requires that the tenant either has lived in the same unit for at least six months or that their original lease expired, whichever comes first.",
-    "note": "The page also covers at-fault and no-fault reasons and relocation assistance for no-fault evictions."
+    "note": "Page also lists at-fault and no-fault reasons and relocation assistance for no-fault evictions."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
-    "note": null
+    "note": "Six-month or lease-expiration trigger is stated in the coverage sentence."
    },
    "effective_date": {
     "verdict": "not_supported",
     "evidence": "Effective March 27, 2023, landlords may not evict a tenant who falls behind in rent unless the tenant owes an amount higher than the Fair Market Rent (FMR).",
-    "note": "March 27, 2023 is the effective date of the non-payment threshold rule, not of the JCO itself. The page gives no JCO effective date."
+    "note": "March 27, 2023 is the effective date of the non-payment FMR threshold, not of the JCO itself. The document gives no JCO effective date."
    },
    "status": {
     "verdict": "supported",
     "evidence": "If you own rental property in the City of Los Angeles, it may be subject to the Just Cause Ordinance (JCO).",
-    "note": "The page presents the JCO as current law."
+    "note": "Presented as current law."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -65,9 +65,9 @@
     "note": "Field is empty on the card."
    },
    "citation": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "Just Cause For Eviction Ordinance (JCO)",
-    "note": "The card names the ordinance. The page gives no section number."
+    "note": "The ordinance is named but no section number is given; the card's citation is just the name, which is generic."
    }
   }
  ]

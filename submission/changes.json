@@ -1447,10 +1447,10 @@
    "A0490",
    "A0495"
   ],
-  "notes": "Matched team rules: r-0066 (Hoboken Code § 158-2 (ordinance adopted Jul 9, 2025; body heading reads § 154-8); in_force, effective 2025-07-09); r-0070 (Jersey City Code § 218-12 (Ord. 25-057); in_force). 90 affected, 90 flagged for human review.",
+  "notes": "Matched team rules: r-0065 (Hoboken Code § 158-2 (ordinance adopted Jul 9, 2025; body heading reads § 154-8); in_force, effective 2025-07-09); r-0069 (Jersey City Code § 218-12 (Ord. 25-057); in_force). 90 affected, 90 flagged for human review.",
   "team_rule_ids": [
-   "r-0066",
-   "r-0070"
+   "r-0065",
+   "r-0069"
   ],
   "before_after": {
    "A0002": {
@@ -2050,9 +2050,9 @@
    "A0490",
    "A0495"
   ],
-  "notes": "Matched team rules: r-0035 (N.J.S.A. 56:9-20 to 56:9-26 (P.L. 2026, c.43; A3497 ACS 1R); not_yet_effective, effective 2027-07-01). Affected = addresses whose result changes between 2026-10-01 and 2027-07-02. 140 affected, 90 flagged for human review.",
+  "notes": "Matched team rules: r-0033 (N.J.S.A. 56:9-20 to 56:9-26 (P.L. 2026, c.43; A3497 ACS 1R); not_yet_effective, effective 2027-07-01). Affected = addresses whose result changes between 2026-10-01 and 2027-07-02. 140 affected, 90 flagged for human review.",
   "team_rule_ids": [
-   "r-0035"
+   "r-0033"
   ],
   "before_after": {
    "A0002": {
@@ -3182,9 +3182,9 @@
  "T5": {
   "affected_address_ids": [],
   "conflict_flag_address_ids": [],
-  "notes": "Matched team rules: r-0031 (Massachusetts statewide rent control initiative petition (Cella v. Attorney General, SJC-13893); failed). Struck or failed measures are never reported as in force. Recorded as failed: Massachusetts statewide rent control initiative petition (Cella v. Attorney General, SJC-13893). 0 affected, 0 flagged for human review.",
+  "notes": "Matched team rules: r-0029 (Massachusetts statewide rent control initiative petition (Cella v. Attorney General, SJC-13893); failed). Struck or failed measures are never reported as in force. Recorded as failed: Massachusetts statewide rent control initiative petition (Cella v. Attorney General, SJC-13893). 0 affected, 0 flagged for human review.",
   "team_rule_ids": [
-   "r-0031"
+   "r-0029"
   ],
   "before_after": {}
  }

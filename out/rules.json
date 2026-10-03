@@ -242,22 +242,22 @@
     {
       "team_rule_id": "r-0007",
       "overrides": [
+        "r-0048",
+        "r-0049",
         "r-0050",
         "r-0051",
-        "r-0052",
-        "r-0053",
+        "r-0071",
         "r-0072",
         "r-0073",
         "r-0074",
-        "r-0075",
+        "r-0082",
         "r-0083",
-        "r-0084",
+        "r-0086",
         "r-0087",
         "r-0088",
         "r-0089",
-        "r-0090",
-        "r-0096",
-        "r-0097"
+        "r-0095",
+        "r-0096"
       ],
       "jurisdiction": "CA",
       "level": "state",
@@ -349,16 +349,16 @@
     {
       "team_rule_id": "r-0009",
       "overrides": [
+        "r-0052",
+        "r-0053",
         "r-0054",
-        "r-0055",
-        "r-0056",
+        "r-0075",
         "r-0076",
         "r-0077",
-        "r-0078",
+        "r-0090",
         "r-0091",
-        "r-0092",
-        "r-0098",
-        "r-0099"
+        "r-0097",
+        "r-0098"
       ],
       "jurisdiction": "CA",
       "level": "state",
@@ -403,16 +403,16 @@
     {
       "team_rule_id": "r-0010",
       "overrides": [
+        "r-0052",
+        "r-0053",
         "r-0054",
-        "r-0055",
-        "r-0056",
+        "r-0075",
         "r-0076",
         "r-0077",
-        "r-0078",
+        "r-0090",
         "r-0091",
-        "r-0092",
-        "r-0098",
-        "r-0099"
+        "r-0097",
+        "r-0098"
       ],
       "jurisdiction": "CA",
       "level": "state",
@@ -1055,11 +1055,11 @@
       "level": "state",
       "category": "just_cause_eviction",
       "status": "in_force",
-      "title": "14-day notice to quit for nonpayment of rent under a written lease, with right to cure",
-      "requirement": "If you fall behind on rent under a written lease, your landlord must give you a written 14-day notice to quit before ending the lease. You can stop the eviction by paying all rent due, plus interest and court costs, by the day your answer is due in the eviction case. If the late rent was caused by a delayed government payment or voucher, the court must postpone the hearing at least 7 days so you can pay.",
-      "key_value": "14 days' written notice to quit",
+      "title": "Protection against retaliatory reprisal and eviction; six-month presumption",
+      "requirement": "A landlord who threatens or takes reprisals (including eviction notices, rent increases or changed lease terms) because you complained about code violations, took legal action, or joined a tenants' union owes you at least one to three months' rent or your actual damages plus attorney's fees. A termination notice (other than for nonpayment), rent increase or substantial change in terms within six months after such activity is presumed to be retaliation, rebuttable only by clear and convincing evidence.",
+      "key_value": "Damages 1-3 months' rent or actual damages, whichever greater; 6-month presumption",
       "coverage_conditions": {
-        "summary": "Tenancies under a written lease in Massachusetts where the tenant has not paid rent; no unit-count or construction-date limits are stated.",
+        "summary": "All tenants of residential premises in Massachusetts.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -1070,105 +1070,25 @@
         "required_facts_not_in_data": [],
         "minor_exemptions_not_in_data": []
       },
-      "exemptions": null,
+      "exemptions": "Notices of termination for nonpayment of rent do not trigger the presumption.",
       "interaction": null,
       "effective_date": null,
-      "citation": "M.G.L. c. 186 § 11",
-      "source_doc_id": "D050",
-      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section11",
+      "citation": "M.G.L. c. 186 § 18",
+      "source_doc_id": "D053",
+      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section18",
       "retrieved_at": "2026-10-01T22:37Z",
-      "quoted_span": "Section 11. Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease, unless the tenant, on or before the day the answer is due, in an action by the landlord to recover possession of the premises, pays or tenders to the landlord or to his attorney all rent then due, with interest and costs of suit.",
+      "quoted_span": "The receipt of any notice of termination of tenancy, except for nonpayment of rent, or, of increase in rent, or, of any substantial alteration in the terms of tenancy within six months after the tenant has commenced, proceeded with, or obtained relief in such action, exercised such rights, made such report or complaint, or organized or joined such tenants' union or within six months after any other person has taken such action or actions on behalf of the tenant or in, or relating to, the building in which the tenant resides, shall create a rebuttable presumption that such notice or other action is a reprisal against the tenant for engaging in such activities.",
       "span_verified": true,
-      "confidence": 0.6,
+      "confidence": 0.9,
       "conflict_flag": false,
       "conflict_note": null,
-      "penalty": null,
+      "penalty": "Damages not less than one month's rent or more than three months' rent, or actual damages, whichever is greater, plus costs and reasonable attorney's fees.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official"
     },
     {
       "team_rule_id": "r-0027",
-      "overrides": [],
-      "jurisdiction": "MA",
-      "level": "state",
-      "category": "just_cause_eviction",
-      "status": "in_force",
-      "title": "Notice required to end a tenancy at will (no cause required)",
-      "requirement": "Massachusetts state law does not require a reason to end a tenancy at will, but the landlord must give written notice equal to the rent payment interval or 30 days, whichever is longer (three months if rent is paid less often). A notice ending your tenancy may also offer a new tenancy on different terms.",
-      "key_value": "Longer of one rental period or 30 days written notice",
-      "coverage_conditions": {
-        "summary": "All tenancies at will in Massachusetts (tenants without a fixed-term lease); no building size or age limits are stated.",
-        "min_units": null,
-        "max_units": null,
-        "built_on_or_before": null,
-        "built_after": null,
-        "cutoff_uses_certificate_of_occupancy": false,
-        "exempt_if_newer_than_years": null,
-        "owner_based_exemption_max_units": null,
-        "required_facts_not_in_data": [],
-        "minor_exemptions_not_in_data": [
-          "Applies only to tenancies at will, not fixed-term leases"
-        ]
-      },
-      "exemptions": null,
-      "interaction": null,
-      "effective_date": null,
-      "citation": "M.G.L. c. 186 § 12",
-      "source_doc_id": "D051",
-      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section12",
-      "retrieved_at": "2026-10-01T22:37Z",
-      "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party; and, if the rent reserved is payable at periods of less than three months, the time of such notice shall be sufficient if it is equal to the interval between the days of payment or thirty days, whichever is longer.",
-      "span_verified": true,
-      "confidence": 0.7,
-      "conflict_flag": false,
-      "conflict_note": null,
-      "penalty": null,
-      "yields_to_local_rule": false,
-      "may_preempt_local_rules": false,
-      "source_type": "official"
-    },
-    {
-      "team_rule_id": "r-0028",
-      "overrides": [],
-      "jurisdiction": "MA",
-      "level": "state",
-      "category": "just_cause_eviction",
-      "status": "in_force",
-      "title": "Required notice form accompanying a notice to quit for nonpayment of rent",
-      "requirement": "If your landlord gives you a written notice to quit for nonpayment of rent, it must come with a state form listing any repayment agreements, rental assistance programs (such as RAFT), court rules, and eviction protections, and stating that the notice is not an eviction. A court cannot accept the landlord's nonpayment eviction filing without proof that this form was delivered to you.",
-      "key_value": null,
-      "coverage_conditions": {
-        "summary": "All residential tenants in Massachusetts who receive a written notice to quit for nonpayment of rent.",
-        "min_units": null,
-        "max_units": null,
-        "built_on_or_before": null,
-        "built_after": null,
-        "cutoff_uses_certificate_of_occupancy": false,
-        "exempt_if_newer_than_years": null,
-        "owner_based_exemption_max_units": null,
-        "required_facts_not_in_data": [],
-        "minor_exemptions_not_in_data": []
-      },
-      "exemptions": null,
-      "interaction": null,
-      "effective_date": null,
-      "citation": "M.G.L. c. 186 § 31",
-      "source_doc_id": "D058",
-      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section31",
-      "retrieved_at": "2026-10-01T22:54Z",
-      "quoted_span": "No court having jurisdiction over an action for summary process pursuant to chapter 239, including the Boston municipal court department, shall, in an eviction for nonpayment of rent for a residential dwelling unit, accept for filing a writ, summons or complaint without proof of delivery of the form required under this section.",
-      "span_verified": true,
-      "confidence": 0.6,
-      "conflict_flag": false,
-      "conflict_note": null,
-      "penalty": "No court, including the Boston municipal court department, may accept for filing a writ, summons or complaint in a nonpayment eviction without proof of delivery of the required form.",
-      "yields_to_local_rule": false,
-      "may_preempt_local_rules": false,
-      "source_type": "official"
-    },
-    {
-      "team_rule_id": "r-0029",
       "overrides": [],
       "jurisdiction": "MA",
       "level": "state",
@@ -1207,7 +1127,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0030",
+      "team_rule_id": "r-0028",
       "overrides": [],
       "jurisdiction": "MA",
       "level": "state",
@@ -1246,7 +1166,7 @@
       "source_type": "secondary (news report)"
     },
     {
-      "team_rule_id": "r-0031",
+      "team_rule_id": "r-0029",
       "overrides": [],
       "jurisdiction": "MA",
       "level": "state",
@@ -1287,7 +1207,7 @@
       "source_type": "secondary (news report)"
     },
     {
-      "team_rule_id": "r-0032",
+      "team_rule_id": "r-0030",
       "overrides": [],
       "jurisdiction": "MA",
       "level": "state",
@@ -1326,7 +1246,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0033",
+      "team_rule_id": "r-0031",
       "overrides": [],
       "jurisdiction": "MA",
       "level": "state",
@@ -1367,7 +1287,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0034",
+      "team_rule_id": "r-0032",
       "overrides": [],
       "jurisdiction": "MA",
       "level": "state",
@@ -1408,7 +1328,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0035",
+      "team_rule_id": "r-0033",
       "overrides": [],
       "jurisdiction": "NJ",
       "level": "state",
@@ -1450,7 +1370,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0036",
+      "team_rule_id": "r-0034",
       "overrides": [],
       "jurisdiction": "NJ",
       "level": "state",
@@ -1491,7 +1411,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0037",
+      "team_rule_id": "r-0035",
       "overrides": [],
       "jurisdiction": "NJ",
       "level": "state",
@@ -1533,7 +1453,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0038",
+      "team_rule_id": "r-0036",
       "overrides": [],
       "jurisdiction": "NJ",
       "level": "state",
@@ -1574,7 +1494,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0039",
+      "team_rule_id": "r-0037",
       "overrides": [],
       "jurisdiction": "NJ",
       "level": "state",
@@ -1615,7 +1535,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0040",
+      "team_rule_id": "r-0038",
       "overrides": [],
       "jurisdiction": "NJ",
       "level": "state",
@@ -1654,7 +1574,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0041",
+      "team_rule_id": "r-0039",
       "overrides": [],
       "jurisdiction": "NJ",
       "level": "state",
@@ -1696,7 +1616,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0042",
+      "team_rule_id": "r-0040",
       "overrides": [],
       "jurisdiction": "NJ",
       "level": "state",
@@ -1735,7 +1655,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0043",
+      "team_rule_id": "r-0041",
       "overrides": [],
       "jurisdiction": "NJ",
       "level": "state",
@@ -1774,7 +1694,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0044",
+      "team_rule_id": "r-0042",
       "overrides": [],
       "jurisdiction": "NJ",
       "level": "state",
@@ -1813,7 +1733,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0045",
+      "team_rule_id": "r-0043",
       "overrides": [],
       "jurisdiction": "NJ",
       "level": "state",
@@ -1855,7 +1775,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0046",
+      "team_rule_id": "r-0044",
       "overrides": [],
       "jurisdiction": "NJ",
       "level": "state",
@@ -1896,7 +1816,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0047",
+      "team_rule_id": "r-0045",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -1937,7 +1857,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0048",
+      "team_rule_id": "r-0046",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -1976,7 +1896,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0049",
+      "team_rule_id": "r-0047",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -2015,7 +1935,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0050",
+      "team_rule_id": "r-0048",
       "overrides": [
         "r-0007"
       ],
@@ -2056,7 +1976,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0051",
+      "team_rule_id": "r-0049",
       "overrides": [
         "r-0007"
       ],
@@ -2099,7 +2019,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0052",
+      "team_rule_id": "r-0050",
       "overrides": [
         "r-0007"
       ],
@@ -2144,7 +2064,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0053",
+      "team_rule_id": "r-0051",
       "overrides": [
         "r-0007"
       ],
@@ -2185,7 +2105,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0054",
+      "team_rule_id": "r-0052",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -2231,7 +2151,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0055",
+      "team_rule_id": "r-0053",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -2273,7 +2193,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0056",
+      "team_rule_id": "r-0054",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -2323,7 +2243,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0057",
+      "team_rule_id": "r-0055",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -2367,7 +2287,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0058",
+      "team_rule_id": "r-0056",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -2406,17 +2326,17 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0059",
+      "team_rule_id": "r-0057",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
       "category": "just_cause_eviction",
       "status": "in_force",
       "title": "Housing Stability Notification Act – Notice of Tenants' Rights and Resources",
-      "requirement": "If your landlord plans to end your tenancy, they must give you a Notice of Tenants' Rights and Resources at the same time as the notice to quit or non-renewal, and must file a copy of that notice with the City. If you don't get it, report it to the Office of Fair Housing and Equity (617-635-2500 or 311). The violation does not stop the eviction.",
-      "key_value": "Notice of Tenants' Rights and Resources delivered with notice to quit/non-renewal",
+      "requirement": "Any Boston landlord planning to end your tenancy must give you a Notice of Tenants' Rights and Resources together with the Notice to Quit or non-renewal notice; if you didn't get it, report it to the Office of Fair Housing and Equity (617-635-2500 or 311). A violation does not stop the eviction process.",
+      "key_value": "Notice of Tenants' Rights and Resources with Notice to Quit; fine up to $300/day",
       "coverage_conditions": {
-        "summary": "All landlords, and foreclosing owners for the City filing, in Boston who plan to end a tenancy agreement.",
+        "summary": "All landlords in Boston (and foreclosing owners for the city filing requirement) who plan to end a tenancy.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -2430,32 +2350,32 @@
       "exemptions": null,
       "interaction": null,
       "effective_date": null,
-      "citation": "Boston City Ordinances § 10-11.7 (Housing Stability Notification Act)",
+      "citation": "Boston City Code § 10-11.7 (Housing Stability Notification Act)",
       "source_doc_id": "D013",
       "source_url": "https://www.boston.gov/housing-stability-notification-act",
       "retrieved_at": "2026-10-01T22:35Z",
-      "quoted_span": "The Housing Stability Notification Act requires any landlord to provide renters with a Notice of Tenant’s Rights and Resources when planning to end a tenancy agreement.",
+      "quoted_span": "The Housing Stability Notification Act requires\nALL LANDLORDS\nplanning to end a tenancy agreement to provide the tenant with a Notice of Tenants’ Rights and Resources.",
       "span_verified": true,
-      "confidence": 0.6,
-      "conflict_flag": false,
-      "conflict_note": null,
-      "penalty": "Enforced by Inspectional Services Department: warning for the 1st offense; $300 per day for the 2nd and later offenses. Failure to submit the notice to the City's portal may result in a fine of up to $300 per day. A violation does not halt the eviction process.",
+      "confidence": 0.8,
+      "conflict_flag": true,
+      "conflict_note": "Notice requirement only; Boston, MA has no just-cause eviction law.",
+      "penalty": "1st offense: warning; 2nd and subsequent offenses: $300 per day, enforced by Inspectional Services Department. Failure to submit Notice to Quit to the City may result in fine up to $300 per day. Violation does not halt the eviction process.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0060",
+      "team_rule_id": "r-0058",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
       "category": "just_cause_eviction",
       "status": "in_force",
-      "title": "Housing Stability Notification Act: Notice of Tenants' Rights and Resources with eviction or non-renewal notices",
-      "requirement": "If your Boston landlord serves you a Notice to Quit or a lease non-renewal notice, you must get a Notice of Tenants' Rights and Resources at the same time, and the landlord must send a copy of the notice to the City's Office of Housing Stability. If you did not get it, report the violation to the Office of Fair Housing and Equity (617-635-2500 or 311) with proof of tenancy and a copy of the notice.",
-      "key_value": "Notice of Tenants' Rights and Resources delivered with Notice to Quit",
+      "title": "Housing Stability Notification Act: Notice of Tenants’ Rights and Resources",
+      "requirement": "A Boston landlord who serves a Notice to Quit or a notice that your lease will not be renewed must give you a Notice of Tenants’ Rights and Resources at the same time and send a copy to the Office of Housing Stability. If you do not get it, report the violation to the Office of Fair Housing and Equity (617-635-2500 or 311); the eviction is not halted, but the landlord can be fined.",
+      "key_value": null,
       "coverage_conditions": {
-        "summary": "All landlords and foreclosing owners ending a tenancy or post-foreclosure occupancy of any unit in Boston; only residences in hospitals, skilled nursing or health facilities, and non-profit short-term substance abuse treatment facilities are exempt.",
+        "summary": "All landlords and foreclosing owners ending a tenancy or post-foreclosure occupancy of any unit in Boston, except residences in hospitals, skilled nursing or health facilities and non-profit short-term substance abuse treatment facilities.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -2466,38 +2386,38 @@
         "required_facts_not_in_data": [],
         "minor_exemptions_not_in_data": [
           "Residences in hospitals, skilled nursing facilities or health facilities",
-          "Residences in non-profit facilities providing short-term treatment for alcohol, drug or other substance abuse"
+          "Residences in non-profit facilities providing short-term substance abuse treatment"
         ]
       },
-      "exemptions": "Residences in any hospital, skilled nursing facility or health facility; residences in a non-profit facility whose primary purpose is short-term treatment, assistance or therapy for substance abuse. Requirements cannot be waived by lease.",
+      "exemptions": "Residences in any hospital, skilled nursing facility or health facility; residences in a non-profit facility whose primary purpose is short-term treatment, assistance or therapy for alcohol, drug or other substance abuse. Requirements cannot be waived by lease.",
       "interaction": null,
       "effective_date": "2020-11-06",
-      "citation": "Boston Code of Ordinances § 10-11.7 (Housing Stability Notification Act)",
+      "citation": "Boston Code § 10-11.7 (Housing Stability Notification Act)",
       "source_doc_id": "D014",
       "source_url": "https://www.boston.gov/sites/default/files/file/2020/11/Housing%20Stability%20Notification%20Act%20Tenant%20FAQs.pdf",
       "retrieved_at": "2026-10-01T22:35Z",
       "quoted_span": "The Notice of\nTenants’ Rights and Resources must be delivered at the same time as the Notice to\nQuit.",
       "span_verified": true,
-      "confidence": 0.6,
-      "conflict_flag": false,
-      "conflict_note": null,
+      "confidence": 0.75,
+      "conflict_flag": true,
+      "conflict_note": "Notice requirement only; Boston, MA has no just-cause eviction law.",
       "penalty": "Enforced by Inspectional Services Department: 1st offense warning; 2nd and subsequent offenses $300 per day. A violation does not halt the eviction process.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0061",
+      "team_rule_id": "r-0059",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
       "category": "just_cause_eviction",
       "status": "failed",
-      "title": "H.3744 home rule petition authorizing Boston tenant eviction protections (not enacted)",
-      "requirement": "This bill would have let Boston adopt tenant eviction protections, but it was sent to a study order in September 2024 and was not enacted. It gives you no just-cause eviction rights.",
+      "title": "Boston home rule petition for tenant eviction protections (H.3744)",
+      "requirement": "This bill would have authorized Boston to adopt tenant eviction protections, but it was sent to a study order in September 2024 and was not enacted. It is not law.",
       "key_value": null,
       "coverage_conditions": {
-        "summary": "Proposed authorization for tenant eviction protections in the City of Boston; the page does not show bill text or coverage details.",
+        "summary": "Would have authorized tenant eviction protections in the City of Boston. The page does not give coverage details.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -2515,28 +2435,28 @@
       "source_doc_id": "D011",
       "source_url": "https://malegislature.gov/Bills/193/H3744",
       "retrieved_at": "2026-10-01T22:35Z",
-      "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections.",
+      "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
       "span_verified": true,
-      "confidence": 0.6,
-      "conflict_flag": false,
-      "conflict_note": null,
+      "confidence": 0.55,
+      "conflict_flag": true,
+      "conflict_note": "Bill history ends with 'Accompanied a study order, see H5035' (9/9/2024). Treated as failed because the 193rd session ended. The page gives no details on what the eviction protections would have been.",
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0062",
+      "team_rule_id": "r-0060",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
       "category": "rent_increase_limits",
       "status": "failed",
-      "title": "H.3744 home rule petition authorizing Boston rent stabilization (not enacted)",
-      "requirement": "This bill would have let Boston adopt rent stabilization, but it was sent to a study order in September 2024 and the 2023-2024 session ended. It does not limit your rent increases.",
+      "title": "Boston home rule petition for rent stabilization (H.3744)",
+      "requirement": "This bill would have authorized Boston to adopt rent stabilization, but it was sent to a study order in September 2024 and the 2023-2024 session ended. It is not law, and Boston has no rent cap from this bill.",
       "key_value": null,
       "coverage_conditions": {
-        "summary": "Proposed authorization for rent stabilization in the City of Boston; the page does not show bill text or coverage details.",
+        "summary": "Would have authorized rent stabilization in the City of Boston. The page does not give coverage details.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -2548,24 +2468,24 @@
         "minor_exemptions_not_in_data": []
       },
       "exemptions": null,
-      "interaction": "Home rule petition seeking state legislative authorization for Boston to implement rent stabilization. Massachusetts state law otherwise bars local rent control.",
+      "interaction": "Home rule petition needing state legislative approval. Massachusetts law otherwise bars local rent control.",
       "effective_date": null,
       "citation": "H.3744 (193rd General Court, 2023-2024)",
       "source_doc_id": "D011",
       "source_url": "https://malegislature.gov/Bills/193/H3744",
       "retrieved_at": "2026-10-01T22:35Z",
-      "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections.",
+      "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
       "span_verified": true,
       "confidence": 0.6,
-      "conflict_flag": false,
-      "conflict_note": null,
+      "conflict_flag": true,
+      "conflict_note": "Bill history ends with 'Accompanied a study order, see H5035' (9/9/2024). Treated as failed because the 193rd session ended, but the page does not expressly say the bill died.",
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0063",
+      "team_rule_id": "r-0061",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -2607,7 +2527,7 @@
       "source_type": "official city-linked policy"
     },
     {
-      "team_rule_id": "r-0064",
+      "team_rule_id": "r-0062",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -2646,7 +2566,50 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0065",
+      "team_rule_id": "r-0063",
+      "overrides": [],
+      "jurisdiction": "Cambridge, MA",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Tenants Rights and Resources Notification Ordinance: notice of rights when a tenancy is terminated",
+      "requirement": "When your landlord takes legal steps to end your tenancy, such as a Notice to Quit or a Summary Process case, they must give you the City's Tenants Rights and Resources Guide at the same time. If you did not get it, you can download it from the City website and contact the Office of the Housing Liaison at 617-349-7222.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "All residential rental agreements in Cambridge, including a single rental unit in an owner-occupied building and tenants at will, except units in hospitals, skilled nursing or health facilities, non-profit short-term substance-abuse treatment facilities, and short-term rental units.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Rental units in a hospital, skilled nursing facility or health facility",
+          "Non-profit facilities providing short-term substance-abuse treatment",
+          "Short Term Rental Units under Cambridge Zoning Ordinance Art. 4, § 4.60"
+        ]
+      },
+      "exemptions": "Does not apply to rental units in a hospital, skilled nursing facility or health facility, non-profit short-term substance-abuse treatment facilities, or Short Term Rental Units under Cambridge Zoning Ordinance Article 4, Section 4.60.",
+      "interaction": "The page states the Ordinance does not prevent a landlord from initiating an eviction action if otherwise allowed by law.",
+      "effective_date": null,
+      "citation": "Cambridge Mun. Code ch. 8.71",
+      "source_doc_id": "D031",
+      "source_url": "https://www.cambridgema.gov/tenantrights",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "quoted_span": "The Ordinance also requires that a landlord provide the Guide to tenants when legal steps to terminate a tenancy are taken (ex. Notice to Quit or Summary Process).",
+      "span_verified": true,
+      "confidence": 0.82,
+      "conflict_flag": true,
+      "conflict_note": "Notice requirement only; Cambridge, MA has no just-cause eviction law.",
+      "penalty": "Fine of up to $300 for each day's violation (Sec. 8.71.070).",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "official"
+    },
+    {
+      "team_rule_id": "r-0064",
       "overrides": [],
       "jurisdiction": "Cambridge, MA",
       "level": "city",
@@ -2685,7 +2648,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0066",
+      "team_rule_id": "r-0065",
       "overrides": [],
       "jurisdiction": "Hoboken, NJ",
       "level": "city",
@@ -2727,7 +2690,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0067",
+      "team_rule_id": "r-0066",
       "overrides": [],
       "jurisdiction": "Hoboken, NJ",
       "level": "city",
@@ -2766,7 +2729,7 @@
       "source_type": "secondary (third-party mirror of the city code)"
     },
     {
-      "team_rule_id": "r-0068",
+      "team_rule_id": "r-0067",
       "overrides": [],
       "jurisdiction": "Hoboken, NJ",
       "level": "city",
@@ -2813,7 +2776,7 @@
       "source_type": "secondary (third-party mirror of the city code)"
     },
     {
-      "team_rule_id": "r-0069",
+      "team_rule_id": "r-0068",
       "overrides": [],
       "jurisdiction": "Hoboken, NJ",
       "level": "city",
@@ -2856,7 +2819,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0070",
+      "team_rule_id": "r-0069",
       "overrides": [],
       "jurisdiction": "Jersey City, NJ",
       "level": "city",
@@ -2897,7 +2860,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0071",
+      "team_rule_id": "r-0070",
       "overrides": [],
       "jurisdiction": "Jersey City, NJ",
       "level": "city",
@@ -2936,7 +2899,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0072",
+      "team_rule_id": "r-0071",
       "overrides": [
         "r-0007"
       ],
@@ -2979,7 +2942,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0073",
+      "team_rule_id": "r-0072",
       "overrides": [
         "r-0007"
       ],
@@ -3025,7 +2988,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0074",
+      "team_rule_id": "r-0073",
       "overrides": [
         "r-0007"
       ],
@@ -3075,7 +3038,7 @@
       "consolidation_note": "Fields filled from D040, which state the same law."
     },
     {
-      "team_rule_id": "r-0075",
+      "team_rule_id": "r-0074",
       "overrides": [
         "r-0007"
       ],
@@ -3120,7 +3083,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0076",
+      "team_rule_id": "r-0075",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3164,7 +3127,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0077",
+      "team_rule_id": "r-0076",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3210,7 +3173,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0078",
+      "team_rule_id": "r-0077",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3252,7 +3215,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0079",
+      "team_rule_id": "r-0078",
       "overrides": [],
       "jurisdiction": "Los Angeles, CA",
       "level": "city",
@@ -3294,7 +3257,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0080",
+      "team_rule_id": "r-0079",
       "overrides": [],
       "jurisdiction": "Newark, NJ",
       "level": "city",
@@ -3333,7 +3296,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0081",
+      "team_rule_id": "r-0080",
       "overrides": [],
       "jurisdiction": "San Diego, CA",
       "level": "city",
@@ -3374,7 +3337,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0082",
+      "team_rule_id": "r-0081",
       "overrides": [],
       "jurisdiction": "San Diego, CA",
       "level": "city",
@@ -3413,7 +3376,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0083",
+      "team_rule_id": "r-0082",
       "overrides": [
         "r-0007"
       ],
@@ -3463,7 +3426,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0084",
+      "team_rule_id": "r-0083",
       "overrides": [
         "r-0007"
       ],
@@ -3512,7 +3475,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0085",
+      "team_rule_id": "r-0084",
       "overrides": [],
       "jurisdiction": "San Diego, CA",
       "level": "city",
@@ -3553,7 +3516,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0086",
+      "team_rule_id": "r-0085",
       "overrides": [],
       "jurisdiction": "San Francisco, CA",
       "level": "city",
@@ -3592,7 +3555,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0087",
+      "team_rule_id": "r-0086",
       "overrides": [
         "r-0007"
       ],
@@ -3633,7 +3596,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0088",
+      "team_rule_id": "r-0087",
       "overrides": [
         "r-0007"
       ],
@@ -3674,7 +3637,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0089",
+      "team_rule_id": "r-0088",
       "overrides": [
         "r-0007"
       ],
@@ -3715,7 +3678,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0090",
+      "team_rule_id": "r-0089",
       "overrides": [
         "r-0007"
       ],
@@ -3756,7 +3719,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0091",
+      "team_rule_id": "r-0090",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3799,7 +3762,7 @@
       "consolidation_note": "Fields filled from D079, which state the same law."
     },
     {
-      "team_rule_id": "r-0092",
+      "team_rule_id": "r-0091",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3841,7 +3804,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0093",
+      "team_rule_id": "r-0092",
       "overrides": [],
       "jurisdiction": "San Francisco, CA",
       "level": "city",
@@ -3882,7 +3845,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0094",
+      "team_rule_id": "r-0093",
       "overrides": [],
       "jurisdiction": "Santa Ana, CA",
       "level": "city",
@@ -3921,7 +3884,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0095",
+      "team_rule_id": "r-0094",
       "overrides": [],
       "jurisdiction": "Santa Ana, CA",
       "level": "city",
@@ -3962,7 +3925,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0096",
+      "team_rule_id": "r-0095",
       "overrides": [
         "r-0007"
       ],
@@ -4009,7 +3972,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0097",
+      "team_rule_id": "r-0096",
       "overrides": [
         "r-0007"
       ],
@@ -4050,7 +4013,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0098",
+      "team_rule_id": "r-0097",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -4092,7 +4055,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0099",
+      "team_rule_id": "r-0098",
       "overrides": [
         "r-0009",
         "r-0010"

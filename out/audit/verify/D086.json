@@ -1,15 +1,15 @@
 {
- "key": "8195783b50bdb615e9eadd05bddd5ab32ae745f9",
+ "key": "0d0b082814691a5f9056b12846aed5a97db600d5",
  "doc_id": "D086",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:44:15.900Z",
+ "audited_at": "2026-10-03T22:31:37.030Z",
  "cards": [
   {
-   "team_rule_id": "r-0094",
+   "team_rule_id": "r-0093",
    "requirement": {
-    "verdict": "partly_supported",
-    "evidence": "Prohibits the use of certain algorithmic rent-setting tools in the local rental market.",
-    "note": "The document supports a ban on certain tools and a lowered burden of proof (tenants need only show the software was used). It says the concern is tools using nonpublic market data, but describes the prohibition only as 'certain' tools, so the card's definition is a slight extrapolation."
+    "verdict": "supported",
+    "evidence": "The Santa Ana City Council has adopted a new ordinance to strengthen renter protections by limiting the use of certain rent-setting software for residential properties.",
+    "note": "The document also says the ordinance bans certain tools, lets tenants sue, and requires only proof that the software was used, not collusion. The nonpublic-data description comes from the document's explanation of the concern, so it is a reasonable reading."
    },
    "key_value": {
     "verdict": "supported",
@@ -19,22 +19,22 @@
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card field is empty."
+    "note": "The card's effective_date is empty."
    },
    "status": {
-    "verdict": "partly_supported",
+    "verdict": "supported",
     "evidence": "The Santa Ana City Council has adopted a new ordinance to strengthen renter protections by limiting the use of certain rent-setting software for residential properties.",
-    "note": "The document says the ordinance was adopted and presents it as current. It gives no effective date, and it is a March 2026 newsletter, so in_force as of 2026-10-01 is an inference from adoption."
+    "note": "The document presents the ordinance as adopted and current law. It gives no effective date or any sign that it was repealed."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card field is empty."
+    "note": "The card's coverage is empty."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "Approved on March 3, 2026, this action responds to concerns that some tools use nonpublic market data—such as real-time rents, lease activity, and occupancy levels—to influence pricing in ways that may drive rents higher.",
-    "note": "Adoption date of March 3, 2026 matches. The document gives no ordinance number, as the card states."
+    "note": "The adoption date matches. The document gives no ordinance number, as the card itself notes."
    }
   }
  ]

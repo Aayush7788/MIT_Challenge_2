@@ -1,15 +1,15 @@
 {
- "key": "d6c85ee1909e6ba20c3f2867a5e902947a4c59a8",
+ "key": "64ca8c31874f97bb5868b1745560d0894934fba6",
  "doc_id": "D059",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:40:36.543Z",
+ "audited_at": "2026-10-03T22:28:05.710Z",
  "cards": [
   {
-   "team_rule_id": "r-0030",
+   "team_rule_id": "r-0028",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "Massachusetts voters will not have the opportunity to repeal the state’s three-decade ban on rent control on November’s ballot.",
-    "note": "The document supports a roughly three-decade ban on rent control and the repeal question not appearing on the ballot. It does not say that cities and towns cannot cap rent; that detail is not stated."
+    "note": "Document supports the roughly three-decade ban and the removal of the repeal effort from the ballot. It does not say cities and towns cannot cap rent; that detail comes from the extractor's notes, not the text."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -24,7 +24,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "Massachusetts voters will not have the opportunity to repeal the state’s three-decade ban on rent control on November’s ballot.",
-    "note": "The document presents the ban as current law, and the repeal effort failed."
+    "note": "The document presents the ban as current law."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -34,15 +34,15 @@
    "citation": {
     "verdict": "partly_supported",
     "evidence": "Massachusetts voters will not have the opportunity to repeal the state’s three-decade ban on rent control on November’s ballot.",
-    "note": "The card admits no statute is cited. The document does refer to the ban but gives no citation."
+    "note": "The card admits no statutory citation is given. The document only refers to the ban generally, so the citation text is a generic description."
    }
   },
   {
-   "team_rule_id": "r-0031",
+   "team_rule_id": "r-0029",
    "requirement": {
     "verdict": "supported",
     "evidence": "The Supreme Judicial Court ruled Tuesday morning that the initiative petition seeking to impose statewide rent control “impermissibly” relates to religion and religious institutions, which are among the matters the state Constitution sets as out of bounds from the initiative petition process.",
-    "note": "The document states the SJC disqualified the petition and it will not be on the November ballot. The claim that it creates no rent cap follows from this."
+    "note": "The advice not to rely on it is a plain-language gloss. The document supports the removal and the lack of any rent cap."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -57,7 +57,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "Massachusetts voters will not have the opportunity to repeal the state’s three-decade ban on rent control on November’s ballot.",
-    "note": "The petition was disqualified, so a status of failed fits."
+    "note": "The petition was disqualified and will not be on the ballot, so 'failed' fits."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -67,7 +67,7 @@
    "citation": {
     "verdict": "supported",
     "evidence": "NOTE: NEWS REPORT (State House News Service via WGBH, June 23, 2026) on the Supreme Judicial Court ruling in Cella v. Attorney General, SJC-13893.",
-    "note": "The case name and docket number match the card."
+    "note": "Case name and docket number match the document."
    }
   }
  ]

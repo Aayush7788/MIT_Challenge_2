@@ -74,8 +74,10 @@ function trust(e: Evaluation, facts: FactSheet): { level: MemoItem["confidence_l
   if (r.confidence < 0.6) low.push(`extraction confidence ${Math.round(r.confidence * 100)}%`);
   else if (r.confidence < 0.75) mid.push(`extraction confidence ${Math.round(r.confidence * 100)}%`);
   const usesUnits = c.min_units != null || c.max_units != null || c.owner_based_exemption_max_units != null;
+  // NJ class 4C is a legal definition (5+ families), not a guess, so it doesn't count against the answer.
+  const fromLegalClass = (facts.units_min.note ?? "").includes("class 4C");
   if (usesUnits && facts.units.source === "land-use code") mid.push("unit count read from the land-use code");
-  else if (usesUnits && facts.units.value == null && facts.units_min.value != null) mid.push("only a unit range is known, from the land-use code");
+  else if (usesUnits && facts.units.value == null && facts.units_min.value != null && !fromLegalClass) mid.push("only a unit range is known, from the land-use code");
   for (const c of r.verification?.changes ?? []) (c.includes("disputes") ? mid : low).push(`second check: ${c.split(":")[0]}`);
   if (r.coverage_note) mid.push("coverage cutoff taken from a related record");
   if (r.consolidation_note?.includes("Effective date taken")) mid.push("effective date taken from a related record");

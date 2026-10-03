@@ -1,15 +1,15 @@
 {
- "key": "c18db48d25ded9ecad9d68679eb6d282320e1b17",
+ "key": "f37589fc0bb61fb912c2e2e3bece10f1b431e159",
  "doc_id": "D044",
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:43:06.898Z",
+ "audited_at": "2026-10-03T22:30:32.316Z",
  "cards": [
   {
-   "team_rule_id": "r-0076",
+   "team_rule_id": "r-0075",
    "requirement": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "Landlords of rental units subject to the Rent Stabilization Ordinance (RSO), which includes dwelling units, suites, condominiums, duplexes, guest rooms, and rooms in a hotel, motel, rooming house or boarding house occupied by the same tenant for more than 30 consecutive days in the City of Los Angeles with a certificate of occupancy first issued before October 1, 1978, must pay intere st on all security deposits held for at least one (1) year for their tenants.",
-    "note": "The document ties RSO coverage to a certificate of occupancy first issued before Oct 1, 1978. The advice to check the certificate date is a plain-language gloss."
+    "note": "The document ties the pre-October 1978 certificate of occupancy to RSO units only in the context of security deposit interest. It does not state general RSO coverage or advise checking the certificate date."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -23,36 +23,36 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "The interest rate set by the Rent Adjustment Commission for 2026 is 3.03%.",
-    "note": "The document presents the rule as current law, so in_force is supported."
+    "evidence": "Landlords of rental units subject to the Rent Stabilization Ordinance (RSO)",
+    "note": "The document presents the RSO as current law."
    },
    "coverage": {
     "verdict": "supported",
     "evidence": "with a certificate of occupancy first issued before October 1, 1978",
-    "note": "The cutoff is before Oct 1, 1978, which matches 1978-09-30 as the last covered date, and it is based on the certificate of occupancy."
+    "note": "Before October 1, 1978 matches built_on_or_before 1978-09-30, and the cutoff is the certificate of occupancy."
    },
    "citation": {
     "verdict": "partly_supported",
     "evidence": "Nothing in the Rent St abilization Ordinance No. 151. 06.02(F) prevents landlords from exercising their own discretion rights in investing deposits.",
-    "note": "The document mentions the Rent Stabilization Ordinance and section 151.06.02. It never mentions L.A. Mun. Code ch. XV, and the cited section concerns security deposit interest, not coverage."
+    "note": "The document references the Rent Stabilization Ordinance and section 151.06.02. It does not cite L.A. Mun. Code ch. XV."
    }
   },
   {
-   "team_rule_id": "r-0079",
+   "team_rule_id": "r-0078",
    "requirement": {
     "verdict": "supported",
-    "evidence": "If the second method is used, the landlord must provide the tenant with a copy of a bank statement indicating the interest earned on their deposit for the year.",
-    "note": "The other elements are also stated in the document: the one-year hold, the 3.03% rate, payment as a direct payment or rent credit, payment of unpaid interest at move-out, and the civil remedy in Small Claims Court with no RSD investigation."
+    "evidence": "The tenant may bring an action in a court of appropriate jurisdiction including, but not limited to, Small Claims Court, to recover the amou nt owed as provided in the Rent Stabilization Ordinance 151.06.02 (G).",
+    "note": "The document supports the 1-year hold, the 3.03% rate or actual interest with a bank statement, payment as a direct payment or rent credit, payment at termination, the right to sue, and the city not investigating."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "The interest rate set by the Rent Adjustment Commission for 2026 is 3.03%.",
-    "note": "The document also describes the choice between the simple rate and the actual interest earned."
+    "note": "The document also describes the simple interest rate or actual amount earned options."
    },
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "Effective January 1, 2004, the Los Angeles City Council passed Ordinance 175020, which further amended the Security Deposit requirements for rent stabilized rental units",
-    "note": "The 2004-01-01 date is stated for the amendment. The interest requirement itself began accruing earlier, on Nov 1, 1990."
+    "note": "2004-01-01 is the effective date of the amendment, not of the original interest requirement, which began in 1990."
    },
    "status": {
     "verdict": "supported",
@@ -62,12 +62,12 @@
    "coverage": {
     "verdict": "supported",
     "evidence": "with a certificate of occupancy first issued before October 1, 1978, must pay intere st on all security deposits held for at least one (1) year for their tenants.",
-    "note": "The certificate of occupancy cutoff is stated."
+    "note": "The certificate of occupancy cutoff matches the card."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "Nothing in the Rent St abilization Ordinance No. 151. 06.02(F) prevents landlords from exercising their own discretion rights in investing deposits.",
-    "note": "The document references section 151.06.02 and Ordinances 175020, 166368, and 174017."
+    "evidence": "This was amended by Ordinance 174017, effective June 7, 2001.",
+    "note": "The document references Ordinances 166368, 174017 and 175020 and section 151.06.02."
    }
   }
  ]
