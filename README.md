@@ -66,7 +66,7 @@ We use one command to add a new law, or a new city, from start to finish.
 npm run ingest -- path/to/ordinance.txt --jurisdiction "Cambridge, MA"
 ```
 
-It saves the text to `corpus_extra/`, extracts the rule cards, runs the second check on them, reruns all 500 addresses, adds a change test that compares today with the law's effective date, and prints the affected addresses along with the new check.
+It saves the text to `corpus_extra/`, extracts the rule cards, runs the second check on them, reruns all 500 addresses, adds a change test that compares today with the law's effective date, and prints the affected addresses along with the new check. We rehearsed this on Oakland, a city outside the challenge data, using two official pages kept in `demo/new-city/oakland/`. `docs/DEMO_NEW_CITY.md` walks through it, and `scripts/demo-new-city.sh` makes a throwaway copy of the repo so the run leaves the submitted files alone.
 
 ## Output files
 

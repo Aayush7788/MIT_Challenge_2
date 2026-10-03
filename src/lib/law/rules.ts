@@ -99,6 +99,37 @@ function similar(a: RuleRecord, b: RuleRecord, min = 0.25): boolean {
   const inter = [...x].filter((w) => y.has(w)).length;
   return inter / Math.max(1, new Set([...x, ...y]).size) >= min;
 }
+// A figure that names its own date range ("0.8% for 8/1/25 – 7/31/26") is stale
+// once that range has ended before the query date.
+const MONTHS: Record<string, number> = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
+function figureEnds(kv: string | null): string | null {
+  if (!kv) return null;
+  const ends = [...kv.matchAll(/(?:–|—|-|\bto\b|\bthrough\b)\s*(?:([A-Za-z]{3})[a-z]*\.?\s+(\d{1,2}),\s*(\d{4})|(\d{1,2})\/(\d{1,2})\/(\d{2,4}))/g)];
+  const m = ends.at(-1);
+  if (!m) return null;
+  const [y, mo, d] = m[1] ? [Number(m[3]), MONTHS[m[1].toLowerCase()], Number(m[2])] : [Number(m[6]) < 100 ? 2000 + Number(m[6]) : Number(m[6]), Number(m[4]), Number(m[5])];
+  return mo ? `${y}-${String(mo).padStart(2, "0")}-${String(d).padStart(2, "0")}` : null;
+}
+const staleFigure = (r: RuleRecord) => {
+  const end = figureEnds(r.key_value);
+  return Boolean(end && end < QUERY_DATE);
+};
+// When two records of one law are merged, the kept one takes the other's figure if
+// its own has expired, and any coverage it lacks.
+function absorb(keep: RuleRecord, other: RuleRecord) {
+  if (other.key_value && (!keep.key_value || (staleFigure(keep) && !staleFigure(other)))) {
+    if (keep.key_value) keep.consolidation_note = [keep.consolidation_note, `Current figure from ${other.source_doc_id}; ${keep.source_doc_id} gave "${keep.key_value}", which has expired.`].filter(Boolean).join(" ");
+    keep.key_value = other.key_value;
+  }
+  const c = keep.coverage_conditions;
+  for (const k of ["min_units", "max_units", "built_on_or_before", "built_after", "exempt_if_newer_than_years", "owner_based_exemption_max_units"] as const) {
+    if (c[k] == null && other.coverage_conditions[k] != null) {
+      (c as Record<string, unknown>)[k] = other.coverage_conditions[k];
+      if ((k === "built_on_or_before" || k === "built_after") && other.coverage_conditions.cutoff_uses_certificate_of_occupancy) c.cutoff_uses_certificate_of_occupancy = true;
+    }
+  }
+}
+
 const note = (r: RuleRecord, text: string) => {
   r.consolidation_note = r.consolidation_note ? `${r.consolidation_note} ${text}` : text;
 };
@@ -197,15 +228,16 @@ function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[]
     for (const same of byFull.values()) {
       if (same.length < 2) continue;
       const [keep, ...rest] = [...same].sort(
-        (a, b) => Number(fromStarter(b)) - Number(fromStarter(a)) || Number(official(b)) - Number(official(a)) || Number(b.span_verified) - Number(a.span_verified) || b.confidence - a.confidence,
+        (a, b) =>
+          Number(fromStarter(b)) - Number(fromStarter(a)) ||
+          Number(staleFigure(a)) - Number(staleFigure(b)) ||
+          Number(official(b)) - Number(official(a)) ||
+          Number(b.span_verified) - Number(a.span_verified) ||
+          b.confidence - a.confidence,
       );
       for (const r of rest) {
         drop.add(r);
-        const c = keep.coverage_conditions;
-        for (const k of ["min_units", "max_units", "built_on_or_before", "built_after", "exempt_if_newer_than_years", "owner_based_exemption_max_units"] as const) {
-          if (c[k] == null && r.coverage_conditions[k] != null) (c as Record<string, unknown>)[k] = r.coverage_conditions[k];
-        }
-        if (!keep.key_value && r.key_value) keep.key_value = r.key_value;
+        absorb(keep, r);
         note(keep, `Also stated in ${r.source_doc_id} (merged ${r.team_rule_id}).`);
         notes.push(`${r.team_rule_id} merged into ${keep.team_rule_id} (${keep.citation}).`);
       }
@@ -221,6 +253,7 @@ function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[]
     const [main, ...rest] = [...live].sort(
       (a, b) =>
         Number(fromStarter(b)) - Number(fromStarter(a)) ||
+        Number(staleFigure(a)) - Number(staleFigure(b)) ||
         Number(Boolean(b.key_value)) - Number(Boolean(a.key_value)) ||
         Number(official(b)) - Number(official(a)) ||
         b.confidence - a.confidence,
@@ -230,6 +263,7 @@ function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[]
     main.citation = main.citation.replace(/((?:§+\s*)?[0-9][0-9A-Za-z.:\-½/]*)((?:\([0-9a-zA-Z]{1,4}\))+(?:\s*,\s*(?:\([0-9a-zA-Z]{1,4}\))+)*)/, "$1");
     main.requirement = [main.requirement, ...rest.map((r) => r.requirement)].join(" ");
     if (!main.effective_date) main.effective_date = rest.find((r) => r.effective_date)?.effective_date ?? null;
+    for (const r of rest) absorb(main, r);
     note(main, `One card for ${base}: merged ${parts.join("; ")}.`);
     for (const r of rest) {
       drop.add(r);

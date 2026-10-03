@@ -74,6 +74,7 @@ def main():
     ap.add_argument("--reviewer-note", default="", help="a reviewer's note about this source; extraction adds it to every card from it")
     ap.add_argument("--text-file", help="text already copied from a browser, for sites that block scripts")
     ap.add_argument("--start", help="drop everything before the first line containing this text (site menus)")
+    ap.add_argument("--dir", default="corpus_extra", help="where to save (corpus_extra feeds the pipeline; demo/... does not)")
     a = ap.parse_args()
 
     text = open(a.text_file, encoding="utf-8").read() if a.text_file else fetch(a.url)
@@ -92,12 +93,12 @@ def main():
     if a.reviewer_note:
         header.append(f"REVIEWER_NOTE: {a.reviewer_note}")
     body = "\n".join(header) + "\n\n" + text.strip() + "\n"
-    os.makedirs("corpus_extra", exist_ok=True)
-    path = f"corpus_extra/{a.doc_id}.txt"
+    os.makedirs(a.dir, exist_ok=True)
+    path = f"{a.dir}/{a.doc_id}.txt"
     with open(path, "w", encoding="utf-8") as f:
         f.write(body)
 
-    manifest = "corpus_extra/manifest.csv"
+    manifest = f"{a.dir}/manifest.csv"
     rows = list(csv.DictReader(open(manifest))) if os.path.exists(manifest) else []
     rows = [r for r in rows if r["doc_id"] != a.doc_id]
     rows.append({

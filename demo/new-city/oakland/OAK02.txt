@@ -1,0 +1,33 @@
+SOURCE: https://www.oag.ca.gov/system/files/media/local-rent-laws-eng.pdf
+RETRIEVED: 2026-10-03 23:02 UTC
+JURISDICTION: Oakland, CA
+NOTE: Official California Department of Justice table of local rent-increase limits (as of 9/1/25), Oakland row only. Demo source for adding a new city; not part of the submission.
+
+California Department of Justice, Office of the Attorney General: local rent-increase limits (excerpt, Oakland row)
+
+County Municipality Rent-Increase Calculation and Notable 
+Limitations
+Rent-Increase 
+Maximum as of 
+9/1/25
+Date Range for 
+Rent-Increase 
+Maximum
+Alameda 
+County
+City of
+...
+Alameda 
+County
+Oakland
+Oakland Mun. 
+Code, chapter 
+8.22
+For units with a certificate of occupancy issued before 
+1/1/83, one increase within a 12-month period of 
+60% of the change in CPI, up to a max. of 3%.
+Landlords can bank increases and add them to a later 
+a general increase, but may not in any year impose a 
+total rent increase that exceeds 3 times the current 
+general increase.
+0.8% 8/1/25 – 7/31/26

@@ -1,0 +1,26 @@
+SOURCE: https://www.oaklandca.gov/Community/Housing-Programs-Support/For-Landlords/Allowable-Rent-Increases/Learn-More-About-Allowable-Rent-Increases
+RETRIEVED: 2026-10-03 23:02 UTC
+JURISDICTION: Oakland, CA
+NOTE: Official City of Oakland Rent Adjustment Program page (read in a browser; the site blocks scripts). Demo source for adding a new city; not part of the submission.
+
+Learn More About Allowable Rent Increases
+
+CPI Announcement Update: In June 2022, the City Council has adopted an amendment to change the formula used to calculate the annual allowable rent increase to 60% of the change in CPI, or 3%, whichever is lower. Effective August 1, 2026, the new annual CPI rent increase is 2.3%.
+
+Consumer Price Index (CPI) Increases
+
+The Oakland Rent Adjustment Ordinance allows an annual rent increase based on the regional Consumer Price Index (CPI). These annual rent increases are known as CPI increases or annual general rent increases. Each Spring, the RAP publishes the CPI increase for the next fiscal year which runs from August 1st through July 31st.
+
+An owner can increase the rent on a covered unit only once in a 12-month period. The first increase cannot be effective any earlier than 12 months after the tenant moved into the unit. No rent increase can be imposed until at least six (6) months after the tenant was first served with the RAP's Notice of Existence of the Residential Rent Adjustment Program ("RAP Notice") (O.M.C 8.22.060). Each tenant covered under the Oakland Rent Adjustment Ordinance should receive a RAP Notice when they move in. This notice explains the existence of the Rent Board and tenant's rights under the rent law. If the owner does not give a RAP notice, the landlord cannot increase the rent until 6 months after the tenant receives the notice.
+
+To increase the rent, a property owner must give a tenant at least a 30-days' written notice. If the tenant has a fixed-term lease, unless the lease allows the increase, the property owner will have to wait until the expiration of the lease term to implement the CPI increase.
+
+If all the tenants in the unit are new tenants, the owner can set the rent to market rate. If there are tenants in the unit who were original occupants under a prior tenancy, the owner is limited to following the Oakland Rent Adjustment Ordinance for allowable increases.
+
+August 1, 2026: 2.3% 
+August 1, 2025: 0.8% 
+August 1, 2024: 2.3% 
+August 1, 2023: 2.5%
+August 1, 2022: 3%
+
+The "CPI rate" takes effect on each August 1 and remains in effect through July 31 of the following year. A property owner can raise rent above the CPI rate, based on certain justifications.
