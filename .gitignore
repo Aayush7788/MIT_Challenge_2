@@ -15,8 +15,6 @@
 
 # next.js
 /.next/
-/out/*
-!/out/audit/
 
 # production
 /build
@@ -58,5 +56,3 @@ __pycache__/
 # local tooling
 .claude/
 
-# working sheets for the team (shared directly, not published)
-review/

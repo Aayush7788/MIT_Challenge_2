@@ -2,9 +2,13 @@ import fs from "node:fs";
 import path from "node:path";
 import type { Address } from "./schema";
 
-// Reads the RealPage starter pack (data/starter/pack) from disk.
+// Reads the RealPage starter pack from disk. It sits at the repo root
+// (corpus/, data/, dev/, schema/); official texts the team captures for
+// link-only sources go in corpus_extra/<doc_id>.txt, headed by
+// "SOURCE: <url>" and "RETRIEVED: <date>" lines.
 
-export const PACK_DIR = path.join(process.cwd(), "data", "starter", "pack");
+export const PACK_DIR = process.cwd();
+export const EXTRA_DIR = path.join(process.cwd(), "corpus_extra");
 
 export type CorpusDoc = {
   doc_id: string;
@@ -64,7 +68,29 @@ export function loadCorpus(dir = PACK_DIR): CorpusDoc[] {
       text: fs.readFileSync(file, "utf8"),
     });
   }
+  if (dir === PACK_DIR && fs.existsSync(EXTRA_DIR)) docs.push(...loadExtra(manifest, new Set(docs.map((d) => d.doc_id))));
   return docs;
+}
+
+function loadExtra(manifest: Record<string, string>[], have: Set<string>): CorpusDoc[] {
+  const byId = new Map(manifest.map((m) => [m.doc_id, m]));
+  const out: CorpusDoc[] = [];
+  for (const f of fs.readdirSync(EXTRA_DIR).filter((n) => n.endsWith(".txt")).sort()) {
+    const doc_id = f.replace(/\.txt$/, "");
+    if (have.has(doc_id)) continue; // the starter pack copy wins
+    const text = fs.readFileSync(path.join(EXTRA_DIR, f), "utf8");
+    const header = (name: string) => text.match(new RegExp(`^${name}:\\s*(.+)$`, "im"))?.[1]?.trim() ?? null;
+    const m = byId.get(doc_id);
+    out.push({
+      doc_id,
+      jurisdictions: header("JURISDICTION") ?? m?.jurisdictions ?? "",
+      url: header("SOURCE") ?? m?.url ?? "",
+      source_type: "official text captured by the team (not in the starter pack)",
+      retrieved_at: header("RETRIEVED"),
+      text,
+    });
+  }
+  return out;
 }
 
 export function loadAddresses(dir = PACK_DIR): Address[] {

@@ -10,12 +10,12 @@ import csv
 import json
 import os
 
-PACK = "data/starter/pack"
+PACK = "."
 SRC = "submission" if os.path.exists("submission/rules.json") else "out"
 os.makedirs("review", exist_ok=True)
 
 addresses = list(csv.DictReader(open(f"{PACK}/data/sample_addresses.csv", newline="")))
-jur = json.load(open("out/jurisdictions.json"))
+jur = json.load(open("data/derived/jurisdictions.json"))
 
 
 def norm(s):

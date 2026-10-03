@@ -14,7 +14,7 @@ import json
 import os
 import re
 
-PACK = "data/starter/pack"
+PACK = "."
 rules = json.load(open("submission/rules.json"))["rules"]
 by_id = {r["team_rule_id"]: r for r in rules}
 lookups = json.load(open("submission/lookups.json"))["lookups"]
@@ -119,7 +119,7 @@ if cov_score is None:
 
 # Citations
 texts = {}
-for d in ("data/starter/pack/corpus/text", "data/added/corpus/text"):
+for d in ("corpus/text", "corpus_extra"):
     if os.path.isdir(d):
         for f in os.listdir(d):
             texts[f[:-4]] = open(os.path.join(d, f), encoding="utf8").read()
