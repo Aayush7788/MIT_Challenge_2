@@ -69,6 +69,12 @@ function RuleCard({ it }: { it: MemoItem }) {
         <Chip result={it.result} />
         <span className="rounded bg-stone-100 px-2 py-0.5 text-xs text-stone-600">{it.level === "state" ? `State: ${it.jurisdiction}` : `City: ${it.jurisdiction}`}</span>
         {it.conflict_flag && <span className="rounded bg-rose-100 px-2 py-0.5 text-xs font-medium text-rose-800">Flag for review</span>}
+        <span
+          title={it.confidence_reasons.length ? it.confidence_reasons.join("; ") : "Verified quote from official text; facts from public records."}
+          className={`ml-auto rounded px-2 py-0.5 text-xs ${it.confidence_level === "high" ? "bg-emerald-50 text-emerald-800" : it.confidence_level === "medium" ? "bg-amber-50 text-amber-800" : "bg-rose-50 text-rose-800"}`}
+        >
+          Confidence: {it.confidence_level}
+        </span>
       </div>
       <h4 className="mt-2 font-semibold leading-snug text-stone-900">{it.title}</h4>
       <p className="mt-1 text-sm leading-relaxed text-stone-700">{it.requirement}</p>
@@ -99,6 +105,7 @@ function RuleCard({ it }: { it: MemoItem }) {
           </p>
           {it.exemptions && <p className="mt-1 text-stone-500">Exemptions: {it.exemptions}</p>}
           {it.conflict_note && <p className="mt-1 text-rose-700">Reviewer note: {it.conflict_note}</p>}
+          {it.confidence_reasons.length > 0 && <p className="mt-1 text-stone-500">Confidence {it.confidence_level}: {it.confidence_reasons.join("; ")}.</p>}
           <p className="mt-1 text-stone-400">
             Rule {it.team_rule_id} · status {it.status.replaceAll("_", " ")} · model confidence {Math.round(it.confidence * 100)}%
           </p>

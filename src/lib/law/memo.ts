@@ -36,6 +36,8 @@ export type MemoItem = {
   conflict_note: string | null;
   exemptions: string | null;
   confidence: number;
+  confidence_level: "high" | "medium" | "low";
+  confidence_reasons: string[];
 };
 
 export type Memo = {
@@ -52,8 +54,32 @@ export type Memo = {
 
 const ORDER: Result[] = ["applies", "superseded", "unknown", "not_yet_effective", "pending"];
 
-function item(e: Evaluation): MemoItem {
+// How much to trust one answer: high only when the quote is verified, the source
+// is official text, the facts come straight from public records and nothing is
+// flagged; each step down says why.
+function trust(e: Evaluation, facts: FactSheet): { level: MemoItem["confidence_level"]; reasons: string[] } {
   const r = e.rule;
+  const c = r.coverage_conditions;
+  const low: string[] = [];
+  const mid: string[] = [];
+  if (e.result === "unknown") low.push("coverage depends on a fact the public data does not have");
+  if (e.conflict_flag) low.push("flagged for human review");
+  if (!r.span_verified) low.push("quote not found word for word in the source");
+  if ((r.source_type ?? "").startsWith("secondary")) mid.push("source is a news report or a copy of the code, not the official text");
+  if (r.confidence < 0.6) low.push(`extraction confidence ${Math.round(r.confidence * 100)}%`);
+  else if (r.confidence < 0.75) mid.push(`extraction confidence ${Math.round(r.confidence * 100)}%`);
+  const usesUnits = c.min_units != null || c.max_units != null || c.owner_based_exemption_max_units != null;
+  if (usesUnits && facts.units.source === "land-use code") mid.push("unit count read from the land-use code");
+  else if (usesUnits && facts.units.value == null && facts.units_min.value != null) mid.push("only a unit range is known, from the land-use code");
+  if (r.coverage_note) mid.push("coverage cutoff taken from a related record");
+  if (r.consolidation_note?.includes("Effective date taken")) mid.push("effective date taken from a related record");
+  const level = low.length ? "low" : mid.length ? "medium" : "high";
+  return { level, reasons: [...low, ...mid] };
+}
+
+function item(e: Evaluation, facts: FactSheet): MemoItem {
+  const r = e.rule;
+  const t = trust(e, facts);
   return {
     team_rule_id: r.team_rule_id,
     category: r.category,
@@ -77,6 +103,8 @@ function item(e: Evaluation): MemoItem {
     conflict_note: r.conflict_note,
     exemptions: r.exemptions,
     confidence: r.confidence,
+    confidence_level: t.level,
+    confidence_reasons: t.reasons,
   };
 }
 
@@ -113,7 +141,7 @@ export function targetFromRow(a: AddressRow): MemoTarget {
 export function buildMemo(rules: RuleRecord[], t: MemoTarget, asOf: string, user: UserFacts = {}): Memo {
   const facts = factSheet(t.parcel, user);
   const evals = lookup(rules, buildingFrom(t.state, t.legal_city, facts), asOf);
-  const items = evals.map(item);
+  const items = evals.map((e) => item(e, facts));
   const rank = (i: MemoItem) => ORDER.indexOf(i.result) * 10 + (i.level === "city" ? 0 : 1);
 
   const categories = CATEGORIES.map((category) => ({
