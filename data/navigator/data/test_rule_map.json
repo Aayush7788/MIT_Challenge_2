@@ -1,0 +1,10 @@
+{
+  "_comment": "Map the organisers' test rule ids to OUR team_rule_ids after extraction. Fill by reading out/rules.json. Expected sources are hints.",
+  "CA-ALG-01": {"team_rule_id": null, "expect": "CA state, algorithmic_rent_setting, from D022 (AB 325, chaptered 10/06/25, effective 2026-01-01 inferred)"},
+  "HOB-ALG-01": {"team_rule_id": null, "expect": "Hoboken, NJ city algorithmic ban — NO TEXT IN CORPUS (D032-D034 link-only). Fetch the ecode360 page by hand into corpus_extra/D034.txt"},
+  "JC-ALG-01":  {"team_rule_id": null, "expect": "Jersey City, NJ city algorithmic ban — NO TEXT IN CORPUS (D035/D037 link-only; D036 does not mention it). Fetch the ordinance into corpus_extra/"},
+  "NJ-ALG-01":  {"team_rule_id": null, "expect": "NJ state, FAIR Act, D069: approved 2026-07-20, effective 2027-07-01 (computed), §6(b) preempts conflicting ordinances"},
+  "MA-ALG-P1":  {"team_rule_id": null, "expect": "MA state pending, S.2983, D046/D047"},
+  "MA-ALG-P2":  {"team_rule_id": null, "expect": "MA state pending, H.5222, D045"},
+  "MA-RENT-P1": {"team_rule_id": null, "expect": "MA state failed, rent-control ballot question IP 25-21 struck 2026-06-23 — NO TEXT IN CORPUS (D059 WBUR link-only). Fetch the SJC decision or WBUR page into corpus_extra/D059.txt"}
+}
