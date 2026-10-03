@@ -71,6 +71,7 @@ def main():
     ap.add_argument("url")
     ap.add_argument("--note", default="")
     ap.add_argument("--type", default="official", help="official, or secondary (mirror / news) so extraction ranks it lower")
+    ap.add_argument("--reviewer-note", default="", help="a reviewer's note about this source; extraction adds it to every card from it")
     ap.add_argument("--text-file", help="text already copied from a browser, for sites that block scripts")
     ap.add_argument("--start", help="drop everything before the first line containing this text (site menus)")
     a = ap.parse_args()
@@ -88,6 +89,8 @@ def main():
         header.append(f"TYPE: {a.type}")
     if a.note:
         header.append(f"NOTE: {a.note}")
+    if a.reviewer_note:
+        header.append(f"REVIEWER_NOTE: {a.reviewer_note}")
     body = "\n".join(header) + "\n\n" + text.strip() + "\n"
     os.makedirs("corpus_extra", exist_ok=True)
     path = f"corpus_extra/{a.doc_id}.txt"

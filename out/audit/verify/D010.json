@@ -1,20 +1,23 @@
 {
- "key": "3b57f870bc8e0b4c3b7c7323ac4cce49a673e17b",
+ "key": "e854285d745aef1a2091f300b97caa0c33828f89",
  "doc_id": "D010",
+ "ids": [
+  "r-0063"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:29:41.549Z",
+ "audited_at": "2026-10-03T22:48:19.671Z",
  "cards": [
   {
-   "team_rule_id": "r-0061",
+   "team_rule_id": "r-0063",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or land, or that have income restricted units created under the Boston Planning and Development Agency (BPDA) Inclusionary Development Policy will not impose a blanket policy that denies housing to anyone with arrests and or convictions.",
-    "note": "Blanket ban, covered providers, and the four excluded categories (non-conviction arrests, judicial relief convictions, juvenile records, convictions over 5 years old) are supported. The document also says the policy does not apply where there is a direct relationship between a conviction and the housing or unreasonable risk to others, and does not apply to current criminal behavior; the card omits these exceptions. The advice to ask for review and offer rehabilitation evidence is a reasonable paraphrase of case-by-case consideration and the factors listed, though not stated as an applicant right."
+    "note": "Blanket ban, case-by-case review, and the four excluded categories are supported. The 5-year exclusion is stated with exceptions (direct relationship to housing, unreasonable risk, current criminal behavior) that the card omits. The advice to ask for review and offer rehabilitation evidence is a tenant-facing gloss; the document lists rehabilitation as a factor providers consider and recommends an appeals process only 'when feasible'."
    },
    "key_value": {
     "verdict": "partly_supported",
     "evidence": "d) A conviction more than 5 years old. Tenant selection policy related to arrests and convictions does not apply in situations where there is:",
-    "note": "The 5-year item is stated, but the same text carves out exceptions (direct relationship to housing, unreasonable risk of harm), so the unqualified 'may not be considered' overstates it."
+    "note": "The 5-year item is in the list, but the policy states exceptions (direct relationship to housing, unreasonable risk of substantial harm, current criminal behavior), so 'may not be considered' is not absolute."
    },
    "effective_date": {
     "verdict": "not_applicable",
@@ -24,7 +27,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "Under this policy, housing providers agree to the following:",
-    "note": "The document presents the policy as current, with no repeal or expiry indicated. It is dated February 2017 and is a policy/guidance document."
+    "note": "Document presents the policy as current, with no repeal or expiry stated. The policy is dated February 2017."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -34,7 +37,7 @@
    "citation": {
     "verdict": "supported",
     "evidence": "BOSTON FAIR CHANCE TENANT SELECTION POLICY",
-    "note": "Document is issued by the Department of Neighborhood Development, with a February 2017 date on each page, matching the citation."
+    "note": "The document is the Boston DND policy dated February 2017, matching the citation."
    }
   }
  ]

@@ -1,15 +1,23 @@
 {
- "key": "357430969e89eae42060fb3cc103e26d7020929a",
+ "key": "2ce484129fa5ee4dde72b40c33c452d55945bed2",
  "doc_id": "D067",
+ "ids": [
+  "r-0035",
+  "r-0036",
+  "r-0037",
+  "r-0038",
+  "r-0039",
+  "r-0044"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:28:36.897Z",
+ "audited_at": "2026-10-03T22:46:57.802Z",
  "cards": [
   {
    "team_rule_id": "r-0035",
    "requirement": {
     "verdict": "supported",
     "evidence": "No residential landlord may evict or fail to renew a lease, whether it is a written or an oral lease without good cause. The landlord must be able to prove in court that he has grounds for an eviction.",
-    "note": "Notice periods (3 days to 3 years) and 6x relocation for illegal occupancy are also in the document."
+    "note": "Notice periods (3 days to 3 years) and the 6x rent relocation for illegal occupancy are also stated in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -23,17 +31,17 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "The Anti-Eviction Act,  N.J.S.A. 2A:18-61.1 to 61.12, was created to protect blameless tenants from eviction",
+    "evidence": "The Anti-Eviction Act, N.J.S.A. 2A:18-61.1 to 61.12, was created to protect blameless tenants from eviction",
     "note": "Presented as current law."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "This law may not apply to two - or three-unit owner-occupied premises with two (2) or fewer rental units.",
-    "note": "Document is muddled on the owner-occupied exemption; elsewhere it says owner-occupied two- or three-family dwellings are treated separately (a limited set of causes, not full exemption). A single threshold of 3 is a simplification."
+    "note": "Document is muddled about the exemption; owner-occupied 2-3 family dwellings are treated separately with fewer protections. 3 is plausible but the exception text is inconsistent."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "The Anti-Eviction Act,  N.J.S.A. 2A:18-61.1 to 61.12, was created to protect blameless tenants from eviction",
+    "evidence": "The Anti-Eviction Act, N.J.S.A. 2A:18-61.1 to 61.12, was created to protect blameless tenants from eviction",
     "note": null
    }
   },
@@ -42,7 +50,7 @@
    "requirement": {
     "verdict": "supported",
     "evidence": "A landlord cannot raise the rent mid-lease term. The old lease must be terminated, and the new lease must have the increased rental payment.",
-    "note": "Also states no state cap, unconscionable standard, and rent control board contact."
+    "note": "Unconscionability, local rent control and the note to ask the rent control board are all in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -123,12 +131,12 @@
    "status": {
     "verdict": "supported",
     "evidence": "Under the Newly Constructed Multiple Dwellings Law ( N.J.S.A. 2A:42 -84.5), newly constructed multiple dwellings shall be exempt",
-    "note": "Presented as current law."
+    "note": "Presented as current."
    },
    "coverage": {
     "verdict": "supported",
     "evidence": "newly constructed multiple dwellings shall be exempt from any local rent control ordinances for a period of 30 years following completion of construction of the building.",
-    "note": "30 years from completion matches."
+    "note": "30-year window matches."
    },
    "citation": {
     "verdict": "supported",
@@ -141,7 +149,7 @@
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "requires equal treatment in the sale or rental of housing regardless of race, creed, color, national origin, ancestry, sex, marital status, civil union status, domestic partnership status, familial status, affectional or sexual orientation, gender  identity or expression, mental and physical disability, nationality, or source of lawful income.",
-    "note": "Source of lawful income and complaint venues supported; the housing voucher example is not in the document."
+    "note": "Source of lawful income and complaint avenues are supported; the housing voucher example is not in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -155,17 +163,17 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "Under State and federal laws, it is illegal for a landlord or rental agency to refuse to rent or discriminate in the rental of housing units.",
+    "evidence": "The New Jersey Law Against Discrimination (LAD), N.J.S.A. 10:5-12(g) to -(h), prohibits discrimination when selling or renting property",
     "note": "Presented as current."
    },
    "coverage": {
     "verdict": "partly_supported",
-    "evidence": "The law applies to all landlord -tenant relationships, except those involving two -family owner occupied dwellings, rooms in an owner or resident -occupied single home,",
-    "note": "Exemption for two-family owner-occupied supported; additional exceptions exist."
+    "evidence": "The law applies to all landlord -tenant relationships, except those involving two -family owner occupied dwellings, rooms in an owner or resident -occupied single home",
+    "note": "Two-family owner-occupied exemption stated, but other exemptions exist and the text ties some to familial status."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "N.J.S.A. 10:5-12(g) to -(h), prohibits discrimination when selling or renting property",
+    "evidence": "The New Jersey Law Against Discrimination (LAD), N.J.S.A. 10:5-12(g) to -(h), prohibits discrimination when selling or renting property",
     "note": null
    }
   },
@@ -174,7 +182,7 @@
    "requirement": {
     "verdict": "supported",
     "evidence": "The maximum-security deposit to be collected by the landlord cannot be more than one and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 ). It can be less. Any additional yearly security deposit increase may not exceed 10% of the current security deposit.",
-    "note": "Return within 30 days and double damages also stated."
+    "note": "Return within 30 days with interest and double damages also stated."
    },
    "key_value": {
     "verdict": "supported",
@@ -192,9 +200,9 @@
     "note": "Presented as current."
    },
    "coverage": {
-    "verdict": "partly_supported",
-    "evidence": "The exception is an owner-occupied two-, or three-family dwelling. A tenant in an owner-occupied two-, or three-family dwelling may, however, make this provision applicable to their tenancy 30 days  after sending a  written  request",
-    "note": "Exemption up to 3 units supported, but tenant can opt in; the card omits that."
+    "verdict": "supported",
+    "evidence": "The exception is an owner-occupied two-, or three-family dwelling.",
+    "note": "Tenant can opt in after 30 days' written request."
    },
    "citation": {
     "verdict": "supported",

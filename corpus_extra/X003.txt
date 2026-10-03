@@ -1,0 +1,33 @@
+SOURCE: https://www.hudsoncountyclerk.org/wp-content/uploads/2024/11/2024-General-Election-MWD-Results-with-Voting-Method-Details-Official.pdf
+RETRIEVED: 2026-10-03 22:42 UTC
+JURISDICTION: Hoboken, NJ
+NOTE: Official Hudson County Clerk records of the November 5, 2024 Hoboken public question on rent control: the question text from the sample ballot and the citywide total from the official results (both URLs in the body). The vote count lines are copied verbatim from the results PDF.
+REVIEWER_NOTE: Voters rejected; Chapter 155 unchanged (the measure would have amended § 155-31; the § 155-5 cap stands).
+
+Hoboken public question, November 5, 2024 general election (Hudson County, New Jersey)
+
+Question text, from the official sample ballot (Hudson County Clerk, Form 5, Hoboken):
+https://www.hudsoncountyclerk.org/wp-content/uploads/2024/09/2024-General-F05-Hoboken.pdf
+
+PUBLIC QUESTION
+Shall the ordinance submitted by initiative petition, providing for an amendment to Hoboken City Code Chapter 155 (Rent Control) at Section 155-31 to provide an option to landlords to pay a fee of $2,500 to the Hoboken Affordable Housing Fund in order to lease voluntarily vacated apartments at a freely negotiated rent, which thereafter remain subject to the provisions of the Rent Control ordinance, including limitations on annual increases, be adopted?
+INTERPRETIVE STATEMENT
+Hoboken's City Code, Chapter 155, controls how much landlords can raise rent for residential units, both while a tenant is living there and when a new tenant moves in. Currently, annual rent increases are capped at either 5% or the Consumer Price Index (CPI) rate, whichever is lower (excluding certain surcharges). However, when a unit has been occupied for three years or more and becomes vacant, landlords can raise the rent by up to 25%—a process known as "partial vacancy decontrol." This increase can only happen once every three years for the same unit.
+The proposed ordinance would allow landlords to increase rent to market rates without the 25% limit when a unit becomes vacant. In exchange, landlords would pay a $2,500 fee to the City of Hoboken, which would go into the Affordable Housing Trust Fund to support affordable housing initiatives in the city.
+
+Result, from the official results (Hudson County Clerk, 2024 General Election MWD Official Results with Voting Method Details, pages 1270 to 1294):
+https://www.hudsoncountyclerk.org/wp-content/uploads/2024/11/2024-General-Election-MWD-Results-with-Voting-Method-Details-Official.pdf
+
+Hudson County
+2024 General Election
+November 05, 2024
+Results by Municipality, Ward, and District
+Official Results
+HOBOKEN PUBLIC QUESTION
+Vote For 1
+YES/SI
+NO
+Registered Voters Total
+Ballots Cast Total
+CITY OF HOBOKEN Total 6,082 16,371 0 26,336
+Contest Total 6,082 16,371 0 26,336

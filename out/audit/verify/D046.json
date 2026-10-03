@@ -1,15 +1,18 @@
 {
- "key": "2b3d0619aca28348161b8f58b99745ee3bad65cf",
+ "key": "0261f1233f74c3311a8960cbb076b7cd71cad3b6",
  "doc_id": "D046",
+ "ids": [
+  "r-0021"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:39:53.185Z",
+ "audited_at": "2026-10-03T22:45:50.357Z",
  "cards": [
   {
    "team_rule_id": "r-0021",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "An Act prohibiting algorithmic rent setting",
-    "note": "Title supports a bill to prohibit algorithmic rent setting, and the history shows it was referred to Senate Ways and Means. The bill text is not in the document, so the ban's content is not described, though the title indicates it. 'Gives renters no rights yet' is an inference."
+    "note": "Title supports a bill to prohibit algorithmic rent setting, and history shows referral to Senate Ways and Means. The document gives no bill text, so the substance of the ban is not shown; 'gives renters no rights yet' is inference."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -24,7 +27,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "Bill reported favorably by committee and referred to the committee on Senate Ways and Means",
-    "note": "The bill is still pending in the Senate as of the retrieval date, with no enactment shown, so 'pending' fits."
+    "note": "Document shows the bill is still pending in the Senate, with no enactment, so pending as of 2026-10-01 is consistent with it. The page was retrieved 2026-10-01."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -33,8 +36,8 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "The committee on Housing, to whom was referred the petitions (accompanied by bill, Senate, No. 994) of Cindy F. Friedman and Julian Cyr for legislation to prohibit algorithmic rent setting; and (accompanied by bill, Senate, No. 1016)",
-    "note": "The document identifies Bill S.2983 of the 194th General Court as a new draft of S994 and S1016, matching the citation."
+    "evidence": "Displaying  3 actions for Bill S.2983",
+    "note": "Bill number, 194th General Court and new draft of S994 and S1016 are all stated in the document."
    }
   }
  ]

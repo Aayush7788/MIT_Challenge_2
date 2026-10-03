@@ -1,40 +1,43 @@
 {
- "key": "cc3ecc8cd4d688f49081b4cb0271e9f25a25d9a9",
+ "key": "97a46c72caf2851f4aa7f20fdd36172d12bb778f",
  "doc_id": "D076",
+ "ids": [
+  "r-0084"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:30:46.423Z",
+ "audited_at": "2026-10-03T22:49:25.069Z",
  "cards": [
   {
-   "team_rule_id": "r-0080",
+   "team_rule_id": "r-0084",
    "requirement": {
     "verdict": "supported",
     "evidence": "It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.",
-    "note": "Also supported: sale/license ban in 98.1103(a) and tenant remedies in 98.1104(a) (injunctive relief, damages, civil penalties up to $1,000 per violation, attorney's fees)."
+    "note": "Ban on sale/licensing (§98.1103(a)) and tenant remedies (§98.1104) with $1,000 per violation and attorney's fees also stated. Card's 'set or recommend' is a slight paraphrase of the definition (advise/recommend)."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "For each month a violation of section 98.1103(b) exists or continues, and for each residential rental property a landlord uses an algorithmic device, it shall constitute a separate and distinct violation.",
-    "note": "The $1,000 cap is in 98.1104(a): \"A tenant may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation of this Division, in a civil action against a landlord.\" The separate-violation rule applies to 98.1103(b) use violations."
+    "note": "The $1,000 per violation figure is in §98.1104(a): \"civil penalties of up to $1,000 per violation of this Division\"."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Card field is empty."
    },
    "status": {
-    "verdict": "supported",
-    "evidence": "Councilmember Sean Elo-Rivera proposes to protect San Diegans from automated rent price-fixing by banning the sale, license, and use of automated rent-setting software that advises or recommends rental rates or occupancy levels.",
-    "note": "Document shows an unadopted draft: ordinance number and date of final passage are blank, and the council adoption certification is unsigned. Pending as of 2026-10-01 is consistent with the document, though it does not show later action."
+    "verdict": "partly_supported",
+    "evidence": "This Ordinance will take effect and be in force on the thirtieth day from and after its final passage.",
+    "note": "Document shows a proposed draft with blank final passage date and unsigned certification, so not yet adopted in the document. 'Pending' is consistent, but the document gives no information on whether it was adopted by 2026-10-01."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Card field is empty."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "Amend San Diego Municipal Code Chapter 9, Article 8 by adding new Division 11, sections 98.1101, 98.1102, 98.1103, and 98.1104, to adopt the proposed Prohibition of Anti-Competitive Automated Rent Price-Fixing Ordinance.",
-    "note": "Section numbers, draft status, and O-2025-107 all match the document."
+    "evidence": "§98.1103  Use and Sale of Algorithmic Devices Prohibited",
+    "note": "Section numbers 98.1101-98.1104 and ordinance number O-2025-107 appear in the document, and the ordinance is marked proposed/draft."
    }
   }
  ]

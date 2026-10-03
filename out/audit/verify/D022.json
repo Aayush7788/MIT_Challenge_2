@@ -1,15 +1,19 @@
 {
- "key": "c1d5020d9d5a015e78a59b3d44340e9d11e977d0",
+ "key": "014ff8202135a66e233c31d8c38da6617e6c3b6a",
  "doc_id": "D022",
+ "ids": [
+  "r-0002",
+  "r-0003"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:38:46.625Z",
+ "audited_at": "2026-10-03T22:44:42.191Z",
  "cards": [
   {
    "team_rule_id": "r-0002",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
-    "note": "The core prohibition is stated. The document does not mention rent-setting software or landlords specifically, and nothing about reporting to the Attorney General."
+    "note": "The ban is supported. The document does not mention rent-setting software or landlords. It also says nothing about reporting to the Attorney General, so that sentence is unsupported."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -23,8 +27,8 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
-    "note": "The document presents the rule as chaptered, approved law (Approved by Governor October 06, 2025). No effective date is stated, but in_force is acceptable when the rule is presented as current law."
+    "evidence": "Approved  by\nGovernor\nOctober 06, 2025.",
+    "note": "The document presents the chaptered act as current law. It gives no effective date or repeal."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -33,16 +37,16 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "An act to add Sections 16729 and 16756.1 to the Business and Professions Code, relating to business regulations.",
-    "note": "Section 16729(a) is the added provision, and the document identifies the bill as AB 325, Chapter 338. The year 2025 is consistent with the approval date of October 06, 2025."
+    "evidence": "16729.\n(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
+    "note": "Section 16729(a) and Chapter 338 match. The year 2025 is consistent with the approval date."
    }
   },
   {
    "team_rule_id": "r-0003",
    "requirement": {
-    "verdict": "partly_supported",
+    "verdict": "supported",
     "evidence": "(b) It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
-    "note": "The coercion ban and the commercial term examples (level of service, availability) are supported. The statement about covering pressure to adopt software-recommended rents is an application not stated in the document."
+    "note": "The ban and the commercial-term examples (level of service, availability) match the text. The rent remark is an illustration that the document does not state."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -56,8 +60,8 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "(b) It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
-    "note": "The document presents the rule as chaptered, approved law. No effective date is stated, but in_force is acceptable when the rule is presented as current law."
+    "evidence": "Approved  by\nGovernor\nOctober 06, 2025.",
+    "note": "The document presents the chaptered act as current law. It gives no effective date or repeal."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -66,8 +70,8 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "An act to add Sections 16729 and 16756.1 to the Business and Professions Code, relating to business regulations.",
-    "note": "Section 16729(b) is in the added section, and the document identifies the bill as AB 325, Chapter 338. The year 2025 is consistent with the approval date."
+    "evidence": "(b) It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
+    "note": "Section 16729(b) and Chapter 338 match."
    }
   }
  ]

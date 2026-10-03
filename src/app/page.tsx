@@ -90,6 +90,7 @@ function RuleCard({ it, L, lang }: { it: MemoItem; L: S; lang: Lang }) {
               {L.openSource}
             </a>
           </p>
+          {it.source_added && <p className="mt-1 text-stone-500">{L.addedSource}</p>}
           {it.exemptions && (
             <p className="mt-1 text-stone-500">
               {L.exemptions} {it.exemptions}

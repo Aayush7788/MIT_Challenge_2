@@ -129,7 +129,8 @@ if cov_score is None:
 
 # Citations
 texts = {}
-for d in ("corpus/text", "corpus_extra"):
+# The organizers count only quotes found in the supplied corpus, not texts we added.
+for d in ("corpus/text",):
     if os.path.isdir(d):
         for f in os.listdir(d):
             texts[f[:-4]] = open(os.path.join(d, f), encoding="utf8").read()
@@ -173,7 +174,7 @@ for flag, label, detail in ext_rows:
 say(f"Address coverage  {cov_score:5.1f} / 20   ({cov_note})")
 for name, (a, b) in inv.items():
     say(f"    {a:3d}/{b:<3d} {name}")
-say(f"Citations         {cit_score:5.1f} / 15   ({backed}/{len(applies)} 'applies' answers quote their source verbatim)")
+say(f"Citations         {cit_score:5.1f} / 15   ({backed}/{len(applies)} 'applies' answers quote the supplied corpus; the rest quote official texts we added, which the organizers don't count)")
 say(f"Change tracking   {chg_score:5.1f} / 15")
 for t, s, g, w in chg:
     say(f"    {t}: overlap {s:.2f} (ours {g}, expected {w})")

@@ -1,15 +1,18 @@
 {
- "key": "8948bdba1229e3de4a12b466ee6ddf6a528b8a0b",
+ "key": "cc2db1c24493d7f2cef62218f53c04e7e5bb8ac1",
  "doc_id": "D045",
+ "ids": [
+  "r-0020"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:39:48.942Z",
+ "audited_at": "2026-10-03T22:45:46.519Z",
  "cards": [
   {
    "team_rule_id": "r-0020",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
-    "note": "Title and the 3/12/2026 reporting and referral to House Ways and Means are supported. The document does not state the bill's contents, and it does not say the bill is not law or that renters have no new rights; these follow only from its pending status. The card also says 'Joint Committee on Housing', while the history says reported from the committee on Housing."
+    "note": "Title supports the subject matter, and history shows it was reported favorably 3/12/2026 and referred to House Ways and Means. The document does not state that it is not law or that renters have no new rights; that is inferred from the pending status. The document does not include the bill text. Also, the document lists the sponsor as the Joint Committee on Housing, and the history says reported from the committee on Housing (House), not explicitly the joint committee reporting."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -23,8 +26,8 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "Bill bill reported favorably by committee and referred to the committee on House Ways and Means",
-    "note": "Document shows the bill pending in the House Ways and Means committee, with no enactment, so 'pending' fits."
+    "evidence": "Bill reported favorably by committee and referred to the committee on House Ways and Means",
+    "note": "Bill is pending in the House Ways and Means committee as of the retrieval date, with no enactment action shown."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -33,8 +36,8 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "New draft of",
-    "note": "The document identifies Bill H.5222, 194th, as a new draft of H1564. The card's 'H.1564' matches 'H1564' in the document."
+    "evidence": "New draft of H1564",
+    "note": "The document identifies the bill as H.5222 in the 194th (Current) General Court, and shows it as a new draft of H1564."
    }
   }
  ]

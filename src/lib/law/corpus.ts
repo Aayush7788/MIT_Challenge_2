@@ -16,6 +16,8 @@ export type CorpusDoc = {
   source_type: string;
   retrieved_at: string | null;
   text: string;
+  in_starter_corpus: boolean; // false for texts we captured; the organizers' citation metric only counts the starter corpus
+  reviewer_note?: string | null; // a reviewer's note about the source (REVIEWER_NOTE: header)
 };
 
 // Small CSV parser that handles quoted fields with commas or newlines in them.
@@ -65,6 +67,7 @@ export function loadCorpus(dir = PACK_DIR): CorpusDoc[] {
       source_type: m.source_type,
       retrieved_at: m.retrieved_at || null,
       text: fs.readFileSync(file, "utf8"),
+      in_starter_corpus: true,
     });
   }
   if (dir === PACK_DIR && fs.existsSync(EXTRA_DIR)) docs.push(...loadExtra(manifest, new Set(docs.map((d) => d.doc_id))));
@@ -87,6 +90,8 @@ function loadExtra(manifest: Record<string, string>[], have: Set<string>): Corpu
       source_type: header("TYPE") ?? "official text captured by the team (not in the starter pack)",
       retrieved_at: header("RETRIEVED"),
       text,
+      in_starter_corpus: false,
+      reviewer_note: header("REVIEWER_NOTE"),
     });
   }
   return out;

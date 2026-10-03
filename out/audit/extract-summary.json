@@ -1,19 +1,19 @@
 {
-  "finished_at": "2026-10-03T22:27:32.960Z",
+  "finished_at": "2026-10-03T22:44:34.550Z",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "documents": 66,
+  "documents": 68,
   "failed_documents": 0,
-  "candidate_rules": 109,
-  "rules": 98,
+  "candidate_rules": 116,
+  "rules": 104,
   "unverified_spans": 0,
-  "repaired_spans": 0,
+  "repaired_spans": 1,
   "tokens": {
-    "i": 1216,
-    "o": 155,
+    "i": 11108,
+    "o": 8259,
     "cr": 0,
-    "cw": 5532
+    "cw": 22168
   },
-  "approx_cost_usd_this_run": 0.04,
-  "seconds": 4
+  "approx_cost_usd_this_run": 0.32,
+  "seconds": 30
 }

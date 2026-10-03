@@ -1,20 +1,23 @@
 {
- "key": "cff33ca7724708834a399d4557344a4457f84b3e",
+ "key": "cc1875699942385f7f803cc87b5998449e8d0225",
  "doc_id": "D081",
+ "ids": [
+  "r-0090"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:31:07.529Z",
+ "audited_at": "2026-10-03T22:49:47.756Z",
  "cards": [
   {
-   "team_rule_id": "r-0085",
+   "team_rule_id": "r-0090",
    "requirement": {
     "verdict": "supported",
     "evidence": "The law prohibits the sale or use of such algorithmic devices and allows a tenant or the City Attorney to bring a civil action if they believe an entity is in violation of the law.",
-    "note": "Document also says the definition covers recommendations for rent on a vacant unit; the occupancy-level ban is stated in the headline. Card's paraphrase is consistent."
+    "note": "Definition covers software analyzing nonpublic competitor rental data for rent recommendations; occupancy management is in the law's description."
    },
    "key_value": {
-    "verdict": "not_applicable",
-    "evidence": null,
-    "note": "Field is empty on the card."
+    "verdict": "supported",
+    "evidence": "Each month of use for each affected dwelling unit may constitute a separate violation, and tenants may seek damages, injunctive relief, and civil penalties of up to $1,000 per violation. S.F. Admin. Code § 37.10C(b) and (d).",
+    "note": "D002 supports the $1,000 per violation, per unit per month."
    },
    "effective_date": {
     "verdict": "supported",
@@ -23,18 +26,18 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024.",
-    "note": "Document presents the law as current, in effect since 2024, with no repeal noted."
+    "evidence": "Gomez v. Greystar Management Services LLC in the Northern District of California, alleging that Greystar violated San Francisco Administrative Code § 37.10C through its alleged use of RealPage and Yardi products.",
+    "note": "Document presents the ordinance as current law, being enforced in 2026."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Coverage is empty on the card."
    },
    "citation": {
-    "verdict": "partly_supported",
-    "evidence": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024.",
-    "note": "Document names Section 37.10C of the Rent Ordinance, but does not say it is in the S.F. Admin. Code; the Admin. Code reference is not stated."
+    "verdict": "supported",
+    "evidence": "S.F. Admin. Code § 37.10C(b) and (d).",
+    "note": "Section 37.10C is also cited in D081."
    }
   }
  ]

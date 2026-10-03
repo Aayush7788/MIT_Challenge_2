@@ -1,40 +1,43 @@
 {
- "key": "37e804b8b57ab151bfdfdbc6de71f43f6b135542",
+ "key": "42bde33e18b09a376ab97bb63074b4b2169136ba",
  "doc_id": "D070",
+ "ids": [
+  "r-0083"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:30:41.282Z",
+ "audited_at": "2026-10-03T22:49:20.174Z",
  "cards": [
   {
-   "team_rule_id": "r-0079",
+   "team_rule_id": "r-0083",
    "requirement": {
     "verdict": "supported",
-    "evidence": "In no case shall the allowable rent increase exceed 4%. The allowable annual increase will not be permitted, if the dwelling is not in substantial compliance and/or if the landlord has not met the registration requirements as specified in this subsection 19:2-9.8.",
-    "note": "The 12-month period and the \"irrespective of ... change of ownership\" language appear in the page text. The advice to check registration is a practical addition, not a legal claim."
+    "evidence": "The rents for any housing space shall not be increased more than the percentages stated below in any consecutive 12-month period, irrespective of the number of different tenants occupying the housing space during the 12-month period, any change of ownership of the Landlord or vacancy of the housing space.",
+    "note": "Also supported: 4% cap and no increase if not in substantial compliance or registration unmet. The advice to check registration is an added suggestion but not a legal claim."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "The rents for any housing space shall not be increased more than the percentages stated below in any consecutive 12-month period, irrespective of the number of different tenants occupying the housing space during the 12-month period, any change of ownership of the Landlord or vacancy of the housing space.",
-    "note": "The 4% cap applies per 12-month period. The cap is stated in the 19:2-3.1 text."
+    "evidence": "In no case shall the allowable rent increase exceed 4%.",
+    "note": "The 12-month period comes from the preceding paragraph."
    },
    "effective_date": {
     "verdict": "partly_supported",
-    "evidence": "(Ord. 6 PSF-A(S), 9-5-17)",
-    "note": "The ordinance citation date and the statement that the ordinance was amended on September 05, 2017 support the date. The page does not say explicitly that the 4% cap took effect on that date."
+    "evidence": "The Rent Control Ordinance was amended on September 05, 2017.",
+    "note": "The 4% provision cites Ord. 6 PSF-A(S), 9-5-17, so the amendment date is 2017-09-05, but the document does not explicitly say that is the effective date."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "Pursuant to 19:2-3. Rent Increases. 19:2-3.1. Determination of Rents. In no case shall the allowable rent increase exceed 4%.",
-    "note": "The page presents the cap as current law. The 2020 moratorium was rescinded on September 18, 2023, so it does not suspend the cap as of 2026-10-01."
+    "evidence": "In no case shall the allowable rent increase exceed 4%. The allowable annual increase will not be permitted, if the dwelling is not in substantial compliance and/or if the landlord has not met the registration requirements as specified in this subsection 19:2-9.8. (Ord. 6 PSF-A(S), 9-5-17)",
+    "note": "The page presents the rule as current law. The 2020 moratorium was rescinded in 2023."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "The coverage field is empty on the card."
+    "note": "Coverage is empty on the card."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "Pursuant to 19:2-3. Rent Increases. 19:2-3.1. Determination of Rents. In no case shall the allowable rent increase exceed 4%. The allowable annual increase will not be permitted, if the dwelling is not in substantial compliance and/or if the landlord has not met the registration requirements as specified in this subsection 19:2-9.8. (Ord. 6 PSF-A(S), 9-5-17)",
-    "note": "The citation matches the section and ordinance reference on the page."
+    "evidence": "Pursuant to 19:2-3. Rent Increases. 19:2-3.1. Determination of Rents.",
+    "note": "The document cites 19:2-3 and Ord. 6 PSF-A(S), 9-5-17, matching the card."
    }
   }
  ]

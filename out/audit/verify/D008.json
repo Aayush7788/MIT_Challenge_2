@@ -1,15 +1,18 @@
 {
- "key": "8ee65f542bc1000948e31bcbcfec3b5df4e7b641",
+ "key": "bee79c26f024a1ef23f44aadd1b2315a21ff77e3",
  "doc_id": "D008",
+ "ids": [
+  "r-0055"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:29:18.948Z",
+ "audited_at": "2026-10-03T22:47:56.678Z",
  "cards": [
   {
-   "team_rule_id": "r-0053",
+   "team_rule_id": "r-0055",
    "requirement": {
     "verdict": "supported",
     "evidence": "adopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
-    "note": "Regulation 1148 conditions and notice, plus the contact number, are also stated in the document."
+    "note": "Regulation 1148 conditions, notice, and contact number are all stated in the notice. \"No more than 1.0%\" is a slight paraphrase of the stated increase."
    },
    "key_value": {
     "verdict": "supported",
@@ -17,24 +20,24 @@
     "note": null
    },
    "effective_date": {
-    "verdict": "supported",
-    "evidence": "allow eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
-    "note": "January 1, 2026 is the earliest date the increase may be applied."
+    "verdict": "partly_supported",
+    "evidence": "which will allow eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
+    "note": "January 1, 2026 is the earliest date the increase may be taken, not formally the effective date of the order, though this is a small step."
    },
    "status": {
-    "verdict": "partly_supported",
-    "evidence": "At its regular meeting on October 16, 2025, the Berkeley Rent Stabilization Board adopted the Annual General Adjustment (AGA) Order for Year 2026",
-    "note": "The order was adopted and presented as the current 2026 adjustment. The notice does not say in so many words that it is in force as of 2026-10-01, but that follows from the text."
+    "verdict": "supported",
+    "evidence": "adopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
+    "note": "The notice presents the order as adopted and current. As of 2026-10-01, nothing in the document indicates it was repealed."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Coverage is null on the card."
+    "note": "The card's coverage field is null."
    },
    "citation": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "See Berkeley Municipal Code section 13.76.110A. for rules related to establishing the AGA.",
-    "note": "The document also names the order as Rent Board Regulation 1148."
+    "note": "The notice cites BMC 13.76.110A for establishing the AGA and identifies the Order as Rent Board Regulation 1148. The card ties both to one citation, which is acceptable, but 110A is about establishing the AGA, not the order's conditions."
    }
   }
  ]

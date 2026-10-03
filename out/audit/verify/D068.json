@@ -1,15 +1,18 @@
 {
- "key": "4013db953b501bf0b62fbb2f654c88fbd40839e1",
+ "key": "96094b0d4a391a65029e52c25b15821081253a29",
  "doc_id": "D068",
+ "ids": [
+  "r-0043"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:28:51.372Z",
+ "audited_at": "2026-10-03T22:47:11.463Z",
  "cards": [
   {
    "team_rule_id": "r-0043",
    "requirement": {
     "verdict": "supported",
     "evidence": "The LAD also prohibits housing discrimination  based\non the source of lawful income or source of lawful rent\nor mortgage payment a tenant or purchaser uses.",
-    "note": "Complaint deadlines (180 days, two years) are also stated in the document."
+    "note": "Complaint deadlines (180 days with the Division, two years in Superior Court) are also stated in the document."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -24,17 +27,17 @@
    "status": {
     "verdict": "supported",
     "evidence": "The LAD also prohibits housing discrimination  based\non the source of lawful income or source of lawful rent\nor mortgage payment a tenant or purchaser uses.",
-    "note": "The document presents the rule as current law, with no effective date given."
+    "note": "The document presents the rule as current law, and no effective date is needed."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "The rental of a single apartment or flat in a two-family\ndwelling, the other occupancy unit of which is occupied\nby the owner as his/her residence at the time of such\nrentals;",
-    "note": "The owner-occupied two-family exemption supports a 2-unit figure. The document also exempts rooms rented in an owner-occupied one-family dwelling and other exemptions. It does not state the exemption applies to source-of-income specifically, and it names no construction or certificate-of-occupancy cutoffs."
+    "note": "The document does describe an owner-occupied two-family dwelling exemption, so a 2-unit figure is a small step. However, it also exempts renting rooms in an owner-occupied one-family dwelling, and the card omits this. The document does not say whether these exemptions apply to the source-of-income provision specifically."
    },
    "citation": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "The Division on Civil Rights enforces the New Jersey\nLaw Against Discrimination.",
-    "note": "The citation names the LAD generally, which the document names. It gives no section number."
+    "note": "The document names the NJ Law Against Discrimination (LAD). It gives no statutory section for the source-of-income provision, and the only N.J.S.A. cite is for housing for older persons."
    }
   }
  ]

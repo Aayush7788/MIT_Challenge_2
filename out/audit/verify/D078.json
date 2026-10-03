@@ -1,15 +1,18 @@
 {
- "key": "d2e801cf94c28aa3ab138aa1300305cbb17eccb6",
+ "key": "39ff00657f7a4a5a574929b8a6d3b405f2247f8e",
  "doc_id": "D078",
+ "ids": [
+  "r-0097"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:31:32.827Z",
+ "audited_at": "2026-10-03T22:50:12.860Z",
  "cards": [
   {
-   "team_rule_id": "r-0092",
+   "team_rule_id": "r-0097",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.",
-    "note": "The document supports that the ordinance protects people with arrest or conviction history in affordable housing decisions. It does not say how the history may be used or limited. The complaint instruction in the document concerns the Sanctuary City Ordinance, not the Fair Chance Ordinance, so the claim that you can contact HRC to file a complaint is not supported."
+    "note": "The document supports that the ordinance protects residents with arrest or conviction history in affordable housing decisions. It does not say the ordinance limits how that history can be used. It also does not say a Fair Chance complaint can be filed with HRC; the only complaint process mentioned is for the Sanctuary City Ordinance."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -24,7 +27,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.",
-    "note": "The document presents the ordinance in the present tense as current protection, so in_force is reasonable with no effective date."
+    "note": "The document presents the ordinance in the present tense as current protection, with no effective date given."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -32,9 +35,9 @@
     "note": "Field is empty on the card."
    },
    "citation": {
-    "verdict": "partly_supported",
+    "verdict": "supported",
     "evidence": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.",
-    "note": "The document names the Fair Chance Ordinance, but gives no code section or other formal citation."
+    "note": "The card cites the ordinance by name, and the document names it. No section number is given on the card or in the document."
    }
   }
  ]

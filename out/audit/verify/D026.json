@@ -1,15 +1,19 @@
 {
- "key": "947f2eb1afad888a268a2b5307a64764349d82fe",
+ "key": "b36689da50decb4a5ac9a56db4684e76640dd603",
  "doc_id": "D026",
+ "ids": [
+  "r-0005",
+  "r-0006"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:38:46.596Z",
+ "audited_at": "2026-10-03T22:44:43.396Z",
  "cards": [
   {
    "team_rule_id": "r-0005",
    "requirement": {
     "verdict": "supported",
     "evidence": "A landlord or their agent shall not charge an applicant an application screening fee when they know or should have known that no rental unit is available at that time or will be available within a reasonable period of time.",
-    "note": "Card accurately summarizes (c)(1) and (c)(2)(A)/(B); the 'either' alternatives match 'any of the following'."
+    "note": "The card also correctly describes the two alternatives in (c)(2): the first-come process with written criteria and charging only when considered, or a full refund to non-selected applicants within 7 days of selection or 30 days of submission, whichever is first."
    },
    "key_value": {
     "verdict": "supported",
@@ -19,17 +23,17 @@
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
-    "note": "The document gives Jan 1, 2026 as the effective date of the latest amendment, not necessarily of the rule itself; the card's date is reasonable but is the amendment date."
+    "note": "The document gives January 1, 2026 as the effective date of the latest amendment of the section, not necessarily of the subdivision (c) rules themselves. It is reasonable as the current version's date."
    },
    "status": {
     "verdict": "supported",
     "evidence": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
-    "note": "Document presents the section as current law, with amendment effective before 2026-10-01."
+    "note": "The document presents the section as current law, retrieved 2026-10-01, after the January 1, 2026 effective date."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Coverage is empty on the card."
+    "note": "The coverage field is empty on the card."
    },
    "citation": {
     "verdict": "supported",
@@ -41,32 +45,32 @@
    "team_rule_id": "r-0006",
    "requirement": {
     "verdict": "supported",
-    "evidence": "(d) The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant, which receipt shall itemize the out-of-pocket expenses and time spent by the landlord or their agent to obtain and process the information about the applicant.",
-    "note": "Email delivery is permitted by agreement in the next sentence; credit report copy in (f) matches."
+    "evidence": "The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant, which receipt shall itemize the out-of-pocket expenses and time spent by the landlord or their agent to obtain and process the information about the applicant.",
+    "note": "Email delivery by agreement is in the next sentence of (d), and the 7-day credit report copy is in (f)."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "If an application screening fee has been paid by the applicant, the landlord or their agent shall provide a copy of the consumer credit report to the applicant who is the subject of that report by personal delivery, mail, or email within seven days of the landlord or their agent receiving the report.",
-    "note": null
+    "note": "The itemized receipt requirement is in (d)."
    },
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
-    "note": "This is the effective date of the latest amendment, not necessarily when these provisions first took effect."
+    "note": "The document gives January 1, 2026 as the effective date of the latest amendment of the section, not necessarily of the (d) and (f) rules themselves."
    },
    "status": {
     "verdict": "supported",
     "evidence": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
-    "note": "Presented as current law."
+    "note": "The document presents the section as current law as of retrieval on 2026-10-01."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Coverage is empty on the card."
+    "note": "The coverage field is empty on the card."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "(f) If an application screening fee has been paid by the applicant, the landlord or their agent shall provide a copy of the consumer credit report to the applicant who is the subject of that report by personal delivery, mail, or email within seven days of the landlord or their agent receiving the report.",
+    "evidence": "(d) The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant",
     "note": "Subdivisions (d) and (f) contain the described rules."
    }
   }

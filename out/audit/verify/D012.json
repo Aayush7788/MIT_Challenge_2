@@ -1,15 +1,18 @@
 {
- "key": "6d076393087e4d6207eeb74f338b75ededfe0475",
+ "key": "d3bc6d00bc412c2b252df8c78db7fdb0bc2676db",
  "doc_id": "D012",
+ "ids": [
+  "r-0064"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:29:44.685Z",
+ "audited_at": "2026-10-03T22:48:22.819Z",
  "cards": [
   {
-   "team_rule_id": "r-0062",
+   "team_rule_id": "r-0064",
    "requirement": {
     "verdict": "supported",
     "evidence": "The landlord tells you they don't accept rental assistance. This includes Section\n8 vouchers, social security disability vouchers, and veterans vouchers.",
-    "note": "The page lists rental assistance as a protected class and gives refusal of vouchers as an example of discrimination. It also says people can file a complaint with the commission."
+    "note": "The page lists rental assistance as a protected class and gives refusing vouchers as an example of discrimination. It also says people can file a complaint with the commission."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -33,8 +36,8 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "Boston Fair Housing Regulations | Boston.gov",
-    "note": "The card names the page title and the Fair Housing Commission, and correctly says no ordinance section is stated."
+    "evidence": "Boston Fair Housing Regulations",
+    "note": "The card cites the page title and the Fair Housing Commission, and says no ordinance section is stated. That matches the document, which names no section."
    }
   }
  ]

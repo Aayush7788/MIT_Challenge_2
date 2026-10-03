@@ -253,9 +253,8 @@
    "A0500"
   ],
   "conflict_flag_address_ids": [],
-  "notes": "Matched team rules: r-0001 (Cal. Bus. & Prof. Code § 16729 (AB 325, Stats. 2025, Ch. 338); in_force, effective 2026-01-01); r-0002 (Cal. Bus. & Prof. Code § 16729(a) (AB 325, Stats. 2025, ch. 338); in_force, effective 2026-01-01); r-0003 (Cal. Bus. & Prof. Code § 16729(b) (AB 325, Stats. 2025, ch. 338); in_force, effective 2026-01-01). Affected = addresses whose result changes between 2025-12-31 and 2026-01-02. 250 affected, 0 flagged for human review.",
+  "notes": "Matched team rules: r-0002 (Cal. Bus. & Prof. Code § 16729(a) (AB 325, Stats. 2025, ch. 338); in_force, effective 2026-01-01); r-0003 (Cal. Bus. & Prof. Code § 16729(b) (AB 325, Stats. 2025, ch. 338); in_force, effective 2026-01-01). Affected = addresses whose result changes between 2025-12-31 and 2026-01-02. 250 affected, 0 flagged for human review.",
   "team_rule_ids": [
-   "r-0001",
    "r-0002",
    "r-0003"
   ],
@@ -1447,10 +1446,10 @@
    "A0490",
    "A0495"
   ],
-  "notes": "Matched team rules: r-0065 (Hoboken Code § 158-2 (ordinance adopted Jul 9, 2025; body heading reads § 154-8); in_force, effective 2025-07-09); r-0069 (Jersey City Code § 218-12 (Ord. 25-057); in_force). 90 affected, 90 flagged for human review.",
+  "notes": "Matched team rules: r-0068 (Hoboken Code § 158-2 (ordinance adopted Jul 9, 2025; body heading reads § 154-8); in_force, effective 2025-07-09); r-0073 (Jersey City Code § 218-12 (Ord. 25-057); in_force). 90 affected, 90 flagged for human review.",
   "team_rule_ids": [
-   "r-0065",
-   "r-0069"
+   "r-0068",
+   "r-0073"
   ],
   "before_after": {
    "A0002": {

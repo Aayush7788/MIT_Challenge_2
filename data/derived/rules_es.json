@@ -1,111 +1,87 @@
 {
  "r-0082": {
-  "title": "Prohibición de la fijación automatizada y anticompetitiva de precios de renta (dispositivos algorítmicos)",
-  "requirement": "En San Diego, un arrendador no puede usar software para fijar rentas que utilice datos no públicos de dos o más arrendadores para fijar rentas o niveles de ocupación, y nadie puede vender ni otorgar licencias de ese software a arrendadores. Un inquilino puede demandar para pedir una orden judicial (injunction), daños y perjuicios o multas civiles de hasta $1,000 por infracción, además de honorarios de abogado si el inquilino gana.",
-  "key_value": "Multa civil de hasta $1,000 por infracción; cada mes y cada propiedad cuentan como una infracción separada",
-  "source_hash": "84aab125eca376a48b2cfae313bc968c66cb9d51"
+  "title": "Intereses sobre depósitos de garantía en unidades sujetas a la RSO",
+  "requirement": "Si alquila una unidad sujeta a la RSO en Los Ángeles (certificado de ocupación emitido por primera vez antes del October 1, 1978) y su arrendador ha retenido su depósito de garantía durante al menos un año, el arrendador debe pagarle intereses (3.03% para 2026, o los intereses realmente generados con un estado de cuenta bancario), como pago directo o crédito al alquiler, además de cualquier interés pendiente cuando usted se mude. Si no se los paga, puede demandar, incluso en el Small Claims Court (Tribunal de Reclamos Menores); la ciudad no investigará.",
+  "key_value": "3.03% de interés simple para 2026 (tasa de la Rent Adjustment Commission) o los intereses realmente generados",
+  "source_hash": "6994f9200e34ac820718cc04e712fb26e45eb434"
  },
  "r-0083": {
+  "title": "Límite al aumento anual en unidades con control de alquiler de Newark (máximo 4%)",
+  "requirement": "En las unidades con control de alquiler de Newark, el alquiler no puede subir más del porcentaje permitido en ningún período de 12 meses, y nunca más del 4%, aunque cambien los inquilinos o los propietarios. No se permite ningún aumento si el edificio no cumple sustancialmente con las normas o si el arrendador no ha registrado la unidad, así que verifique el registro con la Office of Rent Control (Oficina de Control de Alquileres).",
+  "key_value": "máximo 4% cada 12 meses",
+  "source_hash": "cb4068cce3446631234b249a3f162153858d51cb"
+ },
+ "r-0084": {
+  "title": "Prohibición de la fijación automatizada y anticompetitiva de precios de alquiler (prohibición de la venta y el uso de dispositivos algorítmicos para fijar alquileres)",
+  "requirement": "Según esta ordenanza propuesta, los arrendadores de San Diego no podrían usar software que se base en datos no públicos de la competencia para fijar o recomendar alquileres o niveles de ocupación, y nadie podría vender ni otorgar licencias de dicho software a arrendadores. Un inquilino podría demandar a un arrendador infractor para obtener una orden judicial, una indemnización por daños o sanciones civiles de hasta $1,000 por infracción, más los honorarios de abogados.",
+  "key_value": "Sanción civil de hasta $1,000 por infracción; cada mes y cada propiedad constituyen una infracción separada",
+  "source_hash": "77a48031abaa54bff68c308b9dfd6a19884cf0fd"
+ },
+ "r-0087": {
   "title": "Protecciones para Inquilinos Residenciales de San Diego: se requiere causa justa para terminar un arrendamiento",
-  "requirement": "Su arrendador no puede terminar su arrendamiento sin una causa por culpa del inquilino que esté en la lista (como falta de pago, un incumplimiento del contrato que no se corrigió después de un aviso por escrito, molestias graves (nuisance) o actividad delictiva) o una causa sin culpa del inquilino de buena fe (que el dueño o un familiar se mude a la vivienda, retiro del mercado de alquiler, una orden del gobierno de desocupar, o demolición o remodelación sustancial). Un aviso por causa sin culpa debe indicar la causa y dar un aviso de 30 o 60 días según el Civil Code 1946.1, y un aviso que no cumpla estrictamente con los requisitos es nulo.",
+  "requirement": "Su arrendador no puede terminar su arrendamiento sin una causa enumerada por culpa del inquilino (como falta de pago, un incumplimiento del contrato de arrendamiento no corregido después de un aviso por escrito, molestias graves o actividad delictiva) o una causa sin culpa invocada de buena fe (que el propietario o un familiar se mude a la unidad, retiro del mercado de alquiler, una orden gubernamental de desocupar, o demolición o remodelación sustancial). Un aviso sin culpa debe indicar la causa y dar un aviso de 30 o 60 días según el Civil Code 1946.1, y un aviso que no cumpla estrictamente con esto es nulo.",
   "key_value": "Se requiere causa justa para cualquier arrendamiento de más de 30 días",
   "source_hash": "b583f8e6b95be871d1a0dfd2e43c4241b01745b5"
  },
- "r-0084": {
-  "title": "Asistencia de reubicación en San Diego para terminaciones sin culpa del inquilino",
-  "requirement": "Si su arrendador termina su arrendamiento por una razón sin culpa del inquilino, debe pagarle dos meses de su renta actual (tres meses si usted es una persona mayor de 62 años o más, o tiene una discapacidad), sin importar sus ingresos ni cuánto tiempo lleve en la vivienda. En su lugar, el arrendador puede perdonarle la misma cantidad de renta, y si hace un pago directo, debe pagarlo dentro de los 15 días siguientes al aviso.",
-  "key_value": "2 meses de renta (3 meses para inquilinos mayores o con discapacidad)",
+ "r-0088": {
+  "title": "Asistencia para reubicación en San Diego por terminaciones sin culpa",
+  "requirement": "Si su arrendador termina su arrendamiento por una causa sin culpa del inquilino, debe pagarle dos meses de su alquiler actual (tres meses si usted es una persona mayor de 62 años o más, o tiene una discapacidad), sin importar sus ingresos ni el tiempo que lleve como inquilino. En su lugar, el arrendador puede eximirle del pago de alquiler por el mismo monto, y debe hacer un pago directo dentro de los 15 días posteriores al aviso.",
+  "key_value": "2 meses de alquiler (3 meses para inquilinos mayores o con discapacidad)",
   "source_hash": "6a84b5a6f61101d6f143679efe3c47297deca815"
  },
- "r-0085": {
-  "title": "Prohibición de discriminación por la fuente de ingresos del inquilino (incluidos vales de vivienda y asistencia para la renta)",
-  "requirement": "Un arrendador en San Diego no puede negarse a rentarle ni a renovarle, terminar un arrendamiento, decir falsamente que una unidad no está disponible, ni anunciar una preferencia basada en su fuente de ingresos, lo cual incluye Section 8 y otra asistencia para la renta, el depósito o para personas sin hogar. Cualquier requisito de ingresos debe contar todos sus ingresos, incluida la asistencia, más los ingresos combinados de los coinquilinos y codeudores (cosigners).",
-  "key_value": "Daños de 3 veces la renta de un mes por infracción",
+ "r-0089": {
+  "title": "Prohibición de discriminación por la fuente de ingresos del inquilino (incluidos los vales de vivienda y la asistencia para el alquiler)",
+  "requirement": "Un arrendador de San Diego no puede negarse a alquilarle o a renovar su contrato, terminar su arrendamiento, decir falsamente que una unidad no está disponible ni anunciar una preferencia basada en su fuente de ingresos, lo cual incluye la Section 8 y otras ayudas para el alquiler, el depósito o para personas sin hogar. Cualquier requisito de ingresos debe tomar en cuenta todos sus ingresos, incluida la asistencia, más los ingresos combinados de los coinquilinos y cofirmantes.",
+  "key_value": "Indemnización de 3 veces un mes de alquiler por infracción",
   "source_hash": "dd2d687e74723f1174b232869eca43c2d22fa478"
  },
- "r-0086": {
-  "title": "Prohibición de dispositivos algorítmicos para fijar rentas o administrar la ocupación",
-  "requirement": "Los arrendadores en San Francisco no pueden usar, y los proveedores no pueden vender, software que analice datos no públicos de alquiler de competidores para recomendar rentas o administrar la ocupación. Si usted cree que un arrendador o proveedor está violando esta regla, usted (o el City Attorney (Fiscal de la Ciudad)) puede presentar una demanda civil.",
-  "key_value": null,
-  "source_hash": "fd5afa149b076f43f1ea92d8a3b61a0a53208e23"
+ "r-0090": {
+  "title": "Prohibición de dispositivos algorítmicos para fijar alquileres o gestionar la ocupación",
+  "requirement": "En San Francisco, los arrendadores no pueden usar, y los proveedores no pueden vender, software que analice datos no públicos de alquiler de la competencia para recomendar alquileres o gestionar la ocupación. Si cree que un arrendador o proveedor está infringiendo esta norma, usted (o el City Attorney, el Fiscal de la Ciudad) puede presentar una demanda civil.",
+  "key_value": "hasta $1,000 por infracción, por unidad y por mes",
+  "source_hash": "039af61c547aac2c3086d74b62894f2612e4b7ea"
  },
- "r-0087": {
-  "title": "Se requiere causa justa para desalojar a inquilinos en unidades cubiertas por la Rent Ordinance",
-  "requirement": "Un arrendador solo puede desalojarlo de una unidad cubierta por la SF Rent Ordinance (Ordenanza de Rentas de San Francisco) por una de las 17 causas justas de la lista, y esa causa debe ser el motivo principal del arrendador. Que el contrato simplemente se venza o que el edificio se venda no es una causa justa, y el arrendador también necesita causa justa para quitar servicios de vivienda como estacionamiento, bodega o lavandería.",
+ "r-0091": {
+  "title": "Se requiere causa justa para desalojar a inquilinos en unidades cubiertas por la Rent Ordinance (Ordenanza de Alquileres)",
+  "requirement": "Un arrendador solo puede desalojarlo de una unidad cubierta por la SF Rent Ordinance por una de las 17 causas justas enumeradas, y esa causa debe ser el motivo principal del arrendador. El simple vencimiento del contrato de arrendamiento o la venta del edificio no son causa justa, y el arrendador también necesita causa justa para retirar servicios de vivienda como estacionamiento, almacenamiento o lavandería.",
   "key_value": "17 causas justas",
   "source_hash": "fa87e4bdd892bb1e9a898d3485e40e152b2a7d74"
  },
- "r-0088": {
-  "title": "Pagos de reubicación por desalojos bajo la Ellis Act",
-  "requirement": "Si le entregan un aviso de desalojo bajo la Ellis Act (Ley Ellis) entre el 3/1/26 y el 2/28/27, se le deben $11,110.05 por inquilino, hasta $33,330.13 por unidad. Cada inquilino mayor (62+) o con discapacidad recibe $7,443.90 adicionales.",
+ "r-0092": {
+  "title": "Pagos de reubicación por desalojos bajo la Ellis Act (Ley Ellis)",
+  "requirement": "Si recibe un aviso de desalojo bajo la Ellis Act entre el 3/1/26 y el 2/28/27, le corresponden $11,110.05 por inquilino, hasta $33,330.13 por unidad. Cada inquilino mayor (62+) o con discapacidad recibe $7,443.90 adicionales.",
   "key_value": "$11,110.05 por inquilino; máximo $33,330.13 por unidad; más $7,443.90 por cada inquilino mayor (62+) o con discapacidad",
   "source_hash": "22512059b64824ecf65ec003bfc035682166945e"
  },
- "r-0089": {
-  "title": "Pagos de reubicación por desalojos para mudanza del dueño o un familiar, demolición/retiro, mejoras de capital temporales o rehabilitación sustancial",
-  "requirement": "Si le entregan un aviso de desalojo entre el 3/1/26 y el 2/28/27 por mudanza del dueño o de un familiar, demolición o retiro permanente, trabajos temporales de mejoras de capital o rehabilitación sustancial, se le deben $8,245 por inquilino, hasta $24,733 por unidad. Cada inquilino mayor (60+) o con discapacidad, o cada hogar con hijos menores de edad, recibe $5,497 adicionales.",
-  "key_value": "$8,245 por inquilino; máximo $24,733 por unidad; más $5,497 por cada inquilino mayor (60+), con discapacidad, o hogar con hijos menores",
+ "r-0093": {
+  "title": "Pagos de reubicación por desalojos para que el propietario o un familiar se mude a la unidad, por demolición/retiro, por mejoras de capital temporales o por rehabilitación sustancial",
+  "requirement": "Si recibe un aviso de desalojo entre el 3/1/26 y el 2/28/27 porque el propietario o un familiar se mudará a la unidad, por demolición o retiro permanente, por obras temporales de mejoras de capital o por rehabilitación sustancial, le corresponden $8,245 por inquilino, hasta $24,733 por unidad. Cada inquilino mayor (60+) o con discapacidad, o cada hogar con hijos menores de edad, recibe $5,497 adicionales.",
+  "key_value": "$8,245 por inquilino; máximo $24,733 por unidad; más $5,497 por cada inquilino mayor (60+), con discapacidad, u hogar con hijos menores",
   "source_hash": "7920a1b9566add4bd2718d87a70fd62efe741255"
  },
- "r-0090": {
-  "title": "Pagos de reubicación por desalojos bajo la Ellis Act",
-  "requirement": "Si su arrendador en San Francisco le entrega un aviso de desalojo bajo la Ellis Act (Ley Ellis) entre el 3/1/2026 y el 2/28/2027, se le deben $11,110.05 por inquilino, hasta $33,330.13 por unidad. Cada inquilino mayor (62+) o con discapacidad recibe $7,443.90 adicionales.",
-  "key_value": "$11,110.05 por inquilino, máximo $33,330.13 por unidad, más $7,443.90 por cada inquilino mayor (62+) o con discapacidad (avisos entregados del 3/1/26 al 2/28/27)",
+ "r-0094": {
+  "title": "Pagos de reubicación por desalojos bajo la Ellis Act (Ley Ellis)",
+  "requirement": "Si su arrendador en San Francisco le entrega un aviso de desalojo bajo la Ellis Act entre el 3/1/2026 y el 2/28/2027, le corresponden $11,110.05 por inquilino, hasta $33,330.13 por unidad. Cada inquilino mayor (62+) o con discapacidad recibe $7,443.90 adicionales.",
+  "key_value": "$11,110.05 por inquilino, máximo $33,330.13 por unidad, más $7,443.90 por cada inquilino mayor (62+) o con discapacidad (avisos entregados 3/1/26–2/28/27)",
   "source_hash": "d16eb65c8d63819356a1aa676f486e01aa505fc1"
  },
- "r-0091": {
-  "title": "Aumento anual de renta permitido para unidades con control de rentas, del 1 de marzo de 2026 al 28 de febrero de 2027",
-  "requirement": "Si usted vive en una unidad con control de rentas en San Francisco, el aumento anual de su arrendador del 1 de marzo de 2026 al 28 de febrero de 2027 está limitado al 1.6% de su renta base. Por ejemplo, con una renta base de $2,000 el aumento es de $32, para una nueva renta base de $2,032.",
-  "key_value": "1.6%",
-  "source_hash": "da8a510bfef5f253f94857094042893561ccb224"
- },
- "r-0092": {
-  "title": "Aumento anual de renta permitido, del 1 de marzo de 2026 al 28 de febrero de 2027",
-  "requirement": "Para una unidad con control de rentas en San Francisco, el aumento anual que su arrendador puede aplicar del 1 de marzo de 2026 al 28 de febrero de 2027 es de 1.6%. Verifique que cualquier aviso de aumento anual en este periodo no lo exceda.",
+ "r-0096": {
+  "title": "Aumento anual de alquiler permitido, March 1, 2026 – February 28, 2027",
+  "requirement": "Para una unidad con control de alquiler en San Francisco, el aumento anual que su arrendador puede aplicar del March 1, 2026 al February 28, 2027 es del 1.6%. Verifique que cualquier aviso de aumento anual en este período no lo supere.",
   "key_value": "1.6%",
   "source_hash": "4a959fb5532b6173079db70947b3cd93b2ac1aa6"
  },
- "r-0093": {
-  "title": "Fair Chance Ordinance (Ordenanza de Oportunidad Justa): antecedentes penales en decisiones sobre vivienda asequible",
-  "requirement": "Si usted está solicitando vivienda asequible en San Francisco y tiene antecedentes de arresto o condena, la Fair Chance Ordinance limita cómo se pueden usar esos antecedentes en la decisión sobre la vivienda. Puede comunicarse con la Human Rights Commission (Comisión de Derechos Humanos) para presentar una queja.",
+ "r-0097": {
+  "title": "Fair Chance Ordinance (Ordenanza de Oportunidad Justa) – antecedentes penales en decisiones sobre vivienda asequible",
+  "requirement": "Si solicita vivienda asequible en San Francisco y tiene antecedentes de arrestos o condenas, la Fair Chance Ordinance limita la forma en que esos antecedentes pueden usarse en la decisión sobre la vivienda. Puede comunicarse con la Human Rights Commission (Comisión de Derechos Humanos) para presentar una queja.",
   "key_value": null,
   "source_hash": "e89fb92626972f20c9ad8eb1fbe573ac76e71305"
  },
- "r-0094": {
-  "title": "Prohibición de cierto software algorítmico para fijar rentas",
-  "requirement": "Los arrendadores de Santa Ana no pueden usar software para fijar rentas que dependa de datos de mercado no públicos, como rentas en tiempo real, actividad de contratos de arrendamiento u ocupación, para fijar rentas. Si un arrendador usó ese software, usted puede demandar demostrando que se usó, sin tener que probar colusión.",
-  "key_value": "hasta $1,000 por infracción, más daños, orden judicial (injunctive relief) y honorarios de abogado",
-  "source_hash": "66fcc8560e0b450705adda5a8c9913405db24708"
- },
- "r-0096": {
-  "title": "Santa Ana Just Cause Eviction Ordinance (Ordenanza de Desalojo por Causa Justa de Santa Ana)",
-  "requirement": "Después de 30 días de arrendamiento, su arrendador no puede terminar su arrendamiento sin una causa justa de la lista indicada en un aviso por escrito, y en las causas por culpa del inquilino primero debe darle la oportunidad de corregir la infracción. En los desalojos sin culpa del inquilino (mudanza del dueño, retiro del mercado, demolición o remodelación sustancial), el arrendador debe pagar 3 meses de asistencia de reubicación o perdonar los últimos 3 meses de renta.",
-  "key_value": "3 meses de asistencia de reubicación o perdón de 3 meses de renta en desalojos sin culpa del inquilino",
-  "source_hash": "d29c8c6cd0e49a00111975e7e51114b12ebce391"
- },
- "r-0097": {
-  "title": "Desalojo por causa justa y asistencia de reubicación en Santa Ana",
-  "requirement": "Su arrendador debe tener una razón válida para desalojarlo, como falta de pago de la renta, una infracción del contrato o la mudanza del dueño. Por ciertas razones de desalojo, es posible que el arrendador tenga que ayudar a pagar sus gastos de mudanza.",
-  "key_value": null,
-  "source_hash": "da49208b53abd624b0d225810587742c2a67b58d"
- },
  "r-0098": {
-  "title": "Límite anual de aumento de renta en Santa Ana",
-  "requirement": "Su arrendador puede subir la renta solo una vez al año, y no más de lo que sea menor entre el 3% o el 80% del cambio en el CPI (índice de precios al consumidor). Del 1 de septiembre de 2026 al 31 de agosto de 2027 el máximo es 2.87%, y usted puede presentar una Tenant Petition (Petición del Inquilino) si su aumento es mayor.",
-  "key_value": "lo menor entre 3% o 80% del cambio en el CPI; 2.87% del 2026-09-01 al 2027-08-31",
-  "source_hash": "b6e9cebece0c7e8d95222ee8f26c062d29bcbf87"
- },
- "r-0099": {
-  "title": "Santa Ana Rent Stabilization Ordinance (Ordenanza de Estabilización de Rentas de Santa Ana): límite anual de aumento de renta",
-  "requirement": "Si su edificio se construyó el 1 de febrero de 1995 o antes, su arrendador puede subir la renta cada año solo lo que sea menor entre el 3% o el 80% del cambio en el CPI (índice de precios al consumidor), y no puede subirla en absoluto si el CPI es negativo. La Ciudad publica el aumento permitido a más tardar el 30 de junio, con vigencia a partir del 1 de septiembre, y los arrendadores deben darle un aviso por escrito sobre la ordenanza y sus derechos.",
-  "key_value": "lo menor entre 3% o 80% del cambio en el CPI; 0% si el CPI es negativo",
-  "source_hash": "4ec35142d94080e7447f54757c0438d264ff1de6"
- },
- "r-0001": {
-  "title": "Prohibición de usar o distribuir un algoritmo de precios común para restringir el comercio u obligar a adoptar los precios recomendados",
-  "requirement": "En California es ilegal que un arrendador o un proveedor de software use o distribuya un algoritmo de precios común (software usado por dos o más personas que utiliza datos de competidores para recomendar o fijar precios o condiciones) como parte de una conspiración para restringir el comercio, o para obligar a otros a adoptar el precio o las condiciones que recomienda. Si sospecha que hay una fijación coordinada de rentas mediante algoritmos, puede denunciarlo ante el Attorney General (Fiscal General) o consultar con un abogado sobre los recursos que ofrecen las leyes antimonopolio.",
-  "key_value": null,
-  "source_hash": "f5335a279a32dc13ed2067384e7d4434d9457cc5"
+  "title": "Prohibición de cierto software algorítmico para fijar alquileres",
+  "requirement": "Los arrendadores de Santa Ana no pueden usar software para fijar alquileres que se base en datos de mercado no públicos, como alquileres en tiempo real, actividad de arrendamiento u ocupación. Si un arrendador usó dicho software, usted puede demandar demostrando que se usó, sin tener que probar que hubo colusión.",
+  "key_value": "hasta $1,000 por infracción, más indemnización por daños, medidas cautelares (orden judicial) y honorarios de abogados",
+  "source_hash": "66fcc8560e0b450705adda5a8c9913405db24708"
  },
  "r-0002": {
   "title": "Prohibición de usar o distribuir un algoritmo de precios común como parte de una conspiración para restringir el comercio",
@@ -234,123 +210,105 @@
   "source_hash": "afb0a9e984b93421098a5b7feb7ca321b78e1778"
  },
  "r-0026": {
-  "title": "Aviso de desalojo de 14 días por falta de pago de renta con contrato de arrendamiento por escrito, con derecho a corregir el atraso",
-  "requirement": "Si usted se atrasa en la renta con un contrato de arrendamiento por escrito, su arrendador debe darle un aviso por escrito de 14 días para desocupar antes de terminar el contrato. Usted puede detener el desalojo pagando toda la renta adeudada, más intereses y costos judiciales, a más tardar el día en que vence su respuesta en el caso de desalojo. Si la renta atrasada se debió a un pago o vale gubernamental retrasado, el tribunal debe posponer la audiencia al menos 7 días para que usted pueda pagar.",
-  "key_value": "Aviso por escrito de 14 días para desocupar",
-  "source_hash": "9321c6eca0528fdeb9cfc1c5be2978207ed8714a"
+  "title": "Protección contra represalias y desalojo por represalia; presunción de seis meses",
+  "requirement": "Un arrendador que amenace con represalias o las tome (incluidos avisos de desalojo, aumentos de renta o cambios en los términos del contrato de arrendamiento) porque usted se quejó de violaciones del código, tomó acciones legales o se unió a un sindicato de inquilinos le debe al menos de uno a tres meses de renta o sus daños reales, más los honorarios de abogado. Un aviso de terminación (salvo por falta de pago), un aumento de renta o un cambio sustancial en los términos dentro de los seis meses posteriores a dicha actividad se presume que es una represalia, y solo puede refutarse con pruebas claras y convincentes.",
+  "key_value": "Daños de 1-3 meses de renta o daños reales, lo que sea mayor; presunción de 6 meses",
+  "source_hash": "5c4fc6030f94f6f4dc831674be28377d19f3ccc8"
  },
  "r-0027": {
-  "title": "Aviso requerido para terminar un arrendamiento a voluntad (no se requiere causa)",
-  "requirement": "La ley estatal de Massachusetts no exige una razón para terminar un arrendamiento a voluntad, pero el arrendador debe dar un aviso por escrito equivalente al intervalo de pago de la renta o 30 días, lo que sea más largo (tres meses si la renta se paga con menos frecuencia). Un aviso que termina su arrendamiento también puede ofrecerle un nuevo arrendamiento con condiciones diferentes.",
-  "key_value": "Aviso por escrito del período más largo entre un período de renta o 30 días",
-  "source_hash": "aeb9c889bde65a19db1704235e2ce8401acbbf0d"
- },
- "r-0028": {
-  "title": "Formulario obligatorio que debe acompañar un aviso para desocupar por falta de pago de renta",
-  "requirement": "Si su arrendador le da un aviso por escrito para desocupar por falta de pago de renta, debe venir acompañado de un formulario estatal que enumere los acuerdos de pago, los programas de asistencia para la renta (como RAFT), las reglas del tribunal y las protecciones contra el desalojo, y que indique que el aviso no es un desalojo. Un tribunal no puede aceptar la demanda de desalojo del arrendador por falta de pago sin prueba de que este formulario se le entregó a usted.",
-  "key_value": null,
-  "source_hash": "ee10a2bde55d3ee9bf60cf450e764e4ab8945c84"
- },
- "r-0029": {
-  "title": "Prohibición estatal del control de alquileres local (Rent Control Prohibition Act (Ley de Prohibición del Control de Alquileres))",
-  "requirement": "Las ciudades y pueblos de Massachusetts generalmente no pueden aprobar, mantener ni hacer cumplir el control de alquileres, por lo que no existe un límite local al alquiler en el que pueda confiar. La única excepción es un programa voluntario para propietarios de 10 o más unidades con un alquiler justo de mercado de $400 o menos, en el que la ciudad paga a los propietarios la diferencia con sus fondos generales.",
-  "key_value": "Ningún tipo de control de alquileres local (excepción voluntaria limitada)",
+  "title": "Prohibición estatal del control de rentas local (Rent Control Prohibition Act (Ley de Prohibición del Control de Rentas))",
+  "requirement": "Las ciudades y pueblos de Massachusetts por lo general no pueden aprobar, mantener ni hacer cumplir el control de rentas, así que no hay un límite local de renta en el cual apoyarse. La única excepción es un programa voluntario para dueños de 10 o más unidades con una renta justa de mercado de $400 o menos, en el que la ciudad paga a los dueños la diferencia con sus fondos generales.",
+  "key_value": "Ningún tipo de control de rentas local (excepción voluntaria limitada)",
   "source_hash": "9bd7edfc446a8ba938308919e6ac80b92dfa0837"
  },
- "r-0031": {
-  "title": "Iniciativa estatal de control de alquileres retirada de la boleta de noviembre de 2026",
-  "requirement": "La propuesta de medida electoral estatal sobre control de alquileres no es ley: la Supreme Judicial Court (Corte Suprema Judicial) la retiró de la boleta de noviembre de 2026, por lo que no establece ningún límite al alquiler. No confíe en ella para limitar el aumento de su alquiler.",
+ "r-0029": {
+  "title": "Iniciativa estatal de control de rentas retirada de la boleta de noviembre de 2026",
+  "requirement": "La propuesta de pregunta en la boleta sobre control de rentas estatal no es ley: la Supreme Judicial Court (Corte Suprema Judicial) la retiró de la boleta de noviembre de 2026, así que no crea ningún límite de renta. No dependa de ella para limitar su aumento de renta.",
   "key_value": null,
   "source_hash": "042599d69bd8c16185c5297cc2117a23caf7ffb3"
  },
- "r-0032": {
-  "title": "Prohibición de discriminación por fuente de ingresos (asistencia pública y subsidios de vivienda)",
-  "requirement": "Un arrendador en Massachusetts no puede negarse a alquilarle ni discriminarlo de otra manera porque usted recibe asistencia pública o un subsidio de vivienda, como un vale de alquiler, ni por los requisitos de ese programa. Los anuncios no pueden expresar una preferencia en contra de quienes reciben asistencia pública.",
-  "key_value": null,
-  "source_hash": "cb50343faea0e2a1c1563e33cbe16a6516e00690"
- },
- "r-0033": {
-  "title": "Depósito de garantía limitado al alquiler del primer mes",
-  "requirement": "Su arrendador no puede cobrarle un depósito de garantía mayor que un mes de alquiler, debe depositarlo en una cuenta bancaria separada que genere intereses en Massachusetts y debe entregarle una declaración firmada sobre el estado del apartamento. Si la oficina estatal de vivienda emite reglamentos, el arrendador puede ofrecer un cargo opcional en lugar del depósito, y el depósito más los cargos nunca pueden superar en total un mes de alquiler.",
-  "key_value": "1 mes de alquiler",
+ "r-0031": {
+  "title": "Depósito de garantía limitado al primer mes de renta",
+  "requirement": "Su arrendador no puede cobrarle un depósito de garantía mayor que un mes de renta, debe ponerlo en una cuenta bancaria separada que genere intereses en Massachusetts y debe darle una declaración firmada sobre la condición del apartamento. Si la oficina estatal de vivienda emite regulaciones, un arrendador puede ofrecer una tarifa opcional en lugar del depósito, y el depósito más las tarifas nunca pueden superar un mes de renta en total.",
+  "key_value": "1 mes de renta",
   "source_hash": "09e575061420dfa1e8fe0e1b09fe65b95e6f7a6e"
  },
- "r-0034": {
-  "title": "Devolución del depósito de garantía en 30 días; intereses; triple indemnización",
-  "requirement": "Su arrendador debe devolverle su depósito de garantía, descontando únicamente el alquiler o cargos de agua no pagados, el aumento de impuestos permitido o los daños documentados que excedan el desgaste normal, dentro de los 30 días después de que usted se mude, y debe pagarle intereses anuales sobre el depósito. Si el arrendador no lo devuelve a tiempo, usted puede demandar por tres veces la cantidad adeudada más los costos judiciales y los honorarios de abogado.",
-  "key_value": "Devolución en 30 días; triple indemnización",
+ "r-0032": {
+  "title": "Devolución del depósito de garantía dentro de 30 días; intereses; triple de daños",
+  "requirement": "Su arrendador debe devolverle el depósito de garantía, descontando solo la renta o cargos de agua no pagados, el aumento de impuestos permitido o daños documentados más allá del desgaste normal, dentro de los 30 días después de que usted se mude, y debe pagarle intereses anuales sobre él. Si el arrendador no lo devuelve a tiempo, usted puede demandar por el triple de la cantidad adeudada más las costas judiciales y los honorarios de abogado.",
+  "key_value": "Devolución dentro de 30 días; triple de daños",
   "source_hash": "6d8f2fb1e4bcb2f1ac10dbc4743685d79102dbfe"
  },
- "r-0035": {
-  "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act (Ley que Prohíbe la Inflación Algorítmica del Alquiler): prohibición de la coordinación algorítmica de alquileres",
-  "requirement": "Los arrendadores en New Jersey no pueden pagar ni usar software para fijar alquileres ni dispositivos algorítmicos que realicen una 'función de coordinación', es decir, fijar o recomendar alquileres, condiciones de contrato u ocupación usando datos no públicos de la competencia. Nadie puede participar en coordinación paralela de precios. Si sospecha que su arrendador está haciendo esto, puede presentar una queja ante el Attorney General (Fiscal General), quien debe crear un sitio para quejas.",
-  "key_value": "Prohibición de usar o proporcionar servicios de coordinación algorítmica de alquileres; violación de la NJ Antitrust Act (Ley Antimonopolio de NJ)",
+ "r-0033": {
+  "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act (Ley que Prohíbe la Inflación Algorítmica de la Renta) – prohibición de la coordinación algorítmica de rentas",
+  "requirement": "Los arrendadores en New Jersey no pueden pagar por ni usar software para fijar rentas ni dispositivos algorítmicos que realicen una 'función de coordinación', es decir, fijar o recomendar rentas, términos de arrendamiento u ocupación usando datos no públicos de competidores. Nadie puede participar en coordinación paralela de precios. Si sospecha que su arrendador hace esto, puede presentar una queja ante el Attorney General (Procurador General), quien debe establecer un sitio para quejas.",
+  "key_value": "Prohibición de usar o proporcionar servicios de coordinación algorítmica de rentas; violación de la NJ Antitrust Act (Ley Antimonopolio de NJ)",
   "source_hash": "9873d3e411566a6e0681c841f49276b3bd03fecc"
  },
- "r-0036": {
-  "title": "Cargo por solicitud de alquiler residencial limitado a $50 (ajustado por el IPC)",
-  "requirement": "Un arrendador o su agente no puede cobrar más de $50 (ajustado cada año por inflación a partir del January 1, 2027) como cargo de solicitud o cargo similar para solicitar alquilar o subarrendar una vivienda. Si le cobraron de más, puede reportarlo a la Division of Consumer Affairs (División de Asuntos del Consumidor), y el cobro excesivo se le reembolsa de cualquier multa que se cobre.",
-  "key_value": "$50 por solicitud, ajustado anualmente según el IPC",
+ "r-0034": {
+  "title": "Cuota de solicitud de renta residencial limitada a $50 (ajustada por el CPI)",
+  "requirement": "Un arrendador o su agente no puede cobrar más de $50 (ajustado cada año por la inflación a partir del January 1, 2027) como cuota de solicitud o cuota similar para solicitar rentar o subarrendar una vivienda. Si le cobraron de más, puede reportarlo a la Division of Consumer Affairs (División de Asuntos del Consumidor), y el cobro excesivo se le reembolsa de cualquier multa cobrada.",
+  "key_value": "$50 por solicitud, ajustado anualmente por el CPI",
   "source_hash": "8b1b10a421c84dca03a820560a7189d590303faf"
  },
- "r-0037": {
-  "title": "Anti-Eviction Act (Ley contra el Desalojo): se requiere causa justificada para desalojar o no renovar",
-  "requirement": "Su arrendador no puede desalojarlo ni negarse a renovar su contrato (escrito u oral) sin una de las causas justificadas enumeradas en la Anti-Eviction Act, probada ante un tribunal. La mayoría de las causas requieren un aviso escrito de desocupación (Notice to Quit), con plazos de aviso que van de 3 días a 3 años según la causa. Los inquilinos desalojados para corregir una ocupación ilegal tienen derecho a asistencia para reubicación equivalente a seis veces el alquiler mensual.",
-  "key_value": "Se requiere causa justificada de la lista; reubicación por ocupación ilegal = 6 veces el alquiler mensual",
+ "r-0035": {
+  "title": "Anti-Eviction Act (Ley Contra el Desalojo): se requiere causa justificada para desalojar o no renovar",
+  "requirement": "Su arrendador no puede desalojarle ni negarse a renovar su contrato de arrendamiento (escrito u oral) sin una de las causas justificadas enumeradas en la Anti-Eviction Act, probada en la corte. La mayoría de las causas requieren un Notice to Quit (aviso de desocupación) por escrito, con plazos de aviso que van de 3 días a 3 años según la causa. Los inquilinos desalojados para corregir una ocupación ilegal tienen derecho a asistencia de reubicación equivalente a seis veces la renta mensual.",
+  "key_value": "Se requiere causa justificada enumerada; reubicación por ocupación ilegal = 6 veces la renta mensual",
   "source_hash": "ef00b082a42830285ebe16c903c4a5b9ef64cbc5"
  },
- "r-0038": {
-  "title": "No hay límite estatal al alquiler; los aumentos no deben ser abusivos y deben cumplir con el control de alquileres local",
-  "requirement": "New Jersey no tiene un límite estatal al alquiler, pero su alquiler no puede aumentarse a mitad del contrato, y cualquier aumento requiere un aviso de desocupación adecuado y una oferta de un nuevo contrato. El aumento no debe ser abusivo y debe cumplir con cualquier ordenanza local de control de alquileres. Pregunte a la junta municipal de control de alquileres o al secretario municipal si su unidad está cubierta.",
+ "r-0036": {
+  "title": "No hay límite estatal de renta; los aumentos no deben ser abusivos y deben cumplir con el control de rentas local",
+  "requirement": "New Jersey no tiene un límite estatal de renta, pero su renta no puede aumentarse a mitad del contrato de arrendamiento, y cualquier aumento requiere un aviso de desocupación adecuado y la oferta de un nuevo contrato. El aumento no debe ser abusivo (unconscionable) y debe cumplir con cualquier ordenanza local de control de rentas. Pregunte a la junta municipal de control de rentas o al secretario municipal si su unidad está cubierta.",
   "key_value": "Sin límite estatal; el aumento no debe ser abusivo",
   "source_hash": "3341df8d874fbe87b408c5d6b974f9b6147ac0ae"
  },
- "r-0039": {
-  "title": "No se permiten aumentos de alquiler para cubrir los costos de conversión a condominio o cooperativa",
-  "requirement": "Si su edificio se convierte en condominio, cooperativa o propiedad en pleno dominio (fee simple), su arrendador no puede aumentarle el alquiler para cubrir costos que resulten únicamente de la conversión. El alquiler aún puede aumentar para pagar nuevos servicios o comodidades.",
+ "r-0037": {
+  "title": "No se permiten aumentos de renta para cubrir costos de conversión a condominio o cooperativa",
+  "requirement": "Si su edificio se convierte a condominio, cooperativa o propiedad plena (fee simple), su arrendador no puede aumentarle la renta para cubrir costos que resulten únicamente de la conversión. La renta todavía puede subir para pagar nuevos servicios o comodidades.",
   "key_value": null,
   "source_hash": "6e281eb1b9630114a313ef05191648aab99c4d92"
  },
- "r-0040": {
-  "title": "Viviendas multifamiliares de nueva construcción exentas del control de alquileres local por 30 años",
-  "requirement": "Si su edificio es una vivienda multifamiliar de nueva construcción, está exento del control de alquileres local durante 30 años después de terminada la construcción. Consulte con su junta de control de alquileres o con el secretario municipal para confirmar si su unidad está cubierta.",
-  "key_value": "Exención de 30 años del control de alquileres local después de terminada la construcción",
+ "r-0038": {
+  "title": "Edificios multifamiliares de nueva construcción exentos del control de rentas local por 30 años",
+  "requirement": "Si su edificio es un edificio multifamiliar de nueva construcción, está exento del control de rentas local durante 30 años después de terminada la construcción. Consulte con su junta de control de rentas o el secretario municipal para confirmar si su unidad está cubierta.",
+  "key_value": "Exención de 30 años del control de rentas local después de terminada la construcción",
   "source_hash": "50c0dd02898e094e24fa2da6290f34f90220673b"
  },
- "r-0041": {
-  "title": "La Law Against Discrimination (Ley contra la Discriminación) prohíbe la discriminación por fuente de ingresos",
-  "requirement": "Un arrendador no puede negarse a alquilarle ni tratarlo de manera diferente por su fuente de ingresos legales, como un vale de vivienda. Puede presentar una queja ante la NJ Division of Civil Rights (División de Derechos Civiles de NJ) o en la Superior Court (Tribunal Superior).",
+ "r-0039": {
+  "title": "La Law Against Discrimination (Ley Contra la Discriminación) prohíbe la discriminación por fuente de ingresos",
+  "requirement": "Un arrendador no puede negarse a rentarle ni tratarle de manera diferente por su fuente de ingresos legales, como un vale de vivienda. Puede presentar una queja ante la NJ Division of Civil Rights (División de Derechos Civiles de NJ) o en la Superior Court (Corte Superior).",
   "key_value": "Fuente de ingresos legales protegida; multas de hasta $10,000 por una primera infracción",
   "source_hash": "b7359507839d41665792f3f297bea8a9da019f9f"
  },
- "r-0042": {
+ "r-0040": {
   "title": "Fair Chance in Housing Act (Ley de Oportunidad Justa en la Vivienda): no se permiten preguntas sobre antecedentes penales antes de una oferta condicional",
-  "requirement": "Un arrendador en New Jersey no puede preguntarle sobre sus antecedentes penales, ni verbalmente ni en una solicitud, hasta después de hacerle una oferta condicional, excepto sobre la producción de metanfetamina en propiedades con asistencia federal o el registro de por vida como delincuente sexual. Usted puede darle al arrendador pruebas de errores en sus antecedentes o de su rehabilitación.",
-  "key_value": "No se permite indagar sobre antecedentes penales antes de una oferta condicional",
+  "requirement": "Un arrendador en New Jersey no puede preguntarle sobre sus antecedentes penales, ni oralmente ni en una solicitud, hasta después de hacerle una oferta condicional, excepto sobre la producción de metanfetamina en propiedades con asistencia federal o el registro de por vida como delincuente sexual. Usted puede darle al arrendador pruebas de errores en sus antecedentes o de su rehabilitación.",
+  "key_value": "No se permiten preguntas sobre antecedentes penales antes de la oferta condicional",
   "source_hash": "b9fdebcfa70cba148ebaa3f50e08f89344a78bac"
  },
- "r-0043": {
-  "title": "Fair Chance in Housing Act: aviso por escrito antes de aceptar un cargo por solicitud",
-  "requirement": "Antes de aceptar cualquier cargo por solicitud, un arrendador en New Jersey debe informarle por escrito si revisa antecedentes penales. También debe informarle que usted puede presentar pruebas de errores en sus antecedentes o de su rehabilitación.",
+ "r-0041": {
+  "title": "Fair Chance in Housing Act (Ley de Oportunidad Justa en la Vivienda): aviso por escrito antes de aceptar una cuota de solicitud",
+  "requirement": "Antes de aceptar cualquier cuota de solicitud, un arrendador en New Jersey debe informarle por escrito si revisa antecedentes penales. También debe informarle que usted puede presentar pruebas de errores en sus antecedentes o de su rehabilitación.",
   "key_value": null,
   "source_hash": "28af6b208cc593314e0cb8f0b7e733dd312152a4"
  },
- "r-0044": {
-  "title": "Fair Chance in Housing Act: límites a los antecedentes penales que se consideran después de una oferta condicional",
-  "requirement": "Incluso después de una oferta condicional, un arrendador en New Jersey nunca puede considerar arrestos sin condena, antecedentes eliminados (expunged), indultados, anulados o sellados, ni fallos de menores. Solo puede considerar condenas graves enumeradas, delitos de primer grado dentro de 6 años, delitos de segundo o tercer grado dentro de 4 años y delitos de cuarto grado dentro de 1 año. Si el arrendador retira la oferta, debe darle las razones por escrito y una evaluación individualizada, y usted puede solicitar dentro de 30 días, sin costo, toda la información en la que se basó.",
+ "r-0042": {
+  "title": "Fair Chance in Housing Act (Ley de Oportunidad Justa en la Vivienda): límites sobre los antecedentes penales considerados después de una oferta condicional",
+  "requirement": "Incluso después de una oferta condicional, un arrendador en New Jersey nunca puede considerar arrestos sin condena, antecedentes eliminados (expunged), indultados, anulados o sellados, ni adjudicaciones juveniles. Solo puede considerar condenas graves enumeradas, delitos de primer grado dentro de 6 años, delitos de segundo o tercer grado dentro de 4 años y delitos de cuarto grado dentro de 1 año. Si el arrendador retira la oferta, debe darle las razones por escrito y una evaluación individualizada, y usted puede solicitar dentro de 30 días, sin costo, toda la información en la que se basó.",
   "key_value": "Período de revisión: 1er grado 6 años; 2do/3er grado 4 años; 4to grado 1 año",
   "source_hash": "9d117de4b72f3bcfcee1074ed3b4d1b2d594ff47"
  },
- "r-0045": {
-  "title": "Prohibida la discriminación por fuente de ingresos legales (NJ Law Against Discrimination (Ley contra la Discriminación de NJ))",
-  "requirement": "Un arrendador en New Jersey no puede negarse a alquilarle, ni tratarlo de manera diferente, por su fuente de ingresos legales o de pago del alquiler, como un vale de Section 8. Puede presentar una queja gratuita ante la Division on Civil Rights (División de Derechos Civiles) dentro de 180 días, o demandar en la Superior Court (Tribunal Superior) dentro de dos años.",
+ "r-0043": {
+  "title": "Prohibida la discriminación por fuente de ingresos legales (NJ Law Against Discrimination (Ley Contra la Discriminación de NJ))",
+  "requirement": "Un arrendador en New Jersey no puede negarse a rentarle, ni tratarle de manera diferente, por su fuente de ingresos legales o de pago de renta, como un vale de Section 8. Puede presentar una queja gratuita ante la Division on Civil Rights (División de Derechos Civiles) dentro de 180 días, o demandar en la Superior Court (Corte Superior) dentro de dos años.",
   "key_value": null,
   "source_hash": "907fdebb09ae73cbca96c9cb06834d7d6a5c6212"
  },
- "r-0046": {
-  "title": "Depósito de garantía limitado a 1.5 meses de alquiler",
-  "requirement": "Su arrendador no puede cobrar un depósito de garantía (incluido cualquier depósito por mascota o el último mes de alquiler pagado por adelantado) mayor que 1.5 veces un mes de alquiler, y cualquier aumento anual del depósito no puede superar el 10% del depósito actual. El arrendador debe devolverle el depósito más intereses, menos las deducciones detalladas, dentro de los 30 días después de que termine el arrendamiento, o usted puede demandar por el doble de la cantidad retenida indebidamente.",
-  "key_value": "1.5 meses de alquiler (máximo 2.5 meses en total al inicio del contrato, incluido el primer mes de alquiler)",
+ "r-0044": {
+  "title": "Depósito de garantía limitado a 1.5 meses de renta",
+  "requirement": "Su arrendador no puede cobrar un depósito de garantía (incluido cualquier depósito por mascota o el último mes de renta pagado por adelantado) de más de 1.5 veces un mes de renta, y cualquier aumento anual del depósito no puede superar el 10% del depósito actual. El arrendador debe devolverle el depósito más intereses, menos las deducciones detalladas, dentro de los 30 días después de que termine el arrendamiento; de lo contrario, usted puede demandar por el doble de la cantidad retenida indebidamente.",
+  "key_value": "1.5 meses de renta (máximo 2.5 meses en total al inicio del contrato, incluido el primer mes de renta)",
   "source_hash": "44af6820eb4b878a4ed2f0b4704e138eeb34f70b"
  },
  "r-0047": {
@@ -426,22 +384,22 @@
   "source_hash": "31986b25171717bdb0731986d692daf4d1c6cac4"
  },
  "r-0059": {
-  "title": "Housing Stability Notification Act (Ley de Notificación de Estabilidad de la Vivienda) – Aviso de Derechos y Recursos para Inquilinos",
-  "requirement": "Si su arrendador planea terminar su arrendamiento, debe entregarle un Aviso de Derechos y Recursos para Inquilinos al mismo tiempo que el aviso de desocupación o de no renovación, y debe presentar una copia de ese aviso ante la Ciudad. Si no lo recibe, repórtelo a la Office of Fair Housing and Equity (Oficina de Vivienda Justa y Equidad) (617-635-2500 o 311). La infracción no detiene el desalojo.",
-  "key_value": "Aviso de Derechos y Recursos para Inquilinos entregado junto con el aviso de desocupación o de no renovación",
-  "source_hash": "c2728fd02bbe7a65c63c5fef99d62aa1f0cf6fb0"
+  "title": "Housing Stability Notification Act (Ley de Notificación de Estabilidad de Vivienda) – Aviso de Derechos y Recursos de los Inquilinos",
+  "requirement": "Todo arrendador de Boston que planee terminar su arrendamiento debe entregarle un Aviso de Derechos y Recursos de los Inquilinos junto con el Notice to Quit (aviso de desocupación) o el aviso de no renovación; si no lo recibió, repórtelo a la Office of Fair Housing and Equity (Oficina de Vivienda Justa y Equidad) (617-635-2500 o 311). Una violación no detiene el proceso de desalojo.",
+  "key_value": "Aviso de Derechos y Recursos de los Inquilinos con el Notice to Quit; multa de hasta $300/día",
+  "source_hash": "5a7e5b0f8e70c3ce9bcfb2bc52124770e980a66a"
  },
  "r-0061": {
-  "title": "Petición de autonomía local H.3744 para autorizar protecciones contra el desalojo para inquilinos de Boston (no aprobada)",
-  "requirement": "Este proyecto de ley habría permitido a Boston adoptar protecciones contra el desalojo para inquilinos, pero en septiembre de 2024 fue enviado a una orden de estudio y no se aprobó. No le otorga ningún derecho a que el desalojo requiera causa justa.",
+  "title": "Petición de autonomía local de Boston para protecciones contra el desalojo de inquilinos (H.3744)",
+  "requirement": "Este proyecto de ley habría autorizado a Boston a adoptar protecciones contra el desalojo de inquilinos, pero fue enviado a una orden de estudio en septiembre de 2024 y no fue aprobado. No es ley.",
   "key_value": null,
-  "source_hash": "f0ad265b87bc7acfb247b308f690b929f4df19eb"
+  "source_hash": "9b52e6c1aae2203c8a0a532fc57afb5b7a9c3a10"
  },
  "r-0062": {
-  "title": "Petición de autonomía local H.3744 para autorizar la estabilización de rentas en Boston (no aprobada)",
-  "requirement": "Este proyecto de ley habría permitido a Boston adoptar la estabilización de rentas, pero en septiembre de 2024 fue enviado a una orden de estudio y la sesión 2023-2024 terminó. No limita los aumentos de su renta.",
+  "title": "Petición de autonomía local de Boston para la estabilización de rentas (H.3744)",
+  "requirement": "Este proyecto de ley habría autorizado a Boston a adoptar la estabilización de rentas, pero fue enviado a una orden de estudio en septiembre de 2024 y la sesión 2023-2024 terminó. No es ley, y Boston no tiene un límite de renta derivado de este proyecto.",
   "key_value": null,
-  "source_hash": "c1e6881577dc4cc741959bc0efba9c5cca4060d7"
+  "source_hash": "eef2de8e4cd7c0babba4828b9d9cff4d20fa63f4"
  },
  "r-0063": {
   "title": "Boston Fair Chance Tenant Selection Policy (Política de Selección Justa de Inquilinos de Boston) (revisión de antecedentes penales)",
@@ -456,99 +414,129 @@
   "source_hash": "a3879694d226acf26a9203ee1b41fa1bfde706be"
  },
  "r-0065": {
+  "title": "Tenants Rights and Resources Notification Ordinance (Ordenanza de Notificación de Derechos y Recursos de los Inquilinos): aviso de derechos cuando se termina un arrendamiento",
+  "requirement": "Cuando su arrendador tome medidas legales para terminar su arrendamiento, como un Notice to Quit (aviso de desocupación) o un caso de Summary Process (proceso sumario de desalojo), debe entregarle al mismo tiempo la Guía de Derechos y Recursos de los Inquilinos de la Ciudad. Si no la recibió, puede descargarla del sitio web de la Ciudad y comunicarse con la Office of the Housing Liaison (Oficina de Enlace de Vivienda) al 617-349-7222.",
+  "key_value": null,
+  "source_hash": "6fc081cb1f9e44f871b6f160cacb291ac9a3c75f"
+ },
+ "r-0066": {
   "title": "Cambridge Fair Housing Ordinance (Ordenanza de Vivienda Justa de Cambridge): prohibida la discriminación por fuente de ingresos",
-  "requirement": "Los arrendadores y agentes de alquiler en Cambridge no pueden negarse a rentarle, ni fijar condiciones diferentes, debido a su fuente de ingresos, incluido un vale de la Sección 8 o beneficios públicos. Si esto sucede, puede presentar una queja ante la Cambridge Human Rights Commission (Comisión de Derechos Humanos de Cambridge) (617-349-4396).",
+  "requirement": "Los arrendadores y agentes de alquiler en Cambridge no pueden negarse a rentarle, ni establecer términos diferentes, por su fuente de ingresos, incluido un vale de Section 8 o beneficios públicos. Si esto ocurre, puede presentar una queja ante la Cambridge Human Rights Commission (Comisión de Derechos Humanos de Cambridge) (617-349-4396).",
   "key_value": null,
   "source_hash": "a96639ec6b487c4f2194224a4970a3764bc820c8"
  },
- "r-0066": {
+ "r-0068": {
   "title": "Prohibición de la fijación algorítmica de rentas en el mercado de vivienda de alquiler",
-  "requirement": "Los arrendadores de Hoboken no pueden usar software, algoritmos ni plataformas de intercambio de datos que recopilen y analicen información no pública de competidores para coordinar, recomendar o fijar rentas, condiciones de arrendamiento o niveles de ocupación. Si cree que un arrendador hizo esto, usted o la Division of Housing (División de Vivienda) pueden llevar la infracción ante el Hoboken Municipal Court (Tribunal Municipal de Hoboken).",
+  "requirement": "Los arrendadores de Hoboken no pueden usar software, algoritmos ni plataformas de intercambio de datos que recopilen y analicen información no pública de competidores para coordinar, recomendar o fijar rentas, términos de arrendamiento o niveles de ocupación. Si cree que un arrendador hizo esto, usted o la Division of Housing (División de Vivienda) pueden presentar la violación ante la Hoboken Municipal Court (Corte Municipal de Hoboken).",
   "key_value": "Multa de hasta $2,000 o hasta 90 días de servicio comunitario",
   "source_hash": "3638e838bec8a392f91313b035c5e220a7420290"
  },
- "r-0067": {
-  "title": "Descontrol por desocupación en Hoboken limitado al 25%",
-  "requirement": "Cuando un inquilino deja voluntariamente una unidad registrada con control de rentas, el arrendador puede aumentar la primera renta del nuevo inquilino como máximo un 25% sobre la renta anterior, y solo una vez en cualquier período de tres años. Los aumentos posteriores vuelven a estar controlados.",
-  "key_value": "25% sobre la última renta al desocuparse; una vez cada 3 años",
-  "source_hash": "5df87fed55dc1010c5ed588c0a5577be40d66d2c"
- },
- "r-0068": {
-  "title": "Control de rentas en Hoboken: aumento anual limitado al menor entre 5% o el CPI",
-  "requirement": "En una unidad de Hoboken con control de rentas, su arrendador puede aumentar la renta solo cuando termina su contrato de arrendamiento, una vez en cualquier período de 12 meses, en no más del 5% o del cambio en el CPI (Índice de Precios al Consumidor), lo que sea menor. El arrendador debe dar un aviso por escrito con 30 días de anticipación, con las razones y un certificado de cumplimiento sustancial del código; los aumentos por encima de la cantidad legal son nulos y deben reembolsarse, sujeto a un límite de dos años.",
-  "key_value": "el menor entre 5% o el cambio en el CPI, una vez cada 12 meses",
-  "source_hash": "c034a4ec6c3118941fd33a168334beaba00bfc60"
- },
- "r-0069": {
-  "title": "Control de rentas en Hoboken: registro anual y comprobante de renta requeridos para los aumentos de renta permitidos",
-  "requirement": "La mayoría de las unidades de alquiler en Hoboken, incluidos muchos condominios, están bajo control de rentas, y los arrendadores deben registrarlas ante la Rent Leveling and Stabilization Office (Oficina de Nivelación y Estabilización de Rentas) antes del 30 de junio de cada año. A un arrendador que no registre la unidad o no presente comprobante de la renta recibida se le puede negar un aumento de renta, por lo que un inquilino puede verificar el estado del registro y apelar a través de esa oficina.",
-  "key_value": null,
-  "source_hash": "78305c11dc696133f6d5992e9cf0fedbe1a17811"
- },
  "r-0070": {
-  "title": "Prevención de la fijación algorítmica de rentas en el mercado de vivienda de alquiler",
-  "requirement": "Los arrendadores de Jersey City y sus agentes no pueden pagar ni suscribirse a servicios que recopilen datos de rentas, ocupación o arrendamientos de competidores y usen software para recomendar rentas, condiciones de arrendamiento o niveles de ocupación, y esos proveedores de servicios no pueden facilitar acuerdos entre arrendadores para no competir. Si tiene pruebas de que su arrendador usa un servicio así, puede reportarlo a la Office of Landlord/Tenant Relations (Oficina de Relaciones entre Arrendadores e Inquilinos) o demandar por daños.",
-  "key_value": "Prohibido usar proveedores de servicios algorítmicos para fijar rentas; infracciones posteriores $100-$2,000 por día",
-  "source_hash": "9d70db18062e1cc96c85f03445d866af985787cb"
+  "title": "Límite de aumento de renta en Hoboken al vencer o terminar el contrato de arrendamiento",
+  "requirement": "Cuando su contrato de arrendamiento termine o se renueve (o en un arrendamiento periódico), su arrendador en Hoboken no puede aumentar la renta más del 5% o del cambio en el CPI, lo que sea menor. Solo se permite un aumento de este tipo en cualquier período de 12 meses, sin importar si cambian los inquilinos.",
+  "key_value": "el menor entre 5% o el cambio en el CPI; un aumento cada 12 meses",
+  "source_hash": "b4ba725df5613adaf047e2d6b8ba614dcdd433e5"
  },
  "r-0071": {
-  "title": "Rent Control Ordinance (Ordenanza de Control de Rentas) de Jersey City (Capítulo 260)",
-  "requirement": "Si renta en un edificio de Jersey City con 5 o más unidades, su renta puede estar regulada por la Rent Control Ordinance de la ciudad. Puede preguntar a la Office of Landlord/Tenant Relations (Oficina de Relaciones entre Arrendadores e Inquilinos) sobre el estado de su edificio a través de SeeClickFix o presentar una Illegal Rent Petition (Petición por Renta Ilegal) si cree que su renta es ilegal.",
+  "title": "Pregunta pública de Hoboken de 2024 para permitir alquiler a precio de mercado en unidades desocupadas a cambio de una tarifa de $2,500 (rechazada)",
+  "requirement": "Esta propuesta no es ley. Los votantes de Hoboken la rechazaron el November 5, 2024 (6,082 a favor y 16,371 en contra), por lo que los arrendadores no pueden pagar una tarifa de $2,500 para ajustar al precio de mercado el alquiler de un apartamento con control de alquiler que haya quedado desocupado.",
+  "key_value": "Tarifa de $2,500 para alquiler a precio de mercado al desocuparse la unidad (rechazada)",
+  "source_hash": "09138aa0e01b4ef6b5b2a0a9cebb3cac3675a0d4"
+ },
+ "r-0073": {
+  "title": "Prevención de la fijación algorítmica de alquileres en el mercado de vivienda de alquiler",
+  "requirement": "Los arrendadores de Jersey City y sus agentes no pueden pagar ni suscribirse a servicios que recopilen datos de alquiler, ocupación o contratos de arrendamiento de la competencia y usen software para recomendar alquileres, condiciones de arrendamiento o niveles de ocupación, y dichos proveedores de servicios no pueden facilitar acuerdos entre arrendadores para no competir. Si tiene pruebas de que su arrendador usa un servicio de este tipo, puede denunciarlo ante la Office of Landlord/Tenant Relations (Oficina de Relaciones entre Arrendadores e Inquilinos) o demandar por los daños sufridos.",
+  "key_value": "Prohibición de usar proveedores de servicios algorítmicos para fijar alquileres; infracciones posteriores de $100-$2,000 por día",
+  "source_hash": "9d70db18062e1cc96c85f03445d866af985787cb"
+ },
+ "r-0074": {
+  "title": "Jersey City Rent Control Ordinance (Ordenanza de Control de Alquileres de Jersey City) (Chapter 260)",
+  "requirement": "Si alquila en un edificio de Jersey City con 5 o más unidades, su alquiler puede estar regulado por la Rent Control Ordinance de la ciudad. Puede consultar a la Office of Landlord/Tenant Relations (Oficina de Relaciones entre Arrendadores e Inquilinos) sobre la situación de su edificio a través de SeeClickFix, o presentar una Illegal Rent Petition (Petición por Alquiler Ilegal) si cree que su alquiler es ilegal.",
   "key_value": null,
   "source_hash": "e95ea453c3b130c2c22341597b9f70649337fe72"
  },
- "r-0072": {
-  "title": "Razones legales para el desalojo y asistencia de reubicación bajo la RSO",
-  "requirement": "En una unidad bajo la RSO (Ordenanza de Estabilización de Rentas), su arrendador solo puede desalojarlo por una de las razones enumeradas. Las razones por culpa del inquilino incluyen falta de pago, infracciones del contrato de arrendamiento, molestias o uso ilegal. Las razones sin culpa del inquilino incluyen que el dueño o un familiar se mude a la unidad, un administrador residente, demolición, una orden del gobierno o la conversión a vivienda asequible. Para un desalojo sin culpa, el arrendador debe presentar una Declaration of Intent to Evict (Declaración de Intención de Desalojo), dar un aviso de 30 o 60 días (a veces de 120 días) y pagar asistencia de reubicación. Todos los avisos de terminación deben presentarse ante LAHD dentro de 3 días hábiles.",
-  "key_value": "Solo por las causas enumeradas; asistencia de reubicación para desalojos sin culpa; aviso presentado ante LAHD dentro de 3 días hábiles",
+ "r-0075": {
+  "title": "Causas legales de desalojo y asistencia para reubicación según la RSO",
+  "requirement": "En una unidad sujeta a la RSO, su arrendador solo puede desalojarlo por una de las causas enumeradas. Las causas por culpa del inquilino incluyen falta de pago, incumplimiento del contrato de arrendamiento, molestias graves (nuisance) o uso ilegal. Las causas sin culpa del inquilino incluyen que el propietario o un familiar se mude a la unidad, un administrador residente, demolición, una orden gubernamental o la conversión a vivienda asequible. Para un desalojo sin culpa, el arrendador debe presentar una Declaration of Intent to Evict (Declaración de Intención de Desalojo), dar un aviso de 30 o 60 días (a veces de 120 días) y pagar asistencia para reubicación. Todos los avisos de terminación deben presentarse ante LAHD dentro de 3 días hábiles.",
+  "key_value": "Solo por las causas enumeradas; asistencia para reubicación en desalojos sin culpa; aviso presentado ante LAHD dentro de 3 días hábiles",
   "source_hash": "a0a2bd4addde59eb1e39f6fec8ae2c14fb02e68d"
  },
- "r-0073": {
-  "title": "Asistencia de reubicación y presentación ante LAHD para desalojos sin culpa bajo la RSO y la JCO",
-  "requirement": "Si su arrendador lo desaloja por una razón sin culpa del inquilino (que el dueño o un familiar se mude a la unidad, demolición o retiro del uso de alquiler, orden del gobierno de desocupar, conversión y casos similares), el arrendador primero debe presentar una Declaration of Intent to Evict (Declaración de Intención de Desalojo) ante LAHD. El arrendador también debe pagarle asistencia de reubicación por unidad dentro de los 15 días siguientes a la entrega del aviso; los montos para 2026-27 van de $11,000 a $27,400 según la duración de su arrendamiento, sus ingresos, edad, discapacidad o si tiene hijos. Si no le pagan, puede usar la falta de pago como defensa contra el desalojo y presentar una queja ante LAHD.",
-  "key_value": "Elegible: $11,000 (<3 años) / $14,400 (3+ años o bajos ingresos); Calificado: $23,150 / $27,400; Dueño pequeño (Mom & Pop) que se muda a la unidad: $10,550 / $21,250; casa unifamiliar bajo la JCO cuyo dueño es una persona física: 1 mes de renta (1 de julio de 2026–30 de junio de 2027)",
+ "r-0076": {
+  "title": "Asistencia para reubicación y presentación ante LAHD en desalojos sin culpa según la RSO y la JCO",
+  "requirement": "Si su arrendador lo desaloja por una causa sin culpa del inquilino (que el propietario o un familiar se mude a la unidad, demolición o retiro del uso como alquiler, orden gubernamental de desocupar, conversión y casos similares), el arrendador primero debe presentar una Declaration of Intent to Evict (Declaración de Intención de Desalojo) ante LAHD. El arrendador también debe pagarle asistencia para reubicación por unidad dentro de los 15 días posteriores a la entrega del aviso; los montos de 2026-27 van de $11,000 a $27,400 según el tiempo que lleve como inquilino, sus ingresos, edad, discapacidad o si tiene hijos. Si no le pagan, puede alegar la falta de pago como defensa contra el desalojo y presentar una queja ante LAHD.",
+  "key_value": "Elegible: $11,000 (<3 años) / $14,400 (3+ años o bajos ingresos); Calificado: $23,150 / $27,400; propietario pequeño (Mom & Pop) que se muda a la unidad: $10,550 / $21,250; JCO, casa unifamiliar propiedad de una persona física: 1 mes de alquiler (July 1, 2026–June 30, 2027)",
   "source_hash": "ad5b4e5316c9d70394e77481928bd89c066e471a"
  },
- "r-0074": {
-  "title": "Just Cause for Eviction Ordinance (JCO) (Ordenanza de Causa Justa para el Desalojo) de Los Angeles",
-  "requirement": "Si renta en Los Angeles una unidad que no está cubierta por la Rent Stabilization Ordinance (Ordenanza de Estabilización de Rentas), su arrendador solo puede desalojarlo por una razón enumerada, con o sin culpa del inquilino, una vez que usted haya vivido allí seis meses o haya vencido su contrato de arrendamiento original. Para desalojos sin culpa, como que el dueño se mude a la unidad o una demolición, el arrendador debe pagar asistencia de reubicación.",
-  "key_value": "Se requiere causa justa después de 6 meses de arrendamiento o del vencimiento del contrato; asistencia de reubicación para desalojos sin culpa",
+ "r-0077": {
+  "title": "Los Angeles Just Cause for Eviction Ordinance (Ordenanza de Causa Justa para Desalojo de Los Ángeles) (JCO)",
+  "requirement": "Si alquila en Los Ángeles una unidad que no está cubierta por la Rent Stabilization Ordinance (Ordenanza de Estabilización de Alquileres), su arrendador solo puede desalojarlo por una de las causas enumeradas, con o sin culpa del inquilino, una vez que haya vivido allí seis meses o que su contrato de arrendamiento original haya vencido. En los desalojos sin culpa, como que el propietario se mude a la unidad o una demolición, el arrendador debe pagar asistencia para reubicación.",
+  "key_value": "Se requiere causa justa después de 6 meses como inquilino o al vencer el contrato de arrendamiento; asistencia para reubicación en desalojos sin culpa",
   "source_hash": "7c6ed4943990b831fb369398856751a8b11b0778"
  },
- "r-0075": {
-  "title": "Reubicación bajo la Resident Protections Ordinance (Ordenanza de Protección de Residentes) por demolición de Unidades Protegidas para nueva construcción",
-  "requirement": "Si su unidad es una Unidad Protegida (esto incluye todas las unidades bajo la RSO) y será demolida para nueva construcción, usted tiene derecho a al menos el monto de reubicación de la RSO/JCO. Si su hogar es de menores ingresos, recibe los montos más altos de la RPO o del estado, hasta $115,480 para hogares de ingresos extremadamente bajos bajo la opción estandarizada de la Ciudad. Las protecciones de la RPO también incluyen un aviso de 6 meses, el derecho a quedarse hasta 6 meses antes de que comience la construcción, el derecho a regresar si la demolición no se lleva a cabo y, para algunos inquilinos, un derecho de preferencia en el nuevo edificio.",
-  "key_value": "Pagos estandarizados de la RPO: ingresos extremadamente bajos $115,480; muy bajos $96,750; bajos $87,450; por encima de ingresos bajos recibe los montos de la Tabla A de la RSO/JCO (1 de julio de 2026–30 de junio de 2027)",
+ "r-0078": {
+  "title": "Reubicación según la Resident Protections Ordinance (Ordenanza de Protección a Residentes) por demolición de Unidades Protegidas para nueva construcción",
+  "requirement": "Si su unidad es una Unidad Protegida (Protected Unit; esto incluye todas las unidades sujetas a la RSO) y va a ser demolida para una nueva construcción, usted tiene derecho a recibir al menos el monto de reubicación de la RSO/JCO. Si su hogar es de bajos ingresos, recibe los montos más altos de la RPO o del estado, hasta $115,480 para hogares de ingresos extremadamente bajos según la opción estandarizada de la Ciudad. Las protecciones de la RPO también incluyen un aviso de 6 meses, el derecho a permanecer en la unidad hasta 6 meses antes del inicio de la construcción, el derecho a regresar si la demolición no se lleva a cabo y, para algunos inquilinos, un derecho de preferencia en el nuevo edificio.",
+  "key_value": "Pagos estandarizados de la RPO: ingresos extremadamente bajos $115,480; muy bajos $96,750; bajos $87,450; ingresos superiores a bajos reciben los montos de la Chart A de la RSO/JCO (July 1, 2026–June 30, 2027)",
   "source_hash": "f0df5eebb5889269027c62698121fc50db1419ee"
  },
- "r-0076": {
-  "title": "Cobertura de la Rent Stabilization Ordinance (Ordenanza de Estabilización de Rentas) (certificado de ocupación anterior a octubre de 1978)",
-  "requirement": "Su unidad en Los Angeles está cubierta por la Rent Stabilization Ordinance si su certificado de ocupación se emitió por primera vez antes del 1 de octubre de 1978. Revise la fecha del certificado de ocupación de su edificio para saber si se aplican las protecciones de la RSO.",
+ "r-0079": {
+  "title": "Cobertura de la Rent Stabilization Ordinance (Ordenanza de Estabilización de Alquileres) (certificado de ocupación anterior a October 1978)",
+  "requirement": "Su unidad en Los Ángeles está cubierta por la Rent Stabilization Ordinance si su certificado de ocupación se emitió por primera vez antes del October 1, 1978. Revise la fecha del certificado de ocupación de su edificio para saber si se aplican las protecciones de la RSO.",
   "key_value": null,
   "source_hash": "320d9a523e6f897bba72056e3ebb5a6364a27574"
  },
- "r-0077": {
-  "title": "Aumento anual de renta permitido bajo la Rent Stabilization Ordinance (RSO) (Ordenanza de Estabilización de Rentas)",
-  "requirement": "Si su unidad en LA se construyó por primera vez el 1 de octubre de 1978 o antes, su arrendador puede aumentar la renta solo una vez cada 12 meses, en no más del porcentaje permitido publicado por la ciudad. Desde el 2 de febrero de 2026, los arrendadores no pueden agregar un porcentaje adicional por servicios públicos ni un aumento del 10% por un dependiente adicional. Los aumentos mayores, como los de mejoras de capital, necesitan la aprobación de LAHD.",
-  "key_value": "Una vez cada 12 meses según el porcentaje de aumento de renta permitido por LAHD; sin porcentaje adicional por servicios públicos después del 2026-02-02",
+ "r-0080": {
+  "title": "Aumento anual de alquiler permitido según la Rent Stabilization Ordinance (Ordenanza de Estabilización de Alquileres) (RSO)",
+  "requirement": "Si su unidad en Los Ángeles se construyó por primera vez el October 1, 1978 o antes, su arrendador solo puede subir el alquiler una vez cada 12 meses, y no más del porcentaje permitido publicado por la ciudad. Desde el February 2, 2026, los arrendadores no pueden agregar un porcentaje adicional por servicios públicos ni un aumento del 10% por un dependiente adicional. Los aumentos mayores, como los relacionados con mejoras de capital, necesitan la aprobación de LAHD.",
+  "key_value": "Una vez cada 12 meses según el porcentaje de aumento de alquiler permitido por LAHD; sin porcentaje adicional por servicios públicos después del 2026-02-02",
   "source_hash": "8612a9d9f750ea77e0451c468fc48731d7771e44"
  },
- "r-0078": {
+ "r-0100": {
+  "title": "Prohibición en Santa Ana de la fijación automatizada de precios de alquiler",
+  "requirement": "Santa Ana prohíbe ciertas formas anticompetitivas de fijación automatizada de precios de alquiler. Los inquilinos pueden presentar reclamaciones por hasta $1,000 por cada infracción, por mes.",
+  "key_value": "hasta $1,000 por infracción y por mes",
+  "source_hash": "e27de61c1566d0f5d67ddc1bb5e9949bd4a63d0c"
+ },
+ "r-0101": {
+  "title": "Just Cause Eviction Ordinance (Ordenanza de Desalojo por Causa Justa) de Santa Ana",
+  "requirement": "Después de 30 días de arrendamiento, su arrendador no puede terminar su arrendamiento sin una de las causas justas indicadas en la ordenanza, expresada en un aviso por escrito, y en el caso de causas por culpa del inquilino primero debe darle la oportunidad de corregir la infracción. En los desalojos sin culpa del inquilino (mudanza del propietario a la vivienda, retiro de la vivienda del mercado, demolición o remodelación sustancial), el arrendador debe pagar 3 meses de asistencia para la reubicación o renunciar al cobro de los últimos 3 meses de renta.",
+  "key_value": "3 meses de asistencia para la reubicación o exención de 3 meses de renta en desalojos sin culpa del inquilino",
+  "source_hash": "d29c8c6cd0e49a00111975e7e51114b12ebce391"
+ },
+ "r-0102": {
+  "title": "Desalojo por causa justa y asistencia para la reubicación en Santa Ana",
+  "requirement": "Su arrendador debe tener un motivo válido para desalojarlo, como la falta de pago de la renta, una infracción del contrato de arrendamiento o la mudanza del propietario a la vivienda. Por ciertos motivos de desalojo, es posible que el arrendador tenga que ayudarle a pagar sus gastos de mudanza.",
+  "key_value": null,
+  "source_hash": "da49208b53abd624b0d225810587742c2a67b58d"
+ },
+ "r-0103": {
+  "title": "Límite anual de aumento de renta en Santa Ana",
+  "requirement": "Su arrendador puede aumentar la renta solo una vez al año, y no más que la cantidad menor entre el 3% o el 80% del cambio en el CPI (Índice de Precios al Consumidor). Del 1 de septiembre de 2026 al 31 de agosto de 2027, el máximo es 2.87%, y usted puede presentar una Tenant Petition (Petición del Inquilino) si su aumento es mayor.",
+  "key_value": "el menor entre 3% o el 80% del cambio en el CPI; 2.87% del 2026-09-01 al 2027-08-31",
+  "source_hash": "b6e9cebece0c7e8d95222ee8f26c062d29bcbf87"
+ },
+ "r-0104": {
+  "title": "Rent Stabilization Ordinance (Ordenanza de Estabilización de Rentas) de Santa Ana – límite anual de aumento de renta",
+  "requirement": "Si su edificio fue construido el 1 de febrero de 1995 o antes, su arrendador puede aumentar la renta cada año solo por la cantidad menor entre el 3% o el 80% del cambio en el CPI (Índice de Precios al Consumidor), y no puede aumentarla en absoluto si el CPI es negativo. La Ciudad publica el aumento permitido a más tardar el 30 de junio, con vigencia a partir del 1 de septiembre, y los arrendadores deben darle un aviso por escrito sobre la ordenanza y sus derechos.",
+  "key_value": "el menor entre 3% o el 80% del cambio en el CPI; 0% si el CPI es negativo",
+  "source_hash": "4ec35142d94080e7447f54757c0438d264ff1de6"
+ },
+ "r-0030": {
+  "title": "Prohibición de discriminación por fuente de ingresos (asistencia pública y subsidios de vivienda)",
+  "requirement": "Un arrendador en Massachusetts no puede negarse a rentarle ni discriminarle de otra manera porque usted recibe asistencia pública o un subsidio de vivienda, como un vale de renta, ni por los requisitos de ese programa. Los anuncios no pueden expresar una preferencia en contra de quienes reciben asistencia pública.",
+  "key_value": null,
+  "source_hash": "cb50343faea0e2a1c1563e33cbe16a6516e00690"
+ },
+ "r-0081": {
   "title": "RSO: sin aumento porcentual adicional por servicios públicos",
-  "requirement": "A partir del 2 de febrero de 2026, el arrendador de una unidad bajo la RSO no puede agregar ningún aumento porcentual adicional de renta por servicios públicos además del aumento anual permitido.",
+  "requirement": "A partir del February 2, 2026, el arrendador de una unidad sujeta a la RSO no puede agregar ningún aumento porcentual adicional de alquiler por servicios públicos además del aumento anual permitido.",
   "key_value": "0% adicional por servicios públicos",
   "source_hash": "33457cbd1fb8e86da03847e280b332be42f280c3"
  },
- "r-0079": {
-  "title": "Intereses sobre depósitos de garantía para unidades bajo la RSO",
-  "requirement": "Si renta una unidad bajo la RSO en Los Angeles (certificado de ocupación emitido por primera vez antes del 1 de octubre de 1978) y su arrendador ha tenido su depósito durante al menos un año, el arrendador debe pagarle intereses (3.03% para 2026, o los intereses realmente generados con un estado de cuenta bancario), como pago directo o crédito a la renta, y cualquier interés no pagado cuando usted se mude. Si no le pagan, puede demandar, incluso en el Small Claims Court (Tribunal de Reclamos Menores); la ciudad no investigará.",
-  "key_value": "3.03% de interés simple para 2026 (tasa de la Rent Adjustment Commission) o los intereses realmente generados",
-  "source_hash": "6994f9200e34ac820718cc04e712fb26e45eb434"
- },
- "r-0080": {
-  "title": "Límite de aumento anual bajo el control de rentas de Newark (máximo 4%)",
-  "requirement": "En las unidades de Newark con control de rentas, la renta no puede aumentar más del porcentaje permitido en cualquier período de 12 meses, y nunca más del 4%, aunque cambien los inquilinos o los dueños. No se permite ningún aumento si el edificio no cumple sustancialmente con el código o si el arrendador no ha registrado la unidad, así que verifique el registro con la Office of Rent Control (Oficina de Control de Rentas).",
-  "key_value": "máximo 4% cada 12 meses",
-  "source_hash": "cb4068cce3446631234b249a3f162153858d51cb"
+ "r-0095": {
+  "title": "Aumento anual de alquiler permitido para unidades con control de alquiler, March 1, 2026 – February 28, 2027",
+  "requirement": "Si vive en una unidad con control de alquiler en San Francisco, el aumento anual de su arrendador del March 1, 2026 al February 28, 2027 está limitado al 1.6% de su alquiler base. Por ejemplo, con un alquiler base de $2,000, el aumento es de $32, para un nuevo alquiler base de $2,032.",
+  "key_value": "1.6%",
+  "source_hash": "da8a510bfef5f253f94857094042893561ccb224"
  }
 }

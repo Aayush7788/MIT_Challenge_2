@@ -38,6 +38,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -51,7 +53,7 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state."
+            "quote": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter."
           },
           {
             "field": "effective_date",
@@ -107,6 +109,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -124,11 +128,11 @@
           },
           {
             "field": "status",
-            "quote": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter."
+            "quote": "Approved  by\nGovernor\nOctober 06, 2025."
           },
           {
             "field": "citation",
-            "quote": "An act to add Sections 16729 and 16756.1 to the Business and Professions Code, relating to business regulations."
+            "quote": "16729.\n(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter."
           }
         ],
         "changes": []
@@ -172,10 +176,12 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
-          "requirement": "partly_supported",
+          "requirement": "supported",
           "key_value": "not_applicable",
           "effective_date": "not_applicable",
           "status": "supported",
@@ -189,11 +195,11 @@
           },
           {
             "field": "status",
-            "quote": "(b) It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state."
+            "quote": "Approved  by\nGovernor\nOctober 06, 2025."
           },
           {
             "field": "citation",
-            "quote": "An act to add Sections 16729 and 16756.1 to the Business and Professions Code, relating to business regulations."
+            "quote": "(b) It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state."
           }
         ],
         "changes": []
@@ -237,6 +243,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "consolidation_note": "Fields filled from D026, which state the same law.",
       "verification": {
         "model": "claude-sonnet-5-5",
@@ -313,6 +321,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -388,6 +398,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -401,7 +413,7 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "(d) The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant, which receipt shall itemize the out-of-pocket expenses and time spent by the landlord or their agent to obtain and process the information about the applicant."
+            "quote": "The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant, which receipt shall itemize the out-of-pocket expenses and time spent by the landlord or their agent to obtain and process the information about the applicant."
           },
           {
             "field": "key_value",
@@ -417,7 +429,7 @@
           },
           {
             "field": "citation",
-            "quote": "(f) If an application screening fee has been paid by the applicant, the landlord or their agent shall provide a copy of the consumer credit report to the applicant who is the subject of that report by personal delivery, mail, or email within seven days of the landlord or their agent receiving the report."
+            "quote": "(d) The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant"
           }
         ],
         "changes": []
@@ -426,22 +438,22 @@
     {
       "team_rule_id": "r-0007",
       "overrides": [
-        "r-0048",
-        "r-0049",
         "r-0050",
         "r-0051",
-        "r-0071",
-        "r-0072",
-        "r-0073",
-        "r-0074",
-        "r-0082",
-        "r-0083",
-        "r-0086",
+        "r-0052",
+        "r-0053",
+        "r-0075",
+        "r-0076",
+        "r-0077",
+        "r-0078",
         "r-0087",
         "r-0088",
-        "r-0089",
-        "r-0095",
-        "r-0096"
+        "r-0091",
+        "r-0092",
+        "r-0093",
+        "r-0094",
+        "r-0101",
+        "r-0102"
       ],
       "jurisdiction": "CA",
       "level": "state",
@@ -487,6 +499,8 @@
       "yields_to_local_rule": true,
       "may_preempt_local_rules": true,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -567,6 +581,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -584,11 +600,11 @@
           },
           {
             "field": "key_value",
-            "quote": "relocation payment consistent to the relocation benefits\nrequired to be paid by public entities under Chapter 16 (commencing with Section 7260) of\nDivision 7 of Title 1 (Government Code 66300.6(b)(4)(A))"
+            "quote": "receive relocation payment consistent to the relocation benefits\nrequired to be paid by public entities under Chapter 16 (commencing with Section 7260) of\nDivision 7 of Title 1 (Government Code 66300.6(b)(4)(A))."
           },
           {
             "field": "status",
-            "quote": "The RSO and JCO amounts must also be enhanced for\nlower income tenants under the HCA regardless of the RPO applicability."
+            "quote": "The City’s Resident Protections Ordinance (RPO) and the\nState’s Housing Crisis Act (HCA) require that ONLY lower income households"
           },
           {
             "field": "citation",
@@ -601,16 +617,16 @@
     {
       "team_rule_id": "r-0009",
       "overrides": [
-        "r-0052",
-        "r-0053",
         "r-0054",
-        "r-0075",
-        "r-0076",
-        "r-0077",
-        "r-0090",
-        "r-0091",
-        "r-0097",
-        "r-0098"
+        "r-0055",
+        "r-0056",
+        "r-0079",
+        "r-0080",
+        "r-0081",
+        "r-0095",
+        "r-0096",
+        "r-0103",
+        "r-0104"
       ],
       "jurisdiction": "CA",
       "level": "state",
@@ -651,6 +667,8 @@
       "yields_to_local_rule": true,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -676,11 +694,11 @@
           },
           {
             "field": "coverage",
-            "quote": "-Units that were constructed within the last 15 years (this applies on a rolling basis"
+            "quote": "-Units that were constructed within the last 15 years (this applies on a rolling basis – i.e.. a unit constructed on January 1, 2006 is not covered as of January, 1 2020, but is covered on and after January 1, 2021)."
           },
           {
             "field": "citation",
-            "quote": "state law\nAB 1482, the California Tenant Protection Act of 2019"
+            "quote": "Sections 1946.2(e)(8)(B)(i) and 1947.12(d)(5)(B)(i)."
           }
         ],
         "changes": []
@@ -689,16 +707,16 @@
     {
       "team_rule_id": "r-0010",
       "overrides": [
-        "r-0052",
-        "r-0053",
         "r-0054",
-        "r-0075",
-        "r-0076",
-        "r-0077",
-        "r-0090",
-        "r-0091",
-        "r-0097",
-        "r-0098"
+        "r-0055",
+        "r-0056",
+        "r-0079",
+        "r-0080",
+        "r-0081",
+        "r-0095",
+        "r-0096",
+        "r-0103",
+        "r-0104"
       ],
       "jurisdiction": "CA",
       "level": "state",
@@ -740,6 +758,8 @@
       "yields_to_local_rule": true,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -810,13 +830,15 @@
       "retrieved_at": "2026-10-01T22:35Z",
       "quoted_span": "(a) For the owner of any housing accommodation to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information of that person.",
       "span_verified": true,
-      "confidence": 0.8,
+      "confidence": 0.85,
       "conflict_flag": false,
       "conflict_note": null,
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -825,7 +847,7 @@
           "effective_date": "not_applicable",
           "status": "supported",
           "coverage": "not_applicable",
-          "citation": "partly_supported"
+          "citation": "supported"
         },
         "evidence": [
           {
@@ -882,6 +904,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -951,6 +975,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -1022,6 +1048,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -1039,7 +1067,7 @@
           },
           {
             "field": "status",
-            "quote": "California law protects tenants from discrimination based on how a tenant will be paying rent (“source of income”)."
+            "quote": "No. California law protects tenants from discrimination based on how a tenant will be paying rent (“source of income”)."
           },
           {
             "field": "coverage",
@@ -1091,6 +1119,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -1108,7 +1138,7 @@
           },
           {
             "field": "key_value",
-            "quote": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and furnished units"
+            "quote": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons"
           },
           {
             "field": "effective_date",
@@ -1172,6 +1202,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -1179,8 +1211,8 @@
           "key_value": "supported",
           "effective_date": "partly_supported",
           "status": "supported",
-          "coverage": "partly_supported",
-          "citation": "partly_supported"
+          "coverage": "supported",
+          "citation": "supported"
         },
         "evidence": [
           {
@@ -1202,10 +1234,6 @@
           {
             "field": "coverage",
             "quote": "(ii) The\nlandlord owns no more than two residential rental properties that collectively include no more than four dwelling units offered for rent."
-          },
-          {
-            "field": "citation",
-            "quote": "(6) This subdivision shall not apply to a security collected or demanded by the landlord before July 1, 2024."
           }
         ],
         "changes": []
@@ -1249,10 +1277,12 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
-          "requirement": "supported",
+          "requirement": "partly_supported",
           "key_value": "partly_supported",
           "effective_date": "supported",
           "status": "supported",
@@ -1270,7 +1300,7 @@
           },
           {
             "field": "effective_date",
-            "quote": "(4) On or after April 1, 2025, if a landlord or its agent charges a service member who rents residential property"
+            "quote": "(4) On or after April 1, 2025, if a landlord or its agent charges a service member who rents residential property in which the service member will reside a higher than standard or advertised security"
           },
           {
             "field": "status",
@@ -1278,7 +1308,7 @@
           },
           {
             "field": "citation",
-            "quote": "(4) On or after April 1, 2025, if a landlord or its agent charges a service member who rents residential property"
+            "quote": "(4) On or after April 1, 2025, if a landlord or its agent charges a service member"
           }
         ],
         "changes": []
@@ -1322,20 +1352,22 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
-          "requirement": "supported",
+          "requirement": "partly_supported",
           "key_value": "supported",
           "effective_date": "not_applicable",
           "status": "supported",
           "coverage": "not_applicable",
-          "citation": "supported"
+          "citation": "partly_supported"
         },
         "evidence": [
           {
             "field": "requirement",
-            "quote": "(1) No later than 21 calendar days after the tenant has vacated the premises,"
+            "quote": "(1) No later than 21 calendar days after the tenant has vacated the premises, but not earlier than the time that either the landlord or the tenant provides a notice to terminate the tenancy under Section 1946 or 1946.1, Section 1161 of the Code of Civil Procedure, or not earlier than 60 calendar days prior to\nthe expiration of a fixed-term lease, the landlord shall furnish the tenant, a copy of an itemized statement indicating the basis for, and the amount of, any security received and the disposition of the security, and shall return any remaining portion of the security to the tenant as follows:"
           },
           {
             "field": "key_value",
@@ -1347,7 +1379,7 @@
           },
           {
             "field": "citation",
-            "quote": "(h) (1) No later than 21 calendar days after the tenant has vacated the premises,"
+            "quote": "(m) The bad faith claim or retention by a landlord or the landlord’s successors in interest of the security or any portion thereof in violation of this section"
           }
         ],
         "changes": []
@@ -1391,6 +1423,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -1456,6 +1490,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -1473,7 +1509,7 @@
           },
           {
             "field": "status",
-            "quote": "House\nBill reported favorably by committee and referred to the committee on\nHouse Ways and Means"
+            "quote": "Bill reported favorably by committee and referred to the committee on\nHouse Ways and Means"
           }
         ],
         "changes": []
@@ -1517,6 +1553,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -1538,7 +1576,7 @@
           },
           {
             "field": "citation",
-            "quote": "The committee on Housing, to whom was referred the petitions (accompanied by bill, Senate, No. 994) of Cindy F. Friedman and Julian Cyr for legislation to prohibit algorithmic rent setting; and (accompanied by bill, Senate, No. 1016)"
+            "quote": "Displaying  3 actions for Bill S.2983"
           }
         ],
         "changes": []
@@ -1582,6 +1620,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -1599,7 +1639,7 @@
           },
           {
             "field": "status",
-            "quote": "Bill reported favorably by committee and referred to the committee on\nSenate Ways and Means"
+            "quote": "Referred to\nSenate Committee on Ways and Means"
           },
           {
             "field": "citation",
@@ -1647,10 +1687,12 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
-          "requirement": "supported",
+          "requirement": "partly_supported",
           "key_value": "not_applicable",
           "effective_date": "not_applicable",
           "status": "supported",
@@ -1668,7 +1710,7 @@
           },
           {
             "field": "citation",
-            "quote": "Section 87DDD1/2. No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman"
+            "quote": "Section 87DDD1/2. No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman as defined in section eighty-seven PP of chapter one hundred and twelve."
           }
         ],
         "changes": []
@@ -1712,6 +1754,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -1741,7 +1785,7 @@
           },
           {
             "field": "citation",
-            "quote": "[ Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025."
+            "quote": "[ Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]"
           }
         ],
         "changes": []
@@ -1787,6 +1831,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -1816,7 +1862,7 @@
           },
           {
             "field": "citation",
-            "quote": "[ Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.  See 2025, 9, Sec. 136."
+            "quote": "[ Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]"
           }
         ],
         "changes": []
@@ -1860,6 +1906,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -1881,7 +1929,7 @@
           },
           {
             "field": "status",
-            "quote": "Section 18. Any person or agent thereof who threatens to or takes reprisals against any tenant of residential premises"
+            "quote": "Any waiver of this provision in any lease or other rental agreement shall be void and unenforceable."
           },
           {
             "field": "citation",
@@ -1929,6 +1977,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": true,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -1950,11 +2000,11 @@
           },
           {
             "field": "status",
-            "quote": "No city or town may enact, maintain or enforce rent control of any kind"
+            "quote": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:"
           },
           {
             "field": "citation",
-            "quote": "General Law - Part I, Title VII, Chapter 40P, Section 4"
+            "quote": "Section 4. No city or town may enact, maintain or enforce rent control of any kind"
           }
         ],
         "changes": []
@@ -1998,6 +2048,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": true,
       "source_type": "secondary (news report)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -2065,6 +2117,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "secondary (news report)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -2073,7 +2127,7 @@
           "effective_date": "not_applicable",
           "status": "supported",
           "coverage": "not_applicable",
-          "citation": "supported"
+          "citation": "partly_supported"
         },
         "evidence": [
           {
@@ -2083,10 +2137,6 @@
           {
             "field": "status",
             "quote": "Massachusetts voters will not have the opportunity to repeal the state’s three-decade ban on rent control on November’s ballot."
-          },
-          {
-            "field": "citation",
-            "quote": "NOTE: NEWS REPORT (State House News Service via WGBH, June 23, 2026) on the Supreme Judicial Court ruling in Cella v. Attorney General, SJC-13893."
           }
         ],
         "changes": []
@@ -2130,6 +2180,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -2147,11 +2199,11 @@
           },
           {
             "field": "status",
-            "quote": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance"
+            "quote": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program."
           },
           {
             "field": "citation",
-            "quote": "7B. For any person to make print, or publish, or cause to be made, printed, or published any notice, statement or advertisement, with respect to the sale or rental of multiple dwelling, contiguously located, publicly assisted or other covered housing accommodations that indicates any preference, limitation, or discrimination based on race, color, religion, sex, gender identity, sexual orientation which shall not include persons whose sexual orientation involves minor children as the sex object, national origin, genetic information, ancestry, children, marital status, public assistance recipiency, or handicap"
+            "quote": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance"
           }
         ],
         "changes": []
@@ -2197,6 +2249,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -2218,11 +2272,11 @@
           },
           {
             "field": "status",
-            "quote": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2);"
+            "quote": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3)"
           },
           {
             "field": "citation",
-            "quote": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3)"
+            "quote": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2);"
           }
         ],
         "changes": []
@@ -2268,6 +2322,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -2281,11 +2337,11 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "(4) The lessor shall, within thirty days after the termination of occupancy under a tenancy-at-will or the end of the tenancy as specified in a valid written lease agreement, return to the tenant the security deposit or any balance thereof;"
+            "quote": "(4) The lessor shall, within thirty days after the termination of occupancy under a tenancy-at-will or the end of the tenancy as specified in a valid written lease agreement, return to the tenant the security deposit or any balance thereof;  provided, however, that the lessor may deduct from such security deposit for the following:"
           },
           {
             "field": "key_value",
-            "quote": "(e) fails to return to the tenant the security deposit or balance thereof to which the tenant is entitled after deducting therefrom any sums in accordance with the provisions of this section, together with any interest thereon, within thirty days after termination of the tenancy."
+            "quote": "the tenant shall be awarded damages in an amount equal to three times the amount of such security deposit or balance thereof to which the tenant is entitled plus interest at the rate of five per cent from the date when such payment became due, together with court costs and reasonable attorney's fees."
           },
           {
             "field": "status",
@@ -2293,7 +2349,7 @@
           },
           {
             "field": "citation",
-            "quote": "(7) If the lessor or his agent fails to comply with clauses (a), (d), or (e) of subsection 6, the tenant shall be awarded damages in an amount equal to three times the amount of such security deposit or balance thereof to which the tenant is entitled plus interest at the rate of five per cent from the date when such payment became due, together with court costs and reasonable attorney's fees."
+            "quote": "(7) If the lessor or his agent fails to comply with clauses (a), (d), or (e) of subsection 6, the tenant shall be awarded damages in an amount equal to three times the amount of such security deposit"
           }
         ],
         "changes": []
@@ -2340,13 +2396,15 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": true,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
           "key_value": "supported",
           "effective_date": "partly_supported",
-          "status": "partly_supported",
+          "status": "supported",
           "coverage": "not_applicable",
           "citation": "partly_supported"
         },
@@ -2357,19 +2415,19 @@
           },
           {
             "field": "key_value",
-            "quote": "a.     a rental property owner, or any agent,\nrepresentative, or subcontractor thereof, to receive, subscribe to, contract\nfor, or otherwise exchange any form of consideration in return for the use of,\nthe services of a coordinator;"
+            "quote": "a rental property owner, or any agent,\nrepresentative, or subcontractor thereof, to receive, subscribe to, contract\nfor, or otherwise exchange any form of consideration in return for the use of,\nthe services of a coordinator;"
           },
           {
             "field": "effective_date",
-            "quote": "9.    This act shall take effect on the first day of\nthe twelfth month next following the date of enactment."
+            "quote": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment."
           },
           {
             "field": "status",
-            "quote": "9.    This act shall take effect on the first day of\nthe twelfth month next following the date of enactment."
+            "quote": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment."
           },
           {
             "field": "citation",
-            "quote": "P.L.\n2026, CHAPTER 43,"
+            "quote": "P.L.\n2026, CHAPTER 43,\napproved July 20, 2026"
           }
         ],
         "changes": []
@@ -2415,10 +2473,12 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
-          "requirement": "partly_supported",
+          "requirement": "supported",
           "key_value": "supported",
           "effective_date": "partly_supported",
           "status": "supported",
@@ -2436,11 +2496,11 @@
           },
           {
             "field": "effective_date",
-            "quote": "3.  This act shall take effect on the first day of the\nfourth month next following the date of enactment, except that the Director of\nthe Division of Consumer Affairs in the Department of Law and Public Safety\nshall be permitted to take anticipatory action necessary to effectuate the\nprovisions of this act."
+            "quote": "This act shall take effect on the first day of the\nfourth month next following the date of enactment, except that the Director of\nthe Division of Consumer Affairs in the Department of Law and Public Safety\nshall be permitted to take anticipatory action necessary to effectuate the\nprovisions of this act."
           },
           {
             "field": "status",
-            "quote": "3.  This act shall take effect on the first day of the\nfourth month next following the date of enactment, except that the Director of\nthe Division of Consumer Affairs in the Department of Law and Public Safety\nshall be permitted to take anticipatory action necessary to effectuate the\nprovisions of this act."
+            "quote": "This act shall take effect on the first day of the\nfourth month next following the date of enactment"
           },
           {
             "field": "citation",
@@ -2448,7 +2508,7 @@
           }
         ],
         "changes": [
-          "second check disputes the coverage: The document exempts one- and two-family dwellings, so coverage would be buildings of 3+ units, but it also exempts New Jersey Real Estate Commission licensees who are not the landlord. The card's min_units 3 is only a rough inference and omits the licensee exemption; no unit threshold is stated as such."
+          "second check disputes the coverage: The document exempts one- and two-family dwellings, so it covers buildings of three or more units. The card's min_units of 3 is a reasonable reading, but the exemption is by dwelling type, not a unit threshold. The licensee exemption is also not captured, and no construction or CO cutoffs exist."
         ]
       }
     },
@@ -2493,6 +2553,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -2568,6 +2630,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -2639,6 +2703,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -2704,6 +2770,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": true,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -2780,6 +2848,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -2801,15 +2871,15 @@
           },
           {
             "field": "status",
-            "quote": "Under State and federal laws, it is illegal for a landlord or rental agency to refuse to rent or \ndiscriminate in the rental of housing units."
+            "quote": "The New Jersey Law Against Discrimination (LAD), \nN.J.S.A. 10:5-12(g) to -(h), prohibits discrimination when selling or renting property"
           },
           {
             "field": "coverage",
-            "quote": "The law applies to all landlord -tenant relationships, except those involving two -family \nowner occupied dwellings, rooms in an owner or resident -occupied single home,"
+            "quote": "The law applies to all landlord -tenant relationships, except those involving two -family \nowner occupied dwellings, rooms in an owner or resident -occupied single home"
           },
           {
             "field": "citation",
-            "quote": "N.J.S.A. 10:5-12(g) to -(h), prohibits discrimination when selling or renting property"
+            "quote": "The New Jersey Law Against Discrimination (LAD), \nN.J.S.A. 10:5-12(g) to -(h), prohibits discrimination when selling or renting property"
           }
         ],
         "changes": []
@@ -2853,13 +2923,15 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
           "key_value": "supported",
           "effective_date": "partly_supported",
-          "status": "partly_supported",
+          "status": "supported",
           "coverage": "supported",
           "citation": "supported"
         },
@@ -2886,7 +2958,7 @@
           },
           {
             "field": "citation",
-            "quote": "4.\na.  (1)\nA\nhousing provider\nshall not require an applicant to\ncomplete any housing application that includes any inquiries regarding an\napplicant’s criminal record prior to the provision of a conditional offer,"
+            "quote": "C.46:8-55  Application process."
           }
         ],
         "changes": []
@@ -2930,13 +3002,15 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
           "key_value": "not_applicable",
           "effective_date": "partly_supported",
-          "status": "partly_supported",
+          "status": "supported",
           "coverage": "supported",
           "citation": "supported"
         },
@@ -3003,20 +3077,22 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
           "key_value": "supported",
           "effective_date": "partly_supported",
-          "status": "partly_supported",
+          "status": "supported",
           "coverage": "supported",
           "citation": "supported"
         },
         "evidence": [
           {
             "field": "requirement",
-            "quote": "(1)   arrests or charges that have not resulted in a\ncriminal conviction;"
+            "quote": "A housing provider shall not, either before\nor after the issuance of a conditional offer, evaluate an applicant based on\nany of the following types of criminal records:"
           },
           {
             "field": "key_value",
@@ -3083,6 +3159,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -3091,7 +3169,7 @@
           "effective_date": "not_applicable",
           "status": "supported",
           "coverage": "partly_supported",
-          "citation": "supported"
+          "citation": "partly_supported"
         },
         "evidence": [
           {
@@ -3147,13 +3225,15 @@
       "retrieved_at": "2026-10-01T22:37Z",
       "quoted_span": "The maximum-security deposit to be collected by the landlord cannot be more than \none and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 ). It can be less. Any additional \nyearly security deposit increase may not exceed 10% of the current security deposit.",
       "span_verified": true,
-      "confidence": 0.8,
+      "confidence": 0.88,
       "conflict_flag": false,
       "conflict_note": null,
       "penalty": "Tenant may recover double the amount wrongfully withheld plus court costs and reasonable attorney's fees (N.J.S.A. 46:8-21.1). Unlawful use of deposit funds is a disorderly persons offense (N.J.S.A. 46:8-25).",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -3161,7 +3241,7 @@
           "key_value": "supported",
           "effective_date": "not_applicable",
           "status": "supported",
-          "coverage": "partly_supported",
+          "coverage": "supported",
           "citation": "supported"
         },
         "evidence": [
@@ -3179,7 +3259,7 @@
           },
           {
             "field": "coverage",
-            "quote": "The exception is an owner-occupied two-, or three-family dwelling. A tenant in an owner-\noccupied two-, or three-family dwelling may, however, make this provision applicable to their \ntenancy 30 days  after sending a  written  request  to the landlord  that  the landlord  fulfill  the"
+            "quote": "The exception is an owner-occupied two-, or three-family dwelling."
           },
           {
             "field": "citation",
@@ -3191,6 +3271,148 @@
     },
     {
       "team_rule_id": "r-0045",
+      "overrides": [],
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Prohibition on sale or use of coordinated pricing algorithms to set rents or manage occupancy",
+      "requirement": "Landlords in Berkeley may not use coordinated pricing algorithms (software using competitor data) to set rents or occupancy levels, and vendors may not sell or provide such software to Berkeley landlords. A tenant whose landlord uses such software can sue for injunctive relief, damages, civil penalties of up to $1,000 per violation, and attorney's fees.",
+      "key_value": "Civil penalties up to $1,000 per violation (each month and each unit a separate violation)",
+      "coverage_conditions": {
+        "summary": "All residential dwelling units in the City of Berkeley; applies to landlords using, and vendors selling or licensing, coordinated pricing algorithms.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": "Excludes trade association reports publishing renter data in aggregated and anonymous form, and products used to set rent or income limits under government affordable housing guidelines.",
+      "interaction": null,
+      "effective_date": "2026-03-01",
+      "citation": "Berkeley Mun. Code § 13.63.030 (Ord. No. 7,974-N.S.)",
+      "source_doc_id": "X002",
+      "source_url": "https://berkeleyca.gov/sites/default/files/documents/2025-07-08%20Item%2001%20Amendments%20to%20Ordinance%20Prohibiting.pdf",
+      "retrieved_at": "2026-10-03 22:37 UTC",
+      "quoted_span": "B. It shall be unlawful for a landlord to use a coordinated pricing algorithm described \nin subsection A when setting rents or occupancy levels for residential dwelling units in \nthe city of Berkeley.",
+      "span_verified": true,
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": null,
+      "penalty": "City Attorney civil action for damages, injunctive relief, restitution, and civil penalties up to $1,000 per violation; tenant civil action for injunctive relief, money damages, and civil penalties up to $1,000 per violation; prevailing City Attorney or tenant awarded reasonable attorney's fees and costs. Each month and each unit is a separate violation.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Berkeley, CA",
+      "verification": {
+        "model": "claude-sonnet-5-5",
+        "verdicts": {
+          "requirement": "supported",
+          "key_value": "supported",
+          "effective_date": "supported",
+          "status": "supported",
+          "coverage": "not_applicable",
+          "citation": "supported"
+        },
+        "evidence": [
+          {
+            "field": "requirement",
+            "quote": "B. It shall be unlawful for a landlord to use a coordinated pricing algorithm described \nin subsection A when setting rents or occupancy levels for residential dwelling units in \nthe city of Berkeley."
+          },
+          {
+            "field": "key_value",
+            "quote": "Each separate month that a violation exists or continues, and each \nseparate residential dwelling unit for which the landlord used the coordinated pricing \nalgorithm, shall constitute a separate and distinct violation."
+          },
+          {
+            "field": "effective_date",
+            "quote": "The provisions of this Chapter shall not take effect until March 1, 2026."
+          },
+          {
+            "field": "status",
+            "quote": "The provisions of this Chapter shall not take effect until March 1, 2026."
+          },
+          {
+            "field": "citation",
+            "quote": "13.63.030 Use and sale of coordinated pricing algorithms prohibited ."
+          }
+        ],
+        "changes": []
+      }
+    },
+    {
+      "team_rule_id": "r-0046",
+      "overrides": [],
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Berkeley ban on coordinated rent-pricing algorithms",
+      "requirement": "Berkeley landlords may not use coordinated pricing algorithms to set rents. Tenants have private remedies, and each unit and each month of use can count as a separate violation.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "All rental units in Berkeley; the ban applies to any landlord using coordinated pricing algorithms.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "Berkeley Mun. Code ch. 13.63",
+      "source_doc_id": "D002",
+      "source_url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+      "retrieved_at": "2026-10-03 22:37 UTC",
+      "quoted_span": "Prohibits coordinated pricing algorithms; recurring unit/month violations and private remedies, previously at issue in RealPage, Inc. v. City of Berkeley et al., (N.D. Cal.) (voluntarily dismissed with prejudice Jan. 14, 2026).",
+      "span_verified": true,
+      "confidence": 0.6,
+      "conflict_flag": true,
+      "conflict_note": "Secondary law-firm source gives the effective date only as 'January 2026' (no exact day). The brief flags Berkeley's effective date as an open question, so verify against the ordinance text.",
+      "penalty": "Recurring unit/month violations and private remedies (amounts not stated in this source).",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "secondary (law-firm alert)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Berkeley, CA",
+      "verification": {
+        "model": "claude-sonnet-5-5",
+        "verdicts": {
+          "requirement": "supported",
+          "key_value": "not_applicable",
+          "effective_date": "not_applicable",
+          "status": "supported",
+          "coverage": "not_applicable",
+          "citation": "supported"
+        },
+        "evidence": [
+          {
+            "field": "requirement",
+            "quote": "Prohibits coordinated pricing algorithms; recurring unit/month violations and private remedies, previously at issue in RealPage, Inc. v. City of Berkeley et al., (N.D. Cal.) (voluntarily dismissed with prejudice Jan. 14, 2026)."
+          },
+          {
+            "field": "status",
+            "quote": "Berkeley Mun. Code ch. 13.63 (effective January 2026)"
+          },
+          {
+            "field": "citation",
+            "quote": "Berkeley Mun. Code ch. 13.63 (effective January 2026)"
+          }
+        ],
+        "changes": []
+      }
+    },
+    {
+      "team_rule_id": "r-0047",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -3229,6 +3451,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -3242,7 +3466,7 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "It shall be unlawful for a landlord to use a coordinated pricing algorithm described \nin subsection A when setting rents or occupancy levels for residential dwelling units in \nthe City of Berkeley."
+            "quote": "“Competitor Data” means information that is not available to the general public \nconcerning actual rent prices, occupancy rates, lease start and end dates, and similar \ndata regarding a property other than a property that is owned or managed by the landlord \nwho is the recipient or user of the generated recommendation, when such data is less \nthan 90 days old."
           },
           {
             "field": "key_value",
@@ -3250,7 +3474,7 @@
           },
           {
             "field": "status",
-            "quote": "It shall be unlawful to sell, license, or otherwise provide to City of Berkeley \nlandlords any coordinated pricing algorithm that sets or recommends rents or occupancy \nlevels that may be achieved for residential dwelling units in the City of Berkeley."
+            "quote": "It shall be unlawful for a landlord to use a coordinated pricing algorithm described \nin subsection A when setting rents or occupancy levels for residential dwelling units in \nthe City of Berkeley."
           },
           {
             "field": "citation",
@@ -3261,7 +3485,7 @@
       }
     },
     {
-      "team_rule_id": "r-0046",
+      "team_rule_id": "r-0048",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -3298,6 +3522,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -3315,7 +3541,7 @@
           },
           {
             "field": "status",
-            "quote": "the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement"
+            "quote": "Notification of state law limitation on tenant screening fees (BMC 13.78.010)"
           },
           {
             "field": "citation",
@@ -3326,7 +3552,7 @@
       }
     },
     {
-      "team_rule_id": "r-0047",
+      "team_rule_id": "r-0049",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -3363,6 +3589,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -3380,22 +3608,22 @@
           },
           {
             "field": "key_value",
-            "quote": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part"
-          },
-          {
-            "field": "status",
             "quote": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy"
           },
           {
-            "field": "citation",
+            "field": "status",
             "quote": "Prohibition of non-refundable application fees associated with existing tenancies (BMC 13.78.016)"
+          },
+          {
+            "field": "citation",
+            "quote": "Applicability to Existing Rental Agreements (BMC 13.78.018)"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0048",
+      "team_rule_id": "r-0050",
       "overrides": [
         "r-0007"
       ],
@@ -3434,13 +3662,15 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
           "key_value": "supported",
           "effective_date": "supported",
-          "status": "supported",
+          "status": "partly_supported",
           "coverage": "not_applicable",
           "citation": "supported"
         },
@@ -3455,11 +3685,11 @@
           },
           {
             "field": "effective_date",
-            "quote": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026."
+            "quote": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026."
           },
           {
             "field": "status",
-            "quote": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026."
+            "quote": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026."
           },
           {
             "field": "citation",
@@ -3470,7 +3700,7 @@
       }
     },
     {
-      "team_rule_id": "r-0049",
+      "team_rule_id": "r-0051",
       "overrides": [
         "r-0007"
       ],
@@ -3511,6 +3741,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -3543,7 +3775,7 @@
       }
     },
     {
-      "team_rule_id": "r-0050",
+      "team_rule_id": "r-0052",
       "overrides": [
         "r-0007"
       ],
@@ -3579,13 +3811,15 @@
       "retrieved_at": "2026-10-01T22:35Z",
       "quoted_span": "Most condominiums** Partially Covered Yes No Yes Yes",
       "span_verified": true,
-      "confidence": 0.6,
+      "confidence": 0.7,
       "conflict_flag": false,
       "conflict_note": null,
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -3593,30 +3827,32 @@
           "key_value": "not_applicable",
           "effective_date": "not_applicable",
           "status": "supported",
-          "coverage": "not_supported",
+          "coverage": "partly_supported",
           "citation": "partly_supported"
         },
         "evidence": [
           {
             "field": "requirement",
-            "quote": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes"
+            "quote": "New construction: units that were built and received a Certificate of \nOccupancy after June 1980** \nPartially Covered Yes No Yes Yes"
           },
           {
             "field": "status",
             "quote": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance"
           },
           {
+            "field": "coverage",
+            "quote": "“Golden Duplex”: duplex that was owner-occupied on December 31, \n1979, and currently has an owner living in one of the units"
+          },
+          {
             "field": "citation",
             "quote": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance"
           }
         ],
-        "changes": [
-          "second check disputes the coverage: The document states no 2-unit owner-based exemption threshold; a duplex is mentioned only for the Golden Duplex, which is a narrower exemption. The card also omits the construction and certificate-of-occupancy cutoffs the document does give."
-        ]
+        "changes": []
       }
     },
     {
-      "team_rule_id": "r-0051",
+      "team_rule_id": "r-0053",
       "overrides": [
         "r-0007"
       ],
@@ -3655,13 +3891,15 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
           "key_value": "supported",
           "effective_date": "supported",
-          "status": "supported",
+          "status": "partly_supported",
           "coverage": "not_applicable",
           "citation": "supported"
         },
@@ -3676,11 +3914,11 @@
           },
           {
             "field": "effective_date",
-            "quote": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026."
+            "quote": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026."
           },
           {
             "field": "status",
-            "quote": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026."
+            "quote": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026."
           },
           {
             "field": "citation",
@@ -3691,7 +3929,7 @@
       }
     },
     {
-      "team_rule_id": "r-0052",
+      "team_rule_id": "r-0054",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3735,6 +3973,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -3748,7 +3988,7 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "This cap does not prevent a landlord who has “banked” (unused) AGAs from previous years from implementing a rent increase that is greater than 5% in order to raise the rent to the rent ceiling."
+            "quote": "The maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%. This cap does not prevent a landlord who has “banked” (unused) AGAs from previous years from implementing a rent increase that is greater than 5% in order to raise the rent to the rent ceiling."
           },
           {
             "field": "key_value",
@@ -3764,12 +4004,12 @@
           }
         ],
         "changes": [
-          "second check disputes the coverage: The document does not set a 1980-12-31 cutoff. It says 'built before 1980' for most fully covered multifamily units and 'certificate of occupancy issued after 1980' for new construction. It does not say that the AGA cap depends on a built-on-or-before-1980-12-31 date, so the card's date is not stated."
+          "second check disputes the coverage: The document's fully covered list says 'built before 1980' and new construction as CO issued 'after 1980'. The card's cutoff of 1980-12-31 is not stated and contradicts 'before 1980'. The AGA passage gives no construction cutoff. The CO flag is also not stated for the pre-1980 category."
         ]
       }
     },
     {
-      "team_rule_id": "r-0053",
+      "team_rule_id": "r-0055",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3809,15 +4049,17 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
           "key_value": "supported",
-          "effective_date": "supported",
-          "status": "partly_supported",
+          "effective_date": "partly_supported",
+          "status": "supported",
           "coverage": "not_applicable",
-          "citation": "supported"
+          "citation": "partly_supported"
         },
         "evidence": [
           {
@@ -3830,11 +4072,11 @@
           },
           {
             "field": "effective_date",
-            "quote": "allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026."
+            "quote": "which will allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026."
           },
           {
             "field": "status",
-            "quote": "At its regular meeting on October 16, 2025, the Berkeley Rent Stabilization Board \nadopted the Annual General Adjustment (AGA) Order for Year 2026"
+            "quote": "adopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026."
           },
           {
             "field": "citation",
@@ -3845,7 +4087,7 @@
       }
     },
     {
-      "team_rule_id": "r-0054",
+      "team_rule_id": "r-0056",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3893,6 +4135,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -3925,7 +4169,7 @@
       }
     },
     {
-      "team_rule_id": "r-0055",
+      "team_rule_id": "r-0057",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -3960,17 +4204,19 @@
       "retrieved_at": "2026-10-01T22:35Z",
       "quoted_span": "The Fair Chance Access to Housing Ordinance prohibits rental housing providers in Berkeley from asking about and using criminal history and/or criminal background checks in their rental housing advertising, applications, tenant selection process, or decision-making.",
       "span_verified": true,
-      "confidence": 0.85,
+      "confidence": 0.8,
       "conflict_flag": false,
       "conflict_note": null,
       "penalty": "Administrative fines of at least $1,000 and up to $10,000 per violation; civil damages including actual damages or three times one month's rent; punitive damages; attorneys' fees and costs; injunctive relief.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
-          "requirement": "supported",
+          "requirement": "partly_supported",
           "key_value": "supported",
           "effective_date": "not_applicable",
           "status": "supported",
@@ -3984,11 +4230,11 @@
           },
           {
             "field": "key_value",
-            "quote": "Any landlord found to be in violation of the Ordinance shall be subject to administrative fines of at least $1,000 and up to $10,000 per violation, civil damages including actual damages or three times the amount of one month's rent, punitive damages, attorneys' fees and costs, and injunctive relief."
+            "quote": "Any landlord found to be in violation of the Ordinance shall be subject to administrative fines of at least $1,000 and up to $10,000 per violation"
           },
           {
             "field": "status",
-            "quote": "The Fair Chance Access to Housing Ordinance prohibits rental housing providers in Berkeley from asking about and using criminal history and/or criminal background checks in their rental housing advertising, applications, tenant selection process, or decision-making."
+            "quote": "On April 14, 2020, Berkeley City Council passed the Fair Chance Access to Housing Ordinance (BMC 13.106)."
           },
           {
             "field": "coverage",
@@ -3996,14 +4242,14 @@
           },
           {
             "field": "citation",
-            "quote": "On April 14, 2020, Berkeley City Council passed the Fair Chance Access to Housing Ordinance (BMC 13.106)."
+            "quote": "Municipal Code 13.106"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0056",
+      "team_rule_id": "r-0058",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -4040,6 +4286,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -4048,7 +4296,7 @@
           "effective_date": "not_applicable",
           "status": "supported",
           "coverage": "not_applicable",
-          "citation": "partly_supported"
+          "citation": "supported"
         },
         "evidence": [
           {
@@ -4061,14 +4309,14 @@
           },
           {
             "field": "citation",
-            "quote": "security deposit interest requirements under the Berkeley Rent Ordinance"
+            "quote": "security deposit interest requirements under the Berkeley Rent Ordinance."
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0057",
+      "team_rule_id": "r-0059",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -4105,6 +4353,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Boston, MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -4137,7 +4387,7 @@
       }
     },
     {
-      "team_rule_id": "r-0058",
+      "team_rule_id": "r-0060",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -4177,15 +4427,17 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Boston, MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
           "key_value": "not_applicable",
           "effective_date": "supported",
-          "status": "supported",
+          "status": "partly_supported",
           "coverage": "not_applicable",
-          "citation": "partly_supported"
+          "citation": "supported"
         },
         "evidence": [
           {
@@ -4202,14 +4454,14 @@
           },
           {
             "field": "citation",
-            "quote": "Housing Stability Notification Act (Sec. 10-11.7) \nEnforcement Entity: Inspectional Services Department"
+            "quote": "Housing Stability Notification Act (Sec. 10-11.7)"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0059",
+      "team_rule_id": "r-0061",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -4246,6 +4498,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Boston, MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -4264,17 +4518,13 @@
           {
             "field": "status",
             "quote": "Accompanied a study order, see"
-          },
-          {
-            "field": "citation",
-            "quote": "Bill H.3744\nSkip to Content\nBill H.3744\n193rd (2023 - 2024)"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0060",
+      "team_rule_id": "r-0062",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -4311,6 +4561,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Boston, MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -4329,17 +4581,13 @@
           {
             "field": "status",
             "quote": "Accompanied a study order, see"
-          },
-          {
-            "field": "citation",
-            "quote": "Bill H.3744\nSkip to Content\nBill H.3744\n193rd (2023 - 2024)"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0061",
+      "team_rule_id": "r-0063",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -4379,6 +4627,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official city-linked policy",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Boston, MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -4411,7 +4661,7 @@
       }
     },
     {
-      "team_rule_id": "r-0062",
+      "team_rule_id": "r-0064",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -4448,6 +4698,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Boston, MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -4469,14 +4721,14 @@
           },
           {
             "field": "citation",
-            "quote": "Boston Fair Housing Regulations | Boston.gov"
+            "quote": "Boston Fair Housing Regulations"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0063",
+      "team_rule_id": "r-0065",
       "overrides": [],
       "jurisdiction": "Cambridge, MA",
       "level": "city",
@@ -4517,6 +4769,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Cambridge, MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -4530,7 +4784,7 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "The Ordinance also requires that a landlord provide the Guide to tenants when legal steps to terminate a tenancy are taken (ex. Notice to Quit or Summary Process)."
+            "quote": "If you do begin an eviction process through a notice to quit or other action, it is required that you offer the Guide about rights and resources at the same time."
           },
           {
             "field": "status",
@@ -4545,7 +4799,7 @@
       }
     },
     {
-      "team_rule_id": "r-0064",
+      "team_rule_id": "r-0066",
       "overrides": [],
       "jurisdiction": "Cambridge, MA",
       "level": "city",
@@ -4582,6 +4836,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Cambridge, MA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -4590,7 +4846,7 @@
           "effective_date": "not_applicable",
           "status": "supported",
           "coverage": "partly_supported",
-          "citation": "partly_supported"
+          "citation": "supported"
         },
         "evidence": [
           {
@@ -4599,7 +4855,7 @@
           },
           {
             "field": "status",
-            "quote": "The Fair Housing Ordinance prohibits discrimination in real estate transactions such as:"
+            "quote": "The Commission enforces two ordinances: the\nCambridge Human Rights Ordinance, chapter 2.76\nand the\nCambridge Fair Housing Ordinance, chapter 14.04"
           },
           {
             "field": "coverage",
@@ -4607,14 +4863,81 @@
           },
           {
             "field": "citation",
-            "quote": "Cambridge Fair Housing Ordinance, chapter 14.04"
+            "quote": "the\nCambridge Fair Housing Ordinance, chapter 14.04"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0065",
+      "team_rule_id": "r-0067",
+      "overrides": [],
+      "jurisdiction": "Hoboken, NJ",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Hoboken ban on rent-coordination software and data sharing",
+      "requirement": "Hoboken landlords may not use software, algorithms or data-sharing platforms to coordinate or recommend rents, lease terms or occupancy.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "All rental units in Hoboken.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "Hoboken Code § 158-2",
+      "source_doc_id": "D002",
+      "source_url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+      "retrieved_at": "2026-10-03 22:37 UTC",
+      "quoted_span": "Prohibits landlords from using software, algorithms or data-sharing platforms to coordinate or recommend rents, lease terms, or occupancy.",
+      "span_verified": true,
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null,
+      "penalty": null,
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "secondary (law-firm alert)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Berkeley, CA",
+      "verification": {
+        "model": "claude-sonnet-5-5",
+        "verdicts": {
+          "requirement": "supported",
+          "key_value": "not_applicable",
+          "effective_date": "not_applicable",
+          "status": "supported",
+          "coverage": "not_applicable",
+          "citation": "partly_supported"
+        },
+        "evidence": [
+          {
+            "field": "requirement",
+            "quote": "Prohibits landlords from using software, algorithms or data-sharing platforms to coordinate or recommend rents, lease terms, or occupancy."
+          },
+          {
+            "field": "status",
+            "quote": "Hoboken City Code, ch. 158-2 (effective July 2025)"
+          },
+          {
+            "field": "citation",
+            "quote": "Hoboken City Code, ch. 158-2 (effective July 2025)"
+          }
+        ],
+        "changes": []
+      }
+    },
+    {
+      "team_rule_id": "r-0068",
       "overrides": [],
       "jurisdiction": "Hoboken, NJ",
       "level": "city",
@@ -4654,15 +4977,17 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Hoboken, NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
           "key_value": "partly_supported",
           "effective_date": "partly_supported",
-          "status": "supported",
+          "status": "partly_supported",
           "coverage": "not_applicable",
-          "citation": "partly_supported"
+          "citation": "supported"
         },
         "evidence": [
           {
@@ -4690,17 +5015,17 @@
       }
     },
     {
-      "team_rule_id": "r-0066",
+      "team_rule_id": "r-0069",
       "overrides": [],
       "jurisdiction": "Hoboken, NJ",
       "level": "city",
       "category": "rent_increase_limits",
       "status": "in_force",
-      "title": "Hoboken vacancy decontrol capped at 25%",
-      "requirement": "When a tenant voluntarily leaves a registered rent-controlled unit, the landlord may raise the new tenant's first rent by at most 25% over the prior rent, and only once in any three-year period. Later increases are again controlled.",
-      "key_value": "25% over last rent on vacancy; once per 3 years",
+      "title": "Hoboken rent control annual increase cap and partial vacancy decontrol",
+      "requirement": "In Hoboken rent-controlled units, annual rent increases are capped at the lower of 5% or CPI (excluding certain surcharges). When a unit occupied three years or more becomes vacant, the landlord may raise rent by up to 25%, no more than once every three years.",
+      "key_value": "lesser of 5% or CPI; up to 25% on vacancy after 3+ years",
       "coverage_conditions": {
-        "summary": "Registered rent-controlled units in Hoboken after a voluntary vacancy or a lawful eviction (not a holdover eviction).",
+        "summary": "Residential units subject to Hoboken City Code Chapter 155 (Rent Control); this document does not state building-level coverage thresholds.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -4711,22 +5036,95 @@
         "required_facts_not_in_data": [],
         "minor_exemptions_not_in_data": []
       },
-      "exemptions": "Not available if the tenant vacated because of harassment or duress, or after a holdover court order.",
+      "exemptions": null,
       "interaction": null,
       "effective_date": null,
-      "citation": "Hoboken Code § 155-31 (§§ 155-32, 155-34)",
-      "source_doc_id": "D032",
-      "source_url": "https://hobokenmsta.com/wp-content/uploads/2024/02/Rent-Control.pdf",
-      "retrieved_at": "2026-10-03 21:00 UTC",
-      "quoted_span": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential\napartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions\nof this chapter for the new tenant's initial rental; provided, however, that said rental shall be limited to an\nincrease of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit, exclusive of\nany capital improvement surcharge that is a component of said last rental.",
+      "citation": "Hoboken Code § 155-5 (Chapter 155, Rent Control)",
+      "source_doc_id": "X003",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2024/11/2024-General-Election-MWD-Results-with-Voting-Method-Details-Official.pdf",
+      "retrieved_at": "2026-10-03 22:42 UTC",
+      "quoted_span": "Currently, annual rent increases are capped at either 5% or the Consumer Price Index (CPI) rate, whichever is lower (excluding certain surcharges). However, when a unit has been occupied for three years or more and becomes vacant, landlords can raise the rent by up to 25%—a process known as \"partial vacancy decontrol.\" This increase can only happen once every three years for the same unit.\nThe proposed ordinance would allow landlords to increase rent to market rates without the 25% limit when a unit becomes vacant.",
       "span_verified": true,
       "confidence": 0.65,
       "conflict_flag": false,
-      "conflict_note": null,
-      "penalty": "The Board may rescind the decontrol and revert the rent. Fine up to $3,000 per dwelling unit (§ 155-21).",
+      "conflict_note": "Voters rejected; Chapter 155 unchanged (the measure would have amended § 155-31; the § 155-5 cap stands).",
+      "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "secondary (third-party mirror of the city code)",
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Hoboken, NJ",
+      "verification": {
+        "model": "claude-sonnet-5-5",
+        "verdicts": {
+          "requirement": "supported",
+          "key_value": "supported",
+          "effective_date": "not_applicable",
+          "status": "supported",
+          "coverage": "not_applicable",
+          "citation": "partly_supported"
+        },
+        "evidence": [
+          {
+            "field": "requirement",
+            "quote": "Currently, annual rent increases are capped at either 5% or the Consumer Price Index (CPI) rate, whichever is lower (excluding certain surcharges). However, when a unit has been occupied for three years or more and becomes vacant, landlords can raise the rent by up to 25%—a process known as \"partial vacancy decontrol.\" This increase can only happen once every three years for the same unit."
+          },
+          {
+            "field": "key_value",
+            "quote": "Currently, annual rent increases are capped at either 5% or the Consumer Price Index (CPI) rate, whichever is lower (excluding certain surcharges)."
+          },
+          {
+            "field": "status",
+            "quote": "Currently, annual rent increases are capped at either 5% or the Consumer Price Index (CPI) rate, whichever is lower (excluding certain surcharges)."
+          },
+          {
+            "field": "citation",
+            "quote": "Hoboken's City Code, Chapter 155, controls how much landlords can raise rent for residential units, both while a tenant is living there and when a new tenant moves in."
+          }
+        ],
+        "changes": []
+      }
+    },
+    {
+      "team_rule_id": "r-0070",
+      "overrides": [],
+      "jurisdiction": "Hoboken, NJ",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Hoboken rent increase cap at lease expiration or termination",
+      "requirement": "When your lease ends or renews (or for a periodic tenancy), your Hoboken landlord may not raise the rent by more than 5% or the CPI change, whichever is less. Only one such increase is allowed in any 12-month period, regardless of tenant turnover.",
+      "key_value": "lesser of 5% or CPI change; one increase per 12 months",
+      "coverage_conditions": {
+        "summary": "Housing spaces subject to Hoboken's Rent Control chapter (Chapter 155); this section does not itself state building-age or unit-count limits.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "Hoboken Code § 155-5 (Ord. No. B-532)",
+      "source_doc_id": "D033",
+      "source_url": "https://ecode360.com/15252470",
+      "retrieved_at": "2026-10-03 22:41 UTC",
+      "quoted_span": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
+      "span_verified": true,
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": "Matched against an ecode360 printout dated 2024-02-24 hosted by a landlord advocacy group (hobokenmsta.com).",
+      "penalty": null,
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Hoboken, NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -4740,36 +5138,36 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential\napartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions\nof this chapter for the new tenant's initial rental; provided, however, that said rental shall be limited to an\nincrease of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit"
+            "quote": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less."
           },
           {
             "field": "key_value",
-            "quote": "No dwelling unit shall be decontrolled pursuant to this article more than once in any three-year period."
+            "quote": "No more than one such cost-of-living rental increase in any one twelve-month period shall be permitted irrespective of the number of different tenants occupying said housing space during said twelve-month period."
           },
           {
             "field": "status",
-            "quote": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential\napartment unit by a tenant, the apartment unit shall become decontrolled"
+            "quote": "[Amended 2-1-2023 by Ord. No. B-532]At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5%"
           },
           {
             "field": "citation",
-            "quote": "§ 155-31. Dwelling decontrolled and\nexempted."
+            "quote": "§ 155-5\nExpiration or termination of lease.\n\n[Amended 2-1-2023 by Ord. No. B-532]"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0067",
+      "team_rule_id": "r-0071",
       "overrides": [],
       "jurisdiction": "Hoboken, NJ",
       "level": "city",
       "category": "rent_increase_limits",
-      "status": "in_force",
-      "title": "Hoboken rent control: annual increase capped at lesser of 5% or CPI",
-      "requirement": "In a rent-controlled Hoboken unit, your landlord can raise rent only when your lease ends, once in any 12 months, by no more than 5% or the CPI change, whichever is less. The landlord must give 30 days' written notice with reasons and a certificate of substantial code compliance; increases above the legal amount are void and must be refunded, subject to a two-year limit.",
-      "key_value": "lesser of 5% or CPI change, once per 12 months",
+      "status": "failed",
+      "title": "2024 Hoboken public question to allow market-rate rent on vacated units for a $2,500 fee (rejected)",
+      "requirement": "This proposal is not law. Hoboken voters rejected it on November 5, 2024 (6,082 yes to 16,371 no), so landlords cannot pay a $2,500 fee to reset a vacated rent-controlled apartment to market rent.",
+      "key_value": "$2,500 fee for market-rate rent on vacancy (rejected)",
       "coverage_conditions": {
-        "summary": "All rental dwelling units in Hoboken, with some exemptions. Exempt: hotels and motels; newly constructed dwellings for their first rental; school-owned student housing; government-owned housing; buildings completely vacant since January 1, 1984 for their first rental; and multiple dwellings built after June 25, 1987 that complied with N.J.S.A. 2A:42-84.1 notice rules, for up to 30 years or the initial mortgage amortization period, whichever is less.",
+        "summary": "Would have applied to voluntarily vacated apartments subject to Hoboken's Rent Control ordinance (Chapter 155).",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -4778,110 +5176,31 @@
         "exempt_if_newer_than_years": null,
         "owner_based_exemption_max_units": null,
         "required_facts_not_in_data": [],
-        "minor_exemptions_not_in_data": [
-          "motels and hotels",
-          "school-owned student housing",
-          "housing owned and operated by government agencies",
-          "units under a preemptive government-agency rent contract",
-          "newly constructed dwellings for their first rental",
-          "buildings vacant since 1-1-1984 for their first rental",
-          "post-June 25, 1987 multiple dwellings that complied with N.J.S.A. 2A:42-84.1 (up to 30 years)"
-        ]
+        "minor_exemptions_not_in_data": []
       },
-      "exemptions": "Hotels and motels; first rental of newly constructed dwellings; student housing; government housing; buildings vacant since 1/1/1984 for their first rental; post-6/25/1987 multiple dwellings exempt under N.J.S.A. 2A:42-84.1 for up to 30 years; vacancy decontrol on voluntary vacancy (capped at 25%); condo/co-op owner-occupant initial rental decontrol.",
-      "interaction": "The post-1987 new-construction exemption applies in accordance with state law, N.J.S.A. 2A:42-84.1.",
-      "effective_date": null,
-      "citation": "Hoboken Code § 155-5 (Ord. No. C329, as amended by Ord. No. B-532)",
-      "source_doc_id": "D032",
-      "source_url": "https://hobokenmsta.com/wp-content/uploads/2024/02/Rent-Control.pdf",
-      "retrieved_at": "2026-10-03 21:00 UTC",
-      "quoted_span": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request\nor receive a percentage increase in rent which is greater than 5% or the percentage difference between the\nconsumer price index three months prior to the expiration or termination of the lease and three months\nprior to the commencement of the lease term, whichever is less.",
-      "span_verified": true,
-      "confidence": 0.7,
-      "conflict_flag": false,
-      "conflict_note": null,
-      "penalty": "Excess rents are void and must be refunded or credited, subject to a two-year limit. Violations carry a fine not to exceed $3,000 per dwelling unit (§ 155-21).",
-      "yields_to_local_rule": false,
-      "may_preempt_local_rules": false,
-      "source_type": "secondary (third-party mirror of the city code)",
-      "verification": {
-        "model": "claude-sonnet-5-5",
-        "verdicts": {
-          "requirement": "partly_supported",
-          "key_value": "supported",
-          "effective_date": "not_applicable",
-          "status": "supported",
-          "coverage": "not_applicable",
-          "citation": "partly_supported"
-        },
-        "evidence": [
-          {
-            "field": "requirement",
-            "quote": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request\nor receive a percentage increase in rent which is greater than 5% or the percentage difference between the\nconsumer price index three months prior to the expiration or termination of the lease and three months\nprior to the commencement of the lease term, whichever is less."
-          },
-          {
-            "field": "key_value",
-            "quote": "No more than one such cost-of-living rental increase in\nany one twelve-month period shall be permitted irrespective of the number of different tenants occupying\nsaid housing space during said twelve-month period."
-          },
-          {
-            "field": "status",
-            "quote": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request\nor receive a percentage increase in rent which is greater than 5%"
-          },
-          {
-            "field": "citation",
-            "quote": "§ 155-5. Expiration or termination of lease. [Amended 2-1-2023 by Ord. No. B-532 ]"
-          }
-        ],
-        "changes": []
-      }
-    },
-    {
-      "team_rule_id": "r-0068",
-      "overrides": [],
-      "jurisdiction": "Hoboken, NJ",
-      "level": "city",
-      "category": "rent_increase_limits",
-      "status": "in_force",
-      "title": "Hoboken rent control: annual registration and proof of rent required for allowable rent increases",
-      "requirement": "Most Hoboken rental units, including many condos, are under rent control, and landlords must register them with the Rent Leveling and Stabilization Office by June 30 each year. A landlord who fails to register or to give proof of rent received can be denied a rent increase, so a tenant can check registration status and appeal through that office.",
-      "key_value": null,
-      "coverage_conditions": {
-        "summary": "The majority of Hoboken residential rental properties, including many condominium units. Federally funded housing, certain new construction and commercial properties may be exempt under Chapter 155; the page does not give the new-construction cutoff.",
-        "min_units": null,
-        "max_units": null,
-        "built_on_or_before": null,
-        "built_after": null,
-        "cutoff_uses_certificate_of_occupancy": false,
-        "exempt_if_newer_than_years": null,
-        "owner_based_exemption_max_units": null,
-        "required_facts_not_in_data": [],
-        "minor_exemptions_not_in_data": [
-          "Federally funded housing",
-          "Certain new construction (criteria not stated)",
-          "Commercial properties"
-        ]
-      },
-      "exemptions": "Federally funded housing, certain new construction, and commercial properties may be exempt under Municipal Code Chapter 155.",
+      "exemptions": null,
       "interaction": null,
       "effective_date": null,
-      "citation": "Hoboken Mun. Code ch. 155",
-      "source_doc_id": "D033",
-      "source_url": "https://www.hobokennj.gov/news/city-of-hoboken-launches-rent-control-education-campaign",
-      "retrieved_at": "2026-10-03 21:00 UTC",
-      "quoted_span": "If adequate proof is not provided, the Rent Regulation Officer is required under law to deny any requested rent increase and provide written notice outlining the reason for denial. Property owners will have 30 days to fix any deficiencies in their registration once they are notified.",
+      "citation": "Hoboken Public Question, Nov. 5, 2024 general election (initiative ordinance amending Hoboken Code § 155-31)",
+      "source_doc_id": "X003",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2024/11/2024-General-Election-MWD-Results-with-Voting-Method-Details-Official.pdf",
+      "retrieved_at": "2026-10-03 22:42 UTC",
+      "quoted_span": "Shall the ordinance submitted by initiative petition, providing for an amendment to Hoboken City Code Chapter 155 (Rent Control) at Section 155-31 to provide an option to landlords to pay a fee of $2,500 to the Hoboken Affordable Housing Fund in order to lease voluntarily vacated apartments at a freely negotiated rent, which thereafter remain subject to the provisions of the Rent Control ordinance, including limitations on annual increases, be adopted?",
       "span_verified": true,
-      "confidence": 0.55,
+      "confidence": 0.9,
       "conflict_flag": false,
-      "conflict_note": null,
-      "penalty": "Unregistered properties may face increased registration fees and may forfeit eligibility for future rent increases. If proof of rent is inadequate, a requested increase must be denied, with 30 days to cure after notice.",
+      "conflict_note": "Voters rejected; Chapter 155 unchanged (the measure would have amended § 155-31; the § 155-5 cap stands).",
+      "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Hoboken, NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
-          "requirement": "partly_supported",
-          "key_value": "not_applicable",
+          "requirement": "supported",
+          "key_value": "supported",
           "effective_date": "not_applicable",
           "status": "supported",
           "coverage": "not_applicable",
@@ -4890,22 +5209,97 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "The City is also reminding all property owners, landlords, and responsible agents that residential properties offered for rent must be registered annually with the Rent Leveling and Stabilization Office by June 30. The majority of Hoboken rental properties, including many condominium units, are covered under rent control regulations."
+            "quote": "CITY OF HOBOKEN Total 6,082 16,371 0 26,336"
+          },
+          {
+            "field": "key_value",
+            "quote": "Shall the ordinance submitted by initiative petition, providing for an amendment to Hoboken City Code Chapter 155 (Rent Control) at Section 155-31 to provide an option to landlords to pay a fee of $2,500 to the Hoboken Affordable Housing Fund in order to lease voluntarily vacated apartments at a freely negotiated rent, which thereafter remain subject to the provisions of the Rent Control ordinance, including limitations on annual increases, be adopted?"
           },
           {
             "field": "status",
-            "quote": "Timely and accurate registration is a legal requirement and helps:"
+            "quote": "CITY OF HOBOKEN Total 6,082 16,371 0 26,336"
           },
           {
             "field": "citation",
-            "quote": "Federally funded housing, certain new construction, and commercial properties may be exempt under Municipal Code Chapter 155."
+            "quote": "Shall the ordinance submitted by initiative petition, providing for an amendment to Hoboken City Code Chapter 155 (Rent Control) at Section 155-31"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0069",
+      "team_rule_id": "r-0072",
+      "overrides": [],
+      "jurisdiction": "Jersey City, NJ",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Jersey City ban on algorithmic rent coordination services",
+      "requirement": "Jersey City landlords may not use algorithmic rent coordination services. The ban is enforced by the city and by private parties, with fines of up to $2,000 per day.",
+      "key_value": "fines up to $2,000 per day",
+      "coverage_conditions": {
+        "summary": "All rental units in Jersey City.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "Jersey City Code § 218-12",
+      "source_doc_id": "D002",
+      "source_url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+      "retrieved_at": "2026-10-03 22:37 UTC",
+      "quoted_span": "Prohibits a landlord’s use of algorithmic rent coordination services; includes public and private enforcement; fines up to $2,000 per day.",
+      "span_verified": true,
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null,
+      "penalty": "Public and private enforcement; fines up to $2,000 per day.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "secondary (law-firm alert)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Berkeley, CA",
+      "verification": {
+        "model": "claude-sonnet-5-5",
+        "verdicts": {
+          "requirement": "supported",
+          "key_value": "supported",
+          "effective_date": "not_applicable",
+          "status": "supported",
+          "coverage": "not_applicable",
+          "citation": "supported"
+        },
+        "evidence": [
+          {
+            "field": "requirement",
+            "quote": "Prohibits a landlord’s use of algorithmic rent coordination services; includes public and private enforcement; fines up to $2,000 per day."
+          },
+          {
+            "field": "key_value",
+            "quote": "Prohibits a landlord’s use of algorithmic rent coordination services; includes public and private enforcement; fines up to $2,000 per day."
+          },
+          {
+            "field": "status",
+            "quote": "Jersey City Code § 218-12 (effective June 2025)"
+          },
+          {
+            "field": "citation",
+            "quote": "Jersey City Code § 218-12 (effective June 2025)"
+          }
+        ],
+        "changes": []
+      }
+    },
+    {
+      "team_rule_id": "r-0073",
       "overrides": [],
       "jurisdiction": "Jersey City, NJ",
       "level": "city",
@@ -4944,13 +5338,15 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Jersey City, NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
           "key_value": "partly_supported",
           "effective_date": "not_applicable",
-          "status": "supported",
+          "status": "partly_supported",
           "coverage": "not_applicable",
           "citation": "supported"
         },
@@ -4976,7 +5372,7 @@
       }
     },
     {
-      "team_rule_id": "r-0070",
+      "team_rule_id": "r-0074",
       "overrides": [],
       "jurisdiction": "Jersey City, NJ",
       "level": "city",
@@ -5013,10 +5409,12 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Jersey City, NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
-          "requirement": "supported",
+          "requirement": "partly_supported",
           "key_value": "not_applicable",
           "effective_date": "not_applicable",
           "status": "supported",
@@ -5026,11 +5424,11 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "A tenant claiming the rent they are being charged is illegal may file an Illegal Rent Petition:"
+            "quote": "The Office of Landlord Tenant Relations administers and enforces the\nRent Control Ordinance, Chapter 260\nof the Jersey City Municipal Code"
           },
           {
             "field": "status",
-            "quote": "The Office of Landlord Tenant Relations administers and enforces the"
+            "quote": "The Office of Landlord Tenant Relations administers and enforces the\nRent Control Ordinance, Chapter 260"
           },
           {
             "field": "coverage",
@@ -5038,14 +5436,14 @@
           },
           {
             "field": "citation",
-            "quote": "Rent Control Ordinance, Chapter 260"
+            "quote": "The Office of Landlord Tenant Relations administers and enforces the\nRent Control Ordinance, Chapter 260\nof the Jersey City Municipal Code"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0071",
+      "team_rule_id": "r-0075",
       "overrides": [
         "r-0007"
       ],
@@ -5086,6 +5484,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -5094,20 +5494,20 @@
           "effective_date": "not_applicable",
           "status": "supported",
           "coverage": "supported",
-          "citation": "supported"
+          "citation": "partly_supported"
         },
         "evidence": [
           {
             "field": "requirement",
-            "quote": "Give the tenant a 30-day and 60-day written notice (some evictions require 120-day notice or up to a 1-year extension)."
+            "quote": "All notices to terminate a tenancy for all rental units subject to\nCity’s Rent Stabilization Ordinance (RSO\n) must be filed with the Los Angeles Housing Department (LAHD) within\nthree (3) business days of service on the tenant"
           },
           {
             "field": "key_value",
-            "quote": "must be filed with the Los Angeles Housing Department (LAHD) within\nthree (3) business days of service on the tenant"
+            "quote": "Types of Evictions Requiring Payment of Tenant Relocation Assistance\nNo-fault evictions require the payment of\nrelocation assistance"
           },
           {
             "field": "status",
-            "quote": "Types of Evictions Requiring Payment of Tenant Relocation Assistance\nNo-fault evictions require the payment of\nrelocation assistance"
+            "quote": "All notices to terminate a tenancy for all rental units subject to\nCity’s Rent Stabilization Ordinance (RSO\n) must be filed with the Los Angeles Housing Department (LAHD) within\nthree (3) business days of service on the tenant"
           },
           {
             "field": "coverage",
@@ -5122,7 +5522,7 @@
       }
     },
     {
-      "team_rule_id": "r-0072",
+      "team_rule_id": "r-0076",
       "overrides": [
         "r-0007"
       ],
@@ -5166,10 +5566,12 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
-          "requirement": "partly_supported",
+          "requirement": "supported",
           "key_value": "supported",
           "effective_date": "supported",
           "status": "supported",
@@ -5191,7 +5593,7 @@
           },
           {
             "field": "status",
-            "quote": "All tenant not- at-fault evictions require payment of relocation assistance and the filing of a \nDeclaration of Intent to Evict form with the Los Angeles Housing Department (LAHD)"
+            "quote": "All tenant not- at-fault evictions require payment of relocation assistance and the filing of a \nDeclaration of Intent to Evict form with the Los Angeles Housing Department (LAHD) before \nevicting tenants from units covered by the Rent Stabilization Ordinance (RSO) or the Just Cause \nOrdinance (JCO)."
           },
           {
             "field": "coverage",
@@ -5199,14 +5601,14 @@
           },
           {
             "field": "citation",
-            "quote": "Failure to file the Landlord Declaration with the LAHD makes the eviction a \nviolation of the RSO or JCO."
+            "quote": "(LAMC 151.09.G, 165.06.C.)"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0073",
+      "team_rule_id": "r-0077",
       "overrides": [
         "r-0007"
       ],
@@ -5253,6 +5655,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA",
       "consolidation_note": "Fields filled from D040, which state the same law.",
       "verification": {
         "model": "claude-sonnet-5-5",
@@ -5262,16 +5666,16 @@
           "effective_date": "not_supported",
           "status": "supported",
           "coverage": "not_applicable",
-          "citation": "partly_supported"
+          "citation": "supported"
         },
         "evidence": [
           {
             "field": "requirement",
-            "quote": "In order to apply to a tenancy, it requires that the tenant either has lived in the same unit for at least six months or that their original lease expired, whichever comes first."
+            "quote": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions."
           },
           {
             "field": "key_value",
-            "quote": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions."
+            "quote": "In order to apply to a tenancy, it requires that the tenant either has lived in the same unit for at least six months or that their original lease expired, whichever comes first."
           },
           {
             "field": "status",
@@ -5279,16 +5683,16 @@
           },
           {
             "field": "citation",
-            "quote": "Just Cause For Eviction Ordinance (JCO)"
+            "quote": "If you own rental property in the City of Los Angeles, it may be subject to the\nJust Cause Ordinance\n(JCO)."
           }
         ],
         "changes": [
-          "second check disputes the effective date: March 27, 2023 is the effective date of the non-payment FMR threshold, not of the JCO itself. The document gives no JCO effective date."
+          "second check disputes the effective date: March 27, 2023 is the effective date of the non-payment-of-rent threshold, not of the JCO itself. The document gives no JCO effective date."
         ]
       }
     },
     {
-      "team_rule_id": "r-0074",
+      "team_rule_id": "r-0078",
       "overrides": [
         "r-0007"
       ],
@@ -5331,6 +5735,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -5352,7 +5758,7 @@
           },
           {
             "field": "effective_date",
-            "quote": "effective 2/11/2025\nunder Ordinances # 188481 and #188482"
+            "quote": "effective 2/11/2025\nunder Ordinances # 188481 and #188482."
           },
           {
             "field": "status",
@@ -5360,14 +5766,14 @@
           },
           {
             "field": "citation",
-            "quote": "effective 2/11/2025\nunder Ordinances # 188481 and #188482"
+            "quote": "File with LAHD a Declaration of Intent to Evict for units regulated by the JCO per the Los Angeles\nMunicipal Code (LAMC) Section 165.03.I(1) or file with LAHD a  Notice of Intent to Withdraw Units"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0075",
+      "team_rule_id": "r-0079",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -5409,6 +5815,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Los Angeles, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -5426,7 +5834,7 @@
           },
           {
             "field": "status",
-            "quote": "Landlords of rental units subject to the Rent Stabilization Ordinance (RSO)"
+            "quote": "The interest rate set by the Rent Adjustment Commission for 2026 is 3.03%."
           },
           {
             "field": "coverage",
@@ -5441,7 +5849,7 @@
       }
     },
     {
-      "team_rule_id": "r-0076",
+      "team_rule_id": "r-0080",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -5485,10 +5893,12 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
-          "requirement": "partly_supported",
+          "requirement": "supported",
           "key_value": "supported",
           "effective_date": "not_applicable",
           "status": "supported",
@@ -5502,7 +5912,7 @@
           },
           {
             "field": "key_value",
-            "quote": "Effective February 2, 2026, the landlord can no longer include an additional percentage increase for utilities."
+            "quote": "Rent may be increased once every 12 months by the allowable rent increase percentage (click here to\nview the allowable rent increase PDF\n). Effective February 2, 2026, the landlord can no longer include an additional percentage increase for utilities."
           },
           {
             "field": "status",
@@ -5514,14 +5924,14 @@
           },
           {
             "field": "citation",
-            "quote": "as well as replacement units under"
+            "quote": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0077",
+      "team_rule_id": "r-0081",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -5561,6 +5971,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -5597,7 +6009,7 @@
       }
     },
     {
-      "team_rule_id": "r-0078",
+      "team_rule_id": "r-0082",
       "overrides": [],
       "jurisdiction": "Los Angeles, CA",
       "level": "city",
@@ -5637,6 +6049,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Los Angeles, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -5677,7 +6091,7 @@
       }
     },
     {
-      "team_rule_id": "r-0079",
+      "team_rule_id": "r-0083",
       "overrides": [],
       "jurisdiction": "Newark, NJ",
       "level": "city",
@@ -5714,6 +6128,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Newark, NJ",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -5727,30 +6143,30 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "In no case shall the allowable rent increase exceed 4%. The allowable annual increase will not be permitted, if the dwelling is not in substantial compliance and/or if the landlord has not met the registration requirements as specified in this subsection 19:2-9.8."
-          },
-          {
-            "field": "key_value",
             "quote": "The rents for any housing space shall not be increased more than the percentages stated below in any consecutive 12-month period, irrespective of the number of different tenants occupying the housing space during the 12-month period, any change of ownership of the Landlord or vacancy of the housing space."
           },
           {
+            "field": "key_value",
+            "quote": "In no case shall the allowable rent increase exceed 4%."
+          },
+          {
             "field": "effective_date",
-            "quote": "(Ord. 6 PSF-A(S), 9-5-17)"
+            "quote": "The Rent Control Ordinance was amended on September 05, 2017."
           },
           {
             "field": "status",
-            "quote": "Pursuant to 19:2-3. Rent Increases. 19:2-3.1. Determination of Rents. In no case shall the allowable rent increase exceed 4%."
+            "quote": "In no case shall the allowable rent increase exceed 4%. The allowable annual increase will not be permitted, if the dwelling is not in substantial compliance and/or if the landlord has not met the registration requirements as specified in this subsection 19:2-9.8. (Ord. 6 PSF-A(S), 9-5-17)"
           },
           {
             "field": "citation",
-            "quote": "Pursuant to 19:2-3. Rent Increases. 19:2-3.1. Determination of Rents. In no case shall the allowable rent increase exceed 4%. The allowable annual increase will not be permitted, if the dwelling is not in substantial compliance and/or if the landlord has not met the registration requirements as specified in this subsection 19:2-9.8. (Ord. 6 PSF-A(S), 9-5-17)"
+            "quote": "Pursuant to 19:2-3. Rent Increases. 19:2-3.1. Determination of Rents."
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0080",
+      "team_rule_id": "r-0084",
       "overrides": [],
       "jurisdiction": "San Diego, CA",
       "level": "city",
@@ -5789,13 +6205,15 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Diego, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
           "key_value": "supported",
           "effective_date": "not_applicable",
-          "status": "supported",
+          "status": "partly_supported",
           "coverage": "not_applicable",
           "citation": "supported"
         },
@@ -5810,18 +6228,89 @@
           },
           {
             "field": "status",
-            "quote": "Councilmember Sean Elo-Rivera proposes to protect San Diegans from automated rent price-fixing by \nbanning the sale, license, and use of automated rent-setting software that advises or recommends rental \nrates or occupancy levels."
+            "quote": "This Ordinance will take effect and be in force on the thirtieth day from\nand after its final passage."
           },
           {
             "field": "citation",
-            "quote": "Amend San Diego Municipal Code Chapter 9, Article 8 by adding new Division 11, sections 98.1101, \n98.1102, 98.1103, and 98.1104, to adopt the proposed Prohibition of Anti-Competitive Automated Rent \nPrice-Fixing Ordinance."
+            "quote": "§98.1103  Use and Sale of Algorithmic Devices Prohibited"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0081",
+      "team_rule_id": "r-0085",
+      "overrides": [],
+      "jurisdiction": "San Diego, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "San Diego ban on algorithmic rent-setting using competitor data",
+      "requirement": "San Diego landlords may not use prohibited algorithmic rent-pricing products. Tenants may sue for damages, an injunction and penalties of up to $1,000 per violation, with each month and each affected property potentially a separate violation.",
+      "key_value": "up to $1,000 per violation",
+      "coverage_conditions": {
+        "summary": "All rental properties in San Diego.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "San Diego Mun. Code § 98.1103 (§§ 98.1101–98.1104)",
+      "source_doc_id": "D002",
+      "source_url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+      "retrieved_at": "2026-10-03 22:37 UTC",
+      "quoted_span": "San Diego similarly authorizes tenant suits for damages, injunctive relief and penalties of up to $1,000 per violation, with each month and affected rental property potentially constituting a separate violation.",
+      "span_verified": true,
+      "confidence": 0.65,
+      "conflict_flag": false,
+      "conflict_note": null,
+      "penalty": "Damages, injunctive relief, penalties up to $1,000 per violation; each month and affected rental property may be a separate violation.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "secondary (law-firm alert)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Berkeley, CA",
+      "verification": {
+        "model": "claude-sonnet-5-5",
+        "verdicts": {
+          "requirement": "supported",
+          "key_value": "supported",
+          "effective_date": "not_applicable",
+          "status": "supported",
+          "coverage": "not_applicable",
+          "citation": "supported"
+        },
+        "evidence": [
+          {
+            "field": "requirement",
+            "quote": "San Diego similarly authorizes tenant suits for damages, injunctive relief and penalties of up to $1,000 per violation, with each month and affected rental property potentially constituting a separate violation."
+          },
+          {
+            "field": "key_value",
+            "quote": "San Diego similarly authorizes tenant suits for damages, injunctive relief and penalties of up to $1,000 per violation, with each month and affected rental property potentially constituting a separate violation."
+          },
+          {
+            "field": "status",
+            "quote": "San Diego Mun. Code §§ 98.1101–98.1104 (effective June 2025)"
+          },
+          {
+            "field": "citation",
+            "quote": "San Diego Mun. Code §§ 98.1101–98.1104 (effective June 2025)"
+          }
+        ],
+        "changes": []
+      }
+    },
+    {
+      "team_rule_id": "r-0086",
       "overrides": [],
       "jurisdiction": "San Diego, CA",
       "level": "city",
@@ -5858,6 +6347,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "San Diego, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -5875,7 +6366,7 @@
           },
           {
             "field": "key_value",
-            "quote": "A tenant may seek injunctive relief, damages, or civil penalties of up to \n$1,000 per violation of this Division, in a civil action against a landlord."
+            "quote": "For each month a violation of section 98.1103(b) exists or continues, and for \neach residential rental property a landlord uses an algorithmic device, it shall \nconstitute a separate and distinct violation."
           },
           {
             "field": "effective_date",
@@ -5883,7 +6374,7 @@
           },
           {
             "field": "status",
-            "quote": "(“Use and Sale of Algorithmic Devices Prohibited” added 5-22-2025 by \nO-21955 N.S.; effective 6-21-2025.)"
+            "quote": "(“Prohibition of Anti-Competitive Automated Rent Price-Fixing”  \nadded 5-22-2025 by O-21955 N.S.; effective 6-21-2025.)"
           },
           {
             "field": "citation",
@@ -5894,7 +6385,7 @@
       }
     },
     {
-      "team_rule_id": "r-0082",
+      "team_rule_id": "r-0087",
       "overrides": [
         "r-0007"
       ],
@@ -5942,6 +6433,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Diego, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -5967,7 +6460,7 @@
           },
           {
             "field": "status",
-            "quote": "A landlord shall not terminate a tenancy without just cause."
+            "quote": "(Amended 2-27-2024 by O-21769 N.S.; effective 3-28-2024.)"
           },
           {
             "field": "coverage",
@@ -5982,7 +6475,7 @@
       }
     },
     {
-      "team_rule_id": "r-0083",
+      "team_rule_id": "r-0088",
       "overrides": [
         "r-0007"
       ],
@@ -6029,10 +6522,12 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Diego, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
-          "requirement": "partly_supported",
+          "requirement": "supported",
           "key_value": "supported",
           "effective_date": "supported",
           "status": "supported",
@@ -6042,11 +6537,11 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "(i) Unless section 98.0706(c)(1)(A)(ii) applies, the direct \npayment to the tenant shall be in an amount equal to \ntwo months of actual rent under the tenant’s lease in \neffect at the date of the notice."
+            "quote": "(ii) If the tenant is a senior or disabled, the direct payment \nto the tenant shall be in an amount equal to three \nmonths of actual rent under the tenant’s lease in effect \nat the date of the notice."
           },
           {
             "field": "key_value",
-            "quote": "(ii) If the tenant is a senior or disabled, the direct payment \nto the tenant shall be in an amount equal to three \nmonths of actual rent under the tenant’s lease in effect \nat the date of the notice."
+            "quote": "the direct \npayment to the tenant shall be in an amount equal to \ntwo months of actual rent under the tenant’s lease in \neffect at the date of the notice."
           },
           {
             "field": "effective_date",
@@ -6054,7 +6549,7 @@
           },
           {
             "field": "status",
-            "quote": "(c) Relocation Assistance for Termination of Tenancy for No-Fault Just Cause."
+            "quote": "(“Requirements Upon Termination of Tenancy” added 5-25-2023 by O-21647 N.S.; \neffective 6-24-2023.)"
           },
           {
             "field": "coverage",
@@ -6062,14 +6557,14 @@
           },
           {
             "field": "citation",
-            "quote": "(c) Relocation Assistance for Termination of Tenancy for No-Fault Just Cause."
+            "quote": "§98.0706 Requirements Upon Termination of Tenancy"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0084",
+      "team_rule_id": "r-0089",
       "overrides": [],
       "jurisdiction": "San Diego, CA",
       "level": "city",
@@ -6108,6 +6603,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "San Diego, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -6121,7 +6618,7 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "It is unlawful for any person to do any of the following acts, wholly or in \npart, based on a person’s source of income  (except as may be necessary to \ncomply with any program requirements related to source of income ):"
+            "quote": "It is unlawful for any person to use a financial or income standard for \nentering into or renewing a tenancy that does either of the following:"
           },
           {
             "field": "key_value",
@@ -6144,7 +6641,7 @@
       }
     },
     {
-      "team_rule_id": "r-0085",
+      "team_rule_id": "r-0090",
       "overrides": [],
       "jurisdiction": "San Francisco, CA",
       "level": "city",
@@ -6152,7 +6649,7 @@
       "status": "in_force",
       "title": "Ban on algorithmic devices to set rents or manage occupancy",
       "requirement": "Landlords in San Francisco may not use, and vendors may not sell, software that analyzes nonpublic competitor rental data to recommend rents or manage occupancy. If you believe a landlord or vendor is violating this, you (or the City Attorney) can bring a civil lawsuit.",
-      "key_value": null,
+      "key_value": "up to $1,000 per violation, per unit per month",
       "coverage_conditions": {
         "summary": "All residential units in San Francisco; the prohibition applies to any entity selling or using algorithmic rent-setting devices.",
         "min_units": null,
@@ -6174,22 +6671,25 @@
       "retrieved_at": "2026-10-01T22:37Z",
       "quoted_span": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
       "span_verified": true,
-      "confidence": 0.8,
+      "confidence": 0.88,
       "conflict_flag": false,
       "conflict_note": null,
       "penalty": "Tenant or City Attorney may bring a civil action against a violating entity.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA",
+      "consolidation_note": "Fields filled from D002, which state the same law.",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
-          "key_value": "not_applicable",
+          "key_value": "supported",
           "effective_date": "supported",
           "status": "supported",
           "coverage": "not_applicable",
-          "citation": "partly_supported"
+          "citation": "supported"
         },
         "evidence": [
           {
@@ -6197,23 +6697,27 @@
             "quote": "The law prohibits the sale or use of such algorithmic devices and allows a tenant or the City Attorney to bring a civil action if they believe an entity is in violation of the law."
           },
           {
+            "field": "key_value",
+            "quote": "Each month of use for each affected dwelling unit may constitute a separate violation, and tenants may seek damages, injunctive relief, and civil penalties of up to $1,000 per violation. S.F. Admin. Code § 37.10C(b) and (d)."
+          },
+          {
             "field": "effective_date",
             "quote": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024."
           },
           {
             "field": "status",
-            "quote": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024."
+            "quote": "Gomez v. Greystar Management Services LLC in the Northern District of California, alleging that Greystar violated San Francisco Administrative Code § 37.10C through its alleged use of RealPage and Yardi products."
           },
           {
             "field": "citation",
-            "quote": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024."
+            "quote": "S.F. Admin. Code § 37.10C(b) and (d)."
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0086",
+      "team_rule_id": "r-0091",
       "overrides": [
         "r-0007"
       ],
@@ -6252,6 +6756,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -6265,7 +6771,7 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction. Note that the mere expiration of a rental agreement or a change in ownership does not constitute \"just cause\" for eviction."
+            "quote": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction."
           },
           {
             "field": "key_value",
@@ -6284,7 +6790,7 @@
       }
     },
     {
-      "team_rule_id": "r-0087",
+      "team_rule_id": "r-0092",
       "overrides": [
         "r-0007"
       ],
@@ -6323,6 +6829,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -6344,7 +6852,7 @@
           },
           {
             "field": "status",
-            "quote": "Relocation payments for tenants evicted under the Ellis Act"
+            "quote": "For March 1, 2026 - February 28, 2027"
           },
           {
             "field": "citation",
@@ -6355,7 +6863,7 @@
       }
     },
     {
-      "team_rule_id": "r-0088",
+      "team_rule_id": "r-0093",
       "overrides": [
         "r-0007"
       ],
@@ -6394,6 +6902,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -6415,7 +6925,7 @@
           },
           {
             "field": "status",
-            "quote": "Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation"
+            "quote": "For March 1, 2026 - February 28, 2027"
           },
           {
             "field": "citation",
@@ -6426,7 +6936,7 @@
       }
     },
     {
-      "team_rule_id": "r-0089",
+      "team_rule_id": "r-0094",
       "overrides": [
         "r-0007"
       ],
@@ -6465,13 +6975,15 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
           "key_value": "supported",
           "effective_date": "supported",
-          "status": "supported",
+          "status": "partly_supported",
           "coverage": "not_applicable",
           "citation": "partly_supported"
         },
@@ -6493,7 +7005,7 @@
       }
     },
     {
-      "team_rule_id": "r-0090",
+      "team_rule_id": "r-0095",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -6533,6 +7045,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA",
       "consolidation_note": "Fields filled from D079, which state the same law.",
       "verification": {
         "model": "claude-sonnet-5-5",
@@ -6547,7 +7061,7 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "To calculate the dollar amount of the 1.6% annual rent increase, multiply the tenant's base rent by .016. For example, if the tenant's base rent is $2,000.00, the annual increase would be calculated as follows: $2,000.00 x .016 = $32.00. The tenant's new base rent would be $2,032.00 ($2,000.00 + $32.00)."
+            "quote": "To calculate the dollar amount of the 1.6% annual rent increase, multiply the tenant's base rent by .016. For example, if the tenant's base rent is $2,000.00, the annual increase would be calculated as follows: $2,000.00 x .016 = $32.00."
           },
           {
             "field": "key_value",
@@ -6563,16 +7077,16 @@
           },
           {
             "field": "coverage",
-            "quote": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979, tenancies that are eligible for a rent increase under the\nCosta-Hawkins Rental Housing Act,\nand some tenancies where the rent is regulated by another government agency."
+            "quote": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979, tenancies that are eligible for a rent increase under the\nCosta-Hawkins Rental Housing Act,"
           }
         ],
         "changes": [
-          "second check disputes the citation: Neither document cites S.F. Admin. Code § 37.3. D079 mentions only Ordinance Sections 37.9(a) and 37.2(r)."
+          "second check disputes the citation: The documents do not cite S.F. Admin. Code § 37.3. Only Ordinance Section 37.9(a) and 37.2(r) are mentioned, and those relate to evictions and soft-story work."
         ]
       }
     },
     {
-      "team_rule_id": "r-0091",
+      "team_rule_id": "r-0096",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -6612,12 +7126,14 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
           "requirement": "supported",
           "key_value": "supported",
-          "effective_date": "supported",
+          "effective_date": "partly_supported",
           "status": "supported",
           "coverage": "not_applicable",
           "citation": "partly_supported"
@@ -6648,7 +7164,7 @@
       }
     },
     {
-      "team_rule_id": "r-0092",
+      "team_rule_id": "r-0097",
       "overrides": [],
       "jurisdiction": "San Francisco, CA",
       "level": "city",
@@ -6687,6 +7203,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -6695,7 +7213,7 @@
           "effective_date": "not_applicable",
           "status": "supported",
           "coverage": "not_applicable",
-          "citation": "partly_supported"
+          "citation": "supported"
         },
         "evidence": [
           {
@@ -6715,7 +7233,7 @@
       }
     },
     {
-      "team_rule_id": "r-0093",
+      "team_rule_id": "r-0098",
       "overrides": [],
       "jurisdiction": "Santa Ana, CA",
       "level": "city",
@@ -6752,10 +7270,12 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Santa Ana, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
-          "requirement": "supported",
+          "requirement": "partly_supported",
           "key_value": "supported",
           "effective_date": "not_applicable",
           "status": "supported",
@@ -6765,7 +7285,7 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "The Santa Ana City Council has adopted a new ordinance to strengthen renter protections by limiting the use of certain rent-setting software for residential properties."
+            "quote": "Bans Price-Fixing Software: Prohibits the use of certain algorithmic rent-setting tools in the local rental market."
           },
           {
             "field": "key_value",
@@ -6784,7 +7304,7 @@
       }
     },
     {
-      "team_rule_id": "r-0094",
+      "team_rule_id": "r-0099",
       "overrides": [],
       "jurisdiction": "Santa Ana, CA",
       "level": "city",
@@ -6823,6 +7343,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Santa Ana, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -6836,7 +7358,7 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3, prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties."
+            "quote": "Under the ordinance, a tenant affected by a violation may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation, plus attorney’s fees."
           },
           {
             "field": "key_value",
@@ -6848,14 +7370,89 @@
           },
           {
             "field": "citation",
-            "quote": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3"
+            "quote": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3, prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties."
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0095",
+      "team_rule_id": "r-0100",
+      "overrides": [],
+      "jurisdiction": "Santa Ana, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Santa Ana ban on automated rent price-fixing",
+      "requirement": "Santa Ana prohibits specified anticompetitive automated rent price-fixing. Tenants can bring claims for up to $1,000 per violation, per month.",
+      "key_value": "up to $1,000 per violation and per month",
+      "coverage_conditions": {
+        "summary": "All rental units in Santa Ana.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": "2026-04-02",
+      "citation": "Santa Ana Ord. No. NS-3090",
+      "source_doc_id": "D002",
+      "source_url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+      "retrieved_at": "2026-10-03 22:37 UTC",
+      "quoted_span": "Ordinance NS-3090 prohibits specified anticompetitive automated rent price-fixing; private tenant claims and up to $1,000 per violation and per month.",
+      "span_verified": true,
+      "confidence": 0.65,
+      "conflict_flag": false,
+      "conflict_note": null,
+      "penalty": "Private tenant claims up to $1,000 per violation and per month.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "secondary (law-firm alert)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Berkeley, CA",
+      "verification": {
+        "model": "claude-sonnet-5-5",
+        "verdicts": {
+          "requirement": "supported",
+          "key_value": "supported",
+          "effective_date": "supported",
+          "status": "supported",
+          "coverage": "not_applicable",
+          "citation": "supported"
+        },
+        "evidence": [
+          {
+            "field": "requirement",
+            "quote": "Ordinance NS-3090 prohibits specified anticompetitive automated rent price-fixing; private tenant claims and up to $1,000 per violation and per month."
+          },
+          {
+            "field": "key_value",
+            "quote": "Ordinance NS-3090 prohibits specified anticompetitive automated rent price-fixing; private tenant claims and up to $1,000 per violation and per month."
+          },
+          {
+            "field": "effective_date",
+            "quote": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)"
+          },
+          {
+            "field": "status",
+            "quote": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)"
+          },
+          {
+            "field": "citation",
+            "quote": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)"
+          }
+        ],
+        "changes": []
+      }
+    },
+    {
+      "team_rule_id": "r-0101",
       "overrides": [
         "r-0007"
       ],
@@ -6900,6 +7497,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Santa Ana, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -6913,7 +7512,7 @@
         "evidence": [
           {
             "field": "requirement",
-            "quote": "Under a no-fault just cause termination, the owner shall either provide 3 months of relocation assistance or waive payment of rent for the final 3 months of the tenancy."
+            "quote": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice."
           },
           {
             "field": "key_value",
@@ -6933,14 +7532,14 @@
           },
           {
             "field": "citation",
-            "quote": "Santa Ana City Council adopts rent stabilization and just cause eviction ordinances, effective Nov. 19 - City of Santa Ana"
+            "quote": "a Just Cause Eviction Ordinance, which limits the allowed reasons for which a renter can be evicted."
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0096",
+      "team_rule_id": "r-0102",
       "overrides": [
         "r-0007"
       ],
@@ -6979,6 +7578,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Santa Ana, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -6987,7 +7588,7 @@
           "effective_date": "not_applicable",
           "status": "supported",
           "coverage": "not_applicable",
-          "citation": "partly_supported"
+          "citation": "supported"
         },
         "evidence": [
           {
@@ -7000,14 +7601,14 @@
           },
           {
             "field": "citation",
-            "quote": "Your landlord can only raise your rent by a certain amount each year."
+            "quote": "Rent Stabilization and Just Cause Eviction"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0097",
+      "team_rule_id": "r-0103",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -7047,6 +7648,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Santa Ana, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -7055,7 +7658,7 @@
           "effective_date": "not_applicable",
           "status": "supported",
           "coverage": "not_applicable",
-          "citation": "partly_supported"
+          "citation": "supported"
         },
         "evidence": [
           {
@@ -7069,13 +7672,17 @@
           {
             "field": "status",
             "quote": "2.87 percent is the maximum allowable rent increase for the period of September 1, 2026 through August 31, 2027."
+          },
+          {
+            "field": "citation",
+            "quote": "📖 Read the Ordinance →"
           }
         ],
         "changes": []
       }
     },
     {
-      "team_rule_id": "r-0098",
+      "team_rule_id": "r-0104",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -7117,6 +7724,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Santa Ana, CA",
       "verification": {
         "model": "claude-sonnet-5-5",
         "verdicts": {
@@ -7150,7 +7759,7 @@
           },
           {
             "field": "citation",
-            "quote": "Santa Ana City Council adopts rent stabilization and just cause eviction ordinances, effective Nov. 19 - City of Santa Ana"
+            "quote": "a Rent Stabilization Ordinance, which limits residential rent increases to no more than 3% per year"
           }
         ],
         "changes": []

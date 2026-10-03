@@ -47,7 +47,7 @@ Scope: rental housing rules in exactly six categories.
 Instructions
 1. Return one record per distinct rule this document states, as its own enacted text, a bill, a ballot measure, or an official summary of the governing law. Cite the underlying law, not the web page. Return an empty list if the document has no rule in scope. Never invent a rule, number, date or citation that the document does not state.
 2. jurisdiction: "CA", "NJ" or "MA" for state law (level "state"); "City, ST" for a city rule (level "city"), e.g. "Berkeley, CA". Use the plain city name, e.g. "San Francisco, CA" for the City and County of San Francisco.
-3. status as of the query date ${QUERY_DATE}: "in_force" if enacted and effective on or before that date; "not_yet_effective" if enacted with a later effective date; "pending" for bills, proposals and measures not yet adopted; "failed" for measures that were struck, defeated, vetoed or withdrawn. A ballot measure a court removed from the ballot is "failed": record it under the jurisdiction it would have covered (the state, for a statewide question), cite it by its number (e.g. "Initiative Petition 25-21") and state in the requirement that it is not law.
+3. status as of the query date ${QUERY_DATE}: "in_force" if enacted and effective on or before that date; "not_yet_effective" if enacted with a later effective date; "pending" for bills, proposals and measures not yet adopted; "failed" for measures that were struck, defeated, vetoed or withdrawn. A ballot measure that voters rejected, or that a court removed from the ballot, is "failed": record it under the jurisdiction it would have covered (the state, for a statewide question), cite it by its number (e.g. "Initiative Petition 25-21") and state in the requirement that it is not law.
 4. effective_date: YYYY-MM-DD when the document states it, including code history notes ("Effective January 1, 2026", "effective 6-21-2025"). An ordinance that takes effect "immediately upon passage" takes its final adoption date when the document states it. If the document gives two different effective dates, use the one in the operative text and set conflict_flag with a conflict_note naming both.
 5. quoted_span: copy one to three contiguous sentences character for character from this document, at least 20 characters, containing the operative requirement (the cap, the number, the prohibition). Do not paraphrase, shorten with ellipses, or merge separate passages.
 6. citation: put the primary official citation first: the code section if the rule is codified, otherwise the ordinance, session-law or bill number. Add alternates in parentheses. Examples: "Cal. Civ. Code § 1950.5", "Cal. Bus. & Prof. Code § 16729", "S.F. Admin. Code § 37.3", "Hoboken Code § 158-2", "Jersey City Code § 218-12", "Newark Mun. Code § 19:2-3", "San Diego Mun. Code § 98.1103", "N.J.S.A. 46:8-21.2", "M.G.L. c. 186 § 15B", or the ordinance or bill number ("Ord. No. 1234", "A.123") when there is no code section.
@@ -223,11 +223,13 @@ async function main() {
         span_verified: span.verified,
         confidence: Math.max(0, Math.min(1, span.verified ? rule.confidence : Math.min(rule.confidence, 0.4))),
         conflict_flag: rule.conflict_flag,
-        conflict_note: rule.conflict_note,
+        conflict_note: [rule.conflict_note, doc.reviewer_note].filter(Boolean).join(" ") || null,
         penalty: rule.penalty,
         yields_to_local_rule: rule.yields_to_local_rule,
         may_preempt_local_rules: rule.may_preempt_local_rules,
         source_type: doc.source_type,
+        source_in_starter_corpus: doc.in_starter_corpus,
+        source_jurisdiction: doc.jurisdictions,
         official: !doc.source_type.startsWith("secondary"),
         jurisdiction_matches_doc: doc.jurisdictions.includes(jurisdiction),
       });

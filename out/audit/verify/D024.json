@@ -1,15 +1,18 @@
 {
- "key": "8d1ca0286f392f8e9d87ea3e23ec5a7d51fd0941",
+ "key": "9f795ce7482d5d5d1c9b7a8bb1c4fc567a4281c6",
  "doc_id": "D024",
+ "ids": [
+  "r-0010"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:39:14.615Z",
+ "audited_at": "2026-10-03T22:45:11.033Z",
  "cards": [
   {
    "team_rule_id": "r-0010",
    "requirement": {
     "verdict": "supported",
     "evidence": "an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase.",
-    "note": "Two-increment limit, discount exclusion, and treble damages for willful violations are also stated in (a)(2), (a)(1), and (k)(1)(D)."
+    "note": "Two-increment limit, discount exclusion, and damages up to three times the excess for willful conduct are also in the text (subds. (a)(2), (a)(1), (k)(1)(D))."
    },
    "key_value": {
     "verdict": "supported",
@@ -19,22 +22,22 @@
    "effective_date": {
     "verdict": "supported",
     "evidence": "(n) This section shall become operative on April 1, 2024.",
-    "note": "Operative date matches the card; the history note gives a January 1, 2024 effective date, which the card's extractor notes mention."
+    "note": "Card date matches the operative date. The history note says effective January 1, 2024, but operative April 1, 2024."
    },
    "status": {
     "verdict": "supported",
     "evidence": "(o) This section shall remain in effect until January 1, 2030, and as of that date is repealed.",
-    "note": "As of 2026-10-01 the section is operative and not yet repealed."
+    "note": "As of 2026-10-01 the section is operative (since 2024-04-01) and not yet repealed, so in_force."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "(4) Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome.",
-    "note": "The 15-year certificate-of-occupancy exemption is supported. The owner_based_exemption_max_units of 2 is not stated as such: (d)(6) covers a property with two dwelling units in a single structure where the owner occupies one, and (d)(5) covers separately alienable property with owner-type conditions. Neither sets a maximum of 2 units for an owner-based exemption."
+    "note": "The 15-year certificate-of-occupancy exemption is supported. The 'owner_based_exemption_max_units: 2' is not stated; the document has a two-unit owner-occupied exemption (d)(6) and a separately alienable property exemption (d)(5), but no unit cap of 2 as an owner-based exemption. The mobilehome carve-out from the 15-year exemption is not captured."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "(Repealed (in Sec. 3) and added by Stats. 2023, Ch. 290, Sec. 4.   (SB 567)   Effective January 1, 2024.   Operative April 1, 2024, by its own provisions.",
-    "note": "Section number and the Stats. 2023, Ch. 290 (SB 567) history match."
+    "note": "Section 1947.12, Stats. 2023 Ch. 290, SB 567 all match."
    }
   }
  ]

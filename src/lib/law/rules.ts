@@ -80,12 +80,17 @@ export function sectionKey(citation: string): { base: string; full: string } | n
   if (njsa) return { base: njsa[1], full: njsa[1] + njsa[2] };
   const bill = s.match(/\b(ab|sb|hb|a|s|h)\s?\.?\s?(\d{2,5})\b/);
   if (bill) return { base: `bill:${bill[1]}${bill[2]}`, full: `bill:${bill[1]}${bill[2]}` };
-  const chapter = s.match(/\bch(?:apter)?\.?\s*([0-9]+[a-z]?)\b/);
+  const chapter = s.match(/\bch(?:apter)?\.?\s*([0-9]+(?:\.[0-9]+)*[a-z]?)\b/);
   if (chapter) return { base: `ch${chapter[1]}`, full: `ch${chapter[1]}` };
   return null;
 }
 
 const enacted = (r: RuleRecord) => r.status === "in_force" || r.status === "not_yet_effective";
+// Texts we captured ourselves don't count toward the organizers' citation metric,
+// so when the same law is also in the supplied corpus we keep the corpus quote.
+const fromStarter = (r: RuleRecord) => r.source_in_starter_corpus !== false;
+// "13.63.030" and "ch13.63" are the same chapter; used to compare dates across a chapter.
+const familyKey = (base: string) => base.replace(/^ch/, "").split(".").slice(0, 2).join(".");
 const official = (r: RuleRecord) => !(r.source_type ?? "").startsWith("secondary");
 const words = (r: RuleRecord) => new Set(`${r.title} ${r.requirement}`.toLowerCase().match(/[a-z]{5,}/g) ?? []);
 function similar(a: RuleRecord, b: RuleRecord, min = 0.25): boolean {
@@ -115,16 +120,62 @@ function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[]
     groups.set(key, [...(groups.get(key) ?? []), r]);
   }
 
+  // Same law in the supplied corpus and in texts we added: the corpus card keeps its
+  // quote and takes the status or date it's missing from the best added text
+  // (official before secondary, dated before undated). A disagreement on the date,
+  // or a review note on the added text, carries over to the corpus card.
+  const describe = (r: RuleRecord) => `${r.source_doc_id}, ${official(r) ? "official text added by the team" : "a secondary source added by the team"}, ${r.citation}`;
+  const byFamily = new Map<string, RuleRecord[]>();
+  for (const r of rules) {
+    const k = sectionKey(r.citation);
+    if (!k) continue;
+    const key = `${r.jurisdiction}|${r.category}|${familyKey(k.base)}`;
+    byFamily.set(key, [...(byFamily.get(key) ?? []), r]);
+  }
+  for (const fam of byFamily.values()) {
+    const starter = fam.filter(fromStarter);
+    const added = fam.filter((r) => !fromStarter(r));
+    if (!starter.length || !added.length) continue;
+    const ranked = [...added].sort((a, b) => Number(official(b)) - Number(official(a)) || Number(Boolean(b.effective_date)) - Number(Boolean(a.effective_date)) || b.confidence - a.confidence);
+    const donor = ranked.find(enacted) ?? ranked[0];
+    for (const r of starter) {
+      if (r.status === "pending" && enacted(donor)) {
+        r.status = donor.status;
+        r.effective_date = donor.effective_date ?? r.effective_date;
+        note(r, `Adopted: status and effective date from ${describe(donor)}.`);
+      } else if (!r.effective_date && donor.effective_date && enacted(r)) {
+        r.effective_date = donor.effective_date;
+        if (r.status === "in_force" && donor.effective_date > QUERY_DATE) r.status = "not_yet_effective";
+        note(r, `Effective date from ${describe(donor)}.`);
+      }
+      for (const a of added) {
+        if (a.conflict_flag && a.conflict_note && !(r.conflict_note ?? "").includes(a.conflict_note)) {
+          r.conflict_flag = true;
+          r.conflict_note = [r.conflict_note, `${a.source_doc_id}: ${a.conflict_note}`].filter(Boolean).join(" ");
+        }
+        if (a.effective_date && r.effective_date && a.effective_date.slice(0, 7) !== r.effective_date.slice(0, 7)) {
+          r.conflict_flag = true;
+          r.conflict_note = [r.conflict_note, `Sources give different effective dates: ${r.effective_date} (${r.consolidation_note?.includes("Effective date from") ? donor.source_doc_id : r.source_doc_id}), ${a.effective_date} (${a.source_doc_id}).`].filter(Boolean).join(" ");
+        }
+      }
+    }
+    for (const r of added) {
+      drop.add(r);
+      notes.push(`${r.team_rule_id} folded into the supplied-corpus card(s) ${starter.map((x) => x.team_rule_id).join(", ")} (same law).`);
+    }
+  }
+
   for (const g of groups.values()) {
     if (g.length < 2) continue;
-    const law = g.find(enacted);
+    const law = g.find((r) => enacted(r) && !drop.has(r));
     if (law) {
-      for (const r of g.filter((x) => x.status === "pending")) {
+      for (const r of g.filter((x) => x.status === "pending" && !drop.has(x))) {
         drop.add(r);
         notes.push(`${r.team_rule_id} dropped: the proposal was enacted as ${law.team_rule_id} (${law.citation}).`);
       }
     }
     const live = g.filter((r) => !drop.has(r));
+    if (live.length < 2) continue;
     const dates = [...new Set(live.map((r) => r.effective_date).filter((d): d is string => Boolean(d)))];
     if (dates.length === 1) {
       const donor = live.find((r) => r.effective_date === dates[0])!;
@@ -145,7 +196,9 @@ function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[]
     }
     for (const same of byFull.values()) {
       if (same.length < 2) continue;
-      const [keep, ...rest] = [...same].sort((a, b) => Number(official(b)) - Number(official(a)) || Number(b.span_verified) - Number(a.span_verified) || b.confidence - a.confidence);
+      const [keep, ...rest] = [...same].sort(
+        (a, b) => Number(fromStarter(b)) - Number(fromStarter(a)) || Number(official(b)) - Number(official(a)) || Number(b.span_verified) - Number(a.span_verified) || b.confidence - a.confidence,
+      );
       for (const r of rest) {
         drop.add(r);
         const c = keep.coverage_conditions;
@@ -157,6 +210,36 @@ function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[]
         notes.push(`${r.team_rule_id} merged into ${keep.team_rule_id} (${keep.citation}).`);
       }
     }
+  }
+
+  // Sources that cite a whole section or chapter and give different effective dates
+  // get flagged, not resolved (e.g. Berkeley ch. 13.63: March 1, 2026 in the
+  // ordinance, January 2026 in a law-firm alert).
+  const families = new Map<string, RuleRecord[]>();
+  for (const r of rules) {
+    const k = sectionKey(r.citation);
+    if (drop.has(r) || !k || k.full !== k.base || !enacted(r) || !r.effective_date) continue;
+    const key = `${r.jurisdiction}|${r.category}|${familyKey(k.base)}`;
+    families.set(key, [...(families.get(key) ?? []), r]);
+  }
+  for (const fam of families.values()) {
+    const dates = [...new Set(fam.map((r) => r.effective_date))];
+    if (dates.length < 2) continue;
+    const list = fam.map((r) => `${r.effective_date} (${r.source_doc_id})`).join(", ");
+    for (const r of fam) {
+      r.conflict_flag = true;
+      r.conflict_note = [r.conflict_note, `Sources give different effective dates: ${list}.`].filter(Boolean).join(" ");
+    }
+    notes.push(`different effective dates flagged: ${fam.map((r) => r.team_rule_id).join(", ")} (${list}).`);
+  }
+
+  // A state rule read off a city agency's page: flag it so a person checks the
+  // figure against the state's own text (e.g. a city page's 2026 screening-fee cap).
+  for (const r of rules) {
+    if (drop.has(r) || r.level !== "state" || !(r.source_jurisdiction ?? "").includes(",")) continue;
+    if ((r.conflict_note ?? "").includes("city agency")) continue;
+    r.conflict_flag = true;
+    r.conflict_note = [r.conflict_note, `Stated on a city agency's page (${r.source_jurisdiction}), not in the state's own text; check the figure against an official state source.`].filter(Boolean).join(" ");
   }
 
   for (const r of rules) {
@@ -259,6 +342,8 @@ export function normalizeRules(input: unknown): LoadedRules {
       yields_to_local_rule: r.yields_to_local_rule === true,
       may_preempt_local_rules: r.may_preempt_local_rules === true,
       source_type: typeof r.source_type === "string" ? r.source_type : undefined,
+      source_in_starter_corpus: typeof r.source_in_starter_corpus === "boolean" ? r.source_in_starter_corpus : undefined,
+      source_jurisdiction: typeof r.source_jurisdiction === "string" ? r.source_jurisdiction : undefined,
       coverage_note: typeof r.coverage_note === "string" ? r.coverage_note : null,
       consolidation_note: typeof r.consolidation_note === "string" ? r.consolidation_note : null,
       verification: r.verification && typeof r.verification === "object" ? (r.verification as RuleRecord["verification"]) : undefined,

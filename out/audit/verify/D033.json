@@ -1,40 +1,43 @@
 {
- "key": "799fcfbbbedfb7eb2dad56d9fabe7940a0a3910a",
+ "key": "ce2d8859e1a779e59323e65ebd4b8d3b87c3e80a",
  "doc_id": "D033",
+ "ids": [
+  "r-0070"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:30:10.118Z",
+ "audited_at": "2026-10-03T22:48:46.800Z",
  "cards": [
   {
-   "team_rule_id": "r-0068",
+   "team_rule_id": "r-0070",
    "requirement": {
-    "verdict": "partly_supported",
-    "evidence": "The City is also reminding all property owners, landlords, and responsible agents that residential properties offered for rent must be registered annually with the Rent Leveling and Stabilization Office by June 30. The majority of Hoboken rental properties, including many condominium units, are covered under rent control regulations.",
-    "note": "Registration by June 30 and coverage of most rentals/condos are supported. Denial of increase for missing proof of rent is supported, and failure to register may forfeit eligibility for increases. But the claim that a tenant can check registration status and appeal through that office is only loosely supported (the webinar mentions records and appeals processes); no explicit tenant right to check status or appeal denial is stated."
+    "verdict": "supported",
+    "evidence": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
+    "note": "Card's plain-language summary matches the cap and the one-increase-per-12-months rule, including regardless of tenant turnover."
    },
    "key_value": {
-    "verdict": "not_applicable",
-    "evidence": null,
-    "note": "Field is empty on the card."
+    "verdict": "supported",
+    "evidence": "No more than one such cost-of-living rental increase in any one twelve-month period shall be permitted irrespective of the number of different tenants occupying said housing space during said twelve-month period.",
+    "note": "Lesser of 5% or CPI change and one increase per 12 months are both stated."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Card's effective_date is null."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "Timely and accurate registration is a legal requirement and helps:",
-    "note": "The document presents the rent control ordinance and registration requirement as current law."
+    "evidence": "[Amended 2-1-2023 by Ord. No. B-532]At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5%",
+    "note": "Document presents the section as current code text, so in_force is supported."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Card's coverage is null."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "Federally funded housing, certain new construction, and commercial properties may be exempt under Municipal Code Chapter 155.",
-    "note": "The document identifies Municipal Code Chapter 155 as the rent control ordinance."
+    "evidence": "§ 155-5 Expiration or termination of lease. [Amended 2-1-2023 by Ord. No. B-532]",
+    "note": "Section number and ordinance number match the document; the document names Hoboken Code Chapter 155."
    }
   }
  ]

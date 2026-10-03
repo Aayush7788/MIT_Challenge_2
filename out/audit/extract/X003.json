@@ -1,0 +1,80 @@
+{
+  "doc_id": "X003",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T22:44:23.796Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 1262,
+    "output": 1975,
+    "cache_read": 0,
+    "cache_write": 5542
+  },
+  "rules": [
+    {
+      "jurisdiction": "Hoboken, NJ",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "failed",
+      "title": "2024 Hoboken public question to allow market-rate rent on vacated units for a $2,500 fee (rejected)",
+      "requirement": "This proposal is not law. Hoboken voters rejected it on November 5, 2024 (6,082 yes to 16,371 no), so landlords cannot pay a $2,500 fee to reset a vacated rent-controlled apartment to market rent.",
+      "key_value": "$2,500 fee for market-rate rent on vacancy (rejected)",
+      "coverage": {
+        "summary": "Would have applied to voluntarily vacated apartments subject to Hoboken's Rent Control ordinance (Chapter 155).",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "Hoboken Public Question, Nov. 5, 2024 general election (initiative ordinance amending Hoboken Code § 155-31)",
+      "quoted_span": "Shall the ordinance submitted by initiative petition, providing for an amendment to Hoboken City Code Chapter 155 (Rent Control) at Section 155-31 to provide an option to landlords to pay a fee of $2,500 to the Hoboken Affordable Housing Fund in order to lease voluntarily vacated apartments at a freely negotiated rent, which thereafter remain subject to the provisions of the Rent Control ordinance, including limitations on annual increases, be adopted?",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.9,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "Hoboken, NJ",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Hoboken rent control annual increase cap and partial vacancy decontrol",
+      "requirement": "In Hoboken rent-controlled units, annual rent increases are capped at the lower of 5% or CPI (excluding certain surcharges). When a unit occupied three years or more becomes vacant, the landlord may raise rent by up to 25%, no more than once every three years.",
+      "key_value": "lesser of 5% or CPI; up to 25% on vacancy after 3+ years",
+      "coverage": {
+        "summary": "Residential units subject to Hoboken City Code Chapter 155 (Rent Control); this document does not state building-level coverage thresholds.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "Hoboken Code § 155-5 (Chapter 155, Rent Control)",
+      "quoted_span": "Currently, annual rent increases are capped at either 5% or the Consumer Price Index (CPI) rate, whichever is lower (excluding certain surcharges). However, when a unit has been occupied for three years or more and becomes vacant, landlords can raise rent by up to 25%—a process known as \"partial vacancy decontrol.\" This increase can only happen once every three years for the same unit.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.65,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Ballot question rejected 6,082 to 16,371 per official Hudson County results. The second record comes from the official interpretive statement on the 2024 sample ballot, which summarizes Chapter 155 as it stood then. The § 155-5 section number comes from the team reviewer note, not the ballot text. Building coverage and exemptions for Chapter 155 are not stated here."
+}

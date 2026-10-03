@@ -98,11 +98,17 @@ const client = new Anthropic({ maxRetries: 6 });
 async function audit(doc: CorpusDoc, cards: Card[], extra: CorpusDoc[]): Promise<Audit[]> {
   const payload = cards.map(cardForAudit);
   const extraText = extra.map((d) => `<document id="${d.doc_id}" url="${d.url}">\n${d.text}\n</document>`).join("\n\n");
-  const key = crypto.createHash("sha1").update(MODEL + SYSTEM + doc.text + extraText + JSON.stringify(payload)).digest("hex");
+  // Cache on card content, not ids: extraction renumbers ids whenever cards are added.
+  const content = payload.map(({ team_rule_id, ...rest }) => (void team_rule_id, rest));
+  const key = crypto.createHash("sha1").update(MODEL + SYSTEM + doc.text + extraText + JSON.stringify(content)).digest("hex");
   const file = path.join(AUDIT_DIR, `${doc.doc_id}.json`);
   if (!fresh && fs.existsSync(file)) {
     const cached = JSON.parse(fs.readFileSync(file, "utf8"));
-    if (cached.key === key) return cached.cards;
+    if (cached.key === key && Array.isArray(cached.ids) && cached.ids.length === cards.length) {
+      // The cache stores the ids the cards had then; same content means same order, so map through it.
+      const pos = new Map<string, number>((cached.ids as string[]).map((id, i) => [id, i]));
+      return (cached.cards as Audit[]).filter((a) => pos.has(a.team_rule_id)).map((a) => ({ ...a, team_rule_id: cards[pos.get(a.team_rule_id)!].team_rule_id }));
+    }
   }
   const stream = client.beta.messages.stream({
     model: MODEL,
@@ -124,7 +130,7 @@ async function audit(doc: CorpusDoc, cards: Card[], extra: CorpusDoc[]): Promise
   });
   const msg = await stream.finalMessage();
   const out = msg.parsed_output?.cards ?? [];
-  fs.writeFileSync(file, JSON.stringify({ key, doc_id: doc.doc_id, model: msg.model, audited_at: new Date().toISOString(), cards: out }, null, 1));
+  fs.writeFileSync(file, JSON.stringify({ key, doc_id: doc.doc_id, ids: cards.map((c) => c.team_rule_id), model: msg.model, audited_at: new Date().toISOString(), cards: out }, null, 1));
   return out;
 }
 

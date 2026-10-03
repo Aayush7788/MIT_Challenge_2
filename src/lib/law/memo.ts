@@ -40,6 +40,7 @@ export type MemoItem = {
   confidence_level: "high" | "medium" | "low";
   confidence_reasons: string[];
   second_check: string | null;
+  source_added: boolean; // the source is a text we captured, outside the supplied corpus
 };
 
 export type Memo = {
@@ -116,6 +117,7 @@ function item(e: Evaluation, facts: FactSheet): MemoItem {
     second_check: r.verification
       ? `${Object.values(r.verification.verdicts).filter((v) => v === "supported").length} of ${Object.values(r.verification.verdicts).filter((v) => v !== "not_applicable").length} fields confirmed by a second model, with ${r.verification.evidence.length} supporting quotes found in the source`
       : null,
+    source_added: r.source_in_starter_corpus === false,
   };
 }
 

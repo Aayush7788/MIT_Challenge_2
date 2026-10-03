@@ -37,7 +37,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official text captured by the team (not in the starter pack)"
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0002",
@@ -76,7 +78,9 @@
       "penalty": "Violation of the Cartwright Act, which is punishable as a crime; general Cartwright Act enforcement applies.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0003",
@@ -115,7 +119,9 @@
       "penalty": "Violation of the Cartwright Act, which is punishable as a crime.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0004",
@@ -155,6 +161,8 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA",
       "consolidation_note": "Fields filled from D026, which state the same law."
     },
     {
@@ -196,7 +204,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0006",
@@ -237,27 +247,29 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0007",
       "overrides": [
-        "r-0048",
-        "r-0049",
         "r-0050",
         "r-0051",
-        "r-0071",
-        "r-0072",
-        "r-0073",
-        "r-0074",
-        "r-0082",
-        "r-0083",
-        "r-0086",
+        "r-0052",
+        "r-0053",
+        "r-0075",
+        "r-0076",
+        "r-0077",
+        "r-0078",
         "r-0087",
         "r-0088",
-        "r-0089",
-        "r-0095",
-        "r-0096"
+        "r-0091",
+        "r-0092",
+        "r-0093",
+        "r-0094",
+        "r-0101",
+        "r-0102"
       ],
       "jurisdiction": "CA",
       "level": "state",
@@ -302,7 +314,9 @@
       "penalty": "Notice void for noncompliance. For material violation: actual damages, discretionary attorney's fees and costs, up to three times actual damages plus punitive damages for willful, oppressive, fraudulent or malicious conduct. The Attorney General, city attorney or county counsel may seek injunctive relief.",
       "yields_to_local_rule": true,
       "may_preempt_local_rules": true,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0008",
@@ -344,21 +358,23 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA"
     },
     {
       "team_rule_id": "r-0009",
       "overrides": [
-        "r-0052",
-        "r-0053",
         "r-0054",
-        "r-0075",
-        "r-0076",
-        "r-0077",
-        "r-0090",
-        "r-0091",
-        "r-0097",
-        "r-0098"
+        "r-0055",
+        "r-0056",
+        "r-0079",
+        "r-0080",
+        "r-0081",
+        "r-0095",
+        "r-0096",
+        "r-0103",
+        "r-0104"
       ],
       "jurisdiction": "CA",
       "level": "state",
@@ -398,21 +414,23 @@
       "penalty": null,
       "yields_to_local_rule": true,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA"
     },
     {
       "team_rule_id": "r-0010",
       "overrides": [
-        "r-0052",
-        "r-0053",
         "r-0054",
-        "r-0075",
-        "r-0076",
-        "r-0077",
-        "r-0090",
-        "r-0091",
-        "r-0097",
-        "r-0098"
+        "r-0055",
+        "r-0056",
+        "r-0079",
+        "r-0080",
+        "r-0081",
+        "r-0095",
+        "r-0096",
+        "r-0103",
+        "r-0104"
       ],
       "jurisdiction": "CA",
       "level": "state",
@@ -453,7 +471,9 @@
       "penalty": "Civil action for injunctive relief, damages equal to the overcharge, and discretionary attorney's fees. Up to treble damages for willful, oppressive, fraudulent, or malicious conduct. Enforceable by the Attorney General and city attorneys or county counsel. Three-year limitations period. Waivers are void.",
       "yields_to_local_rule": true,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0011",
@@ -492,7 +512,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0012",
@@ -531,7 +553,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0013",
@@ -570,7 +594,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0014",
@@ -611,7 +637,9 @@
       "penalty": "Remedies include out-of-pocket losses, injunctions, access to the denied housing, emotional distress damages, civil penalties or punitive damages, and attorney's fees.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0015",
@@ -650,7 +678,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA"
     },
     {
       "team_rule_id": "r-0016",
@@ -693,7 +723,9 @@
       "penalty": "Bad faith claim or retention of security may subject the landlord to statutory damages of up to twice the amount of the security, plus actual damages.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0017",
@@ -732,7 +764,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0018",
@@ -771,7 +805,9 @@
       "penalty": "Statutory damages of up to twice the amount of the security, in addition to actual damages, for bad faith claim or retention; landlord forfeits claim to security if it fails in bad faith to comply.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0019",
@@ -810,7 +846,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "CA"
     },
     {
       "team_rule_id": "r-0020",
@@ -849,7 +887,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA"
     },
     {
       "team_rule_id": "r-0021",
@@ -888,7 +928,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA"
     },
     {
       "team_rule_id": "r-0022",
@@ -927,7 +969,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA"
     },
     {
       "team_rule_id": "r-0023",
@@ -966,7 +1010,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA"
     },
     {
       "team_rule_id": "r-0024",
@@ -1005,7 +1051,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA"
     },
     {
       "team_rule_id": "r-0025",
@@ -1046,7 +1094,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA"
     },
     {
       "team_rule_id": "r-0026",
@@ -1085,7 +1135,9 @@
       "penalty": "Damages not less than one month's rent or more than three months' rent, or actual damages, whichever is greater, plus costs and reasonable attorney's fees.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA"
     },
     {
       "team_rule_id": "r-0027",
@@ -1124,7 +1176,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": true,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA"
     },
     {
       "team_rule_id": "r-0028",
@@ -1163,7 +1217,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": true,
-      "source_type": "secondary (news report)"
+      "source_type": "secondary (news report)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "MA"
     },
     {
       "team_rule_id": "r-0029",
@@ -1204,7 +1260,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "secondary (news report)"
+      "source_type": "secondary (news report)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "MA"
     },
     {
       "team_rule_id": "r-0030",
@@ -1243,7 +1301,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA"
     },
     {
       "team_rule_id": "r-0031",
@@ -1284,7 +1344,9 @@
       "penalty": "Landlord who fails to deposit the funds as required, uses or enforces conflicting lease terms, or fails to return the deposit within 30 days forfeits the right to retain any of it and owes three times the deposit plus 5% interest, court costs and reasonable attorney's fees.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA"
     },
     {
       "team_rule_id": "r-0032",
@@ -1325,7 +1387,9 @@
       "penalty": "Three times the deposit or balance owed, plus 5% interest, court costs and reasonable attorney's fees.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "MA"
     },
     {
       "team_rule_id": "r-0033",
@@ -1367,7 +1431,9 @@
       "penalty": "Violation of the New Jersey Antitrust Act, P.L.1970, c.73 (C.56:9-1 et seq.); remedies of C.56:9-6 through 9-17 apply.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": true,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ"
     },
     {
       "team_rule_id": "r-0034",
@@ -1408,7 +1474,9 @@
       "penalty": "Up to $500 for a first offense, up to $750 for a second, and up to $1,000 for each subsequent offense, enforced under the Penalty Enforcement Law of 1999; amount wrongfully charged is remitted to the applicant from the collected penalty.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ"
     },
     {
       "team_rule_id": "r-0035",
@@ -1450,7 +1518,9 @@
       "penalty": "If the landlord evicts for personal occupancy and does not occupy the unit for 6 months, or evicts to retire the property and then uses it residentially within 5 years, the landlord is liable for treble damages plus attorney fees, and a civil penalty of up to $10,000 per violation for the retirement case (N.J.S.A. 2A:18-61.6).",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ"
     },
     {
       "team_rule_id": "r-0036",
@@ -1491,7 +1561,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ"
     },
     {
       "team_rule_id": "r-0037",
@@ -1532,7 +1604,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ"
     },
     {
       "team_rule_id": "r-0038",
@@ -1571,7 +1645,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": true,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ"
     },
     {
       "team_rule_id": "r-0039",
@@ -1613,7 +1689,9 @@
       "penalty": "Fines and penalties of up to $10,000 for a first offense (N.J.S.A. 10:5-14.1a(a)), plus possible damages and an order to rent the unit to the complainant.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ"
     },
     {
       "team_rule_id": "r-0040",
@@ -1652,7 +1730,9 @@
       "penalty": "Civil penalties through the Division on Civil Rights: up to $1,000 for a first violation, up to $5,000 for a second within five years, and up to $10,000 for two or more prior violations within seven years. Also possible return of the application fee and up to $1,000 paid to the applicant. No private court action is allowed.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ"
     },
     {
       "team_rule_id": "r-0041",
@@ -1691,7 +1771,9 @@
       "penalty": "Civil penalties through the Division on Civil Rights: up to $1,000, $5,000 or $10,000 depending on prior violations.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ"
     },
     {
       "team_rule_id": "r-0042",
@@ -1730,7 +1812,9 @@
       "penalty": "Civil penalties through the Division on Civil Rights: up to $1,000, $5,000 or $10,000 depending on prior violations.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ"
     },
     {
       "team_rule_id": "r-0043",
@@ -1772,7 +1856,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ"
     },
     {
       "team_rule_id": "r-0044",
@@ -1813,10 +1899,94 @@
       "penalty": "Tenant may recover double the amount wrongfully withheld plus court costs and reasonable attorney's fees (N.J.S.A. 46:8-21.1). Unlawful use of deposit funds is a disorderly persons offense (N.J.S.A. 46:8-25).",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "NJ"
     },
     {
       "team_rule_id": "r-0045",
+      "overrides": [],
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Prohibition on sale or use of coordinated pricing algorithms to set rents or manage occupancy",
+      "requirement": "Landlords in Berkeley may not use coordinated pricing algorithms (software using competitor data) to set rents or occupancy levels, and vendors may not sell or provide such software to Berkeley landlords. A tenant whose landlord uses such software can sue for injunctive relief, damages, civil penalties of up to $1,000 per violation, and attorney's fees.",
+      "key_value": "Civil penalties up to $1,000 per violation (each month and each unit a separate violation)",
+      "coverage_conditions": {
+        "summary": "All residential dwelling units in the City of Berkeley; applies to landlords using, and vendors selling or licensing, coordinated pricing algorithms.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": "Excludes trade association reports publishing renter data in aggregated and anonymous form, and products used to set rent or income limits under government affordable housing guidelines.",
+      "interaction": null,
+      "effective_date": "2026-03-01",
+      "citation": "Berkeley Mun. Code § 13.63.030 (Ord. No. 7,974-N.S.)",
+      "source_doc_id": "X002",
+      "source_url": "https://berkeleyca.gov/sites/default/files/documents/2025-07-08%20Item%2001%20Amendments%20to%20Ordinance%20Prohibiting.pdf",
+      "retrieved_at": "2026-10-03 22:37 UTC",
+      "quoted_span": "B. It shall be unlawful for a landlord to use a coordinated pricing algorithm described \nin subsection A when setting rents or occupancy levels for residential dwelling units in \nthe city of Berkeley.",
+      "span_verified": true,
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": null,
+      "penalty": "City Attorney civil action for damages, injunctive relief, restitution, and civil penalties up to $1,000 per violation; tenant civil action for injunctive relief, money damages, and civil penalties up to $1,000 per violation; prevailing City Attorney or tenant awarded reasonable attorney's fees and costs. Each month and each unit is a separate violation.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Berkeley, CA"
+    },
+    {
+      "team_rule_id": "r-0046",
+      "overrides": [],
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Berkeley ban on coordinated rent-pricing algorithms",
+      "requirement": "Berkeley landlords may not use coordinated pricing algorithms to set rents. Tenants have private remedies, and each unit and each month of use can count as a separate violation.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "All rental units in Berkeley; the ban applies to any landlord using coordinated pricing algorithms.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "Berkeley Mun. Code ch. 13.63",
+      "source_doc_id": "D002",
+      "source_url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+      "retrieved_at": "2026-10-03 22:37 UTC",
+      "quoted_span": "Prohibits coordinated pricing algorithms; recurring unit/month violations and private remedies, previously at issue in RealPage, Inc. v. City of Berkeley et al., (N.D. Cal.) (voluntarily dismissed with prejudice Jan. 14, 2026).",
+      "span_verified": true,
+      "confidence": 0.6,
+      "conflict_flag": true,
+      "conflict_note": "Secondary law-firm source gives the effective date only as 'January 2026' (no exact day). The brief flags Berkeley's effective date as an open question, so verify against the ordinance text.",
+      "penalty": "Recurring unit/month violations and private remedies (amounts not stated in this source).",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "secondary (law-firm alert)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Berkeley, CA"
+    },
+    {
+      "team_rule_id": "r-0047",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -1854,10 +2024,12 @@
       "penalty": "City Attorney may sue for damages, injunctive relief, restitution, and civil penalties up to $1,000 per violation. Aggrieved tenants may sue for injunctive relief, money damages, and civil penalties up to $1,000 per violation. Each month and each unit is a separate violation. A prevailing City Attorney or tenant gets mandatory attorney's fees and costs.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA"
     },
     {
-      "team_rule_id": "r-0046",
+      "team_rule_id": "r-0048",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -1893,10 +2065,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA"
     },
     {
-      "team_rule_id": "r-0047",
+      "team_rule_id": "r-0049",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -1932,10 +2106,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA"
     },
     {
-      "team_rule_id": "r-0048",
+      "team_rule_id": "r-0050",
       "overrides": [
         "r-0007"
       ],
@@ -1973,10 +2149,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA"
     },
     {
-      "team_rule_id": "r-0049",
+      "team_rule_id": "r-0051",
       "overrides": [
         "r-0007"
       ],
@@ -2016,10 +2194,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA"
     },
     {
-      "team_rule_id": "r-0050",
+      "team_rule_id": "r-0052",
       "overrides": [
         "r-0007"
       ],
@@ -2061,10 +2241,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA"
     },
     {
-      "team_rule_id": "r-0051",
+      "team_rule_id": "r-0053",
       "overrides": [
         "r-0007"
       ],
@@ -2102,10 +2284,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA"
     },
     {
-      "team_rule_id": "r-0052",
+      "team_rule_id": "r-0054",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -2148,10 +2332,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA"
     },
     {
-      "team_rule_id": "r-0053",
+      "team_rule_id": "r-0055",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -2190,10 +2376,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA"
     },
     {
-      "team_rule_id": "r-0054",
+      "team_rule_id": "r-0056",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -2240,10 +2428,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA"
     },
     {
-      "team_rule_id": "r-0055",
+      "team_rule_id": "r-0057",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -2284,10 +2474,12 @@
       "penalty": "Administrative fines of at least $1,000 and up to $10,000 per violation; civil damages including actual damages or three times one month's rent; punitive damages; attorneys' fees and costs; injunctive relief.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA"
     },
     {
-      "team_rule_id": "r-0056",
+      "team_rule_id": "r-0058",
       "overrides": [],
       "jurisdiction": "Berkeley, CA",
       "level": "city",
@@ -2323,10 +2515,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Berkeley, CA"
     },
     {
-      "team_rule_id": "r-0057",
+      "team_rule_id": "r-0059",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -2362,10 +2556,12 @@
       "penalty": "1st offense: warning; 2nd and subsequent offenses: $300 per day, enforced by Inspectional Services Department. Failure to submit Notice to Quit to the City may result in fine up to $300 per day. Violation does not halt the eviction process.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Boston, MA"
     },
     {
-      "team_rule_id": "r-0058",
+      "team_rule_id": "r-0060",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -2404,10 +2600,12 @@
       "penalty": "Enforced by Inspectional Services Department: 1st offense warning; 2nd and subsequent offenses $300 per day. A violation does not halt the eviction process.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Boston, MA"
     },
     {
-      "team_rule_id": "r-0059",
+      "team_rule_id": "r-0061",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -2443,10 +2641,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Boston, MA"
     },
     {
-      "team_rule_id": "r-0060",
+      "team_rule_id": "r-0062",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -2482,10 +2682,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Boston, MA"
     },
     {
-      "team_rule_id": "r-0061",
+      "team_rule_id": "r-0063",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -2524,10 +2726,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official city-linked policy"
+      "source_type": "official city-linked policy",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Boston, MA"
     },
     {
-      "team_rule_id": "r-0062",
+      "team_rule_id": "r-0064",
       "overrides": [],
       "jurisdiction": "Boston, MA",
       "level": "city",
@@ -2563,10 +2767,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Boston, MA"
     },
     {
-      "team_rule_id": "r-0063",
+      "team_rule_id": "r-0065",
       "overrides": [],
       "jurisdiction": "Cambridge, MA",
       "level": "city",
@@ -2606,10 +2812,12 @@
       "penalty": "Fine of up to $300 for each day's violation (Sec. 8.71.070).",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Cambridge, MA"
     },
     {
-      "team_rule_id": "r-0064",
+      "team_rule_id": "r-0066",
       "overrides": [],
       "jurisdiction": "Cambridge, MA",
       "level": "city",
@@ -2645,10 +2853,53 @@
       "penalty": "After a hearing, the Commission may file a criminal complaint in District Court, levy civil fines of up to $300 for each violation, seek injunctive relief in Superior Court, and seek damages, expenses and other relief.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Cambridge, MA"
     },
     {
-      "team_rule_id": "r-0065",
+      "team_rule_id": "r-0067",
+      "overrides": [],
+      "jurisdiction": "Hoboken, NJ",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Hoboken ban on rent-coordination software and data sharing",
+      "requirement": "Hoboken landlords may not use software, algorithms or data-sharing platforms to coordinate or recommend rents, lease terms or occupancy.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "All rental units in Hoboken.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "Hoboken Code § 158-2",
+      "source_doc_id": "D002",
+      "source_url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+      "retrieved_at": "2026-10-03 22:37 UTC",
+      "quoted_span": "Prohibits landlords from using software, algorithms or data-sharing platforms to coordinate or recommend rents, lease terms, or occupancy.",
+      "span_verified": true,
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null,
+      "penalty": null,
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "secondary (law-firm alert)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Berkeley, CA"
+    },
+    {
+      "team_rule_id": "r-0068",
       "overrides": [],
       "jurisdiction": "Hoboken, NJ",
       "level": "city",
@@ -2687,20 +2938,22 @@
       "penalty": "Upon conviction, one or more of: penalties under N.J.S.A. 40:49-5; a fine not exceeding $2,000; community service not exceeding 90 days. Enforced by the Division of Housing or any aggrieved private citizen in Hoboken Municipal Court.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official text captured by the team (not in the starter pack)"
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Hoboken, NJ"
     },
     {
-      "team_rule_id": "r-0066",
+      "team_rule_id": "r-0069",
       "overrides": [],
       "jurisdiction": "Hoboken, NJ",
       "level": "city",
       "category": "rent_increase_limits",
       "status": "in_force",
-      "title": "Hoboken vacancy decontrol capped at 25%",
-      "requirement": "When a tenant voluntarily leaves a registered rent-controlled unit, the landlord may raise the new tenant's first rent by at most 25% over the prior rent, and only once in any three-year period. Later increases are again controlled.",
-      "key_value": "25% over last rent on vacancy; once per 3 years",
+      "title": "Hoboken rent control annual increase cap and partial vacancy decontrol",
+      "requirement": "In Hoboken rent-controlled units, annual rent increases are capped at the lower of 5% or CPI (excluding certain surcharges). When a unit occupied three years or more becomes vacant, the landlord may raise rent by up to 25%, no more than once every three years.",
+      "key_value": "lesser of 5% or CPI; up to 25% on vacancy after 3+ years",
       "coverage_conditions": {
-        "summary": "Registered rent-controlled units in Hoboken after a voluntary vacancy or a lawful eviction (not a holdover eviction).",
+        "summary": "Residential units subject to Hoboken City Code Chapter 155 (Rent Control); this document does not state building-level coverage thresholds.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -2711,35 +2964,37 @@
         "required_facts_not_in_data": [],
         "minor_exemptions_not_in_data": []
       },
-      "exemptions": "Not available if the tenant vacated because of harassment or duress, or after a holdover court order.",
+      "exemptions": null,
       "interaction": null,
       "effective_date": null,
-      "citation": "Hoboken Code § 155-31 (§§ 155-32, 155-34)",
-      "source_doc_id": "D032",
-      "source_url": "https://hobokenmsta.com/wp-content/uploads/2024/02/Rent-Control.pdf",
-      "retrieved_at": "2026-10-03 21:00 UTC",
-      "quoted_span": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential\napartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions\nof this chapter for the new tenant's initial rental; provided, however, that said rental shall be limited to an\nincrease of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit, exclusive of\nany capital improvement surcharge that is a component of said last rental.",
+      "citation": "Hoboken Code § 155-5 (Chapter 155, Rent Control)",
+      "source_doc_id": "X003",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2024/11/2024-General-Election-MWD-Results-with-Voting-Method-Details-Official.pdf",
+      "retrieved_at": "2026-10-03 22:42 UTC",
+      "quoted_span": "Currently, annual rent increases are capped at either 5% or the Consumer Price Index (CPI) rate, whichever is lower (excluding certain surcharges). However, when a unit has been occupied for three years or more and becomes vacant, landlords can raise the rent by up to 25%—a process known as \"partial vacancy decontrol.\" This increase can only happen once every three years for the same unit.\nThe proposed ordinance would allow landlords to increase rent to market rates without the 25% limit when a unit becomes vacant.",
       "span_verified": true,
       "confidence": 0.65,
       "conflict_flag": false,
-      "conflict_note": null,
-      "penalty": "The Board may rescind the decontrol and revert the rent. Fine up to $3,000 per dwelling unit (§ 155-21).",
+      "conflict_note": "Voters rejected; Chapter 155 unchanged (the measure would have amended § 155-31; the § 155-5 cap stands).",
+      "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "secondary (third-party mirror of the city code)"
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Hoboken, NJ"
     },
     {
-      "team_rule_id": "r-0067",
+      "team_rule_id": "r-0070",
       "overrides": [],
       "jurisdiction": "Hoboken, NJ",
       "level": "city",
       "category": "rent_increase_limits",
       "status": "in_force",
-      "title": "Hoboken rent control: annual increase capped at lesser of 5% or CPI",
-      "requirement": "In a rent-controlled Hoboken unit, your landlord can raise rent only when your lease ends, once in any 12 months, by no more than 5% or the CPI change, whichever is less. The landlord must give 30 days' written notice with reasons and a certificate of substantial code compliance; increases above the legal amount are void and must be refunded, subject to a two-year limit.",
-      "key_value": "lesser of 5% or CPI change, once per 12 months",
+      "title": "Hoboken rent increase cap at lease expiration or termination",
+      "requirement": "When your lease ends or renews (or for a periodic tenancy), your Hoboken landlord may not raise the rent by more than 5% or the CPI change, whichever is less. Only one such increase is allowed in any 12-month period, regardless of tenant turnover.",
+      "key_value": "lesser of 5% or CPI change; one increase per 12 months",
       "coverage_conditions": {
-        "summary": "All rental dwelling units in Hoboken, with some exemptions. Exempt: hotels and motels; newly constructed dwellings for their first rental; school-owned student housing; government-owned housing; buildings completely vacant since January 1, 1984 for their first rental; and multiple dwellings built after June 25, 1987 that complied with N.J.S.A. 2A:42-84.1 notice rules, for up to 30 years or the initial mortgage amortization period, whichever is less.",
+        "summary": "Housing spaces subject to Hoboken's Rent Control chapter (Chapter 155); this section does not itself state building-age or unit-count limits.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -2748,78 +3003,111 @@
         "exempt_if_newer_than_years": null,
         "owner_based_exemption_max_units": null,
         "required_facts_not_in_data": [],
-        "minor_exemptions_not_in_data": [
-          "motels and hotels",
-          "school-owned student housing",
-          "housing owned and operated by government agencies",
-          "units under a preemptive government-agency rent contract",
-          "newly constructed dwellings for their first rental",
-          "buildings vacant since 1-1-1984 for their first rental",
-          "post-June 25, 1987 multiple dwellings that complied with N.J.S.A. 2A:42-84.1 (up to 30 years)"
-        ]
+        "minor_exemptions_not_in_data": []
       },
-      "exemptions": "Hotels and motels; first rental of newly constructed dwellings; student housing; government housing; buildings vacant since 1/1/1984 for their first rental; post-6/25/1987 multiple dwellings exempt under N.J.S.A. 2A:42-84.1 for up to 30 years; vacancy decontrol on voluntary vacancy (capped at 25%); condo/co-op owner-occupant initial rental decontrol.",
-      "interaction": "The post-1987 new-construction exemption applies in accordance with state law, N.J.S.A. 2A:42-84.1.",
-      "effective_date": null,
-      "citation": "Hoboken Code § 155-5 (Ord. No. C329, as amended by Ord. No. B-532)",
-      "source_doc_id": "D032",
-      "source_url": "https://hobokenmsta.com/wp-content/uploads/2024/02/Rent-Control.pdf",
-      "retrieved_at": "2026-10-03 21:00 UTC",
-      "quoted_span": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request\nor receive a percentage increase in rent which is greater than 5% or the percentage difference between the\nconsumer price index three months prior to the expiration or termination of the lease and three months\nprior to the commencement of the lease term, whichever is less.",
-      "span_verified": true,
-      "confidence": 0.7,
-      "conflict_flag": false,
-      "conflict_note": null,
-      "penalty": "Excess rents are void and must be refunded or credited, subject to a two-year limit. Violations carry a fine not to exceed $3,000 per dwelling unit (§ 155-21).",
-      "yields_to_local_rule": false,
-      "may_preempt_local_rules": false,
-      "source_type": "secondary (third-party mirror of the city code)"
-    },
-    {
-      "team_rule_id": "r-0068",
-      "overrides": [],
-      "jurisdiction": "Hoboken, NJ",
-      "level": "city",
-      "category": "rent_increase_limits",
-      "status": "in_force",
-      "title": "Hoboken rent control: annual registration and proof of rent required for allowable rent increases",
-      "requirement": "Most Hoboken rental units, including many condos, are under rent control, and landlords must register them with the Rent Leveling and Stabilization Office by June 30 each year. A landlord who fails to register or to give proof of rent received can be denied a rent increase, so a tenant can check registration status and appeal through that office.",
-      "key_value": null,
-      "coverage_conditions": {
-        "summary": "The majority of Hoboken residential rental properties, including many condominium units. Federally funded housing, certain new construction and commercial properties may be exempt under Chapter 155; the page does not give the new-construction cutoff.",
-        "min_units": null,
-        "max_units": null,
-        "built_on_or_before": null,
-        "built_after": null,
-        "cutoff_uses_certificate_of_occupancy": false,
-        "exempt_if_newer_than_years": null,
-        "owner_based_exemption_max_units": null,
-        "required_facts_not_in_data": [],
-        "minor_exemptions_not_in_data": [
-          "Federally funded housing",
-          "Certain new construction (criteria not stated)",
-          "Commercial properties"
-        ]
-      },
-      "exemptions": "Federally funded housing, certain new construction, and commercial properties may be exempt under Municipal Code Chapter 155.",
+      "exemptions": null,
       "interaction": null,
       "effective_date": null,
-      "citation": "Hoboken Mun. Code ch. 155",
+      "citation": "Hoboken Code § 155-5 (Ord. No. B-532)",
       "source_doc_id": "D033",
-      "source_url": "https://www.hobokennj.gov/news/city-of-hoboken-launches-rent-control-education-campaign",
-      "retrieved_at": "2026-10-03 21:00 UTC",
-      "quoted_span": "If adequate proof is not provided, the Rent Regulation Officer is required under law to deny any requested rent increase and provide written notice outlining the reason for denial. Property owners will have 30 days to fix any deficiencies in their registration once they are notified.",
+      "source_url": "https://ecode360.com/15252470",
+      "retrieved_at": "2026-10-03 22:41 UTC",
+      "quoted_span": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
       "span_verified": true,
-      "confidence": 0.55,
+      "confidence": 0.85,
       "conflict_flag": false,
-      "conflict_note": null,
-      "penalty": "Unregistered properties may face increased registration fees and may forfeit eligibility for future rent increases. If proof of rent is inadequate, a requested increase must be denied, with 30 days to cure after notice.",
+      "conflict_note": "Matched against an ecode360 printout dated 2024-02-24 hosted by a landlord advocacy group (hobokenmsta.com).",
+      "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official text captured by the team (not in the starter pack)"
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Hoboken, NJ"
     },
     {
-      "team_rule_id": "r-0069",
+      "team_rule_id": "r-0071",
+      "overrides": [],
+      "jurisdiction": "Hoboken, NJ",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "failed",
+      "title": "2024 Hoboken public question to allow market-rate rent on vacated units for a $2,500 fee (rejected)",
+      "requirement": "This proposal is not law. Hoboken voters rejected it on November 5, 2024 (6,082 yes to 16,371 no), so landlords cannot pay a $2,500 fee to reset a vacated rent-controlled apartment to market rent.",
+      "key_value": "$2,500 fee for market-rate rent on vacancy (rejected)",
+      "coverage_conditions": {
+        "summary": "Would have applied to voluntarily vacated apartments subject to Hoboken's Rent Control ordinance (Chapter 155).",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "Hoboken Public Question, Nov. 5, 2024 general election (initiative ordinance amending Hoboken Code § 155-31)",
+      "source_doc_id": "X003",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2024/11/2024-General-Election-MWD-Results-with-Voting-Method-Details-Official.pdf",
+      "retrieved_at": "2026-10-03 22:42 UTC",
+      "quoted_span": "Shall the ordinance submitted by initiative petition, providing for an amendment to Hoboken City Code Chapter 155 (Rent Control) at Section 155-31 to provide an option to landlords to pay a fee of $2,500 to the Hoboken Affordable Housing Fund in order to lease voluntarily vacated apartments at a freely negotiated rent, which thereafter remain subject to the provisions of the Rent Control ordinance, including limitations on annual increases, be adopted?",
+      "span_verified": true,
+      "confidence": 0.9,
+      "conflict_flag": false,
+      "conflict_note": "Voters rejected; Chapter 155 unchanged (the measure would have amended § 155-31; the § 155-5 cap stands).",
+      "penalty": null,
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Hoboken, NJ"
+    },
+    {
+      "team_rule_id": "r-0072",
+      "overrides": [],
+      "jurisdiction": "Jersey City, NJ",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Jersey City ban on algorithmic rent coordination services",
+      "requirement": "Jersey City landlords may not use algorithmic rent coordination services. The ban is enforced by the city and by private parties, with fines of up to $2,000 per day.",
+      "key_value": "fines up to $2,000 per day",
+      "coverage_conditions": {
+        "summary": "All rental units in Jersey City.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "Jersey City Code § 218-12",
+      "source_doc_id": "D002",
+      "source_url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+      "retrieved_at": "2026-10-03 22:37 UTC",
+      "quoted_span": "Prohibits a landlord’s use of algorithmic rent coordination services; includes public and private enforcement; fines up to $2,000 per day.",
+      "span_verified": true,
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null,
+      "penalty": "Public and private enforcement; fines up to $2,000 per day.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "secondary (law-firm alert)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Berkeley, CA"
+    },
+    {
+      "team_rule_id": "r-0073",
       "overrides": [],
       "jurisdiction": "Jersey City, NJ",
       "level": "city",
@@ -2857,10 +3145,12 @@
       "penalty": "First violation punishable under Jersey City Code § 1-25; subsequent violations fined $100 to $2,000, each day a separate violation. Public civil actions by the Attorney General or municipal/county attorney, a private right of action for injured persons, and mandatory costs and reasonable attorney fees to successful plaintiffs.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official text captured by the team (not in the starter pack)"
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Jersey City, NJ"
     },
     {
-      "team_rule_id": "r-0070",
+      "team_rule_id": "r-0074",
       "overrides": [],
       "jurisdiction": "Jersey City, NJ",
       "level": "city",
@@ -2896,10 +3186,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Jersey City, NJ"
     },
     {
-      "team_rule_id": "r-0071",
+      "team_rule_id": "r-0075",
       "overrides": [
         "r-0007"
       ],
@@ -2939,10 +3231,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA"
     },
     {
-      "team_rule_id": "r-0072",
+      "team_rule_id": "r-0076",
       "overrides": [
         "r-0007"
       ],
@@ -2985,10 +3279,12 @@
       "penalty": "Failure to file the Landlord Declaration with LAHD makes the eviction a violation of the RSO or JCO. Non-payment of relocation assistance is an affirmative defense to eviction, and the tenant has a private right of action.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA"
     },
     {
-      "team_rule_id": "r-0073",
+      "team_rule_id": "r-0077",
       "overrides": [
         "r-0007"
       ],
@@ -3035,10 +3331,12 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA",
       "consolidation_note": "Fields filled from D040, which state the same law."
     },
     {
-      "team_rule_id": "r-0074",
+      "team_rule_id": "r-0078",
       "overrides": [
         "r-0007"
       ],
@@ -3080,10 +3378,12 @@
       "penalty": "Financial penalties starting at $250,000 per displaced unit, and withholding of LAHD permit clearances.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA"
     },
     {
-      "team_rule_id": "r-0075",
+      "team_rule_id": "r-0079",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3124,10 +3424,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official text captured by the team (not in the starter pack)"
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Los Angeles, CA"
     },
     {
-      "team_rule_id": "r-0076",
+      "team_rule_id": "r-0080",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3170,10 +3472,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA"
     },
     {
-      "team_rule_id": "r-0077",
+      "team_rule_id": "r-0081",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3212,10 +3516,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Los Angeles, CA"
     },
     {
-      "team_rule_id": "r-0078",
+      "team_rule_id": "r-0082",
       "overrides": [],
       "jurisdiction": "Los Angeles, CA",
       "level": "city",
@@ -3254,10 +3560,12 @@
       "penalty": "Tenant may sue in a court of appropriate jurisdiction, including Small Claims Court, to recover the amount owed; civil remedy only.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official text captured by the team (not in the starter pack)"
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Los Angeles, CA"
     },
     {
-      "team_rule_id": "r-0079",
+      "team_rule_id": "r-0083",
       "overrides": [],
       "jurisdiction": "Newark, NJ",
       "level": "city",
@@ -3293,10 +3601,12 @@
       "penalty": "Allowable annual increase not permitted if the dwelling is not in substantial compliance or the landlord has not met the registration requirements (§ 19:2-9.8).",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official text captured by the team (not in the starter pack)"
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Newark, NJ"
     },
     {
-      "team_rule_id": "r-0080",
+      "team_rule_id": "r-0084",
       "overrides": [],
       "jurisdiction": "San Diego, CA",
       "level": "city",
@@ -3334,10 +3644,53 @@
       "penalty": "Tenant may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation; prevailing tenant recovers costs and reasonable attorney's fees. Each month of use and each property is a separate violation. Remedies are cumulative.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Diego, CA"
     },
     {
-      "team_rule_id": "r-0081",
+      "team_rule_id": "r-0085",
+      "overrides": [],
+      "jurisdiction": "San Diego, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "San Diego ban on algorithmic rent-setting using competitor data",
+      "requirement": "San Diego landlords may not use prohibited algorithmic rent-pricing products. Tenants may sue for damages, an injunction and penalties of up to $1,000 per violation, with each month and each affected property potentially a separate violation.",
+      "key_value": "up to $1,000 per violation",
+      "coverage_conditions": {
+        "summary": "All rental properties in San Diego.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "San Diego Mun. Code § 98.1103 (§§ 98.1101–98.1104)",
+      "source_doc_id": "D002",
+      "source_url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+      "retrieved_at": "2026-10-03 22:37 UTC",
+      "quoted_span": "San Diego similarly authorizes tenant suits for damages, injunctive relief and penalties of up to $1,000 per violation, with each month and affected rental property potentially constituting a separate violation.",
+      "span_verified": true,
+      "confidence": 0.65,
+      "conflict_flag": false,
+      "conflict_note": null,
+      "penalty": "Damages, injunctive relief, penalties up to $1,000 per violation; each month and affected rental property may be a separate violation.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "secondary (law-firm alert)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Berkeley, CA"
+    },
+    {
+      "team_rule_id": "r-0086",
       "overrides": [],
       "jurisdiction": "San Diego, CA",
       "level": "city",
@@ -3373,10 +3726,12 @@
       "penalty": "Tenant civil action for injunctive relief, damages, or civil penalties up to $1,000 per violation, with costs and reasonable attorney's fees to the prevailing party. Each month a use violation continues, and each property involved, is a separate violation. The City may also enforce under Chapter 1, Article 2, including civil and criminal remedies.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official text captured by the team (not in the starter pack)"
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "San Diego, CA"
     },
     {
-      "team_rule_id": "r-0082",
+      "team_rule_id": "r-0087",
       "overrides": [
         "r-0007"
       ],
@@ -3423,10 +3778,12 @@
       "penalty": "Wrongful eviction liability of not less than three times actual economic damages; injunctive relief and money damages including punitive damages; discretionary attorney's fees; noncompliance is an affirmative defense to eviction; noncompliant termination notices are void; City civil and criminal enforcement.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Diego, CA"
     },
     {
-      "team_rule_id": "r-0083",
+      "team_rule_id": "r-0088",
       "overrides": [
         "r-0007"
       ],
@@ -3472,10 +3829,12 @@
       "penalty": "A landlord who fails to pay required relocation assistance is liable for not less than three times the required assistance plus actual economic damages.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Diego, CA"
     },
     {
-      "team_rule_id": "r-0084",
+      "team_rule_id": "r-0089",
       "overrides": [],
       "jurisdiction": "San Diego, CA",
       "level": "city",
@@ -3513,10 +3872,12 @@
       "penalty": "Private court action within one year of discovery for violations on or after August 1, 2019; injunction; mandatory award of three times one month's rent (charged rent if during tenancy, advertised rent if before tenancy); punitive damages, attorneys' fees and costs; City enforcement under Chapter 1.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official text captured by the team (not in the starter pack)"
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "San Diego, CA"
     },
     {
-      "team_rule_id": "r-0085",
+      "team_rule_id": "r-0090",
       "overrides": [],
       "jurisdiction": "San Francisco, CA",
       "level": "city",
@@ -3524,7 +3885,7 @@
       "status": "in_force",
       "title": "Ban on algorithmic devices to set rents or manage occupancy",
       "requirement": "Landlords in San Francisco may not use, and vendors may not sell, software that analyzes nonpublic competitor rental data to recommend rents or manage occupancy. If you believe a landlord or vendor is violating this, you (or the City Attorney) can bring a civil lawsuit.",
-      "key_value": null,
+      "key_value": "up to $1,000 per violation, per unit per month",
       "coverage_conditions": {
         "summary": "All residential units in San Francisco; the prohibition applies to any entity selling or using algorithmic rent-setting devices.",
         "min_units": null,
@@ -3552,10 +3913,13 @@
       "penalty": "Tenant or City Attorney may bring a civil action against a violating entity.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA",
+      "consolidation_note": "Fields filled from D002, which state the same law."
     },
     {
-      "team_rule_id": "r-0086",
+      "team_rule_id": "r-0091",
       "overrides": [
         "r-0007"
       ],
@@ -3593,10 +3957,12 @@
       "penalty": "A landlord who evicts or tries to evict a tenant unlawfully may face substantial civil and/or criminal liability.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA"
     },
     {
-      "team_rule_id": "r-0087",
+      "team_rule_id": "r-0092",
       "overrides": [
         "r-0007"
       ],
@@ -3634,10 +4000,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA"
     },
     {
-      "team_rule_id": "r-0088",
+      "team_rule_id": "r-0093",
       "overrides": [
         "r-0007"
       ],
@@ -3675,10 +4043,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA"
     },
     {
-      "team_rule_id": "r-0089",
+      "team_rule_id": "r-0094",
       "overrides": [
         "r-0007"
       ],
@@ -3716,10 +4086,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA"
     },
     {
-      "team_rule_id": "r-0090",
+      "team_rule_id": "r-0095",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3759,10 +4131,12 @@
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
       "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA",
       "consolidation_note": "Fields filled from D079, which state the same law."
     },
     {
-      "team_rule_id": "r-0091",
+      "team_rule_id": "r-0096",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3801,10 +4175,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA"
     },
     {
-      "team_rule_id": "r-0092",
+      "team_rule_id": "r-0097",
       "overrides": [],
       "jurisdiction": "San Francisco, CA",
       "level": "city",
@@ -3842,10 +4218,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "San Francisco, CA"
     },
     {
-      "team_rule_id": "r-0093",
+      "team_rule_id": "r-0098",
       "overrides": [],
       "jurisdiction": "Santa Ana, CA",
       "level": "city",
@@ -3881,10 +4259,12 @@
       "penalty": "Tenant civil action for damages, injunctive relief, up to $1,000 per violation, and attorney's fees.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official text captured by the team (not in the starter pack)"
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Santa Ana, CA"
     },
     {
-      "team_rule_id": "r-0094",
+      "team_rule_id": "r-0099",
       "overrides": [],
       "jurisdiction": "Santa Ana, CA",
       "level": "city",
@@ -3922,10 +4302,53 @@
       "penalty": "Tenant private right of action for injunctive relief, damages, or civil penalties of up to $1,000 per violation, plus attorney's fees.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official text captured by the team (not in the starter pack)"
+      "source_type": "official text captured by the team (not in the starter pack)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Santa Ana, CA"
     },
     {
-      "team_rule_id": "r-0095",
+      "team_rule_id": "r-0100",
+      "overrides": [],
+      "jurisdiction": "Santa Ana, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Santa Ana ban on automated rent price-fixing",
+      "requirement": "Santa Ana prohibits specified anticompetitive automated rent price-fixing. Tenants can bring claims for up to $1,000 per violation, per month.",
+      "key_value": "up to $1,000 per violation and per month",
+      "coverage_conditions": {
+        "summary": "All rental units in Santa Ana.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": "2026-04-02",
+      "citation": "Santa Ana Ord. No. NS-3090",
+      "source_doc_id": "D002",
+      "source_url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+      "retrieved_at": "2026-10-03 22:37 UTC",
+      "quoted_span": "Ordinance NS-3090 prohibits specified anticompetitive automated rent price-fixing; private tenant claims and up to $1,000 per violation and per month.",
+      "span_verified": true,
+      "confidence": 0.65,
+      "conflict_flag": false,
+      "conflict_note": null,
+      "penalty": "Private tenant claims up to $1,000 per violation and per month.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "secondary (law-firm alert)",
+      "source_in_starter_corpus": false,
+      "source_jurisdiction": "Berkeley, CA"
+    },
+    {
+      "team_rule_id": "r-0101",
       "overrides": [
         "r-0007"
       ],
@@ -3969,10 +4392,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Santa Ana, CA"
     },
     {
-      "team_rule_id": "r-0096",
+      "team_rule_id": "r-0102",
       "overrides": [
         "r-0007"
       ],
@@ -4010,10 +4435,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Santa Ana, CA"
     },
     {
-      "team_rule_id": "r-0097",
+      "team_rule_id": "r-0103",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -4052,10 +4479,12 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Santa Ana, CA"
     },
     {
-      "team_rule_id": "r-0098",
+      "team_rule_id": "r-0104",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -4096,7 +4525,9 @@
       "penalty": null,
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "source_type": "official"
+      "source_type": "official",
+      "source_in_starter_corpus": true,
+      "source_jurisdiction": "Santa Ana, CA"
     }
   ]
 }

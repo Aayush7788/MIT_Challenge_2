@@ -1,15 +1,18 @@
 {
- "key": "629517e6c6337d71acddc663b965a6f608d3ece0",
+ "key": "2374648af14be5f068cbceb92e21011fff8bd6af",
  "doc_id": "D014",
+ "ids": [
+  "r-0060"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:29:30.545Z",
+ "audited_at": "2026-10-03T22:48:09.148Z",
  "cards": [
   {
-   "team_rule_id": "r-0058",
+   "team_rule_id": "r-0060",
    "requirement": {
     "verdict": "supported",
     "evidence": "The Notice of Tenants’ Rights and Resources must be delivered at the same time as the Notice to Quit.",
-    "note": "Document also states copy goes to Office of Housing Stability, reporting to FHE at 617-635-2500 or 311, eviction not halted, and ISD fines (warning, then $300 per day)."
+    "note": "Also supported: copy to the Office of Housing Stability, reporting to FHE at 617-635-2500 or 311, eviction not halted, and ISD fines (warning, then $300 per day)."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -22,9 +25,9 @@
     "note": null
    },
    "status": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "The HSNA becomes effective on November 6, 2020.",
-    "note": "Effective date has passed by 2026-10-01 and the document presents the rule as current, with no repeal mentioned."
+    "note": "The document presents the ordinance as current, with an effective date in the past relative to 2026-10-01. It does not explicitly confirm that it is still in force as of that date."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -32,9 +35,9 @@
     "note": "Field is empty on the card."
    },
    "citation": {
-    "verdict": "partly_supported",
-    "evidence": "Housing Stability Notification Act (Sec. 10-11.7) Enforcement Entity: Inspectional Services Department",
-    "note": "Document cites Sec. 10-11.7 for the enforcement/penalty provision only, within City of Boston Ordinances; the 'Boston Code' wording is not stated."
+    "verdict": "supported",
+    "evidence": "Housing Stability Notification Act (Sec. 10-11.7)",
+    "note": "The document gives Sec. 10-11.7 as the section number. The 'Boston Code' wording is not stated but the citation is consistent with it."
    }
   }
  ]

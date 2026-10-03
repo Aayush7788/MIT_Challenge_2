@@ -1,0 +1,44 @@
+{
+ "key": "66958cc58f73e2b3d93c599a2a20ffb8b8570260",
+ "doc_id": "X002",
+ "ids": [
+  "r-0045"
+ ],
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T22:47:16.441Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0045",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "B. It shall be unlawful for a landlord to use a coordinated pricing algorithm described in subsection A when setting rents or occupancy levels for residential dwelling units in the city of Berkeley.",
+    "note": "Sale ban in 13.63.030.A and tenant remedies in 13.63.040.B (injunctive relief, money damages, civil penalties up to $1,000, attorney's fees) also stated."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "Each separate month that a violation exists or continues, and each separate residential dwelling unit for which the landlord used the coordinated pricing algorithm, shall constitute a separate and distinct violation.",
+    "note": "The $1,000 per violation cap is in 13.63.040: \"civil penalties of up to $1,000 per violation.\""
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "The provisions of this Chapter shall not take effect until March 1, 2026.",
+    "note": "Matches 2026-03-01."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "The provisions of this Chapter shall not take effect until March 1, 2026.",
+    "note": "As of 2026-10-01 the effective date has passed, so in_force follows. The document was retrieved 2026-10-03 and presents the rule as current law."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Coverage is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "13.63.030 Use and sale of coordinated pricing algorithms prohibited .",
+    "note": "Section and ordinance number match the document. The tenant remedy is in 13.63.040, but the core prohibition is cited correctly."
+   }
+  }
+ ]
+}

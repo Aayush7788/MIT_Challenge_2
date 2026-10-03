@@ -1,15 +1,18 @@
 {
- "key": "2456f56291ac901d416a953ed2eb06de4e0e2488",
+ "key": "70cd1a2c880e6ea88ff067182032c55441e46679",
  "doc_id": "D029",
+ "ids": [
+  "r-0066"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:29:52.838Z",
+ "audited_at": "2026-10-03T22:48:30.680Z",
  "cards": [
   {
-   "team_rule_id": "r-0064",
+   "team_rule_id": "r-0066",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "Source of Income, includes Section 8 and public benefits",
-    "note": "The document lists source of income (incl. Section 8 and public benefits) as a protected category under the Fair Housing Ordinance, and says the ordinance prohibits discrimination in renting and terms and conditions of tenancy. The complaint phone number is also stated. It does not say in these words that landlords may not refuse to rent because of source of income, but this follows from the text."
+    "note": "The document lists source of income (incl. Section 8, public benefits) as a protected category under the Fair Housing Ordinance and says it prohibits discrimination in renting and terms and conditions of tenancy, and gives the phone number. It does not explicitly state 'refuse to rent' for source of income specifically, but this follows from the general prohibition."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -23,18 +26,18 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "The Fair Housing Ordinance prohibits discrimination in real estate transactions such as:",
-    "note": "The document presents the ordinance as current law, enforced by the Commission, with no effective date given."
+    "evidence": "The Commission enforces two ordinances: the Cambridge Human Rights Ordinance, chapter 2.76 and the Cambridge Fair Housing Ordinance, chapter 14.04",
+    "note": "Document presents the ordinance as current law enforced by the Commission."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "NOTE: there is an exemption for 2-family dwellings, when the owner lives there",
-    "note": "The document supports an exemption for owner-occupied 2-family dwellings, which matches a 2-unit maximum. It gives no construction or certificate-of-occupancy cutoffs, and it does not say whether the exemption applies to source-of-income claims specifically."
+    "note": "Document states an exemption for owner-occupied 2-family dwellings; the card's 'owner_based_exemption_max_units: 2' is a reasonable reading, but the document doesn't say it's a maximum unit threshold, and doesn't tie the exemption explicitly to source of income."
    },
    "citation": {
-    "verdict": "partly_supported",
-    "evidence": "Cambridge Fair Housing Ordinance, chapter 14.04",
-    "note": "The document names the Cambridge Fair Housing Ordinance as chapter 14.04. It does not mention the 'Cambridge Municipal Code' by name."
+    "verdict": "supported",
+    "evidence": "the Cambridge Fair Housing Ordinance, chapter 14.04",
+    "note": "The document cites chapter 14.04 as the Fair Housing Ordinance; 'Cambridge Municipal Code' wording is not in the document but the chapter reference matches."
    }
   }
  ]

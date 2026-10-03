@@ -87,5 +87,10 @@ export async function POST(request: Request) {
       }
     }
   }
-  return Response.json({ memo, check, supported: ["CA", "NJ", "MA"].includes(target.state) });
+  return Response.json({
+    memo,
+    check,
+    supported: ["CA", "NJ", "MA"].includes(target.state),
+    notice: "Not legal advice. Summaries of public law for a prototype; check with a lawyer or your local rent board.",
+  });
 }

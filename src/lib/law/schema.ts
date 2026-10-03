@@ -137,6 +137,8 @@ export type RuleRecord = {
   may_preempt_local_rules: boolean;
   coverage_note?: string | null; // set when coverage was filled from a sibling record
   source_type?: string; // manifest source type; "secondary ..." for news, law-firm pages and mirrors
+  source_in_starter_corpus?: boolean; // false when the source is a text we captured
+  source_jurisdiction?: string; // the jurisdiction the source document belongs to (a city page can state a state rule)
   consolidation_note?: string | null; // set when the record took a date from, or absorbed, another record
   verification?: Verification; // second check (scripts/verify.ts)
 };

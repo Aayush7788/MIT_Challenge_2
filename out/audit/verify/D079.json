@@ -1,20 +1,23 @@
 {
- "key": "0e4a8d36638fa1d9d2148336acbb97d95a62e0a4",
+ "key": "1f77e23fec424bc5bcbdabd469c60c8d124b4bfa",
  "doc_id": "D079",
+ "ids": [
+  "r-0091"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:31:11.464Z",
+ "audited_at": "2026-10-03T22:49:51.424Z",
  "cards": [
   {
-   "team_rule_id": "r-0086",
+   "team_rule_id": "r-0091",
    "requirement": {
     "verdict": "supported",
-    "evidence": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction. Note that the mere expiration of a rental agreement or a change in ownership does not constitute \"just cause\" for eviction.",
-    "note": "Housing services point also stated: landlord needs just cause to remove access to garage, parking, storage, laundry. Change in ownership is not exactly 'building being sold', but close enough."
+    "evidence": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction.",
+    "note": "Also supported: expiration/ownership change not just cause; housing services need just cause."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "The 17 just cause reasons for eviction under",
-    "note": "Document states 17 reasons under Section 37.9(a)."
+    "note": "Document states 17 reasons under Ordinance Section 37.9(a)."
    },
    "effective_date": {
     "verdict": "not_applicable",
@@ -24,7 +27,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction.",
-    "note": "Presented as current law with no effective date; in_force is supported."
+    "note": "Document presents the rule as current law; no effective date needed."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -34,7 +37,7 @@
    "citation": {
     "verdict": "supported",
     "evidence": "The 17 just cause reasons for eviction under\nOrdinance Section 37.9(a)\nare summarized below:",
-    "note": "Document cites Ordinance Section 37.9(a); the card's 'S.F. Admin. Code' prefix is not stated in the document, but the section matches."
+    "note": "Document cites Ordinance Section 37.9(a); the card's S.F. Admin. Code framing is a minor expansion, but the section number matches."
    }
   }
  ]

@@ -16,17 +16,17 @@ We added two pages for review. The Law changes page (`/changes`) shows which add
 
 ## How well it does
 
-The organizers' scoring script and dev answer key were not in the starter pack, so we wrote our own check (`scripts/selfscore.py`). It compares our output with what the challenge brief states directly, which covers the 27 rules the brief names, the expected results of change tests T1 to T5, and coverage rules such as the San Francisco and Los Angeles construction cutoffs. However, the official score uses a held-out key of 58 rules and 100 addresses, so our real number will likely differ.
+The organizers do not share their scoring script or answer key with participants, so we wrote our own check (`scripts/selfscore.py`). It compares our output with what the challenge brief states directly, which covers the 27 rules the brief names, the expected results of change tests T1 to T5, and coverage rules such as the San Francisco and Los Angeles construction cutoffs. However, the official score uses a held-out key of 58 rules and 100 addresses, so our real number will likely differ.
 
 | Component | Our check |
 | --- | --- |
-| Extraction accuracy | 23.6 / 25 |
+| Extraction accuracy | 24.8 / 25 |
 | Address coverage | 20.0 / 20 |
-| Citations | 15.0 / 15 |
+| Citations | 14.3 / 15 |
 | Change tracking (T1 to T5) | 15.0 / 15 |
-| Scripted total | 73.6 / 75 |
+| Scripted total | 74.1 / 75 |
 
-We lose the last 1.4 extraction points on details that no public source we found states (Santa Ana's ordinance number and the date Jersey City's ban took effect), and on Berkeley, where the two published effective dates disagree.
+We lose 0.2 extraction points on the date Jersey City's ban took effect, which no public source we found states (the ordinance gives only its adoption date, May 21, 2025). The 0.7 citation points go to answers that rest on official texts we added (the Hoboken, Jersey City and Newark ordinances, San Diego's source-of-income rule and LA's deposit-interest rule), since the citation score only accepts quotes from the supplied corpus. Our check also surfaces two of the brief's open questions. Berkeley's ban carries a review flag because its ordinance says March 1, 2026 while a law-firm alert says January 2026, and California's 2026 screening-fee figure is flagged because it comes from a city agency's page and not from the state.
 
 ## How it works
 
@@ -39,14 +39,16 @@ addresses ───► 2. Resolve (Census geocoder: legal city, county)
 
 We followed the same steps the brief lays out.
 
-1. **Extract** (`scripts/extract.ts`). Claude reads each source document and writes rule records in the schema the organizers gave us. Each record includes structured coverage (unit thresholds, construction or certificate-of-occupancy cutoffs, rolling new-construction exemptions and owner-based exemptions) along with the effective date and the status. We then check every quote word for word against the source text. Since several documents often describe the same law, we merge their records, drop a proposal once we have its enacted version, and let records for one code section share the effective date their sources state (`src/lib/law/rules.ts`).
+1. **Extract** (`scripts/extract.ts`). Claude reads each source document and writes rule records in the schema the organizers gave us. Each record includes structured coverage (unit thresholds, construction or certificate-of-occupancy cutoffs, rolling new-construction exemptions and owner-based exemptions) along with the effective date and the status. We then check every quote word for word against the source text. Next, a second model (`scripts/verify.ts`) re-reads each source next to the cards taken from it and must quote the text behind every field (the rule, key figure, date, status, coverage and citation). We check those quotes as well, remove a field only when neither the second model nor a plain text search can find support for it, and reject a card whose main rule is not in its source. Since several documents often describe the same law, we merge their records, drop a proposal once we have its enacted version, and let records for one code section share the effective date their sources state (`src/lib/law/rules.ts`).
 2. **Resolve** (`scripts/geocode-addresses.ts`). We send each address to the US Census geocoder, which returns the incorporated city and the county. When the parcel data has no unit count, we read a range from the assessor's land-use code where we can (e.g., "APT 7-30 UNITS" or "3S-F-D-6U"), and we record where every fact came from (`src/lib/law/facts.ts`). Every New Jersey row is property class 4C, which state law defines as property for five or more families (our team's lawyer confirmed this reading), so those buildings count as having at least five units.
 3. **Apply** (`src/lib/law/engine.ts`). A plain rules engine tests each rule against the building facts and the date. It returns unknown when the public data cannot settle coverage (e.g., a missing year built, or a building finished in a cutoff year), marks a state rule as superseded where a stricter local rule governs, and flags a possible preemption for a person to review. We never call a language model at question time. Thus, the same question always gets the same answer, and every answer points back to a rule card.
 4. **Track changes** (`scripts/changes.ts`). For each change case we run the engine at both dates and list the addresses whose answer changes. For a pending bill we treat the bill as passed to see which addresses it would reach.
 
 ## Sources
 
-The starter pack lists 87 documents, but only 54 of them come with text. For the link-only sources that mattered most, we saved one page per law into `corpus_extra/` (12 documents), reading each page the way a person would and never crawling. They cover Hoboken's § 158-2 and Chapter 155, Jersey City's § 218-12, Newark's § 19:2-3, San Diego's Divisions 8 and 11, Santa Ana's adoption notice, the LA Housing Department's bulletin on deposit interest, the California code page that gives AB 325's effective date, and a news report on the court ruling that took the Massachusetts rent-control question off the ballot. Each file records its source URL and retrieval time, and `corpus_extra/manifest.csv` keeps a hash of it. We labeled two of them as secondary sources (a third-party copy of Hoboken's code and the news report), and extraction ranks official text above them. We skipped pages that block automated access.
+The starter pack lists 87 documents, but only 54 of them come with text. For the link-only sources that mattered most, we saved one page per law into `corpus_extra/`, reading each page the way a person would and never crawling. They cover Hoboken's § 158-2 and § 155-5 (from the city's official code), Jersey City's § 218-12, Newark's § 19:2-3, San Diego's Divisions 8 and 11, Santa Ana's adoption notice, the LA Housing Department's bulletin on deposit interest, the California code page that gives AB 325's effective date, Berkeley's Ordinance 7,974-N.S., the county's official record of Hoboken's November 2024 rent-control vote (defeated, 16,371 to 6,082), a law-firm alert, and a news report on the court ruling that took the Massachusetts rent-control question off the ballot. Each file records its source URL and retrieval time, and `corpus_extra/manifest.csv` keeps a hash of it. Extraction ranks official text above the law-firm alert and the news report, and we skipped pages that block automated access. Our team's lawyer reviewed the sources; at her request we cite Hoboken's official code and keep a landlord group's copy of it only as a cross-check (`corpus_crosscheck/`).
+
+The organizers told us that texts we add can inform the answers but do not count toward the citation score, which only accepts quotes from the supplied corpus. Thus, when a law appears both in the supplied corpus and in a text we added, we keep the card that quotes the supplied corpus and take only the missing date or status from our text (for example, AB 325's effective date and San Diego's adoption). Laws that appear only in our texts (e.g., the Hoboken and Jersey City bans) keep their own quotes, and the memo marks those sources as added by the team.
 
 ## Running it
 
@@ -58,17 +60,17 @@ npm run dev             # http://localhost:3000
 
 Extraction needs an Anthropic API key in `.env.local`. When you run `npm run extract`, results are cached per document in `out/audit/extract/`, so a rerun only calls the model for new or changed documents.
 
-We use one command to add a new law from start to finish (it is how we plan to handle the hour-16 ordinance).
+We use one command to add a new law, or a new city, from start to finish.
 
 ```bash
 npm run ingest -- path/to/ordinance.txt --jurisdiction "Cambridge, MA"
 ```
 
-It saves the text to `corpus_extra/`, extracts the rule cards, reruns all 500 addresses, adds a change test that compares today with the law's effective date, and prints the affected addresses along with the new check.
+It saves the text to `corpus_extra/`, extracts the rule cards, runs the second check on them, reruns all 500 addresses, adds a change test that compares today with the law's effective date, and prints the affected addresses along with the new check.
 
 ## Output files
 
-- `submission/rules.json` has our 92 rule records in the organizers' schema, each with a citation, source URL, retrieval date and quoted span.
+- `submission/rules.json` has our 90 rule records in the organizers' schema, each with a citation, source URL, retrieval date and quoted span.
 - `submission/lookups.json` has every rule's result (applies, unknown, superseded, not_yet_effective or pending) for all 500 addresses as of 2026-10-01, with an explanation.
 - `submission/changes.json` has the affected addresses and conflict flags for each change test.
 - `out/audit/` keeps the model output for each document, the extraction log and our latest check, and `review/` has the sheets we use for legal review.

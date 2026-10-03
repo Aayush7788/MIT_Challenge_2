@@ -1,15 +1,19 @@
 {
- "key": "5866ece999b48a895960ea8c2b6e85abea622564",
+ "key": "90254e80887ad4a338a59d50c2e5b5c2786e7473",
  "doc_id": "D011",
+ "ids": [
+  "r-0061",
+  "r-0062"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:29:35.746Z",
+ "audited_at": "2026-10-03T22:48:14.118Z",
  "cards": [
   {
-   "team_rule_id": "r-0059",
+   "team_rule_id": "r-0061",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
-    "note": "The document supports the bill's purpose and the 9/9/2024 study order. It does not say the bill was not enacted or that it is not law; that is inferred from the history ending in a study order."
+    "note": "The document supports the bill's purpose (authorizing eviction protections) and the 9/9/2024 study order. It does not say the bill was not enacted or that it is not law; that is inferred from the history."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -24,7 +28,7 @@
    "status": {
     "verdict": "partly_supported",
     "evidence": "Accompanied a study order, see",
-    "note": "The history ends with a study order and no enactment, which is consistent with failure. The document never says the bill failed or died, and nothing in it speaks to the end of the session."
+    "note": "The history ends with a study order, which suggests the bill did not become law. The page never says it failed or died, and the 193rd session ending is not stated in the document."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -33,16 +37,16 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "Bill H.3744\nSkip to Content\nBill H.3744\n193rd (2023 - 2024)",
-    "note": "Bill number and session match the card."
+    "evidence": "193rd (2023 - 2024)",
+    "note": "The bill number H.3744 and the 193rd General Court (2023-2024) match the document."
    }
   },
   {
-   "team_rule_id": "r-0060",
+   "team_rule_id": "r-0062",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
-    "note": "The document supports the bill's purpose and the study order. It does not say the session ended, that the bill is not law, or that Boston has no rent cap; those are inferences."
+    "note": "The authorization purpose and the study order are supported. Claims that the bill is not law, that the session ended, and that Boston has no rent cap are not stated in the document."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -57,7 +61,7 @@
    "status": {
     "verdict": "partly_supported",
     "evidence": "Accompanied a study order, see",
-    "note": "The study order is consistent with the bill not advancing, but the document does not state that the bill failed."
+    "note": "The study order suggests the bill did not advance, but the document does not state that it failed."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -66,8 +70,8 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "Bill H.3744\nSkip to Content\nBill H.3744\n193rd (2023 - 2024)",
-    "note": "Bill number and session match the card."
+    "evidence": "193rd (2023 - 2024)",
+    "note": "The bill number H.3744 and the 193rd General Court (2023-2024) match the document."
    }
   }
  ]

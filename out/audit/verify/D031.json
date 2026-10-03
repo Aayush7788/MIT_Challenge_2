@@ -1,15 +1,18 @@
 {
- "key": "07849b4de13cd5a6b0f2efd0915e706e09063dd8",
+ "key": "ca14ba0c9cf507f5c7a47ea88f2c98ebe70ee901",
  "doc_id": "D031",
+ "ids": [
+  "r-0065"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:29:48.122Z",
+ "audited_at": "2026-10-03T22:48:26.149Z",
  "cards": [
   {
-   "team_rule_id": "r-0063",
+   "team_rule_id": "r-0065",
    "requirement": {
     "verdict": "supported",
-    "evidence": "The Ordinance also requires that a landlord provide the Guide to tenants when legal steps to terminate a tenancy are taken (ex. Notice to Quit or Summary Process).",
-    "note": "Also supported: \"it is required that you offer the Guide about rights and resources at the same time,\" the download from the City website, and the Housing Liaison phone number 617-349-7222."
+    "evidence": "If you do begin an eviction process through a notice to quit or other action, it is required that you offer the Guide about rights and resources at the same time.",
+    "note": "Also supported: Notice to Quit or Summary Process as triggers, downloading from City website, and the Housing Liaison phone number 617-349-7222."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -24,7 +27,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "The Ordinance requires owners, landlords, and management companies to provide you with information at the start of your lease or tenancy as well as when your tenancy is being terminated.",
-    "note": "The page presents the ordinance as current law, with no repeal or expiry noted."
+    "note": "The page presents the ordinance as current law; no repeal or expiry is mentioned."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -34,7 +37,7 @@
    "citation": {
     "verdict": "supported",
     "evidence": "The City of Cambridge Tenants Rights and Resources Ordinance, Chapter 8.71 of the Cambridge Municipal Code was established to inform and educate both residential tenants and landlords in Cambridge of their rights and responsibilities as a landlord or tenant.",
-    "note": "Chapter 8.71 of the Cambridge Municipal Code matches the card's citation."
+    "note": "Chapter 8.71 of the Cambridge Municipal Code is confirmed."
    }
   }
  ]

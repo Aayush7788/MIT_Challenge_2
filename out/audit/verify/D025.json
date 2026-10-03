@@ -1,15 +1,21 @@
 {
- "key": "82c83fc0bb902a08351c6e3b64cea918c6dfee6c",
+ "key": "8dfd4f757b992842e8c62824929727b3857c789f",
  "doc_id": "D025",
+ "ids": [
+  "r-0016",
+  "r-0017",
+  "r-0018",
+  "r-0019"
+ ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T21:39:44.690Z",
+ "audited_at": "2026-10-03T22:45:42.487Z",
  "cards": [
   {
    "team_rule_id": "r-0016",
    "requirement": {
     "verdict": "supported",
     "evidence": "(1) Except as provided in paragraph (2), (3), or (5), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy.",
-    "note": "Two-month small-landlord rule and service-member exception are in (c)(5)(A)-(B)."
+    "note": "Small-landlord two-month rule and service member exception are in (c)(5)(A)-(B); the card's description matches."
    },
    "key_value": {
     "verdict": "supported",
@@ -19,88 +25,88 @@
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "(6) This subdivision shall not apply to a security collected or demanded by the landlord before July 1, 2024.",
-    "note": "July 1, 2024 is implied as the start for security collected on or after that date; the document does not state it as an effective date directly."
+    "note": "Document implies the cap applies to security collected on or after July 1, 2024, but does not state it as an effective date in so many words; a small inference."
    },
    "status": {
     "verdict": "supported",
     "evidence": "(Amended by Stats. 2025, Ch. 340, Sec. 1.   (AB 414)   Effective January 1, 2026.)",
-    "note": "Presented as current law."
+    "note": "Presented as current law as of the retrieval date."
    },
    "coverage": {
-    "verdict": "partly_supported",
+    "verdict": "supported",
     "evidence": "(ii) The landlord owns no more than two residential rental properties that collectively include no more than four dwelling units offered for rent.",
-    "note": "The four-unit limit is supported, but it applies only to the two-month small-landlord rule; the card does not mention the two-property limit in its coverage field."
+    "note": "Max 4 units matches."
    },
    "citation": {
-    "verdict": "partly_supported",
-    "evidence": "(6) This subdivision shall not apply to a security collected or demanded by the landlord before July 1, 2024.",
-    "note": "The citation § 1950.5(c) is correct for the cap; the 2024 effective date is at (c)(6)."
+    "verdict": "supported",
+    "evidence": "1950.5.",
+    "note": "Section 1950.5(c) contains the cap and small-landlord provisions."
    }
   },
   {
    "team_rule_id": "r-0017",
    "requirement": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "the landlord shall provide the tenant with a written statement, on or before the date the lease is signed, of the amount of the higher security and an explanation why the higher security amount is being charged. The additional amount of security shall be returned to the tenant after no more than six months of residency if the tenant is not in arrears for any rent due during that period.",
-    "note": null
+    "note": "The statute says higher security 'due to the credit history, credit score, housing history, or other factor related to the tenant'; the card narrows it to credit or housing history. Minor."
    },
    "key_value": {
     "verdict": "partly_supported",
     "evidence": "The additional amount of security shall be returned to the tenant after no more than six months of residency if the tenant is not in arrears for any rent due during that period.",
-    "note": "The statute says returned after no more than six months of residency, not within 6 months of anything else; the card's wording is a close paraphrase."
+    "note": "The statute says returned after no more than six months of residency, which the card words as 'within 6 months'; roughly equivalent, and the arrears condition is omitted."
    },
    "effective_date": {
     "verdict": "supported",
-    "evidence": "(4) On or after April 1, 2025, if a landlord or its agent charges a service member who rents residential property",
+    "evidence": "(4) On or after April 1, 2025, if a landlord or its agent charges a service member who rents residential property in which the service member will reside a higher than standard or advertised security",
     "note": null
    },
    "status": {
     "verdict": "supported",
     "evidence": "(Amended by Stats. 2025, Ch. 340, Sec. 1.   (AB 414)   Effective January 1, 2026.)",
-    "note": "Presented as current law."
+    "note": "Current law."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card coverage is empty."
+    "note": "Coverage is empty on the card."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "(4) On or after April 1, 2025, if a landlord or its agent charges a service member who rents residential property",
+    "evidence": "(4) On or after April 1, 2025, if a landlord or its agent charges a service member",
     "note": "Paragraph (c)(4) matches."
    }
   },
   {
    "team_rule_id": "r-0018",
    "requirement": {
-    "verdict": "supported",
-    "evidence": "(1) No later than 21 calendar days after the tenant has vacated the premises,",
-    "note": "Itemized statement, receipts, photos, wear-and-tear exclusion and bad-faith damages are in (h)(2), (e)(2)(A), and (m)."
+    "verdict": "partly_supported",
+    "evidence": "(1) No later than 21 calendar days after the tenant has vacated the premises, but not earlier than the time that either the landlord or the tenant provides a notice to terminate the tenancy under Section 1946 or 1946.1, Section 1161 of the Code of Civil Procedure, or not earlier than 60 calendar days prior to the expiration of a fixed-term lease, the landlord shall furnish the tenant, a copy of an itemized statement indicating the basis for, and the amount of, any security received and the disposition of the security, and shall return any remaining portion of the security to the tenant as follows:",
+    "note": "Supports the 21-day return and statement. Photos and receipts are required only for repair or cleaning deductions, and not where deductions are $125 or less (unless requested); the card omits this. Wear-and-tear and bad-faith provisions are in (e) and (m)."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "may subject the landlord or the landlord’s successors in interest to statutory damages of up to twice the amount of the security, in addition to actual damages.",
-    "note": "21 calendar days is stated in (h)(1)."
+    "note": "21 calendar days is in (h)(1)."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card date is empty."
+    "note": "Effective date is empty on the card."
    },
    "status": {
     "verdict": "supported",
     "evidence": "(Amended by Stats. 2025, Ch. 340, Sec. 1.   (AB 414)   Effective January 1, 2026.)",
-    "note": "Presented as current law."
+    "note": "Current law."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card coverage is empty."
+    "note": "Coverage is empty on the card."
    },
    "citation": {
-    "verdict": "supported",
-    "evidence": "(h) (1) No later than 21 calendar days after the tenant has vacated the premises,",
-    "note": "Subdivisions (h) and (m) match."
+    "verdict": "partly_supported",
+    "evidence": "(m) The bad faith claim or retention by a landlord or the landlord’s successors in interest of the security or any portion thereof in violation of this section",
+    "note": "(h) and (m) support the card; the wear-and-tear rule is in (e), which is not cited."
    }
   },
   {
@@ -113,27 +119,27 @@
    "key_value": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card key value is empty."
+    "note": "Key value is empty on the card."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card date is empty."
+    "note": "Effective date is empty on the card."
    },
    "status": {
     "verdict": "supported",
     "evidence": "(Amended by Stats. 2025, Ch. 340, Sec. 1.   (AB 414)   Effective January 1, 2026.)",
-    "note": "Presented as current law."
+    "note": "Current law."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card coverage is empty."
+    "note": "Coverage is empty on the card."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "(n) A lease or rental agreement shall not contain a provision characterizing any security as “nonrefundable.”",
-    "note": "Subdivision (n) matches."
+    "note": null
    }
   }
  ]
