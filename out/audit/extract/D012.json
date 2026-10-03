@@ -1,0 +1,48 @@
+{
+  "doc_id": "D012",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:18:53.733Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 1479,
+    "output": 1091,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "Boston, MA",
+      "level": "city",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Boston fair housing ban on rental-assistance (source of income) discrimination",
+      "requirement": "In Boston, a landlord cannot refuse to rent to you or treat you differently because you use rental assistance such as a Section 8, social security disability or veterans voucher. If a landlord says they don't accept vouchers, you can file a complaint with the Boston Fair Housing Commission.",
+      "key_value": null,
+      "coverage": {
+        "summary": "All housing rentals in the City of Boston, as described by the city's Fair Housing Commission page.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "Boston Fair Housing Regulations (Boston Fair Housing Commission; ordinance section not stated in document)",
+      "quoted_span": "The landlord tells you they don't accept rental assistance.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "The page says the commission enforces local, state, and federal fair housing laws; complaints about discrimination outside Boston go to the state.",
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Official city summary page; it lists rental assistance (e.g., Section 8 vouchers) as a protected class, which maps to source-of-income screening restrictions. The page does not cite the underlying ordinance or code section, an effective date, or penalties, so the citation is descriptive only. Other protected classes (race, etc.) are general fair housing rules outside the six categories and were not extracted."
+}

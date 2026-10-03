@@ -11,14 +11,22 @@
     "typecheck": "next typegen && tsc --noEmit",
     "eval": "node scripts/eval.mjs",
     "mock": "node scripts/mock-llm.mjs",
-    "check": "bash scripts/check.sh"
+    "check": "bash scripts/check.sh",
+    "extract": "tsx scripts/extract.ts",
+    "geocode": "tsx scripts/geocode-addresses.ts",
+    "lookups": "tsx scripts/lookup.ts",
+    "changes": "tsx scripts/changes.ts",
+    "score": "python3 scripts/selfscore.py",
+    "review": "python3 scripts/review-sheets.py",
+    "pipeline": "npm run lookups && npm run changes && npm run score"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.131.0",
     "next": "16.3.8",
     "openai": "^7.27.0",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -28,6 +36,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.8",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }

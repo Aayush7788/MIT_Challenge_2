@@ -1,0 +1,48 @@
+{
+  "doc_id": "D050",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:25:35.472Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 975,
+    "output": 959,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "14-day notice to quit for nonpayment of rent under a written lease, with right to cure",
+      "requirement": "If you fall behind on rent under a written lease, your landlord must give you a written 14-day notice to quit before ending the lease. You can stop the eviction by paying all rent due, plus interest and court costs, by the day your answer is due in the eviction case. If the late rent was caused by a delayed government payment or voucher, the court must postpone the hearing at least 7 days so you can pay.",
+      "key_value": "14 days' written notice to quit",
+      "coverage": {
+        "summary": "Tenancies under a written lease in Massachusetts where the tenant has not paid rent; no unit-count or construction-date limits are stated.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "M.G.L. c. 186 § 11",
+      "quoted_span": "Section 11. Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease, unless the tenant, on or before the day the answer is due, in an action by the landlord to recover possession of the premises, pays or tenders to the landlord or to his attorney all rent then due, with interest and costs of suit.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "This section sets the notice period and the tenant's right to cure for nonpayment evictions under written leases. It does not create a statewide just-cause requirement. It is classified under just_cause_eviction because it is an eviction notice rule. Reviewers may decide it is out of scope."
+}

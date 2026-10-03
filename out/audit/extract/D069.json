@@ -1,0 +1,51 @@
+{
+  "doc_id": "D069",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:28:44.549Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 3589,
+    "output": 1669,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "NJ",
+      "level": "state",
+      "category": "algorithmic_rent_setting",
+      "status": "not_yet_effective",
+      "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act – ban on algorithmic rent coordination",
+      "requirement": "Landlords in New Jersey may not pay for or use rent-setting software or algorithmic devices that perform a 'coordinating function', meaning setting or recommending rents, lease terms or occupancy using competitors' nonpublic data. Anyone may not engage in parallel pricing coordination. If you suspect your landlord is doing this, you can file a complaint with the Attorney General, who must set up a complaint site.",
+      "key_value": "Ban on using or providing algorithmic rent coordination services; violation of NJ Antitrust Act",
+      "coverage": {
+        "summary": "All residential dwelling units in New Jersey used as a primary residence (houses, apartments, accessory units), excluding inpatient medical care, licensed long-term care, and detention or correctional facilities. Government-set rents under affordability controls are not a coordinating function.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Inpatient medical care, licensed long-term care, detention or correctional facilities",
+          "Rents set by government entities through affordability controls"
+        ]
+      },
+      "exemptions": "Not a coordinating function: use of competitively sensitive information solely for research, statistical analysis or testing not used to set or recommend rents/terms; free public rent estimates; real estate brokerage listing databases available on equal terms that do not set or recommend prices or collect sensitive info for that purpose; government affordability controls. Algorithmic device excludes non-AI spreadsheets requiring human analysis and databases that only query unprocessed data.",
+      "effective_date": "2027-07-01",
+      "penalty": "Violation of the New Jersey Antitrust Act, P.L.1970, c.73 (C.56:9-1 et seq.); remedies of C.56:9-6 through 9-17 apply.",
+      "citation": "N.J.S.A. 56:9-20 to 56:9-26 (P.L. 2026, c.43; A3497 ACS 1R)",
+      "quoted_span": "a.     a rental property owner, or any agent,\nrepresentative, or subcontractor thereof, to receive, subscribe to, contract\nfor, or otherwise exchange any form of consideration in return for the use of,\nthe services of a coordinator;",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": true,
+      "interaction": "Municipalities are prohibited from enacting an ordinance that conflicts with this act, except ordinances explicitly authorized or required by other law.",
+      "confidence": 0.8,
+      "conflict_flag": true,
+      "conflict_note": "Act preempts conflicting municipal ordinances on algorithmic rent setting. Effective date computed from 'first day of the twelfth month next following the date of enactment' with approval on July 20, 2026; the document does not state the calendar date explicitly."
+    }
+  ],
+  "notes": "Effective date 2027-07-01 derived from section 9 (twelfth month next following July 20, 2026 enactment); verify. Status not_yet_effective as of 2026-10-01."
+}

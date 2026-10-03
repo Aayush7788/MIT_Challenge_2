@@ -1,0 +1,32 @@
+{
+  "source": "Rules named in the challenge brief (p.3 category table, illustrative output, test cases T1-T5). Evaluation only; never fed to extraction.",
+  "rules": [
+    {"jurisdiction": "CA", "category": "rent_increase_limits", "cite": "1947\\.12", "status": "in_force", "label": "CA Tenant Protection Act, Civ. Code 1947.12"},
+    {"jurisdiction": "San Francisco, CA", "category": "rent_increase_limits", "cite": "ch(apter)?\\.?\\s*37\\b|37\\.3\\b|Rent Ordinance", "status": "in_force", "label": "SF Rent Ordinance, Admin. Code ch. 37"},
+    {"jurisdiction": "Los Angeles, CA", "category": "rent_increase_limits", "cite": "Rent Stabilization|RSO|151\\.", "status": "in_force", "label": "LA Rent Stabilization Ordinance"},
+    {"jurisdiction": "MA", "category": "rent_increase_limits", "cite": "40P", "status": "in_force", "label": "MA G.L. c.40P (state bar on local rent control)"},
+    {"jurisdiction": "MA", "category": "rent_increase_limits", "cite": "25-21|ballot", "status": "failed", "label": "MA rent-control ballot question IP 25-21 (struck 2026-06-23)"},
+    {"jurisdiction": "CA", "category": "just_cause_eviction", "cite": "1946\\.2", "status": "in_force", "label": "CA Civ. Code 1946.2"},
+    {"jurisdiction": "San Francisco, CA", "category": "just_cause_eviction", "cite": "37\\.9\\b", "status": "in_force", "label": "SF Admin. Code 37.9"},
+    {"jurisdiction": "NJ", "category": "just_cause_eviction", "cite": "2A:18-61\\.1", "status": "in_force", "label": "NJ Anti-Eviction Act, N.J.S.A. 2A:18-61.1"},
+    {"jurisdiction": "CA", "category": "security_deposits", "cite": "1950\\.5", "status": "in_force", "date": "2024-07-01", "label": "CA Civ. Code 1950.5 as amended by AB 12"},
+    {"jurisdiction": "NJ", "category": "security_deposits", "cite": "46:8-21\\.2", "status": "in_force", "label": "NJ N.J.S.A. 46:8-21.2"},
+    {"jurisdiction": "MA", "category": "security_deposits", "cite": "186.{0,6}15B", "status": "in_force", "label": "MA G.L. c.186 15B (deposit)"},
+    {"jurisdiction": "CA", "category": "application_screening_fees", "cite": "1950\\.6", "status": "in_force", "label": "CA Civ. Code 1950.6"},
+    {"jurisdiction": "NJ", "category": "application_screening_fees", "cite": "2025,?\\s*c\\.?\\s*405|46:8-18\\.1", "status": "in_force", "date": "2026-05-01", "label": "NJ P.L.2025 c.405 ($50 cap)"},
+    {"jurisdiction": "MA", "category": "application_screening_fees", "cite": "186.{0,6}15B", "status": "in_force", "label": "MA G.L. c.186 15B (upfront charges)"},
+    {"jurisdiction": "MA", "category": "application_screening_fees", "cite": "87DDD", "status": "in_force", "date": "2025-08-01", "label": "MA broker-fee rule, G.L. c.112 87DDD1/2"},
+    {"jurisdiction": "NJ", "category": "screening_restrictions", "cite": "Fair Chance|46:8-5\\d|2021,?\\s*c\\.?\\s*110", "status": "in_force", "label": "NJ Fair Chance in Housing Act"},
+    {"jurisdiction": "CA", "category": "screening_restrictions", "cite": "12955|FEHA|Fair Employment", "status": "in_force", "label": "CA FEHA source of income (SB 329)"},
+    {"jurisdiction": "CA", "category": "algorithmic_rent_setting", "cite": "AB\\s*325|16729|SB\\s*763", "status": "in_force", "date": "2026-01-01", "label": "CA AB 325 / SB 763"},
+    {"jurisdiction": "San Francisco, CA", "category": "algorithmic_rent_setting", "cite": "37\\.10C", "status": "in_force", "date": "2024-10", "label": "SF Admin. Code 37.10C"},
+    {"jurisdiction": "San Diego, CA", "category": "algorithmic_rent_setting", "cite": "98\\.110", "status": "in_force", "date": "2025-06", "label": "San Diego 98.1101-98.1104"},
+    {"jurisdiction": "Berkeley, CA", "category": "algorithmic_rent_setting", "cite": "13\\.63", "status": "in_force", "date": "2026", "label": "Berkeley ch. 13.63"},
+    {"jurisdiction": "Santa Ana, CA", "category": "algorithmic_rent_setting", "cite": "NS-?\\s*3090", "status": "in_force", "date": "2026-04", "label": "Santa Ana Ord. NS-3090"},
+    {"jurisdiction": "Jersey City, NJ", "category": "algorithmic_rent_setting", "cite": "218-12", "status": "in_force", "date": "2025-06", "label": "Jersey City 218-12"},
+    {"jurisdiction": "Hoboken, NJ", "category": "algorithmic_rent_setting", "cite": "158", "status": "in_force", "date": "2025-07", "label": "Hoboken ch. 158, Art. II"},
+    {"jurisdiction": "NJ", "category": "algorithmic_rent_setting", "cite": "2026,?\\s*c\\.?\\s*0?43|56:9-2|FAIR", "status": "not_yet_effective", "date": "2027-07-01", "label": "NJ FAIR Act, P.L.2026 c.43"},
+    {"jurisdiction": "MA", "category": "algorithmic_rent_setting", "cite": "S\\.?\\s*2983", "status": "pending", "label": "MA S.2983"},
+    {"jurisdiction": "MA", "category": "algorithmic_rent_setting", "cite": "H\\.?\\s*5222", "status": "pending", "label": "MA H.5222"}
+  ]
+}

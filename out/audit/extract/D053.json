@@ -1,0 +1,15 @@
+{
+  "doc_id": "D053",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:26:23.573Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 1507,
+    "output": 458,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [],
+  "notes": "M.G.L. c. 186 § 18 is Massachusetts' anti-retaliation (reprisal) statute. It makes a landlord liable for damages of 1 to 3 months' rent, or actual damages if greater, plus costs and attorney's fees, for reprisals against tenants who report code violations, take legal action, or organize. A notice of termination (except for nonpayment), a rent increase, or a substantial change in tenancy terms within six months of protected activity creates a rebuttable presumption of reprisal. It does not require a listed cause to evict, cap rent increases, or regulate deposits, fees, screening, or rent-setting software, so no rule was extracted under the six in-scope categories. A reviewer may decide whether retaliation protections should be tracked separately or folded into just_cause_eviction."
+}

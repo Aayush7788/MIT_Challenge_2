@@ -1,0 +1,80 @@
+{
+  "doc_id": "D042",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:23:44.484Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 2080,
+    "output": 2364,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "Los Angeles, CA",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "RSO annual allowable rent increase (July 1, 2025 – June 30, 2026)",
+      "requirement": "If your unit is covered by the Los Angeles Rent Stabilization Ordinance, your landlord could raise rent by no more than 3% for the year July 1, 2025 through June 30, 2026. Separately, the landlord may add an RSO surcharge of $1.61/month and a SCEP surcharge of $2.83/month, but only after registering the unit and giving you written notice.",
+      "key_value": "3% (July 1, 2025 – June 30, 2026); plus $1.61/mo RSO and $2.83/mo SCEP surcharges",
+      "coverage": {
+        "summary": "Rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO). The page does not define which buildings are covered; it directs tenants to zimas.lacity.org or a text service to check RSO status.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": "2025-07-01",
+      "penalty": null,
+      "citation": "Los Angeles Rent Stabilization Ordinance (RSO)",
+      "quoted_span": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective\nJuly 1, 2025, through June 30, 2026\nis\n3%\n.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "Page notes state law requires 30 days' written advance notice of rent increases under 10%. Non-RSO properties are directed to contact LAHD about allowable increases.",
+      "confidence": 0.6,
+      "conflict_flag": true,
+      "conflict_note": "The 3% figure is stated only for July 1, 2025 through June 30, 2026, which ended before the query date 2026-10-01; the page (retrieved 2026-10-01) does not give the July 2026–June 2027 allowable increase. Code section not stated on the page."
+    },
+    {
+      "jurisdiction": "Los Angeles, CA",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "RSO: no additional percentage increase for utilities",
+      "requirement": "Starting February 2, 2026, a landlord of an RSO unit cannot add any extra percentage rent increase for utilities on top of the annual allowable increase.",
+      "key_value": "0% additional for utilities",
+      "coverage": {
+        "summary": "Rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO).",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": "2026-02-02",
+      "penalty": null,
+      "citation": "Los Angeles Rent Stabilization Ordinance (RSO)",
+      "quoted_span": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.7,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Official LAHD calculator page. It does not state the RSO code section or building coverage criteria, so citation is the ordinance name and coverage fields are left null. The stated 3% period ended June 30, 2026, before the query date, so the current figure needs verification. The page also mentions a state 30-day notice requirement for increases under 10%, but gives no citation; it was not extracted as a separate rule."
+}

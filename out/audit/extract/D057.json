@@ -1,0 +1,80 @@
+{
+  "doc_id": "D057",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:26:34.529Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 1178,
+    "output": 1137,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "application_screening_fees",
+      "status": "in_force",
+      "title": "Broker fee paid only by the party who hired the broker",
+      "requirement": "In Massachusetts, a rental broker's fee may be charged only to the party (landlord or tenant) who originally hired and contracted with the broker. If the landlord hired the broker, you as a tenant cannot be made to pay that fee.",
+      "key_value": "Broker fee paid only by the party who engaged the broker",
+      "coverage": {
+        "summary": "All residential rental transactions in Massachusetts involving a licensed real estate broker or salesperson finding dwelling accommodations.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": "2025-08-01",
+      "penalty": null,
+      "citation": "M.G.L. c. 112 § 87DDD1/2 (as amended by St. 2025, c. 9, § 43)",
+      "quoted_span": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.88,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "application_screening_fees",
+      "status": "in_force",
+      "title": "Only licensed brokers may charge fees for finding rental housing",
+      "requirement": "Only a licensed real estate broker or salesperson may charge a fee for finding an apartment for a prospective tenant. Do not pay a finder's fee to an unlicensed person.",
+      "key_value": null,
+      "coverage": {
+        "summary": "All residential rental housing in Massachusetts where a person charges a fee for finding dwelling accommodations for prospective tenants.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "M.G.L. c. 112 § 87DDD1/2",
+      "quoted_span": "No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman as defined in section eighty-seven PP of chapter one hundred and twelve.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.75,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Page shows both the pre-August 1, 2025 text and the text as amended by St. 2025, c. 9, § 43 effective August 1, 2025. The broker-fee payment rule comes from the amended text, which is in force as of 2026-10-01. The licensing requirement appears in both versions; the document gives no original effective date for it."
+}

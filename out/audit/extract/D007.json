@@ -1,0 +1,80 @@
+{
+  "doc_id": "D007",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:17:38.697Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 1744,
+    "output": 1887,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Security deposit cap of one month's rent (AB 12)",
+      "requirement": "Since July 1, 2024, most landlords may charge a security deposit of no more than one month's rent, whether or not the unit is furnished. Last month's rent counts toward the cap; first month's rent does not. Small landlords may charge up to two months' rent.",
+      "key_value": "1 month rent (2 months for qualifying small landlords)",
+      "coverage": {
+        "summary": "Applies to residential rental units statewide, furnished or unfurnished. Landlords who own only two rental properties with no more than four residential units in total may charge up to two months' rent. This applies only if the owner is a natural person, a family trust, or an LLC whose members are all natural persons.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": 4,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": "Small landlords may charge up to two months' rent. They must own only two rental properties with no more than four residential units total, held by a natural person, family trust, or LLC whose members are all natural persons.",
+      "effective_date": "2024-07-01",
+      "penalty": null,
+      "citation": "Assembly Bill 12",
+      "quoted_span": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and furnished units",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Annual interest on security deposits under Berkeley Rent Ordinance",
+      "requirement": "If your unit is fully or partially covered by Berkeley's Rent Ordinance, your landlord must pay you interest on your security deposit at the end of each year. If you move out before year-end, you are owed a prorated amount.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Tenancies in units fully or partially covered by the Berkeley Rent Ordinance.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "Berkeley Rent Ordinance",
+      "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.7,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "The page is a Berkeley Rent Board summary. The deposit cap is state law (AB 12); the page does not give the code section (likely Cal. Civ. Code § 1950.5), so the bill number is cited. The interest rate and the section number of the Berkeley ordinance are not stated. Other deposit procedures on the page were not extracted as separate rules because they fall outside the cap/exceptions focus: photographs, the walk-through inspection, allowed deductions, and return within 21 days."
+}

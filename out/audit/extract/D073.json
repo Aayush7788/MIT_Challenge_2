@@ -1,0 +1,97 @@
+{
+  "doc_id": "D073",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:29:15.110Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 14099,
+    "output": 3192,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "San Diego, CA",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "San Diego Residential Tenant Protections: just cause required to terminate a tenancy",
+      "requirement": "Your landlord cannot end your tenancy without a listed at-fault cause (such as nonpayment, a lease breach not cured after written notice, nuisance, or criminal activity) or a good-faith no-fault cause (owner or family move-in, withdrawal from the rental market, a government order to vacate, or demolition or substantial remodel). A no-fault notice must state the cause and give 30 or 60 days' notice under Civil Code 1946.1, and a notice that does not strictly comply is void.",
+      "key_value": "Just cause required for any tenancy over 30 days",
+      "coverage": {
+        "summary": "Covers residential rental property in San Diego, including mobilehome park units, for tenancies over 30 days. Exempt: housing with a certificate of occupancy issued within the previous 15 years (unless a mobilehome); owner-occupied single-family homes and owner-occupied two-unit structures; units where the tenant shares a kitchen or bath with a resident landlord; separately alienable units (such as individually owned houses or condos) whose landlord is not a REIT, corporation, LLC with a corporate member, or mobilehome park management and has given the required written exemption notice; deed-restricted or subsidized affordable housing (Section 8 tenants remain covered); hotels; short-term rentals; MRL mobilehomes; care facilities and nonprofit transitional housing; school dormitories.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": true,
+        "exempt_if_newer_than_years": 15,
+        "owner_based_exemption_max_units": 2,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Deed-restricted or regulatory-agreement affordable housing",
+          "Subsidized affordable housing (Section 8 not exempt)",
+          "Transient hotel occupancy and short-term residential occupancy",
+          "Mobilehomes subject to the Mobilehome Residency Law",
+          "Nonprofit hospitals, religious, care and residential facilities, and nonprofit transitional housing",
+          "K-12 and higher-education dormitories",
+          "Units where the tenant shares a bathroom or kitchen with a resident landlord",
+          "Separately alienable units (individually owned single-family homes or condos) not owned by a REIT, corporation, or LLC with a corporate member, where the exemption notice was given"
+        ]
+      },
+      "exemptions": "SDMC § 98.0703(a)-(l): hotels; short-term rentals; deed-restricted or subsidized affordable housing (Section 8 not exempt); MRL mobilehomes; care and transitional facilities; dormitories; units sharing a kitchen or bath with a resident landlord; owner-occupied single-family homes; owner-occupied two-unit structures; certificate of occupancy within the previous 15 years (unless a mobilehome); separately alienable units of non-corporate landlords who gave the written exemption notice.",
+      "effective_date": "2023-06-24",
+      "penalty": "Wrongful eviction liability of not less than three times actual economic damages; injunctive relief and money damages including punitive damages; discretionary attorney's fees; noncompliance is an affirmative defense to eviction; noncompliant termination notices are void; City civil and criminal enforcement.",
+      "citation": "San Diego Mun. Code § 98.0704 (Ord. O-21647 N.S., amended by O-21769 N.S.)",
+      "quoted_span": "A landlord shall not terminate a tenancy without just cause. For purposes of this Division, just cause includes at-fault just cause and no-fault just cause.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "Requires just cause consistent with Cal. Civ. Code § 1946.2; the rights in this Division are in addition to tenants' rights under state or federal law.",
+      "confidence": 0.88,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "San Diego, CA",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "San Diego relocation assistance for no-fault terminations",
+      "requirement": "If your landlord ends your tenancy for a no-fault reason, they must pay you two months of your current rent (three months if you are a senior aged 62 or older, or disabled), regardless of your income or length of tenancy. The landlord may instead waive the same amount of rent, and must pay a direct payment within 15 days of the notice.",
+      "key_value": "2 months' rent (3 months for seniors or disabled tenants)",
+      "coverage": {
+        "summary": "Same coverage as the San Diego just cause rules: applies to no-fault terminations of covered residential rental property. Exempt: housing with a certificate of occupancy issued within the previous 15 years, owner-occupied single-family homes and two-unit structures, and the other § 98.0703 exemptions.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": true,
+        "exempt_if_newer_than_years": 15,
+        "owner_based_exemption_max_units": 2,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Deed-restricted or subsidized affordable housing (Section 8 not exempt)",
+          "Hotels and short-term rentals",
+          "Mobilehomes subject to the Mobilehome Residency Law",
+          "Care facilities and nonprofit transitional housing",
+          "Dormitories",
+          "Units where the tenant shares a kitchen or bath with a resident landlord",
+          "Separately alienable individually owned units of non-corporate landlords who gave the exemption notice"
+        ]
+      },
+      "exemptions": "Same exemptions as SDMC § 98.0703. A tenant found at fault for conditions triggering a government order to vacate is not entitled to relocation assistance.",
+      "effective_date": "2023-06-24",
+      "penalty": "A landlord who fails to pay required relocation assistance is liable for not less than three times the required assistance plus actual economic damages.",
+      "citation": "San Diego Mun. Code § 98.0706(c) (Ord. O-21647 N.S.)",
+      "quoted_span": "(i) Unless section 98.0706(c)(1)(A)(ii) applies, the direct payment to the tenant shall be in an amount equal to two months of actual rent under the tenant’s lease in effect at the date of the notice.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "Relocation assistance under this Division is credited against any other relocation assistance required by federal, state, or other local law.",
+      "confidence": 0.82,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "The quoted spans join the PDF's line breaks with single spaces. The 15-year exemption is rolling, based on the certificate of occupancy date. The owner-occupancy exemptions cover single-family homes and two-unit structures. The tenant-notice requirement (§ 98.0705) and the buyout-agreement rules (§ 98.0707) are not extracted as separate records. The Division was amended effective 2024-03-28 by O-21769 N.S."
+}

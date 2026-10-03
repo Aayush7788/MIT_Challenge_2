@@ -1,0 +1,48 @@
+{
+  "doc_id": "D048",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:25:14.398Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 1068,
+    "output": 1290,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Statewide prohibition on local rent control (Rent Control Prohibition Act)",
+      "requirement": "Massachusetts cities and towns generally cannot enact, keep or enforce rent control, so there is no local rent cap to rely on. The only exception is a voluntary program for owners of 10 or more units with fair market rent of $400 or less, where the city pays owners the difference from its general funds.",
+      "key_value": "No local rent control of any kind (narrow voluntary exception)",
+      "coverage": {
+        "summary": "Applies statewide to every city and town and every rental unit. Any rent control a city adopts under the exception must be voluntary for owners after six months. It cannot regulate evictions, occupancy, services or condo conversion. It cannot cover units owned by someone with fewer than ten rental units or units with fair market rent over $400.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": "A city or town that accepts chapter 40P may adopt rent control regulation only if all of the following hold: (a) owner compliance is entirely voluntary after six months; (b) it does not regulate occupancy, services, evictions, condominium conversion or removal of properties, and it does not apply to units of owners with fewer than ten rental units or units with fair market rent over $400; and (c) the municipality compensates owners for the gap between fair market rent and the controlled rent from general funds.",
+      "effective_date": null,
+      "penalty": null,
+      "citation": "M.G.L. c. 40P § 4",
+      "quoted_span": "Section 4. No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": true,
+      "interaction": "Preempts municipal rent control in Massachusetts. Any local rent-control ordinance, or any proposal to allow one, conflicts with this section unless it fits the narrow voluntary, compensated exception.",
+      "confidence": 0.9,
+      "conflict_flag": true,
+      "conflict_note": "State preemption of local rent control. Any Massachusetts city rent-stabilization ordinance or proposal would conflict with this section unless the state law is changed."
+    }
+  ],
+  "notes": "The document is the official text of M.G.L. c. 40P § 4. It states no effective date, so effective_date is null; the law is long-standing and in force. The under-ten-units and $400 limits restrict what a permitted local regulation may cover; they are not exemptions from the statewide ban itself. For that reason owner_based_exemption_max_units is left null."
+}

@@ -1,0 +1,48 @@
+{
+  "doc_id": "D045",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:24:44.259Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 1118,
+    "output": 921,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "algorithmic_rent_setting",
+      "status": "pending",
+      "title": "An Act relative to preventing algorithmic rent fixing in the rental housing market (H.5222)",
+      "requirement": "This Massachusetts bill would address algorithmic rent fixing in rental housing, but it is not law. It was reported favorably by the Joint Committee on Housing on 3/12/2026 and referred to House Ways and Means, so renters have no new rights under it yet.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Not stated on this page. The bill text is not included, so covered software, landlords and units cannot be determined. As a conduct rule it would presumably apply statewide.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "H.5222 (194th General Court; new draft of H.1564)",
+      "quoted_span": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "The page is the bill-status page only and does not include the bill text. Only the title, the sponsor (Joint Committee on Housing) and the history are available. The history shows the bill was reported on 3/12/2026 as a new draft of H1564 and referred to House Ways and Means. Prohibited conduct, covered software, penalties and the effective date cannot be extracted. The quoted span is the bill title, because no operative text is present. A reviewer should pull the bill text (View Text/PDF) to complete this record."
+}

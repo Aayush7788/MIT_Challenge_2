@@ -1,0 +1,15 @@
+{
+  "doc_id": "D039",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:22:22.635Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 1144,
+    "output": 364,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [],
+  "notes": "Document is a Los Angeles City Council motion (Council File 24-1031, presented by Councilmember Heather Hutt, Sep 3, 2024). It only instructs the Los Angeles Housing Department to report on how many entities use algorithm-based rent-setting software and whether a ban would be feasible. It does not propose or enact any operative rule, so no algorithmic_rent_setting record was extracted. The passing mention that the San Francisco Board of Supervisors approved a ban in July 2024 is background news, not a statement of that law, and was not extracted. The OCR'd signature lines are garbled."
+}

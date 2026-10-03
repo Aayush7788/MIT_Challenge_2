@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Project name",
-  description: "One sentence: who this is for and the job it does for them.",
+  title: "Rental Housing Law Navigator",
+  description: "Which housing rules apply to an apartment on a given date, with the source text for each. Not legal advice.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

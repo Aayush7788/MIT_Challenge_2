@@ -1,0 +1,80 @@
+{
+  "doc_id": "D022",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:19:53.709Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 2433,
+    "output": 1686,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Ban on using or distributing a common pricing algorithm as part of a conspiracy to restrain trade",
+      "requirement": "Under California antitrust law (Cartwright Act), it is illegal to use or distribute a shared pricing algorithm, such as rent-setting software that uses competitor data, as part of an agreement or conspiracy to restrain trade. If you suspect landlords are coordinating rents through such software, you can report it to the Attorney General.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Applies statewide to any person (including landlords and software vendors) who uses or distributes a common pricing algorithm; not limited to particular buildings. End consumers are excluded from the definition of person.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": "\"Person\" does not include the end consumer of a product or service.",
+      "effective_date": null,
+      "penalty": "Violation of the Cartwright Act, which is punishable as a crime; general Cartwright Act enforcement applies.",
+      "citation": "Cal. Bus. & Prof. Code § 16729(a) (AB 325, Stats. 2025, ch. 338)",
+      "quoted_span": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.8,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Ban on coercing adoption of prices or terms recommended by a common pricing algorithm",
+      "requirement": "It is illegal for anyone using or distributing a shared pricing algorithm to coerce another person to adopt the price or commercial terms (such as availability or level of service) it recommends. This can cover pressure to adopt software-recommended rents.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Applies statewide to any person who uses or distributes a common pricing algorithm and coerces another to adopt its recommended price or commercial term; not limited to particular buildings.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": "\"Person\" does not include the end consumer of a product or service.",
+      "effective_date": null,
+      "penalty": "Violation of the Cartwright Act, which is punishable as a crime.",
+      "citation": "Cal. Bus. & Prof. Code § 16729(b) (AB 325, Stats. 2025, ch. 338)",
+      "quoted_span": "(b) It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.8,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "AB 325 (Ch. 338, approved Oct 6, 2025) is a general antitrust law, not housing-specific, but it covers rent-setting software. The document does not state an effective date; as a non-urgency 2025 statute it would ordinarily take effect 2026-01-01, so status is in_force, but effective_date is left null. The pleading-standard provision (B&P § 16756.1) is out of scope and was not extracted."
+}

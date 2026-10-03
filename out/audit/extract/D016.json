@@ -1,0 +1,84 @@
+{
+  "doc_id": "D016",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:19:39.266Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 8155,
+    "output": 2112,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Source-of-income discrimination prohibited in rental housing (FEHA)",
+      "requirement": "A California landlord cannot refuse to rent to you, or give you different terms such as a higher deposit, because of how you pay rent, including a Section 8 voucher or other rental assistance. If this happens, you can file a complaint with the Civil Rights Department within one year or sue in court within two years.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Applies to most housing accommodations in California and to most housing providers, including landlords, property managers and tenant screening companies.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": 1,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Owner occupying a home and renting to one additional person may exclude applicants based on protected characteristics (but may not publish discriminatory advertisements)"
+        ]
+      },
+      "exemptions": "An owner occupying a home and renting to one additional person may exclude applicants based on protected characteristics, but still cannot make, print or publish discriminatory statements, notices or advertisements.",
+      "effective_date": null,
+      "penalty": "Remedies include out-of-pocket losses, injunctions, access to the denied housing, emotional distress damages, civil penalties or punitive damages, and attorney's fees.",
+      "citation": "California Fair Employment and Housing Act (FEHA)",
+      "quoted_span": "California law protects tenants from discrimination based on how a tenant will be paying rent (“source of income”). This includes the State of California’s COVID-19 Rent Relief Program, Housing Choice (Section 8) vouchers, (SSI) social security disability benefits, or wages earned from a job.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.8,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Limits on use of criminal history in tenant screening (FEHA)",
+      "requirement": "A California landlord may not consider arrests that did not lead to conviction, sealed or expunged records, or juvenile records, and may not ban everyone with a criminal history. A denial based on a conviction must be directly related to tenancy, considering the nature and severity of the crime and the time since it occurred.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Applies to most housing accommodations in California and to most housing providers, including landlords and tenant screening companies.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": 1,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Owner occupying a home and renting to one additional person"
+        ]
+      },
+      "exemptions": "An owner occupying a home and renting to one additional person is generally exempt from FEHA's applicant-selection rules.",
+      "effective_date": null,
+      "penalty": "Remedies include out-of-pocket losses, injunctions, access to the denied housing, emotional distress damages, civil penalties or punitive damages, and attorney's fees.",
+      "citation": "California Fair Employment and Housing Act (FEHA)",
+      "quoted_span": "Housing  providers cannot consider some types of criminal history including arrests that did not lead to a conviction, records that are sealed or expunged, or records or matters processed in the juvenile justice system. Housing providers are also prohibited from having “blanket bans” of all people with a criminal history.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.75,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "CRD fair housing overview page. Only the source-of-income and criminal-history screening rules are in scope. The page cites FEHA generally, not specific code sections, so no section number was added. The owner-occupant exemption (owner renting to one additional person) is mapped to owner_based_exemption_max_units=1 as an approximation. No other in-scope categories are addressed."
+}

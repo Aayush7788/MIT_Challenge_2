@@ -1,0 +1,48 @@
+{
+  "doc_id": "D049",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:25:25.157Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 16446,
+    "output": 1134,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Source-of-income discrimination ban (public assistance and housing subsidies)",
+      "requirement": "A Massachusetts landlord may not refuse to rent to you or otherwise discriminate against you because you receive public assistance or a housing subsidy such as a rental voucher, or because of that program's requirements. Ads may not state a preference against public assistance recipients.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Applies to any person furnishing rental accommodations in Massachusetts; no unit-count, construction-date or owner-occupancy exemption is stated for this subsection.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "M.G.L. c. 151B § 4(10) (see also § 4(7B))",
+      "quoted_span": "For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Document is M.G.L. c. 151B § 4 (general anti-discrimination). Only the source-of-income protection (subsection 10, plus advertising ban on public assistance recipiency in 7B) falls within scope. Criminal-record limits in subsections 9 and 9½ apply to employment, not housing, so were not extracted. Effective date and penalties are not stated in this section."
+}

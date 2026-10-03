@@ -1,0 +1,80 @@
+{
+  "doc_id": "D011",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:18:42.365Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 1528,
+    "output": 1493,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "Boston, MA",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "failed",
+      "title": "H.3744 home rule petition authorizing Boston rent stabilization (not enacted)",
+      "requirement": "This bill would have let Boston adopt rent stabilization, but it was sent to a study order in September 2024 and the 2023-2024 session ended. It does not limit your rent increases.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Proposed authorization for rent stabilization in the City of Boston; the page does not show bill text or coverage details.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "H.3744 (193rd General Court, 2023-2024)",
+      "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "Home rule petition seeking state legislative authorization for Boston to implement rent stabilization. Massachusetts state law otherwise bars local rent control.",
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "Boston, MA",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "failed",
+      "title": "H.3744 home rule petition authorizing Boston tenant eviction protections (not enacted)",
+      "requirement": "This bill would have let Boston adopt tenant eviction protections, but it was sent to a study order in September 2024 and was not enacted. It gives you no just-cause eviction rights.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Proposed authorization for tenant eviction protections in the City of Boston; the page does not show bill text or coverage details.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "H.3744 (193rd General Court, 2023-2024)",
+      "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "The document is only a bill-status page for H.3744. It contains no bill text, so it gives no caps, causes, coverage or dates. The bill accompanied a study order (H5035) on 9/9/2024, which effectively ends it, and the 193rd session has ended, so both records are marked failed. Statewide rent control preemption is not stated in this document."
+}

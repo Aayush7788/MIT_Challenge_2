@@ -15,7 +15,8 @@
 
 # next.js
 /.next/
-/out/
+/out/*
+!/out/audit/
 
 # production
 /build
@@ -49,3 +50,13 @@ eval/results/
 # agent instruction files (kept local, out of the public repo)
 AGENTS.md
 CLAUDE.md
+
+# python tooling
+.venv/
+__pycache__/
+
+# local tooling
+.claude/
+
+# working sheets for the team (shared directly, not published)
+review/

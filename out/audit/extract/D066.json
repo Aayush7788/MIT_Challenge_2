@@ -1,0 +1,50 @@
+{
+  "doc_id": "D066",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:27:20.694Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 1593,
+    "output": 1267,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "NJ",
+      "level": "state",
+      "category": "application_screening_fees",
+      "status": "in_force",
+      "title": "Residential rental application fee capped at $50 (CPI-adjusted)",
+      "requirement": "A landlord or its agent cannot charge more than $50 (adjusted yearly for inflation starting January 1, 2027) as an application or similar fee to apply to rent or sublease a home. If you were overcharged, you can report it to the Division of Consumer Affairs, and the overcharge is refunded to you out of any penalty collected.",
+      "key_value": "$50 per application, adjusted annually by CPI",
+      "coverage": {
+        "summary": "Covers residential rental units statewide, except units in one-family or two-family dwellings, and except real estate licensees who are not themselves the landlord.",
+        "min_units": 3,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Real estate licensees (New Jersey Real Estate Commission) who are not the landlord of the property"
+        ]
+      },
+      "exemptions": "Dwelling units in one-family or two-family dwellings offered for rent; licensees of the New Jersey Real Estate Commission unless the licensee is the landlord.",
+      "effective_date": "2026-05-01",
+      "penalty": "Up to $500 for a first offense, up to $750 for a second, and up to $1,000 for each subsequent offense, enforced under the Penalty Enforcement Law of 1999; amount wrongfully charged is remitted to the applicant from the collected penalty.",
+      "citation": "N.J.S.A. 46:8-18.1 (P.L. 2025, c.405; A4899)",
+      "quoted_span": "1. a. A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Effective date computed from the text: act takes effect on the first day of the fourth month next following enactment; approved January 20, 2026, giving May 1, 2026. CPI adjustment of the $50 cap begins January 1, 2027 (year next following enactment). min_units set to 3 because units in one- and two-family dwellings are exempt."
+}

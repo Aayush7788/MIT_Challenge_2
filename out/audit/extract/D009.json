@@ -1,0 +1,92 @@
+{
+  "doc_id": "D009",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:18:14.457Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 1253,
+    "output": 2829,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Berkeley rent control coverage by unit type",
+      "requirement": "If you rent most units in a Berkeley multifamily building built before 1980, or a single-family home or rooming-house room whose tenancy began before 1996, your unit is under Berkeley rent control. Newer construction, most condos, and single-family homes with tenancies starting in 1996 or later are registered but not rent controlled.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Rent control covers most units in multifamily properties built before 1980, single-family homes with tenancies that began before 1996, and rooming houses. It does not cover new construction that received a Certificate of Occupancy after June 1980, single-family homes with tenancies beginning on or after January 1, 1996, most condominiums, certain HUD-subsidized units, Golden Duplexes, owner-shared kitchen or bath units, post-Nov 7, 2018 tenancies on owner-occupied ADU properties, university housing, or nonprofit cooperatives.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": "1980-06-30",
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": true,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": 2,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Single-family homes with tenancies that began on or after January 1, 1996",
+          "Most condominiums",
+          "Section 202 and Section 811 subsidized units",
+          "Rental Supplement, Section 8 Loan Management Set Aside, or Project-based Section 8 units in projects with a HUD-insured or HUD-held mortgage",
+          "Units where the owner shares a kitchen or bath with the tenant",
+          "University rental units such as dormitories",
+          "Nonprofit cooperatives"
+        ]
+      },
+      "exemptions": "Golden Duplex (owner-occupied on Dec 31, 1979 and currently owner-occupied); owner shares kitchen or bath; tenancies after Nov 7, 2018 on owner-occupied two-unit ADU properties; university housing; nonprofit cooperatives. Partially covered (no rent control): new construction with a CO after June 1980, single-family homes with tenancies from Jan 1, 1996, most condos, certain HUD-subsidized units.",
+      "effective_date": null,
+      "penalty": null,
+      "citation": "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance",
+      "quoted_span": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.75,
+      "conflict_flag": true,
+      "conflict_note": "The guide describes fully covered units as 'built before 1980' but defines new construction as units that received a Certificate of Occupancy 'after June 1980'; the exact cutoff for units built in the first half of 1980 is ambiguous. The cutoff was set to 1980-06-30 using the Certificate of Occupancy definition."
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Berkeley just cause for eviction coverage by unit type",
+      "requirement": "Most Berkeley rental units, including new construction, single-family homes and condos, are covered by Berkeley's just cause eviction protections, so a landlord needs a lawful reason to evict. Exempt units include Golden Duplexes, units where you share a kitchen or bath with a resident owner, certain owner-occupied ADU properties, university housing, and nonprofit cooperatives.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Just cause eviction protections apply to fully and partially covered units, including pre-1980 multifamily units, new construction, single-family homes, most condominiums, rooming houses and listed subsidized units. Exempt: Golden Duplexes, units where the owner shares a kitchen or bath with the tenant, tenancies started after Nov 7, 2018 on owner-occupied properties where one unit is an ADU, university housing, and nonprofit cooperatives.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": 2,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Units where the owner shares a kitchen or bath with the tenant",
+          "University rental units such as dormitories",
+          "Nonprofit cooperatives"
+        ]
+      },
+      "exemptions": "Golden Duplex; owner shares kitchen or bath with the tenant (owner lived on the property when the tenancy started); tenancies started after Nov 7, 2018 on properties where one unit is an ADU and either unit is owner-occupied; university rental units; nonprofit cooperatives.",
+      "effective_date": null,
+      "penalty": null,
+      "citation": "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance",
+      "quoted_span": "Most condominiums** Partially Covered Yes No Yes Yes",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.7,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "This is a coverage guide only. It states no rent increase formula, no allowed eviction causes, and no ordinance code section, so citations use the ordinance name. The guide also lists security deposit interest coverage, but no deposit maximum is stated, so no security_deposits rule was extracted."
+}

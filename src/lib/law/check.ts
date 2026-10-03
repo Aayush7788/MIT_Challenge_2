@@ -1,0 +1,142 @@
+import { lookup, type Building, type Evaluation } from "./engine";
+import type { Category, RuleRecord } from "./schema";
+
+// "Can the landlord raise the rent 20% on this date?" Answers from the rules
+// engine only: a cap that applies and is lower blocks it; a cap the data cannot
+// settle (missing fact, CPI-linked formula, unreadable figure) gives "can't tell".
+// Never suggests a way around a rule.
+
+export type ProposalKind = "rent_increase_pct" | "deposit_months" | "application_fee_usd";
+export type Proposal = { kind: ProposalKind; amount: number };
+export type Verdict = "over_limit" | "within_limit" | "cant_tell" | "no_cap_found";
+
+export type CheckLine = { team_rule_id: string; citation: string; title: string; key_value: string | null; text: string };
+export type CheckResult = {
+  verdict: Verdict;
+  headline: string;
+  blocking: CheckLine[];
+  within: CheckLine[];
+  unsettled: CheckLine[];
+  could_change: CheckLine[];
+  context: CheckLine[];
+  as_of: string;
+};
+
+export const PROPOSAL_CATEGORY: Record<ProposalKind, Category> = {
+  rent_increase_pct: "rent_increase_limits",
+  deposit_months: "security_deposits",
+  application_fee_usd: "application_screening_fees",
+};
+
+export const UNIT: Record<ProposalKind, (n: number) => string> = {
+  rent_increase_pct: (n) => `${n}%`,
+  deposit_months: (n) => (n === 1 ? "1 month's rent" : `${n} months' rent`),
+  application_fee_usd: (n) => `$${n}`,
+};
+
+// Upper bound and CPI dependence read from a rule's headline value.
+export type Bound = { max: number | null; floor: number | null; cpi: boolean };
+
+const WORD_NUM: Record<string, number> = { one: 1, two: 2, three: 3, "one and one-half": 1.5, "one and a half": 1.5, "one-half": 0.5 };
+
+export function readBound(kind: ProposalKind, kv: string | null): Bound | null {
+  if (!kv) return null;
+  const text = kv.replace(/\s+/g, " ");
+  const cpi = /\bCPI\b|consumer price/i.test(text);
+  if (kind === "rent_increase_pct") {
+    const nums: number[] = [];
+    let floor: number | null = null;
+    for (const m of text.matchAll(/(\d+(?:\.\d+)?)\s*%/g)) {
+      const after = text.slice((m.index ?? 0) + m[0].length);
+      if (/^\s*of\b/i.test(after)) continue; // "80% of CPI" is a multiplier, not a cap
+      if (/^\s*(?:additional|surcharge)/i.test(after)) continue;
+      if (/^\s*(?:\+|plus)\s*(?:the\s+)?(?:regional\s+|local\s+)?(?:CPI|change in)/i.test(after)) {
+        floor = Number(m[1]);
+        continue;
+      }
+      nums.push(Number(m[1]));
+    }
+    if (!nums.length) return null;
+    if (nums.length > 1 && !/lesser|lower|max|cap|not (?:to )?exceed/i.test(text)) return null;
+    return { max: Math.min(...nums), floor, cpi };
+  }
+  if (kind === "deposit_months") {
+    const m = text.match(/(\d+(?:\.\d+)?)\s*months?/i) ?? text.match(/\b(one and one-half|one and a half|one-half|one|two|three)\s+months?/i);
+    if (!m) return null;
+    const n = Number.isFinite(Number(m[1])) ? Number(m[1]) : WORD_NUM[m[1].toLowerCase()];
+    return n != null ? { max: n, floor: null, cpi: false } : null;
+  }
+  const m = text.match(/\$\s*(\d+(?:\.\d+)?)/);
+  return m ? { max: Number(m[1]), floor: null, cpi } : null;
+}
+
+const LIMIT_WORDS = /\b(caps?|capped|limits?|limited|maximum|max|not (?:to )?exceed|no more than|allowable)\b/i;
+// Statements that there is no cap ("No state cap", "No local rent control") are context, not limits.
+const NO_CAP = /\bno\b[^.;]{0,30}\b(cap|rent control|limit)|\bbars?\b[^.;]{0,30}rent control|\bprohibit\w*\b[^.;]{0,30}rent control/i;
+
+function line(e: Evaluation, text: string): CheckLine {
+  const r: RuleRecord = e.rule;
+  return { team_rule_id: r.team_rule_id, citation: r.citation, title: r.title, key_value: r.key_value, text };
+}
+
+export function checkProposal(rules: RuleRecord[], b: Building, asOf: string, p: Proposal): CheckResult {
+  const cat = PROPOSAL_CATEGORY[p.kind];
+  const amount = UNIT[p.kind](p.amount);
+  const evals = lookup(rules, b, asOf).filter((e) => e.rule.category === cat);
+  const blocking: CheckLine[] = [];
+  const within: CheckLine[] = [];
+  const unsettled: CheckLine[] = [];
+  const could_change: CheckLine[] = [];
+  const context: CheckLine[] = [];
+  const show = (n: number | null) => (n == null ? "?" : UNIT[p.kind](n));
+
+  for (const e of evals) {
+    if (e.result === "pending" || e.result === "not_yet_effective") {
+      could_change.push(line(e, e.result === "pending" ? "Pending proposal, not law." : `Enacted, takes effect ${e.rule.effective_date ?? "later"}.`));
+      continue;
+    }
+    if (e.result === "superseded") continue; // a stricter local rule governs; it is evaluated on its own
+    const bound = readBound(p.kind, e.rule.key_value);
+    if (!bound && NO_CAP.test(`${e.rule.key_value ?? ""} ${e.rule.title}`)) {
+      context.push(line(e, e.rule.requirement));
+      continue;
+    }
+    if (!bound) {
+      // Only rules that set a limit matter here; notice or procedure rules have no number to compare.
+      // A local rent ordinance that reaches the unit limits increases even when its figure is not in our sources.
+      const localRent = p.kind === "rent_increase_pct" && e.rule.level === "city";
+      if (localRent || LIMIT_WORDS.test(`${e.rule.requirement} ${e.rule.key_value ?? ""}`)) {
+        unsettled.push(line(e, `${e.result === "unknown" ? "May apply here. " : ""}Sets a limit, but the figure is not stated in a form we can compare (${e.rule.key_value ?? "no figure in the source"}).`));
+      }
+      continue;
+    }
+    const over = bound.max != null && p.amount > bound.max;
+    const surelyUnder = bound.cpi ? bound.floor != null && p.amount <= bound.floor : bound.max != null && p.amount <= bound.max;
+    if (e.result === "applies") {
+      if (over) blocking.push(line(e, `Caps this at ${show(bound.max)} here; ${amount} is above it.`));
+      else if (surelyUnder) within.push(line(e, `${amount} is within this limit (${e.rule.key_value}).`));
+      else unsettled.push(line(e, `The limit is ${e.rule.key_value}: it depends on the regional CPI, which is not in our sources, and is never more than ${show(bound.max)}.`));
+    } else if (e.result === "unknown") {
+      const why = e.explanation.match(/Unknown: [^;)]*/)?.[0]?.replace("Unknown: ", "") ?? "a fact the public data does not have";
+      if (surelyUnder) within.push(line(e, `If it covers this unit, ${amount} is within its limit (${e.rule.key_value}).`));
+      else unsettled.push(line(e, `Would cap this at ${show(bound.max)} if it covers the unit; that depends on this: ${why}.`));
+    }
+  }
+
+  let verdict: Verdict;
+  let headline: string;
+  if (blocking.length) {
+    verdict = "over_limit";
+    headline = `No. ${blocking[0].citation} limits this to ${show(readBound(p.kind, blocking[0].key_value)?.max ?? null)} at this address on ${asOf}.`;
+  } else if (unsettled.length) {
+    verdict = "cant_tell";
+    headline = `Can't tell from public data. ${unsettled.length === 1 ? "One rule" : `${unsettled.length} rules`} could limit ${amount}; see what would settle it below.`;
+  } else if (within.length) {
+    verdict = "within_limit";
+    headline = `${amount} is within every limit that could apply to this address on ${asOf}.`;
+  } else {
+    verdict = "no_cap_found";
+    headline = `We found no rule in our sources that limits this at this address on ${asOf}.${context.length ? ` ${context[0].citation}: ${context[0].key_value ?? context[0].title}.` : ""} Other rules, such as notice periods, may still apply.`;
+  }
+  return { verdict, headline, blocking, within, unsettled, could_change, context, as_of: asOf };
+}

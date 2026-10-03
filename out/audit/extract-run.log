@@ -1,0 +1,69 @@
+Extracting from 54 documents with claude-opus-5-5 (effort medium), 5 at a time
+  D003: 1 rule(s)
+  D004: 2 rule(s)
+  D001: 1 rule(s)
+  D005: 3 rule(s)
+  D007: 2 rule(s)
+  D006: 5 rule(s)
+  D008: 1 rule(s)
+  D009: 2 rule(s)
+  D010: 2 rule(s)
+  D011: 2 rule(s)
+  D012: 1 rule(s)
+  D013: 1 rule(s)
+  D014: 1 rule(s)
+  D016: 2 rule(s)
+  D022: 2 rule(s)
+  D023: 1 rule(s)
+  D024: 1 rule(s)
+  D025: 4 rule(s)
+  D026: 3 rule(s)
+  D027: 3 rule(s)
+  D029: 1 rule(s)
+  D031: 0 rule(s)
+  D036: 1 rule(s)
+  D039: 0 rule(s)
+  D040: 4 rule(s)
+  D041: 2 rule(s)
+  D042: 2 rule(s)
+  D043: 3 rule(s)
+  D045: 1 rule(s)
+  D046: 1 rule(s)
+  D047: 1 rule(s)
+  D048: 1 rule(s)
+  D049: 1 rule(s)
+  D050: 1 rule(s)
+  D051: 2 rule(s)
+  D052: 3 rule(s)
+  D053: 0 rule(s)
+  D057: 2 rule(s)
+  D058: 1 rule(s)
+  D065: 3 rule(s)
+  D066: 1 rule(s)
+  D067: 6 rule(s)
+  D068: 1 rule(s)
+  D069: 1 rule(s)
+  D073: 2 rule(s)
+  D076: 1 rule(s)
+  D078: 1 rule(s)
+  D079: 1 rule(s)
+  D080: 1 rule(s)
+  D081: 1 rule(s)
+  D082: 2 rule(s)
+  D083: 3 rule(s)
+  D084: 2 rule(s)
+  D085: 2 rule(s)
+{
+  finished_at: '2026-10-03T17:31:23.236Z',
+  model: 'claude-opus-5-5',
+  effort: 'medium',
+  documents: 54,
+  failed_documents: 0,
+  candidate_rules: 95,
+  rules: 84,
+  unverified_spans: 0,
+  repaired_spans: 0,
+  tokens: { i: 245628, o: 103580, cr: 241864, cw: 24680 },
+  approx_cost_usd_this_run: 3.23,
+  seconds: 861
+}

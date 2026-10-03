@@ -1,0 +1,48 @@
+{
+  "doc_id": "D081",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:30:07.947Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 514,
+    "output": 608,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "San Francisco, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Ban on algorithmic devices to set rents or manage occupancy",
+      "requirement": "Landlords in San Francisco may not use, and vendors may not sell, software that analyzes nonpublic competitor rental data to recommend rents or manage occupancy. If you believe a landlord or vendor is violating this, you (or the City Attorney) can bring a civil lawsuit.",
+      "key_value": null,
+      "coverage": {
+        "summary": "All residential units in San Francisco; the prohibition applies to any entity selling or using algorithmic rent-setting devices.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": "2024-10-14",
+      "penalty": "Tenant or City Attorney may bring a civil action against a violating entity.",
+      "citation": "S.F. Admin. Code § 37.10C",
+      "quoted_span": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.88,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Official Rent Board news summary of Rent Ordinance Section 37.10C (S.F. Admin. Code Chapter 37). Specific civil penalty amounts are not stated in this document."
+}

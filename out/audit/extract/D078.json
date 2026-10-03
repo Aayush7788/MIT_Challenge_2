@@ -1,0 +1,50 @@
+{
+  "doc_id": "D078",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:29:41.425Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 2621,
+    "output": 960,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "San Francisco, CA",
+      "level": "city",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Fair Chance Ordinance – criminal history in affordable housing decisions",
+      "requirement": "If you are applying for affordable housing in San Francisco and have an arrest or conviction history, the Fair Chance Ordinance limits how that history can be used in the housing decision. You can contact the Human Rights Commission to file a complaint.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Affordable housing in San Francisco; the page does not define which buildings or units count as affordable housing.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [
+          "Unit must be affordable housing"
+        ],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "San Francisco Fair Chance Ordinance",
+      "quoted_span": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.55,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Document is the SF Human Rights Commission landing page, not the ordinance text. It only gives a one-line link description of the Fair Chance Ordinance as applied to affordable housing. The page states no code section, operative requirements, timing rules, effective date or penalties. The citation is limited to the ordinance name given on the page. A reviewer should confirm the code citation and details from the ordinance itself."
+}

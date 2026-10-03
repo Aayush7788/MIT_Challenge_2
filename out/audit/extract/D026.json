@@ -1,0 +1,118 @@
+{
+  "doc_id": "D026",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:21:29.727Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 2637,
+    "output": 2711,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "application_screening_fees",
+      "status": "in_force",
+      "title": "Application screening fee cap",
+      "requirement": "A landlord may charge you an application screening fee only up to their actual out-of-pocket screening costs. The fee can never exceed $30 per applicant, a figure the landlord may raise each year with the Consumer Price Index starting January 1, 1998. If the landlord does not run a reference check or credit report, they must return any unused part of the fee.",
+      "key_value": "Actual out-of-pocket costs, max $30 per applicant (CPI-adjusted annually since 1998)",
+      "coverage": {
+        "summary": "All residential rental property in California; applies to applicants and to guarantors or cosigners.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Does not preempt deposit and fee rules of federal or state housing assistance programs"
+        ]
+      },
+      "exemptions": "Not intended to preempt provisions governing deposits and fees under federal or state housing assistance programs.",
+      "effective_date": "2026-01-01",
+      "penalty": null,
+      "citation": "Cal. Civ. Code § 1950.6",
+      "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "application_screening_fees",
+      "status": "in_force",
+      "title": "Conditions for charging a screening fee; refunds",
+      "requirement": "A landlord cannot charge a screening fee if they know or should know that no unit is available now or soon. To charge a fee, the landlord must either consider applications first-come in writing-disclosed order, charging only when your application is actually considered, or refund the full fee to every applicant not selected within 7 days of selecting a tenant or 30 days after you applied, whichever comes first.",
+      "key_value": "Full refund within 7 days of selection or 30 days of application, whichever comes first (or first-come process)",
+      "coverage": {
+        "summary": "All residential rental property in California; applies to applicants and to guarantors or cosigners.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Does not preempt deposit and fee rules of federal or state housing assistance programs"
+        ]
+      },
+      "exemptions": "Under the first-come option, no refund is required for an applicant denied after consideration for failing the screening criteria. Inadvertent fees from concurrent applications must be refunded within 7 days, or applied to another unit at the applicant's choice.",
+      "effective_date": "2026-01-01",
+      "penalty": null,
+      "citation": "Cal. Civ. Code § 1950.6(c)",
+      "quoted_span": "An application screening process in which the landlord or their agent returns the entire screening fee to any applicant who is not selected for tenancy, regardless of the reason, within 7 days of selecting an applicant for tenancy or 30 days of when the application was submitted, whichever occurs first.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "application_screening_fees",
+      "status": "in_force",
+      "title": "Screening fee receipt and credit report copy",
+      "requirement": "The landlord must give you a receipt itemizing the out-of-pocket costs and time spent screening you, delivered in person, by mail, or by email if you agree. If you paid a screening fee, the landlord must give you a copy of your credit report within 7 days of receiving it.",
+      "key_value": "Itemized receipt; credit report copy within 7 days",
+      "coverage": {
+        "summary": "All residential rental property in California; applies to applicants and to guarantors or cosigners.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Does not preempt deposit and fee rules of federal or state housing assistance programs"
+        ]
+      },
+      "exemptions": null,
+      "effective_date": "2026-01-01",
+      "penalty": null,
+      "citation": "Cal. Civ. Code § 1950.6(d), (f)",
+      "quoted_span": "The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant, which receipt shall itemize the out-of-pocket expenses and time spent by the landlord or their agent to obtain and process the information about the applicant.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "The effective date 2026-01-01 is the effective date of the most recent amendment (Stats. 2025, Ch. 67, AB 1170), not the original enactment of the $30 cap. The document does not state the current CPI-adjusted fee amount. The statute states no penalty."
+}

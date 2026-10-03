@@ -1,0 +1,29 @@
+SELF-CHECK (not the official score.py)
+  rules 84 | addresses 500 | as of 2026-10-01
+
+Extraction         20.4 / 25   (27 rules named in the brief)
+    MISSING  MA rent-control ballot question IP 25-21 (struck 2026-06-23)
+    PARTIAL  CA AB 325 / SB 763  [ours: r-0001 in_force None, r-0002 in_force None; brief: in_force 2026-01-01]
+    PARTIAL  San Diego 98.1101-98.1104  [ours: r-0070 pending None; brief: in_force 2025-06]
+    PARTIAL  Berkeley ch. 13.63  [ours: r-0044 in_force None; brief: in_force 2026]
+    MISSING  Santa Ana Ord. NS-3090
+    MISSING  Jersey City 218-12
+    MISSING  Hoboken ch. 158, Art. II
+Address coverage   17.7 / 20   (no silver address key yet; using the brief's invariants)
+    250/250 CA: AB 325 applies on 2026-10-01
+     47/47  LA pre-1978: RSO applies
+    140/140 NJ: FAIR Act shown as not yet effective
+      0/90  Hoboken/JC: own algorithmic ban applies
+    110/110 MA: no rent cap reported (T5, c.40P)
+    110/110 MA: algorithmic bills shown as pending
+     71/71  SF pre-1979: local rent cap applies
+     25/25  LA post-1978: RSO does not apply
+      0/7   SF post-1979: local rent cap does not apply
+Citations          15.0 / 15   (7422/7422 'applies' answers quote their source verbatim)
+Change tracking     7.5 / 15
+    T1: overlap 0.00 (ours 0, expected 250)
+    T2: overlap 0.00 (ours 0, expected 90)
+    T3: overlap 0.50 (ours 140, expected 140)
+    T4: overlap 1.00 (ours 110, expected 110)
+    T5: overlap 1.00 (ours 0, expected 0)
+SCRIPTED TOTAL     60.6 / 75

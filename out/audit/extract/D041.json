@@ -1,0 +1,86 @@
+{
+  "doc_id": "D041",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:23:23.136Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 3924,
+    "output": 3205,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "Los Angeles, CA",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Rent Stabilization Ordinance (RSO) annual allowable rent increase",
+      "requirement": "If your LA unit was first built on or before October 1, 1978, your landlord may raise rent only once every 12 months, by no more than the city's published allowable percentage. Since February 2, 2026, landlords cannot add an extra percentage for utilities or a 10% increase for an added dependent. Increases beyond this, such as for capital improvements, need LAHD approval.",
+      "key_value": "Once every 12 months by the LAHD allowable rent increase percentage; no added utility percentage after 2026-02-02",
+      "coverage": {
+        "summary": "Rental properties in the City of Los Angeles first built on or before October 1, 1978, plus replacement units under LAMC 151.28. Covers apartments, duplexes, two or more single-family dwellings on one parcel, units attached to commercial buildings, ADUs/JADUs, long-term hotel/rooming house rooms, and mobile homes in parks. Condo and townhome rents are not regulated for tenancies that began after December 31, 1995.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": "1978-10-01",
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Condominiums and townhomes: rent not regulated for tenancies commenced after December 31, 1995",
+          "Luxury exemption based on rent charged on or before May 31, 1978",
+          "Temporary exemptions filed with LAHD"
+        ]
+      },
+      "exemptions": "Rent can reset to market after a voluntary move-out, certain at-fault evictions, or a tenant buyout agreement. Condo and townhome rents are unregulated for tenancies starting after 12/31/1995. A luxury exemption is available. LAHD-approved increases are allowed for capital improvements, primary renovation, seismic retrofit, rehabilitation, and just and reasonable return. A 10% increase is allowed for an additional (non-dependent) tenant.",
+      "effective_date": null,
+      "penalty": null,
+      "citation": "Los Angeles Rent Stabilization Ordinance (LAMC Chapter XV; replacement units LAMC § 151.28)",
+      "quoted_span": "Rent may be increased once every 12 months by the allowable rent increase percentage (click here to\nview the allowable rent increase PDF\n). Effective February 2, 2026, the landlord can no longer include an additional percentage increase for utilities.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.75,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "Los Angeles, CA",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "RSO legal reasons for eviction and relocation assistance",
+      "requirement": "In an RSO unit, your landlord can evict only for a listed reason. At-fault reasons include nonpayment, lease violations, nuisance, or illegal use. No-fault reasons include owner or family move-in, a resident manager, demolition, a government order, or conversion to affordable housing. For a no-fault eviction the landlord must file a Declaration of Intent to Evict, give 30- or 60-day notice (sometimes 120 days), and pay relocation assistance. All termination notices must be filed with LAHD within 3 business days.",
+      "key_value": "Listed causes only; relocation assistance for no-fault evictions; notice filed with LAHD within 3 business days",
+      "coverage": {
+        "summary": "Rental units subject to the Los Angeles RSO: generally properties first built on or before October 1, 1978, plus replacement units.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": "1978-10-01",
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Temporary exemptions filed with LAHD"
+        ]
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "LAMC § 151.09 (§ 151.09.C.9; § 165.05.B.5)",
+      "quoted_span": "No-fault evictions require the payment of\nrelocation assistance\n.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "Units not covered by the RSO are covered by the city's separate Just Cause Ordinance.",
+      "confidence": 0.75,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "This is an LAHD overview page, not ordinance text. No rent increase percentage is stated; it is in a linked PDF. The page notes that non-RSO properties fall under the Just Cause Ordinance but gives no details, so no separate record was extracted. Interest on security deposits is mentioned without a rule, so no security deposit record was extracted. The Right to Counsel notice and surcharges are out of scope."
+}

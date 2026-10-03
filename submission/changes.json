@@ -1,0 +1,1300 @@
+{
+ "T1": {
+  "affected_address_ids": [],
+  "conflict_flag_address_ids": [],
+  "notes": "Matched team rules: r-0001 (Cal. Bus. & Prof. Code § 16729(a) (AB 325, Stats. 2025, ch. 338); in_force); r-0002 (Cal. Bus. & Prof. Code § 16729(b) (AB 325, Stats. 2025, ch. 338); in_force). Affected = addresses whose result changes between 2025-12-31 and 2026-01-02. 0 affected, 0 flagged for human review.",
+  "team_rule_ids": [
+   "r-0001",
+   "r-0002"
+  ],
+  "before_after": {}
+ },
+ "T2": {
+  "affected_address_ids": [],
+  "conflict_flag_address_ids": [],
+  "notes": "No extracted rule matches HOB-ALG-01, JC-ALG-01; the source text may be missing from the corpus. 0 affected, 0 flagged for human review.",
+  "team_rule_ids": [],
+  "before_after": {}
+ },
+ "T3": {
+  "affected_address_ids": [
+   "A0002",
+   "A0003",
+   "A0008",
+   "A0011",
+   "A0012",
+   "A0013",
+   "A0017",
+   "A0020",
+   "A0026",
+   "A0028",
+   "A0029",
+   "A0032",
+   "A0040",
+   "A0042",
+   "A0044",
+   "A0047",
+   "A0049",
+   "A0051",
+   "A0057",
+   "A0059",
+   "A0076",
+   "A0078",
+   "A0087",
+   "A0089",
+   "A0090",
+   "A0099",
+   "A0101",
+   "A0102",
+   "A0104",
+   "A0108",
+   "A0110",
+   "A0116",
+   "A0119",
+   "A0120",
+   "A0125",
+   "A0129",
+   "A0130",
+   "A0131",
+   "A0132",
+   "A0136",
+   "A0137",
+   "A0139",
+   "A0146",
+   "A0148",
+   "A0159",
+   "A0160",
+   "A0161",
+   "A0163",
+   "A0168",
+   "A0171",
+   "A0177",
+   "A0181",
+   "A0182",
+   "A0185",
+   "A0186",
+   "A0187",
+   "A0190",
+   "A0204",
+   "A0208",
+   "A0223",
+   "A0227",
+   "A0241",
+   "A0243",
+   "A0244",
+   "A0249",
+   "A0250",
+   "A0254",
+   "A0256",
+   "A0261",
+   "A0264",
+   "A0265",
+   "A0266",
+   "A0269",
+   "A0270",
+   "A0279",
+   "A0287",
+   "A0288",
+   "A0296",
+   "A0297",
+   "A0299",
+   "A0307",
+   "A0308",
+   "A0311",
+   "A0313",
+   "A0320",
+   "A0321",
+   "A0325",
+   "A0326",
+   "A0329",
+   "A0331",
+   "A0337",
+   "A0338",
+   "A0343",
+   "A0344",
+   "A0348",
+   "A0350",
+   "A0352",
+   "A0358",
+   "A0359",
+   "A0360",
+   "A0371",
+   "A0372",
+   "A0377",
+   "A0381",
+   "A0388",
+   "A0389",
+   "A0390",
+   "A0393",
+   "A0394",
+   "A0399",
+   "A0400",
+   "A0404",
+   "A0410",
+   "A0412",
+   "A0415",
+   "A0416",
+   "A0418",
+   "A0424",
+   "A0428",
+   "A0435",
+   "A0436",
+   "A0438",
+   "A0447",
+   "A0448",
+   "A0449",
+   "A0450",
+   "A0455",
+   "A0459",
+   "A0460",
+   "A0462",
+   "A0471",
+   "A0472",
+   "A0475",
+   "A0476",
+   "A0482",
+   "A0489",
+   "A0490",
+   "A0491",
+   "A0495",
+   "A0498"
+  ],
+  "conflict_flag_address_ids": [],
+  "notes": "Matched team rules: r-0032 (N.J.S.A. 56:9-20 to 56:9-26 (P.L. 2026, c.43; A3497 ACS 1R); not_yet_effective, effective 2027-07-01). Affected = addresses whose result changes between 2026-10-01 and 2027-07-02. 140 affected, 0 flagged for human review.",
+  "team_rule_ids": [
+   "r-0032"
+  ],
+  "before_after": {
+   "A0002": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0003": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0008": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0011": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0012": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0013": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0017": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0020": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0026": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0028": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0029": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0032": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0040": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0042": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0044": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0047": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0049": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0051": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0057": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0059": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0076": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0078": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0087": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0089": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0090": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0099": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0101": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0102": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0104": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0108": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0110": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0116": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0119": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0120": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0125": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0129": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0130": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0131": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0132": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0136": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0137": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0139": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0146": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0148": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0159": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0160": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0161": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0163": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0168": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0171": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0177": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0181": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0182": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0185": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0186": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0187": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0190": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0204": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0208": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0223": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0227": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0241": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0243": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0244": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0249": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0250": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0254": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0256": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0261": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0264": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0265": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0266": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0269": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0270": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0279": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0287": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0288": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0296": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0297": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0299": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0307": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0308": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0311": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0313": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0320": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0321": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0325": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0326": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0329": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0331": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0337": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0338": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0343": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0344": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0348": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0350": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0352": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0358": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0359": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0360": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0371": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0372": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0377": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0381": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0388": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0389": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0390": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0393": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0394": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0399": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0400": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0404": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0410": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0412": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0415": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0416": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0418": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0424": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0428": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0435": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0436": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0438": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0447": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0448": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0449": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0450": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0455": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0459": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0460": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0462": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0471": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0472": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0475": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0476": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0482": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0489": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0490": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0491": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0495": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   },
+   "A0498": {
+    "before": "not_yet_effective",
+    "after": "applies"
+   }
+  }
+ },
+ "T4": {
+  "affected_address_ids": [
+   "A0006",
+   "A0009",
+   "A0010",
+   "A0015",
+   "A0024",
+   "A0034",
+   "A0036",
+   "A0039",
+   "A0043",
+   "A0046",
+   "A0048",
+   "A0052",
+   "A0053",
+   "A0054",
+   "A0056",
+   "A0063",
+   "A0064",
+   "A0065",
+   "A0068",
+   "A0070",
+   "A0071",
+   "A0073",
+   "A0075",
+   "A0077",
+   "A0082",
+   "A0083",
+   "A0086",
+   "A0093",
+   "A0095",
+   "A0096",
+   "A0098",
+   "A0118",
+   "A0123",
+   "A0124",
+   "A0128",
+   "A0134",
+   "A0140",
+   "A0143",
+   "A0144",
+   "A0149",
+   "A0151",
+   "A0155",
+   "A0166",
+   "A0169",
+   "A0174",
+   "A0175",
+   "A0176",
+   "A0191",
+   "A0194",
+   "A0195",
+   "A0198",
+   "A0199",
+   "A0203",
+   "A0209",
+   "A0211",
+   "A0214",
+   "A0217",
+   "A0218",
+   "A0220",
+   "A0221",
+   "A0226",
+   "A0230",
+   "A0232",
+   "A0233",
+   "A0242",
+   "A0245",
+   "A0258",
+   "A0272",
+   "A0284",
+   "A0286",
+   "A0290",
+   "A0291",
+   "A0292",
+   "A0294",
+   "A0295",
+   "A0298",
+   "A0300",
+   "A0301",
+   "A0302",
+   "A0306",
+   "A0310",
+   "A0312",
+   "A0332",
+   "A0336",
+   "A0339",
+   "A0342",
+   "A0354",
+   "A0356",
+   "A0361",
+   "A0362",
+   "A0366",
+   "A0376",
+   "A0380",
+   "A0403",
+   "A0406",
+   "A0422",
+   "A0423",
+   "A0429",
+   "A0444",
+   "A0446",
+   "A0453",
+   "A0463",
+   "A0464",
+   "A0465",
+   "A0466",
+   "A0467",
+   "A0468",
+   "A0473",
+   "A0485",
+   "A0488"
+  ],
+  "conflict_flag_address_ids": [],
+  "notes": "Matched team rules: r-0019 (H.5222 (194th General Court; new draft of H.1564); pending); r-0020 (Mass. Senate Bill S.2983 (194th General Court) (new draft of S.994 and S.1016); pending); r-0021 (S.2983 (194th General Court; new draft of S.994 and S.1016); pending). Pending bills, never in force; affected = addresses they would reach if enacted as written. 110 affected, 0 flagged for human review.",
+  "team_rule_ids": [
+   "r-0019",
+   "r-0020",
+   "r-0021"
+  ],
+  "before_after": {
+   "A0006": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0009": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0010": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0015": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0024": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0034": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0036": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0039": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0043": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0046": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0048": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0052": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0053": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0054": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0056": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0063": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0064": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0065": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0068": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0070": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0071": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0073": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0075": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0077": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0082": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0083": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0086": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0093": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0095": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0096": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0098": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0118": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0123": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0124": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0128": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0134": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0140": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0143": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0144": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0149": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0151": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0155": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0166": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0169": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0174": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0175": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0176": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0191": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0194": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0195": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0198": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0199": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0203": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0209": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0211": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0214": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0217": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0218": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0220": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0221": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0226": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0230": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0232": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0233": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0242": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0245": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0258": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0272": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0284": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0286": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0290": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0291": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0292": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0294": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0295": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0298": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0300": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0301": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0302": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0306": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0310": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0312": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0332": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0336": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0339": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0342": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0354": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0356": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0361": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0362": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0366": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0376": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0380": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0403": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0406": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0422": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0423": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0429": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0444": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0446": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0453": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0463": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0464": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0465": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0466": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0467": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0468": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0473": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0485": {
+    "before": null,
+    "after": "applies"
+   },
+   "A0488": {
+    "before": null,
+    "after": "applies"
+   }
+  }
+ },
+ "T5": {
+  "affected_address_ids": [],
+  "conflict_flag_address_ids": [],
+  "notes": "No extracted rule matches MA-RENT-P1; the source text may be missing from the corpus. Struck or failed measures are never reported as in force. 0 affected, 0 flagged for human review.",
+  "team_rule_ids": [],
+  "before_after": {}
+ }
+}

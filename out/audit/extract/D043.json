@@ -1,0 +1,124 @@
+{
+  "doc_id": "D043",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T17:24:33.444Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 13090,
+    "output": 5861,
+    "cache_read": 4936,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "Los Angeles, CA",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Relocation assistance and LAHD filing for no-fault evictions under the RSO and JCO",
+      "requirement": "If your landlord evicts you for a no-fault reason (owner or relative move-in, demolition or removal from rental use, government order to vacate, conversion, and similar), the landlord must first file a Declaration of Intent to Evict with LAHD. The landlord must also pay you relocation assistance per unit within 15 days of serving the notice; the 2026-27 amounts run from $11,000 to $27,400 depending on your tenancy length, income, age, disability or children. If you are not paid, you can raise the non-payment as a defense to the eviction and file a complaint with LAHD.",
+      "key_value": "Eligible: $11,000 (<3 yrs) / $14,400 (3+ yrs or low income); Qualified: $23,150 / $27,400; Mom & Pop owner-move-in: $10,550 / $21,250; JCO single-family home owned by natural person: 1 month's rent (July 1, 2026–June 30, 2027)",
+      "coverage": {
+        "summary": "Units covered by the Los Angeles Rent Stabilization Ordinance (RSO) or the Just Cause Ordinance (JCO). Relocation is also required for demolition or conversion to condominiums, hotels, or commercial use regardless of RSO/JCO status (LAMC 47.06 & 47.07). Mom & Pop landlords may pay reduced amounts for owner or relative move-ins in buildings of four or fewer units. Single-family homes under the JCO owned by a natural person with no more than four units plus one single-family home pay one month's rent.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": 4,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Single-family dwellings under the JCO owned by natural persons (reduced to one month's rent)",
+          "Replacing one resident manager with another",
+          "Evictions required by natural-disaster hazardous conditions not caused by the landlord",
+          "Residential hotel units (separate rules)"
+        ]
+      },
+      "exemptions": "No relocation is owed when a resident manager is replaced by another resident manager, unless the manager is a tenant receiving free or reduced rent with no other compensation. No relocation is owed for evictions required by natural-disaster hazards not caused by landlord negligence. A landlord may offset accumulated unpaid rent against relocation assistance, except where the payment is owed because of a government order to vacate or an unpermitted dwelling. Mom & Pop reduced amounts apply only to owner or relative move-ins where all four conditions are met: the building has 4 or fewer units; the provision was not used in the prior 3 years; the landlord owns no more than 4 units plus a single-family home in the City; and the relative owns no residential property in the City.",
+      "effective_date": "2026-07-01",
+      "penalty": "Failure to file the Landlord Declaration with LAHD makes the eviction a violation of the RSO or JCO. Non-payment of relocation assistance is an affirmative defense to eviction, and the tenant has a private right of action.",
+      "citation": "LAMC § 151.09.G (RSO); LAMC § 165.06 (JCO) (see also LAMC §§ 151.09.A, 165.03, 151.30, 47.06-47.07; RAC Regulations § 960.00)",
+      "quoted_span": "All tenant not- at-fault evictions require payment of relocation assistance and the filing of a \nDeclaration of Intent to Evict form with the Los Angeles Housing Department (LAHD) before \nevicting tenants from units covered by the Rent Stabilization Ordinance (RSO) or the Just Cause \nOrdinance (JCO).",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "For demolition of a Protected Unit for new construction with lower-income tenants, the higher of the State Housing Crisis Act or City RPO amounts applies. The RSO/JCO amounts are the minimum.",
+      "confidence": 0.82,
+      "conflict_flag": true,
+      "conflict_note": "Bulletin A says a copy of the termination notice must be filed with LAHD no later than 3 days after service, while Bulletin B says within 3 business days. The fee chart in Bulletin B is labeled effective July 1, 2025 to June 30, 2026, while Bulletin A labels the same fees July 1, 2026 to June 30, 2027."
+    },
+    {
+      "jurisdiction": "Los Angeles, CA",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Resident Protections Ordinance relocation for demolition of Protected Units for new construction",
+      "requirement": "If your unit is a Protected Unit (this includes all RSO units) and is being demolished for new construction, you are entitled to at least the RSO/JCO relocation amount. If your household is lower income, you get the higher RPO or state amounts, up to $115,480 for extremely low income households under the City's standardized option. RPO protections also include a 6-month notice, a right to stay until 6 months before construction starts, a right to return if demolition does not proceed, and for some tenants a right of first refusal in the new building.",
+      "key_value": "RPO standardized payments: Extremely Low $115,480; Very Low $96,750; Low $87,450; above low income gets RSO/JCO Chart A amounts (July 1, 2026–June 30, 2027)",
+      "coverage": {
+        "summary": "Protected Units demolished for new construction within 5 years after the Notice of Intent to Withdraw or Declaration of Intent to Evict is filed. Protected Units are: units under an affordability covenant within the past 5 years; units under rent control within the past 5 years (all RSO units); units rented by lower or very low income households within the past 5 years; and units withdrawn under the Ellis Act within the past 10 years. Enhanced payments go only to lower-income (80% AMI or lower) households.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [
+          "Whether a non-RSO unit is a Protected Unit (affordability covenant, occupancy by lower-income households within 5 years, or Ellis withdrawal within 10 years)",
+          "Whether the unit is being demolished for new construction",
+          "Tenant household income (80% AMI or lower) for enhanced payments"
+        ],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": "Regular RSO/JCO relocation rules apply if the units to be demolished are not Protected Units or are not occupied by a lower-income tenant.",
+      "effective_date": "2025-02-11",
+      "penalty": "Financial penalties starting at $250,000 per displaced unit, and withholding of LAHD permit clearances.",
+      "citation": "Ord. No. 188481 and Ord. No. 188482 (Resident Protections Ordinance); LAMC § 165.03.I(1); LAMC §§ 151.22-151.28",
+      "quoted_span": "Owners who demolish a Protected Unit for the purpose of new construction within 5 years after the \nfiling of the Notice of Intent to Withdraw or Declaration of Intent to Evict with LAHD are required to \ncomply with relocation requirements under the RPO. Failure to comply with the RPO may result in \nfinancial penalties starting at $250,000 per displaced unit and withholding of LAHD permit clearances.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "Codifies and expands the State Housing Crisis Act (Gov. Code § 66300 et seq.). The owner must pay the highest of the applicable State and City amounts.",
+      "confidence": 0.75,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Housing Crisis Act relocation for lower-income households displaced by demolition for new construction",
+      "requirement": "If you are a lower-income household (80% AMI or lower) displaced because your protected unit is demolished and replaced with new construction, you are entitled to relocation benefits equal to those public agencies must pay under Gov. Code § 7260 et seq.",
+      "key_value": "Relocation consistent with Gov. Code § 7260 et seq. public-entity relocation benefits",
+      "coverage": {
+        "summary": "Lower-income households (80% AMI or lower) displaced by demolition of protected units for new construction.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [
+          "Whether the unit is a protected unit being demolished for new construction",
+          "Tenant household income (80% AMI or lower)"
+        ],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "Cal. Gov. Code § 66300.6(b)(4)(A) (Housing Crisis Act of 2019, SB 330, as amended by SB 8 and AB 1218)",
+      "quoted_span": "The City’s Resident Protections Ordinance (RPO) and the\nState’s Housing Crisis Act (HCA) require that ONLY lower income households (80%  AMI or\nlower) being displaced for demolition of their units where the owner will replace the units\nwith new construction receive relocation payment consistent to the relocation benefits\nrequired to be paid by public entities under Chapter 16 (commencing with Section 7260) of\nDivision 7 of Title 1 (Government Code 66300.6(b)(4)(A)).",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "In Los Angeles, owners pay the higher of the HCA or City (RSO/JCO/RPO) amounts. The RSO/JCO amounts must be enhanced for lower-income tenants under the HCA even where the RPO does not apply.",
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "The source is a city LAHD bulletin summarizing LA relocation-assistance rules, so its rules were categorized as just_cause_eviction (relocation component). The state HCA rule was extracted from the city's summary only; verify against the statute. LAHD administrative fees ($623/$1002/$86, etc.) are landlord filing fees, not tenant application screening fees, so they were not extracted. The 2026 HUD income limits were not extracted as separate rules."
+}
