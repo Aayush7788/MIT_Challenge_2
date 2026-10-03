@@ -1,0 +1,50 @@
+{
+  "doc_id": "D087",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T21:03:05.512Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 1716,
+    "output": 1544,
+    "cache_read": 5186,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "Santa Ana, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "pending",
+      "title": "Ban on anticompetitive algorithmic rent-setting software",
+      "requirement": "Landlords in Santa Ana may not use, and vendors may not sell, license or provide, rent-setting software that sets rents using nonpublic competitor data such as real-time rents, lease renewals and occupancy levels. A tenant affected by a violation can sue for an injunction, damages or civil penalties of up to $1,000 per violation plus attorney's fees, and only needs to prove the landlord used the prohibited technology, not that there was collusion.",
+      "key_value": "civil penalties up to $1,000 per violation",
+      "coverage": {
+        "summary": "All residential rental property within Santa Ana city limits. Pricing software that relies solely on publicly available data or aggregate historical data, and tools used to comply with affordable housing program requirements, are not covered.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Tools used to comply with affordable housing program requirements"
+        ]
+      },
+      "exemptions": "Does not apply to pricing software that relies solely on publicly available data, aggregate historical data, or tools used to comply with affordable housing program requirements.",
+      "effective_date": null,
+      "penalty": "Tenant private right of action for injunctive relief, damages, or civil penalties of up to $1,000 per violation, plus attorney's fees.",
+      "citation": "Santa Ana algorithmic rent-setting software ordinance (ordinance number not stated; first reading Feb. 17, 2026)",
+      "quoted_span": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3, prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "The city states the ordinance is structured to operate alongside existing and proposed state antitrust laws while providing stronger local protections.",
+      "confidence": 0.5,
+      "conflict_flag": true,
+      "conflict_note": "The press release (Feb. 20, 2026) reports only first-reading approval with a final vote set for March 3, 2026; it does not confirm final adoption or give an effective date or ordinance number. The capture note calls it an 'adopted ordinance'. If finally adopted on March 3, 2026 it would likely be in force by 2026-10-01; verify the adoption, ordinance number and effective date."
+    }
+  ],
+  "notes": "Source is a city press release, not the ordinance text. Status was set to pending because the document only confirms first reading; reviewer should confirm the March 3, 2026 final vote and the effective date. The press release mentions the city's existing rent stabilization and eviction protections but states no specific rules for them, so no records were extracted for those."
+}

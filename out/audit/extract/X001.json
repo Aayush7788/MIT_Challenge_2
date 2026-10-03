@@ -1,0 +1,48 @@
+{
+  "doc_id": "X001",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T21:03:13.982Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 1177,
+    "output": 718,
+    "cache_read": 5186,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Ban on using or distributing a common pricing algorithm to restrain trade or coerce adoption of recommended prices",
+      "requirement": "In California it is unlawful for a landlord or software vendor to use or distribute a common pricing algorithm (software used by two or more persons that uses competitor data to recommend or set prices or terms) as part of a conspiracy to restrain trade, or to coerce others into adopting its recommended price or terms. If you suspect coordinated algorithmic rent-setting, you can report it to the Attorney General or consult a lawyer about antitrust remedies.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Applies statewide to any person who uses or distributes a common pricing algorithm; covers all rental units in California (and other products and services).",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": "\"Person\" does not include the end consumer of a product or service.",
+      "effective_date": "2026-01-01",
+      "penalty": null,
+      "citation": "Cal. Bus. & Prof. Code § 16729 (AB 325, Stats. 2025, Ch. 338)",
+      "quoted_span": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.88,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Single section with subdivisions (a) and (b) recorded as one rule. Penalties are not stated in this section (they come from the Cartwright Act generally). Effective date taken from the code history note."
+}

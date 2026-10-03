@@ -1,0 +1,82 @@
+{
+  "doc_id": "D059",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T21:02:09.509Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 2610,
+    "output": 1876,
+    "cache_read": 5186,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "rent_increase_limits",
+      "status": "failed",
+      "title": "Statewide rent control initiative petition removed from November 2026 ballot",
+      "requirement": "The proposed statewide rent control ballot question is not law: the Supreme Judicial Court removed it from the November 2026 ballot, so it creates no rent cap. Do not rely on it to limit your rent increase.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Would have applied statewide; per the AG summary it would not have applied to units operated for educational, religious, or non-profit purposes. It never took effect.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "units operated for educational, religious, or non-profit purposes"
+        ]
+      },
+      "exemptions": "Would not have applied to units operated for educational, religious, or non-profit purposes.",
+      "effective_date": null,
+      "penalty": null,
+      "citation": "Massachusetts statewide rent control initiative petition (Cella v. Attorney General, SJC-13893)",
+      "quoted_span": "The Supreme Judicial Court ruled Tuesday morning that the initiative petition seeking to impose statewide rent control “impermissibly” relates to religion and religious institutions, which are among the matters the state Constitution sets as out of bounds from the initiative petition process.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "Would have repealed the state's ban on rent control; disqualified by the SJC on June 23, 2026.",
+      "confidence": 0.8,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Statewide ban on rent control",
+      "requirement": "Massachusetts law has banned rent control for about three decades, so cities and towns cannot cap your rent; the effort to repeal the ban was removed from the 2026 ballot.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Statewide ban on rent control; the article gives no further coverage details.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "Massachusetts statewide rent control ban (citation not stated in source)",
+      "quoted_span": "Massachusetts voters will not have the opportunity to repeal the state’s three-decade ban on rent control on November’s ballot.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": true,
+      "interaction": "The state ban forbids local rent control ordinances.",
+      "confidence": 0.6,
+      "conflict_flag": true,
+      "conflict_note": "News report mentions the ban without a citation or details; verify against the statute."
+    }
+  ],
+  "notes": "Secondary news report (State House News Service via WGBH, June 23, 2026) on Cella v. Attorney General, SJC-13893. The initiative petition number is not stated in the document, so the petition is cited by description and case name. The state rent control ban is mentioned only in passing with no citation; it needs verification against the statute."
+}

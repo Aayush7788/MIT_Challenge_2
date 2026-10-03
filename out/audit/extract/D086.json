@@ -1,0 +1,48 @@
+{
+  "doc_id": "D086",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T21:04:32.766Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 3663,
+    "output": 1210,
+    "cache_read": 0,
+    "cache_write": 5289
+  },
+  "rules": [
+    {
+      "jurisdiction": "Santa Ana, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Ban on certain algorithmic rent-setting software",
+      "requirement": "Santa Ana landlords may not use rent-setting software that relies on nonpublic market data, such as real-time rents, lease activity or occupancy, to set rents. If a landlord used such software, you can sue by showing it was used, without proving collusion.",
+      "key_value": "up to $1,000 per violation, plus damages, injunctive relief and attorney's fees",
+      "coverage": {
+        "summary": "All residential rental housing in Santa Ana. Tools that rely on publicly available data, historical trends, or are used for affordable housing compliance are not restricted.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": "Does not restrict tools that rely on publicly available data or historical trends, or tools used for affordable housing compliance.",
+      "effective_date": null,
+      "penalty": "Tenant civil action for damages, injunctive relief, up to $1,000 per violation, and attorney's fees.",
+      "citation": "Santa Ana algorithmic rent-setting ordinance (adopted March 3, 2026; ordinance number not stated)",
+      "quoted_span": "The Santa Ana City Council has adopted a new ordinance to strengthen renter protections by limiting the use of certain rent-setting software for residential properties.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "The newsletter describes the ordinance as complementing broader state-level protections.",
+      "confidence": 0.7,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Source is an official city newsletter summarizing the ordinance; it gives the approval date (March 3, 2026) but no effective date or ordinance/code number. Status is set to in_force on the assumption that it took effect well before 2026-10-01; confirm against the ordinance text. Other references to the Rent Stabilization and Just Cause Eviction Ordinance contain no specific rules, so none were extracted."
+}

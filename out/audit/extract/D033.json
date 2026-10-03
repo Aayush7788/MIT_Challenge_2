@@ -1,0 +1,52 @@
+{
+  "doc_id": "D033",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T21:01:39.298Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 3069,
+    "output": 1458,
+    "cache_read": 0,
+    "cache_write": 5186
+  },
+  "rules": [
+    {
+      "jurisdiction": "Hoboken, NJ",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Hoboken rent control: annual registration and proof of rent required for allowable rent increases",
+      "requirement": "Most Hoboken rental units, including many condos, are under rent control, and landlords must register them with the Rent Leveling and Stabilization Office by June 30 each year. A landlord who fails to register or to give proof of rent received can be denied a rent increase, so a tenant can check registration status and appeal through that office.",
+      "key_value": null,
+      "coverage": {
+        "summary": "The majority of Hoboken residential rental properties, including many condominium units. Federally funded housing, certain new construction and commercial properties may be exempt under Chapter 155; the page does not give the new-construction cutoff.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Federally funded housing",
+          "Certain new construction (criteria not stated)",
+          "Commercial properties"
+        ]
+      },
+      "exemptions": "Federally funded housing, certain new construction, and commercial properties may be exempt under Municipal Code Chapter 155.",
+      "effective_date": null,
+      "penalty": "Unregistered properties may face increased registration fees and may forfeit eligibility for future rent increases. If proof of rent is inadequate, a requested increase must be denied, with 30 days to cure after notice.",
+      "citation": "Hoboken Mun. Code ch. 155",
+      "quoted_span": "If adequate proof is not provided, the Rent Regulation Officer is required under law to deny any requested rent increase and provide written notice outlining the reason for denial. Property owners will have 30 days to fix any deficiencies in their registration once they are notified.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.55,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "This is a city news release (dated June 30, 2026) about a rent control education campaign, not the ordinance text. It confirms that Chapter 155 rent control covers most Hoboken rentals and ties allowable increases (CPI adjustments, vacancy decontrol) to annual registration and proof of rent. It does not state the rent increase cap or formula, the new-construction exemption cutoff, or an effective date, so key_value and the coverage cutoffs are null. Use the ordinance text (ecode360, D032) for the cap. The page has internal date inconsistencies: it was published June 30 but mentions an 'upcoming June 30' deadline and a June 29 webinar. No just-cause, deposit, fee, screening or algorithmic rules are stated."
+}

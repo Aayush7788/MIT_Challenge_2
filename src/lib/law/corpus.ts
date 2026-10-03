@@ -85,7 +85,7 @@ function loadExtra(manifest: Record<string, string>[], have: Set<string>): Corpu
       doc_id,
       jurisdictions: header("JURISDICTION") ?? m?.jurisdictions ?? "",
       url: header("SOURCE") ?? m?.url ?? "",
-      source_type: "official text captured by the team (not in the starter pack)",
+      source_type: header("TYPE") ?? "official text captured by the team (not in the starter pack)",
       retrieved_at: header("RETRIEVED"),
       text,
     });

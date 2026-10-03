@@ -1,0 +1,50 @@
+{
+  "doc_id": "D075",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T21:02:48.836Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 2858,
+    "output": 1729,
+    "cache_read": 5186,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "San Diego, CA",
+      "level": "city",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Prohibition of discrimination based on a tenant's source of income (including housing vouchers and rental assistance)",
+      "requirement": "A San Diego landlord may not refuse to rent or renew, end a tenancy, falsely say a unit is unavailable, or advertise a preference based on your source of income, which includes Section 8 and other rental, deposit, or homeless assistance. Any income standard must count all of your income, including assistance, plus the combined income of co-tenants and cosigners.",
+      "key_value": "Damages of 3x one month's rent per violation",
+      "coverage": {
+        "summary": "All rental units in the City of San Diego, except tenancies where the owner or a family member lives in the same building and shares a bathroom or kitchen with the tenant.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Owner or owner's family member lives in the same building and shares a bathroom or kitchen with the tenant"
+        ]
+      },
+      "exemptions": "Does not apply where the owner or a family member resides in the same residential building and shares a bathroom or kitchen with the tenant; conduct necessary to comply with program requirements related to source of income is allowed; landlords may still reject applicants for other lawful reasons.",
+      "effective_date": "2018-10-18",
+      "penalty": "Private court action within one year of discovery for violations on or after August 1, 2019; injunction; mandatory award of three times one month's rent (charged rent if during tenancy, advertised rent if before tenancy); punitive damages, attorneys' fees and costs; City enforcement under Chapter 1.",
+      "citation": "San Diego Mun. Code § 98.0803 (O-20986 N.S.; §§ 98.0801-98.0806)",
+      "quoted_span": "(a) It is unlawful for any person to do any of the following acts, wholly or in part, based on a person’s source of income  (except as may be necessary to comply with any program requirements related to source of income ):",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "Defines source of income more broadly than the California Fair Employment and Housing Act, explicitly including rental assistance and subsidies from federal, state, local, or nonprofit programs; does not limit rights under other housing discrimination laws.",
+      "confidence": 0.88,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Division took effect 10-18-2018, but the private right of action in § 98.0806(a) only covers violations occurring on or after August 1, 2019. The quoted span normalizes PDF line breaks to single spaces. Owner-occupied shared-facility exemption has no unit-count limit stated, so owner_based_exemption_max_units is null."
+}

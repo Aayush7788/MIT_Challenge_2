@@ -1,0 +1,48 @@
+{
+  "doc_id": "D070",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T21:02:18.078Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 2741,
+    "output": 811,
+    "cache_read": 5186,
+    "cache_write": 0
+  },
+  "rules": [
+    {
+      "jurisdiction": "Newark, NJ",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Newark rent control annual increase cap (max 4%)",
+      "requirement": "In Newark rent-controlled units, rent may not rise more than the allowed percentage in any 12-month period, and never more than 4%, even if tenants or owners change. No increase is allowed if the building is not in substantial compliance or the landlord has not registered the unit, so check the registration with the Office of Rent Control.",
+      "key_value": "max 4% per 12 months",
+      "coverage": {
+        "summary": "Certain residential rental units in Newark subject to the Municipal Rent Control Ordinance; this page does not state the coverage thresholds or exemptions.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": "Not stated on this page.",
+      "effective_date": "2017-09-05",
+      "penalty": "Allowable annual increase not permitted if the dwelling is not in substantial compliance or the landlord has not met the registration requirements (§ 19:2-9.8).",
+      "citation": "Newark Mun. Code § 19:2-3 (Ord. 6 PSF-A(S), 9-5-17)",
+      "quoted_span": "In no case shall the allowable rent increase exceed 4%. The allowable annual increase will not be permitted, if the dwelling is not in substantial compliance and/or if the landlord has not met the registration requirements as specified in this subsection 19:2-9.8.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.75,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Official city page quoting Newark Mun. Code 19:2-3.1. The page does not state the full increase formula, coverage thresholds, or exemptions. The 1.3% figure is an example for January 2015 only. Effective date taken from the 9-5-17 ordinance amendment. The 2020 rent-increase moratorium (MEO-20-0004) was rescinded on September 18, 2023, so it was not extracted as an in-force rule."
+}

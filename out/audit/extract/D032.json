@@ -1,0 +1,88 @@
+{
+  "doc_id": "D032",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T21:01:52.097Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 23268,
+    "output": 2973,
+    "cache_read": 0,
+    "cache_write": 5186
+  },
+  "rules": [
+    {
+      "jurisdiction": "Hoboken, NJ",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Hoboken rent control: annual increase capped at lesser of 5% or CPI",
+      "requirement": "In a rent-controlled Hoboken unit, your landlord can raise rent only when your lease ends, once in any 12 months, by no more than 5% or the CPI change, whichever is less. The landlord must give 30 days' written notice with reasons and a certificate of substantial code compliance; increases above the legal amount are void and must be refunded, subject to a two-year limit.",
+      "key_value": "lesser of 5% or CPI change, once per 12 months",
+      "coverage": {
+        "summary": "All rental dwelling units in Hoboken, with some exemptions. Exempt: hotels and motels; newly constructed dwellings for their first rental; school-owned student housing; government-owned housing; buildings completely vacant since January 1, 1984 for their first rental; and multiple dwellings built after June 25, 1987 that complied with N.J.S.A. 2A:42-84.1 notice rules, for up to 30 years or the initial mortgage amortization period, whichever is less.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "motels and hotels",
+          "school-owned student housing",
+          "housing owned and operated by government agencies",
+          "units under a preemptive government-agency rent contract",
+          "newly constructed dwellings for their first rental",
+          "buildings vacant since 1-1-1984 for their first rental",
+          "post-June 25, 1987 multiple dwellings that complied with N.J.S.A. 2A:42-84.1 (up to 30 years)"
+        ]
+      },
+      "exemptions": "Hotels and motels; first rental of newly constructed dwellings; student housing; government housing; buildings vacant since 1/1/1984 for their first rental; post-6/25/1987 multiple dwellings exempt under N.J.S.A. 2A:42-84.1 for up to 30 years; vacancy decontrol on voluntary vacancy (capped at 25%); condo/co-op owner-occupant initial rental decontrol.",
+      "effective_date": null,
+      "penalty": "Excess rents are void and must be refunded or credited, subject to a two-year limit. Violations carry a fine not to exceed $3,000 per dwelling unit (§ 155-21).",
+      "citation": "Hoboken Code § 155-5 (Ord. No. C329, as amended by Ord. No. B-532)",
+      "quoted_span": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "The post-1987 new-construction exemption applies in accordance with state law, N.J.S.A. 2A:42-84.1.",
+      "confidence": 0.7,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "Hoboken, NJ",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Hoboken vacancy decontrol capped at 25%",
+      "requirement": "When a tenant voluntarily leaves a registered rent-controlled unit, the landlord may raise the new tenant's first rent by at most 25% over the prior rent, and only once in any three-year period. Later increases are again controlled.",
+      "key_value": "25% over last rent on vacancy; once per 3 years",
+      "coverage": {
+        "summary": "Registered rent-controlled units in Hoboken after a voluntary vacancy or a lawful eviction (not a holdover eviction).",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": false,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": []
+      },
+      "exemptions": "Not available if the tenant vacated because of harassment or duress, or after a holdover court order.",
+      "effective_date": null,
+      "penalty": "The Board may rescind the decontrol and revert the rent. Fine up to $3,000 per dwelling unit (§ 155-21).",
+      "citation": "Hoboken Code § 155-31 (§§ 155-32, 155-34)",
+      "quoted_span": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential apartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions of this chapter for the new tenant's initial rental; provided, however, that said rental shall be limited to an increase of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit, exclusive of any capital improvement surcharge that is a component of said last rental.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.65,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Third-party mirror (downloaded from ecode360 in February 2024). It may not reflect amendments after 2024; verify against the official code. The COVID-19 rent and deposit moratorium (§ 155-38) expired May 7, 2022 and was not extracted. The just-cause definition only references state law (N.J.S.A. 2A:18-53), so no separate just-cause rule was extracted. Effective date left null because the document gives only the 1984 adoption date and amendment dates. The post-6/25/1987 new-construction exemption depends on compliance with the state notice requirements, so it was not encoded as a date cutoff."
+}

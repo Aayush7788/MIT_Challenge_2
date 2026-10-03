@@ -136,6 +136,8 @@ export type RuleRecord = {
   yields_to_local_rule: boolean;
   may_preempt_local_rules: boolean;
   coverage_note?: string | null; // set when coverage was filled from a sibling record
+  source_type?: string; // manifest source type; "secondary ..." for news, law-firm pages and mirrors
+  consolidation_note?: string | null; // set when the record took a date from, or absorbed, another record
 };
 
 export type Address = {

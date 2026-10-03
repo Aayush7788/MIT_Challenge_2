@@ -47,10 +47,10 @@ Scope: rental housing rules in exactly six categories.
 Instructions
 1. Return one record per distinct rule this document states, as its own enacted text, a bill, a ballot measure, or an official summary of the governing law. Cite the underlying law, not the web page. Return an empty list if the document has no rule in scope. Never invent a rule, number, date or citation that the document does not state.
 2. jurisdiction: "CA", "NJ" or "MA" for state law (level "state"); "City, ST" for a city rule (level "city"), e.g. "Berkeley, CA". Use the plain city name, e.g. "San Francisco, CA" for the City and County of San Francisco.
-3. status as of the query date ${QUERY_DATE}: "in_force" if enacted and effective on or before that date; "not_yet_effective" if enacted with a later effective date; "pending" for bills, proposals and measures not yet adopted; "failed" for measures that were struck, defeated, vetoed or withdrawn.
-4. effective_date: YYYY-MM-DD when the document states it. If the document gives two different effective dates, use the one in the operative text and set conflict_flag with a conflict_note naming both.
+3. status as of the query date ${QUERY_DATE}: "in_force" if enacted and effective on or before that date; "not_yet_effective" if enacted with a later effective date; "pending" for bills, proposals and measures not yet adopted; "failed" for measures that were struck, defeated, vetoed or withdrawn. A ballot measure a court removed from the ballot is "failed": record it under the jurisdiction it would have covered (the state, for a statewide question), cite it by its number (e.g. "Initiative Petition 25-21") and state in the requirement that it is not law.
+4. effective_date: YYYY-MM-DD when the document states it, including code history notes ("Effective January 1, 2026", "effective 6-21-2025"). An ordinance that takes effect "immediately upon passage" takes its final adoption date when the document states it. If the document gives two different effective dates, use the one in the operative text and set conflict_flag with a conflict_note naming both.
 5. quoted_span: copy one to three contiguous sentences character for character from this document, at least 20 characters, containing the operative requirement (the cap, the number, the prohibition). Do not paraphrase, shorten with ellipses, or merge separate passages.
-6. citation: put the primary official citation first: the code section if the rule is codified, otherwise the ordinance, session-law or bill number. Add alternates in parentheses. Examples: "Cal. Civ. Code § 1950.5", "S.F. Admin. Code § 37.3", "N.J.S.A. 46:8-21.2", "M.G.L. c. 186 § 15B", or the ordinance or bill number ("Ord. No. 1234", "A.123") when there is no code section.
+6. citation: put the primary official citation first: the code section if the rule is codified, otherwise the ordinance, session-law or bill number. Add alternates in parentheses. Examples: "Cal. Civ. Code § 1950.5", "Cal. Bus. & Prof. Code § 16729", "S.F. Admin. Code § 37.3", "Hoboken Code § 158-2", "Jersey City Code § 218-12", "Newark Mun. Code § 19:2-3", "San Diego Mun. Code § 98.1103", "N.J.S.A. 46:8-21.2", "M.G.L. c. 186 § 15B", or the ordinance or bill number ("Ord. No. 1234", "A.123") when there is no code section.
 7. coverage: fill the structured fields only from what the text states.
    - Cutoffs on construction or first certificate of occupancy go in built_on_or_before / built_after as YYYY-MM-DD; set cutoff_uses_certificate_of_occupancy when the cutoff is a certificate of occupancy date.
    - A rolling new-construction exemption ("units first occupied within the last N years") goes in exempt_if_newer_than_years.
@@ -58,7 +58,8 @@ Instructions
    - required_facts_not_in_data is only for rules whose coverage is limited to a subset that parcel data cannot identify (for example, a rule that covers only affordable housing). Keep it empty for broad rules with exceptions; put narrow exceptions (subsidized housing, dormitories, mobilehomes, individually owned single-family homes or condos) in minor_exemptions_not_in_data instead. A rule that prohibits conduct (such as using pricing software) covers every unit in its jurisdiction; whether a landlord engages in that conduct is not a coverage fact.
 8. yields_to_local_rule: true for a state rule that, by its terms, does not govern units covered by a stricter local rule. may_preempt_local_rules: true for a state rule that preempts or may conflict with local ordinances in the same category; explain in interaction and set conflict_flag.
 9. requirement: one or two plain-language sentences a renter could act on. key_value: the headline number or formula, or null.
-10. confidence: your honest probability that the record is correct. Lower it when the text is ambiguous or incomplete.`;
+10. A document that says which units a rent-increase limit covers or exempts (for example, "units first certified for occupancy after June 13, 1979 are exempt from the rent increase limitations") states that limit's coverage: also return a rent_increase_limits record carrying those cutoffs, even when the page is mainly about another category.
+11. confidence: your honest probability that the record is correct. Lower it when the text is ambiguous or incomplete, or when the document is a news report or a third-party copy of the law.`;
 
 function userMessage(doc: CorpusDoc): string {
   return [
@@ -226,6 +227,7 @@ async function main() {
         penalty: rule.penalty,
         yields_to_local_rule: rule.yields_to_local_rule,
         may_preempt_local_rules: rule.may_preempt_local_rules,
+        source_type: doc.source_type,
         official: !doc.source_type.startsWith("secondary"),
         jurisdiction_matches_doc: doc.jurisdictions.includes(jurisdiction),
       });
@@ -242,6 +244,33 @@ async function main() {
   }
   const kept = [...groups.values()].map((g) => {
     const best = [...g].sort((a, b) => rank(b) - rank(a))[0];
+    // Same law stated in several documents: fill what the kept record leaves empty
+    // (coverage cutoffs, effective date, headline figure) from the others.
+    const filledFrom = new Set<string>();
+    for (const c of g) {
+      if (c === best) continue;
+      const bc = best.coverage_conditions;
+      const cc = c.coverage_conditions;
+      for (const k of ["min_units", "max_units", "built_on_or_before", "built_after", "exempt_if_newer_than_years", "owner_based_exemption_max_units"] as const) {
+        if (bc[k] == null && cc[k] != null) {
+          (bc as Record<string, unknown>)[k] = cc[k];
+          if ((k === "built_on_or_before" || k === "built_after") && cc.cutoff_uses_certificate_of_occupancy) bc.cutoff_uses_certificate_of_occupancy = true;
+          filledFrom.add(c.source_doc_id);
+        }
+      }
+      if (!best.effective_date && c.effective_date) {
+        best.effective_date = c.effective_date;
+        filledFrom.add(c.source_doc_id);
+      }
+      if (!best.key_value && c.key_value) {
+        best.key_value = c.key_value;
+        filledFrom.add(c.source_doc_id);
+      }
+    }
+    if (filledFrom.size) {
+      const note = `Fields filled from ${[...filledFrom].join(", ")}, which state the same law.`;
+      best.consolidation_note = best.consolidation_note ? `${best.consolidation_note} ${note}` : note;
+    }
     const statuses = new Set(g.map((c) => c.status));
     const dates = new Set(g.map((c) => c.effective_date).filter(Boolean));
     if (statuses.size > 1 || dates.size > 1) {
