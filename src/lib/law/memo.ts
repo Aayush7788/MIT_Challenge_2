@@ -63,7 +63,10 @@ function trust(e: Evaluation, facts: FactSheet): { level: MemoItem["confidence_l
   const low: string[] = [];
   const mid: string[] = [];
   if (e.result === "unknown") low.push("coverage depends on a fact the public data does not have");
-  if (e.conflict_flag) low.push("flagged for human review");
+  // A possible preemption can change whether the rule applies at all; other flags
+  // (sources differ on a date or a detail) are shown but weigh less.
+  if (e.conflict_flag && /Flag for review: (may preempt|possible conflict)/.test(e.explanation)) low.push("a state law may preempt the local rule; flagged for human review");
+  else if (e.conflict_flag) mid.push("sources differ on a detail; see the reviewer note");
   if (!r.span_verified) low.push("quote not found word for word in the source");
   if ((r.source_type ?? "").startsWith("secondary")) mid.push("source is a news report or a copy of the code, not the official text");
   if (r.confidence < 0.6) low.push(`extraction confidence ${Math.round(r.confidence * 100)}%`);

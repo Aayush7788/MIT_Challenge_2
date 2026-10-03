@@ -2,7 +2,7 @@ import { z } from "zod";
 import { checkProposal } from "@/lib/law/check";
 import { buildingFrom, factSheet } from "@/lib/law/facts";
 import { buildMemo, targetFromRow, type MemoTarget } from "@/lib/law/memo";
-import { findAddress, isDate, RULES } from "@/lib/law/store";
+import { findAddress, isDate, RULES, RULES_ES } from "@/lib/law/store";
 import { geocode } from "@/lib/geocode";
 import { clientKey, rateLimit } from "@/lib/rate-limit";
 
@@ -25,6 +25,7 @@ const Body = z.object({
     .object({ kind: z.enum(["rent_increase_pct", "deposit_months", "application_fee_usd"]), amount: z.number().min(0).max(100000) })
     .nullable()
     .optional(),
+  lang: z.enum(["en", "es"]).optional(),
 });
 
 const STATE_CODES: Record<string, string> = { California: "CA", "New Jersey": "NJ", Massachusetts: "MA" };
@@ -32,7 +33,7 @@ const STATE_CODES: Record<string, string> = { California: "CA", "New Jersey": "N
 export async function POST(request: Request) {
   const parsed = Body.safeParse(await request.json().catch(() => null));
   if (!parsed.success) return Response.json({ error: parsed.error.issues.map((i) => i.message).join("; ") }, { status: 400 });
-  const { id, address, as_of, facts = {}, proposal } = parsed.data;
+  const { id, address, as_of, facts = {}, proposal, lang = "en" } = parsed.data;
 
   let target: MemoTarget | null = null;
   if (id) {
@@ -66,5 +67,25 @@ export async function POST(request: Request) {
 
   const memo = buildMemo(RULES, target, as_of, facts);
   const check = proposal ? checkProposal(RULES, buildingFrom(target.state, target.legal_city, factSheet(target.parcel, facts)), as_of, proposal) : null;
+  if (lang === "es") {
+    // Card text in Spanish; citations, quotes and the engine's reasons stay as written.
+    const es = (id: string) => RULES_ES[id];
+    for (const c of memo.categories) {
+      for (const it of c.items) {
+        const t = es(it.team_rule_id);
+        if (t) Object.assign(it, { title: t.title, requirement: t.requirement, key_value: t.key_value ?? it.key_value });
+      }
+    }
+    for (const it of memo.changing) {
+      const t = es(it.team_rule_id);
+      if (t) it.title = t.title;
+    }
+    if (check) {
+      for (const l of [...check.blocking, ...check.within, ...check.unsettled, ...check.could_change, ...check.context]) {
+        const t = es(l.team_rule_id);
+        if (t) Object.assign(l, { title: t.title, key_value: t.key_value ?? l.key_value });
+      }
+    }
+  }
   return Response.json({ memo, check, supported: ["CA", "NJ", "MA"].includes(target.state) });
 }

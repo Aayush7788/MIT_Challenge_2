@@ -20,6 +20,8 @@ export type CheckResult = {
   could_change: CheckLine[];
   context: CheckLine[];
   as_of: string;
+  limit: number | null; // the cap that blocks it, when one does
+  unsettled_count: number;
 };
 
 export const PROPOSAL_CATEGORY: Record<ProposalKind, Category> = {
@@ -138,5 +140,6 @@ export function checkProposal(rules: RuleRecord[], b: Building, asOf: string, p:
     verdict = "no_cap_found";
     headline = `We found no rule in our sources that limits this at this address on ${asOf}.${context.length ? ` ${context[0].citation}: ${context[0].key_value ?? context[0].title}.` : ""} Other rules, such as notice periods, may still apply.`;
   }
-  return { verdict, headline, blocking, within, unsettled, could_change, context, as_of: asOf };
+  const limit = blocking.length ? (readBound(p.kind, blocking[0].key_value)?.max ?? null) : null;
+  return { verdict, headline, blocking, within, unsettled, could_change, context, as_of: asOf, limit, unsettled_count: unsettled.length };
 }
