@@ -1,6 +1,6 @@
-// Module C: change tracking. For each supplied change test, finds the team rules
-// the test is about, runs the engine at the test's dates and lists the sample
-// addresses whose answer changes (or that the rule reaches), with conflict flags.
+// Module C, change tracking. For each change test we find our rule cards for it,
+// run the engine at the test's dates and list the sample addresses whose answer
+// changes (or that the rule reaches), along with any conflict flags.
 //
 //   npx tsx scripts/changes.ts                      # tests from the starter pack
 //   npx tsx scripts/changes.ts --tests a.json,b.json   # add the hour-16 test file
@@ -17,7 +17,7 @@ const opt = (name: string, dflt: string) => {
   return i >= 0 ? args[i + 1] : dflt;
 };
 const RULES_IN = opt("rules", "submission/rules.json");
-// Starter-pack tests plus tests added with scripts/ingest.ts (e.g. the hour-16 ordinance).
+// The starter-pack tests, plus anything scripts/ingest.ts added (e.g. the hour-16 ordinance).
 const EXTRA_TESTS = "data/derived/extra_change_tests.json";
 const TESTS = opt("tests", [`${PACK_DIR}/dev/change_tests.json`, ...(fs.existsSync(EXTRA_TESTS) ? [EXTRA_TESTS] : [])].join(",")).split(",");
 const OUT = opt("out", "submission/changes.json");
@@ -55,7 +55,7 @@ const CATEGORY: Record<string, Category> = {
 
 const compact = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
 
-// Bill and measure identifiers named in a test title: "AB 325", "S.2983", "H.5222", "IP 25-21", "FAIR Act".
+// Pull bill and measure names out of a test title, e.g. "AB 325", "S.2983", "IP 25-21" or "FAIR Act".
 function identifiers(text: string): string[] {
   const ids = [...text.matchAll(/\b(AB|SB|A|S|H|IP|Ord\.?\s*No\.?|NS)[\s.-]*(\d[\d-]*)\b/gi)].map((m) => compact(`${m[1]}${m[2]}`));
   const named = [...text.matchAll(/\b([A-Z]{3,})\s+Act\b/g)].map((m) => compact(m[1]));
@@ -94,7 +94,7 @@ function main() {
     const direct = rules.filter((r) => t.team_rule_ids?.includes(r.team_rule_id));
     const mapped = direct.length ? direct : [...new Map((t.rule_ids ?? []).flatMap((id) => mapRules(id, t, rules)).map((r) => [r.team_rule_id, r])).values()];
     const ids = new Set(mapped.map((r) => r.team_rule_id));
-    // Pending bills are evaluated as if enacted today, to show who they would reach.
+    // Treat pending bills as if they passed today, to see which addresses they'd reach.
     const ruleSet = t.type === "pending" ? rules.map((r) => (ids.has(r.team_rule_id) ? { ...r, status: "in_force" as const, effective_date: null } : r)) : rules;
     const pick = (evals: Evaluation[]) => evals.filter((e) => ids.has(e.team_rule_id));
     const strongest = (evals: Evaluation[]): Result | null => {

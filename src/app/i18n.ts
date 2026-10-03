@@ -1,8 +1,9 @@
 import type { CheckResult, ProposalKind } from "@/lib/law/check";
 import type { Category, Result } from "@/lib/law/schema";
 
-// Interface text in English and Spanish. Rule card text comes translated from
-// the server (scripts/translate.ts); citations and quotes stay as written.
+// Interface text in English and Spanish. The rule cards come back from the
+// server already translated (scripts/translate.ts), with citations and quotes
+// left as they are.
 
 export type Lang = "en" | "es";
 
@@ -190,7 +191,7 @@ const amountText = (kind: ProposalKind, n: number | null, lang: Lang) => {
   return n === 1 ? "1 month's rent" : `${n} months' rent`;
 };
 
-// The check's headline in the reader's language, from the structured result.
+// Builds the check's headline in the reader's language from the structured result.
 export function headline(c: CheckResult, kind: ProposalKind, amount: number, lang: Lang): string {
   if (lang === "en") return c.headline;
   const d = fmtDate(c.as_of, "es");

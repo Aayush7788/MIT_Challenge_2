@@ -1,6 +1,6 @@
-// Module A: rule extraction. Claude reads each corpus document and returns rule
-// records in a fixed JSON schema; code then verifies every quote against the
-// source text, dedupes rules seen in several documents and writes out/rules.json.
+// Module A, rule extraction. Claude reads each document and returns rule records
+// in a fixed JSON schema. Then we check every quote against the source text,
+// merge rules that show up in several documents and write out/rules.json.
 //
 //   npx tsx scripts/extract.ts                    # all documents (reuses cached per-doc outputs)
 //   npx tsx scripts/extract.ts --fresh            # ignore the cache, call the model for every document
@@ -189,7 +189,7 @@ async function main() {
     }
   });
 
-  // Verify spans, normalize fields, attach manifest provenance.
+  // Check the quotes, clean up the fields and attach where each record came from.
   const byDoc = new Map(docs.map((d) => [d.doc_id, d]));
   type Candidate = Omit<RuleRecord, "team_rule_id" | "overrides"> & { official: boolean; jurisdiction_matches_doc: boolean };
   const candidates: Candidate[] = [];
@@ -234,7 +234,7 @@ async function main() {
     }
   }
 
-  // Dedupe: one record per jurisdiction + category + citation, keeping the best-supported copy.
+  // One record per jurisdiction + category + citation. We keep the best-supported copy.
   const rank = (c: Candidate) =>
     (c.span_verified ? 4 : 0) + (c.official ? 2 : 0) + (c.jurisdiction_matches_doc ? 1 : 0) + c.confidence;
   const groups = new Map<string, Candidate[]>();
@@ -244,8 +244,8 @@ async function main() {
   }
   const kept = [...groups.values()].map((g) => {
     const best = [...g].sort((a, b) => rank(b) - rank(a))[0];
-    // Same law stated in several documents: fill what the kept record leaves empty
-    // (coverage cutoffs, effective date, headline figure) from the others.
+    // When several documents state the same law, fill in whatever the kept record
+    // is missing (coverage cutoffs, effective date, key figure) from the others.
     const filledFrom = new Set<string>();
     for (const c of g) {
       if (c === best) continue;
@@ -293,7 +293,7 @@ async function main() {
     return { team_rule_id: `r-${String(i + 1).padStart(4, "0")}`, overrides: [], ...rest };
   });
 
-  // overrides: a state rule that yields to local rules lists the local rules it yields to, and vice versa.
+  // Fill in overrides. A state rule that yields to local rules lists them, and they list it back.
   for (const s of rules.filter((r) => r.level === "state" && r.yields_to_local_rule)) {
     const locals = rules.filter((r) => r.level === "city" && r.category === s.category && r.jurisdiction.endsWith(`, ${s.jurisdiction}`));
     s.overrides = locals.map((l) => l.team_rule_id);

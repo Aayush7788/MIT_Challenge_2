@@ -1,8 +1,8 @@
-// Module B, step 1: resolve every sample address to its legal jurisdiction
-// (state, county, incorporated city) with the Census geocoder. The mailing city
-// is not always the legal city ("Dorchester" is Boston), so we geocode.
+// Finds the legal jurisdiction (state, county, incorporated city) for every sample
+// address with the Census geocoder. We can't trust the mailing city, because a
+// "Dorchester" address is really in Boston.
 //
-//   npx tsx scripts/geocode-addresses.ts           # resolves addresses not already in out/jurisdictions.json
+//   npx tsx scripts/geocode-addresses.ts           # only addresses not already in data/derived/jurisdictions.json
 //   npx tsx scripts/geocode-addresses.ts --fresh
 import "./load-env";
 import fs from "node:fs";
@@ -48,7 +48,7 @@ function toResolved(id: string, fallbackState: string, j: Jurisdiction | null, m
   };
 }
 
-// Parcel data writes "1031-1035 CLINTON ST", "397 05TH AV", "Harvard ST LOT 2A-13".
+// Parcel data has addresses like "1031-1035 CLINTON ST", "397 05TH AV" and "Harvard ST LOT 2A-13".
 function cleanStreet(s: string): string {
   return s
     .replace(/^(\d+)[A-Z]?\s*-\s*[\d.]+[A-Z]?\b/i, "$1")
@@ -60,7 +60,7 @@ function cleanStreet(s: string): string {
 
 const houseNumber = (s: string) => s.match(/^\s*(\d+)/)?.[1] ?? null;
 
-// Boston neighborhoods and San Diego communities used as mailing cities.
+// Boston neighborhoods and San Diego communities that show up as mailing cities.
 const MAILING_CITY_TO_LEGAL: Record<string, string> = {
   Allston: "Boston", Brighton: "Boston", Charlestown: "Boston", Dorchester: "Boston", "East Boston": "Boston",
   "Hyde Park": "Boston", "Jamaica Plain": "Boston", Mattapan: "Boston", Roslindale: "Boston", Roxbury: "Boston",
@@ -78,7 +78,7 @@ async function resolveOne(a: ReturnType<typeof loadAddresses>[number]): Promise<
     // Reject matches to a different house number (e.g. "322 Western Ave" matched to "5 Western Ave").
     if (j && (!wantNumber || houseNumber(j.matchedAddress) === wantNumber)) return toResolved(a.address_id, a.state, j, method);
   }
-  // No usable match (often no house number in the parcel record): fall back to the mailing city.
+  // Nothing usable came back (often the parcel record has no house number), so use the mailing city.
   return {
     address_id: a.address_id,
     state: a.state,

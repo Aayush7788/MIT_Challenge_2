@@ -1,4 +1,4 @@
-"""Builds the review sheets for the lawyer on the team (open them in Google Sheets).
+"""Makes the review sheets Gulnur works from (they open fine in Google Sheets).
 
   python3 scripts/review-sheets.py   # reads submission/ if present, else out/
 

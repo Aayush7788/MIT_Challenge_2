@@ -6,9 +6,9 @@ import { findAddress, isDate, RULES, RULES_ES } from "@/lib/law/store";
 import { geocode } from "@/lib/geocode";
 import { clientKey, rateLimit } from "@/lib/rate-limit";
 
-// POST /api/memo {id | address, as_of, facts?, proposal?} -> {memo, check}
-// Sample addresses resolve from the starter data; any other US address goes
-// through the Census geocoder and starts with no building facts.
+// POST /api/memo {id | address, as_of, facts?, proposal?, lang?} -> {memo, check}
+// Sample addresses come from the starter data. Any other US address goes through
+// the Census geocoder and starts out with no building facts.
 
 const Body = z.object({
   id: z.string().max(20).optional(),
@@ -68,7 +68,7 @@ export async function POST(request: Request) {
   const memo = buildMemo(RULES, target, as_of, facts);
   const check = proposal ? checkProposal(RULES, buildingFrom(target.state, target.legal_city, factSheet(target.parcel, facts)), as_of, proposal) : null;
   if (lang === "es") {
-    // Card text in Spanish; citations, quotes and the engine's reasons stay as written.
+    // Swap in the Spanish card text. Citations, quotes and the engine's reasons stay in English.
     const es = (id: string) => RULES_ES[id];
     for (const c of memo.categories) {
       for (const it of c.items) {

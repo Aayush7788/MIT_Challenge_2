@@ -1,5 +1,5 @@
-// Part 2: runs the rules engine over every sample address and writes the
-// submission files, plus the address table the app reads.
+// Runs the engine over all 500 sample addresses and writes the submission files,
+// plus the address table the app reads.
 //
 //   npx tsx scripts/lookup.ts                                   # as of 2026-10-01, rules from out/rules.json
 //   npx tsx scripts/lookup.ts --as-of 2027-07-02 --rules <file> --out <file>

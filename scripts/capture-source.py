@@ -3,9 +3,9 @@
   python3 scripts/capture-source.py D034 "Hoboken, NJ" https://hobokennj.iqm2.com/... --note "..."
   python3 scripts/capture-source.py X001 CA https://leginfo... --text-file page.txt   # text copied from a browser
 
-One page per law, read the way a person would; no crawling. Each file starts with
-SOURCE / RETRIEVED / JURISDICTION lines, and corpus_extra/manifest.csv records the
-hash, so every captured quote can be traced to the page it came from.
+We grab one page per law, the way a person would read it, and never crawl. Each
+file starts with SOURCE, RETRIEVED and JURISDICTION lines, and the hash goes in
+corpus_extra/manifest.csv, so any quote we use can be traced back to its page.
 """
 import argparse
 import csv

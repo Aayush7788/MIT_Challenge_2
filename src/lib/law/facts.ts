@@ -1,10 +1,10 @@
 import type { Address } from "./schema";
 import type { Building } from "./engine";
 
-// Part 2, step 1: the building facts the engine tests rules against, each with
-// where it came from. Parcel records give year built and unit count when they
-// have them; the assessor's land-use text often still bounds the unit count
-// ("APT 7-30 UNITS", "3S-F-D-6U", NJ class 4C); a user can enter what they know.
+// Building facts the engine checks rules against, each tagged with where it
+// came from. The parcel data has year built and unit count for most rows. When
+// the count is missing, the assessor's land-use text usually still gives a range
+// (e.g. "APT 7-30 UNITS", "3S-F-D-6U" or NJ class 4C). Users can fill in the rest.
 
 export type FactSource = "public record" | "land-use code" | "you entered" | "not in data";
 export type Fact<T> = { value: T | null; source: FactSource; note?: string };
@@ -21,10 +21,10 @@ export type UserFacts = { year_built?: number | null; units?: number | null; co_
 
 const WORDS: Record<string, number> = { two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10 };
 
-// Unit bounds from assessor land-use descriptions and codes.
+// Unit count (or a range) from the assessor's land-use description.
 export function unitsFromLandUse(state: string, useCode: string, desc: string): { min: number | null; max: number | null; exact: number | null; basis: string } | null {
   const d = desc.replace(/(\d)O(?=U\b)/gi, "$10"); // "5B-1OU" is a typo for 10U
-  // NJ class codes list units per building: "3S-F-D-6U-NH", "3B-7U/4B-24U-G".
+  // NJ class codes give a unit count per building, e.g. "3S-F-D-6U-NH" or "3B-7U/4B-24U-G".
   const per = [...d.matchAll(/(\d+)\s*U\b/gi)].map((m) => Number(m[1]));
   if (per.length === 1) return { min: per[0], max: per[0], exact: per[0], basis: `assessor class code "${desc}"` };
   if (per.length > 1) return { min: Math.max(...per), max: per.reduce((a, b) => a + b, 0), exact: null, basis: `assessor class code "${desc}" (several buildings)` };
@@ -40,8 +40,8 @@ export function unitsFromLandUse(state: string, useCode: string, desc: string): 
   m = d.match(/\b(two|three|four|five|six|seven|eight|nine|ten)\s+or\s+more\s+(?:apartments|units)/i);
   if (m) return { min: WORDS[m[1].toLowerCase()], max: null, exact: null, basis: `land-use description "${desc}"` };
 
-  // New Jersey property class 4C is an apartment building with five or more units
-  // (class 2 covers residential property of four units or fewer).
+  // We read NJ property class 4C as apartments with 5+ units, since 1-4 family
+  // homes are class 2. Worth confirming against the state's classification manual.
   if (state === "NJ" && useCode.trim().toUpperCase() === "4C") {
     return { min: 5, max: null, exact: null, basis: "New Jersey property class 4C (apartment building, 5 or more units)" };
   }

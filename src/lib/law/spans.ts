@@ -1,7 +1,7 @@
-// Checks that a quoted span really appears in its source document, and repairs
-// small copy errors (whitespace, curly quotes, dropped words) by snapping to the
-// closest passage that does appear. The returned span is always the exact raw
-// text from the document, so a plain substring check on the corpus finds it.
+// Makes sure a quote the model gave us actually appears in the document. Small
+// copy mistakes (whitespace, curly quotes, a dropped word) get snapped to the
+// closest real passage. Whatever we return is the raw document text, so a plain
+// substring search over the corpus will find it.
 
 function normalize(s: string): string {
   return s
@@ -16,8 +16,8 @@ function words(s: string): string[] {
   return normalize(s).toLowerCase().match(/[a-z0-9§.%$]+/g) ?? [];
 }
 
-// Finds the raw document text matching a normalized span (whitespace, quote and
-// dash variants allowed).
+// Find the raw text that matches a normalized span, allowing for different
+// whitespace, quotes and dashes.
 function findRaw(normTarget: string, rawDoc: string): string | null {
   const pattern = normTarget
     .replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
@@ -42,7 +42,7 @@ export function verifySpan(span: string, docText: string): SpanCheck {
     if (raw) return { span: raw, verified: true, repaired: false };
   }
 
-  // Snap to the best window of 1-4 consecutive sentences, scored by word overlap.
+  // No exact match, so try windows of 1 to 4 sentences and keep the one with the best word overlap.
   const targetWords = words(span);
   if (targetWords.length < 4) return { span, verified: false, repaired: false };
   const want = new Set(targetWords);

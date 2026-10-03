@@ -2,10 +2,9 @@ import fs from "node:fs";
 import path from "node:path";
 import type { Address } from "./schema";
 
-// Reads the RealPage starter pack from disk. It sits at the repo root
-// (corpus/, data/, dev/, schema/); official texts the team captures for
-// link-only sources go in corpus_extra/<doc_id>.txt, headed by
-// "SOURCE: <url>" and "RETRIEVED: <date>" lines.
+// Reads the starter pack, which lives at the repo root (corpus/, data/, dev/,
+// schema/). Texts we captured ourselves for link-only sources go in
+// corpus_extra/<doc_id>.txt and start with SOURCE: and RETRIEVED: lines.
 
 export const PACK_DIR = process.cwd();
 export const EXTRA_DIR = path.join(process.cwd(), "corpus_extra");
@@ -19,7 +18,7 @@ export type CorpusDoc = {
   text: string;
 };
 
-// Minimal CSV parser (quoted fields, commas and newlines inside quotes).
+// Small CSV parser that handles quoted fields with commas or newlines in them.
 export function parseCsv(raw: string): Record<string, string>[] {
   const rows: string[][] = [];
   let row: string[] = [];

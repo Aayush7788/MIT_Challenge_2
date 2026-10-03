@@ -1,8 +1,8 @@
 import { z } from "zod";
 
-// Shared types for the Rental Housing Law Navigator. The extraction agent fills
-// ExtractedRule; the rules engine reads RuleRecord (the submission format plus
-// a structured coverage object it can evaluate).
+// Types shared by extraction and the engine. The model fills in ExtractedRule,
+// and the engine reads RuleRecord, which is the submission format plus the
+// structured coverage fields it needs.
 
 export const CATEGORIES = [
   "rent_increase_limits",
@@ -108,7 +108,7 @@ export const DocExtraction = z.object({
 });
 export type DocExtraction = z.infer<typeof DocExtraction>;
 
-// Submission record (schema/rule_record.schema.json) plus fields our engine reads.
+// What goes in rules.json (see schema/rule_record.schema.json), plus extra fields the engine uses.
 export type RuleRecord = {
   team_rule_id: string;
   jurisdiction: string;

@@ -176,7 +176,7 @@ function Home() {
   }, [q, mode]);
   const shownHits = mode === "sample" && q.trim().length >= 2 ? hits : [];
 
-  // One request per distinct input; the memo and the check come back together.
+  // One request per distinct set of inputs. The memo and the check come back together.
   const proposal = askCheck && amount.trim() && Number.isFinite(Number(amount)) ? { kind, amount: Number(amount) } : null;
   const requestKey = target
     ? JSON.stringify({

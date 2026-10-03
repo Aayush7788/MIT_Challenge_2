@@ -1,5 +1,5 @@
-// Address -> state / county / city using the free US Census geocoder (no key).
-// An address outside any incorporated city gets place = null (unincorporated county).
+// Looks up the state, county and city for an address with the Census geocoder
+// (free, no key). Unincorporated areas come back with place = null.
 
 export type Area = { name: string; fips: string };
 

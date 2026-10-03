@@ -5,8 +5,8 @@ import packTests from "../../../dev/change_tests.json";
 import changesJson from "../../../submission/changes.json";
 import { RULES } from "@/lib/law/store";
 
-// Module C: each change case, the rules it maps to, and the sample addresses it
-// affects, grouped by legal city.
+// Change tracking page. For each change case we show the rules it maps to and
+// the sample addresses it affects, grouped by legal city.
 
 type Test = { test_id: string; title: string; type: string; as_of?: string; as_of_before?: string; as_of_after?: string; expected_behavior?: string };
 type Change = { affected_address_ids: string[]; conflict_flag_address_ids: string[]; notes: string; team_rule_ids: string[]; before_after: Record<string, { before: string | null; after: string | null }> };

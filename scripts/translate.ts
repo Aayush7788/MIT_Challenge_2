@@ -1,7 +1,6 @@
-// Spanish view: translates each rule card's title, plain-language requirement
-// and headline figure once, at build time. Citations, numbers and dates stay as
-// written. Cached by a hash of the English text, so reruns only translate new or
-// changed cards.
+// Translates each rule card's title, requirement and key figure into Spanish once,
+// ahead of time. Citations, numbers and dates are left alone. Results are cached
+// by a hash of the English text, so a rerun only translates new or changed cards.
 //
 //   npx tsx scripts/translate.ts
 import "./load-env";

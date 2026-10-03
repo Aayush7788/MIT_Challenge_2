@@ -1,13 +1,15 @@
-"""Self-check against what the brief states, until the organizers' score.py is out.
+"""Our own score check, since the organizers' score.py wasn't in the starter pack.
 
   python3 scripts/selfscore.py
 
-This is NOT the official scorer. It approximates the four scripted components:
-  extraction   rules the brief names (data/silver/brief_rules.json): found? status? date?
-  coverage     data/silver/lookups.json if present (missing an applicable rule costs 2x,
-               "unknown" earns half), plus invariants the brief states for every address
-  citations    share of "applies" answers whose quote is found verbatim in the source text
-  changes      overlap (Jaccard) with the sets T1-T5 imply, plus T3 conflict flags
+This is NOT the official scorer. It estimates the four scripted parts.
+  extraction   did we find the rules the brief names (data/silver/brief_rules.json),
+               with the right status and date
+  coverage     data/silver/lookups.json if someone fills it in (a missing rule that
+               applies costs double, "unknown" gets half credit), plus the facts the
+               brief states about whole groups of addresses
+  citations    share of "applies" answers whose quote appears word for word in the source
+  changes      overlap (Jaccard) with the address sets T1-T5 imply, plus T3's conflict flags
 """
 import csv
 import json

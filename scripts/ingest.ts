@@ -1,6 +1,6 @@
-// One command for a new law (the hour-16 ordinance, or any new jurisdiction):
-// save the text, extract rule cards, re-run every address, add a change test
-// for it and print what changed.
+// Adds a new law in one go (we built it for the hour-16 ordinance, but it works
+// for a new city too). It saves the text, extracts rule cards, reruns every
+// address, adds a change test for the law and prints what changed.
 //
 //   npx tsx scripts/ingest.ts drop/ordinance.txt --jurisdiction "Cambridge, MA"
 //   npx tsx scripts/ingest.ts drop/                      # every .txt/.pdf in a folder
@@ -88,8 +88,9 @@ function main() {
     console.log(`  ${r.team_rule_id}  ${r.jurisdiction} | ${r.category} | ${r.status}${r.effective_date ? ` | effective ${r.effective_date}` : ""}\n      ${r.citation}\n      ${r.requirement}`);
   }
 
-  // A change test for the new law: when it takes effect later, compare the query
-  // date with its effective date; otherwise list where it reaches today.
+  // Make a change test for the new law. If it takes effect later we compare the
+  // query date with its effective date. If it's already in force we just list
+  // where it reaches today.
   if (!opt("tests") && fresh.length) {
     const future = fresh.filter((r) => r.effective_date && r.effective_date > QUERY_DATE);
     const test = future.length

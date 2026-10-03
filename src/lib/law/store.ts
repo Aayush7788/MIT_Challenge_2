@@ -4,13 +4,13 @@ import rulesEs from "../../../data/derived/rules_es.json";
 import type { AddressRow } from "./memo";
 import { normalizeRules } from "./rules";
 
-// Server-side data: the submitted rule records and the resolved sample addresses.
+// What the API routes read: the rule cards we submit and the 500 resolved addresses.
 
 export const RULES = normalizeRules(rulesJson as unknown).rules;
 export const ADDRESSES = addressesJson as unknown as AddressRow[];
 const BY_ID = new Map(ADDRESSES.map((a) => [a.address_id, a]));
 
-// Spanish title, requirement and headline figure per rule card (scripts/translate.ts).
+// Spanish text for each card, made by scripts/translate.ts.
 export const RULES_ES = rulesEs as unknown as Record<string, { title: string; requirement: string; key_value: string | null }>;
 
 export const findAddress = (id: string) => BY_ID.get(id.trim().toUpperCase()) ?? null;

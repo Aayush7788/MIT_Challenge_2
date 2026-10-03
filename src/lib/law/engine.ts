@@ -1,8 +1,8 @@
 import type { Category, LookupEntry, Result, RuleRecord } from "./schema";
 
-// Module B: decides, for one address and one query date, which rules apply.
-// Pure code over extracted rule records, so every answer is reproducible and
-// traceable to a rule record, its citation and its quoted span.
+// Module B. Given one building and one date, figure out which rules apply.
+// There's no model call in here, only the rule cards, so the same question
+// always gets the same answer and we can point to the card behind it.
 
 export type Building = {
   state: string; // "CA" | "NJ" | "MA"
@@ -14,7 +14,7 @@ export type Building = {
   co_date?: string | null; // certificate of occupancy date (YYYY-MM-DD), only when a user enters it
 };
 
-// A state rule that yields to stricter local law does not also preempt it.
+// A state rule that yields to local law can't also preempt it (extraction marked 1946.2 both ways).
 const preempts = (r: RuleRecord) => r.may_preempt_local_rules && !r.yields_to_local_rule;
 
 function yearsBefore(date: string, years: number): string {
@@ -36,8 +36,8 @@ export function inJurisdiction(rule: RuleRecord, b: Building): boolean {
   return rule.jurisdiction.toLowerCase() === `${b.city}, ${b.state}`.toLowerCase();
 }
 
-// Three-valued coverage test against parcel facts. "unknown" means the data
-// cannot settle it (missing year/units, cutoff year, owner type...).
+// yes / no / unknown against the parcel facts. unknown means the data can't
+// settle it (no year built, built right in the cutoff year, owner type, etc.).
 export function coverage(rule: RuleRecord, b: Building, asOf: string): { tri: Tri; reasons: string[]; missing: string[] } {
   const c = rule.coverage_conditions;
   const reasons: string[] = [];
@@ -111,8 +111,8 @@ export function coverage(rule: RuleRecord, b: Building, asOf: string): { tri: Tr
   return { tri, reasons, missing };
 }
 
-// Evaluates every rule for one building on one date. Rules that do not cover
-// the building are left out, as the submission format asks.
+// Run every rule against one building on one date. Rules that don't cover the
+// building are dropped, since the submission format wants them left out.
 export function lookup(rules: RuleRecord[], b: Building, asOf: string): Evaluation[] {
   const out: Evaluation[] = [];
   for (const rule of rules) {
@@ -147,16 +147,17 @@ export function lookup(rules: RuleRecord[], b: Building, asOf: string): Evaluati
       team_rule_id: rule.team_rule_id,
       result,
       explanation: [lead, rule.requirement, detail.length ? `(${detail.join("; ")}.)` : "", rule.coverage_note ?? ""].filter(Boolean).join(" "),
-      // A preempting rule's flag is about local ordinances, so it is set below only
-      // where one reaches this address; other flags (sources disagree) hold everywhere.
+      // For a state rule that might preempt local law, the flag is really about the
+      // local ordinance, so we set it further down only where one reaches this
+      // address. Other flags (e.g. sources disagree on a date) stay on everywhere.
       conflict_flag: rule.conflict_flag && !preempts(rule),
       rule,
       reasons: cov.reasons,
     });
   }
 
-  // Precedence: a state rule that yields to stricter local law is superseded
-  // where a local rule in the same category applies.
+  // If the state rule yields to local law and a local rule in the same category
+  // applies here, the state rule is superseded at this address.
   const byCat = (cat: Category, level: "state" | "city") => out.filter((e) => e.rule.category === cat && e.rule.level === level);
   for (const e of out.filter((x) => x.rule.level === "state" && x.rule.yields_to_local_rule)) {
     const locals = byCat(e.rule.category, "city");
@@ -170,8 +171,8 @@ export function lookup(rules: RuleRecord[], b: Building, asOf: string): Evaluati
     }
   }
 
-  // Conflicts: a state rule that may preempt local ordinances in the same
-  // category is flagged for human review wherever both reach the address.
+  // If a state law might preempt a local ordinance and both reach this address,
+  // flag both for a person to look at (e.g. the NJ FAIR Act and the Hoboken and JC bans).
   for (const s of out.filter((x) => x.rule.level === "state" && preempts(x.rule))) {
     const locals = byCat(s.rule.category, "city");
     if (locals.length === 0) continue;

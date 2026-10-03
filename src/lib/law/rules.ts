@@ -1,10 +1,10 @@
 import { z } from "zod";
 import { CATEGORIES, RULE_STATUSES, type Coverage, type RuleRecord } from "./schema";
 
-// Reads a rules.json produced by any version of the extraction step and returns
-// records the engine can evaluate. Required fields are checked; missing
-// structured coverage is filled with "no condition" and reported, so the
-// extraction side sees exactly which fields the engine could not use.
+// Loads a rules.json from any version of the extraction step and turns it into
+// records the engine can run. Required fields are checked. If the structured
+// coverage is missing we treat it as "no condition" and print a warning, so
+// whoever is working on extraction can see which fields the engine couldn't use.
 
 const EMPTY_COVERAGE: Coverage = {
   summary: "",
@@ -58,10 +58,13 @@ function coverageFrom(raw: unknown, id: string, warn: (m: string) => void): Cove
 
 const QUERY_DATE = "2026-10-01";
 
-// The code section a citation points to, so one law quoted by several documents
-// lines up: "Cal. Bus. & Prof. Code § 16729(a) (AB 325, ...)" -> base "16729",
-// full "16729(a)"; "M.G.L. c. 186 § 15B" -> "c186§15b"; "N.J.S.A. 56:9-20" ->
-// "56:9-20"; "Hoboken Mun. Code ch. 155" -> "ch155"; "S.2983" -> "bill:s2983".
+// Boil a citation down to the code section it points at, so the same law cited
+// by different documents lines up. For example
+//   "Cal. Bus. & Prof. Code § 16729(a) (AB 325, ...)"   base 16729, full 16729(a)
+//   "M.G.L. c. 186 § 15B"                               c186§15b
+//   "N.J.S.A. 56:9-20"                                  56:9-20
+//   "Hoboken Mun. Code ch. 155"                         ch155
+//   "S.2983"                                            bill:s2983
 export function sectionKey(citation: string): { base: string; full: string } | null {
   const s = citation
     .replace(/\(([^()]*)\)/g, (m, inner: string) => (/^[a-z0-9]{1,4}$/i.test(inner.trim()) ? m : " "))
@@ -95,10 +98,12 @@ const note = (r: RuleRecord, text: string) => {
   r.consolidation_note = r.consolidation_note ? `${r.consolidation_note} ${text}` : text;
 };
 
-// One card per law across documents: a proposal gives way to its enacted
-// version, records of one code section share the effective date their sources
-// agree on, exact duplicates merge into the best-supported record, and a news or
-// law-firm summary with no citation gives way to official text of the same rule.
+// Several documents often describe the same law. This cleans that up so we end
+// up with one card per law.
+//   - a proposal is dropped once we have the enacted version
+//   - cards for one code section share an effective date if their sources agree on it
+//   - exact duplicates merge into the best-supported card
+//   - a news or law-firm summary with no citation is dropped if official text covers it
 function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[] } {
   const notes: string[] = [];
   const drop = new Set<RuleRecord>();
@@ -124,7 +129,7 @@ function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[]
     if (dates.length === 1) {
       const donor = live.find((r) => r.effective_date === dates[0])!;
       const dk = sectionKey(donor.citation)!;
-      // Share the date only when the donor cites the whole section or the same subsection.
+      // Only copy the date if the donor cites the whole section or the exact same subsection.
       const takes = (x: RuleRecord) => dk.full === dk.base || sectionKey(x.citation)!.full === dk.full;
       for (const r of live.filter((x) => !x.effective_date && enacted(x) && takes(x))) {
         r.effective_date = dates[0];
@@ -156,14 +161,14 @@ function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[]
 
   for (const r of rules) {
     if (drop.has(r) || sectionKey(r.citation)) continue;
-    // A summary with no section or bill number gives way to official text of the same rule.
+    // Drop an uncited secondary summary when an official card already covers it.
     const twin = rules.find((o) => o !== r && !drop.has(o) && o.jurisdiction === r.jurisdiction && o.category === r.category && o.status === r.status && official(o) && sectionKey(o.citation));
     if (twin && !official(r)) {
       drop.add(r);
       notes.push(`${r.team_rule_id} dropped: secondary summary of ${twin.team_rule_id} (${twin.citation}).`);
       continue;
     }
-    // A city proposal with no identifier gives way to an enacted ordinance of the same city on the same subject.
+    // Same idea for a city proposal with no number once the city has adopted an ordinance on it (Santa Ana).
     if (r.level === "city" && r.status === "pending") {
       const law2 = rules.find((o) => o !== r && !drop.has(o) && o.level === "city" && o.jurisdiction === r.jurisdiction && o.category === r.category && enacted(o) && similar(o, r));
       if (law2) {
@@ -179,10 +184,10 @@ const hasCutoff = (c: Coverage) => Boolean(c.built_on_or_before || c.built_after
 const hasAnyCondition = (c: Coverage) =>
   hasCutoff(c) || c.min_units != null || c.max_units != null || c.owner_based_exemption_max_units != null || c.required_facts_not_in_data.length > 0;
 
-// A city's rate announcement or calculator page covers the same units as the
-// city's rent ordinance. A city rent rule that states no coverage at all takes
-// the date cutoff stated by another in-force rent rule of the same city, and
-// the record says where it came from.
+// Rate announcements and calculator pages (e.g. LA's RSO calculator) apply to the
+// same units as the city's rent ordinance, but they rarely say which units those
+// are. If a city rent card has no coverage at all, borrow the date cutoff from
+// that city's main rent card and note where it came from.
 function inheritCityRentCoverage(rules: RuleRecord[]): string[] {
   const notes: string[] = [];
   for (const r of rules) {

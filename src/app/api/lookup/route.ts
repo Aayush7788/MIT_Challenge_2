@@ -2,7 +2,7 @@ import { buildMemo, targetFromRow } from "@/lib/law/memo";
 import { findAddress, isDate, RULES } from "@/lib/law/store";
 
 // GET /api/lookup?id=A0001&as_of=2026-10-01[&year_built=1962&units=20&co_date=1962-05-01]
-// Returns every rule that reaches the address on that date, with citations.
+// Returns every rule that reaches the address on that date, with its citation.
 export async function GET(request: Request) {
   const p = new URL(request.url).searchParams;
   const a = findAddress(p.get("id") ?? "");

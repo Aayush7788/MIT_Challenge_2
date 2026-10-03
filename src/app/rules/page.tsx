@@ -2,8 +2,8 @@ import Link from "next/link";
 import { RULES } from "@/lib/law/store";
 import { CATEGORY_LABELS } from "@/lib/law/schema";
 
-// Every extracted rule card, with the source document and the verbatim quote it
-// rests on: the audit view of Module A.
+// Every rule card we extracted, with its source document and the exact quote it
+// rests on. Handy for checking extraction by eye.
 
 export const metadata = { title: "Rule cards | Rental Housing Law Navigator" };
 

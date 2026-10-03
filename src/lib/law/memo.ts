@@ -2,8 +2,9 @@ import { lookup, type Evaluation } from "./engine";
 import { buildingFrom, factSheet, type FactSheet, type UserFacts } from "./facts";
 import { CATEGORIES, CATEGORY_LABELS, type Address, type Category, type Result, type RuleRecord } from "./schema";
 
-// The address memo: what a lawyer would write after reading the three layers of
-// law, checking the building facts and the dates. Built from the engine only.
+// The address memo. It's meant to read like what a lawyer writes after going
+// through the state, county and city layers and checking the facts and dates.
+// Everything in it comes from the engine.
 
 export type AddressRow = Address & {
   legal_city: string | null;
@@ -54,17 +55,17 @@ export type Memo = {
 
 const ORDER: Result[] = ["applies", "superseded", "unknown", "not_yet_effective", "pending"];
 
-// How much to trust one answer: high only when the quote is verified, the source
-// is official text, the facts come straight from public records and nothing is
-// flagged; each step down says why.
+// Rough trust level for one answer. "high" needs a verified quote from official
+// text, facts straight from public records and no flags. Anything that knocks it
+// down gets listed, so the reader can see why.
 function trust(e: Evaluation, facts: FactSheet): { level: MemoItem["confidence_level"]; reasons: string[] } {
   const r = e.rule;
   const c = r.coverage_conditions;
   const low: string[] = [];
   const mid: string[] = [];
   if (e.result === "unknown") low.push("coverage depends on a fact the public data does not have");
-  // A possible preemption can change whether the rule applies at all; other flags
-  // (sources differ on a date or a detail) are shown but weigh less.
+  // Preemption can change whether the rule applies at all, so it counts as low.
+  // Other flags (two sources give different dates, etc.) only drop it to medium.
   if (e.conflict_flag && /Flag for review: (may preempt|possible conflict)/.test(e.explanation)) low.push("a state law may preempt the local rule; flagged for human review");
   else if (e.conflict_flag) mid.push("sources differ on a detail; see the reviewer note");
   if (!r.span_verified) low.push("quote not found word for word in the source");

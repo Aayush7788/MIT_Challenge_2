@@ -1,10 +1,10 @@
 import { lookup, type Building, type Evaluation } from "./engine";
 import type { Category, RuleRecord } from "./schema";
 
-// "Can the landlord raise the rent 20% on this date?" Answers from the rules
-// engine only: a cap that applies and is lower blocks it; a cap the data cannot
-// settle (missing fact, CPI-linked formula, unreadable figure) gives "can't tell".
-// Never suggests a way around a rule.
+// Answers questions like "can my landlord raise the rent 20% next month?" using
+// only the engine's results. If a cap applies and it's lower, the answer is no.
+// If we can't pin the cap down (a missing fact, a CPI formula, a figure we can't
+// parse), the answer is "can't tell". We never suggest ways around a rule.
 
 export type ProposalKind = "rent_increase_pct" | "deposit_months" | "application_fee_usd";
 export type Proposal = { kind: ProposalKind; amount: number };
@@ -36,7 +36,7 @@ export const UNIT: Record<ProposalKind, (n: number) => string> = {
   application_fee_usd: (n) => `$${n}`,
 };
 
-// Upper bound and CPI dependence read from a rule's headline value.
+// Pull the max (and whether it moves with CPI) out of a rule's key_value text.
 export type Bound = { max: number | null; floor: number | null; cpi: boolean };
 
 const WORD_NUM: Record<string, number> = { one: 1, two: 2, three: 3, "one and one-half": 1.5, "one and a half": 1.5, "one-half": 0.5 };
@@ -73,7 +73,7 @@ export function readBound(kind: ProposalKind, kv: string | null): Bound | null {
 }
 
 const LIMIT_WORDS = /\b(caps?|capped|limits?|limited|maximum|max|not (?:to )?exceed|no more than|allowable)\b/i;
-// Statements that there is no cap ("No state cap", "No local rent control") are context, not limits.
+// "No state cap" or "No local rent control" isn't a limit, so we show it as context.
 const NO_CAP = /\bno\b[^.;]{0,30}\b(cap|rent control|limit)|\bbars?\b[^.;]{0,30}rent control|\bprohibit\w*\b[^.;]{0,30}rent control/i;
 
 function line(e: Evaluation, text: string): CheckLine {
@@ -104,8 +104,8 @@ export function checkProposal(rules: RuleRecord[], b: Building, asOf: string, p:
       continue;
     }
     if (!bound) {
-      // Only rules that set a limit matter here; notice or procedure rules have no number to compare.
-      // A local rent ordinance that reaches the unit limits increases even when its figure is not in our sources.
+      // Notice and procedure rules have no number to compare, so skip them. A local
+      // rent ordinance still limits increases even if this year's figure isn't in our sources.
       const localRent = p.kind === "rent_increase_pct" && e.rule.level === "city";
       if (localRent || LIMIT_WORDS.test(`${e.rule.requirement} ${e.rule.key_value ?? ""}`)) {
         unsettled.push(line(e, `${e.result === "unknown" ? "May apply here. " : ""}Sets a limit, but the figure is not stated in a form we can compare (${e.rule.key_value ?? "no figure in the source"}).`));
