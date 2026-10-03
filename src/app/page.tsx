@@ -114,6 +114,48 @@ function RuleCard({ it, L, lang }: { it: MemoItem; L: S; lang: Lang }) {
   );
 }
 
+// One line per category, like the brief's illustrative output: the rule that
+// governs here, its key figure and the citations behind the line.
+function Glance({ memo, L, lang }: { memo: Memo; L: S; lang: Lang }) {
+  return (
+    <div className="mt-5 overflow-hidden rounded-xl border border-stone-200 bg-white shadow-sm">
+      <h3 className="border-b border-stone-200 px-4 py-2 text-xs font-bold uppercase tracking-wide text-stone-600">
+        {L.glance} · {fmtDate(memo.as_of, lang)}
+      </h3>
+      <table className="w-full text-sm">
+        <tbody>
+          {memo.categories.map((c) => {
+            const applies = c.items.filter((i) => i.result === "applies");
+            const superseded = c.items.filter((i) => i.result === "superseded");
+            const unknown = c.items.filter((i) => i.result === "unknown");
+            const coming = c.items.filter((i) => i.result === "pending" || i.result === "not_yet_effective");
+            const main = applies[0] ?? unknown[0] ?? coming[0];
+            const cites = [...applies.slice(0, 2), ...superseded.slice(0, 1)].map((i) => i.citation.replace(/\s*\(.*$/, ""));
+            return (
+              <tr key={c.category} className="border-b border-stone-100 align-top last:border-0">
+                <th className="w-40 px-4 py-2 text-left text-xs font-semibold uppercase tracking-wide text-stone-500">{L.categories[c.category]}</th>
+                <td className="px-4 py-2">
+                  {main ? (
+                    <>
+                      <Chip result={main.result} L={L} /> <span className="font-medium">{main.key_value ?? main.title}</span>
+                      {main.result === "unknown" && <span className="text-stone-500"> ({L.glanceMaybe})</span>}
+                      {superseded.length > 0 && <span className="text-stone-500">; {L.glanceYields(superseded[0].citation.replace(/\s*\(.*$/, ""))}</span>}
+                      {main.result === "applies" && coming.length > 0 && <span className="text-violet-800">; {L.glanceComing(coming[0].title)}</span>}
+                      {cites.length > 0 && <span className="block font-mono text-xs text-stone-500">{[...new Set(cites)].join(" · ")}</span>}
+                    </>
+                  ) : (
+                    <span className="text-stone-500">{L.glanceNone}</span>
+                  )}
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 function CheckLines({ title, lines, tone, lang }: { title: string; lines: CheckLine[]; tone: string; lang: Lang }) {
   if (!lines.length) return null;
   return (
@@ -366,6 +408,8 @@ function Home() {
                 <span className="text-stone-500">{L.rulesReach(total)}</span>
               </div>
             </div>
+
+            <Glance memo={memo} L={L} lang={lang} />
 
             <div className="mt-5 grid gap-5 lg:grid-cols-[1fr_360px]">
               <div className="space-y-6">

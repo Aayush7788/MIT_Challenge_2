@@ -212,6 +212,31 @@ function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[]
     }
   }
 
+  // Subsections of one code section are one rule as far as the submission goes
+  // (e.g. Civ. Code § 1950.5(c), (c)(4), (h) and (n)). Merge them into the card
+  // with the main figure, cite the section, and keep the other points in its text.
+  for (const g of groups.values()) {
+    const live = g.filter((r) => !drop.has(r) && r.status !== "failed");
+    if (live.length < 2 || new Set(live.map((r) => r.status)).size > 1) continue;
+    const [main, ...rest] = [...live].sort(
+      (a, b) =>
+        Number(fromStarter(b)) - Number(fromStarter(a)) ||
+        Number(Boolean(b.key_value)) - Number(Boolean(a.key_value)) ||
+        Number(official(b)) - Number(official(a)) ||
+        b.confidence - a.confidence,
+    );
+    const base = sectionKey(main.citation)!.base;
+    const parts = [main, ...rest].map((r) => r.citation);
+    main.citation = main.citation.replace(/((?:§+\s*)?[0-9][0-9A-Za-z.:\-½/]*)((?:\([0-9a-zA-Z]{1,4}\))+(?:\s*,\s*(?:\([0-9a-zA-Z]{1,4}\))+)*)/, "$1");
+    main.requirement = [main.requirement, ...rest.map((r) => r.requirement)].join(" ");
+    if (!main.effective_date) main.effective_date = rest.find((r) => r.effective_date)?.effective_date ?? null;
+    note(main, `One card for ${base}: merged ${parts.join("; ")}.`);
+    for (const r of rest) {
+      drop.add(r);
+      notes.push(`${r.team_rule_id} merged into ${main.team_rule_id} (subsections of ${base}).`);
+    }
+  }
+
   // Sources that cite a whole section or chapter and give different effective dates
   // get flagged, not resolved (e.g. Berkeley ch. 13.63: March 1, 2026 in the
   // ordinance, January 2026 in a law-firm alert).

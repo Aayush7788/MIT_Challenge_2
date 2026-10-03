@@ -1,5 +1,5 @@
 SELF-CHECK (not the official score.py)
-  rules 90 | addresses 500 | as of 2026-10-01
+  rules 80 | addresses 500 | as of 2026-10-01
 
 Extraction         24.8 / 25   (27 rules named in the brief)
     PARTIAL  Jersey City 218-12  [ours: r-0073 in_force None; brief: in_force 2025-06]
@@ -15,11 +15,11 @@ Address coverage   20.0 / 20   (no silver address key yet; using the brief's inv
      71/71  SF pre-1979: local rent cap applies
      25/25  LA post-1978: RSO does not apply
       7/7   SF post-1979: local rent cap does not apply
-Citations          14.3 / 15   (7099/7423 'applies' answers quote the supplied corpus; the rest quote official texts we added, which the organizers don't count)
+Citations          14.1 / 15   (4851/5175 'applies' answers quote the supplied corpus; the rest quote official texts we added, which the organizers don't count)
 Change tracking    15.0 / 15
     T1: overlap 1.00 (ours 250, expected 250)
     T2: overlap 1.00 (ours 90, expected 90)
     T3: overlap 1.00 (ours 140, expected 140)
     T4: overlap 1.00 (ours 110, expected 110)
     T5: overlap 1.00 (ours 0, expected 0)
-SCRIPTED TOTAL     74.1 / 75
+SCRIPTED TOTAL     73.8 / 75

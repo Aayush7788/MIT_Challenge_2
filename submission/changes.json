@@ -253,10 +253,9 @@
    "A0500"
   ],
   "conflict_flag_address_ids": [],
-  "notes": "Matched team rules: r-0002 (Cal. Bus. & Prof. Code § 16729(a) (AB 325, Stats. 2025, ch. 338); in_force, effective 2026-01-01); r-0003 (Cal. Bus. & Prof. Code § 16729(b) (AB 325, Stats. 2025, ch. 338); in_force, effective 2026-01-01). Affected = addresses whose result changes between 2025-12-31 and 2026-01-02. 250 affected, 0 flagged for human review.",
+  "notes": "Matched team rules: r-0002 (Cal. Bus. & Prof. Code § 16729 (AB 325, Stats. 2025, ch. 338); in_force, effective 2026-01-01). Affected = addresses whose result changes between 2025-12-31 and 2026-01-02. 250 affected, 0 flagged for human review.",
   "team_rule_ids": [
-   "r-0002",
-   "r-0003"
+   "r-0002"
   ],
   "before_after": {
    "A0001": {

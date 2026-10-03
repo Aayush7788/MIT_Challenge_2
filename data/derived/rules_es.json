@@ -84,34 +84,16 @@
   "source_hash": "66fcc8560e0b450705adda5a8c9913405db24708"
  },
  "r-0002": {
-  "title": "Prohibición de usar o distribuir un algoritmo de precios común como parte de una conspiración para restringir el comercio",
-  "requirement": "Según la ley antimonopolio de California (Cartwright Act (Ley Cartwright)), es ilegal usar o distribuir un algoritmo de precios compartido, como un software para fijar rentas que utiliza datos de competidores, como parte de un acuerdo o conspiración para restringir el comercio. Si sospecha que los arrendadores están coordinando las rentas mediante este tipo de software, puede denunciarlo ante el Attorney General (Fiscal General).",
+  "title": "Prohibición de usar o distribuir un algoritmo común de fijación de precios como parte de una conspiración para restringir el comercio",
+  "requirement": "Según la ley antimonopolio de California (Cartwright Act (Ley Cartwright)), es ilegal usar o distribuir un algoritmo compartido de fijación de precios, como un software para fijar rentas que usa datos de competidores, como parte de un acuerdo o conspiración para restringir el comercio. Si sospecha que los arrendadores están coordinando las rentas mediante ese tipo de software, puede denunciarlo ante el Procurador General (Attorney General). Es ilegal que cualquier persona que use o distribuya un algoritmo compartido de fijación de precios obligue a otra persona a adoptar el precio o las condiciones comerciales (como la disponibilidad o el nivel de servicio) que este recomienda. Esto puede incluir la presión para adoptar las rentas recomendadas por el software.",
   "key_value": null,
-  "source_hash": "1afb736756da2bc69cb22632a598a24ce553a915"
- },
- "r-0003": {
-  "title": "Prohibición de obligar a adoptar los precios o condiciones recomendados por un algoritmo de precios común",
-  "requirement": "Es ilegal que cualquier persona que use o distribuya un algoritmo de precios compartido obligue a otra persona a adoptar el precio o las condiciones comerciales (como la disponibilidad o el nivel de servicio) que este recomienda. Esto puede incluir la presión para adoptar las rentas recomendadas por el software.",
-  "key_value": null,
-  "source_hash": "0867e175f046a16410054522be77ab74d72cc06f"
+  "source_hash": "aa9ff5fa2dcbd7e0e55a35c276ba1ac60191d5f2"
  },
  "r-0004": {
-  "title": "Límite de la cuota de evaluación del inquilino, recibos y reembolsos (Civil Code 1950.6)",
-  "requirement": "Un arrendador puede cobrarle como máximo $68.96 en 2026 por evaluar su solicitud, y debe darle un recibo, una lista detallada de costos, una copia de cualquier informe de crédito y el reembolso de cualquier parte no utilizada de la cuota. El arrendador no puede cobrar una cuota si no hay ninguna unidad disponible, y debe reembolsarle la cuota si usted no es seleccionado, a menos que use una política de primer solicitante calificado y cobre solo a los solicitantes que evalúa.",
-  "key_value": "$68.96 cuota máxima de evaluación (2026)",
-  "source_hash": "25f1374013715b7615373b9dda41d53457d4d485"
- },
- "r-0005": {
-  "title": "Condiciones para cobrar una cuota de evaluación; reembolsos",
-  "requirement": "Un arrendador no puede cobrar una cuota de evaluación si sabe o debería saber que no hay ninguna unidad disponible ahora ni pronto. Para cobrar una cuota, el arrendador debe, o bien evaluar las solicitudes por orden de llegada, en un orden informado por escrito, y cobrar solo cuando su solicitud sea realmente evaluada, o bien reembolsar la cuota completa a cada solicitante no seleccionado dentro de los 7 días después de seleccionar a un inquilino o 30 días después de que usted presentó la solicitud, lo que ocurra primero.",
-  "key_value": "Reembolso completo dentro de 7 días de la selección o 30 días de la solicitud, lo que ocurra primero (o proceso por orden de llegada)",
-  "source_hash": "71a42dcd9dfc8dc12ee3d92370c4521797d4c657"
- },
- "r-0006": {
-  "title": "Recibo de la cuota de evaluación y copia del informe de crédito",
-  "requirement": "El arrendador debe darle un recibo que detalle los gastos de bolsillo y el tiempo dedicado a evaluarlo, entregado en persona, por correo o por correo electrónico si usted lo acepta. Si usted pagó una cuota de evaluación, el arrendador debe darle una copia de su informe de crédito dentro de los 7 días después de recibirlo.",
-  "key_value": "Recibo detallado; copia del informe de crédito dentro de 7 días",
-  "source_hash": "8d4b23d119baa61fe395875546e54e1119f9f289"
+  "title": "Límite a la tarifa de evaluación de inquilinos, recibos y reembolsos (Civil Code 1950.6)",
+  "requirement": "Un arrendador puede cobrarle como máximo $68.96 en 2026 por evaluar su solicitud, y debe darle un recibo, una lista detallada de costos, una copia de cualquier informe de crédito y el reembolso de cualquier parte no utilizada de la tarifa. El arrendador no puede cobrar una tarifa si no hay ninguna unidad disponible, y debe reembolsar la tarifa si usted no es seleccionado, a menos que use una política de primer solicitante calificado y cobre solo a los solicitantes que considere. Un arrendador no puede cobrar una tarifa de evaluación si sabe o debería saber que no hay ninguna unidad disponible ahora o pronto. Para cobrar una tarifa, el arrendador debe hacer una de dos cosas: considerar las solicitudes por orden de llegada, en un orden informado por escrito, y cobrar solo cuando su solicitud realmente se considere; o reembolsar la tarifa completa a todo solicitante no seleccionado dentro de los 7 días después de seleccionar a un inquilino o 30 días después de que usted presentó su solicitud, lo que ocurra primero. El arrendador debe darle un recibo que detalle los gastos directos y el tiempo dedicado a evaluarlo, entregado en persona, por correo o por correo electrónico si usted está de acuerdo. Si usted pagó una tarifa de evaluación, el arrendador debe darle una copia de su informe de crédito dentro de los 7 días después de recibirlo.",
+  "key_value": "Tarifa máxima de evaluación de $68.96 (2026)",
+  "source_hash": "c122826ed40a52bbc112d8f46b5d75be42247690"
  },
  "r-0007": {
   "title": "Requisito estatal de causa justa para el desalojo del Tenant Protection Act (Ley de Protección al Inquilino)",
@@ -131,23 +113,11 @@
   "key_value": "el menor entre 5% + CPI o 10% cada 12 meses",
   "source_hash": "c37e7aa6899ae7ad2a1abe5883e4182897d6a6dd"
  },
- "r-0011": {
-  "title": "Prohibición de discriminación en la vivienda por fuente de ingresos",
-  "requirement": "Un arrendador no puede negarse a alquilarle, acosarlo ni tratarlo de manera diferente por su fuente de ingresos legal y verificable, incluidos los vales de la Sección 8, los vales VASH y otra asistencia pública o subsidios de vivienda. Los anuncios de alquiler tampoco pueden expresar una preferencia en contra de esas fuentes de ingresos.",
-  "key_value": null,
-  "source_hash": "b43953143b05f52ef2cc0638927734e32690b14b"
- },
  "r-0012": {
-  "title": "El requisito de ingresos debe basarse en la parte de la renta que paga el inquilino en el caso de solicitantes con subsidio",
-  "requirement": "Si usted tiene un subsidio gubernamental para la renta, el requisito de ingresos mínimos del arrendador debe basarse solo en la parte de la renta que usted paga, no en la renta completa.",
+  "title": "El requisito de ingresos debe basarse en la parte de la renta que paga el inquilino, para solicitantes con subsidio",
+  "requirement": "Si usted tiene un subsidio gubernamental para la renta, el requisito de ingresos mínimos de un arrendador debe basarse solo en la parte de la renta que usted paga, no en la renta completa. Un arrendador no puede negarse a rentarle, acosarlo ni tratarlo de forma diferente por su fuente de ingresos legal y verificable, incluidos los vales de la Sección 8 (Section 8), los vales VASH y otra asistencia pública o subsidios de vivienda. Los anuncios de renta tampoco pueden expresar una preferencia en contra de esas fuentes de ingresos. Si usted tiene un subsidio gubernamental para la renta, un arrendador que usa el historial de crédito debe permitirle presentar en su lugar otra prueba verificable de que puede pagar su parte de la renta (como pagos de beneficios, comprobantes de pago o estados de cuenta bancarios), darle un tiempo razonable para presentarla y considerarla de manera razonable en lugar de su historial de crédito.",
   "key_value": "requisito de ingresos basado en la parte de la renta que paga el inquilino",
-  "source_hash": "4e450b0f8eac308017f23722592c39701f57c38b"
- },
- "r-0013": {
-  "title": "Alternativa al historial de crédito para solicitantes con subsidio",
-  "requirement": "Si usted tiene un subsidio gubernamental para la renta, un arrendador que use el historial de crédito debe permitirle presentar en su lugar otra prueba verificable de que puede pagar su parte de la renta (como pagos de beneficios, registros de pago de salario o estados de cuenta bancarios), darle un tiempo razonable para presentarla y considerarla razonablemente en lugar de su historial de crédito.",
-  "key_value": null,
-  "source_hash": "2e5583a84c414d08ba2cae658082c82b7cc072ae"
+  "source_hash": "c6835f7685eeb9d6a39caa846e982642b7ca7fae"
  },
  "r-0014": {
   "title": "Prohibición de discriminación por fuente de ingresos en la vivienda de alquiler (FEHA)",
@@ -163,27 +133,9 @@
  },
  "r-0016": {
   "title": "Límite del depósito de garantía de un mes de renta",
-  "requirement": "Su arrendador no puede exigir ni aceptar un depósito de garantía mayor a un mes de renta, además de la renta del primer mes. Un arrendador pequeño (una persona física o una LLC de personas físicas que sea dueña de no más de dos propiedades de alquiler con no más de cuatro unidades en total) puede cobrar hasta dos meses de renta, pero no a un miembro de las fuerzas armadas.",
+  "requirement": "Su arrendador no puede exigir ni aceptar un depósito de garantía de más de un mes de renta, además de la renta del primer mes. Un arrendador pequeño (una persona física o una LLC de personas físicas que sea dueña de no más de dos propiedades de renta con no más de cuatro unidades en total) puede cobrar hasta dos meses de renta, pero no a un miembro del servicio militar. Si usted es miembro del servicio militar y le cobran un depósito mayor al normal debido a su historial de crédito o de vivienda, el arrendador debe darle una explicación por escrito a más tardar al firmar el contrato de arrendamiento y devolverle la cantidad adicional en un plazo no mayor de seis meses si usted no está atrasado en la renta. Dentro de los 21 días después de que usted se mude, su arrendador debe devolverle el depósito y darle un estado de cuenta detallado de las deducciones, con recibos y fotos de los cargos por reparación o limpieza. Las deducciones no pueden cubrir el desgaste normal, y retener el depósito de mala fe puede costarle al arrendador hasta el doble del depósito más los daños reales. Un contrato de arrendamiento no puede calificar ningún depósito ni cargo de garantía por adelantado como \"no reembolsable\"; esa cláusula no está permitida.",
   "key_value": "1 mes de renta (2 meses para arrendadores pequeños que califiquen)",
-  "source_hash": "f7d16b39fe4cb3d753dc78b4471a4764682e3df8"
- },
- "r-0017": {
-  "title": "El depósito más alto para miembros de las fuerzas armadas debe explicarse y devolverse después de seis meses",
-  "requirement": "Si usted es miembro de las fuerzas armadas y le cobran un depósito más alto de lo normal debido a su historial de crédito o de vivienda, el arrendador debe darle una explicación por escrito a más tardar al firmar el contrato de arrendamiento y devolverle la cantidad adicional después de no más de seis meses si usted no está atrasado en la renta.",
-  "key_value": "Depósito adicional devuelto dentro de 6 meses",
-  "source_hash": "7c5a716d4453231cc20d104f1d12f5d9af2fecd8"
- },
- "r-0018": {
-  "title": "Devolución del depósito y estado de cuenta detallado dentro de 21 días; sanción por mala fe",
-  "requirement": "Dentro de los 21 días después de que usted se mude, su arrendador debe devolverle el depósito y darle un estado de cuenta detallado de las deducciones, con recibos y fotos de los cargos por reparación o limpieza. Las deducciones no pueden cubrir el desgaste normal, y retener el depósito de mala fe puede costarle al arrendador hasta el doble del depósito más los daños reales.",
-  "key_value": "21 días calendario; hasta 2 veces el depósito por mala fe",
-  "source_hash": "f8f8c024169eec92c7c7f6c0d943aac982820e2b"
- },
- "r-0019": {
-  "title": "No se permiten depósitos no reembolsables",
-  "requirement": "Un contrato de arrendamiento no puede calificar ningún depósito ni cargo inicial de garantía como \"no reembolsable\"; esa cláusula no está permitida.",
-  "key_value": null,
-  "source_hash": "9038f48b92c3bf2b88c369489d09874539a716c3"
+  "source_hash": "dd3eafc94c04786c4eaa63dad0b99231160d8dd7"
  },
  "r-0020": {
   "title": "An Act relative to preventing algorithmic rent fixing in the rental housing market (Ley para prevenir la fijación algorítmica de rentas en el mercado de vivienda de alquiler) (H.5222)",
@@ -228,16 +180,10 @@
   "source_hash": "042599d69bd8c16185c5297cc2117a23caf7ffb3"
  },
  "r-0031": {
-  "title": "Depósito de garantía limitado al primer mes de renta",
-  "requirement": "Su arrendador no puede cobrarle un depósito de garantía mayor que un mes de renta, debe ponerlo en una cuenta bancaria separada que genere intereses en Massachusetts y debe darle una declaración firmada sobre la condición del apartamento. Si la oficina estatal de vivienda emite regulaciones, un arrendador puede ofrecer una tarifa opcional en lugar del depósito, y el depósito más las tarifas nunca pueden superar un mes de renta en total.",
+  "title": "Depósito de garantía limitado a la renta del primer mes",
+  "requirement": "Su arrendador no puede cobrar un depósito de garantía mayor a un mes de renta, debe depositarlo en una cuenta bancaria separada que genere intereses en Massachusetts y debe darle una declaración firmada sobre las condiciones del apartamento. Si la oficina estatal de vivienda emite reglamentos, un arrendador puede ofrecer una tarifa opcional en lugar del depósito, y el depósito más las tarifas nunca pueden superar un mes de renta en total. Su arrendador debe devolverle el depósito de garantía, descontando únicamente la renta o los cargos de agua no pagados, el aumento de impuestos permitido o los daños documentados que vayan más allá del desgaste normal, dentro de los 30 días después de que usted se mude, y debe pagarle intereses anuales sobre el depósito. Si el arrendador no lo devuelve a tiempo, usted puede demandar por el triple de la cantidad adeudada más las costas judiciales y los honorarios de abogado.",
   "key_value": "1 mes de renta",
-  "source_hash": "09e575061420dfa1e8fe0e1b09fe65b95e6f7a6e"
- },
- "r-0032": {
-  "title": "Devolución del depósito de garantía dentro de 30 días; intereses; triple de daños",
-  "requirement": "Su arrendador debe devolverle el depósito de garantía, descontando solo la renta o cargos de agua no pagados, el aumento de impuestos permitido o daños documentados más allá del desgaste normal, dentro de los 30 días después de que usted se mude, y debe pagarle intereses anuales sobre él. Si el arrendador no lo devuelve a tiempo, usted puede demandar por el triple de la cantidad adeudada más las costas judiciales y los honorarios de abogado.",
-  "key_value": "Devolución dentro de 30 días; triple de daños",
-  "source_hash": "6d8f2fb1e4bcb2f1ac10dbc4743685d79102dbfe"
+  "source_hash": "afb95f5e5b8961fb097dc17b507ed5f4942f180e"
  },
  "r-0033": {
   "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act (Ley que Prohíbe la Inflación Algorítmica de la Renta) – prohibición de la coordinación algorítmica de rentas",
@@ -283,15 +229,9 @@
  },
  "r-0040": {
   "title": "Fair Chance in Housing Act (Ley de Oportunidad Justa en la Vivienda): no se permiten preguntas sobre antecedentes penales antes de una oferta condicional",
-  "requirement": "Un arrendador en New Jersey no puede preguntarle sobre sus antecedentes penales, ni oralmente ni en una solicitud, hasta después de hacerle una oferta condicional, excepto sobre la producción de metanfetamina en propiedades con asistencia federal o el registro de por vida como delincuente sexual. Usted puede darle al arrendador pruebas de errores en sus antecedentes o de su rehabilitación.",
-  "key_value": "No se permiten preguntas sobre antecedentes penales antes de la oferta condicional",
-  "source_hash": "b9fdebcfa70cba148ebaa3f50e08f89344a78bac"
- },
- "r-0041": {
-  "title": "Fair Chance in Housing Act (Ley de Oportunidad Justa en la Vivienda): aviso por escrito antes de aceptar una cuota de solicitud",
-  "requirement": "Antes de aceptar cualquier cuota de solicitud, un arrendador en New Jersey debe informarle por escrito si revisa antecedentes penales. También debe informarle que usted puede presentar pruebas de errores en sus antecedentes o de su rehabilitación.",
-  "key_value": null,
-  "source_hash": "28af6b208cc593314e0cb8f0b7e733dd312152a4"
+  "requirement": "Un arrendador de New Jersey no puede preguntarle sobre sus antecedentes penales, ni de forma verbal ni en una solicitud, hasta después de hacerle una oferta condicional, excepto sobre la producción de metanfetamina en propiedades con asistencia federal o el registro de por vida como delincuente sexual. Usted puede darle al arrendador pruebas de errores en sus antecedentes o de su rehabilitación. Antes de cobrar cualquier tarifa de solicitud, un arrendador de New Jersey debe informarle por escrito si revisa los antecedentes penales. También debe informarle que usted puede presentar pruebas de errores en sus antecedentes o de su rehabilitación.",
+  "key_value": "No se permiten preguntas sobre antecedentes penales antes de una oferta condicional",
+  "source_hash": "1b69309fee5559e6250a795566c908eeb5268d38"
  },
  "r-0042": {
   "title": "Fair Chance in Housing Act (Ley de Oportunidad Justa en la Vivienda): límites sobre los antecedentes penales considerados después de una oferta condicional",
