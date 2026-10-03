@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "env -u ANTHROPIC_API_KEY -u ANTHROPIC_AUTH_TOKEN -u ANTHROPIC_BASE_URL next dev",
     "dev:mock": "node scripts/dev-mock.mjs",
     "build": "next build",
-    "start": "next start",
+    "start": "env -u ANTHROPIC_API_KEY -u ANTHROPIC_AUTH_TOKEN -u ANTHROPIC_BASE_URL next start",
     "lint": "eslint",
     "typecheck": "next typegen && tsc --noEmit",
     "eval": "node scripts/eval.mjs",

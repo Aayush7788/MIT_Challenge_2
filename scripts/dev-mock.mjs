@@ -15,6 +15,7 @@ const env = {
   OPENAI_API_KEY: "mock-key",
   OPENAI_BASE_URL: `http://127.0.0.1:${port}/v1`,
 };
+delete env.ANTHROPIC_AUTH_TOKEN; // a token from your shell profile would override the mock key
 
 const children = [
   spawn(process.execPath, ["scripts/mock-llm.mjs"], { stdio: "inherit", env }),
