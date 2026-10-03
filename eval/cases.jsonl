@@ -1,0 +1,5 @@
+# Placeholder cases that check the harness works. Replace them with 20-50 real
+# cases from your challenge (inputs your users would send, answers you can verify).
+{"id": "capital-france", "input": "What is the capital of France? Answer with one word.", "expected": "Paris"}
+{"id": "multiply", "input": "What is 17 * 23? Reply with only the number.", "expected": "391", "match": "exact"}
+{"id": "json-ok", "input": "Return a JSON object with one key \"ok\" set to true. No other text.", "expected": "\"ok\"\\s*:\\s*true", "match": "regex"}

@@ -1,0 +1,5 @@
+.env*
+!.env.example
+*.local.md
+.private-patterns
+eval/results/
