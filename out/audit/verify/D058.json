@@ -1,0 +1,41 @@
+{
+ "key": "fa171bde6ec87bde64d44421045ad0f98ddf5275",
+ "doc_id": "D058",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:40:26.893Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0028",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form that shall include, but not be limited to: (i) documentation of any agreements between the tenant and landlord for the tenant to repay the landlord for nonpayment of rent;",
+    "note": "The form requirement, the repayment agreements, the not-an-eviction statement and the court filing bar are all stated. But the card names \"RAFT\" while the document says only \"residential assistance for families in transition program\", and it calls the form a \"state form\" where the document says the executive office of housing and livable communities develops it. Both are small paraphrase issues."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Section 31. (a) A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form",
+    "note": "The document presents the section as current law, with no repeal or future effective date."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "General Law - Part II, Title I, Chapter 186, Section 31",
+    "note": "The document is M.G.L. c. 186 § 31."
+   }
+  }
+ ]
+}

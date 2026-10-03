@@ -1,0 +1,74 @@
+{
+ "key": "8c00f89f5b40231f46d07954c4f076c1ed13b59e",
+ "doc_id": "D085",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:44:29.500Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0096",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice.",
+    "note": "Core rule, notice to fix violation, and 3-month relocation or rent waiver are all stated. However, the document says 'After 30 days' without specifying 'of tenancy', and the 'fix the violation' notice applies to just cause notices generally, not only at-fault ones. Minor paraphrase issues."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "Under a no-fault just cause termination, the owner shall either provide 3 months of relocation assistance or waive payment of rent for the final 3 months of the tenancy.",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "The new ordinances are not effective until November 19, 2021.",
+    "note": null
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "The new ordinances are not effective until November 19, 2021.",
+    "note": "Effective date passed before 2026-10-01; the document presents it as adopted law, and 2026 news items refer to ongoing rent stabilization. No repeal is stated."
+   },
+   "coverage": {
+    "verdict": "partly_supported",
+    "evidence": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters.",
+    "note": "The 15-year exemption is supported, but the card omits the other exemptions (deed-restricted, hotel, hospital, dormitories, etc.). No certificate-of-occupancy cutoff is stated."
+   },
+   "citation": {
+    "verdict": "partly_supported",
+    "evidence": "Key provisions of the Just Cause Eviction Ordinance",
+    "note": "The document names the Just Cause Eviction Ordinance but gives no section number or code citation; the card's citation is just the name."
+   }
+  },
+  {
+   "team_rule_id": "r-0099",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period. If the CPI is negative, no rent increase is permitted.",
+    "note": "Cap, CPI rule, June 30/September 1 publication, and written notice are supported. The document says the cap does not apply to buildings constructed after February 1, 1995, so 'on or before' is a reasonable inference. Also, the first-year publication is by November 19, 2021, not June 30."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period. If the CPI is negative, no rent increase is permitted.",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "The new ordinances are not effective until November 19, 2021.",
+    "note": null
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "The new ordinances are not effective until November 19, 2021.",
+    "note": "Effective date passed before 2026-10-01; no repeal stated, and a September 2026 Rent Stabilization Newsletter is listed."
+   },
+   "coverage": {
+    "verdict": "partly_supported",
+    "evidence": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990.",
+    "note": "Built-on-or-before 1995-02-01 follows from the exemption for buildings constructed after that date. Card omits the mobile home space cutoff of January 1, 1990."
+   },
+   "citation": {
+    "verdict": "partly_supported",
+    "evidence": "Key requirements of the Rent Stabilization Ordinance",
+    "note": "The ordinance is named in the document but no section or code citation is given."
+   }
+  }
+ ]
+}

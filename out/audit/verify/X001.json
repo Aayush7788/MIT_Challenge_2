@@ -1,0 +1,41 @@
+{
+ "key": "6a7e42ad31e8fae0fc8ae16d7a18b529c8ed0e33",
+ "doc_id": "X001",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:38:44.365Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0001",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
+    "note": "The statute's prohibition on use/distribution as part of a conspiracy and on coercion is supported, and the definition of common pricing algorithm matches. But the document applies to any \"person\", not specifically landlords or software vendors, and says nothing about rent. The advice to report to the Attorney General or consult a lawyer is not in the document."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "(Added by Stats. 2025, Ch. 338, Sec. 1. (AB 325) Effective January 1, 2026.)",
+    "note": "Effective January 1, 2026 matches 2026-01-01."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(Added by Stats. 2025, Ch. 338, Sec. 1. (AB 325) Effective January 1, 2026.)",
+    "note": "Effective date has passed as of 2026-10-01 and the document presents the section as current code text, so in_force is consistent."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "(Added by Stats. 2025, Ch. 338, Sec. 1. (AB 325) Effective January 1, 2026.)",
+    "note": "Section 16729 of the Business and Professions Code, added by AB 325, Stats. 2025, Ch. 338, matches the document."
+   }
+  }
+ ]
+}

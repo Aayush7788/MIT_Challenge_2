@@ -1,4 +1,5 @@
 import Link from "next/link";
+import rejectedJson from "../../../data/derived/rejected.json";
 import { RULES } from "@/lib/law/store";
 import { CATEGORY_LABELS } from "@/lib/law/schema";
 
@@ -6,6 +7,9 @@ import { CATEGORY_LABELS } from "@/lib/law/schema";
 // rests on. Handy for checking extraction by eye.
 
 export const metadata = { title: "Rule cards | Rental Housing Law Navigator" };
+
+const rejected = rejectedJson as unknown as { team_rule_id: string; jurisdiction: string; title: string; citation: string; source_doc_id: string; reason: string }[];
+const FIELD_LABEL: Record<string, string> = { requirement: "rule", key_value: "key figure", effective_date: "date", status: "status", coverage: "coverage", citation: "citation" };
 
 const STATUS_STYLE: Record<string, string> = {
   in_force: "bg-emerald-100 text-emerald-900",
@@ -25,7 +29,13 @@ export default function RulesPage() {
   const groups = new Map<string, typeof RULES>();
   for (const r of RULES) groups.set(r.jurisdiction, [...(groups.get(r.jurisdiction) ?? []), r]);
   const order = [...groups.keys()].sort((a, b) => (a.length === 2 ? 0 : 1) - (b.length === 2 ? 0 : 1) || a.localeCompare(b));
-  const counts = { total: RULES.length, verified: RULES.filter((r) => r.span_verified).length, flagged: RULES.filter((r) => r.conflict_flag).length };
+  const counts = {
+    total: RULES.length,
+    verified: RULES.filter((r) => r.span_verified).length,
+    flagged: RULES.filter((r) => r.conflict_flag).length,
+    checked: RULES.filter((r) => r.verification).length,
+    evidence: RULES.reduce((n, r) => n + (r.verification?.evidence.length ?? 0), 0),
+  };
 
   return (
     <main className="min-h-screen bg-stone-50 text-stone-900">
@@ -34,7 +44,7 @@ export default function RulesPage() {
           <div>
             <h1 className="text-xl font-bold tracking-tight">Rule cards</h1>
             <p className="text-sm text-stone-600">
-              {counts.total} rules read from the source documents by the extraction step; {counts.verified} quotes checked word for word against the source; {counts.flagged} flagged for human review.
+              {counts.total} rules read from the source documents. Every quote is checked word for word against its source ({counts.verified} of {counts.total}), a second model re-checked {counts.checked} cards field by field ({counts.evidence} supporting quotes found in the sources), and {counts.flagged} are flagged for human review.
             </p>
           </div>
           <nav className="flex gap-3 text-sm">
@@ -54,6 +64,20 @@ export default function RulesPage() {
         </div>
       </header>
       <section className="mx-auto max-w-6xl space-y-8 px-4 py-5">
+        <div className="rounded-lg border border-stone-200 bg-white p-4 text-sm">
+          <h2 className="font-bold">Rejected by the second check</h2>
+          {rejected.length ? (
+            <ul className="mt-2 space-y-1">
+              {rejected.map((x) => (
+                <li key={x.team_rule_id}>
+                  <span className="font-mono text-xs">{x.citation}</span> ({x.jurisdiction}, {x.source_doc_id}): {x.reason}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="mt-1 text-stone-600">None. Every card&apos;s main rule was found in its source; disputed details are listed on the cards below and lower their confidence.</p>
+          )}
+        </div>
         {order.map((j) => (
           <div key={j} id={j.replace(/\W+/g, "-")}>
             <h2 className="mb-2 text-sm font-bold uppercase tracking-wide text-stone-600">
@@ -87,6 +111,19 @@ export default function RulesPage() {
                       {r.conflict_note && <p className="mt-1 text-rose-700">Review note: {r.conflict_note}</p>}
                       {r.coverage_note && <p className="mt-1">{r.coverage_note}</p>}
                       {r.consolidation_note && <p className="mt-1">{r.consolidation_note}</p>}
+                      {r.verification && (
+                        <p className="mt-1">
+                          Second check ({r.verification.model}):{" "}
+                          {Object.entries(r.verification.verdicts)
+                            .filter(([, v]) => v !== "not_applicable")
+                            .map(([f, v]) => `${FIELD_LABEL[f] ?? f} ${v.replaceAll("_", " ")}`)
+                            .join(", ")}
+                          . {r.verification.evidence.length} supporting quotes found in the source.
+                          {r.verification.changes.map((c) => (
+                            <span key={c} className="block text-amber-800">{c}</span>
+                          ))}
+                        </p>
+                      )}
                       <p className="mt-1 text-stone-400">{r.team_rule_id} · model confidence {Math.round(r.confidence * 100)}%</p>
                     </details>
                   </li>

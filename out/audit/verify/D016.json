@@ -1,0 +1,41 @@
+{
+ "key": "0f1bff83d9b9d29ea65c3206cb82575e70db9c03",
+ "doc_id": "D016",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:39:28.062Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0014",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "No. California law protects tenants from discrimination based on how a tenant will be paying rent (“source of income”).",
+    "note": "Document also supports different terms such as higher deposit, the one-year CRD complaint limit, and the two-year court limit."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "California law protects tenants from discrimination based on how a tenant will be paying rent (“source of income”).",
+    "note": "Document presents the rule as current law."
+   },
+   "coverage": {
+    "verdict": "partly_supported",
+    "evidence": "When an owner is occupying a home and is renting to one additional person, the owner may exclude applicants based on protected characteristics.",
+    "note": "The document describes an owner-occupied exemption for renting to one additional person, which matches the value of 1. It does not say that this exemption applies to source of income specifically, and it does not use the term 'units'."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "The Fair Employment and Housing Act (FEHA) covers the sale, rental, or occupancy of most housing accommodations in California",
+    "note": "The document identifies FEHA as the governing law. The card gives no section number, and the document does not give one either."
+   }
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "key": "4053b444499ff7c42de78ec5004d543fc51363ff",
+ "doc_id": "D013",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:42:03.774Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0059",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "The Notice of Tenants’ Rights and Resources should be delivered at the same time as the Notice to quit or Notice of non-renewal of lease.",
+    "note": "Document also states landlords must submit a copy of the notice to quit to the City via portal, report to Fair Housing at 617-635-2500 or 311, and that violation does not halt eviction. Minor nuance: the portal submission is of the Notice to Quit/non-renewal, not of the Rights notice itself."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "The Notice of Tenants’ Rights and Resources should be delivered at the same time as the Notice to quit or Notice of non-renewal of lease.",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "The Housing Stability Notification Act requires\nALL LANDLORDS\nplanning to end a tenancy agreement to provide the tenant with a Notice of Tenants’ Rights and Resources.",
+    "note": "Document presents the act as current law, with no effective date."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "Housing Stability Notification Act (Sec. 10-11.7)",
+    "note": "Document cites Sec. 10-11.7; the 'Boston City Ordinances' wording is a reasonable expansion."
+   }
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "key": "144e3c913a6bcd2b7ec4ab534f847ecc8d33a344",
+ "doc_id": "D008",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:41:54.047Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0055",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "adopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
+    "note": "Regulation 1148 conditions and notice, and the phone number, are also in the document. 'No more than 1.0%' is a mild paraphrase of the increase allowed."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "The 2026 AGA of 1.0% represents 65% of the increase in the Consumer Price Index (CPI) for All Urban Consumers in the Bay Area during the period from July 1, 2024 - June 30, 2025, which was 1.5% as posted by the Bureau of Labor Statistics.",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
+    "note": "January 1, 2026 is the earliest date the increase may take effect."
+   },
+   "status": {
+    "verdict": "partly_supported",
+    "evidence": "At its regular meeting on October 16, 2025, the Berkeley Rent Stabilization Board adopted the Annual General Adjustment (AGA) Order for Year 2026",
+    "note": "The order was adopted and applies from 2026-01-01, so in_force as of 2026-10-01 is a reasonable inference. The document does not state current status explicitly and was posted in October 2025."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Coverage is null on the card."
+   },
+   "citation": {
+    "verdict": "partly_supported",
+    "evidence": "See Berkeley Municipal Code section 13.76.110A. for rules related to establishing the AGA.",
+    "note": "BMC 13.76.110A and Regulation 1148 are both named in the document. However, the card cites § 13.76.110A with Regulation 1148 in parentheses, which blurs them. 110A covers how the AGA is established, while Regulation 1148 is the Order itself."
+   }
+  }
+ ]
+}

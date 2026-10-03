@@ -1,0 +1,41 @@
+{
+ "key": "f951226c95c5ad410f5d00ca10be85562cb0c7af",
+ "doc_id": "D029",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:42:26.098Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0065",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "Source of Income, includes Section 8 and public benefits",
+    "note": "Source of income is a protected category under the Fair Housing Ordinance, and the ordinance prohibits discrimination in renting and in terms and conditions of tenancy. The complaint process and phone number are also stated. The page does not say outright that landlords may not refuse to rent because of voucher status; that follows from the protected-category list."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "The Commission enforces two ordinances: the Cambridge Human Rights Ordinance, chapter 2.76 and the Cambridge Fair Housing Ordinance, chapter 14.04",
+    "note": "The page presents the ordinance as currently enforced."
+   },
+   "coverage": {
+    "verdict": "partly_supported",
+    "evidence": "NOTE: there is an exemption for 2-family dwellings, when the owner lives there",
+    "note": "The page supports an exemption for 2-family dwellings where the owner lives, which matches the card's value of 2 units. The card's 'max units' wording is a small interpretive step. No construction or certificate-of-occupancy cutoffs are given."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "the Cambridge Fair Housing Ordinance, chapter 14.04",
+    "note": "The page identifies the ordinance as chapter 14.04. The 'Cambridge Municipal Code' label is not stated, but the chapter reference matches."
+   }
+  }
+ ]
+}

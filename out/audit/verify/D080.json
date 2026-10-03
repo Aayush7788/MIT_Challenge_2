@@ -1,0 +1,41 @@
+{
+ "key": "f5f666e742044fcb9ba5f6037b8913dda973bb49",
+ "doc_id": "D080",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:45:30.801Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0091",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "To calculate the dollar amount of the 1.6% annual rent increase, multiply the tenant's base rent by .016. For example, if the tenant's base rent is $2,000.00, the annual increase would be calculated as follows: $2,000.00 x .016 = $32.00. The tenant's new base rent would be $2,032.00 ($2,000.00 + $32.00).",
+    "note": "The document states the 1.6% limit for the period and the worked example."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.",
+    "note": "Effective March 1, 2026 matches 2026-03-01."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.",
+    "note": "As of 2026-10-01 the period is current; the document presents it as current."
+   },
+   "coverage": {
+    "verdict": "partly_supported",
+    "evidence": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979, tenancies that are eligible for a rent increase under the Costa-Hawkins Rental Housing Act,",
+    "note": "The document says units first getting a Certificate of Occupancy after June 13, 1979 are exempt from the rent increase limits. This is a CO cutoff, so the card's cutoff is consistent. The wording 'built_on_or_before' is a small step, and the document does not state the covered units explicitly. Other exemptions (Costa-Hawkins) are not captured."
+   },
+   "citation": {
+    "verdict": "not_supported",
+    "evidence": null,
+    "note": "The documents cite Ordinance Section 37.9(a) and 37.2(r), but none cites S.F. Admin. Code § 37.3 for the annual increase."
+   }
+  }
+ ]
+}

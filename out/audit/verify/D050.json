@@ -1,0 +1,41 @@
+{
+ "key": "4c7c8eb0013e4523ff9ad9e7ff6b5d147a148849",
+ "doc_id": "D050",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:40:18.325Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0026",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease, unless the tenant, on or before the day the answer is due, in an action by the landlord to recover possession of the premises, pays or tenders to the landlord or to his attorney all rent then due, with interest and costs of suit.",
+    "note": "The document also states the continuance of at least seven days for delayed government payments, which matches the card. The card says the notice is 'required' where the statute says it is 'sufficient'; this is a minor difference."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Section 11. Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease",
+    "note": "The document presents the section as current law, with no repeal noted."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "General Law - Part II, Title I, Chapter 186, Section 11",
+    "note": "The card's citation matches the chapter and section of the document."
+   }
+  }
+ ]
+}

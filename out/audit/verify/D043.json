@@ -1,0 +1,107 @@
+{
+ "key": "58a3702d34cea09e5b710594ec29aa8a2aa0f6f2",
+ "doc_id": "D043",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:39:01.005Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0008",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "The City’s Resident Protections Ordinance (RPO) and the State’s Housing Crisis Act (HCA) require that ONLY lower income households (80%  AMI or lower) being displaced for demolition of their units where the owner will replace the units with new construction receive relocation payment consistent to the relocation benefits required to be paid by public entities under Chapter 16 (commencing with Section 7260) of Division 7 of Title 1 (Government Code 66300.6(b)(4)(A)).",
+    "note": "Document states the rule; 'protected unit' framing is from Bulletin B."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "receive relocation payment consistent to the relocation benefits required to be paid by public entities under Chapter 16 (commencing with Section 7260) of Division 7 of Title 1 (Government Code 66300.6(b)(4)(A))",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field empty."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "The RSO and JCO amounts must also be enhanced for lower income tenants under the HCA regardless of the RPO applicability.",
+    "note": "Presented as current law in a bulletin dated 07/01/2026."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field empty."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "The Housing Crisis Act of 2019 (HCA) originally introduced replacement requirements and occupant protections through Senate Bill (SB) 330 and has since been updated by SB 8 and Assembly Bill (AB) 1218.",
+    "note": "Gov. Code 66300.6(b)(4)(A) is cited in the document."
+   }
+  },
+  {
+   "team_rule_id": "r-0073",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "All tenant not- at-fault evictions require payment of relocation assistance and the filing of a Declaration of Intent to Evict form with the Los Angeles Housing Department (LAHD) before evicting tenants from units covered by the Rent Stabilization Ordinance (RSO) or the Just Cause Ordinance (JCO).",
+    "note": "15-day payment, per-unit, and the non-payment defense and complaint are also stated in the document."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "Eligible Household $11,000 $14,400 $10,550 \nOne month’s \nrent Qualified \nHousehold $23,150 $27,400 $21,250",
+    "note": "Chart A is effective July 1, 2026 through June 30, 2027. The card's columns match the chart."
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "Chart A: Relocation Assistance Amounts \nEffective July 1, 2026 through June 30, 2027",
+    "note": null
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Chart A: Relocation Assistance Amounts \nEffective July 1, 2026 through June 30, 2027",
+    "note": "Current as of 2026-10-01."
+   },
+   "coverage": {
+    "verdict": "supported",
+    "evidence": "The landlord owns no more than four units of residential property and a single-family\nhome on a separate lot in the City of Los Angeles; and",
+    "note": "The four-unit limit appears in the Mom and Pop conditions and the single-family conditions. The card calls it an exemption, but it is a reduced payment condition. Close enough."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "Relocation Assistance Dispute Resolution Fee (LAMC 151.09.G, 165.06.C.).",
+    "note": "LAMC 151.09.G and 165.06 appear in the document. The other cited sections also appear (151.09.A, 165.03, 151.30, 47.06, 47.07, RAC 960.00)."
+   }
+  },
+  {
+   "team_rule_id": "r-0075",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "The RPO’s occupant protections include: 1) Right to Relocation, 2) Right to Remain in the unit up to 6 months prior to start of construction activities, which includes a 6-month notice to move out, 3) Right \nto Return to the same unit if the demolition does not proceed, 4) Right of First Refusal to the new \nbuilding for some tenants and 5) Tenant Notification Requirements.",
+    "note": "Protected Unit, minimum RSO/JCO amounts, and the $115,480 maximum are also in the document."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "Tenants Displaced by \nNew Development $115,480 $96,750 $87,450",
+    "note": "Chart B, effective July 1, 2026 through June 30, 2027; above low income get Chart A."
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "On February 11, 2025, the Los Angeles City Council adopted the RPO which codified and expanded upon \nreplacement requirements and occupant protections of the HCA",
+    "note": "Also 'effective 2/11/2025 under Ordinances # 188481 and #188482'. The date is stated."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "effective 2/11/2025 \nunder Ordinances # 188481 and #188482",
+    "note": "Presented as current in the bulletin revised 07.01.2026."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field empty."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "which must be enhanced for lower income tenants if the project is subject to the Resident Protections Ordinance (RPO), effective 2/11/2025 \nunder Ordinances # 188481 and #188482.",
+    "note": "LAMC 165.03.I(1) and 151.22-151.28 are also cited in the document."
+   }
+  }
+ ]
+}

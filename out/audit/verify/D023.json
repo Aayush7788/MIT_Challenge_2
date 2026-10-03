@@ -1,0 +1,41 @@
+{
+ "key": "426d48da93d8c9de787e8cc249aee352acb8f340",
+ "doc_id": "D023",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:38:50.335Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0007",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "(a) Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.",
+    "note": "Relocation of one month's rent within 15 days or rent waiver, and void notice for noncompliance, are also stated in (d)(3)(A) and (d)(4)."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "(A) The amount of relocation assistance or rent waiver shall be equal to one month of the tenant’s rent that was in effect when the owner issued the notice to terminate the tenancy.",
+    "note": "12-month threshold in (a); one month's rent in (d)(3)(A)."
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "(m) This section shall become operative on April 1, 2024.",
+    "note": "Matches 2024-04-01."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(n) This section shall remain in effect only until January 1, 2030, and as of that date is repealed.",
+    "note": "As of 2026-10-01 the section is in effect (amended eff. Jan 1, 2026, repeal 2030)."
+   },
+   "coverage": {
+    "verdict": "partly_supported",
+    "evidence": "(7) Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome.",
+    "note": "15-year certificate-of-occupancy exemption is supported. The owner-based exemption max of 2 units is supported only loosely: (e)(5)(A) says no more than two units or bedrooms in an owner-occupied single-family residence; (e)(6) covers a two-unit property. The card's single figure oversimplifies; the mobilehome carve-out is not listed."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "(Amended by Stats. 2025, Ch. 203, Sec. 1.   (AB 1529)   Effective January 1, 2026.   Repealed as of January 1, 2030, by its own provisions.)",
+    "note": "Section 1946.2 and the amendment are correctly cited."
+   }
+  }
+ ]
+}

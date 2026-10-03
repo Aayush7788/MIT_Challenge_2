@@ -78,6 +78,8 @@ function main() {
 
   console.log("\n== extracting (only new documents call the model)");
   run("npx", ["tsx", "scripts/extract.ts"]);
+  console.log("\n== second check of the new cards");
+  run("npx", ["tsx", "scripts/verify.ts"]);
   console.log("\n== every address, as of 2026-10-01");
   run("npx", ["tsx", "scripts/lookup.ts"]);
 

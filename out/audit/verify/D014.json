@@ -1,0 +1,41 @@
+{
+ "key": "a28b6af16f33e67b535d9b521ef7eca7fb4f2807",
+ "doc_id": "D014",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:42:07.984Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0060",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "In the event that your landlord serves you with a Notice to Quit or Notice of Lease Non-renewal or expiration, you should also receive the Notice of Tenants’ Rights and Resources at the same time.",
+    "note": "Delivery with notice, copy to Office of Housing Stability, and FHE reporting steps (617-635-2500, 311, proof of tenancy, copy of notice) are all stated in the document."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "The Notice of Tenants’ Rights and Resources must be delivered at the same time as the Notice to Quit.",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "The HSNA becomes effective on November 6, 2020.",
+    "note": null
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "The HSNA becomes effective on November 6, 2020.",
+    "note": "The document presents the ordinance as current law with no repeal or sunset, so in_force as of 2026-10-01 is consistent."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Coverage is null on the card."
+   },
+   "citation": {
+    "verdict": "partly_supported",
+    "evidence": "Housing Stability Notification Act (Sec. 10-11.7)",
+    "note": "The document gives Sec. 10-11.7 in the enforcement table, but does not say 'Boston Code of Ordinances' explicitly."
+   }
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "key": "8f285708afc30a4596b7a49f9598e33f2cedf4fb",
+ "doc_id": "D048",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:40:30.605Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0029",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:",
+    "note": "The exception is described as voluntary, 10+ units, FMR ≤ $400, and compensated from general funds; all stated in the text (voluntary after six months, owners of less than ten units excluded, FMR exceeding $400 excluded, compensation from general funds). The card's phrasing is a reasonable simplification."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:",
+    "note": "Matches the general prohibition with a narrow exception."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:",
+    "note": "Document presents the section as current law with no repeal noted."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "General Law - Part I, Title VII, Chapter 40P, Section 4",
+    "note": "Matches M.G.L. c. 40P § 4."
+   }
+  }
+ ]
+}

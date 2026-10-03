@@ -1,0 +1,41 @@
+{
+ "key": "b7fcb92a27bc4071992f846a1543590d39d693fb",
+ "doc_id": "D049",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:40:42.702Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0032",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program.",
+    "note": "Section 4(10) covers the discrimination ban. Section 7B bars ads indicating a preference, limitation or discrimination based on public assistance recipiency, so the ad prohibition is also supported."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance",
+    "note": "The document presents the rule as current law and gives no effective date, so in_force is supported."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "7B. For any person to make print, or publish, or cause to be made, printed, or published any notice, statement or advertisement, with respect to the sale or rental of multiple dwelling, contiguously located, publicly assisted or other covered housing accommodations that indicates any preference, limitation, or discrimination based on race, color, religion, sex, gender identity, sexual orientation which shall not include persons whose sexual orientation involves minor children as the sex object, national origin, genetic information, ancestry, children, marital status, public assistance recipiency, or handicap",
+    "note": "The document is M.G.L. c. 151B § 4, and subsections 10 and 7B match the citation."
+   }
+  }
+ ]
+}

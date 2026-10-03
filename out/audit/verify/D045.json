@@ -1,0 +1,41 @@
+{
+ "key": "8948bdba1229e3de4a12b466ee6ddf6a528b8a0b",
+ "doc_id": "D045",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:39:48.942Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0020",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+    "note": "Title and the 3/12/2026 reporting and referral to House Ways and Means are supported. The document does not state the bill's contents, and it does not say the bill is not law or that renters have no new rights; these follow only from its pending status. The card also says 'Joint Committee on Housing', while the history says reported from the committee on Housing."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Bill bill reported favorably by committee and referred to the committee on House Ways and Means",
+    "note": "Document shows the bill pending in the House Ways and Means committee, with no enactment, so 'pending' fits."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "New draft of",
+    "note": "The document identifies Bill H.5222, 194th, as a new draft of H1564. The card's 'H.1564' matches 'H1564' in the document."
+   }
+  }
+ ]
+}

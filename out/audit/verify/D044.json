@@ -1,0 +1,74 @@
+{
+ "key": "c18db48d25ded9ecad9d68679eb6d282320e1b17",
+ "doc_id": "D044",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:43:06.898Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0076",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "Landlords of rental units subject to the Rent Stabilization Ordinance (RSO), which includes dwelling units, suites, condominiums, duplexes, guest rooms, and rooms in a hotel, motel, rooming house or boarding house occupied by the same tenant for more than 30 consecutive days in the City of Los Angeles with a certificate of occupancy first issued before October 1, 1978, must pay intere st on all security deposits held for at least one (1) year for their tenants.",
+    "note": "The document ties RSO coverage to a certificate of occupancy first issued before Oct 1, 1978. The advice to check the certificate date is a plain-language gloss."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "The interest rate set by the Rent Adjustment Commission for 2026 is 3.03%.",
+    "note": "The document presents the rule as current law, so in_force is supported."
+   },
+   "coverage": {
+    "verdict": "supported",
+    "evidence": "with a certificate of occupancy first issued before October 1, 1978",
+    "note": "The cutoff is before Oct 1, 1978, which matches 1978-09-30 as the last covered date, and it is based on the certificate of occupancy."
+   },
+   "citation": {
+    "verdict": "partly_supported",
+    "evidence": "Nothing in the Rent St abilization Ordinance No. 151. 06.02(F) prevents landlords from exercising their own discretion rights in investing deposits.",
+    "note": "The document mentions the Rent Stabilization Ordinance and section 151.06.02. It never mentions L.A. Mun. Code ch. XV, and the cited section concerns security deposit interest, not coverage."
+   }
+  },
+  {
+   "team_rule_id": "r-0079",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "If the second method is used, the landlord must provide the tenant with a copy of a bank statement indicating the interest earned on their deposit for the year.",
+    "note": "The other elements are also stated in the document: the one-year hold, the 3.03% rate, payment as a direct payment or rent credit, payment of unpaid interest at move-out, and the civil remedy in Small Claims Court with no RSD investigation."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "The interest rate set by the Rent Adjustment Commission for 2026 is 3.03%.",
+    "note": "The document also describes the choice between the simple rate and the actual interest earned."
+   },
+   "effective_date": {
+    "verdict": "partly_supported",
+    "evidence": "Effective January 1, 2004, the Los Angeles City Council passed Ordinance 175020, which further amended the Security Deposit requirements for rent stabilized rental units",
+    "note": "The 2004-01-01 date is stated for the amendment. The interest requirement itself began accruing earlier, on Nov 1, 1990."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "The interest rate set by the Rent Adjustment Commission for 2026 is 3.03%.",
+    "note": "The document presents the rule as current law."
+   },
+   "coverage": {
+    "verdict": "supported",
+    "evidence": "with a certificate of occupancy first issued before October 1, 1978, must pay intere st on all security deposits held for at least one (1) year for their tenants.",
+    "note": "The certificate of occupancy cutoff is stated."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "Nothing in the Rent St abilization Ordinance No. 151. 06.02(F) prevents landlords from exercising their own discretion rights in investing deposits.",
+    "note": "The document references section 151.06.02 and Ordinances 175020, 166368, and 174017."
+   }
+  }
+ ]
+}

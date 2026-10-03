@@ -17,7 +17,8 @@ const opt = (name: string, dflt: string) => {
   return i >= 0 ? args[i + 1] : dflt;
 };
 const AS_OF = opt("as-of", "2026-10-01");
-const RULES_IN = opt("rules", process.env.RULES_IN ?? "out/rules.json");
+// Use the second-checked rules when scripts/verify.ts has run.
+const RULES_IN = opt("rules", process.env.RULES_IN ?? (fs.existsSync("out/rules.verified.json") ? "out/rules.verified.json" : "out/rules.json"));
 const OUT = opt("out", "submission/lookups.json");
 
 export type ResolvedAddress = { address_id: string; state: string; city: string | null; county: string | null; method: string; matched_address: string | null };

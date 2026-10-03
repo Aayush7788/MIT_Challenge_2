@@ -1,0 +1,41 @@
+{
+ "key": "f1643d871e16541f636a3a4e70fb510f78c7e313",
+ "doc_id": "D074",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:43:25.958Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0082",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "It is unlawful for a person to sell, license, or otherwise provide an algorithmic device to a landlord.",
+    "note": "Sale/licensing ban, landlord-use ban, tenant remedies, and fee-shifting all appear in §§98.1102-98.1104. The card says a tenant 'wins' for fees; the text also gives fees to a prevailing landlord, which is a minor omission."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "For each month a violation of section 98.1103(b) exists or continues, and for each residential rental property a landlord uses an algorithmic device, it shall constitute a separate and distinct violation.",
+    "note": "The $1,000 cap per violation is in §98.1104(a). The separate-violation rule applies to landlord use under 98.1103(b)."
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "(“Purpose and Intent” added 5-22-2025 by O-21955 N.S.; effective 6-21-2025.)",
+    "note": "Effective 6-21-2025 matches 2025-06-21."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(“Prohibition of Anti-Competitive Automated Rent Price-Fixing” added 5-22-2025 by O-21955 N.S.; effective 6-21-2025.)",
+    "note": "The document presents the adopted text as current law with no repeal or sunset, so in_force as of 2026-10-01 is consistent."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Card coverage is null."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "§98.1103 Use and Sale of Algorithmic Devices Prohibited",
+    "note": "The cited sections 98.1102, 98.1103, and 98.1104 and ordinance O-21955 N.S. all appear in the document."
+   }
+  }
+ ]
+}

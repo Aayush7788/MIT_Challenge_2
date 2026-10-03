@@ -1,0 +1,41 @@
+{
+ "key": "9033e1c0a9d16c8b5a6463b8cc8fa860691e2ef2",
+ "doc_id": "D081",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:43:43.053Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0086",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "The law prohibits the sale or use of such algorithmic devices and allows a tenant or the City Attorney to bring a civil action if they believe an entity is in violation of the law.",
+    "note": "Document also covers setting rents or managing occupancy; the definition focuses on nonpublic competitor rental data for vacant unit rent recommendations. Card's wording is close enough."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024.",
+    "note": "Date matches 2024-10-14."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024.",
+    "note": "Document presents the law as current, in effect since 2024; no repeal is mentioned."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "partly_supported",
+    "evidence": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024.",
+    "note": "Document names Section 37.10C of the Rent Ordinance but does not say it is in the S.F. Admin. Code; that part is not stated."
+   }
+  }
+ ]
+}

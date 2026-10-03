@@ -138,6 +138,14 @@ export type RuleRecord = {
   coverage_note?: string | null; // set when coverage was filled from a sibling record
   source_type?: string; // manifest source type; "secondary ..." for news, law-firm pages and mirrors
   consolidation_note?: string | null; // set when the record took a date from, or absorbed, another record
+  verification?: Verification; // second check (scripts/verify.ts)
+};
+
+export type Verification = {
+  model: string;
+  verdicts: Record<string, string>; // field -> supported / partly_supported / not_supported / not_applicable
+  evidence: { field: string; quote: string }[]; // auditor quotes we found word for word in the source
+  changes: string[]; // what the second check removed or disputed
 };
 
 export type Address = {

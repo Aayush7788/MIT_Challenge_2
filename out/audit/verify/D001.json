@@ -1,0 +1,41 @@
+{
+ "key": "574fa420d991733c32332a37e4232b5255d945d0",
+ "doc_id": "D001",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:41:29.651Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0047",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "It shall be unlawful for a landlord to use a coordinated pricing algorithm described in subsection A when setting rents or occupancy levels for residential dwelling units in the City of Berkeley.",
+    "note": "The ban on sale, the 90-day non-public Competitor Data definition, and the tenant remedies (injunctive relief, money damages, civil penalties up to $1,000, attorney's fees) are all in the text of 13.63.020 to 13.63.040."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "Each separate month that a violation exists or continues, and each separate residential dwelling unit for which the landlord used the coordinated pricing algorithm, shall constitute a separate and distinct violation.",
+    "note": "The $1,000 per violation cap is in 13.63.040(B): \"civil penalties of up to $1,000 per violation.\""
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "partly_supported",
+    "evidence": "At a regular meeting of the Council of the City of Berkeley held on November 18, 2025, this Ordinance was passed to print and ordered published by posting by the following vote:",
+    "note": "The document presents the ordinance as the current chapter text, but it only shows it was passed to print on Nov 18, 2025. It states no adoption or effective date, so in-force status as of 2026-10-01 is an inference."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "ORDINANCE NO. 7,992-N.S. AMENDING CHAPTER 13.63 OF THE BERKELEY MUNICIPAL CODE",
+    "note": "Chapter 13.63 and § 13.63.030 are the prohibition provisions in Ord. 7,992-N.S. The tenant remedy is in § 13.63.040, which the citation does not list but which falls within ch. 13.63."
+   }
+  }
+ ]
+}

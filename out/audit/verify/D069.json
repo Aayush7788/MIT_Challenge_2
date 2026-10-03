@@ -1,0 +1,41 @@
+{
+ "key": "8c8a08cef47847f2ff06a73d214c51c68b48351b",
+ "doc_id": "D069",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:40:49.412Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0035",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "It shall be unlawful and a violation of the “New Jersey Antitrust Act,” P.L.1970, c.73 (C.56:9-1 et seq.) for:",
+    "note": "Card's plain-language summary matches sections 3, 4 and 7: it bans using coordinator services, performing a coordinating function and parallel pricing coordination, and the AG must set up a complaint location. Minor simplification, since 'landlords' and 'competitors' data' paraphrase the text."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "a.     a rental property owner, or any agent, representative, or subcontractor thereof, to receive, subscribe to, contract for, or otherwise exchange any form of consideration in return for the use of, the services of a coordinator;",
+    "note": "Ban on using or providing coordination services, and violation of the NJ Antitrust Act, are both stated in section 4."
+   },
+   "effective_date": {
+    "verdict": "partly_supported",
+    "evidence": "9.    This act shall take effect on the first day of the twelfth month next following the date of enactment.",
+    "note": "The document gives approval on July 20, 2026, and the rule. The twelfth month following is plausibly July 2027, so 2027-07-01 follows by a small computation, but the card does not state the calendar date. The reading of 'twelfth month next following' is an interpretation, since it could be read as August 1, 2027."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "This act shall take effect on the first day of the twelfth month next following the date of enactment.",
+    "note": "The act was approved July 20, 2026, and the effective date is after 2026-10-01 under the card's computation (and under the alternative reading), so not_yet_effective as of 2026-10-01 holds."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Coverage is null on the card."
+   },
+   "citation": {
+    "verdict": "partly_supported",
+    "evidence": "P.L. 2026, CHAPTER 43, approved July 20, 2026",
+    "note": "P.L. 2026, c.43 and A3497 ACS 1R are supported. The header gives the codification as C.56:9-20 to 56:9-26 for §§1-7, which matches the card's range. The 'N.J.S.A.' prefix is not stated verbatim."
+   }
+  }
+ ]
+}

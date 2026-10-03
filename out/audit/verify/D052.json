@@ -1,0 +1,107 @@
+{
+ "key": "11877583a631bb8c22867b7778bd65327fdf5702",
+ "doc_id": "D052",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:40:14.341Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0025",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "(b) At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of the following:",
+    "note": "Items (i)-(iv) match first month, last month, security deposit of first month's rent, and key and lock cost. Agent language is effective August 1, 2025."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "(iv) the purchase and installation cost for a key and lock.",
+    "note": "Items (i)-(iii) list first month, last month, and a security deposit equal to the first month's rent."
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "[ Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]",
+    "note": "The amendment adding the agent language is effective 2025-08-01."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "[ Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]",
+    "note": "Amended text is effective before 2026-10-01 and is presented as current law."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Coverage is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "[ Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]",
+    "note": "The document is c. 186 § 15B(1)(b), and the amendment cite is St. 2025, c. 9, §§ 54-55."
+   }
+  },
+  {
+   "team_rule_id": "r-0033",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2);",
+    "note": "The fee-in-lieu regulation provision and the one-month cap on deposit plus fees are also stated. The signed statement of condition is in (2)(c), and the separate interest-bearing account in (3)(a)."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3)",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Effective date is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3)",
+    "note": "The document presents the rule as current law."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Coverage is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3)",
+    "note": "This text is in § 15B(1)(b)(iii)."
+   }
+  },
+  {
+   "team_rule_id": "r-0034",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "(4) The lessor shall, within thirty days after the termination of occupancy under a tenancy-at-will or the end of the tenancy as specified in a valid written lease agreement, return to the tenant the security deposit or any balance thereof;",
+    "note": "Deductions, the 30-day return, treble damages and fees are supported. The yearly interest requirement applies only where the deposit is held for a year or longer. The treble damages cover failures under 6(a), (d) and (e), and the card's gloss is loose."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "the tenant shall be awarded damages in an amount equal to three times the amount of such security deposit or balance thereof to which the tenant is entitled plus interest at the rate of five per cent from the date when such payment became due, together with court costs and reasonable attorney's fees.",
+    "note": "The 30-day return is in subsection (4)."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Effective date is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(4) The lessor shall, within thirty days after the termination of occupancy under a tenancy-at-will or the end of the tenancy as specified in a valid written lease agreement, return to the tenant the security deposit or any balance thereof;",
+    "note": "The document presents the rule as current law."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Coverage is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "(7) If the lessor or his agent fails to comply with clauses (a), (d), or (e) of subsection 6, the tenant shall be awarded damages",
+    "note": "Subsections (4), (6) and (7) of § 15B hold the cited content."
+   }
+  }
+ ]
+}

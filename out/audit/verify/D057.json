@@ -1,0 +1,74 @@
+{
+ "key": "c6a36aa518cfae7ea1b20244bda72da146dcec04",
+ "doc_id": "D057",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:40:04.015Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0023",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman as defined in section eighty-seven PP of chapter one hundred and twelve.",
+    "note": "The statute bars unlicensed persons from finding dwellings for a fee. The card's advice not to pay unlicensed finders follows from that."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman as defined in section eighty-seven PP of chapter one hundred and twelve.",
+    "note": "The document presents the rule as current law, in both the pre- and post-August 2025 versions."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "Section 87DDD1/2. No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman",
+    "note": "The citation matches the section in the document."
+   }
+  },
+  {
+   "team_rule_id": "r-0024",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson.",
+    "note": "The statement that a tenant cannot be made to pay a fee when the landlord hired the broker follows directly from this."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson.",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "[ Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]",
+    "note": "The amended text is stated as effective August 1, 2025."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "[ Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]",
+    "note": "The amended text took effect before 2026-10-01 and is presented as current law."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "[ Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025.",
+    "note": "The citation to the section as amended by St. 2025, c. 9, § 43 matches the document."
+   }
+  }
+ ]
+}

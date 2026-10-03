@@ -1,0 +1,41 @@
+{
+ "key": "04462453399ebe4c7d81203fc33e44cce25038f9",
+ "doc_id": "D047",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:39:57.259Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0022",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "Bill reported favorably by committee and referred to the committee on Senate Ways and Means",
+    "note": "The title \"An Act prohibiting algorithmic rent setting\" and the 3/12/2026 committee action are supported. The document gives no bill text, so the specific prohibition on landlords is inferred from the title only. The document does not say outright that it is not law, but its status (referred to Senate Ways and Means) implies that."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Bill reported favorably by committee and referred to the committee on Senate Ways and Means",
+    "note": "The bill is still in the Senate committee process as of the retrieval date, so pending is consistent with the document."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "Displaying  3 actions for Bill S.2983",
+    "note": "The document identifies Bill S.2983 in the 194th session and records it as a new draft of S994 and S1016. The citation matches."
+   }
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "key": "c913770347e22902247b4008d1147f65d4108025",
+ "doc_id": "D073",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:43:34.136Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0083",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "A landlord shall not terminate a tenancy without just cause. For purposes of this Division, just cause includes at-fault just cause and no-fault just cause.",
+    "note": "At-fault and no-fault causes, 30/60-day notice, and void-notice rule are all in the text (98.0704, 98.0706(b)(1), 98.0706(e), 98.0710)."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "Tenancy means the lawful right or entitlement of a tenant to continuously use or occupy a residential rental property for more than 30 days.",
+    "note": "Just cause applies to tenancies over 30 days; fixed terms of three months or less are excluded."
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "(“Just Cause Required for Termination of Tenancy” added 5-25-2023 by O-21647 N.S.; effective 6-24-2023.)",
+    "note": null
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(Amended 2-27-2024 by O-21769 N.S.; effective 3-28-2024.)",
+    "note": "Presented as current law; no repeal indicated."
+   },
+   "coverage": {
+    "verdict": "partly_supported",
+    "evidence": "(k) housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome; and",
+    "note": "15-year certificate-of-occupancy exemption is supported. The owner-occupancy exemption max of 2 units is only loosely supported: a duplex where the landlord occupies one unit (98.0703(j)), and a single-family residence with no more than two bedrooms/ADUs rented (i)(1). The card's 'max units 2' simplifies this and omits other exemptions."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "§98.0704 Just Cause Required for Termination of Tenancy",
+    "note": "Section and ordinance numbers match the document's history notes."
+   }
+  },
+  {
+   "team_rule_id": "r-0084",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "(i) If the landlord elects to provide relocation assistance by a direct payment to the tenant, the notice shall state the amount of relocation assistance available to the tenant and that the landlord shall provide the payment within 15 days from the date of the notice.",
+    "note": "Two months' rent (three for seniors/disabled), regardless of income or tenancy length, and the rent waiver option are supported. The card's phrasing that the landlord 'must pay' within 15 days applies only when direct payment is elected."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "(ii) If the tenant is a senior or disabled, the direct payment to the tenant shall be in an amount equal to three months of actual rent under the tenant’s lease in effect at the date of the notice.",
+    "note": "Two months is the default per 98.0706(c)(1)(A)(i)."
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "(“Requirements Upon Termination of Tenancy” added 5-25-2023 by O-21647 N.S.; effective 6-24-2023.)",
+    "note": null
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(“Requirements Upon Termination of Tenancy” added 5-25-2023 by O-21647 N.S.; effective 6-24-2023.)",
+    "note": "Presented as current law."
+   },
+   "coverage": {
+    "verdict": "partly_supported",
+    "evidence": "(k) housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome; and",
+    "note": "The 15-year certificate-of-occupancy exemption is supported. The 'max 2 units' owner-based figure is a simplification of the exemptions in 98.0703(i)-(j) and omits other exemptions."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "(c) Relocation Assistance for Termination of Tenancy for No-Fault Just Cause.",
+    "note": "98.0706(c) is the correct section, added by O-21647."
+   }
+  }
+ ]
+}

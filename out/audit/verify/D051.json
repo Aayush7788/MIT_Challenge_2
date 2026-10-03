@@ -1,0 +1,41 @@
+{
+ "key": "76685d7215dc27b28030d9b6488f425508c95c74",
+ "doc_id": "D051",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:40:22.576Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0027",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party; and, if the rent reserved is payable at periods of less than three months, the time of such notice shall be sufficient if it is equal to the interval between the days of payment or thirty days, whichever is longer.",
+    "note": "Notice rule and the offer of a new tenancy are supported (the document says the notice may include such an offer). The document does not say that no reason or cause is required, and it does not limit the notice to landlords; either party may give it. The three-month rule applies when rent is payable at intervals of three months or longer, which is roughly what the card says."
+   },
+   "key_value": {
+    "verdict": "partly_supported",
+    "evidence": "if the rent reserved is payable at periods of less than three months, the time of such notice shall be sufficient if it is equal to the interval between the days of payment or thirty days, whichever is longer.",
+    "note": "The value is accurate for rent payable at intervals under three months. The card omits the condition that the general rule is three months' notice."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party;",
+    "note": "The document presents the section as current law, retrieved 2026-10-01."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "General Law - Part II, Title I, Chapter 186, Section 12",
+    "note": "The document is M.G.L. c. 186 § 12."
+   }
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "key": "d161d8400a41f029c6af5195e239dbbfceffbbdc",
+ "doc_id": "D066",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:40:54.907Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0036",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "A landlord, or agent thereof, shall not require an application or other similar fee to apply to lease or sublease a residential rental property for dwelling purposes, which exceeds $50.",
+    "note": "Cap, CPI adjustment, refund from penalty, and a mechanism for reporting violations are in the text. The January 1, 2027 start follows from \"January 1 of the year next following enactment\" with enactment in 2026 (approved Jan 20, 2026), a small step. The document does not say the report goes to the Division of Consumer Affairs specifically; it says the Director shall adopt rules setting a reporting mechanism."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "A landlord, or agent thereof, shall not require an application or other similar fee to apply to lease or sublease a residential rental property for dwelling purposes, which exceeds $50.",
+    "note": "$50 cap with annual CPI adjustment under subsection d."
+   },
+   "effective_date": {
+    "verdict": "partly_supported",
+    "evidence": "3.  This act shall take effect on the first day of the fourth month next following the date of enactment, except that the Director of the Division of Consumer Affairs in the Department of Law and Public Safety shall be permitted to take anticipatory action necessary to effectuate the provisions of this act.",
+    "note": "Approved January 20, 2026, so the first day of the fourth month following is May 1, 2026. Computed by a small step. The document does not state the date itself."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Approved January 20, 2026.",
+    "note": "As of 2026-10-01 the act is past its computed May 1, 2026 effective date, so in_force is consistent."
+   },
+   "coverage": {
+    "verdict": "not_supported",
+    "evidence": "(1) a dwelling unit located in a one-family or two-family dwelling that is offered for rent; or",
+    "note": "The document exempts units in one- or two-family dwellings. It states no unit-count threshold. min_units: 3 is a loose inference, and the exemption for licensees of the Real Estate Commission is omitted."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "P.L. 2025, c.405 (A4899 4R)",
+    "note": "The document identifies the law as P.L. 2025, c.405 (A4899) and gives the section as C.46:8-18.1."
+   }
+  }
+ ]
+}

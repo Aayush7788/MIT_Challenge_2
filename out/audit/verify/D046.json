@@ -1,0 +1,41 @@
+{
+ "key": "2b3d0619aca28348161b8f58b99745ee3bad65cf",
+ "doc_id": "D046",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:39:53.185Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0021",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "An Act prohibiting algorithmic rent setting",
+    "note": "Title supports a bill to prohibit algorithmic rent setting, and the history shows it was referred to Senate Ways and Means. The bill text is not in the document, so the ban's content is not described, though the title indicates it. 'Gives renters no rights yet' is an inference."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Bill reported favorably by committee and referred to the committee on Senate Ways and Means",
+    "note": "The bill is still pending in the Senate as of the retrieval date, with no enactment shown, so 'pending' fits."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "The committee on Housing, to whom was referred the petitions (accompanied by bill, Senate, No. 994) of Cindy F. Friedman and Julian Cyr for legislation to prohibit algorithmic rent setting; and (accompanied by bill, Senate, No. 1016)",
+    "note": "The document identifies Bill S.2983 of the 194th General Court as a new draft of S994 and S1016, matching the citation."
+   }
+  }
+ ]
+}

@@ -21,7 +21,8 @@
     "pipeline": "npm run lookups && npm run changes && npm run score",
     "ingest": "tsx scripts/ingest.ts",
     "capture": "python3 scripts/capture-source.py",
-    "translate": "tsx scripts/translate.ts"
+    "translate": "tsx scripts/translate.ts",
+    "verify": "tsx scripts/verify.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.131.0",

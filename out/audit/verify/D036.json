@@ -1,0 +1,41 @@
+{
+ "key": "56c848c1e1ad398e3b7a8d16aee4abed8cae6ccf",
+ "doc_id": "D036",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:42:51.765Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0071",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "(Please Note: All 1-4 Unit Properties are exempt from rent control)",
+    "note": "The page says 1-4 unit properties are exempt, and the SeeClickFix inquiry and Illegal Rent Petition routes are both described. \"May be regulated\" fits the stated exemptions, which are available on request."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "The Office of Landlord Tenant Relations administers and enforces the Rent Control Ordinance, Chapter 260 of the Jersey City Municipal Code",
+    "note": "The page presents the ordinance as currently administered and enforced."
+   },
+   "coverage": {
+    "verdict": "partly_supported",
+    "evidence": "(Please Note: All 1-4 Unit Properties are exempt from rent control)",
+    "note": "1-4 unit exemption implies 5+ units are covered, but the page does not state the threshold as a minimum of 5. Other exemptions may also apply. No construction or certificate-of-occupancy cutoffs appear."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "The Office of Landlord Tenant Relations administers and enforces the Rent Control Ordinance, Chapter 260 of the Jersey City Municipal Code",
+    "note": "Chapter 260 of the Jersey City Municipal Code matches the card's citation."
+   }
+  }
+ ]
+}

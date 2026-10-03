@@ -1,0 +1,41 @@
+{
+ "key": "8736865c6ea7fb8e8a7eae6d2e1519fd0524fa8a",
+ "doc_id": "D070",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:43:15.573Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0080",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "The allowable annual increase will not be permitted, if the dwelling is not in substantial compliance and/or if the landlord has not met the registration requirements as specified in this subsection 19:2-9.8.",
+    "note": "The 12-month window, the 4% cap, the irrelevance of tenant or owner changes, and the substantial-compliance and registration conditions are all stated on the page. The advice to check registration with the Office of Rent Control is only a practical suggestion."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "In no case shall the allowable rent increase exceed 4%.",
+    "note": "The page states the 4% cap, and the 12-month period appears in the preceding paragraph."
+   },
+   "effective_date": {
+    "verdict": "partly_supported",
+    "evidence": "The Rent Control Ordinance was amended on September 05, 2017.",
+    "note": "The 2017-09-05 date is the amendment date, shown in the ordinance citation (Ord. 6 PSF-A(S), 9-5-17). The page does not say that the 4% cap took effect on that date."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "In no case shall the allowable rent increase exceed 4%.",
+    "note": "The page presents the cap as current law. The 2020 moratorium was rescinded on September 18, 2023."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "The coverage field on the card is empty."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "Pursuant to 19:2-3. Rent Increases. 19:2-3.1. Determination of Rents. In no case shall the allowable rent increase exceed 4%. The allowable annual increase will not be permitted, if the dwelling is not in substantial compliance and/or if the landlord has not met the registration requirements as specified in this subsection 19:2-9.8. (Ord. 6 PSF-A(S), 9-5-17)",
+    "note": "The page gives the section number and the ordinance reference."
+   }
+  }
+ ]
+}

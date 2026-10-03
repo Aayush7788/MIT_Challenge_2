@@ -1,0 +1,74 @@
+{
+ "key": "40cd18249ca69b16d60d28f9a836a80fe4f31e7f",
+ "doc_id": "D007",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:39:34.392Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0015",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and furnished units",
+    "note": "Last month's rent counts and first month's rent does not, per the document. Small landlord two-month allowance is also stated."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons",
+    "note": "One month general cap and two months for qualifying small landlords are both stated."
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "A California law, Assembly Bill 12, changed the amount landlords can charge as a security deposit to the amounts described above starting July 1, 2024.",
+    "note": null
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and furnished units",
+    "note": "Presented as current law as of the 2026 retrieval."
+   },
+   "coverage": {
+    "verdict": "partly_supported",
+    "evidence": "landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons",
+    "note": "The four-unit total is supported, but the card omits the two-property limit and the ownership-type conditions. Calling it 'owner_based_exemption_max_units' is a loose label."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "A California law, Assembly Bill 12, changed the amount landlords can charge as a security deposit to the amounts described above starting July 1, 2024.",
+    "note": "AB 12 is named in the document."
+   }
+  },
+  {
+   "team_rule_id": "r-0058",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year.",
+    "note": null
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year.",
+    "note": "Presented as current requirement; no effective date needed."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field empty on the card."
+   },
+   "citation": {
+    "verdict": "partly_supported",
+    "evidence": "landlords must pay tenants interest on their security deposit at the end of each year",
+    "note": "The document refers to the Berkeley Rent Ordinance generally but gives no section number."
+   }
+  }
+ ]
+}

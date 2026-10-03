@@ -1,0 +1,41 @@
+{
+ "key": "f5fbd67103884126cfc0531b2d64cec9fb70e838",
+ "doc_id": "D075",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:43:39.275Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0085",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "It is unlawful for any person to make, print, publish, advertise, or disseminate in any  way, or cause to be made, printed, published, advertised, or disseminated in any way, any notice, statement, or advertisement with respect to a rental-unit, or with respect to financing related to a rental-unit, which indicates discrimination based on a person’s source of income .",
+    "note": "Refusal to rent or renew, termination, false unavailability, advertising, the broad source-of-income definition, and aggregation of co-tenant and cosigner income are all stated in §§98.0802-98.0803. The card says 'Section 8' explicitly, which the document does not name, but it is covered by the housing subsidy program language."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "If the court determines that a violation occurred during a tenancy, then the court shall award to the individual whose rights are violated three (3) times the amount of one month’s rent that was being charged for the rental-unit at the time of violation.",
+    "note": "Treble one month's rent is stated; before a tenancy it is based on the advertised rent."
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "(“Prohibition of Discrimination Based on a Tenant’s Source of Income”  added 9-18-2018 by O–20986 N.S.; effective 10-18-2018.)",
+    "note": "Effective 10-18-2018 matches 2018-10-18. Note that §98.0806(a) applies the enforcement action to violations on or after August 1, 2019."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(“Prohibition of Discrimination Based on a Tenant’s Source of Income”  added 9-18-2018 by O–20986 N.S.; effective 10-18-2018.)",
+    "note": "The document presents the division as current law, with no repeal noted."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "The coverage field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "§98.0803 Prohibited Activity",
+    "note": "The cited section and ordinance number O-20986 N.S. appear in the document, and the §§98.0801-98.0806 range matches the division."
+   }
+  }
+ ]
+}

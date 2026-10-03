@@ -1,0 +1,41 @@
+{
+ "key": "15546b47cfa71f10ff0f1ccd04b341edfcdd1e8c",
+ "doc_id": "D010",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:42:18.527Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0063",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or land, or that have income restricted units created under the Boston Planning and Development Agency (BPDA) Inclusionary Development Policy will not impose a blanket policy that denies housing to anyone with arrests and or convictions. Housing providers will consider applicants on a case-by-case basis.",
+    "note": "Blanket-ban prohibition, case-by-case review and the four excluded categories are stated. The 5-year exclusion is qualified: the policy does not apply where there is a direct relationship between the conviction and the housing or unreasonable risk of harm, and not to current criminal behavior. The card omits these exceptions. The tenant tip about asking for review and offering rehabilitation evidence is only loosely supported (rehabilitation is a factor landlords consider; an appeals process only 'when feasible')."
+   },
+   "key_value": {
+    "verdict": "partly_supported",
+    "evidence": "d) A conviction more than 5 years old. Tenant selection policy related to arrests and convictions does not apply in situations where there is:",
+    "note": "The 5-year figure is stated, but the card states it unconditionally, while the document carves out exceptions (direct relationship/unreasonable risk, current criminal behavior)."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Under this policy, housing providers agree to the following:",
+    "note": "The document presents the policy as current, with no repeal or expiry. It is dated February 2017."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "BOSTON FAIR CHANCE TENANT SELECTION POLICY",
+    "note": "The document is the Boston DND policy, with each page labeled February 2017, matching the citation."
+   }
+  }
+ ]
+}

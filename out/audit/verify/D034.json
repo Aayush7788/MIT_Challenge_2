@@ -1,0 +1,41 @@
+{
+ "key": "ece7e9073cbc06df942dd44c3f8fbc9b89f6ca2d",
+ "doc_id": "D034",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:42:30.656Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0066",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing.",
+    "note": "The definition of price fixing and the enforcement clause (Division of Housing or any aggrieved private citizen to Municipal Court) both match the card."
+   },
+   "key_value": {
+    "verdict": "partly_supported",
+    "evidence": "2. By a fine not exceeding $2,000.00; or,\n\n3. By a period of community service not exceeding ninety (90) days.",
+    "note": "The fine and community service are stated. The penalties are \"one or more of\" options, which also include N.J.S.A. 40:49-5 penalties. The card omits that third option."
+   },
+   "effective_date": {
+    "verdict": "partly_supported",
+    "evidence": "This Ordinance shall take effect immediately upon passage and publication as provided by law.",
+    "note": "Adoption on Jul 9, 2025 is stated. Effectiveness also depends on publication, whose date is not given. The card's date is an approximation, as the extractor notes say."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "RESULT:ADOPTED [UNANIMOUS]",
+    "note": "The ordinance was adopted Jul 9, 2025 and no repeal appears in the document, so it is presented as current law."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "The card's coverage field is empty."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "Ordinance Amending and Supplementing Chapter 158 (Rent Increases) of the Hoboken City Code by Adding a New Section 158-2, Entitled “Prohibition Against Algorithmic Rent-Fixing in the Rental Housing Market”",
+    "note": "The title says § 158-2 and the body heading reads § 154-8, as the card states. The adoption date of Jul 9, 2025 is also supported."
+   }
+  }
+ ]
+}

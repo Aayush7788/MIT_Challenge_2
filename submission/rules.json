@@ -31,7 +31,7 @@
    "source_doc_id": "X001",
    "retrieved_at": "2026-10-03 20:58 UTC",
    "span_verified": true,
-   "confidence": 0.88,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -39,7 +39,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official text captured by the team (not in the starter pack)",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "not_applicable",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state."
+     },
+     {
+      "field": "effective_date",
+      "quote": "(Added by Stats. 2025, Ch. 338, Sec. 1. (AB 325) Effective January 1, 2026.)"
+     },
+     {
+      "field": "status",
+      "quote": "(Added by Stats. 2025, Ch. 338, Sec. 1. (AB 325) Effective January 1, 2026.)"
+     },
+     {
+      "field": "citation",
+      "quote": "(Added by Stats. 2025, Ch. 338, Sec. 1. (AB 325) Effective January 1, 2026.)"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0002",
@@ -80,7 +110,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": "Effective date taken from r-0001 (Cal. Bus. & Prof. Code § 16729 (AB 325, Stats. 2025, Ch. 338)), which states it for the same code section."
+   "consolidation_note": "Effective date taken from r-0001 (Cal. Bus. & Prof. Code § 16729 (AB 325, Stats. 2025, Ch. 338)), which states it for the same code section.",
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter."
+     },
+     {
+      "field": "status",
+      "quote": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter."
+     },
+     {
+      "field": "citation",
+      "quote": "An act to add Sections 16729 and 16756.1 to the Business and Professions Code, relating to business regulations."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0003",
@@ -121,7 +177,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": "Effective date taken from r-0001 (Cal. Bus. & Prof. Code § 16729 (AB 325, Stats. 2025, Ch. 338)), which states it for the same code section."
+   "consolidation_note": "Effective date taken from r-0001 (Cal. Bus. & Prof. Code § 16729 (AB 325, Stats. 2025, Ch. 338)), which states it for the same code section.",
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(b) It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state."
+     },
+     {
+      "field": "status",
+      "quote": "(b) It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state."
+     },
+     {
+      "field": "citation",
+      "quote": "An act to add Sections 16729 and 16756.1 to the Business and Professions Code, relating to business regulations."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0004",
@@ -154,7 +236,7 @@
    "source_doc_id": "D005",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -162,7 +244,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": "Fields filled from D026, which state the same law."
+   "consolidation_note": "Fields filled from D026, which state the same law.",
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The landlord cannot charge a prospective tenant a screening fee if no rental unit is actually available. The landlord must also return a screening fee to any applicant not selected, or have a policy under which they: (1) review applications in the order received and the first qualified applicant gets the unit, and (2) do not charge a screening fee to any applicant not considered."
+     },
+     {
+      "field": "key_value",
+      "quote": "The maximum tenant screening fee for 2026 is\n$68.96"
+     },
+     {
+      "field": "effective_date",
+      "quote": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)"
+     },
+     {
+      "field": "status",
+      "quote": "The maximum tenant screening fee for 2026 is\n$68.96"
+     },
+     {
+      "field": "citation",
+      "quote": "For more information, see\nCalifornia Civil Code Section 1950.6"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0005",
@@ -197,7 +313,7 @@
    "source_doc_id": "D026",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -205,7 +321,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "A landlord or their agent shall not charge an applicant an application screening fee when they know or should have known that no rental unit is available at that time or will be available within a reasonable period of time."
+     },
+     {
+      "field": "key_value",
+      "quote": "An application screening process in which the landlord or their agent returns the entire screening fee to any applicant who is not selected for tenancy, regardless of the reason, within 7 days of selecting an applicant for tenancy or 30 days of when the application was submitted, whichever occurs first."
+     },
+     {
+      "field": "effective_date",
+      "quote": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)"
+     },
+     {
+      "field": "status",
+      "quote": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)"
+     },
+     {
+      "field": "citation",
+      "quote": "(c) (1) A landlord or their agent shall not charge an applicant an application screening fee when they know or should have known that no rental unit is available at that time or will be available within a reasonable period of time."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0006",
@@ -240,7 +390,7 @@
    "source_doc_id": "D026",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -248,7 +398,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(d) The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant, which receipt shall itemize the out-of-pocket expenses and time spent by the landlord or their agent to obtain and process the information about the applicant."
+     },
+     {
+      "field": "key_value",
+      "quote": "If an application screening fee has been paid by the applicant, the landlord or their agent shall provide a copy of the consumer credit report to the applicant who is the subject of that report by personal delivery, mail, or email within seven days of the landlord or their agent receiving the report."
+     },
+     {
+      "field": "effective_date",
+      "quote": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)"
+     },
+     {
+      "field": "status",
+      "quote": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)"
+     },
+     {
+      "field": "citation",
+      "quote": "(f) If an application screening fee has been paid by the applicant, the landlord or their agent shall provide a copy of the consumer credit report to the applicant who is the subject of that report by personal delivery, mail, or email within seven days of the landlord or their agent receiving the report."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0007",
@@ -307,7 +491,7 @@
    "source_doc_id": "D023",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.88,
+   "confidence": 0.8,
    "conflict_flag": true,
    "conflict_note": "Two dates appear: subdivision (m) says the section became operative April 1, 2024, while the history note says the current amendment (AB 1529) took effect January 1, 2026. The section is repealed as of January 1, 2030. The state law also overrides less protective local ordinances adopted after Sept. 1, 2019.",
    "penalty": "Notice void for noncompliance. For material violation: actual damages, discretionary attorney's fees and costs, up to three times actual damages plus punitive damages for willful, oppressive, fraudulent or malicious conduct. The Attorney General, city attorney or county counsel may seek injunctive relief.",
@@ -315,7 +499,45 @@
    "may_preempt_local_rules": true,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(a) Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy."
+     },
+     {
+      "field": "key_value",
+      "quote": "(A) The amount of relocation assistance or rent waiver shall be equal to one month of the tenant’s rent that was in effect when the owner issued the notice to terminate the tenancy."
+     },
+     {
+      "field": "effective_date",
+      "quote": "(m) This section shall become operative on April 1, 2024."
+     },
+     {
+      "field": "status",
+      "quote": "(n) This section shall remain in effect only until January 1, 2030, and as of that date is repealed."
+     },
+     {
+      "field": "coverage",
+      "quote": "(7) Housing that has been issued a certificate of occupancy within the previous 15\nyears, unless the housing is a mobilehome."
+     },
+     {
+      "field": "citation",
+      "quote": "(Amended by Stats. 2025, Ch. 203, Sec. 1.   (AB 1529)   Effective January 1, 2026.   Repealed as of January 1, 2030, by its own provisions.)"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0008",
@@ -359,7 +581,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The City’s Resident Protections Ordinance (RPO) and the\nState’s Housing Crisis Act (HCA) require that ONLY lower income households (80%  AMI or\nlower) being displaced for demolition of their units where the owner will replace the units\nwith new construction receive relocation payment consistent to the relocation benefits\nrequired to be paid by public entities under Chapter 16 (commencing with Section 7260) of\nDivision 7 of Title 1 (Government Code 66300.6(b)(4)(A))."
+     },
+     {
+      "field": "key_value",
+      "quote": "receive relocation payment consistent to the relocation benefits\nrequired to be paid by public entities under Chapter 16 (commencing with Section 7260) of\nDivision 7 of Title 1 (Government Code 66300.6(b)(4)(A))"
+     },
+     {
+      "field": "status",
+      "quote": "The RSO and JCO amounts must also be enhanced for\nlower income tenants under the HCA regardless of the RPO applicability."
+     },
+     {
+      "field": "citation",
+      "quote": "The Housing Crisis Act of 2019 (HCA) originally introduced replacement requirements and occupant \nprotections through Senate Bill (SB) 330 and has since been updated by SB 8 and Assembly Bill (AB) 1218."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0010",
@@ -408,7 +660,7 @@
    "source_doc_id": "D024",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.9,
+   "confidence": 0.8,
    "conflict_flag": true,
    "conflict_note": "The operative text (subd. (n)) says the section became operative April 1, 2024; the history note says it was effective January 1, 2024. Subdivision (h) also applies the cap to increases on or after March 15, 2019 (February 18, 2021 for mobilehomes). The section sunsets January 1, 2030.",
    "penalty": "Civil action for injunctive relief, damages equal to the overcharge, and discretionary attorney's fees. Up to treble damages for willful, oppressive, fraudulent, or malicious conduct. Enforceable by the Attorney General and city attorneys or county counsel. Three-year limitations period. Waivers are void.",
@@ -416,7 +668,45 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": "Also stated in D040 (merged r-0009)."
+   "consolidation_note": "Also stated in D040 (merged r-0009).",
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase."
+     },
+     {
+      "field": "key_value",
+      "quote": "increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower"
+     },
+     {
+      "field": "effective_date",
+      "quote": "(n) This section shall become operative on April 1, 2024."
+     },
+     {
+      "field": "status",
+      "quote": "(o) This section shall remain in effect until January 1, 2030, and as of that date is repealed."
+     },
+     {
+      "field": "coverage",
+      "quote": "(4) Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome."
+     },
+     {
+      "field": "citation",
+      "quote": "(Repealed (in Sec. 3) and added by Stats. 2023, Ch. 290, Sec. 4.   (SB 567)   Effective January 1, 2024.   Operative April 1, 2024, by its own provisions."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0011",
@@ -449,7 +739,7 @@
    "source_doc_id": "D027",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -457,7 +747,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(a) For the owner of any housing accommodation to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information of that person."
+     },
+     {
+      "field": "status",
+      "quote": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)"
+     },
+     {
+      "field": "citation",
+      "quote": "(p) (1) For the purposes of this section, “source of income” means lawful, verifiable income paid directly to a tenant, or to a representative of a tenant, or paid to a housing owner or landlord on behalf of a tenant, including federal, state, or local public assistance, and federal, state, or local housing subsidies"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0012",
@@ -498,7 +814,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(A) Use a financial or income standard in assessing eligibility for the rental of housing that is not based on the portion of the rent to be paid by the tenant."
+     },
+     {
+      "field": "key_value",
+      "quote": "(A) Use a financial or income standard in assessing eligibility for the rental of housing that is not based on the portion of the rent to be paid by the tenant."
+     },
+     {
+      "field": "status",
+      "quote": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)"
+     },
+     {
+      "field": "citation",
+      "quote": "(o) (1) In instances in which there is a government rent subsidy, to do either of the following:"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0013",
@@ -539,7 +885,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(B) (i) Use a person’s credit history as part of the application process for a rental accommodation without offering the applicant the option, at the applicant’s discretion, of providing lawful, verifiable alternative evidence of the applicant’s reasonable ability to pay\nthe portion of the rent to be paid by the tenant, including, but not limited to, government benefit payments, pay records, and bank statements."
+     },
+     {
+      "field": "effective_date",
+      "quote": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)"
+     },
+     {
+      "field": "status",
+      "quote": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)"
+     },
+     {
+      "field": "citation",
+      "quote": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0014",
@@ -582,7 +958,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "No. California law protects tenants from discrimination based on how a tenant will be paying rent (“source of income”)."
+     },
+     {
+      "field": "status",
+      "quote": "California law protects tenants from discrimination based on how a tenant will be paying rent (“source of income”)."
+     },
+     {
+      "field": "coverage",
+      "quote": "When an owner is occupying a home and is renting to one additional person, the owner may exclude applicants based on protected characteristics."
+     },
+     {
+      "field": "citation",
+      "quote": "The Fair Employment and Housing Act (FEHA) covers the sale, rental, or occupancy of most housing accommodations in California"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0015",
@@ -615,7 +1021,7 @@
    "source_doc_id": "D007",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -623,7 +1029,45 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and furnished units"
+     },
+     {
+      "field": "key_value",
+      "quote": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons"
+     },
+     {
+      "field": "effective_date",
+      "quote": "A California law,\nAssembly Bill 12\n, changed the amount landlords can charge as a security deposit to the amounts described above starting July 1, 2024."
+     },
+     {
+      "field": "status",
+      "quote": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and furnished units"
+     },
+     {
+      "field": "coverage",
+      "quote": "landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons"
+     },
+     {
+      "field": "citation",
+      "quote": "A California law,\nAssembly Bill 12\n, changed the amount landlords can charge as a security deposit to the amounts described above starting July 1, 2024."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0016",
@@ -660,7 +1104,7 @@
    "source_doc_id": "D025",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": "Bad faith claim or retention of security may subject the landlord to statutory damages of up to twice the amount of the security, plus actual damages.",
@@ -668,7 +1112,45 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(1) Except as provided in paragraph (2), (3), or (5), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy."
+     },
+     {
+      "field": "key_value",
+      "quote": "(5) (A) Notwithstanding paragraph (1), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to two months’ rent, in addition to any rent for the first month paid on or before initial occupancy if the landlord meets both of the following requirements:"
+     },
+     {
+      "field": "effective_date",
+      "quote": "(6) This subdivision shall not apply to a security collected or demanded by the landlord before July 1, 2024."
+     },
+     {
+      "field": "status",
+      "quote": "(Amended by Stats. 2025, Ch. 340, Sec. 1.   (AB 414)   Effective January 1, 2026.)"
+     },
+     {
+      "field": "coverage",
+      "quote": "(ii) The\nlandlord owns no more than two residential rental properties that collectively include no more than four dwelling units offered for rent."
+     },
+     {
+      "field": "citation",
+      "quote": "(6) This subdivision shall not apply to a security collected or demanded by the landlord before July 1, 2024."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0017",
@@ -701,7 +1183,7 @@
    "source_doc_id": "D025",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -709,7 +1191,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "partly_supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "the landlord shall provide the tenant with a written statement, on or before the date the lease is signed, of the amount of the higher security and an explanation why the higher security amount is being charged. The additional amount of security shall be returned to the tenant after no more than six months of residency if the tenant\nis not in arrears for any rent due during that period."
+     },
+     {
+      "field": "key_value",
+      "quote": "The additional amount of security shall be returned to the tenant after no more than six months of residency if the tenant\nis not in arrears for any rent due during that period."
+     },
+     {
+      "field": "effective_date",
+      "quote": "(4) On or after April 1, 2025, if a landlord or its agent charges a service member who rents residential property"
+     },
+     {
+      "field": "status",
+      "quote": "(Amended by Stats. 2025, Ch. 340, Sec. 1.   (AB 414)   Effective January 1, 2026.)"
+     },
+     {
+      "field": "citation",
+      "quote": "(4) On or after April 1, 2025, if a landlord or its agent charges a service member who rents residential property"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0018",
@@ -750,7 +1266,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(1) No later than 21 calendar days after the tenant has vacated the premises,"
+     },
+     {
+      "field": "key_value",
+      "quote": "may subject the landlord or the landlord’s successors in interest to statutory damages of up to twice the amount of the security, in addition to actual damages."
+     },
+     {
+      "field": "status",
+      "quote": "(Amended by Stats. 2025, Ch. 340, Sec. 1.   (AB 414)   Effective January 1, 2026.)"
+     },
+     {
+      "field": "citation",
+      "quote": "(h) (1) No later than 21 calendar days after the tenant has vacated the premises,"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0019",
@@ -791,7 +1337,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(n) A lease or rental agreement shall not contain a provision characterizing any security as “nonrefundable.”"
+     },
+     {
+      "field": "status",
+      "quote": "(Amended by Stats. 2025, Ch. 340, Sec. 1.   (AB 414)   Effective January 1, 2026.)"
+     },
+     {
+      "field": "citation",
+      "quote": "(n) A lease or rental agreement shall not contain a provision characterizing any security as “nonrefundable.”"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0020",
@@ -832,7 +1404,29 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "An Act relative to preventing algorithmic rent fixing in the rental housing market"
+     },
+     {
+      "field": "status",
+      "quote": "House\nBill reported favorably by committee and referred to the committee on\nHouse Ways and Means"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0021",
@@ -873,7 +1467,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": "Also stated in D047 (merged r-0022)."
+   "consolidation_note": "Also stated in D047 (merged r-0022).",
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "An Act prohibiting algorithmic rent setting"
+     },
+     {
+      "field": "status",
+      "quote": "Bill reported favorably by committee and referred to the committee on\nSenate Ways and Means"
+     },
+     {
+      "field": "citation",
+      "quote": "The committee on Housing, to whom was referred the petitions (accompanied by bill, Senate, No. 994) of Cindy F. Friedman and Julian Cyr for legislation to prohibit algorithmic rent setting; and (accompanied by bill, Senate, No. 1016)"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0024",
@@ -914,7 +1534,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": "Also stated in D057 (merged r-0023)."
+   "consolidation_note": "Also stated in D057 (merged r-0023).",
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson."
+     },
+     {
+      "field": "key_value",
+      "quote": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson."
+     },
+     {
+      "field": "effective_date",
+      "quote": "[ Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]"
+     },
+     {
+      "field": "status",
+      "quote": "[ Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]"
+     },
+     {
+      "field": "citation",
+      "quote": "[ Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0025",
@@ -957,7 +1611,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(b) At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of the following:"
+     },
+     {
+      "field": "key_value",
+      "quote": "(iv) the purchase and installation cost for a key and lock."
+     },
+     {
+      "field": "effective_date",
+      "quote": "[ Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]"
+     },
+     {
+      "field": "status",
+      "quote": "[ Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]"
+     },
+     {
+      "field": "citation",
+      "quote": "[ Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0026",
@@ -998,7 +1686,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease, unless the tenant, on or before the day the answer is due, in an action by the landlord to recover possession of the premises, pays or tenders to the landlord or to his attorney all rent then due, with interest and costs of suit."
+     },
+     {
+      "field": "key_value",
+      "quote": "fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease"
+     },
+     {
+      "field": "status",
+      "quote": "Section 11. Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease"
+     },
+     {
+      "field": "citation",
+      "quote": "General Law - Part II, Title I, Chapter 186, Section 11"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0027",
@@ -1041,7 +1759,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "partly_supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party; and, if the rent reserved is payable at periods of less than three months, the time of such notice shall be sufficient if it is equal to the interval between the days of payment or thirty days, whichever is longer."
+     },
+     {
+      "field": "key_value",
+      "quote": "if the rent reserved is payable at periods of less than three months, the time of such notice shall be sufficient if it is equal to the interval between the days of payment or thirty days, whichever is longer."
+     },
+     {
+      "field": "status",
+      "quote": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party;"
+     },
+     {
+      "field": "citation",
+      "quote": "General Law - Part II, Title I, Chapter 186, Section 12"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0028",
@@ -1082,7 +1830,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form that shall include, but not be limited to: (i) documentation of any agreements between the tenant and landlord for the tenant to repay the landlord for nonpayment of rent;"
+     },
+     {
+      "field": "status",
+      "quote": "Section 31. (a) A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form"
+     },
+     {
+      "field": "citation",
+      "quote": "General Law - Part II, Title I, Chapter 186, Section 31"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0029",
@@ -1123,7 +1897,37 @@
    "may_preempt_local_rules": true,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:"
+     },
+     {
+      "field": "key_value",
+      "quote": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:"
+     },
+     {
+      "field": "status",
+      "quote": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:"
+     },
+     {
+      "field": "citation",
+      "quote": "General Law - Part I, Title VII, Chapter 40P, Section 4"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0031",
@@ -1166,7 +1970,33 @@
    "may_preempt_local_rules": false,
    "source_type": "secondary (news report)",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The Supreme Judicial Court ruled Tuesday morning that the initiative petition seeking to impose statewide rent control “impermissibly” relates to religion and religious institutions, which are among the matters the state Constitution sets as out of bounds from the initiative petition process."
+     },
+     {
+      "field": "status",
+      "quote": "Massachusetts voters will not have the opportunity to repeal the state’s three-decade ban on rent control on November’s ballot."
+     },
+     {
+      "field": "citation",
+      "quote": "NOTE: NEWS REPORT (State House News Service via WGBH, June 23, 2026) on the Supreme Judicial Court ruling in Cella v. Attorney General, SJC-13893."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0032",
@@ -1207,7 +2037,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program."
+     },
+     {
+      "field": "status",
+      "quote": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance"
+     },
+     {
+      "field": "citation",
+      "quote": "7B. For any person to make print, or publish, or cause to be made, printed, or published any notice, statement or advertisement, with respect to the sale or rental of multiple dwelling, contiguously located, publicly assisted or other covered housing accommodations that indicates any preference, limitation, or discrimination based on race, color, religion, sex, gender identity, sexual orientation which shall not include persons whose sexual orientation involves minor children as the sex object, national origin, genetic information, ancestry, children, marital status, public assistance recipiency, or handicap"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0033",
@@ -1250,7 +2106,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2);"
+     },
+     {
+      "field": "key_value",
+      "quote": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3)"
+     },
+     {
+      "field": "status",
+      "quote": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3)"
+     },
+     {
+      "field": "citation",
+      "quote": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3)"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0034",
@@ -1293,7 +2179,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(4) The lessor shall, within thirty days after the termination of occupancy under a tenancy-at-will or the end of the tenancy as specified in a valid written lease agreement, return to the tenant the security deposit or any balance thereof;"
+     },
+     {
+      "field": "key_value",
+      "quote": "the tenant shall be awarded damages in an amount equal to three times the amount of such security deposit or balance thereof to which the tenant is entitled plus interest at the rate of five per cent from the date when such payment became due, together with court costs and reasonable attorney's fees."
+     },
+     {
+      "field": "status",
+      "quote": "(4) The lessor shall, within thirty days after the termination of occupancy under a tenancy-at-will or the end of the tenancy as specified in a valid written lease agreement, return to the tenant the security deposit or any balance thereof;"
+     },
+     {
+      "field": "citation",
+      "quote": "(7) If the lessor or his agent fails to comply with clauses (a), (d), or (e) of subsection 6, the tenant shall be awarded damages"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0035",
@@ -1337,7 +2253,41 @@
    "may_preempt_local_rules": true,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "It\nshall be unlawful and a violation of the “New Jersey Antitrust Act,” P.L.1970,\nc.73 (C.56:9-1 et seq.) for:"
+     },
+     {
+      "field": "key_value",
+      "quote": "a.     a rental property owner, or any agent,\nrepresentative, or subcontractor thereof, to receive, subscribe to, contract\nfor, or otherwise exchange any form of consideration in return for the use of,\nthe services of a coordinator;"
+     },
+     {
+      "field": "effective_date",
+      "quote": "9.    This act shall take effect on the first day of\nthe twelfth month next following the date of enactment."
+     },
+     {
+      "field": "status",
+      "quote": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment."
+     },
+     {
+      "field": "citation",
+      "quote": "P.L.\n2026, CHAPTER 43,\napproved July 20, 2026"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0036",
@@ -1372,7 +2322,7 @@
    "source_doc_id": "D066",
    "retrieved_at": "2026-10-01T22:37Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.6,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": "Up to $500 for a first offense, up to $750 for a second, and up to $1,000 for each subsequent offense, enforced under the Penalty Enforcement Law of 1999; amount wrongfully charged is remitted to the applicant from the collected penalty.",
@@ -1380,7 +2330,43 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "not_supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50."
+     },
+     {
+      "field": "key_value",
+      "quote": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50."
+     },
+     {
+      "field": "effective_date",
+      "quote": "3.  This act shall take effect on the first day of the\nfourth month next following the date of enactment, except that the Director of\nthe Division of Consumer Affairs in the Department of Law and Public Safety\nshall be permitted to take anticipatory action necessary to effectuate the\nprovisions of this act."
+     },
+     {
+      "field": "status",
+      "quote": "Approved January 20, 2026."
+     },
+     {
+      "field": "citation",
+      "quote": "P.L. 2025, c.405 (A4899 4R)"
+     }
+    ],
+    "changes": [
+     "second check disputes the coverage: The document exempts units in one- or two-family dwellings. It states no unit-count threshold. min_units: 3 is a loose inference, and the exemption for licensees of the Real Estate Commission is omitted."
+    ]
+   }
   },
   {
    "team_rule_id": "r-0037",
@@ -1416,7 +2402,7 @@
    "source_doc_id": "D067",
    "retrieved_at": "2026-10-01T22:37Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": "If the landlord evicts for personal occupancy and does not occupy the unit for 6 months, or evicts to retire the property and then uses it residentially within 5 years, the landlord is liable for treble damages plus attorney fees, and a civil penalty of up to $10,000 per violation for the retirement case (N.J.S.A. 2A:18-61.6).",
@@ -1424,7 +2410,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "No residential landlord may evict or fail to renew a \nlease, whether it is a written or an oral lease without good cause. The landlord must be able to \nprove in court that he has grounds for an eviction."
+     },
+     {
+      "field": "key_value",
+      "quote": "Any tenant evicted under G 3) (illegal occupancy) is entitled to relocation assistance in \nan amount equal to six times the tenant’s monthly rent."
+     },
+     {
+      "field": "status",
+      "quote": "The Anti-Eviction Act,  N.J.S.A. 2A:18-61.1 to 61.12, was created to protect \nblameless tenants from eviction"
+     },
+     {
+      "field": "coverage",
+      "quote": "This law may not apply to two - or three-unit owner-occupied premises with two (2) or \nfewer rental units."
+     },
+     {
+      "field": "citation",
+      "quote": "The Anti-Eviction Act,  N.J.S.A. 2A:18-61.1 to 61.12, was created to protect \nblameless tenants from eviction"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0038",
@@ -1467,7 +2487,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "A landlord cannot raise the \nrent mid-lease term. The old lease must be terminated, and the new lease must have the increased \nrental payment."
+     },
+     {
+      "field": "key_value",
+      "quote": "The increase in rent must not be \nunconscionable; it must not be so unreasonable as to shock the conscience of a fair and honest \nperson and must comply with any municipal ordinances governing rent increases."
+     },
+     {
+      "field": "status",
+      "quote": "The State of New Jersey has no laws that establish, govern or control rents."
+     },
+     {
+      "field": "citation",
+      "quote": "In order to terminate a lease, the landlord must take the following \nsteps (N.J.S.A. 2A:18-61.1(f)):"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0039",
@@ -1510,7 +2560,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "If a building is converted to a condominium or cooperative form of ownership, or to fee \nsimple ownership of units, rents may not be increased to cover cos ts resulting solely from the \nconversion (N.J.S.A. 2A:18-61.31)."
+     },
+     {
+      "field": "status",
+      "quote": "simple ownership of units, rents may not be increased to cover cos ts resulting solely from the \nconversion (N.J.S.A. 2A:18-61.31). This does not mean that rents may not be increased to cover"
+     },
+     {
+      "field": "citation",
+      "quote": "simple ownership of units, rents may not be increased to cover cos ts resulting solely from the \nconversion (N.J.S.A. 2A:18-61.31). This does not mean that rents may not be increased to cover"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0040",
@@ -1551,7 +2627,41 @@
    "may_preempt_local_rules": true,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "newly \nconstructed multiple dwellings shall be exempt from any local rent control ordinances for a period \nof 30 years following completion of construction of the building."
+     },
+     {
+      "field": "key_value",
+      "quote": "newly \nconstructed multiple dwellings shall be exempt from any local rent control ordinances for a period \nof 30 years following completion of construction of the building."
+     },
+     {
+      "field": "status",
+      "quote": "Under the Newly Constructed Multiple Dwellings Law ( N.J.S.A. 2A:42 -84.5), newly \nconstructed multiple dwellings shall be exempt"
+     },
+     {
+      "field": "coverage",
+      "quote": "newly \nconstructed multiple dwellings shall be exempt from any local rent control ordinances for a period \nof 30 years following completion of construction of the building."
+     },
+     {
+      "field": "citation",
+      "quote": "Under the Newly Constructed Multiple Dwellings Law ( N.J.S.A. 2A:42 -84.5)"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0041",
@@ -1595,7 +2705,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "requires \nequal treatment in the sale or rental of housing regardless of race, creed, color, national origin, \nancestry, sex, marital status, civil union status, domestic partnership status, familial status, \naffectional or sexual orientation, gender  identity or expression, mental and physical disability, \nnationality, or source of lawful income."
+     },
+     {
+      "field": "key_value",
+      "quote": "Under the LAD, landlords who violate this law are subject to substantial fines \nand penalties, up to $10,000 for a first offense (N.J.S.A. 10:5-14.1a(a))."
+     },
+     {
+      "field": "status",
+      "quote": "Under State and federal laws, it is illegal for a landlord or rental agency to refuse to rent or \ndiscriminate in the rental of housing units."
+     },
+     {
+      "field": "coverage",
+      "quote": "The law applies to all landlord -tenant relationships, except those involving two -family \nowner occupied dwellings, rooms in an owner or resident -occupied single home"
+     },
+     {
+      "field": "citation",
+      "quote": "N.J.S.A. 10:5-12(g) to -(h), prohibits discrimination when selling or renting property"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0042",
@@ -1628,7 +2772,7 @@
    "source_doc_id": "D065",
    "retrieved_at": "2026-10-01T22:37Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": "Civil penalties through the Division on Civil Rights: up to $1,000 for a first violation, up to $5,000 for a second within five years, and up to $10,000 for two or more prior violations within seven years. Also possible return of the application fee and up to $1,000 paid to the applicant. No private court action is allowed.",
@@ -1636,7 +2780,45 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "A housing\nprovider\nshall not make any oral or written inquiry\nregarding an applicant’s criminal record prior to making a conditional offer."
+     },
+     {
+      "field": "key_value",
+      "quote": "A housing\nprovider\nshall not make any oral or written inquiry\nregarding an applicant’s criminal record prior to making a conditional offer."
+     },
+     {
+      "field": "effective_date",
+      "quote": "This act shall take effect on the first day of the\nseventh month next following the date of enactment,"
+     },
+     {
+      "field": "status",
+      "quote": "This act shall take effect on the first day of the\nseventh month next following the date of enactment,"
+     },
+     {
+      "field": "coverage",
+      "quote": "other than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units."
+     },
+     {
+      "field": "citation",
+      "quote": "C.46:8-55  Application process."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0043",
@@ -1677,7 +2859,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Prior to\naccepting any application fee, a housing provider shall disclose in writing to\nthe applicant:"
+     },
+     {
+      "field": "effective_date",
+      "quote": "This act shall take effect on the first day of the\nseventh month next following the date of enactment,"
+     },
+     {
+      "field": "status",
+      "quote": "This act shall take effect on the first day of the\nseventh month next following the date of enactment,"
+     },
+     {
+      "field": "coverage",
+      "quote": "other than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units."
+     },
+     {
+      "field": "citation",
+      "quote": "C.46:8-55  Application process."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0044",
@@ -1718,7 +2934,45 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "A housing provider shall not, either before\nor after the issuance of a conditional offer, evaluate an applicant based on\nany of the following types of criminal records:"
+     },
+     {
+      "field": "key_value",
+      "quote": "is for an indictable offense of the first degree\nthat was issued, or if the conviction resulted in a prison sentence that\nsentence concluded, within the six years immediately preceding the issuance of\nthe conditional offer;"
+     },
+     {
+      "field": "effective_date",
+      "quote": "This act shall take effect on the first day of the\nseventh month next following the date of enactment,"
+     },
+     {
+      "field": "status",
+      "quote": "This act shall take effect on the first day of the\nseventh month next following the date of enactment,"
+     },
+     {
+      "field": "coverage",
+      "quote": "other than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units."
+     },
+     {
+      "field": "citation",
+      "quote": "C.46:8-56  Housing provider’s consideration of applicant’s\nrecord."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0045",
@@ -1762,7 +3016,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The LAD also prohibits housing discrimination  based\non the source of lawful income or source of lawful rent\nor mortgage payment a tenant or purchaser uses."
+     },
+     {
+      "field": "status",
+      "quote": "The LAD also prohibits housing discrimination  based\non the source of lawful income or source of lawful rent\nor mortgage payment a tenant or purchaser uses."
+     },
+     {
+      "field": "coverage",
+      "quote": "The rental of a single apartment or flat in a two-family\ndwelling, the other occupancy unit of which is occupied\nby the owner as his/her residence at the time of such\nrentals;"
+     },
+     {
+      "field": "citation",
+      "quote": "The Division on Civil Rights enforces the New Jersey\nLaw Against Discrimination."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0046",
@@ -1797,7 +3081,7 @@
    "source_doc_id": "D067",
    "retrieved_at": "2026-10-01T22:37Z",
    "span_verified": true,
-   "confidence": 0.88,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": "Tenant may recover double the amount wrongfully withheld plus court costs and reasonable attorney's fees (N.J.S.A. 46:8-21.1). Unlawful use of deposit funds is a disorderly persons offense (N.J.S.A. 46:8-25).",
@@ -1805,7 +3089,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The maximum-security deposit to be collected by the landlord cannot be more than \none and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 ). It can be less. Any additional \nyearly security deposit increase may not exceed 10% of the current security deposit."
+     },
+     {
+      "field": "key_value",
+      "quote": "That means the landlo rd may not require more \nthan two and one-half times the monthly rent at the inception of the lease, this includes the security \ndeposit and the first month’s rent."
+     },
+     {
+      "field": "status",
+      "quote": "The Security Deposit Law applies to most  residential rental properties, including mobile \nhomes."
+     },
+     {
+      "field": "coverage",
+      "quote": "The exception is an owner-occupied two-, or three-family dwelling."
+     },
+     {
+      "field": "citation",
+      "quote": "The maximum-security deposit to be collected by the landlord cannot be more than \none and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 )."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0047",
@@ -1848,7 +3166,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "partly_supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "It shall be unlawful for a landlord to use a coordinated pricing algorithm described \nin subsection A when setting rents or occupancy levels for residential dwelling units in \nthe City of Berkeley."
+     },
+     {
+      "field": "key_value",
+      "quote": "Each separate month that a violation exists or continues, and each \nseparate residential dwelling unit for which the landlord used the coordinated pricing \nalgorithm, shall constitute a separate and distinct violation."
+     },
+     {
+      "field": "status",
+      "quote": "At a regular meeting of the Council of the City of Berkeley held on November 18, \n2025, this Ordinance was passed to print and ordered published by posting by the \nfollowing vote:"
+     },
+     {
+      "field": "citation",
+      "quote": "ORDINANCE NO. 7,992-N.S. \nAMENDING CHAPTER 13.63 OF THE BERKELEY MUNICIPAL CODE"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0048",
@@ -1889,7 +3237,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under\nCalifornia Civil Code Section 1950.6(b)"
+     },
+     {
+      "field": "status",
+      "quote": "When an owner or the owner’s agent gets a request to rent residential property in Berkeley from an applicant and the owner charges a fee to purchase a consumer credit report and to validate, review, or otherwise process an application, the owner must provide,"
+     },
+     {
+      "field": "citation",
+      "quote": "Notification of state law limitation on tenant screening fees (BMC 13.78.010)"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0049",
@@ -1930,7 +3304,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household."
+     },
+     {
+      "field": "key_value",
+      "quote": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy"
+     },
+     {
+      "field": "status",
+      "quote": "Chapter 13.78 applies to all residential rental agreements regardless of any contractual language in any rental agreement or lease to the contrary."
+     },
+     {
+      "field": "citation",
+      "quote": "Prohibition of non-refundable application fees associated with existing tenancies (BMC 13.78.016)"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0050",
@@ -1973,7 +3377,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The Ellis Implementation Ordinance requires the same relocation assistance payments for tenants evicted so the owner can remove a property from the rental housing market."
+     },
+     {
+      "field": "key_value",
+      "quote": "The standard relocation assistance payment will increase to\n$19,413\n."
+     },
+     {
+      "field": "effective_date",
+      "quote": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026."
+     },
+     {
+      "field": "status",
+      "quote": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026."
+     },
+     {
+      "field": "citation",
+      "quote": "The Ellis Implementation Ordinance requires the same relocation assistance payments for tenants evicted so the owner can remove a property from the rental housing market."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0051",
@@ -2010,7 +3448,7 @@
    "source_doc_id": "D006",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -2018,7 +3456,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "For a landlord to evict a tenant for nonpayment of rent, the tenant must owe an amount of rental debt equal to or greater than one month of the Fair Market Rent (FMR) value for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR"
+     },
+     {
+      "field": "key_value",
+      "quote": "For a landlord to evict a tenant for nonpayment of rent, the tenant must owe an amount of rental debt equal to or greater than one month of the Fair Market Rent (FMR) value for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR"
+     },
+     {
+      "field": "status",
+      "quote": "Eviction for nonpayment of rent is no longer allowed for rental debt less than one month of the Fair Market Rent for the unit"
+     },
+     {
+      "field": "citation",
+      "quote": "Measure BB, a ballot measure passed by Berkeley voters in the November 2024 election, makes several changes to Berkeley’s Rent Ordinance"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0052",
@@ -2065,7 +3533,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "New construction: units that were built and received a Certificate of \nOccupancy after June 1980** \nPartially Covered Yes No Yes Yes"
+     },
+     {
+      "field": "status",
+      "quote": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance"
+     },
+     {
+      "field": "coverage",
+      "quote": "“Golden Duplex”: duplex that was owner-occupied on December 31, \n1979, and currently has an owner living in one of the units"
+     },
+     {
+      "field": "citation",
+      "quote": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0053",
@@ -2108,7 +3606,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The Rent Stabilization and Good Cause for Eviction Ordinance requires owners to pay tenants relocation assistance in the event of an owner move-in eviction."
+     },
+     {
+      "field": "key_value",
+      "quote": "The additional relocation assistance payment for qualifying households will increase to\n$6,471\n."
+     },
+     {
+      "field": "effective_date",
+      "quote": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026."
+     },
+     {
+      "field": "status",
+      "quote": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026."
+     },
+     {
+      "field": "citation",
+      "quote": "The Rent Stabilization and Good Cause for Eviction Ordinance requires owners to pay tenants relocation assistance in the event of an owner move-in eviction."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0054",
@@ -2148,7 +3680,7 @@
    "source_doc_id": "D006",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.75,
+   "confidence": 0.6,
    "conflict_flag": true,
    "conflict_note": "Document says fully covered units are those in multifamily properties 'built before 1980' while new construction is units with a certificate of occupancy 'issued after 1980'; treatment of 1980 itself is ambiguous. Code section not stated.",
    "penalty": null,
@@ -2156,7 +3688,39 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_supported",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%. This cap does not prevent a landlord who has “banked” (unused) AGAs from previous years from implementing a rent increase that is greater than 5% in order to raise the rent to the rent ceiling."
+     },
+     {
+      "field": "key_value",
+      "quote": "The elected Rent Board sets the AGA by following a formula in the Rent Ordinance that ties the AGA to the Consumer Price Index."
+     },
+     {
+      "field": "status",
+      "quote": "The maximum AGA is 5%."
+     },
+     {
+      "field": "citation",
+      "quote": "Measure BB, a ballot measure passed by Berkeley voters in the November 2024 election, makes several changes to Berkeley’s Rent Ordinance"
+     }
+    ],
+    "changes": [
+     "second check disputes the coverage: Document says 'built before 1980' and new construction is CO issued 'after 1980'. The card's 1980-12-31 cutoff is not stated, and the document does not tie the AGA's coverage to a CO cutoff. The card's own notes concede the ambiguity."
+    ]
+   }
   },
   {
    "team_rule_id": "r-0055",
@@ -2174,7 +3738,7 @@
     "summary": "Units under Berkeley's rent stabilization program with permanent rent ceilings. This notice does not state which buildings are covered or exempt. The 2026 AGA does not apply to tenancies that began on or after January 1, 2025 with rents set under Costa-Hawkins.",
     "min_units": null,
     "max_units": null,
-    "built_on_or_before": "1980-12-31",
+    "built_on_or_before": "1980-06-30",
     "built_after": null,
     "cutoff_uses_certificate_of_occupancy": true,
     "exempt_if_newer_than_years": null,
@@ -2192,15 +3756,49 @@
    "source_doc_id": "D008",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
    "yields_to_local_rule": false,
    "may_preempt_local_rules": false,
    "source_type": "official",
-   "coverage_note": "Coverage cutoff taken from r-0054 (Berkeley Measure BB (Nov. 2024) amending Berkeley Rent Stabilization and Eviction for Good Cause Ordinance), the same city's rent rule, because this record states none. Other records give a different cutoff: r-0056 1980-06-30.",
-   "consolidation_note": null
+   "coverage_note": "Coverage cutoff taken from r-0056 (Berkeley Rent Stabilization and Eviction for Just Cause Ordinance), the same city's rent rule, because this record states none. Other records give a different cutoff: r-0054 1980-12-31.",
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "partly_supported",
+     "coverage": "not_applicable",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "adopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026."
+     },
+     {
+      "field": "key_value",
+      "quote": "The 2026 AGA of 1.0% represents 65% of the increase in the Consumer \nPrice Index (CPI) for All Urban Consumers in the Bay Area during the period from July 1, \n2024 - June 30, 2025, which was 1.5% as posted by the Bureau of Labor Statistics."
+     },
+     {
+      "field": "effective_date",
+      "quote": "increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026."
+     },
+     {
+      "field": "status",
+      "quote": "At its regular meeting on October 16, 2025, the Berkeley Rent Stabilization Board \nadopted the Annual General Adjustment (AGA) Order for Year 2026"
+     },
+     {
+      "field": "citation",
+      "quote": "See Berkeley Municipal Code section 13.76.110A. for rules related to \nestablishing the AGA."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0056",
@@ -2252,7 +3850,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes"
+     },
+     {
+      "field": "status",
+      "quote": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance"
+     },
+     {
+      "field": "coverage",
+      "quote": "New construction: units that were built and received a Certificate of \nOccupancy after June 1980** \nPartially Covered Yes No Yes Yes"
+     },
+     {
+      "field": "citation",
+      "quote": "Guide to Coverage under Berkeley’s Rent Stabilization and Eviction for Just Cause Ordinance"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0057",
@@ -2290,7 +3918,7 @@
    "source_doc_id": "D003",
    "retrieved_at": "2026-10-01T22:35Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": "Administrative fines of at least $1,000 and up to $10,000 per violation; civil damages including actual damages or three times one month's rent; punitive damages; attorneys' fees and costs; injunctive relief.",
@@ -2298,7 +3926,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The Fair Chance Access to Housing Ordinance prohibits rental housing providers in Berkeley from asking about and using criminal history and/or criminal background checks in their rental housing advertising, applications, tenant selection process, or decision-making."
+     },
+     {
+      "field": "key_value",
+      "quote": "Any landlord found to be in violation of the Ordinance shall be subject to administrative fines of at least $1,000 and up to $10,000 per violation"
+     },
+     {
+      "field": "status",
+      "quote": "The Fair Chance Access to Housing Ordinance prohibits rental housing providers in Berkeley from asking about and using criminal history and/or criminal background checks in their rental housing advertising, applications, tenant selection process, or decision-making."
+     },
+     {
+      "field": "coverage",
+      "quote": "Owner-occupied properties (between 1-3 units) in which an owner of record resides in one of the units as their primary residence"
+     },
+     {
+      "field": "citation",
+      "quote": "On April 14, 2020, Berkeley City Council passed the Fair Chance Access to Housing Ordinance (BMC 13.106)."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0058",
@@ -2339,7 +4001,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year."
+     },
+     {
+      "field": "status",
+      "quote": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year."
+     },
+     {
+      "field": "citation",
+      "quote": "landlords must pay tenants interest on their security deposit at the end of each year"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0059",
@@ -2380,7 +4068,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": "Effective date taken from r-0060 (Boston Code of Ordinances § 10-11.7 (Housing Stability Notification Act)), which states it for the same code section. Also stated in D014 (merged r-0060)."
+   "consolidation_note": "Effective date taken from r-0060 (Boston Code of Ordinances § 10-11.7 (Housing Stability Notification Act)), which states it for the same code section. Also stated in D014 (merged r-0060).",
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The Notice of Tenants’ Rights and Resources should be delivered at the same time as the Notice to quit or Notice of non-renewal of lease."
+     },
+     {
+      "field": "key_value",
+      "quote": "The Notice of Tenants’ Rights and Resources should be delivered at the same time as the Notice to quit or Notice of non-renewal of lease."
+     },
+     {
+      "field": "status",
+      "quote": "The Housing Stability Notification Act requires\nALL LANDLORDS\nplanning to end a tenancy agreement to provide the tenant with a Notice of Tenants’ Rights and Resources."
+     },
+     {
+      "field": "citation",
+      "quote": "Housing Stability Notification Act (Sec. 10-11.7)"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0061",
@@ -2421,7 +4139,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "partly_supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections"
+     },
+     {
+      "field": "status",
+      "quote": "Accompanied a study order, see"
+     },
+     {
+      "field": "citation",
+      "quote": "Bill H.3744\n193rd (2023 - 2024)"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0062",
@@ -2462,7 +4206,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "partly_supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections"
+     },
+     {
+      "field": "status",
+      "quote": "Accompanied a study order, see"
+     },
+     {
+      "field": "citation",
+      "quote": "Bill H.3744\n193rd (2023 - 2024)"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0063",
@@ -2506,7 +4276,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official city-linked policy",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "partly_supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or \nland, or that have income restricted units created under the Boston Planning and Development \nAgency (BPDA) Inclusionary Development Policy will not impose a blanket policy that denies \nhousing to anyone with arrests and or convictions. Housing providers will consider applicants on \na case-by-case basis."
+     },
+     {
+      "field": "key_value",
+      "quote": "d) A conviction more than 5 years old. Tenant selection policy related to arrests and \nconvictions does not apply in situations where there is:"
+     },
+     {
+      "field": "status",
+      "quote": "Under this policy, housing providers agree to the following:"
+     },
+     {
+      "field": "citation",
+      "quote": "BOSTON FAIR CHANCE TENANT SELECTION POLICY"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0064",
@@ -2547,7 +4347,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The landlord tells you they don't accept rental assistance. This includes Section\n8 vouchers, social security disability vouchers, and veterans vouchers."
+     },
+     {
+      "field": "status",
+      "quote": "In the City of Boston, it’s illegal to discriminate when renting, buying, selling, or securing financing for any housing."
+     },
+     {
+      "field": "citation",
+      "quote": "We enforce local, state, and federal fair housing laws."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0065",
@@ -2588,7 +4414,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Source of Income, includes Section 8 and public benefits"
+     },
+     {
+      "field": "status",
+      "quote": "The Commission enforces two ordinances: the\nCambridge Human Rights Ordinance, chapter 2.76\nand the\nCambridge Fair Housing Ordinance, chapter 14.04"
+     },
+     {
+      "field": "coverage",
+      "quote": "NOTE: there is an exemption for 2-family dwellings, when the owner lives there"
+     },
+     {
+      "field": "citation",
+      "quote": "the\nCambridge Fair Housing Ordinance, chapter 14.04"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0066",
@@ -2624,7 +4480,7 @@
    "source_doc_id": "D034",
    "retrieved_at": "2026-10-03 20:56 UTC",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": true,
    "conflict_note": "The ordinance title says it adds Section 158-2 to Chapter 158, but the operative section heading reads § 154-8; codified section number should be verified. Effective date is 'immediately upon passage and publication'; adoption date Jul 9, 2025 is used, publication date not stated.",
    "penalty": "Upon conviction, one or more of: penalties under N.J.S.A. 40:49-5; a fine not exceeding $2,000; community service not exceeding 90 days. Enforced by the Division of Housing or any aggrieved private citizen in Hoboken Municipal Court.",
@@ -2632,7 +4488,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official text captured by the team (not in the starter pack)",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "partly_supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing."
+     },
+     {
+      "field": "key_value",
+      "quote": "2. By a fine not exceeding $2,000.00; or,\n\n3. By a period of community service not exceeding ninety (90) days."
+     },
+     {
+      "field": "effective_date",
+      "quote": "This Ordinance shall take effect immediately upon passage and publication as provided by law."
+     },
+     {
+      "field": "status",
+      "quote": "RESULT:ADOPTED [UNANIMOUS]"
+     },
+     {
+      "field": "citation",
+      "quote": "Ordinance Amending and Supplementing Chapter 158 (Rent Increases) of the Hoboken City Code by Adding a New Section 158-2, Entitled “Prohibition Against Algorithmic Rent-Fixing in the Rental Housing Market”"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0067",
@@ -2673,7 +4563,37 @@
    "may_preempt_local_rules": false,
    "source_type": "secondary (third-party mirror of the city code)",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential\napartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions\nof this chapter for the new tenant's initial rental; provided, however, that said rental shall be limited to an\nincrease of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit"
+     },
+     {
+      "field": "key_value",
+      "quote": "said rental shall be limited to an\nincrease of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit, exclusive of\nany capital improvement surcharge that is a component of said last rental."
+     },
+     {
+      "field": "status",
+      "quote": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential\napartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions\nof this chapter for the new tenant's initial rental"
+     },
+     {
+      "field": "citation",
+      "quote": "§ 155-31. Dwelling decontrolled and\nexempted."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0068",
@@ -2722,7 +4642,37 @@
    "may_preempt_local_rules": false,
    "source_type": "secondary (third-party mirror of the city code)",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request\nor receive a percentage increase in rent which is greater than 5% or the percentage difference between the\nconsumer price index three months prior to the expiration or termination of the lease and three months\nprior to the commencement of the lease term, whichever is less."
+     },
+     {
+      "field": "key_value",
+      "quote": "No more than one such cost-of-living rental increase in\nany one twelve-month period shall be permitted irrespective of the number of different tenants occupying\nsaid housing space during said twelve-month period."
+     },
+     {
+      "field": "status",
+      "quote": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request\nor receive a percentage increase in rent which is greater than 5% or the percentage difference between the\nconsumer price index three months prior to the expiration or termination of the lease and three months\nprior to the commencement of the lease term, whichever is less."
+     },
+     {
+      "field": "citation",
+      "quote": "§ 155-5. Expiration or termination of lease. [Amended 2-1-2023 by Ord. No. B-532 ]"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0069",
@@ -2767,7 +4717,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official text captured by the team (not in the starter pack)",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The majority of Hoboken rental properties, including many condominium units, are covered under rent control regulations."
+     },
+     {
+      "field": "status",
+      "quote": "Timely and accurate registration is a legal requirement and helps:"
+     },
+     {
+      "field": "citation",
+      "quote": "Federally funded housing, certain new construction, and commercial properties may be exempt under Municipal Code Chapter 155."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0070",
@@ -2802,7 +4778,7 @@
    "source_doc_id": "D035",
    "retrieved_at": "2026-10-03 20:56 UTC",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": "First violation punishable under Jersey City Code § 1-25; subsequent violations fined $100 to $2,000, each day a separate violation. Public civil actions by the Attorney General or municipal/county attorney, a private right of action for injured persons, and mandatory costs and reasonable attorney fees to successful plaintiffs.",
@@ -2810,7 +4786,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official text captured by the team (not in the starter pack)",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "partly_supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise \nexchange anything of value in return for the services of a Service Provider."
+     },
+     {
+      "field": "key_value",
+      "quote": "Subsequent violations shall be punished by a fine of not less than $100 and up to $2000, as provided in Chapter 1, \nGeneral Provisions, Art. I, § 1-25. Each day during which an owner is in violation of § 218-12 shall constitute a \nseparate violation hereunder."
+     },
+     {
+      "field": "status",
+      "quote": "Adopted on second and final reading after hearing on May 21 2025"
+     },
+     {
+      "field": "citation",
+      "quote": "§218-12 Preventing Algorithmic Rent Fixing in the Rental Housing Market:"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0071",
@@ -2851,7 +4857,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(Please Note: All 1-4 Unit Properties are exempt from rent control)"
+     },
+     {
+      "field": "status",
+      "quote": "The Office of Landlord Tenant Relations administers and enforces the\nRent Control Ordinance, Chapter 260\nof the Jersey City Municipal Code"
+     },
+     {
+      "field": "coverage",
+      "quote": "(Please Note: All 1-4 Unit Properties are exempt from rent control)"
+     },
+     {
+      "field": "citation",
+      "quote": "The Office of Landlord Tenant Relations administers and enforces the\nRent Control Ordinance, Chapter 260\nof the Jersey City Municipal Code"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0072",
@@ -2896,7 +4932,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Give the tenant a 30-day and 60-day written notice (some evictions require 120-day notice or up to a 1-year extension)."
+     },
+     {
+      "field": "key_value",
+      "quote": "must be filed with the Los Angeles Housing Department (LAHD) within\nthree (3) business days of service on the tenant"
+     },
+     {
+      "field": "status",
+      "quote": "All notices to terminate a tenancy for all rental units subject to"
+     },
+     {
+      "field": "coverage",
+      "quote": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978"
+     },
+     {
+      "field": "citation",
+      "quote": "per Los Angeles Municipal Code 151.09.C.9 & 165.05.B.5."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0073",
@@ -2944,7 +5014,45 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "All tenant not- at-fault evictions require payment of relocation assistance and the filing of a \nDeclaration of Intent to Evict form with the Los Angeles Housing Department (LAHD) before \nevicting tenants from units covered by the Rent Stabilization Ordinance (RSO) or the Just Cause \nOrdinance (JCO)."
+     },
+     {
+      "field": "key_value",
+      "quote": "Eligible \nHousehold $11,000 $14,400 $10,550 \nOne month’s \nrent Qualified \nHousehold $23,150 $27,400 $21,250"
+     },
+     {
+      "field": "effective_date",
+      "quote": "Chart A: Relocation Assistance Amounts \nEffective July 1, 2026 through June 30, 2027"
+     },
+     {
+      "field": "status",
+      "quote": "Chart A: Relocation Assistance Amounts \nEffective July 1, 2026 through June 30, 2027"
+     },
+     {
+      "field": "coverage",
+      "quote": "The landlord owns no more than four units of residential property and a single-family\nhome on a separate lot in the City of Los Angeles; and"
+     },
+     {
+      "field": "citation",
+      "quote": "Relocation Assistance\nDispute Resolution Fee (LAMC 151.09.G, 165.06.C.)."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0074",
@@ -2987,7 +5095,7 @@
    "source_doc_id": "D040",
    "retrieved_at": "2026-10-01T22:36Z",
    "span_verified": true,
-   "confidence": 0.8,
+   "confidence": 0.6,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -2995,7 +5103,39 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": "Fields filled from D040, which state the same law."
+   "consolidation_note": "Fields filled from D040, which state the same law.",
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "In order to apply to a tenancy, it requires that the tenant either has lived in the same unit for at least six months or that their original lease expired, whichever comes first."
+     },
+     {
+      "field": "key_value",
+      "quote": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions."
+     },
+     {
+      "field": "status",
+      "quote": "If you own rental property in the City of Los Angeles, it may be subject to the\nJust Cause Ordinance\n(JCO)."
+     },
+     {
+      "field": "citation",
+      "quote": "Just Cause For Eviction Ordinance (JCO)"
+     }
+    ],
+    "changes": [
+     "second check disputes the effective date: March 27, 2023 is the effective date of the non-payment threshold rule, not of the JCO itself. The page gives no JCO effective date."
+    ]
+   }
   },
   {
    "team_rule_id": "r-0075",
@@ -3042,7 +5182,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The RPO’s occupant protections include: 1) Right to Relocation, 2) Right to Remain in the unit up to 6 \nmonths prior to start of construction activities, which includes a 6-month notice to move out, 3) Right \nto Return to the same unit if the demolition does not proceed, 4) Right of First Refusal to the new \nbuilding for some tenants and 5) Tenant Notification Requirements."
+     },
+     {
+      "field": "key_value",
+      "quote": "Tenants Displaced by \nNew Development $115,480 $96,750 $87,450"
+     },
+     {
+      "field": "effective_date",
+      "quote": "On February 11, 2025, the Los Angeles City Council adopted the RPO which codified and expanded upon \nreplacement requirements and occupant protections of the HCA"
+     },
+     {
+      "field": "status",
+      "quote": "effective 2/11/2025\nunder Ordinances # 188481 and #188482"
+     },
+     {
+      "field": "citation",
+      "quote": "which must be enhanced for lower income\ntenants if the project is subject to the Resident Protections Ordinance (RPO), effective 2/11/2025\nunder Ordinances # 188481 and #188482."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0076",
@@ -3088,7 +5262,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official text captured by the team (not in the starter pack)",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "supported",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Landlords of rental units subject to the Rent Stabilization Ordinance (RSO), which \nincludes dwelling units, suites, condominiums, duplexes, guest rooms, and rooms in \na hotel, motel, rooming house or boarding house occupied by the same tenant for more \nthan 30 consecutive days in the City of Los Angeles with a certificate of occupancy first \nissued before October 1, 1978, must pay intere st on all security deposits held for at \nleast one (1) year for their tenants."
+     },
+     {
+      "field": "status",
+      "quote": "The interest rate set by the Rent Adjustment Commission for 2026 is 3.03%."
+     },
+     {
+      "field": "coverage",
+      "quote": "with a certificate of occupancy first \nissued before October 1, 1978"
+     },
+     {
+      "field": "citation",
+      "quote": "Nothing in the Rent St abilization Ordinance No. 151. 06.02(F) prevents landlords \nfrom exercising their own discretion rights in investing deposits."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0077",
@@ -3136,7 +5340,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "supported",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Rent may be increased once every 12 months by the allowable rent increase percentage"
+     },
+     {
+      "field": "key_value",
+      "quote": "Effective February 2, 2026, the landlord can no longer include an additional percentage increase for utilities."
+     },
+     {
+      "field": "status",
+      "quote": "Rent may be increased once every 12 months by the allowable rent increase percentage"
+     },
+     {
+      "field": "coverage",
+      "quote": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+     },
+     {
+      "field": "citation",
+      "quote": "as well as replacement units under"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0078",
@@ -3180,7 +5418,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": "Coverage cutoff taken from r-0077 (Los Angeles Rent Stabilization Ordinance (LAMC Chapter XV; replacement units LAMC § 151.28)), the same city's rent rule, because this record states none. Other records give a different cutoff: r-0076 1978-09-30.",
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities."
+     },
+     {
+      "field": "key_value",
+      "quote": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities."
+     },
+     {
+      "field": "effective_date",
+      "quote": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities."
+     },
+     {
+      "field": "status",
+      "quote": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities."
+     },
+     {
+      "field": "citation",
+      "quote": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0079",
@@ -3216,7 +5488,7 @@
    "source_doc_id": "D044",
    "retrieved_at": "2026-10-03 21:19 UTC",
    "span_verified": true,
-   "confidence": 0.82,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": "Tenant may sue in a court of appropriate jurisdiction, including Small Claims Court, to recover the amount owed; civil remedy only.",
@@ -3224,7 +5496,45 @@
    "may_preempt_local_rules": false,
    "source_type": "official text captured by the team (not in the starter pack)",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "If the second method is used, \nthe landlord must provide the tenant with a copy of a bank statement indicating the \ninterest earned on their deposit for the year."
+     },
+     {
+      "field": "key_value",
+      "quote": "The interest rate set by the Rent Adjustment Commission for 2026 is 3.03%."
+     },
+     {
+      "field": "effective_date",
+      "quote": "Effective January 1, 2004, the Los Angeles \nCity Council passed Ordinance 175020, which further amended the Security Deposit \nrequirements for rent stabilized rental units"
+     },
+     {
+      "field": "status",
+      "quote": "The interest rate set by the Rent Adjustment Commission for 2026 is 3.03%."
+     },
+     {
+      "field": "coverage",
+      "quote": "with a certificate of occupancy first \nissued before October 1, 1978, must pay intere st on all security deposits held for at \nleast one (1) year for their tenants."
+     },
+     {
+      "field": "citation",
+      "quote": "Nothing in the Rent St abilization Ordinance No. 151. 06.02(F) prevents landlords \nfrom exercising their own discretion rights in investing deposits."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0080",
@@ -3265,7 +5575,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official text captured by the team (not in the starter pack)",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The allowable annual increase will not be permitted, if the dwelling is not in substantial compliance and/or if the landlord has not met the registration requirements as specified in this subsection 19:2-9.8."
+     },
+     {
+      "field": "key_value",
+      "quote": "In no case shall the allowable rent increase exceed 4%."
+     },
+     {
+      "field": "effective_date",
+      "quote": "The Rent Control Ordinance was amended on September 05, 2017."
+     },
+     {
+      "field": "status",
+      "quote": "In no case shall the allowable rent increase exceed 4%."
+     },
+     {
+      "field": "citation",
+      "quote": "Pursuant to 19:2-3. Rent Increases. 19:2-3.1. Determination of Rents. In no case shall the allowable rent increase exceed 4%. The allowable annual increase will not be permitted, if the dwelling is not in substantial compliance and/or if the landlord has not met the registration requirements as specified in this subsection 19:2-9.8. (Ord. 6 PSF-A(S), 9-5-17)"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0082",
@@ -3306,7 +5650,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official text captured by the team (not in the starter pack)",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "It is unlawful for a person to sell, license, or otherwise provide an algorithmic \ndevice to a landlord."
+     },
+     {
+      "field": "key_value",
+      "quote": "For each month a violation of section 98.1103(b) exists or continues, and for \neach residential rental property a landlord uses an algorithmic device, it shall \nconstitute a separate and distinct violation."
+     },
+     {
+      "field": "effective_date",
+      "quote": "(“Purpose and Intent” added 5-22-2025 by O-21955 N.S.; effective 6-21-2025.)"
+     },
+     {
+      "field": "status",
+      "quote": "(“Prohibition of Anti-Competitive Automated Rent Price-Fixing”  \nadded 5-22-2025 by O-21955 N.S.; effective 6-21-2025.)"
+     },
+     {
+      "field": "citation",
+      "quote": "§98.1103 Use and Sale of Algorithmic Devices Prohibited"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0083",
@@ -3350,7 +5728,7 @@
    "source_doc_id": "D073",
    "retrieved_at": "2026-10-01T22:37Z",
    "span_verified": true,
-   "confidence": 0.88,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": "Wrongful eviction liability of not less than three times actual economic damages; injunctive relief and money damages including punitive damages; discretionary attorney's fees; noncompliance is an affirmative defense to eviction; noncompliant termination notices are void; City civil and criminal enforcement.",
@@ -3358,7 +5736,45 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "A landlord shall not terminate a tenancy without just cause. For purposes of this \nDivision, just cause includes at-fault just cause and no-fault just cause."
+     },
+     {
+      "field": "key_value",
+      "quote": "Tenancy means the lawful right or entitlement of a tenant to continuously use or \noccupy a residential rental property for more than 30 days."
+     },
+     {
+      "field": "effective_date",
+      "quote": "(“Just Cause Required for Termination of Tenancy” added 5-25-2023 by \nO-21647 N.S.; effective 6-24-2023.)"
+     },
+     {
+      "field": "status",
+      "quote": "(Amended 2-27-2024 by O-21769 N.S.; effective 3-28-2024.)"
+     },
+     {
+      "field": "coverage",
+      "quote": "(k) housing that has been issued a certificate of occupancy within the previous \n15 years, unless the housing is a mobilehome; and"
+     },
+     {
+      "field": "citation",
+      "quote": "§98.0704 Just Cause Required for Termination of Tenancy"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0084",
@@ -3401,7 +5817,7 @@
    "source_doc_id": "D073",
    "retrieved_at": "2026-10-01T22:37Z",
    "span_verified": true,
-   "confidence": 0.82,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": "A landlord who fails to pay required relocation assistance is liable for not less than three times the required assistance plus actual economic damages.",
@@ -3409,7 +5825,45 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "(i) If the landlord elects to provide relocation assistance by \na direct payment to the tenant, the notice shall state the \namount of relocation assistance available to the tenant \nand that the landlord shall provide the payment within \n15 days from the date of the notice."
+     },
+     {
+      "field": "key_value",
+      "quote": "(ii) If the tenant is a senior or disabled, the direct payment \nto the tenant shall be in an amount equal to three \nmonths of actual rent under the tenant’s lease in effect \nat the date of the notice."
+     },
+     {
+      "field": "effective_date",
+      "quote": "(“Requirements Upon Termination of Tenancy” added 5-25-2023 by O-21647 N.S.; \neffective 6-24-2023.)"
+     },
+     {
+      "field": "status",
+      "quote": "(“Requirements Upon Termination of Tenancy” added 5-25-2023 by O-21647 N.S.; \neffective 6-24-2023.)"
+     },
+     {
+      "field": "coverage",
+      "quote": "(k) housing that has been issued a certificate of occupancy within the previous \n15 years, unless the housing is a mobilehome; and"
+     },
+     {
+      "field": "citation",
+      "quote": "(c) Relocation Assistance for Termination of Tenancy for No-Fault Just Cause."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0085",
@@ -3452,7 +5906,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official text captured by the team (not in the starter pack)",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "It is unlawful for any person to make, print, publish, advertise, or \ndisseminate in any  way, or cause to be made, printed, published, \nadvertised, or disseminated in any way, any notice, statement, or \nadvertisement with respect to a rental-unit, or with respect to financing \nrelated to a rental-unit, which indicates discrimination based on a \nperson’s source of income ."
+     },
+     {
+      "field": "key_value",
+      "quote": "If the court determines that a violation occurred \nduring a tenancy, then the court shall award to the individual whose rights \nare violated three (3) times the amount of one month’s rent that was being \ncharged for the rental-unit at the time of violation."
+     },
+     {
+      "field": "effective_date",
+      "quote": "(“Prohibition of Discrimination Based on a Tenant’s Source of Income”  \nadded 9-18-2018 by O–20986 N.S.; effective 10-18-2018.)"
+     },
+     {
+      "field": "status",
+      "quote": "(“Prohibition of Discrimination Based on a Tenant’s Source of Income”  \nadded 9-18-2018 by O–20986 N.S.; effective 10-18-2018.)"
+     },
+     {
+      "field": "citation",
+      "quote": "§98.0803 Prohibited Activity"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0086",
@@ -3485,7 +5973,7 @@
    "source_doc_id": "D081",
    "retrieved_at": "2026-10-01T22:37Z",
    "span_verified": true,
-   "confidence": 0.88,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": "Tenant or City Attorney may bring a civil action against a violating entity.",
@@ -3493,7 +5981,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The law prohibits the sale or use of such algorithmic devices and allows a tenant or the City Attorney to bring a civil action if they believe an entity is in violation of the law."
+     },
+     {
+      "field": "effective_date",
+      "quote": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024."
+     },
+     {
+      "field": "status",
+      "quote": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024."
+     },
+     {
+      "field": "citation",
+      "quote": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0087",
@@ -3536,7 +6054,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction."
+     },
+     {
+      "field": "key_value",
+      "quote": "The 17 just cause reasons for eviction under\nOrdinance Section 37.9(a)\nare summarized below:"
+     },
+     {
+      "field": "status",
+      "quote": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction."
+     },
+     {
+      "field": "citation",
+      "quote": "The 17 just cause reasons for eviction under\nOrdinance Section 37.9(a)\nare summarized below:"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0088",
@@ -3579,7 +6127,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Relocation payments for tenants evicted under the Ellis Act"
+     },
+     {
+      "field": "key_value",
+      "quote": "3/01/26 – 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90"
+     },
+     {
+      "field": "status",
+      "quote": "For March 1, 2026 - February 28, 2027"
+     },
+     {
+      "field": "citation",
+      "quote": "578 Multilingual Relocation Payments 37.9A"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0089",
@@ -3622,7 +6200,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation"
+     },
+     {
+      "field": "key_value",
+      "quote": "3/01/26 – 2/28/27\n$8,245.00\n$24,733.00\n$5,497.00"
+     },
+     {
+      "field": "status",
+      "quote": "For March 1, 2026 - February 28, 2027"
+     },
+     {
+      "field": "citation",
+      "quote": "579 Multilingual Relocation Payments 37.9C"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0090",
@@ -3657,7 +6265,7 @@
    "source_doc_id": "D082",
    "retrieved_at": "2026-10-01T22:37Z",
    "span_verified": true,
-   "confidence": 0.65,
+   "confidence": 0.6,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -3665,7 +6273,31 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "partly_supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "not_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "3/01/26 – 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90"
+     },
+     {
+      "field": "key_value",
+      "quote": "3/01/26 – 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90"
+     }
+    ],
+    "changes": [
+     "second check disputes the citation: The document is a Rent Board rate archive. It never cites a specific section for Ellis Act relocation payments; the only section it mentions is 37.9C, in a footnote about capital improvement evictions. The card's generic 'S.F. Rent Ordinance' citation is therefore not stated for this rule."
+    ]
+   }
   },
   {
    "team_rule_id": "r-0091",
@@ -3701,7 +6333,7 @@
    "source_doc_id": "D080",
    "retrieved_at": "2026-10-01T22:37Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.6,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -3709,7 +6341,43 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": "Fields filled from D079, which state the same law."
+   "consolidation_note": "Fields filled from D079, which state the same law.",
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "not_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "To calculate the dollar amount of the 1.6% annual rent increase, multiply the tenant's base rent by .016. For example, if the tenant's base rent is $2,000.00, the annual increase would be calculated as follows: $2,000.00 x .016 = $32.00. The tenant's new base rent would be $2,032.00 ($2,000.00 + $32.00)."
+     },
+     {
+      "field": "key_value",
+      "quote": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%."
+     },
+     {
+      "field": "effective_date",
+      "quote": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%."
+     },
+     {
+      "field": "status",
+      "quote": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%."
+     },
+     {
+      "field": "coverage",
+      "quote": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979, tenancies that are eligible for a rent increase under the\nCosta-Hawkins Rental Housing Act,"
+     }
+    ],
+    "changes": [
+     "second check disputes the citation: The documents cite Ordinance Section 37.9(a) and 37.2(r), but none cites S.F. Admin. Code § 37.3 for the annual increase."
+    ]
+   }
   },
   {
    "team_rule_id": "r-0092",
@@ -3753,7 +6421,41 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": "Coverage cutoff taken from r-0091 (S.F. Admin. Code § 37.3), the same city's rent rule, because this record states none.",
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "1.6% for March 1, 2026 – February 28, 2027"
+     },
+     {
+      "field": "key_value",
+      "quote": "1.6% for March 1, 2026 – February 28, 2027"
+     },
+     {
+      "field": "effective_date",
+      "quote": "March 1, 2026 – February 28, 2027\n1.6%"
+     },
+     {
+      "field": "status",
+      "quote": "For March 1, 2026 - February 28, 2027"
+     },
+     {
+      "field": "citation",
+      "quote": "571 Allowable Annual Increases"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0093",
@@ -3796,7 +6498,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions."
+     },
+     {
+      "field": "status",
+      "quote": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions."
+     },
+     {
+      "field": "citation",
+      "quote": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0094",
@@ -3837,7 +6565,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official text captured by the team (not in the starter pack)",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "partly_supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Prohibits the use of certain algorithmic rent-setting tools in the local rental market."
+     },
+     {
+      "field": "key_value",
+      "quote": "Impacted tenants may seek damages, injunctive relief, up to $1,000 per violation, and attorney’s fees."
+     },
+     {
+      "field": "status",
+      "quote": "The Santa Ana City Council has adopted a new ordinance to strengthen renter protections by limiting the use of certain rent-setting software for residential properties."
+     },
+     {
+      "field": "citation",
+      "quote": "Approved on March 3, 2026, this action responds to concerns that some tools use nonpublic market data—such as real-time rents, lease activity, and occupancy levels—to influence pricing in ways that may drive rents higher."
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0096",
@@ -3878,7 +6636,7 @@
    "source_doc_id": "D085",
    "retrieved_at": "2026-10-01T22:37Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -3886,7 +6644,45 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice."
+     },
+     {
+      "field": "key_value",
+      "quote": "Under a no-fault just cause termination, the owner shall either provide 3 months of relocation assistance or waive payment of rent for the final 3 months of the tenancy."
+     },
+     {
+      "field": "effective_date",
+      "quote": "The new ordinances are not effective until November 19, 2021."
+     },
+     {
+      "field": "status",
+      "quote": "The new ordinances are not effective until November 19, 2021."
+     },
+     {
+      "field": "coverage",
+      "quote": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters."
+     },
+     {
+      "field": "citation",
+      "quote": "Key provisions of the Just Cause Eviction Ordinance"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0097",
@@ -3929,7 +6725,33 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "supported",
+     "key_value": "not_applicable",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Your landlord must have a valid reason to evict you. This could be for not paying rent, breaking the lease, or if the landlord wants to move into the property themselves."
+     },
+     {
+      "field": "status",
+      "quote": "Your landlord must have a valid reason to evict you."
+     },
+     {
+      "field": "citation",
+      "quote": "Rent Stabilization and Just Cause Eviction"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0098",
@@ -3973,7 +6795,37 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": "Coverage cutoff taken from r-0099 (Santa Ana Rent Stabilization Ordinance), the same city's rent rule, because this record states none.",
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "supported",
+     "effective_date": "not_applicable",
+     "status": "supported",
+     "coverage": "not_applicable",
+     "citation": "supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "The increase cannot be more than 3% of your current rent or 80% of the Consumer Price Index (CPI) change, whichever is less."
+     },
+     {
+      "field": "key_value",
+      "quote": "2.87 percent is the maximum allowable rent increase for the period of September 1, 2026 through August 31, 2027."
+     },
+     {
+      "field": "status",
+      "quote": "2.87 percent is the maximum allowable rent increase for the period of September 1, 2026 through August 31, 2027."
+     },
+     {
+      "field": "citation",
+      "quote": "Rent Stabilization and Just Cause Eviction"
+     }
+    ],
+    "changes": []
+   }
   },
   {
    "team_rule_id": "r-0099",
@@ -4011,7 +6863,7 @@
    "source_doc_id": "D085",
    "retrieved_at": "2026-10-01T22:37Z",
    "span_verified": true,
-   "confidence": 0.85,
+   "confidence": 0.8,
    "conflict_flag": false,
    "conflict_note": null,
    "penalty": null,
@@ -4019,7 +6871,45 @@
    "may_preempt_local_rules": false,
    "source_type": "official",
    "coverage_note": null,
-   "consolidation_note": null
+   "consolidation_note": null,
+   "verification": {
+    "model": "claude-sonnet-5-5",
+    "verdicts": {
+     "requirement": "partly_supported",
+     "key_value": "supported",
+     "effective_date": "supported",
+     "status": "supported",
+     "coverage": "partly_supported",
+     "citation": "partly_supported"
+    },
+    "evidence": [
+     {
+      "field": "requirement",
+      "quote": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period. If the CPI is negative, no rent increase is permitted."
+     },
+     {
+      "field": "key_value",
+      "quote": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period. If the CPI is negative, no rent increase is permitted."
+     },
+     {
+      "field": "effective_date",
+      "quote": "The new ordinances are not effective until November 19, 2021."
+     },
+     {
+      "field": "status",
+      "quote": "The new ordinances are not effective until November 19, 2021."
+     },
+     {
+      "field": "coverage",
+      "quote": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990."
+     },
+     {
+      "field": "citation",
+      "quote": "Key requirements of the Rent Stabilization Ordinance"
+     }
+    ],
+    "changes": []
+   }
   }
  ]
 }

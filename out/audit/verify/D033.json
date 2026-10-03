@@ -1,0 +1,41 @@
+{
+ "key": "40c0409e87ace8d55cf616be7339b0f0b6b718ee",
+ "doc_id": "D033",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:42:42.651Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0069",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "The majority of Hoboken rental properties, including many condominium units, are covered under rent control regulations.",
+    "note": "Annual June 30 registration and denial of increases for missing proof of rent are stated. The tenant-side claim that a tenant can check registration status and appeal through the office is only loosely supported: the page mentions tenant webinars covering records and appeals processes, but does not say tenants can check registration status or appeal registration issues."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Timely and accurate registration is a legal requirement and helps:",
+    "note": "The document presents the rule as current law, so in_force is supported."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "Federally funded housing, certain new construction, and commercial properties may be exempt under Municipal Code Chapter 155.",
+    "note": "The document refers to Municipal Code Chapter 155 as the rent control ordinance."
+   }
+  }
+ ]
+}

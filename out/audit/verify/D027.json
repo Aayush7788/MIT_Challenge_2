@@ -1,0 +1,107 @@
+{
+ "key": "06a6e903c83e121e5518cb96cc8dbc4abbd73445",
+ "doc_id": "D027",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:39:24.307Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0011",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "(a) For the owner of any housing accommodation to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information of that person.",
+    "note": "Ad preference ban is in (c) and the definition of source of income, including Section 8 and VASH, is in (p); the citation lists only (a) and (p), but the requirement is stated in the document."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)",
+    "note": "Presented as current law, retrieved 2026-10-01."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "partly_supported",
+    "evidence": "(p) (1) For the purposes of this section, “source of income” means lawful, verifiable income paid directly to a tenant, or to a representative of a tenant, or paid to a housing owner or landlord on behalf of a tenant, including federal, state, or local public assistance, and federal, state, or local housing subsidies",
+    "note": "Subsections (a) and (p) are correct, but the ad-preference part of the requirement comes from (c), which the citation omits."
+   }
+  },
+  {
+   "team_rule_id": "r-0012",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "(A) Use a financial or income standard in assessing eligibility for the rental of housing that is not based on the portion of the rent to be paid by the tenant.",
+    "note": "Applies where there is a government rent subsidy; unlawful to use a standard not based on the tenant's portion."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "(A) Use a financial or income standard in assessing eligibility for the rental of housing that is not based on the portion of the rent to be paid by the tenant.",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)",
+    "note": "Presented as current law."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "(o) (1) In instances in which there is a government rent subsidy, to do either of the following:",
+    "note": "Correct subdivision."
+   }
+  },
+  {
+   "team_rule_id": "r-0013",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "(B) (i) Use a person’s credit history as part of the application process for a rental accommodation without offering the applicant the option, at the applicant’s discretion, of providing lawful, verifiable alternative evidence of the applicant’s reasonable ability to pay the portion of the rent to be paid by the tenant, including, but not limited to, government benefit payments, pay records, and bank statements.",
+    "note": "Reasonable time and reasonable consideration are in (ii)(I)-(II)."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "partly_supported",
+    "evidence": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)",
+    "note": "The document gives Jan 1, 2024 as the effective date of the amendment by SB 267; it does not say that this specific provision first took effect then."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)",
+    "note": "Presented as current law."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)",
+    "note": "Subdivision (o)(1)(B) and the SB 267 amendment are both in the document."
+   }
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "key": "6844f62597ad8e4a55510ab3e79edf9089c75669",
+ "doc_id": "D042",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:43:11.061Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0078",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
+    "note": "Card paraphrases; the document states the rule for RSO units (context is the RSO annual increase)."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
+    "note": "0% additional follows directly from 'no longer include any additional percentage increase'."
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
+    "note": "The date 2026-02-02 matches the document. The 2025-07-01 date in extractor notes applies to the 3% annual increase, not this rule."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
+    "note": "Presented as current law; as of 2026-10-01 the Feb 2, 2026 start date has passed."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Coverage is empty on the card."
+   },
+   "citation": {
+    "verdict": "partly_supported",
+    "evidence": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective",
+    "note": "The document refers to the RSO generally but gives no section number. The citation names only the ordinance, and the statement comes from an LAHD web page."
+   }
+  }
+ ]
+}

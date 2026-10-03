@@ -39,6 +39,7 @@ export type MemoItem = {
   confidence: number;
   confidence_level: "high" | "medium" | "low";
   confidence_reasons: string[];
+  second_check: string | null;
 };
 
 export type Memo = {
@@ -75,6 +76,7 @@ function trust(e: Evaluation, facts: FactSheet): { level: MemoItem["confidence_l
   const usesUnits = c.min_units != null || c.max_units != null || c.owner_based_exemption_max_units != null;
   if (usesUnits && facts.units.source === "land-use code") mid.push("unit count read from the land-use code");
   else if (usesUnits && facts.units.value == null && facts.units_min.value != null) mid.push("only a unit range is known, from the land-use code");
+  for (const c of r.verification?.changes ?? []) (c.includes("disputes") ? mid : low).push(`second check: ${c.split(":")[0]}`);
   if (r.coverage_note) mid.push("coverage cutoff taken from a related record");
   if (r.consolidation_note?.includes("Effective date taken")) mid.push("effective date taken from a related record");
   const level = low.length ? "low" : mid.length ? "medium" : "high";
@@ -109,6 +111,9 @@ function item(e: Evaluation, facts: FactSheet): MemoItem {
     confidence: r.confidence,
     confidence_level: t.level,
     confidence_reasons: t.reasons,
+    second_check: r.verification
+      ? `${Object.values(r.verification.verdicts).filter((v) => v === "supported").length} of ${Object.values(r.verification.verdicts).filter((v) => v !== "not_applicable").length} fields confirmed by a second model, with ${r.verification.evidence.length} supporting quotes found in the source`
+      : null,
   };
 }
 

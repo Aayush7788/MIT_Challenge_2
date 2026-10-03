@@ -261,6 +261,7 @@ export function normalizeRules(input: unknown): LoadedRules {
       source_type: typeof r.source_type === "string" ? r.source_type : undefined,
       coverage_note: typeof r.coverage_note === "string" ? r.coverage_note : null,
       consolidation_note: typeof r.consolidation_note === "string" ? r.consolidation_note : null,
+      verification: r.verification && typeof r.verification === "object" ? (r.verification as RuleRecord["verification"]) : undefined,
     });
     if (typeof r.effective_date === "string" && r.effective_date && !dateOrNull(r.effective_date)) {
       warnings.push(`${id}: effective_date "${r.effective_date}" is not YYYY-MM-DD; ignored`);

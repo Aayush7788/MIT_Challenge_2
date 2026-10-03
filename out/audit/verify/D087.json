@@ -1,0 +1,41 @@
+{
+ "key": "71972db6dab69d3889edcf27dda6c3f56d0315c7",
+ "doc_id": "D087",
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-03T21:44:21.440Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0095",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "Under the ordinance, a tenant affected by a violation may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation, plus attorney’s fees.",
+    "note": "Ban on sale, licensing, provision and use, nonpublic competitor data, and the burden-of-proof point are all in the document. Document says 'certain' tools and carves out public/aggregate data; the card is a fair summary."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "Under the ordinance, a tenant affected by a violation may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation, plus attorney’s fees.",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card; document gives no effective date."
+   },
+   "status": {
+    "verdict": "partly_supported",
+    "evidence": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3, prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties.",
+    "note": "Document only reports first reading and a scheduled March 3 final vote. It does not confirm final adoption, so 'pending' is only partly supported as of 2026-10-01 (the March 3 vote date has passed, and the capture note calls it 'adopted'). The document does not show the current status."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3, prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties.",
+    "note": "Card correctly notes that no ordinance number is stated and gives the first reading date Feb. 17, 2026, which matches the document."
+   }
+  }
+ ]
+}

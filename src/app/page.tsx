@@ -105,6 +105,7 @@ function RuleCard({ it, L, lang }: { it: MemoItem; L: S; lang: Lang }) {
               {L.confidence} {L.levels[it.confidence_level]}: {it.confidence_reasons.join("; ")}.
             </p>
           )}
+          {it.second_check && <p className="mt-1 text-stone-500">{lang === "es" ? `Segunda revisión (en inglés): ${it.second_check}.` : `Second check: ${it.second_check}.`}</p>}
           <p className="mt-1 text-stone-400">{L.ruleMeta(it.team_rule_id, it.status.replaceAll("_", " "), Math.round(it.confidence * 100))}</p>
         </div>
       )}
