@@ -1,0 +1,85 @@
+{
+  "doc_id": "D044",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "extracted_at": "2026-10-03T21:20:03.923Z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input": 3430,
+    "output": 2708,
+    "cache_read": 0,
+    "cache_write": 5289
+  },
+  "rules": [
+    {
+      "jurisdiction": "Los Angeles, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Interest on security deposits for RSO units",
+      "requirement": "If you rent an RSO unit in Los Angeles (certificate of occupancy first issued before October 1, 1978) and your landlord has held your deposit for at least a year, the landlord must pay you interest (3.03% for 2026, or the actual interest earned with a bank statement), as a direct payment or rent credit, and any unpaid interest when you move out. If unpaid, you can sue, including in Small Claims Court; the city will not investigate.",
+      "key_value": "3.03% simple interest for 2026 (Rent Adjustment Commission rate) or actual interest earned",
+      "coverage": {
+        "summary": "Rental units subject to the Los Angeles Rent Stabilization Ordinance (dwelling units, condominiums, duplexes, guest rooms and hotel/rooming house rooms occupied by the same tenant over 30 days) with a certificate of occupancy first issued before October 1, 1978; deposits held at least one year. Mobile home parks excluded.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": "1978-09-30",
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": true,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "mobile home parks",
+          "deposits held less than one year"
+        ]
+      },
+      "exemptions": "Mobile home parks; no interest was required for calendar year 2002.",
+      "effective_date": "2004-01-01",
+      "penalty": "Tenant may sue in a court of appropriate jurisdiction, including Small Claims Court, to recover the amount owed; civil remedy only.",
+      "citation": "L.A. Mun. Code § 151.06.02 (Ord. No. 175020; Ord. No. 166368; Ord. No. 174017)",
+      "quoted_span": "The interest rate set by the Rent Adjustment Commission for 2026 is 3.03%.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": "Payment of interest at end of tenancy follows the timing and manner of Cal. Civ. Code § 1950.5(f); transfer of landlord's interest follows § 1950.5(g)-(h).",
+      "confidence": 0.82,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "Los Angeles, CA",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Rent Stabilization Ordinance coverage (pre-October 1978 certificate of occupancy)",
+      "requirement": "Your Los Angeles unit is covered by the Rent Stabilization Ordinance if its certificate of occupancy was first issued before October 1, 1978. Check your building's certificate of occupancy date to know whether RSO protections apply.",
+      "key_value": null,
+      "coverage": {
+        "summary": "Dwelling units, suites, condominiums, duplexes, guest rooms and hotel/motel/rooming house rooms occupied by the same tenant over 30 consecutive days in the City of Los Angeles with a certificate of occupancy first issued before October 1, 1978.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": "1978-09-30",
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": true,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "mobile home parks (as stated for deposit interest)"
+        ]
+      },
+      "exemptions": null,
+      "effective_date": null,
+      "penalty": null,
+      "citation": "Los Angeles Rent Stabilization Ordinance (L.A. Mun. Code ch. XV)",
+      "quoted_span": "issued before October 1, 1978, must pay intere st on all security deposits held for at ",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "interaction": null,
+      "confidence": 0.55,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "notes": "Bulletin #44 dated 01/13/2026 from LAHD. Rent increase record added only for RSO coverage cutoff stated in the document; the bulletin does not state the allowable rent increase formula. Quoted spans in source contain extraction spacing artifacts (e.g. 'intere st')."
+}

@@ -1,5 +1,5 @@
 SELF-CHECK (not the official score.py)
-  rules 90 | addresses 500 | as of 2026-10-01
+  rules 92 | addresses 500 | as of 2026-10-01
 
 Extraction         23.6 / 25   (27 rules named in the brief)
     PARTIAL  Berkeley ch. 13.63  [ours: r-0047 in_force None; brief: in_force 2026]
@@ -15,7 +15,7 @@ Address coverage   20.0 / 20   (no silver address key yet; using the brief's inv
      71/71  SF pre-1979: local rent cap applies
      25/25  LA post-1978: RSO does not apply
       7/7   SF post-1979: local rent cap does not apply
-Citations          15.0 / 15   (7829/7829 'applies' answers quote their source verbatim)
+Citations          15.0 / 15   (7923/7923 'applies' answers quote their source verbatim)
 Change tracking    15.0 / 15
     T1: overlap 1.00 (ours 250, expected 250)
     T2: overlap 1.00 (ours 90, expected 90)

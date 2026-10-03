@@ -250,14 +250,14 @@
         "r-0073",
         "r-0074",
         "r-0075",
-        "r-0081",
-        "r-0082",
-        "r-0085",
-        "r-0086",
+        "r-0083",
+        "r-0084",
         "r-0087",
         "r-0088",
-        "r-0094",
-        "r-0095"
+        "r-0089",
+        "r-0090",
+        "r-0096",
+        "r-0097"
       ],
       "jurisdiction": "CA",
       "level": "state",
@@ -354,10 +354,11 @@
         "r-0056",
         "r-0076",
         "r-0077",
-        "r-0089",
-        "r-0090",
-        "r-0096",
-        "r-0097"
+        "r-0078",
+        "r-0091",
+        "r-0092",
+        "r-0098",
+        "r-0099"
       ],
       "jurisdiction": "CA",
       "level": "state",
@@ -407,10 +408,11 @@
         "r-0056",
         "r-0076",
         "r-0077",
-        "r-0089",
-        "r-0090",
-        "r-0096",
-        "r-0097"
+        "r-0078",
+        "r-0091",
+        "r-0092",
+        "r-0098",
+        "r-0099"
       ],
       "jurisdiction": "CA",
       "level": "state",
@@ -3127,6 +3129,50 @@
       "level": "city",
       "category": "rent_increase_limits",
       "status": "in_force",
+      "title": "Rent Stabilization Ordinance coverage (pre-October 1978 certificate of occupancy)",
+      "requirement": "Your Los Angeles unit is covered by the Rent Stabilization Ordinance if its certificate of occupancy was first issued before October 1, 1978. Check your building's certificate of occupancy date to know whether RSO protections apply.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "Dwelling units, suites, condominiums, duplexes, guest rooms and hotel/motel/rooming house rooms occupied by the same tenant over 30 consecutive days in the City of Los Angeles with a certificate of occupancy first issued before October 1, 1978.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": "1978-09-30",
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": true,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "mobile home parks (as stated for deposit interest)"
+        ]
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "Los Angeles Rent Stabilization Ordinance (L.A. Mun. Code ch. XV)",
+      "source_doc_id": "D044",
+      "source_url": "https://housing.lacity.gov/wp-content/uploads/2023/01/44-Interest-Payments-on-Security-Deposits-English.pdf",
+      "retrieved_at": "2026-10-03 21:19 UTC",
+      "quoted_span": "issued before October 1, 1978, must pay intere st on all security deposits held for at",
+      "span_verified": true,
+      "confidence": 0.55,
+      "conflict_flag": false,
+      "conflict_note": null,
+      "penalty": null,
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "official text captured by the team (not in the starter pack)"
+    },
+    {
+      "team_rule_id": "r-0077",
+      "overrides": [
+        "r-0009",
+        "r-0010"
+      ],
+      "jurisdiction": "Los Angeles, CA",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
       "title": "Rent Stabilization Ordinance (RSO) annual allowable rent increase",
       "requirement": "If your LA unit was first built on or before October 1, 1978, your landlord may raise rent only once every 12 months, by no more than the city's published allowable percentage. Since February 2, 2026, landlords cannot add an extra percentage for utilities or a 10% increase for an added dependent. Increases beyond this, such as for capital improvements, need LAHD approval.",
       "key_value": "Once every 12 months by the LAHD allowable rent increase percentage; no added utility percentage after 2026-02-02",
@@ -3164,7 +3210,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0077",
+      "team_rule_id": "r-0078",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3206,7 +3252,49 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0078",
+      "team_rule_id": "r-0079",
+      "overrides": [],
+      "jurisdiction": "Los Angeles, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Interest on security deposits for RSO units",
+      "requirement": "If you rent an RSO unit in Los Angeles (certificate of occupancy first issued before October 1, 1978) and your landlord has held your deposit for at least a year, the landlord must pay you interest (3.03% for 2026, or the actual interest earned with a bank statement), as a direct payment or rent credit, and any unpaid interest when you move out. If unpaid, you can sue, including in Small Claims Court; the city will not investigate.",
+      "key_value": "3.03% simple interest for 2026 (Rent Adjustment Commission rate) or actual interest earned",
+      "coverage_conditions": {
+        "summary": "Rental units subject to the Los Angeles Rent Stabilization Ordinance (dwelling units, condominiums, duplexes, guest rooms and hotel/rooming house rooms occupied by the same tenant over 30 days) with a certificate of occupancy first issued before October 1, 1978; deposits held at least one year. Mobile home parks excluded.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": "1978-09-30",
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": true,
+        "exempt_if_newer_than_years": null,
+        "owner_based_exemption_max_units": null,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "mobile home parks",
+          "deposits held less than one year"
+        ]
+      },
+      "exemptions": "Mobile home parks; no interest was required for calendar year 2002.",
+      "interaction": "Payment of interest at end of tenancy follows the timing and manner of Cal. Civ. Code § 1950.5(f); transfer of landlord's interest follows § 1950.5(g)-(h).",
+      "effective_date": "2004-01-01",
+      "citation": "L.A. Mun. Code § 151.06.02 (Ord. No. 175020; Ord. No. 166368; Ord. No. 174017)",
+      "source_doc_id": "D044",
+      "source_url": "https://housing.lacity.gov/wp-content/uploads/2023/01/44-Interest-Payments-on-Security-Deposits-English.pdf",
+      "retrieved_at": "2026-10-03 21:19 UTC",
+      "quoted_span": "The interest rate set by the Rent Adjustment Commission for 2026 is 3.03%.",
+      "span_verified": true,
+      "confidence": 0.82,
+      "conflict_flag": false,
+      "conflict_note": null,
+      "penalty": "Tenant may sue in a court of appropriate jurisdiction, including Small Claims Court, to recover the amount owed; civil remedy only.",
+      "yields_to_local_rule": false,
+      "may_preempt_local_rules": false,
+      "source_type": "official text captured by the team (not in the starter pack)"
+    },
+    {
+      "team_rule_id": "r-0080",
       "overrides": [],
       "jurisdiction": "Newark, NJ",
       "level": "city",
@@ -3245,7 +3333,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0079",
+      "team_rule_id": "r-0081",
       "overrides": [],
       "jurisdiction": "San Diego, CA",
       "level": "city",
@@ -3286,7 +3374,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0080",
+      "team_rule_id": "r-0082",
       "overrides": [],
       "jurisdiction": "San Diego, CA",
       "level": "city",
@@ -3325,7 +3413,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0081",
+      "team_rule_id": "r-0083",
       "overrides": [
         "r-0007"
       ],
@@ -3375,7 +3463,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0082",
+      "team_rule_id": "r-0084",
       "overrides": [
         "r-0007"
       ],
@@ -3424,7 +3512,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0083",
+      "team_rule_id": "r-0085",
       "overrides": [],
       "jurisdiction": "San Diego, CA",
       "level": "city",
@@ -3465,7 +3553,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0084",
+      "team_rule_id": "r-0086",
       "overrides": [],
       "jurisdiction": "San Francisco, CA",
       "level": "city",
@@ -3504,7 +3592,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0085",
+      "team_rule_id": "r-0087",
       "overrides": [
         "r-0007"
       ],
@@ -3545,7 +3633,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0086",
+      "team_rule_id": "r-0088",
       "overrides": [
         "r-0007"
       ],
@@ -3586,7 +3674,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0087",
+      "team_rule_id": "r-0089",
       "overrides": [
         "r-0007"
       ],
@@ -3627,7 +3715,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0088",
+      "team_rule_id": "r-0090",
       "overrides": [
         "r-0007"
       ],
@@ -3668,7 +3756,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0089",
+      "team_rule_id": "r-0091",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3711,7 +3799,7 @@
       "consolidation_note": "Fields filled from D079, which state the same law."
     },
     {
-      "team_rule_id": "r-0090",
+      "team_rule_id": "r-0092",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -3753,7 +3841,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0091",
+      "team_rule_id": "r-0093",
       "overrides": [],
       "jurisdiction": "San Francisco, CA",
       "level": "city",
@@ -3794,7 +3882,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0092",
+      "team_rule_id": "r-0094",
       "overrides": [],
       "jurisdiction": "Santa Ana, CA",
       "level": "city",
@@ -3833,7 +3921,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0093",
+      "team_rule_id": "r-0095",
       "overrides": [],
       "jurisdiction": "Santa Ana, CA",
       "level": "city",
@@ -3874,7 +3962,7 @@
       "source_type": "official text captured by the team (not in the starter pack)"
     },
     {
-      "team_rule_id": "r-0094",
+      "team_rule_id": "r-0096",
       "overrides": [
         "r-0007"
       ],
@@ -3921,7 +4009,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0095",
+      "team_rule_id": "r-0097",
       "overrides": [
         "r-0007"
       ],
@@ -3962,7 +4050,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0096",
+      "team_rule_id": "r-0098",
       "overrides": [
         "r-0009",
         "r-0010"
@@ -4004,7 +4092,7 @@
       "source_type": "official"
     },
     {
-      "team_rule_id": "r-0097",
+      "team_rule_id": "r-0099",
       "overrides": [
         "r-0009",
         "r-0010"
