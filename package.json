@@ -18,7 +18,9 @@
     "changes": "tsx scripts/changes.ts",
     "score": "python3 scripts/selfscore.py",
     "review": "python3 scripts/review-sheets.py",
-    "pipeline": "npm run lookups && npm run changes && npm run score"
+    "pipeline": "npm run lookups && npm run changes && npm run score",
+    "ingest": "tsx scripts/ingest.ts",
+    "capture": "python3 scripts/capture-source.py"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.131.0",

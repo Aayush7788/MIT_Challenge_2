@@ -17,7 +17,9 @@ const opt = (name: string, dflt: string) => {
   return i >= 0 ? args[i + 1] : dflt;
 };
 const RULES_IN = opt("rules", "submission/rules.json");
-const TESTS = opt("tests", `${PACK_DIR}/dev/change_tests.json`).split(",");
+// Starter-pack tests plus tests added with scripts/ingest.ts (e.g. the hour-16 ordinance).
+const EXTRA_TESTS = "data/derived/extra_change_tests.json";
+const TESTS = opt("tests", [`${PACK_DIR}/dev/change_tests.json`, ...(fs.existsSync(EXTRA_TESTS) ? [EXTRA_TESTS] : [])].join(",")).split(",");
 const OUT = opt("out", "submission/changes.json");
 const DEFAULT_AS_OF = "2026-10-01";
 
@@ -25,7 +27,8 @@ type ChangeTest = {
   test_id: string;
   title: string;
   type: string;
-  rule_ids: string[];
+  rule_ids?: string[];
+  team_rule_ids?: string[]; // tests written by scripts/ingest.ts name our rules directly
   as_of?: string;
   as_of_before?: string;
   as_of_after?: string;
@@ -42,9 +45,12 @@ const JURISDICTION: Record<string, string> = {
   BOS: "Boston, MA", CAM: "Cambridge, MA", CAMB: "Cambridge, MA",
 };
 const CATEGORY: Record<string, Category> = {
-  ALG: "algorithmic_rent_setting", RENT: "rent_increase_limits", RC: "rent_increase_limits",
-  EVIC: "just_cause_eviction", EVICT: "just_cause_eviction", JCE: "just_cause_eviction",
-  DEP: "security_deposits", FEE: "application_screening_fees", SCR: "screening_restrictions", SCREEN: "screening_restrictions",
+  ALG: "algorithmic_rent_setting", ALGO: "algorithmic_rent_setting", AI: "algorithmic_rent_setting", PRICE: "algorithmic_rent_setting",
+  RENT: "rent_increase_limits", RC: "rent_increase_limits", RS: "rent_increase_limits", CAP: "rent_increase_limits",
+  EVIC: "just_cause_eviction", EVICT: "just_cause_eviction", EV: "just_cause_eviction", JCE: "just_cause_eviction", JUST: "just_cause_eviction",
+  DEP: "security_deposits", DEPOSIT: "security_deposits", SEC: "security_deposits",
+  FEE: "application_screening_fees", FEES: "application_screening_fees", APP: "application_screening_fees",
+  SCR: "screening_restrictions", SCREEN: "screening_restrictions", CRIM: "screening_restrictions", SOI: "screening_restrictions",
 };
 
 const compact = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -85,7 +91,8 @@ function main() {
 
   const out: Record<string, unknown> = {};
   for (const t of tests) {
-    const mapped = [...new Map(t.rule_ids.flatMap((id) => mapRules(id, t, rules)).map((r) => [r.team_rule_id, r])).values()];
+    const direct = rules.filter((r) => t.team_rule_ids?.includes(r.team_rule_id));
+    const mapped = direct.length ? direct : [...new Map((t.rule_ids ?? []).flatMap((id) => mapRules(id, t, rules)).map((r) => [r.team_rule_id, r])).values()];
     const ids = new Set(mapped.map((r) => r.team_rule_id));
     // Pending bills are evaluated as if enacted today, to show who they would reach.
     const ruleSet = t.type === "pending" ? rules.map((r) => (ids.has(r.team_rule_id) ? { ...r, status: "in_force" as const, effective_date: null } : r)) : rules;
@@ -124,7 +131,7 @@ function main() {
     const notes = [
       mapped.length
         ? `Matched team rules: ${mapped.map((r) => `${r.team_rule_id} (${r.citation}; ${r.status}${r.effective_date ? `, effective ${r.effective_date}` : ""})`).join("; ")}.`
-        : `No extracted rule matches ${t.rule_ids.join(", ")}; the source text may be missing from the corpus.`,
+        : `No extracted rule matches ${(t.rule_ids ?? []).join(", ")}; the source text may be missing from the corpus.`,
       t.type === "as_of" ? `Affected = addresses whose result changes between ${t.as_of_before} and ${t.as_of_after}.` : "",
       t.type === "pending" ? "Pending bills, never in force; affected = addresses they would reach if enacted as written." : "",
       t.type === "negative" ? `Struck or failed measures are never reported as in force.${failed.length ? ` Recorded as failed: ${failed.map((r) => r.citation).join("; ")}.` : ""}` : "",
