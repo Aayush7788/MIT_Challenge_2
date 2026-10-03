@@ -1,6 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import type { CheckLine, CheckResult, ProposalKind } from "@/lib/law/check";
 import type { Fact } from "@/lib/law/facts";
 import type { Memo, MemoItem } from "@/lib/law/memo";
@@ -129,12 +131,23 @@ const VERDICT_STYLE: Record<CheckResult["verdict"], string> = {
   no_cap_found: "border-stone-300 bg-stone-50 text-stone-900",
 };
 
-export default function Home() {
+export default function Page() {
+  return (
+    <Suspense>
+      <Home />
+    </Suspense>
+  );
+}
+
+function Home() {
+  const params = useSearchParams();
+  const linkedId = params.get("id");
+  const linkedAsOf = params.get("as_of");
   const [mode, setMode] = useState<"sample" | "any">("sample");
   const [q, setQ] = useState("");
   const [hits, setHits] = useState<Hit[]>([]);
-  const [target, setTarget] = useState<Target | null>(null);
-  const [asOf, setAsOf] = useState(DEFAULT_AS_OF);
+  const [target, setTarget] = useState<Target | null>(linkedId ? { kind: "id", id: linkedId, label: linkedId } : null);
+  const [asOf, setAsOf] = useState(linkedAsOf && /^\d{4}-\d{2}-\d{2}$/.test(linkedAsOf) ? linkedAsOf : DEFAULT_AS_OF);
   const [facts, setFacts] = useState({ year_built: "", units: "", co_date: "" });
   const [applied, setApplied] = useState({ year_built: "", units: "", co_date: "" });
   const [kind, setKind] = useState<ProposalKind>("rent_increase_pct");
@@ -212,7 +225,11 @@ export default function Home() {
             <h1 className="text-xl font-bold tracking-tight">Rental Housing Law Navigator</h1>
             <p className="text-sm text-stone-600">Which housing rules apply to this apartment on this date, with the source text for each one.</p>
           </div>
-          <span className="rounded-full bg-rose-50 px-3 py-1 text-xs font-semibold text-rose-800 ring-1 ring-rose-200">Not legal advice</span>
+          <nav className="flex items-center gap-3 text-sm">
+            <Link href="/changes" className="text-blue-700 hover:underline">Law changes</Link>
+            <Link href="/rules" className="text-blue-700 hover:underline">Rule cards</Link>
+            <span className="rounded-full bg-rose-50 px-3 py-1 text-xs font-semibold text-rose-800 ring-1 ring-rose-200">Not legal advice</span>
+          </nav>
         </div>
       </header>
 
