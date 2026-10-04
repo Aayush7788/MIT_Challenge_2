@@ -4,26 +4,13 @@
   "citation": "Cal. Bus. & Prof. Code § 16729 (Stats. 2025, ch. 338, AB 325)",
   "title": null,
   "official_text": {
-   "doc_id": "D022",
-   "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB325",
-   "retrieved_at": "2026-10-01T22:35Z",
-   "quoted_span": "It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
-   "in_supplied_corpus": true
+   "doc_id": "X001",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=16729",
+   "retrieved_at": "2026-10-03 20:58 UTC",
+   "in_supplied_corpus": false,
+   "quoted_span": "It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter."
   },
   "note": "Dropped the '(a)' pinpoint because the card merges subsections (a) and (b) of § 16729, and reordered the parenthetical to the house style (Stats., ch., bill)."
- },
- "r-0004": {
-  "from_citation": "Cal. Civ. Code § 1950.6",
-  "citation": "Cal. Civ. Code § 1950.6",
-  "title": null,
-  "official_text": {
-   "doc_id": "D026",
-   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.6",
-   "retrieved_at": "2026-10-01T22:35Z",
-   "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
-   "in_supplied_corpus": true
-  },
-  "note": null
  },
  "r-0009": {
   "from_citation": "Cal. Civ. Code § 1946.2",
@@ -33,34 +20,8 @@
    "doc_id": "D023",
    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946.2",
    "retrieved_at": "2026-10-01T22:35Z",
-   "quoted_span": "Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.",
-   "in_supplied_corpus": true
-  },
-  "note": null
- },
- "r-0011": {
-  "from_citation": "Cal. Gov. Code § 66300.6(b)(4)(A) (Housing Crisis Act of 2019, SB 330, as amended by SB 8 and AB 1218)",
-  "citation": "Cal. Gov. Code § 66300.6(b)(4)(A) (Housing Crisis Act of 2019, Stats. 2019, ch. 654, SB 330; as amended through Stats. 2025, ch. 511, SB 21)",
-  "title": null,
-  "official_text": {
-   "doc_id": "O001",
-   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=66300.6",
-   "retrieved_at": "2026-10-04 00:17 UTC",
-   "quoted_span": "The developer agrees to provide both of the following to the existing occupants of any protected units that are lower income households:\n\n(A) Relocation benefits that are equivalent to the relocation benefits required to be paid by public entities pursuant to Chapter 16 (commencing with Section 7260) of Division 7 of Title 1 and any implementing regulations.",
-   "in_supplied_corpus": false
-  },
-  "note": "The section cite stays; the amendment parenthetical is updated because O001 shows the section was last amended by Stats. 2025, ch. 511 (SB 21), which the card's 'as amended by SB 8 and AB 1218' omitted."
- },
- "r-0012": {
-  "from_citation": "Cal. Civ. Code § 1947.12",
-  "citation": "Cal. Civ. Code § 1947.12",
-  "title": null,
-  "official_text": {
-   "doc_id": "D024",
-   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1947.12",
-   "retrieved_at": "2026-10-01T22:35Z",
-   "quoted_span": "Subject to subdivision (b), an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase.",
-   "in_supplied_corpus": true
+   "in_supplied_corpus": true,
+   "quoted_span": "Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy."
   },
   "note": null
  },
@@ -72,8 +33,47 @@
    "doc_id": "D027",
    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955",
    "retrieved_at": "2026-10-01T22:35Z",
-   "quoted_span": "(o) (1) In instances in which there is a government rent subsidy, to do either of the following:\n(A) Use a financial or income standard in assessing eligibility for the rental of housing that is not based on the portion of the rent to be paid by the tenant.",
-   "in_supplied_corpus": true
+   "in_supplied_corpus": true,
+   "quoted_span": "(o) (1) In instances in which there is a government rent subsidy, to do either of the following:\n(A) Use a financial or income standard in assessing eligibility for the rental of housing that is not based on the portion of the rent to be paid by the tenant."
+  },
+  "note": null
+ },
+ "r-0012": {
+  "from_citation": "Cal. Civ. Code § 1947.12",
+  "citation": "Cal. Civ. Code § 1947.12",
+  "title": null,
+  "official_text": {
+   "doc_id": "D024",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1947.12",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "in_supplied_corpus": true,
+   "quoted_span": "Subject to subdivision (b), an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase."
+  },
+  "note": null
+ },
+ "r-0011": {
+  "from_citation": "Cal. Gov. Code § 66300.6(b)(4)(A) (Housing Crisis Act of 2019, SB 330, as amended by SB 8 and AB 1218)",
+  "citation": "Cal. Gov. Code § 66300.6(b)(4)(A) (Housing Crisis Act of 2019, Stats. 2019, ch. 654, SB 330; as amended through Stats. 2025, ch. 511, SB 21)",
+  "title": null,
+  "official_text": {
+   "doc_id": "O001",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=66300.6",
+   "retrieved_at": "2026-10-04 00:17 UTC",
+   "in_supplied_corpus": false,
+   "quoted_span": "The developer agrees to provide both of the following to the existing occupants of any protected units that are lower income households:\n\n(A) Relocation benefits that are equivalent to the relocation benefits required to be paid by public entities pursuant to Chapter 16 (commencing with Section 7260) of Division 7 of Title 1 and any implementing regulations."
+  },
+  "note": "The section cite stays; the amendment parenthetical is updated because O001 shows the section was last amended by Stats. 2025, ch. 511 (SB 21), which the card's 'as amended by SB 8 and AB 1218' omitted."
+ },
+ "r-0004": {
+  "from_citation": "Cal. Civ. Code § 1950.6",
+  "citation": "Cal. Civ. Code § 1950.6",
+  "title": null,
+  "official_text": {
+   "doc_id": "D026",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.6",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "in_supplied_corpus": true,
+   "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998."
   },
   "note": null
  },
@@ -85,10 +85,24 @@
    "doc_id": "D025",
    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
    "retrieved_at": "2026-10-01T22:35Z",
-   "quoted_span": "Except as provided in paragraph (2), (3), or (5), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy.",
-   "in_supplied_corpus": true
+   "in_supplied_corpus": true,
+   "quoted_span": "Except as provided in paragraph (2), (3), or (5), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy."
   },
   "note": "Added the AB 12 chaptering (Stats. 2023, ch. 733) shown in O002, but cited the whole section rather than the requested subdivision (c) because the card merges rules from subdivisions (c), (c)(4), (h), (m) and (n)."
+ },
+ "r-0023": {
+  "from_citation": "H.5222 (194th General Court; new draft of H.1564)",
+  "citation": "H.5222 (194th General Court; new draft of H.1564)",
+  "title": null,
+  "official_text": null,
+  "note": null
+ },
+ "r-0024": {
+  "from_citation": "Mass. Senate Bill S.2983 (194th General Court) (new draft of S.994 and S.1016)",
+  "citation": "Mass. Senate Bill S.2983 (194th General Court) (new draft of S.994 and S.1016)",
+  "title": null,
+  "official_text": null,
+  "note": null
  },
  "r-0027": {
   "from_citation": "M.G.L. c. 112 § 87DDD1/2 (as amended by St. 2025, c. 9, § 43)",
@@ -98,16 +112,9 @@
    "doc_id": "D057",
    "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter112/Section87DDD%201~2",
    "retrieved_at": "2026-10-01T22:56Z",
-   "quoted_span": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson.",
-   "in_supplied_corpus": true
+   "in_supplied_corpus": true,
+   "quoted_span": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson."
   },
-  "note": null
- },
- "r-0023": {
-  "from_citation": "H.5222 (194th General Court; new draft of H.1564)",
-  "citation": "H.5222 (194th General Court; new draft of H.1564)",
-  "title": null,
-  "official_text": null,
   "note": null
  },
  "r-0028": {
@@ -118,8 +125,8 @@
    "doc_id": "D052",
    "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B",
    "retrieved_at": "2026-10-01T22:37Z",
-   "quoted_span": "At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of the following:",
-   "in_supplied_corpus": true
+   "in_supplied_corpus": true,
+   "quoted_span": "At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of the following:"
   },
   "note": null
  },
@@ -131,8 +138,54 @@
    "doc_id": "D053",
    "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section18",
    "retrieved_at": "2026-10-01T22:37Z",
-   "quoted_span": "The receipt of any notice of termination of tenancy, except for nonpayment of rent, or, of increase in rent, or, of any substantial alteration in the terms of tenancy within six months after the tenant has commenced, proceeded with, or obtained relief in such action, exercised such rights, made such report or complaint, or organized or joined such tenants' union or within six months after any other person has taken such action or actions on behalf of the tenant or in, or relating to, the building in which the tenant resides, shall create a rebuttable presumption that such notice or other action is a reprisal against the tenant for engaging in such activities. Such presumption shall be rebutted only by clear and convincing evidence that such person's action was not a reprisal against the tenant and that such person had sufficient independent justification for taking such action, and would have in fact taken such action, in the same manner and at the same time the action was taken, regardless of tenants engaging in, or the belief that tenants had engaged in, activities protected under this section.",
-   "in_supplied_corpus": true
+   "in_supplied_corpus": true,
+   "quoted_span": "The receipt of any notice of termination of tenancy, except for nonpayment of rent, or, of increase in rent, or, of any substantial alteration in the terms of tenancy within six months after the tenant has commenced, proceeded with, or obtained relief in such action, exercised such rights, made such report or complaint, or organized or joined such tenants' union or within six months after any other person has taken such action or actions on behalf of the tenant or in, or relating to, the building in which the tenant resides, shall create a rebuttable presumption that such notice or other action is a reprisal against the tenant for engaging in such activities. Such presumption shall be rebutted only by clear and convincing evidence that such person's action was not a reprisal against the tenant and that such person had sufficient independent justification for taking such action, and would have in fact taken such action, in the same manner and at the same time the action was taken, regardless of tenants engaging in, or the belief that tenants had engaged in, activities protected under this section."
+  },
+  "note": null
+ },
+ "r-0030": {
+  "from_citation": "M.G.L. c. 40P § 4",
+  "citation": "M.G.L. c. 40P § 4",
+  "title": null,
+  "official_text": {
+   "doc_id": "D048",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P/Section4",
+   "retrieved_at": "2026-10-01T22:36Z",
+   "in_supplied_corpus": true,
+   "quoted_span": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:"
+  },
+  "note": null
+ },
+ "r-0032": {
+  "from_citation": "Massachusetts statewide rent control initiative petition (Cella v. Attorney General, SJC-13893)",
+  "citation": "Massachusetts statewide rent control initiative petition (Cella v. Attorney General, SJC-13893)",
+  "title": null,
+  "official_text": null,
+  "note": null
+ },
+ "r-0033": {
+  "from_citation": "M.G.L. c. 151B § 4(10) (see also § 4(7B))",
+  "citation": "M.G.L. c. 151B § 4",
+  "title": null,
+  "official_text": {
+   "doc_id": "D049",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151B/Section4",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "in_supplied_corpus": true,
+   "quoted_span": "For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program."
+  },
+  "note": "The citation now names the whole section, because the card merges the subsection 10 discrimination ban with the subsection 7B advertising ban."
+ },
+ "r-0034": {
+  "from_citation": "M.G.L. c. 186 § 15B",
+  "citation": "M.G.L. c. 186 § 15B",
+  "title": null,
+  "official_text": {
+   "doc_id": "D052",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "in_supplied_corpus": true,
+   "quoted_span": "No lessor or successor in interest shall at any time subsequent to the commencement of a tenancy demand rent in advance in excess of the current month's rent or a security deposit in excess of the amount allowed by this section."
   },
   "note": null
  },
@@ -144,8 +197,8 @@
    "doc_id": "D069",
    "url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/43_.HTM",
    "retrieved_at": "2026-10-01T22:56Z",
-   "quoted_span": "It\nshall be unlawful and a violation of the “New Jersey Antitrust Act,” P.L.1970,\nc.73 (C.56:9-1 et seq.) for:\na.     a rental property owner, or any agent,\nrepresentative, or subcontractor thereof, to receive, subscribe to, contract\nfor, or otherwise exchange any form of consideration in return for the use of,\nthe services of a coordinator;",
-   "in_supplied_corpus": true
+   "in_supplied_corpus": true,
+   "quoted_span": "It\nshall be unlawful and a violation of the “New Jersey Antitrust Act,” P.L.1970,\nc.73 (C.56:9-1 et seq.) for:\na.     a rental property owner, or any agent,\nrepresentative, or subcontractor thereof, to receive, subscribe to, contract\nfor, or otherwise exchange any form of consideration in return for the use of,\nthe services of a coordinator;"
   },
   "note": null
  },
@@ -157,8 +210,8 @@
    "doc_id": "D066",
    "url": "https://pub.njleg.gov/bills/2024/PL25/405_.HTM",
    "retrieved_at": "2026-10-01T22:37Z",
-   "quoted_span": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50.",
-   "in_supplied_corpus": true
+   "in_supplied_corpus": true,
+   "quoted_span": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50."
   },
   "note": null
  },
@@ -170,8 +223,8 @@
    "doc_id": "O026",
    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/112/680?f=templates$fn=document-frame.htm$3.0",
    "retrieved_at": "2026-10-04 00:25 UTC",
-   "quoted_span": "No landlord may evict or fail to renew any lease of any premises covered by section 2 of this act except for good cause as defined in section 2.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "No landlord may evict or fail to renew any lease of any premises covered by section 2 of this act except for good cause as defined in section 2."
   },
   "note": "The citation drops the 'Anti-Eviction Act' name, which only the agency guide and a team note use, and the '-61.12' range, which no document states; it adds et seq. because the card merges the good-cause list (61.1), the nonrenewal bar (61.3), notice periods (61.2) and relocation (61.1g/61.1h), and cites the session law shown in the statute text."
  },
@@ -183,8 +236,8 @@
    "doc_id": "O010",
    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/112/670?f=templates$fn=document-frame.htm$3.0",
    "retrieved_at": "2026-10-04 00:19 UTC",
-   "quoted_span": "The person has failed to pay rent after a valid notice to quit and notice of increase of said rent, provided the increase in rent is not unconscionable and complies with any and all other laws or municipal ordinances governing rent increases.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "The person has failed to pay rent after a valid notice to quit and notice of increase of said rent, provided the increase in rent is not unconscionable and complies with any and all other laws or municipal ordinances governing rent increases."
   },
   "note": null
  },
@@ -196,8 +249,8 @@
    "doc_id": "O011",
    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/112/701?f=templates$fn=document-frame.htm$3.0",
    "retrieved_at": "2026-10-04 00:19 UTC",
-   "quoted_span": "In a municipality which does not have a rent control ordinance in effect, no evidence of increased costs which are solely the result of the conversion, including but not limited to any increase in financing or carrying costs, and which do not add services or amenities not previously provided shall be used as a basis to establish the reasonableness of a rent increase under section 2f. of P.L. 1974, c. 49 (C. 2A:18-61.1).",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "In a municipality which does not have a rent control ordinance in effect, no evidence of increased costs which are solely the result of the conversion, including but not limited to any increase in financing or carrying costs, and which do not add services or amenities not previously provided shall be used as a basis to establish the reasonableness of a rent increase under section 2f. of P.L. 1974, c. 49 (C. 2A:18-61.1)."
   },
   "note": null
  },
@@ -209,8 +262,8 @@
    "doc_id": "O014",
    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/112/1246?f=templates$fn=document-frame.htm$3.0",
    "retrieved_at": "2026-10-04 00:20 UTC",
-   "quoted_span": "In any municipality which has enacted or which hereafter enacts a rent control or rent leveling ordinance, other than under the authority of P.L.1966, c.168 (C.2A:42-74 et seq.), those provisions of the ordinance which limit the periodic or regular increases in base rentals of dwelling units shall not apply to multiple dwellings constructed after the effective date of this act, for a period of time not to exceed the period of amortization of any initial mortgage loan obtained for the multiple dwelling, or for 30 years following completion of construction, whichever is less.\n\nb. In the event that there is no initial mortgage financing, the period of exemption from a rent control or rent leveling ordinance shall be 30 years from the completion of construction.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "In any municipality which has enacted or which hereafter enacts a rent control or rent leveling ordinance, other than under the authority of P.L.1966, c.168 (C.2A:42-74 et seq.), those provisions of the ordinance which limit the periodic or regular increases in base rentals of dwelling units shall not apply to multiple dwellings constructed after the effective date of this act, for a period of time not to exceed the period of amortization of any initial mortgage loan obtained for the multiple dwelling, or for 30 years following completion of construction, whichever is less.\n\nb. In the event that there is no initial mortgage financing, the period of exemption from a rent control or rent leveling ordinance shall be 30 years from the completion of construction."
   },
   "note": "The citation now points to § 2A:42-84.2, the section that actually grants the exemption (§ 84.5 only states legislative intent), and drops the 'Newly Constructed Multiple Dwellings Law' name, which appears only in the DCA guide, not in the statute; note the statute caps the exemption at the lesser of mortgage amortization or 30 years, and gives a flat 30 years only when there is no initial mortgage financing."
  },
@@ -222,8 +275,8 @@
    "doc_id": "O017",
    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/7555/7610?f=templates$fn=document-frame.htm$3.0",
    "retrieved_at": "2026-10-04 00:21 UTC",
-   "quoted_span": "g. For any person, including, but not limited to, any owner, lessee, sublessee, assignee, or managing agent of, or other person having the right of ownership or possession of or the right to sell, rent, lease, assign, or sublease any real property or part or portion thereof, or any agent or employee of any of these:\n\n(1) To refuse to sell, rent, lease, assign, or sublease or otherwise to deny to or withhold from any person or group of persons any real property or part or portion thereof because of race, creed, color, national origin, ancestry, marital status, civil union status, domestic partnership status, pregnancy or breastfeeding, sex, gender identity or expression, affectional or sexual orientation, familial status, disability, service in the Armed Forces of the United States or liability for service in the Armed Forces of the United States, nationality, or source of lawful income used for rental or mortgage payments;",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "g. For any person, including, but not limited to, any owner, lessee, sublessee, assignee, or managing agent of, or other person having the right of ownership or possession of or the right to sell, rent, lease, assign, or sublease any real property or part or portion thereof, or any agent or employee of any of these:\n\n(1) To refuse to sell, rent, lease, assign, or sublease or otherwise to deny to or withhold from any person or group of persons any real property or part or portion thereof because of race, creed, color, national origin, ancestry, marital status, civil union status, domestic partnership status, pregnancy or breastfeeding, sex, gender identity or expression, affectional or sexual orientation, familial status, disability, service in the Armed Forces of the United States or liability for service in the Armed Forces of the United States, nationality, or source of lawful income used for rental or mortgage payments;"
   },
   "note": "Narrowed from 10:5-12(g)-(h) to subsection (g), as the lawyer requested, because the card's landlord rule sits in subsection g; subsection h covers brokers and salespersons."
  },
@@ -235,8 +288,8 @@
    "doc_id": "D065",
    "url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM",
    "retrieved_at": "2026-10-01T22:37Z",
-   "quoted_span": "A housing\nprovider\nshall not make any oral or written inquiry\nregarding an applicant’s criminal record prior to making a conditional offer.",
-   "in_supplied_corpus": true
+   "in_supplied_corpus": true,
+   "quoted_span": "A housing\nprovider\nshall not make any oral or written inquiry\nregarding an applicant’s criminal record prior to making a conditional offer."
   },
   "note": null
  },
@@ -248,8 +301,8 @@
    "doc_id": "D065",
    "url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM",
    "retrieved_at": "2026-10-01T22:37Z",
-   "quoted_span": "After the issuance of a conditional offer to an\napplicant, a housing provider may only consider a criminal record in the\napplicant’s history that:",
-   "in_supplied_corpus": true
+   "in_supplied_corpus": true,
+   "quoted_span": "After the issuance of a conditional offer to an\napplicant, a housing provider may only consider a criminal record in the\napplicant’s history that:"
   },
   "note": null
  },
@@ -261,8 +314,8 @@
    "doc_id": "O018",
    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/44283/44474?f=templates$fn=document-frame.htm$3.0",
    "retrieved_at": "2026-10-04 00:23 UTC",
-   "quoted_span": "An owner or lessee may not require more than a sum equal to 1 1/2 times 1 month's rental according to the terms of contract, lease, or agreement as a security for the use or rental of real property used for dwelling purposes. Whenever an owner or lessee collects from a tenant an additional amount of security deposit, the amount collected annually as additional security shall not be greater than 10 percent of the current security deposit.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "An owner or lessee may not require more than a sum equal to 1 1/2 times 1 month's rental according to the terms of contract, lease, or agreement as a security for the use or rental of real property used for dwelling purposes. Whenever an owner or lessee collects from a tenant an additional amount of security deposit, the amount collected annually as additional security shall not be greater than 10 percent of the current security deposit."
   },
   "note": null
  },
@@ -274,8 +327,8 @@
    "doc_id": "D001",
    "url": "https://berkeleyca.gov/sites/default/files/documents/2025-12-02%20Item%2001%20Ordinance%207992.pdf",
    "retrieved_at": "2026-10-01T22:44Z",
-   "quoted_span": "It shall be unlawful to sell, license, or otherwise provide to City of Berkeley \nlandlords any coordinated pricing algorithm that sets or recommends rents or occupancy \nlevels that may be achieved for residential dwelling units in the City of Berkeley. \nB. It shall be unlawful for a landlord to use a coordinated pricing algorithm described \nin subsection A when setting rents or occupancy levels for residential dwelling units in \nthe City of Berkeley.",
-   "in_supplied_corpus": true
+   "in_supplied_corpus": true,
+   "quoted_span": "It shall be unlawful to sell, license, or otherwise provide to City of Berkeley \nlandlords any coordinated pricing algorithm that sets or recommends rents or occupancy \nlevels that may be achieved for residential dwelling units in the City of Berkeley. \nB. It shall be unlawful for a landlord to use a coordinated pricing algorithm described \nin subsection A when setting rents or occupancy levels for residential dwelling units in \nthe City of Berkeley."
   },
   "note": "Moved the remedies section out of the ordinance parenthetical into the code cite, because the card states both the ban (§ 13.63.030) and the tenant remedies (§ 13.63.040) of Ordinance No. 7,992-N.S., the current amending ordinance in D001."
  },
@@ -287,8 +340,8 @@
    "doc_id": "O093",
    "url": "https://berkeley.municipal.codes/BMC/13.78",
    "retrieved_at": "2026-10-04 00:44 UTC",
-   "quoted_span": "When an owner of residential rental property or the owner’s agent receives a request to rent residential property in the City of Berkeley from an applicant and the owner charges that applicant a fee to purchase a consumer credit report and to validate, review, or otherwise process an application for the rent or lease of residential rental property, the owner shall provide, either in the rental application or in a separate disclosure prior to receipt of the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under California Civil Code Section 1950.6(b).",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "When an owner of residential rental property or the owner’s agent receives a request to rent residential property in the City of Berkeley from an applicant and the owner charges that applicant a fee to purchase a consumer credit report and to validate, review, or otherwise process an application for the rent or lease of residential rental property, the owner shall provide, either in the rental application or in a separate disclosure prior to receipt of the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under California Civil Code Section 1950.6(b)."
   },
   "note": null
  },
@@ -300,8 +353,8 @@
    "doc_id": "O093",
    "url": "https://berkeley.municipal.codes/BMC/13.78",
    "retrieved_at": "2026-10-04 00:44 UTC",
-   "quoted_span": "Prohibition of Non-refundable Application Fees Associated with Existing Tenancies.\n\nIt is unlawful for an owner of residential rental property or the owner’s agent to charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household.\n\nNothing in this law is intended to disallow a property owner, or the owner’s agent, to charge a \"tenant screening fee\" as permitted under California Civil Code Section 1950.6 to any tenant, including any new or additional roommate who seeks to be added to an existing rental agreement or lease, seeking to rent or lease residential rental property.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "Prohibition of Non-refundable Application Fees Associated with Existing Tenancies.\n\nIt is unlawful for an owner of residential rental property or the owner’s agent to charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household.\n\nNothing in this law is intended to disallow a property owner, or the owner’s agent, to charge a \"tenant screening fee\" as permitted under California Civil Code Section 1950.6 to any tenant, including any new or additional roommate who seeks to be added to an existing rental agreement or lease, seeking to rent or lease residential rental property."
   },
   "note": "Added § 13.78.018 because the card's rule that contrary lease terms are unenforceable comes from that section, and added the enacting ordinance number from the code's history notes."
  },
@@ -313,8 +366,8 @@
    "doc_id": "O092",
    "url": "https://berkeley.municipal.codes/BMC/13.77",
    "retrieved_at": "2026-10-04 00:44 UTC",
-   "quoted_span": "The tenants of any residential rental unit who are required to move as a result of the owner’s withdrawal of the accommodation from rent or lease shall be entitled to a relocation payment in the sum of $15,000 from the owner. The landlord is required to provide an additional $5,000 relocation assistance to tenant households that qualify as low-income; or include disabled or elderly tenants; minor children; or tenancies which began prior to January 1, 1999. The relocation fees set forth above shall be increased in accordance with the rules set forth in subsection 13.77.055A.2 below.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "The tenants of any residential rental unit who are required to move as a result of the owner’s withdrawal of the accommodation from rent or lease shall be entitled to a relocation payment in the sum of $15,000 from the owner. The landlord is required to provide an additional $5,000 relocation assistance to tenant households that qualify as low-income; or include disabled or elderly tenants; minor children; or tenancies which began prior to January 1, 1999. The relocation fees set forth above shall be increased in accordance with the rules set forth in subsection 13.77.055A.2 below."
   },
   "note": "Replaced the nickname with the codified section (§ 13.77.055(A), covering the base amounts and the (A)(2) CPI indexing) and left out the requested '(Ellis Implementation Ordinance)' because the chapter's own text never uses that name; only Rent Board pages do, and the 2026 dollar figures come from the Rent Board notice, not the code."
  },
@@ -326,8 +379,8 @@
    "doc_id": "O096",
    "url": "https://berkeley.municipal.codes/BMC/13.76",
    "retrieved_at": "2026-10-04 00:47 UTC",
-   "quoted_span": "This subsection shall not constitute grounds where the amount of rent demanded is less than one month of fair market rent for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR as determined by the U.S. Department of Housing and Urban Development for the fiscal year in which the rent is demanded.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "This subsection shall not constitute grounds where the amount of rent demanded is less than one month of fair market rent for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR as determined by the U.S. Department of Housing and Urban Development for the fiscal year in which the rent is demanded."
   },
   "note": "Replaced the Measure BB nickname citation with the codified section the lawyer requested, narrowed to subsection (A)(1) where the nonpayment threshold sits, added the amending ordinance number 7,950-N.S. that O050 shows, and used the ordinance's own short title instead of 'Measure BB', which its text does not use."
  },
@@ -339,8 +392,8 @@
    "doc_id": "O096",
    "url": "https://berkeley.municipal.codes/BMC/13.76",
    "retrieved_at": "2026-10-04 00:47 UTC",
-   "quoted_span": "Where a landlord recovers possession of a unit under Subsection 13.76.130(A)(8), the landlord is required to provide standard relocation assistance to tenant households where at least one occupant has resided in the unit for one year or more in the amount of $15,000. The landlord is required to provide an additional $5,000 relocation assistance to tenant households that qualify as low-income; or include disabled or elderly tenants; minor children; or tenancies which began prior to January 1, 1999.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "Where a landlord recovers possession of a unit under Subsection 13.76.130(A)(8), the landlord is required to provide standard relocation assistance to tenant households where at least one occupant has resided in the unit for one year or more in the amount of $15,000. The landlord is required to provide an additional $5,000 relocation assistance to tenant households that qualify as low-income; or include disabled or elderly tenants; minor children; or tenancies which began prior to January 1, 1999."
   },
   "note": "The card's nickname-only citation is replaced with the code section, and the lawyer's requested § 13.76.130(A) is narrowed to (A)(8) because the code text (O096) puts the owner move-in relocation payment in (A)(8)(g) and its inflation indexing in (A)(8)(h); the card merges both, so it cites (A)(8), and the parenthetical uses the chapter's own title instead of the Rent Board's 'Good Cause for Eviction' name."
  },
@@ -352,8 +405,8 @@
    "doc_id": "O095",
    "url": "https://berkeley.municipal.codes/BMC/13.76",
    "retrieved_at": "2026-10-04 00:46 UTC",
-   "quoted_span": "Effective January 1 of each year, the rent ceiling for all rental units covered by this Chapter for which the landlord did not establish an initial rent during the prior calendar year shall be adjusted by 65% of the percentage increase in the Consumer Price Index for All Urban Consumers (CPI-U) in the San Francisco-Oakland-San Jose region as reported and published by the U.S. Department of Labor, Bureau of Labor Statistics, for the twelve month period ending the previous June 30. In determining the allowable percentage rent increase, numbers of .04 and below shall be rounded down to the nearest tenth decimal place and numbers of .05 and above shall be rounded up to the nearest tenth decimal place. In no event, however, shall the allowable annual adjustment be less than zero (0%) or greater than five percent (5%).",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "Effective January 1 of each year, the rent ceiling for all rental units covered by this Chapter for which the landlord did not establish an initial rent during the prior calendar year shall be adjusted by 65% of the percentage increase in the Consumer Price Index for All Urban Consumers (CPI-U) in the San Francisco-Oakland-San Jose region as reported and published by the U.S. Department of Labor, Bureau of Labor Statistics, for the twelve month period ending the previous June 30. In determining the allowable percentage rent increase, numbers of .04 and below shall be rounded down to the nearest tenth decimal place and numbers of .05 and above shall be rounded up to the nearest tenth decimal place. In no event, however, shall the allowable annual adjustment be less than zero (0%) or greater than five percent (5%)."
   },
   "note": "Followed the lawyer's request to cite § 13.76.110 rather than subsection A, because the card merges the formula and cap (A), notice (B) and eligibility conditions (D). The amending law is identified by its ordinance number, Ord. No. 7,950-N.S., and Reg. 1148 is kept as the order setting the 2026 rate. The name 'Measure BB' is left out because the law text in the documents does not use it."
  },
@@ -365,8 +418,8 @@
    "doc_id": "O094",
    "url": "https://berkeley.municipal.codes/BMC/13.106",
    "retrieved_at": "2026-10-04 00:45 UTC",
-   "quoted_span": "A Housing Provider’s request to obtain written consent from the Applicant to obtain information about the Applicant’s Criminal History under Paragraphs B or C of this Section shall inform the Applicant that the Housing Provider may be required to share information about the Applicant’s Criminal History with the City of Berkeley for purposes of enforcing the requirements of this Chapter.\n\nE. If any Adverse Action is based in whole or in part on the Applicant’s Criminal History, the Housing Provider shall provide a written notice to the Applicant regarding the Adverse Action that includes, at a minimum, the reason(s) for the Adverse Action, instructions on how to file a complaint about the Adverse Action with the City, a list of local legal service providers including contact information, and a copy of any Background Check Report or other information related to the Applicant’s Criminal History that served as a basis for the Adverse Action. The Housing Provider shall provide the Applicant an opportunity to respond with rebutting or mitigating information prior to the denial of the Applicant’s housing application.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "A Housing Provider’s request to obtain written consent from the Applicant to obtain information about the Applicant’s Criminal History under Paragraphs B or C of this Section shall inform the Applicant that the Housing Provider may be required to share information about the Applicant’s Criminal History with the City of Berkeley for purposes of enforcing the requirements of this Chapter.\n\nE. If any Adverse Action is based in whole or in part on the Applicant’s Criminal History, the Housing Provider shall provide a written notice to the Applicant regarding the Adverse Action that includes, at a minimum, the reason(s) for the Adverse Action, instructions on how to file a complaint about the Adverse Action with the City, a list of local legal service providers including contact information, and a copy of any Background Check Report or other information related to the Applicant’s Criminal History that served as a basis for the Adverse Action. The Housing Provider shall provide the Applicant an opportunity to respond with rebutting or mitigating information prior to the denial of the Applicant’s housing application."
   },
   "note": null
  },
@@ -378,8 +431,8 @@
    "doc_id": "O095",
    "url": "https://berkeley.municipal.codes/BMC/13.76",
    "retrieved_at": "2026-10-04 00:46 UTC",
-   "quoted_span": "Any payment or deposit of monies by the tenant, the primary function of which is to secure the performance of a rental agreement or any part of such agreement, including an advance payment of rent, shall be held by the landlord, in a fiduciary capacity for the benefit of the tenant and shall accrue simple interest at the rate equal to the average rates of interest paid on six-month certificates of deposit by banks doing business in the City until such time as the payment or deposit is returned to the tenant or entitled to be used by the landlord as provided in Civil Code Section 1950.5. The interest accrued by said payment or deposit through October 31st of each year shall be returned to the tenant annually in December of each year, either through a rent rebate or cash payment, and shall be at a rate equal to the 12-month average of the average rates of interest paid on six-month certificates of deposit by banks doing business in the City on the first business day of each month for the prior 12 months ending on November 1st, rounded to the nearest tenth. On or before November 15th of each year, the Board shall give public notice of the rate to be effective for the following December. Upon the tenant’s departure from the premises, the balance of any interest accrued since the last October 31st shall be paid at the average monthly rate from the last November 1st to the date of departure and shall be returned to the tenant along with the appropriate part of the principal and any prior unpaid interest.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "Any payment or deposit of monies by the tenant, the primary function of which is to secure the performance of a rental agreement or any part of such agreement, including an advance payment of rent, shall be held by the landlord, in a fiduciary capacity for the benefit of the tenant and shall accrue simple interest at the rate equal to the average rates of interest paid on six-month certificates of deposit by banks doing business in the City until such time as the payment or deposit is returned to the tenant or entitled to be used by the landlord as provided in Civil Code Section 1950.5. The interest accrued by said payment or deposit through October 31st of each year shall be returned to the tenant annually in December of each year, either through a rent rebate or cash payment, and shall be at a rate equal to the 12-month average of the average rates of interest paid on six-month certificates of deposit by banks doing business in the City on the first business day of each month for the prior 12 months ending on November 1st, rounded to the nearest tenth. On or before November 15th of each year, the Board shall give public notice of the rate to be effective for the following December. Upon the tenant’s departure from the premises, the balance of any interest accrued since the last October 31st shall be paid at the average monthly rate from the last November 1st to the date of departure and shall be returned to the tenant along with the appropriate part of the principal and any prior unpaid interest."
   },
   "note": "Replaced the nickname 'Berkeley Rent Ordinance' and narrowed the lawyer's 'ch. 13.76 (deposit interest)' to § 13.76.070, which the codified text (O095) shows is the deposit-interest section, and used the chapter's own title instead of the descriptive '(deposit interest)'."
  },
@@ -419,8 +472,8 @@
    "doc_id": "O072",
    "url": "https://www.cityofboston.gov/images_documents/BFHC%20Regulations_tcm3-45622.pdf",
    "retrieved_at": "2026-10-04 00:21 UTC",
-   "quoted_span": "It is unlawful to deny equal access to or to discriminate in housing regardless of the\npublic or private source of denial or discrimination against an individual or group based\non race, color, religious creed, marital status, handicap, military status, children, national\norigin, sex, age, ancestry, sexual orientation or source of income.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "It is unlawful to deny equal access to or to discriminate in housing regardless of the\npublic or private source of denial or discrimination against an individual or group based\non race, color, religious creed, marital status, handicap, military status, children, national\norigin, sex, age, ancestry, sexual orientation or source of income."
   },
   "note": "Replaced the uncited regulation name with the specific Commission regulations (Reg. 1.01, 1.02(kk) and 1.04(m), adopted Mar. 1, 2001) and their enabling ordinance (Title 10, §§ 150-157), as shown in O072; the document gives no current codified Boston Code chapter, and it closes with a certification calling itself the proposed amended regulations, so the lawyer should confirm the adopted text."
  },
@@ -432,8 +485,8 @@
    "doc_id": "O099",
    "url": "https://library.municode.com/ma/cambridge/codes/code_of_ordinances?nodeId=TIT8HESA_CH8.71TERIRENO",
    "retrieved_at": "2026-10-04 00:52 UTC",
-   "quoted_span": "At the inception of a tenancy and when a landlord or foreclosing owner serves the tenant or former homeowners any notice to quit or notice of lease nonrenewal or expiration, such landlord or foreclosing owner shall, at the same time, also provide the tenant or former homeowner with a notice of basic housing rights and resources, including a list of organizations available to assist tenants and/or former homeowners with their contact information on a form or forms prepared by the City of Cambridge which shall be attached thereto.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "At the inception of a tenancy and when a landlord or foreclosing owner serves the tenant or former homeowners any notice to quit or notice of lease nonrenewal or expiration, such landlord or foreclosing owner shall, at the same time, also provide the tenant or former homeowner with a notice of basic housing rights and resources, including a list of organizations available to assist tenants and/or former homeowners with their contact information on a form or forms prepared by the City of Cambridge which shall be attached thereto."
   },
   "note": "Narrowed the chapter cite to § 8.71.040.1, the subsection requiring the notice when a notice to quit is served, and added the enacting and amending ordinances shown in the official code's history note."
  },
@@ -445,8 +498,8 @@
    "doc_id": "O100",
    "url": "https://library.municode.com/ma/cambridge/codes/code_of_ordinances?nodeId=TIT14FAHO_CH14.04FAHO",
    "retrieved_at": "2026-10-04 01:12 UTC",
-   "quoted_span": "For any person to refuse to rent, lease, sell, or negotiate for sale, or otherwise to deny or withhold from any person or persons a dwelling or any services or facilities in connection therewith, or to print, publicize, advertise, make any written or oral statement, or otherwise communicate publicly or privately, in a manner that indicates any preference, limitation, or discrimination because of race, color, religious creed, sex, age, disability, national origin or ancestry, sexual orientation, relationship status, family structure, gender identity, marital status, family status, military status, or source of income.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "For any person to refuse to rent, lease, sell, or negotiate for sale, or otherwise to deny or withhold from any person or persons a dwelling or any services or facilities in connection therewith, or to print, publicize, advertise, make any written or oral statement, or otherwise communicate publicly or privately, in a manner that indicates any preference, limitation, or discrimination because of race, color, religious creed, sex, age, disability, national origin or ancestry, sexual orientation, relationship status, family structure, gender identity, marital status, family status, military status, or source of income."
   },
   "note": "Changed to the standard 'Cambridge Mun. Code' form, cited the unlawful-practices section § 14.04.040 with its ordinance numbers from O100, and dropped 'Cambridge Fair Housing Ordinance' because only the agency page uses that name, not the code text."
  },
@@ -455,11 +508,11 @@
   "citation": "Hoboken Code § 158-2 (Ord. No. B-781)",
   "title": null,
   "official_text": {
-   "doc_id": "D034",
-   "url": "https://hobokennj.iqm2.com/Citizens/Detail_LegiFile.aspx?ID=12291&MeetingID=2943",
-   "retrieved_at": "2026-10-03 20:56 UTC",
-   "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing.",
-   "in_supplied_corpus": false
+   "doc_id": "O080",
+   "url": "https://ecode360.com/46833413",
+   "retrieved_at": "2026-10-04 00:30 UTC",
+   "in_supplied_corpus": false,
+   "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing."
   },
   "note": "The ordinance number B-781 from the official code (O080) was added in place of the lawyer's 'ordinance adopted July 9, 2025', and the section stays § 158-2 because the ordinance's '§ 154-8' heading conflicts with its own title and the codified section."
  },
@@ -471,8 +524,8 @@
    "doc_id": "X004",
    "url": "https://ecode360.com/15252572",
    "retrieved_at": "2026-10-04 00:31 UTC",
-   "quoted_span": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential apartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions of this chapter for the new tenant's initial rental; provided, however, that said rental shall be limited to an increase of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit, exclusive of any capital improvement surcharge that is a component of said last rental. However, any additional rental increase beyond the initial rental of the new tenant shall be subject to the provisions of this chapter. For the purpose of any computations under this chapter, the initial base rent charged to the new tenant under this section shall be considered the base rent.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential apartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions of this chapter for the new tenant's initial rental; provided, however, that said rental shall be limited to an increase of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit, exclusive of any capital improvement surcharge that is a component of said last rental. However, any additional rental increase beyond the initial rental of the new tenant shall be subject to the provisions of this chapter. For the purpose of any computations under this chapter, the initial base rent charged to the new tenant under this section shall be considered the base rent."
   },
   "note": null
  },
@@ -484,8 +537,8 @@
    "doc_id": "X004",
    "url": "https://ecode360.com/15252572",
    "retrieved_at": "2026-10-04 00:31 UTC",
-   "quoted_span": "If the tenant vacates the apartment as a result of a court order from a court of competent jurisdiction. This ground shall not be available to a landlord who receives a court order to dispossess a tenant based upon the tenant holding over and continuing in possession of the premises after the expiration of his term. Whenever there is an issue as to the circumstances under which a tenant has vacated an apartment unit, that issue shall be determined by the Rent Control Board after a hearing. If the Board finds that a landlord is seeking to decontrol or has decontrolled an apartment unit and the tenant has vacated the unit under circumstances other than those set forth in this section, the Rent Board may rescind the decontrol of the apartment unit, and the rent shall revert to that rental on the apartment unit prior to the vacation of the apartment, and prosecute the landlord for violation of the chapter under § 155-21.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "If the tenant vacates the apartment as a result of a court order from a court of competent jurisdiction. This ground shall not be available to a landlord who receives a court order to dispossess a tenant based upon the tenant holding over and continuing in possession of the premises after the expiration of his term. Whenever there is an issue as to the circumstances under which a tenant has vacated an apartment unit, that issue shall be determined by the Rent Control Board after a hearing. If the Board finds that a landlord is seeking to decontrol or has decontrolled an apartment unit and the tenant has vacated the unit under circumstances other than those set forth in this section, the Rent Board may rescind the decontrol of the apartment unit, and the rent shall revert to that rental on the apartment unit prior to the vacation of the apartment, and prosecute the landlord for violation of the chapter under § 155-21."
   },
   "note": null
  },
@@ -497,8 +550,8 @@
    "doc_id": "X004",
    "url": "https://ecode360.com/15252572",
    "retrieved_at": "2026-10-04 00:31 UTC",
-   "quoted_span": "No dwelling unit shall be decontrolled pursuant to this article more than once in any three-year period.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "No dwelling unit shall be decontrolled pursuant to this article more than once in any three-year period."
   },
   "note": null
  },
@@ -510,8 +563,8 @@
    "doc_id": "D033",
    "url": "https://ecode360.com/15252470",
    "retrieved_at": "2026-10-03 22:41 UTC",
-   "quoted_span": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less. For a periodic tenant or for a tenant whose lease terms shall be less than one year, said tenant shall not suffer or be caused to pay more than one rent increase in any twelve-month period which exceeds 5% or the consumer price index percentage differential for the twelve-month period commencing 15 months prior to and ending three months prior to the effective date of the proposed increase, whichever is less. No more than one such cost-of-living rental increase in any one twelve-month period shall be permitted irrespective of the number of different tenants occupying said housing space during said twelve-month period.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less. For a periodic tenant or for a tenant whose lease terms shall be less than one year, said tenant shall not suffer or be caused to pay more than one rent increase in any twelve-month period which exceeds 5% or the consumer price index percentage differential for the twelve-month period commencing 15 months prior to and ending three months prior to the effective date of the proposed increase, whichever is less. No more than one such cost-of-living rental increase in any one twelve-month period shall be permitted irrespective of the number of different tenants occupying said housing space during said twelve-month period."
   },
   "note": null
  },
@@ -523,8 +576,8 @@
    "doc_id": "X003",
    "url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2024/11/2024-General-Election-MWD-Results-with-Voting-Method-Details-Official.pdf",
    "retrieved_at": "2026-10-03 22:42 UTC",
-   "quoted_span": "Shall the ordinance submitted by initiative petition, providing for an amendment to Hoboken City Code Chapter 155 (Rent Control) at Section 155-31 to provide an option to landlords to pay a fee of $2,500 to the Hoboken Affordable Housing Fund in order to lease voluntarily vacated apartments at a freely negotiated rent, which thereafter remain subject to the provisions of the Rent Control ordinance, including limitations on annual increases, be adopted?",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "Shall the ordinance submitted by initiative petition, providing for an amendment to Hoboken City Code Chapter 155 (Rent Control) at Section 155-31 to provide an option to landlords to pay a fee of $2,500 to the Hoboken Affordable Housing Fund in order to lease voluntarily vacated apartments at a freely negotiated rent, which thereafter remain subject to the provisions of the Rent Control ordinance, including limitations on annual increases, be adopted?\nINTERPRETIVE STATEMENT\nHoboken's City Code, Chapter 155, controls how much landlords can raise rent for residential units, both while a tenant is living there and when a new tenant moves in."
   },
   "note": null
  },
@@ -536,8 +589,8 @@
    "doc_id": "D035",
    "url": "https://cityofjerseycity.civicweb.net/document/429156/Ordinance%20Amending%20Chapter%20218%20creating%20section.pdf",
    "retrieved_at": "2026-10-03 20:56 UTC",
-   "quoted_span": "a.It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise \nexchange anything of value in return for the services of a Service Provider. \n \nb.No service provider shall facilitate an agreement not to compete among real estate lessors with respect to any \naspect of residential dwelling units, including rental pricing, fees, or any other rental terms.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "a.It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise \nexchange anything of value in return for the services of a Service Provider. \n \nb.No service provider shall facilitate an agreement not to compete among real estate lessors with respect to any \naspect of residential dwelling units, including rental pricing, fees, or any other rental terms."
   },
   "note": "Added Ord. 25-076, which amended § 218-12(2)(a) on July 16, 2025 to also bar otherwise utilizing a Service Provider; the quote is the original Ord. 25-057 text, and the section is still uncodified (Municode's current § 218-12 is 'Exempt dwellings'), so § 218-12 rests on the ordinance numbering."
  },
@@ -549,8 +602,8 @@
    "doc_id": "O081",
    "url": "https://library.municode.com/nj/jersey_city/codes/code_of_ordinances?nodeId=CH260RECO",
    "retrieved_at": "2026-10-04 00:33 UTC",
-   "quoted_span": "Dwellings with four or less housing spaces; provided, however, that this exemption shall be suspended for non-owner occupied dwellings with four or less housing spaces until the end of the state of emergency or six months from adoption of these amendments whichever comes first.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "Dwellings with four or less housing spaces; provided, however, that this exemption shall be suspended for non-owner occupied dwellings with four or less housing spaces until the end of the state of emergency or six months from adoption of these amendments whichever comes first."
   },
   "note": null
  },
@@ -562,17 +615,10 @@
    "doc_id": "O088",
    "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-195761",
    "retrieved_at": "2026-10-04 00:40 UTC",
-   "quoted_span": "A copy of any written notice terminating a tenancy shall be filed with the Department either electronically in the manner prescribed by the Department or by means of a form approved by the Department and the City Attorney for this purpose. The landlord shall file with the Department any such written notice terminating a tenancy within three business days of service on the tenant.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "A copy of any written notice terminating a tenancy shall be filed with the Department either electronically in the manner prescribed by the Department or by means of a form approved by the Department and the City Attorney for this purpose. The landlord shall file with the Department any such written notice terminating a tenancy within three business days of service on the tenant."
   },
   "note": "Changed to the standard 'L.A. Mun. Code' form at section level because the card merges the eviction grounds (A), filing (C.9) and relocation (G) subsections, and dropped § 165.05(B)(5), which is the Just Cause Ordinance provision for non-RSO units rather than the RSO rule on this card."
- },
- "r-0032": {
-  "from_citation": "Massachusetts statewide rent control initiative petition (Cella v. Attorney General, SJC-13893)",
-  "citation": "Massachusetts statewide rent control initiative petition (Cella v. Attorney General, SJC-13893)",
-  "title": null,
-  "official_text": null,
-  "note": null
  },
  "r-0082": {
   "from_citation": "Los Angeles Just Cause Ordinance (JCO)",
@@ -582,8 +628,8 @@
    "doc_id": "O030",
    "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-0042-S3_ord_187737_1-27-23.pdf",
    "retrieved_at": "2026-10-04 00:21 UTC",
-   "quoted_span": "This Article shall not apply until the expiration of an initial original lease or after\nsix months of continuous and lawful occupancy, whichever comes first, or to the\nfollowing types of residential real properties or residential circumstances:\n\n        (A)      Rental units subject to the Rent Stabilization Ordinance.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "This Article shall not apply until the expiration of an initial original lease or after\nsix months of continuous and lawful occupancy, whichever comes first, or to the\nfollowing types of residential real properties or residential circumstances:\n\n        (A)      Rental units subject to the Rent Stabilization Ordinance."
   },
   "note": "Replaced the nickname 'Los Angeles Just Cause Ordinance (JCO)' with the requested code cite, which Ordinance No. 187737 (O030) supports because it adds Article 5, §§ 165.00–165.08, to Chapter XVI."
  },
@@ -595,8 +641,8 @@
    "doc_id": "O089",
    "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-361875",
    "retrieved_at": "2026-10-04 00:40 UTC",
-   "quoted_span": "The tenant has defaulted in the payment of rent to which the landlord is entitled; provided, however, that the landlord’s right to evict a tenant lawfully in possession of residential housing under this subsection is limited to defaults in payment where the amount due exceeds one month of fair market rent for the Los Angeles metro area set annually by the U.S. Department of Housing and Urban Development for an equivalent sized rental unit as that occupied by the tenant.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "The tenant has defaulted in the payment of rent to which the landlord is entitled; provided, however, that the landlord’s right to evict a tenant lawfully in possession of residential housing under this subsection is limited to defaults in payment where the amount due exceeds one month of fair market rent for the Los Angeles metro area set annually by the U.S. Department of Housing and Urban Development for an equivalent sized rental unit as that occupied by the tenant."
   },
   "note": "The requested cite (§ 165.00 et seq., Ord. No. 187737) was not used: the fair-market-rent threshold was added by Ord. No. 187763 to § 165.03(A) (JCO units) and § 151.09(A)(1) (RSO units), while Ord. No. 187737 had enacted only a bare nonpayment ground, so the card, which covers both RSO and JCO units, now cites both subsections and Ord. No. 187763."
  },
@@ -615,8 +661,8 @@
    "doc_id": "O032",
    "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1134_ord_188795_12-24-25.pdf",
    "retrieved_at": "2026-10-04 00:21 UTC",
-   "quoted_span": "The allowable annual rent adjustment shall be 90 percent of the\n        percentage change rounded off to the nearest whole number as determined by\n        the Department. If the allowable annual rent adjustment is less than one percent,\n        a landlord may increase the maximum or maximum adjusted rent by up to one\n        percent. In no event, however, may an annual rent increase under this\n        subsection exceed four percent.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "The allowable annual rent adjustment shall be 90 percent of the\n        percentage change rounded off to the nearest whole number as determined by\n        the Department. If the allowable annual rent adjustment is less than one percent,\n        a landlord may increase the maximum or maximum adjusted rent by up to one\n        percent. In no event, however, may an annual rent increase under this\n        subsection exceed four percent."
   },
   "note": "Replaced the nickname-style cite with the lawyer's § 151.06 and § 151.02 and added Ord. No. 188795, which O032 shows amended § 151.06 effective Feb. 2, 2026 to end the utility and dependent add-ons; the whole section is cited because the card merges several subsections."
  },
@@ -628,8 +674,8 @@
    "doc_id": "O086",
    "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-195527",
    "retrieved_at": "2026-10-04 00:38 UTC",
-   "quoted_span": "A tenant shall be given the unpaid accrued interest in the form of either a direct payment or a credit against the tenant’s rent. The landlord shall choose between these two methods of payment and notify the tenant in writing of the landlord’s choice. The landlord may elect to pay the accrued interest on a monthly or yearly basis.",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "A tenant shall be given the unpaid accrued interest in the form of either a direct payment or a credit against the tenant’s rent. The landlord shall choose between these two methods of payment and notify the tenant in writing of the landlord’s choice. The landlord may elect to pay the accrued interest on a monthly or yearly basis."
   },
   "note": null
  },
@@ -648,8 +694,8 @@
    "doc_id": "D074",
    "url": "https://docs.sandiego.gov/municode/MuniCodeChapter09/Ch09Art08Division11.pdf",
    "retrieved_at": "2026-10-03 20:58 UTC",
-   "quoted_span": "(b) It is unlawful for a landlord to use an algorithmic device to set rental rates or \noccupancy levels for residential rental property. \nFor each month a violation of section 98.1103(b) exists or continues, and for \neach residential rental property a landlord uses an algorithmic device, it shall",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "(b) It is unlawful for a landlord to use an algorithmic device to set rental rates or \noccupancy levels for residential rental property. \nFor each month a violation of section 98.1103(b) exists or continues, and for \neach residential rental property a landlord uses an algorithmic device, it shall \nconstitute a separate and distinct violation."
   },
   "note": "The card merges the definition (§ 98.1102), the prohibitions (§ 98.1103) and the remedies (§ 98.1104), so it now cites the whole Division 11 with 'et seq.' in place of a single section plus a 'see also' list, and the ordinance number is put in house form; the card's source D076 is only the unadopted draft (O-2025-107), so the quote comes from the adopted code text D074, which also makes attorney's fees two-way (prevailing landlord or tenant)."
  },
@@ -661,16 +707,9 @@
    "doc_id": "D073",
    "url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
    "retrieved_at": "2026-10-01T22:37Z",
-   "quoted_span": "A landlord shall not terminate a tenancy without just cause. For purposes of this \nDivision, just cause includes at-fault just cause and no-fault just cause.",
-   "in_supplied_corpus": true
+   "in_supplied_corpus": true,
+   "quoted_span": "A landlord shall not terminate a tenancy without just cause. For purposes of this \nDivision, just cause includes at-fault just cause and no-fault just cause."
   },
-  "note": null
- },
- "r-0024": {
-  "from_citation": "Mass. Senate Bill S.2983 (194th General Court) (new draft of S.994 and S.1016)",
-  "citation": "Mass. Senate Bill S.2983 (194th General Court) (new draft of S.994 and S.1016)",
-  "title": null,
-  "official_text": null,
   "note": null
  },
  "r-0095": {
@@ -681,8 +720,8 @@
    "doc_id": "D075",
    "url": "https://docs.sandiego.gov/municode/MuniCodeChapter09/Ch09Art08Division08.pdf",
    "retrieved_at": "2026-10-03 20:58 UTC",
-   "quoted_span": "(a) It is unlawful for any person to do any of the following acts, wholly or in \npart, based on a person’s source of income  (except as may be necessary to \ncomply with any program requirements related to source of income ):",
-   "in_supplied_corpus": false
+   "in_supplied_corpus": false,
+   "quoted_span": "(a) It is unlawful for any person to do any of the following acts, wholly or in \npart, based on a person’s source of income  (except as may be necessary to \ncomply with any program requirements related to source of income ):"
   },
   "note": "Reformatted the ordinance as 'Ord. O-20986 N.S.' per house style and dropped the redundant division section range from the parenthetical."
  },
@@ -699,44 +738,5 @@
   "title": null,
   "official_text": null,
   "note": "Dropped subsection (a) because the card merges the just-cause list in § 37.9(a) with the dominant-motive rule in § 37.9(c) (and housing services in § 37.2(r)); no quote is given because O040, the only copy of the text, says it is not the official record."
- },
- "r-0030": {
-  "from_citation": "M.G.L. c. 40P § 4",
-  "citation": "M.G.L. c. 40P § 4",
-  "title": null,
-  "official_text": {
-   "doc_id": "D048",
-   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P/Section4",
-   "retrieved_at": "2026-10-01T22:36Z",
-   "quoted_span": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:",
-   "in_supplied_corpus": true
-  },
-  "note": null
- },
- "r-0033": {
-  "from_citation": "M.G.L. c. 151B § 4(10) (see also § 4(7B))",
-  "citation": "M.G.L. c. 151B § 4",
-  "title": null,
-  "official_text": {
-   "doc_id": "D049",
-   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151B/Section4",
-   "retrieved_at": "2026-10-01T22:37Z",
-   "quoted_span": "For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program.",
-   "in_supplied_corpus": true
-  },
-  "note": "The citation now names the whole section, because the card merges the subsection 10 discrimination ban with the subsection 7B advertising ban."
- },
- "r-0034": {
-  "from_citation": "M.G.L. c. 186 § 15B",
-  "citation": "M.G.L. c. 186 § 15B",
-  "title": null,
-  "official_text": {
-   "doc_id": "D052",
-   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B",
-   "retrieved_at": "2026-10-01T22:37Z",
-   "quoted_span": "No lessor or successor in interest shall at any time subsequent to the commencement of a tenancy demand rent in advance in excess of the current month's rent or a security deposit in excess of the amount allowed by this section.",
-   "in_supplied_corpus": true
-  },
-  "note": null
  }
 }

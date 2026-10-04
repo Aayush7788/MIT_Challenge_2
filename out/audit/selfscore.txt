@@ -31,4 +31,4 @@ LAWYER REVIEW (Gulnur Bekmukhanbetova, 92 cards)
   coverage notes folded       4/4
   test rule map agrees        7/7
   cite a code section or chapter 59/65 enacted rules
-  quote the law's own text       50/65 (18 from the supplied corpus)
+  quote the law's own text       50/65 (17 from the supplied corpus)

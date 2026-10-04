@@ -108,7 +108,7 @@ export default function RulesPage() {
                           <p className="mt-1">
                             {r.official_text.doc_id}, retrieved {r.official_text.retrieved_at?.slice(0, 10) ?? "?"} ·{" "}
                             <a href={r.official_text.url} target="_blank" rel="noreferrer" className="text-blue-700 underline">open</a>
-                            {!r.official_text.in_supplied_corpus && " · saved by our team; the supplied corpus has only a summary of this law"}
+                            {!r.official_text.in_supplied_corpus && " · saved by our team from the official source; not in the supplied corpus"}
                           </p>
                           <p className="mt-2 font-medium text-stone-800">The supplied corpus</p>
                         </>

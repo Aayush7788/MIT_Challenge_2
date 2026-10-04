@@ -49,14 +49,15 @@ const SYSTEM = `You cite-check one rule card from a housing-law database, for a 
 - A citation is code + section, with the ordinance, chapter or bill in parentheses: "Cal. Civ. Code § 1950.5(c) (Stats. 2023, ch. 733, AB 12)", "N.J.S.A. 2A:18-61.1(f)", "San Diego Mun. Code § 98.1103 (Ord. O-21955 N.S.)", "L.A. Mun. Code § 165.00 et seq. (Ord. No. 187737)", "S.F. Police Code art. 49, § 4901 et seq. (Fair Chance Ordinance)", "Berkeley Mun. Code ch. 13.77 (Ellis Implementation Ordinance)".
 - A law's nickname ("Just Cause Ordinance", "FEHA", "Measure BB", "Rent Ordinance") is not a citation. It may follow the code cite in parentheses.
 - One name per code: "Cal. Civ. Code", "Cal. Gov. Code", "Cal. Bus. & Prof. Code", "N.J.S.A.", "L.A. Mun. Code", "S.F. Admin. Code", "S.F. Police Code", "San Diego Mun. Code", "Berkeley Mun. Code", "Santa Ana Mun. Code", "Cambridge Mun. Code", "Hoboken Code", "Newark Mun. Code". Keep the card's existing form for Massachusetts ("M.G.L. c. 186 § 18"), Boston and Jersey City codes.
-- A court case: "Name v. Name, docket number (Court Month Day, Year)". A ballot measure: what it is, the jurisdiction and the election date. A pending or failed bill: bill number and session. An agency policy: its name and date, and say it is a policy.
+- A court case: the citation is the case itself, "Name v. Name, docket number (Court Month Day, Year)"; what the case decided goes in the note. A ballot measure: what it is, the jurisdiction and the election date. A pending or failed bill: bill number and session. An agency policy: its name and date, and say it is a policy.
 - If a document says a proposal was adopted, cite the adopted law, never "proposed" or a draft number.
-- Keep a subsection only when the card's rule sits in that subsection; a card that merges several subsections cites the section.
+- Lead with the section that holds the card's rule, never a purpose or definitions section, and do not widen a pinpoint into a range. Keep a subsection when the card's main rule sits in it; list other subsections the card also states after "see also id.".
+- A session law in parentheses names the act that added or last changed the cited provision. For a whole section, write "as amended through" the latest session law the text shows.
 - Use only numbers (sections, chapters, articles, ordinance, docket and bill numbers, dates) that appear in the documents. If no document states the section, cite what they do state and add "(section not stated)". Never guess a number.
 - A name in parentheses (a short title such as "Fair Chance Ordinance") must be a name the law's own text uses; leave out names that only agency pages or news use.
 - If the citation is already right, return it unchanged.
 
-2. Find the law's own words. If one of the documents is the official text of the law the citation names (a statute, code section, ordinance, regulation, bill or ballot text as published by the legislature, the city, or the city's code publisher), copy one to three sentences from it, word for word, that state this card's rule, and give its id. Start the passage at the beginning of a sentence of the law itself; never include history notes, amendment notes or editor's notes. Agency web pages, guides, FAQs, bulletins, rate notices, newsletters, news stories, law-firm alerts and third-party copies are not the law's text. Prefer the card's own source when it is the law's text. Return null when no document is.`;
+2. Find the law's own words. If one of the documents is the official text of the law the citation names (a statute, code section, ordinance, regulation, bill or ballot text as published by the legislature, the city, or the city's code publisher), copy one to three sentences from it, word for word, that state this card's rule, and give its id. Start the passage at the beginning of a sentence of the law itself and end it at the end of a sentence; never include history notes, amendment notes or editor's notes. When the current codified code and an ordinance as enacted both hold the passage, quote the code. Agency web pages, guides, FAQs, bulletins, rate notices, newsletters, news stories, law-firm alerts and third-party copies are not the law's text. Prefer the card's own source when it is the law's text. Return null when no document is.`;
 
 type Doc = CorpusDoc & { cites: string | null; where: "supplied" | "extra" | "crosscheck" };
 
@@ -184,7 +185,7 @@ async function check(card: RuleRecord, docs: Doc[]): Promise<Check> {
   const body = docs.map((d) => `<document id="${d.doc_id}" url="${d.url}" kind="${d.where === "supplied" ? "supplied corpus" : "captured by the team"}; ${d.source_type}"${d.cites ? ` cites="${d.cites}"` : ""}>\n${excerpt(d.text, card)}\n</document>`).join("\n\n");
   const req = requestFor(card);
   const ask = req
-    ? `\n\n<reviewer_request>Our lawyer asked for this citation: ${req.requested_citation}.${req.reviewer_note ? ` ${req.reviewer_note}` : ""} Follow it where the documents support it. If the documents show a different section, article or ordinance number, use what they show and say so in the note.</reviewer_request>`
+    ? `\n\n<reviewer_request>Our lawyer asked for this citation: ${req.requested_citation}.${req.reviewer_note ? ` ${req.reviewer_note}` : ""} Use her form, including her pinpoint and her parentheticals, wherever the documents support it. Depart from it only where a document shows a different section, article, ordinance number or date, and say which document in the note.</reviewer_request>`
     : "";
   const user = `<card>\n${JSON.stringify(brief, null, 1)}\n</card>${ask}\n\n${body}`;
   const key = crypto.createHash("sha1").update(MODEL + SYSTEM + user).digest("hex");
@@ -239,6 +240,35 @@ async function check(card: RuleRecord, docs: Doc[]): Promise<Check> {
   }
   fs.writeFileSync(file, JSON.stringify({ key, team_rule_id: card.team_rule_id, model, docs: docs.map((d) => d.doc_id), retried, result }, null, 1));
   return result;
+}
+
+// Code publishers' pages hold the law as it reads today; an ordinance PDF or an
+// agenda copy holds it as enacted.
+const CODE_HOSTS = /ecode360\.com|codelibrary\.amlegal\.com|library\.municode\.com|municipal\.codes|leginfo\.legislature\.ca\.gov\/faces\/codes|lis\.njleg|malegislature\.gov\/Laws/i;
+
+// Finish an official quote in code: run it to the end of its sentence, and when the
+// same words are in a current code page as well, point to that page.
+function finishQuote(official: NonNullable<CiteCheckEntry["official_text"]>, docs: Doc[]): NonNullable<CiteCheckEntry["official_text"]> {
+  let { doc_id, url, retrieved_at, in_supplied_corpus, quoted_span } = official;
+  const home = docs.find((d) => d.doc_id === doc_id);
+  if (home) {
+    const text = body(home.text);
+    const at = text.indexOf(quoted_span);
+    if (at >= 0 && !/[.;:]["”’)]*\s*$/.test(quoted_span)) {
+      const rest = text.slice(at + quoted_span.length);
+      const end = rest.search(/[.;](?=\s|$)/);
+      if (end >= 0 && end < 400) quoted_span += rest.slice(0, end + 1);
+    }
+  }
+  if (!CODE_HOSTS.test(url)) {
+    const norm = (t: string) => t.replace(/\s+/g, " ").trim();
+    const code = docs.find((d) => d.doc_id !== doc_id && CODE_HOSTS.test(d.url) && lawText(d) && norm(body(d.text)).includes(norm(quoted_span)));
+    if (code) {
+      const v = verifySpan(quoted_span, body(code.text));
+      if (v.verified) ({ doc_id, url, retrieved_at, in_supplied_corpus, quoted_span } = { doc_id: code.doc_id, url: code.url, retrieved_at: code.retrieved_at, in_supplied_corpus: code.in_starter_corpus, quoted_span: v.span });
+    }
+  }
+  return { doc_id, url, retrieved_at, in_supplied_corpus, quoted_span };
 }
 
 function needsRetry(result: Check, docs: Doc[]): boolean {
@@ -299,7 +329,7 @@ async function main() {
           // A failed call (rate limit, no credit) keeps the card's last good result.
           const last = previous[card.team_rule_id];
           const keep = last && (last.from_citation === card.citation || last.citation === card.citation);
-          if (keep) out[card.team_rule_id] = last;
+          if (keep) out[card.team_rule_id] = { ...last, official_text: last.official_text ? finishQuote(last.official_text, docs) : null };
           log.push(`${card.team_rule_id} | check failed (${(err instanceof Error ? err.message : String(err)).slice(0, 120)}); ${keep ? "kept the previous result" : "citation left as is"}`);
           continue;
         }
@@ -318,7 +348,7 @@ async function main() {
         if (od && c.official_quote && lawText(od)) {
           const v = verifySpan(c.official_quote, body(od.text));
           if (v.verified) {
-            official = { doc_id: od.doc_id, url: od.url, retrieved_at: od.retrieved_at, quoted_span: v.span, in_supplied_corpus: od.in_starter_corpus };
+            official = finishQuote({ doc_id: od.doc_id, url: od.url, retrieved_at: od.retrieved_at, quoted_span: v.span, in_supplied_corpus: od.in_starter_corpus }, docs);
             quoteNote = `official quote from ${od.doc_id}${v.repaired ? " (snapped to the source text)" : ""}`;
           } else quoteNote = `quote from ${od.doc_id} not found word for word; dropped`;
         }
