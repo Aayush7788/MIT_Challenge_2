@@ -1,0 +1,24 @@
+{
+ "key": "6e092da933c703733d1f049480fbbece8185e11f",
+ "team_rule_id": "r-0054",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D006",
+  "D009",
+  "O050",
+  "O095",
+  "O052",
+  "O096",
+  "O053"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Berkeley Mun. Code § 13.76.130(A)(1) (Ord. No. 7,950-N.S., Berkeley Tenant Protection and Right to Organize Act, approved by voters Nov. 5, 2024)",
+  "citation_basis": "§ 13.76.130(A)(1): O096, O050; Ord. No. 7,950-N.S. and short title Berkeley Tenant Protection and Right to Organize Act: O050; Nov. 5, 2024 election date: O050, O052",
+  "source_is_law_text": false,
+  "official_doc_id": "O096",
+  "official_quote": "This subsection shall not constitute grounds where the amount of rent demanded is less than one month of fair market rent for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR as determined by the U.S. Department of Housing and Urban Development for the fiscal year in which the rent is demanded.",
+  "is_city_policy": false,
+  "note": "Replaced the Measure BB nickname citation with the codified section the lawyer requested, narrowed to subsection (A)(1) where the nonpayment threshold sits, added the amending ordinance number 7,950-N.S. that O050 shows, and used the ordinance's own short title instead of 'Measure BB', which its text does not use."
+ }
+}

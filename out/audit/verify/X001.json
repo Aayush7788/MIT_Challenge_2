@@ -1,18 +1,18 @@
 {
- "key": "034264c95cd950357f1ea7eadee75ac55dc06ef2",
+ "key": "6ee07b8a65a129c0e45185be48b0b5ab8667f55b",
  "doc_id": "X001",
  "ids": [
   "r-0001"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:44:40.449Z",
+ "audited_at": "2026-10-03T23:36:24.896Z",
  "cards": [
   {
    "team_rule_id": "r-0001",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
-    "note": "The statute covers any 'person', and the card's core prohibition and definition match the text. However, it does not mention landlords or software vendors specifically, nor rent-setting. The advice to report to the Attorney General or consult a lawyer is not in the document."
+    "note": "The statute covers 'a person' using or distributing a common pricing algorithm in a restraint of trade or coercion, and the definition of common pricing algorithm matches. The card narrows this to 'landlord or software vendor' and adds advice about reporting to the Attorney General or consulting a lawyer. The document says nothing about housing, landlords, the AG, or remedies."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -22,12 +22,12 @@
    "effective_date": {
     "verdict": "supported",
     "evidence": "(Added by Stats. 2025, Ch. 338, Sec. 1. (AB 325) Effective January 1, 2026.)",
-    "note": "The effective date 2026-01-01 matches."
+    "note": null
    },
    "status": {
     "verdict": "supported",
     "evidence": "(Added by Stats. 2025, Ch. 338, Sec. 1. (AB 325) Effective January 1, 2026.)",
-    "note": "The page presents the section as current code, effective before 2026-10-01, so in_force is consistent."
+    "note": "Effective 2026-01-01, before the 2026-10-01 review date, and the page presents the section as current code text."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -37,7 +37,7 @@
    "citation": {
     "verdict": "supported",
     "evidence": "(Added by Stats. 2025, Ch. 338, Sec. 1. (AB 325) Effective January 1, 2026.)",
-    "note": "Section 16729, AB 325, and Stats. 2025, Ch. 338 all match the document."
+    "note": "Section 16729, AB 325 and Stats. 2025, Ch. 338 all match the document."
    }
   }
  ]

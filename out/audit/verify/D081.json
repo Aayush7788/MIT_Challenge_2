@@ -1,23 +1,23 @@
 {
- "key": "cc1875699942385f7f803cc87b5998449e8d0225",
+ "key": "101bea94d1af6e2bda557039d885be374a349eb5",
  "doc_id": "D081",
  "ids": [
-  "r-0090"
+  "r-0093"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:49:47.756Z",
+ "audited_at": "2026-10-03T23:41:22.421Z",
  "cards": [
   {
-   "team_rule_id": "r-0090",
+   "team_rule_id": "r-0093",
    "requirement": {
     "verdict": "supported",
     "evidence": "The law prohibits the sale or use of such algorithmic devices and allows a tenant or the City Attorney to bring a civil action if they believe an entity is in violation of the law.",
-    "note": "Definition covers software analyzing nonpublic competitor rental data for rent recommendations; occupancy management is in the law's description."
+    "note": "Document D081 states the prohibition on sale/use and the civil action right; occupancy management is also stated."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "Each month of use for each affected dwelling unit may constitute a separate violation, and tenants may seek damages, injunctive relief, and civil penalties of up to $1,000 per violation. S.F. Admin. Code § 37.10C(b) and (d).",
-    "note": "D002 supports the $1,000 per violation, per unit per month."
+    "note": "D002 supports the $1,000 per violation and per unit per month exposure."
    },
    "effective_date": {
     "verdict": "supported",
@@ -26,18 +26,18 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "Gomez v. Greystar Management Services LLC in the Northern District of California, alleging that Greystar violated San Francisco Administrative Code § 37.10C through its alleged use of RealPage and Yardi products.",
-    "note": "Document presents the ordinance as current law, being enforced in 2026."
+    "evidence": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
+    "note": "Presented as current law; D002 (Aug 2026) shows it is being enforced in litigation."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Coverage is empty on the card."
+    "note": "Coverage is null on the card."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "S.F. Admin. Code § 37.10C(b) and (d).",
-    "note": "Section 37.10C is also cited in D081."
+    "evidence": "alleging that Greystar violated San Francisco Administrative Code § 37.10C through its alleged use of RealPage and Yardi products.",
+    "note": "D081 refers to Section 37.10C of the Rent Ordinance; D002 gives S.F. Admin. Code § 37.10C."
    }
   }
  ]

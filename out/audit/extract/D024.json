@@ -2,13 +2,13 @@
   "doc_id": "D024",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "extracted_at": "2026-10-03T17:20:30.645Z",
+  "extracted_at": "2026-10-03T23:30:15.335Z",
   "stop_reason": "end_turn",
   "usage": {
     "input": 5686,
-    "output": 1820,
-    "cache_read": 4936,
-    "cache_write": 0
+    "output": 1920,
+    "cache_read": 0,
+    "cache_write": 5819
   },
   "rules": [
     {
@@ -16,11 +16,11 @@
       "level": "state",
       "category": "rent_increase_limits",
       "status": "in_force",
-      "title": "Statewide rent increase cap (Tenant Protection Act)",
-      "requirement": "Within any 12-month period, your landlord may not raise your rent by more than 5% plus the local CPI change, or 10%, whichever is lower, and may raise it in no more than two steps. The base is the lowest rent charged in the prior 12 months, ignoring discounts. If you have been overcharged, you can sue for the excess, and for up to three times the excess if the landlord acted willfully.",
+      "title": "California Tenant Protection Act statewide rent cap",
+      "requirement": "For a covered unit, your landlord cannot raise your rent by more than 5% plus local CPI, or 10%, whichever is lower, in any 12-month period, measured from the lowest rent charged in the prior 12 months. If you stay in the unit, the rent can be raised no more than twice in 12 months, and the landlord can set any starting rent for a new tenancy.",
       "key_value": "lesser of 5% + CPI or 10% per 12 months",
       "coverage": {
-        "summary": "Most residential rental units in California. Exempt: housing with a certificate of occupancy issued within the previous 15 years (except mobilehomes); units covered by stricter local rent control; owner-occupied duplexes; deed-restricted affordable or subsidized housing; school dormitories; and separately alienable homes or condos not owned by a REIT, corporation, or LLC with a corporate member, if the tenant received the required written notice.",
+        "summary": "Most residential rental units in California, including mobilehome park units. Exempt: housing that received a certificate of occupancy within the previous 15 years (except mobilehomes); deed-restricted or subsidized affordable housing; school or college dormitories; units under stricter local rent control; separately alienable single-family homes or condos whose owner is not a REIT, corporation or LLC with a corporate member, if the tenant got the required written exemption notice; and owner-occupied two-unit buildings where neither unit is an ADU or JADU.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -31,23 +31,23 @@
         "required_facts_not_in_data": [],
         "minor_exemptions_not_in_data": [
           "Deed-restricted or subsidized affordable housing",
-          "Dormitories owned by higher-education institutions or K-12 schools",
-          "Separately alienable single-family homes or condos not owned by a REIT, corporation, or LLC with a corporate member, where the tenant received written exemption notice",
-          "Homeowners of mobilehomes (Section 798.9)"
+          "Dormitories owned and operated by higher-education institutions or K-12 schools",
+          "Separately alienable single-family homes or condos not owned by a REIT, corporation, or LLC with a corporate member, with written exemption notice to tenant",
+          "Homeowners of a mobilehome (Section 798.9)"
         ]
       },
-      "exemptions": "Affordable deed-restricted or subsidized housing; school dormitories; housing under stricter local rent control; housing with a certificate of occupancy issued within the previous 15 years (unless a mobilehome); separately alienable homes or condos not owned by a REIT, corporation, or LLC with a corporate member, with the required notice; owner-occupied two-unit properties (neither unit an ADU or JADU); mobilehome homeowners. A new tenancy may set the initial rent freely.",
-      "effective_date": "2024-04-01",
-      "penalty": "Civil action for injunctive relief, damages equal to the overcharge, and discretionary attorney's fees. Up to treble damages for willful, oppressive, fraudulent, or malicious conduct. Enforceable by the Attorney General and city attorneys or county counsel. Three-year limitations period. Waivers are void.",
-      "citation": "Cal. Civ. Code § 1947.12 (Stats. 2023, Ch. 290, SB 567)",
+      "exemptions": "Initial rent for a new tenancy is not capped. Exempt: affordable housing restricted by deed or agreement; school/college dormitories; housing under local rent control that restricts increases below this cap; housing issued a certificate of occupancy within the previous 15 years (unless a mobilehome); separately alienable units (e.g., single-family homes, condos) not owned by a REIT, corporation, LLC with a corporate member, or mobilehome park management, with the required written notice to tenants; owner-occupied duplexes (no ADU/JADU) while the owner continues in occupancy; homeowners of a mobilehome.",
+      "effective_date": "2020-01-01",
+      "penalty": "Tenant may sue for injunctive relief, damages equal to the overcharge, discretionary attorney's fees and costs, and up to three times the overcharge for willful, oppressive, fraudulent or malicious conduct; Attorney General and city attorney or county counsel may enforce. Three-year limitations period. Waivers are void.",
+      "citation": "Cal. Civ. Code § 1947.12",
       "quoted_span": "Subject to subdivision (b), an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase.",
       "yields_to_local_rule": true,
       "may_preempt_local_rules": false,
-      "interaction": "Does not apply to housing subject to local rent control (consistent with Costa-Hawkins, Civ. Code § 1954.50 et seq.) that restricts annual increases to less than the state cap. The section does not expand or limit local authority to regulate rents.",
-      "confidence": 0.9,
-      "conflict_flag": true,
-      "conflict_note": "The operative text (subd. (n)) says the section became operative April 1, 2024; the history note says it was effective January 1, 2024. Subdivision (h) also applies the cap to increases on or after March 15, 2019 (February 18, 2021 for mobilehomes). The section sunsets January 1, 2030."
+      "interaction": "Does not apply to housing under a valid local rent control ordinance (consistent with Costa-Hawkins, Civ. Code § 1954.50 et seq.) that restricts annual increases below this cap. The section is not intended to expand or limit local authority to regulate rents. It applies to rent increases on or after March 15, 2019, with the applicable rent reset on January 1, 2020, and to mobilehome tenancies for increases on or after February 18, 2021. The current text was repealed and re-added by Stats. 2023, Ch. 290 (SB 567), effective January 1, 2024 and operative April 1, 2024. It is repealed as of January 1, 2030.",
+      "confidence": 0.88,
+      "conflict_flag": false,
+      "conflict_note": null
     }
   ],
-  "notes": "Current version of Civ. Code 1947.12 as amended by SB 567. Only the rent cap rule is extracted. The just cause cross-reference (Section 1946.2) appears only in the required notice text and is not stated as a rule here."
+  "notes": "Official code text of Civ. Code § 1947.12 as amended by SB 567 (2023). Effective date is taken from the transition clause in subdivision (h) (applicable rent on January 1, 2020; increases covered from March 15, 2019), not from the SB 567 operative date of April 1, 2024. The just-cause statute (§ 1946.2) is mentioned only in the exemption-notice text and is not extracted here. The section sunsets January 1, 2030."
 }

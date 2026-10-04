@@ -1,0 +1,21 @@
+{
+ "key": "3a4b093f4970d227c6dca85b568b766302640b91",
+ "team_rule_id": "r-0062",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D013",
+  "D014",
+  "O070",
+  "O072"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Boston City Code §§ 10-11.4, 10-11.7 (Housing Stability Notification Act)",
+  "citation_basis": "§ 10-11.4: O070; § 10-11.7: O070, D013, D014; name 'Housing Stability Notification Act': O070 (heading 10-11)",
+  "source_is_law_text": false,
+  "official_doc_id": null,
+  "official_quote": null,
+  "is_city_policy": false,
+  "note": "The card's rule combines the notice requirement (§ 10-11.4) with enforcement and the $300/day fine (§ 10-11.7), so both sections are now cited; no quote is given because O070 is the ordinance as filed in council, not the enacted text, and D013 and D014 are agency pages."
+ }
+}

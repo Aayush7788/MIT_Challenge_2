@@ -1,0 +1,14 @@
+{
+ "rows": 92,
+ "matched": 89,
+ "status_agree": 89,
+ "status_total": 89,
+ "date_agree": 37,
+ "date_total": 48,
+ "merges_done": 9,
+ "merges_total": 9,
+ "coverage_folded": 4,
+ "coverage_total": 4,
+ "test_map_agree": 7,
+ "test_map_total": 7
+}

@@ -1,0 +1,23 @@
+{
+ "key": "71e2a7e187482e737c7d986cba8758d0bf40906e",
+ "team_rule_id": "r-0041",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D067",
+  "O012",
+  "O013",
+  "O014",
+  "O015",
+  "O016"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "N.J.S.A. 2A:42-84.2 (Newly Constructed Multiple Dwellings Law)",
+  "citation_basis": "N.J.S.A. 2A:42-84.2: O014 (exemption section text); law name: D067",
+  "source_is_law_text": false,
+  "official_doc_id": "O014",
+  "official_quote": "In any municipality which has enacted or which hereafter enacts a rent control or rent leveling ordinance, other than under the authority of P.L.1966, c.168 (C.2A:42-74 et seq.), those provisions of the ordinance which limit the periodic or regular increases in base rentals of dwelling units shall not apply to multiple dwellings constructed after the effective date of this act, for a period of time not to exceed the period of amortization of any initial mortgage loan obtained for the multiple dwelling, or for 30 years following completion of construction, whichever is less. In the event that there is no initial mortgage financing, the period of exemption from a rent control or rent leveling ordinance shall be 30 years from the completion of construction.",
+  "is_city_policy": false,
+  "note": "Changed the section from 2A:42-84.5 to 2A:42-84.2 because the official text (O014) shows 84.2 grants the 30-year exemption; 84.5, which the DCA guide cited, only states legislative intent."
+ }
+}

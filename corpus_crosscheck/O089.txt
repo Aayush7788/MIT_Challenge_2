@@ -1,0 +1,16 @@
+SOURCE: https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-361875
+RETRIEVED: 2026-10-04 00:40 UTC
+JURISDICTION: Los Angeles, CA
+CITES: L.A. Mun. Code § 165.03 (opening sentence and § 165.03(A))
+NOTE: Los Angeles Municipal Code § 165.03 (Just Cause Evictions), excerpt: heading, opening sentence and Subsection A (nonpayment, fair market rent threshold, as amended by Ord. No. 187,763); Subsections B-N omitted. Official code publisher American Legal Publishing (codelibrary.amlegal.com), version 2026 Rev. 9 (current). Read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+CA
+Los Angeles
+Los Angeles Municipal Code
+SEC. 165.03. JUST CAUSE EVICTIONS.
+2026 Rev. 9 (current)
+CHAPTER XVI HOUSING REGULATIONS
+
+SEC. 165.03. JUST CAUSE EVICTIONS.
+A landlord shall not terminate a tenancy unless it is based upon one or more of the following grounds:
+A.   The tenant has defaulted in the payment of rent to which the landlord is entitled; provided, however, that the landlord’s right to evict a tenant lawfully in possession of residential housing under this subsection is limited to defaults in payment where the amount due exceeds one month of fair market rent for the Los Angeles metro area set annually by the U.S. Department of Housing and Urban Development for an equivalent sized rental unit as that occupied by the tenant. The written notice to the tenant required under Section 165.05 of this article shall state the number of bedrooms in the tenant’s rental unit. (Amended by Ord. No. 187,763, Eff. 3/27/23.)

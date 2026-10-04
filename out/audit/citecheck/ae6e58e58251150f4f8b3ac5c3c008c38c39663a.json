@@ -1,0 +1,24 @@
+{
+ "key": "ae6e58e58251150f4f8b3ac5c3c008c38c39663a",
+ "team_rule_id": "r-0042",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D067",
+  "D068",
+  "O017",
+  "O025",
+  "O010",
+  "D035",
+  "D070"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "N.J.S.A. 10:5-12(g)",
+  "citation_basis": "N.J.S.A. 10:5-12(g): O017 (statute text, subsection g covering owners, lessors and managing agents), also D067",
+  "source_is_law_text": false,
+  "official_doc_id": "O017",
+  "official_quote": "g. For any person, including, but not limited to, any owner, lessee, sublessee, assignee, or managing agent of, or other person having the right of ownership or possession of or the right to sell, rent, lease, assign, or sublease any real property or part or portion thereof, or any agent or employee of any of these: (1) To refuse to sell, rent, lease, assign, or sublease or otherwise to deny to or withhold from any person or group of persons any real property or part or portion thereof because of race, creed, color, national origin, ancestry, marital status, civil union status, domestic partnership status, pregnancy or breastfeeding, sex, gender identity or expression, affectional or sexual orientation, familial status, disability, service in the Armed Forces of the United States or liability for service in the Armed Forces of the United States, nationality, or source of lawful income used for rental or mortgage payments;",
+  "is_city_policy": false,
+  "note": "Narrowed from 10:5-12(g)-(h) to subsection (g), as the lawyer requested, because the card's landlord rule sits in subsection g; subsection h covers brokers and salespersons."
+ }
+}

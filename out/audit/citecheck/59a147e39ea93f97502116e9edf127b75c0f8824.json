@@ -1,0 +1,21 @@
+{
+ "key": "59a147e39ea93f97502116e9edf127b75c0f8824",
+ "team_rule_id": "r-0071",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "X004",
+  "X003",
+  "D033",
+  "D034"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Hoboken Code § 155-31",
+  "citation_basis": "§ 155-31: X004",
+  "source_is_law_text": true,
+  "official_doc_id": "X004",
+  "official_quote": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential apartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions of this chapter for the new tenant's initial rental; provided, however, that said rental shall be limited to an increase of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit, exclusive of any capital improvement surcharge that is a component of said last rental. However, any additional rental increase beyond the initial rental of the new tenant shall be subject to the provisions of this chapter. For the purpose of any computations under this chapter, the initial base rent charged to the new tenant under this section shall be considered the base rent.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

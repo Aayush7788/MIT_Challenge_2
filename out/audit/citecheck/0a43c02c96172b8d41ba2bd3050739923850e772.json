@@ -1,0 +1,23 @@
+{
+ "key": "0a43c02c96172b8d41ba2bd3050739923850e772",
+ "team_rule_id": "r-0009",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D023",
+  "O063",
+  "O030",
+  "O050",
+  "O032",
+  "O002"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Cal. Civ. Code § 1946.2",
+  "citation_basis": "§ 1946.2: D023",
+  "source_is_law_text": true,
+  "official_doc_id": "D023",
+  "official_quote": "Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy. Any relocation assistance shall be provided within 15 calendar days of service of the notice. An owner’s failure to strictly comply with this subdivision shall render the notice of termination void.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

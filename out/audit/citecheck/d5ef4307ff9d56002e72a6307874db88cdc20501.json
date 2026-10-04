@@ -1,0 +1,23 @@
+{
+ "key": "d5ef4307ff9d56002e72a6307874db88cdc20501",
+ "team_rule_id": "r-0038",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D067",
+  "O010",
+  "O022",
+  "O026",
+  "O023",
+  "O011"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "N.J.S.A. 2A:18-61.1 et seq. (Anti-Eviction Act)",
+  "citation_basis": "N.J.S.A. 2A:18-61.1: O010, D067; also covers 2A:18-61.3 (O026) and 2A:18-61.1g/61.1h (O022, O023)",
+  "source_is_law_text": false,
+  "official_doc_id": "O026",
+  "official_quote": "No landlord may evict or fail to renew any lease of any premises covered by section 2 of this act except for good cause as defined in section 2.",
+  "is_city_policy": false,
+  "note": "Replaced the range 'to -61.12', which no document states, with 'et seq.' because the card merges the good-cause list (61.1), the nonrenewal bar (61.3) and illegal-occupancy relocation (61.1g/61.1h)."
+ }
+}

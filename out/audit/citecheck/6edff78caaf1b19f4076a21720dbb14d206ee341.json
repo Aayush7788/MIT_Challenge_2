@@ -1,0 +1,22 @@
+{
+ "key": "6edff78caaf1b19f4076a21720dbb14d206ee341",
+ "team_rule_id": "r-0034",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D052",
+  "O072",
+  "O070",
+  "O099",
+  "O100"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "M.G.L. c. 186 § 15B",
+  "citation_basis": "c. 186 § 15B: D052",
+  "source_is_law_text": true,
+  "official_doc_id": "D052",
+  "official_quote": "No lessor or successor in interest shall at any time subsequent to the commencement of a tenancy demand rent in advance in excess of the current month's rent or a security deposit in excess of the amount allowed by this section.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

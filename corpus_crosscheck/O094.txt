@@ -1,0 +1,36 @@
+SOURCE: https://berkeley.municipal.codes/BMC/13.106
+RETRIEVED: 2026-10-04 00:45 UTC
+JURISDICTION: Berkeley, CA
+CITES: Berkeley Mun. Code ch. 13.106; § 13.106.010; § 13.106.040
+NOTE: Berkeley Municipal Code Chapter 13.106 (Prohibiting the Use of Criminal History in Housing Decisions) heading, § 13.106.010 (Title) and § 13.106.040 (Use of Criminal History in Housing Decisions), from the city's official code publisher berkeley.municipal.codes (current through Ordinance 8031-NS, passed July 28, 2026); other sections omitted. Read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+Chapter 13.106
+PROHIBITING THE USE OF CRIMINAL HISTORY IN HOUSING DECISIONS
+
+13.106.010
+Title.
+
+This Chapter shall be known as the "Ronald V. Dellums Fair Chance Access to Housing Ordinance." and may be shortened to the "Fair Chance Housing Ordinance." (Ord. 7692-NS § 1 (part), 2020)
+
+13.106.040
+Use of Criminal History in Housing Decisions.
+
+A. Except as provided in Paragraphs B and C of this Section, a Housing Provider shall not, at any time or by any means, whether direct or indirect, inquire about an Applicant’s Criminal History, require an Applicant to disclose their Criminal History, require an Applicant to authorize the release of their Criminal History or, if such information is received, base an Adverse Action in whole or in part on an Applicant’s Criminal History.
+
+B. It shall not be a violation of this Chapter for a Housing Provider to comply with Federal or State laws that require the Housing Provider to automatically exclude tenants based on certain types of criminal history (e.g. Ineligibility of Dangerous Sex Offenders for Admission to Public Housing (42 U.S.C. Section 13663(a); Ineligibility of Individuals Convicted for Manufacturing Methamphetamine on Premises of Federally Assisted Housing for Admission to Public Housing and Housing Choice Voucher Programs (24 C.F.R. Section 982.553)). However, if such a requirement applies, the Housing Provider shall not inquire about, require disclosure of, or, if such information is received, review an Applicant’s Criminal History until the Housing Provider first does the following: (1) informs the Applicant in advance that the Housing Provider will check for certain types of criminal history; (2) requests and obtains written consent, or if the Applicant objects, provides the applicant the opportunity to withdraw their application; (3) complies with the requirements in subsections D and E of this Section.
+
+Any Adverse Action based on Criminal History obtained pursuant to this Paragraph shall be limited to actions required to comply with State or Federal law.
+
+C. In compliance with state law, in order to protect persons at risk pursuant to Penal Code Section 290.46(j)(1), the Housing Provider may review the State registry of lifetime sex offenders operated by the State of California Department of Justice; provided that (1) the Housing Provider has stated the lifetime sex offender screening requirement in writing in the rental application; and (2) the Housing Provider may not inquire about, require disclosure of, or, if such information is received, review an Applicant’s Criminal History until the Housing Provider has first:
+
+1. Determined that the Applicant is qualified to rent the Housing under all of the Housing Provider’s criteria for assessing Applicants except for any criteria related to Criminal History;
+
+2. Provided to the Applicant a conditional rental agreement that commits the Housing to the Applicant as long as the Applicant meets the Housing Provider’s Criminal History and other qualifying criteria; and
+
+3. Informed the Applicant in advance that the Housing Provider will checking the sex offender registry and obtained the written consent of the Applicant to obtain such information.
+
+The Applicant may elect to withhold such consent and withdraw their application. Any use of information obtained by a Housing Provider pursuant to this Paragraph shall comply with California Penal Code Section 290.46(l).
+
+D. A Housing Provider’s request to obtain written consent from the Applicant to obtain information about the Applicant’s Criminal History under Paragraphs B or C of this Section shall inform the Applicant that the Housing Provider may be required to share information about the Applicant’s Criminal History with the City of Berkeley for purposes of enforcing the requirements of this Chapter.
+
+E. If any Adverse Action is based in whole or in part on the Applicant’s Criminal History, the Housing Provider shall provide a written notice to the Applicant regarding the Adverse Action that includes, at a minimum, the reason(s) for the Adverse Action, instructions on how to file a complaint about the Adverse Action with the City, a list of local legal service providers including contact information, and a copy of any Background Check Report or other information related to the Applicant’s Criminal History that served as a basis for the Adverse Action. The Housing Provider shall provide the Applicant an opportunity to respond with rebutting or mitigating information prior to the denial of the Applicant’s housing application. The Housing Provider shall not require reimbursement or payment from the Applicant for the cost of providing any information required under this Paragraph. (Ord. 7692-NS § 1 (part), 2020)

@@ -1,0 +1,20 @@
+{
+ "key": "1bce2b6a159221efae5ba4fa9086380bf90bc4b5",
+ "team_rule_id": "r-0032",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D059",
+  "O072",
+  "O070"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Cella v. Attorney General, SJC-13893 (Mass. June 23, 2026) (Massachusetts statewide rent control initiative petition, removed from the Nov. 4, 2026 ballot)",
+  "citation_basis": "Cella v. Attorney General, SJC-13893: D059; decision date June 23, 2026: D059 (dateline and 'ruled Tuesday morning'); Nov. 4, 2026 ballot: D059",
+  "source_is_law_text": false,
+  "official_doc_id": null,
+  "official_quote": null,
+  "is_city_policy": false,
+  "note": "Rewritten in court-case form as the lawyer asked (case name, docket number, court and decision date, all from D059), with the failed initiative petition and its Nov. 4, 2026 election date in a parenthetical; D059 is only a news report and no document is the court's opinion or the petition text."
+ }
+}

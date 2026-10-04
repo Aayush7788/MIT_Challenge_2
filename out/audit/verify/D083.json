@@ -1,35 +1,35 @@
 {
- "key": "cec358d0c8c3604f87dd4b223f4131d478308f40",
+ "key": "1477e04f20bc6c651e9169d22c8c449fba2c9540",
  "doc_id": "D083",
  "ids": [
-  "r-0092",
-  "r-0093",
-  "r-0096"
+  "r-0095",
+  "r-0096",
+  "r-0099"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:49:59.795Z",
+ "audited_at": "2026-10-03T23:41:34.986Z",
  "cards": [
   {
-   "team_rule_id": "r-0092",
+   "team_rule_id": "r-0095",
    "requirement": {
     "verdict": "supported",
     "evidence": "Relocation payments for tenants evicted under the Ellis Act",
-    "note": "Table for notices served 3/01/26 – 2/28/27 lists $11,110.05 per tenant, $33,330.13 max per unit, and $7,443.90 extra for elderly (62+) or disabled tenants."
+    "note": "Table for notices served 3/01/26 – 2/28/27 gives $11,110.05 per tenant, $33,330.13 max per unit, $7,443.90 extra per elderly (62+) or disabled tenant; card matches."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "3/01/26 – 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90",
-    "note": "Amounts match the table."
+    "note": "Values match the Ellis Act table."
    },
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "3/01/26 – 2/28/27",
-    "note": "The document gives the period start for the rate as 3/01/26 by date of notice service, but does not state an effective date for the rule itself."
+    "note": "Period start is March 1, 2026 for notices served; the document does not say 'effective date' explicitly, but the period start is consistent."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "For March 1, 2026 - February 28, 2027",
-    "note": "The document presents these rates as current as of the 2026-10-01 retrieval, within the period."
+    "evidence": "3/01/26 – 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90",
+    "note": "Presented as current rates; retrieval date 2026-10-01 is within the period."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -39,30 +39,30 @@
    "citation": {
     "verdict": "partly_supported",
     "evidence": "578 Multilingual Relocation Payments 37.9A",
-    "note": "The document references 37.9A for the Ellis Act table, but not 'S.F. Admin. Code' as the code location."
+    "note": "Document references Section 37.9A only via a link label; 'S.F. Admin. Code' is not stated."
    }
   },
   {
-   "team_rule_id": "r-0093",
+   "team_rule_id": "r-0096",
    "requirement": {
     "verdict": "supported",
     "evidence": "Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation",
-    "note": "The table for 3/01/26 – 2/28/27 lists $8,245 per tenant, $24,733 max per unit, and $5,497 extra for elderly (60+), disabled, or households with minor children."
+    "note": "Amounts $8,245, $24,733, $5,497 for 3/01/26 – 2/28/27 match; the elderly (60+), disabled, or minor-child household add-on is in the table header."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "3/01/26 – 2/28/27\n$8,245.00\n$24,733.00\n$5,497.00",
-    "note": "Amounts match."
+    "note": "Values match."
    },
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "3/01/26 – 2/28/27",
-    "note": "The document gives the rate period start by date of notice service, but not a rule effective date."
+    "note": "Period start is March 1, 2026 for notices served; not explicitly labeled as an effective date."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "For March 1, 2026 - February 28, 2027",
-    "note": "Presented as current rates."
+    "evidence": "3/01/26 – 2/28/27\n$8,245.00\n$24,733.00\n$5,497.00",
+    "note": "Presented as current rates for the current period."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -72,15 +72,15 @@
    "citation": {
     "verdict": "partly_supported",
     "evidence": "579 Multilingual Relocation Payments 37.9C",
-    "note": "The document references Section 37.9C, but not 'S.F. Admin. Code'. The footnote does mention Rent Ordinance Section 37.9C."
+    "note": "Section 37.9C appears in the document, but 'S.F. Admin. Code' is not stated."
    }
   },
   {
-   "team_rule_id": "r-0096",
+   "team_rule_id": "r-0099",
    "requirement": {
     "verdict": "supported",
     "evidence": "1.6% for March 1, 2026 – February 28, 2027",
-    "note": "The document states the allowable rent increase for the period is 1.6%. The 'rent-controlled' framing and the advice to check notices go slightly beyond the text."
+    "note": "The allowable rent increase matches. The 'rent-controlled unit' framing is a plain-language restatement."
    },
    "key_value": {
     "verdict": "supported",
@@ -90,12 +90,12 @@
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "March 1, 2026 – February 28, 2027\n1.6%",
-    "note": "The period begins March 1, 2026, but the document does not state an effective date for the rule as such."
+    "note": "Period starts March 1, 2026; not labeled as an effective date."
    },
    "status": {
     "verdict": "supported",
     "evidence": "1.6% for March 1, 2026 – February 28, 2027",
-    "note": "Current rate as of the retrieval date, within the period."
+    "note": "Current period as of 2026-10-01."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -105,7 +105,7 @@
    "citation": {
     "verdict": "partly_supported",
     "evidence": "571 Allowable Annual Increases",
-    "note": "The document references item 571 and the Rent Board, but does not name the San Francisco Rent Ordinance section or 'Form 571'."
+    "note": "The document references the allowable increases link (571), but not 'Form 571' or the Rent Ordinance section."
    }
   }
  ]

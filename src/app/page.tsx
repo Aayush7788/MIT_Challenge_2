@@ -82,6 +82,20 @@ function RuleCard({ it, L, lang }: { it: MemoItem; L: S; lang: Lang }) {
       </div>
       {open && (
         <div className="mt-2 rounded-md bg-stone-50 p-3 text-xs leading-relaxed text-stone-700">
+          {it.official_text && (
+            <div className="mb-3">
+              <p className="mb-1 font-medium text-stone-800">{L.lawText}</p>
+              <blockquote className="border-l-2 border-stone-500 pl-3 italic">&ldquo;{it.official_text.quoted_span}&rdquo;</blockquote>
+              <p className="mt-2 text-stone-500">
+                {L.lawTextFrom(it.official_text.doc_id, fmtDate(it.official_text.retrieved_at?.slice(0, 10), lang))}{" "}
+                <a href={it.official_text.url} target="_blank" rel="noreferrer" className="text-blue-700 underline">
+                  {L.openSource}
+                </a>
+                {!it.official_text.in_supplied_corpus && L.lawTextAdded}
+              </p>
+              <p className="mb-1 mt-3 font-medium text-stone-800">{L.corpusQuote}</p>
+            </div>
+          )}
           <blockquote className="border-l-2 border-stone-300 pl-3 italic">&ldquo;{it.quoted_span}&rdquo;</blockquote>
           <p className="mt-2 text-stone-500">
             {it.span_verified ? L.quoteVerified : L.quoteNotVerified}

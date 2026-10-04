@@ -1,0 +1,19 @@
+{
+ "key": "f24316457128544107c2c35b581776ba6b8e8f5a",
+ "team_rule_id": "r-0095",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D075",
+  "D074"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "San Diego Mun. Code § 98.0803 (Ord. O-20986 N.S.)",
+  "citation_basis": "§ 98.0803: D075; Ord. O-20986 N.S.: D075",
+  "source_is_law_text": true,
+  "official_doc_id": "D075",
+  "official_quote": "It is unlawful for any person to do any of the following acts, wholly or in part, based on a person’s source of income (except as may be necessary to comply with any program requirements related to source of income):",
+  "is_city_policy": false,
+  "note": "Reformatted the ordinance parenthetical to house style ('Ord. O-20986 N.S.') and dropped the extra section range, keeping § 98.0803 because the card's rule merges its subsections (a)-(c)."
+ }
+}

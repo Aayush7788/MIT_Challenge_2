@@ -1,0 +1,23 @@
+{
+ "key": "2a315f937bdfe30a1f89edd531ee1ce6c89353d2",
+ "team_rule_id": "r-0040",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D067",
+  "O011",
+  "O010",
+  "O022",
+  "O026",
+  "O023"
+ ],
+ "retried": true,
+ "result": {
+  "citation": "N.J.S.A. 2A:18-61.31",
+  "citation_basis": "N.J.S.A. 2A:18-61.31: O011 (also cited in D067)",
+  "source_is_law_text": false,
+  "official_doc_id": "O011",
+  "official_quote": "In a municipality which does not have a rent control ordinance in effect, no evidence of increased costs which are solely the result of the conversion, including but not limited to any increase in financing or carrying costs, and which do not add services or amenities not previously provided shall be used as a basis to establish the reasonableness of a rent increase under section 2f. of P.L. 1974, c. 49 (C. 2A:18-61.1).",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

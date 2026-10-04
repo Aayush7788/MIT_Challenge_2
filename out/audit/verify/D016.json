@@ -1,18 +1,18 @@
 {
- "key": "45ecfe76b269b0f4cdc91fe36d13961556a39f27",
+ "key": "91ac2746ea5e54e18aed7c7f4f0b469eb15aa3dd",
  "doc_id": "D016",
  "ids": [
-  "r-0014"
+  "r-0017"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:45:23.827Z",
+ "audited_at": "2026-10-03T23:37:02.331Z",
  "cards": [
   {
-   "team_rule_id": "r-0014",
+   "team_rule_id": "r-0017",
    "requirement": {
     "verdict": "supported",
     "evidence": "No. California law protects tenants from discrimination based on how a tenant will be paying rent (“source of income”).",
-    "note": "Document also states different terms like higher deposit for Section 8, one-year CRD complaint limit, and two-year court limit."
+    "note": "The document also states that refusing to rent, higher deposits for Section 8 applicants, the one-year CRD filing limit and the two-year court limit all apply."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -26,18 +26,18 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "No. California law protects tenants from discrimination based on how a tenant will be paying rent (“source of income”).",
-    "note": "Document presents the rule as current law; no effective date needed."
+    "evidence": "California law protects tenants from discrimination based on how a tenant will be paying rent (“source of income”).",
+    "note": "The document presents the rule as current law. No effective date is given, which is fine for in_force."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "When an owner is occupying a home and is renting to one additional person, the owner may exclude applicants based on protected characteristics.",
-    "note": "Document supports an owner-occupied exemption renting to one additional person, but does not say it applies to source of income specifically, and the 'max units' framing is the card's interpretation."
+    "note": "The document describes an owner-occupied exemption for renting to one additional person, which loosely matches max_units 1. It does not state that this exemption applies to source of income specifically, and it does not use a unit threshold."
    },
    "citation": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "The Fair Employment and Housing Act (FEHA) covers the sale, rental, or occupancy of most housing accommodations in California",
-    "note": "The document names FEHA as the governing law; no section number is given or claimed."
+    "note": "The document names FEHA as the governing law but gives no statutory section for source-of-income protection. The card's citation is only the Act's name."
    }
   }
  ]

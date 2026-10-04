@@ -1,0 +1,31 @@
+SOURCE: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=50079.5
+RETRIEVED: 2026-10-04 00:18 UTC
+JURISDICTION: CA
+CITES: Cal. Health & Saf. Code § 50079.5
+NOTE: Official California Legislative Information code page for Health and Safety Code 50079.5 (definition of lower income households by federal Section 8 limits; 80 percent of area median income only as the fallback), leginfo.legislature.ca.gov
+
+Code Text
+
+Health and Safety Code - HSC
+
+DIVISION 31. HOUSING AND HOME FINANCE [50000 - 54949]
+( Division 31 repealed and added by Stats. 1977, Ch. 610. )
+
+PART 1. STATE HOUSING POLICY AND GENERAL PROVISIONS [50000 - 50300]
+( Part 1 added by Stats. 1977, Ch. 610. )
+
+CHAPTER 2. Definitions [50050 - 50106]
+( Chapter 2 added by Stats. 1977, Ch. 610. )
+
+50079.5. 
+
+(a)
+“Lower income households” means persons and families whose income does not exceed the qualifying limits for lower income families as established and amended from time to time pursuant to Section 8 of the United States Housing Act of 1937. The limits shall be published by the department in the California Code of Regulations as soon as possible after adoption by the Secretary of Housing and Urban Development. In the event the federal standards are discontinued, the department shall, by regulation, establish income limits for lower income households for all geographic areas of the state at 80 percent of area median income, adjusted for family size and revised annually.
+
+(b)
+“Lower income households” includes very low income households, as defined in Section 50105, and extremely low income households, as defined in Section 50106. The addition of this subdivision does not constitute a change in, but is declaratory of, existing law.
+
+(c)
+As used in this section, “area median income” means the median family income of a geographic area of the state.
+
+(Amended by Stats. 2002, Ch. 782, Sec. 24. Effective January 1, 2003.)

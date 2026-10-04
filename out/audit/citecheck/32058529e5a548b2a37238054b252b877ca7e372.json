@@ -1,0 +1,23 @@
+{
+ "key": "32058529e5a548b2a37238054b252b877ca7e372",
+ "team_rule_id": "r-0045",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D065",
+  "D035",
+  "O010",
+  "O081",
+  "O083",
+  "D070"
+ ],
+ "retried": true,
+ "result": {
+  "citation": "N.J.S.A. 46:8-56 (P.L. 2021, c.110, § 5)",
+  "citation_basis": "N.J.S.A. 46:8-56: D065 (C.46:8-56 heading); P.L. 2021, c.110: D065; § 5: D065 (section 5 of the act)",
+  "source_is_law_text": true,
+  "official_doc_id": "D065",
+  "official_quote": "After the issuance of a conditional offer to an applicant, a housing provider may only consider a criminal record in the applicant’s history that:",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

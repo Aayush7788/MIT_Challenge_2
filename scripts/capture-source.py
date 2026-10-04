@@ -74,7 +74,8 @@ def main():
     ap.add_argument("--reviewer-note", default="", help="a reviewer's note about this source; extraction adds it to every card from it")
     ap.add_argument("--text-file", help="text already copied from a browser, for sites that block scripts")
     ap.add_argument("--start", help="drop everything before the first line containing this text (site menus)")
-    ap.add_argument("--dir", default="corpus_extra", help="where to save (corpus_extra feeds the pipeline; demo/... does not)")
+    ap.add_argument("--dir", default="corpus_extra", help="where to save (corpus_extra feeds the pipeline; corpus_crosscheck holds official texts for cite-checking; demo/... feeds nothing)")
+    ap.add_argument("--cites", default="", help="the code sections this text contains, e.g. 'N.J.S.A. 2A:18-61.1' (cite-check matches cards on it)")
     a = ap.parse_args()
 
     text = open(a.text_file, encoding="utf-8").read() if a.text_file else fetch(a.url)
@@ -88,6 +89,8 @@ def main():
     ]
     if a.type != "official":
         header.append(f"TYPE: {a.type}")
+    if a.cites:
+        header.append(f"CITES: {a.cites}")
     if a.note:
         header.append(f"NOTE: {a.note}")
     if a.reviewer_note:

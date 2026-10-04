@@ -88,7 +88,7 @@ export function sectionKey(citation: string): { base: string; full: string } | n
 const enacted = (r: RuleRecord) => r.status === "in_force" || r.status === "not_yet_effective";
 // Texts we captured ourselves don't count toward the organizers' citation metric,
 // so when the same law is also in the supplied corpus we keep the corpus quote.
-const fromStarter = (r: RuleRecord) => r.source_in_starter_corpus !== false;
+export const fromStarter = (r: RuleRecord) => r.source_in_starter_corpus !== false;
 // "13.63.030" and "ch13.63" are the same chapter; used to compare dates across a chapter.
 const familyKey = (base: string) => base.replace(/^ch/, "").split(".").slice(0, 2).join(".");
 const official = (r: RuleRecord) => !(r.source_type ?? "").startsWith("secondary");
@@ -116,8 +116,8 @@ const staleFigure = (r: RuleRecord) => {
 };
 // When two records of one law are merged, the kept one takes the other's figure if
 // its own has expired, and any coverage it lacks.
-function absorb(keep: RuleRecord, other: RuleRecord) {
-  if (other.key_value && (!keep.key_value || (staleFigure(keep) && !staleFigure(other)))) {
+function absorb(keep: RuleRecord, other: RuleRecord, figure = true) {
+  if (figure && other.key_value && (!keep.key_value || (staleFigure(keep) && !staleFigure(other)))) {
     if (keep.key_value) keep.consolidation_note = [keep.consolidation_note, `Current figure from ${other.source_doc_id}; ${keep.source_doc_id} gave "${keep.key_value}", which has expired.`].filter(Boolean).join(" ");
     keep.key_value = other.key_value;
   }
@@ -133,6 +133,73 @@ function absorb(keep: RuleRecord, other: RuleRecord) {
 const note = (r: RuleRecord, text: string) => {
   r.consolidation_note = r.consolidation_note ? `${r.consolidation_note} ${text}` : text;
 };
+
+// Which of several records of one law to keep: supplied corpus first (the citation
+// metric only counts it), then official text, a real section number, a figure
+// that's still current, a figure at all, and confidence.
+export function rankForKeeping(a: RuleRecord, b: RuleRecord): number {
+  return (
+    Number(fromStarter(b)) - Number(fromStarter(a)) ||
+    Number(official(b)) - Number(official(a)) ||
+    Number(Boolean(sectionKey(b.citation))) - Number(Boolean(sectionKey(a.citation))) ||
+    Number(staleFigure(a)) - Number(staleFigure(b)) ||
+    Number(Boolean(b.key_value)) - Number(Boolean(a.key_value)) ||
+    b.confidence - a.confidence
+  );
+}
+
+// Folds one record into another (used by scripts/group.ts). A coverage note only
+// lends its coverage; a duplicate also lends a missing date, a current figure and
+// any review note.
+// A merged card keeps the record of what was merged into the card it absorbs,
+// so provenance survives merges of merges.
+function carryNotes(keep: RuleRecord, other: RuleRecord) {
+  if (other.consolidation_note && !(keep.consolidation_note ?? "").includes(other.consolidation_note)) note(keep, `[from ${other.team_rule_id}: ${other.consolidation_note}]`);
+}
+
+// Does the card's own text already name this date? Then extraction saw it and read
+// it as the start of one provision (LA's utility-surcharge change), not of the law.
+function namesDate(r: RuleRecord, iso: string): boolean {
+  const [y, m, d] = iso.split("-").map(Number);
+  const month = Object.entries(MONTHS).find(([, n]) => n === m)?.[0] ?? "";
+  const text = `${r.title} ${r.requirement} ${r.key_value ?? ""} ${r.quoted_span}`.toLowerCase();
+  return text.includes(iso) || new RegExp(`\\b${month}[a-z]*\\.?\\s+${d},\\s*${y}`).test(text);
+}
+const ordinanceNo = (c: string) => c.match(/\bOrd(?:inance)?\.?\s*(?:No\.?\s*)?([A-Z]{0,3}-?\d[\d,.]*(?:-?N\.?S\.?)?)/i)?.[1]?.replace(/[.,\s]/g, "") ?? null;
+
+const specific = (citation: string) => Boolean(sectionKey(citation) || ordinanceNo(citation));
+
+export function mergeInto(keep: RuleRecord, other: RuleRecord, opts: { coverageOnly?: boolean }) {
+  absorb(keep, other, !opts.coverageOnly);
+  carryNotes(keep, other);
+  // A card that names no section or ordinance number takes the merged card's citation.
+  if (!opts.coverageOnly && !specific(keep.citation) && specific(other.citation)) {
+    note(keep, `Citation from ${other.source_doc_id}; ${keep.source_doc_id} gave "${keep.citation}".`);
+    keep.citation = other.citation;
+  }
+  if (!opts.coverageOnly && !keep.effective_date && other.effective_date) {
+    const [mine, theirs] = [ordinanceNo(keep.citation), ordinanceNo(other.citation)];
+    if (namesDate(keep, other.effective_date)) note(keep, `${other.citation} applies from ${other.effective_date}.`);
+    else {
+      keep.effective_date = other.effective_date;
+      // A date from an earlier ordinance may not survive a later one that rewrote the chapter.
+      if (mine && theirs && mine !== theirs) {
+        keep.conflict_flag = true;
+        keep.conflict_note = [keep.conflict_note, `Effective date ${other.effective_date} comes from ${other.citation} (${other.source_doc_id}); this card's ordinance is a different one, so check that the date still holds.`].filter(Boolean).join(" ");
+      }
+    }
+  }
+  if (!opts.coverageOnly && other.conflict_flag && other.conflict_note && !(keep.conflict_note ?? "").includes(other.conflict_note)) {
+    keep.conflict_flag = true;
+    keep.conflict_note = [keep.conflict_note, `${other.source_doc_id}: ${other.conflict_note}`].filter(Boolean).join(" ");
+  }
+  note(
+    keep,
+    opts.coverageOnly
+      ? `Coverage from ${other.source_doc_id} (${other.team_rule_id}), which describes the units this rule covers.`
+      : `Also stated in ${other.source_doc_id} (merged ${other.team_rule_id}, ${other.citation}).`,
+  );
+}
 
 // Several documents often describe the same law. This cleans that up so we end
 // up with one card per law.
@@ -171,9 +238,15 @@ function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[]
     const donor = ranked.find(enacted) ?? ranked[0];
     for (const r of starter) {
       if (r.status === "pending" && enacted(donor)) {
+        // The proposal was adopted: describe the law as enacted (its code citation and
+        // present-tense text), and keep the corpus quote of the proposal it came from.
+        note(r, `Adopted: citation, text, status and effective date from ${describe(donor)}; the quote is from the proposal in the supplied corpus (${r.citation}).`);
         r.status = donor.status;
         r.effective_date = donor.effective_date ?? r.effective_date;
-        note(r, `Adopted: status and effective date from ${describe(donor)}.`);
+        r.citation = donor.citation;
+        r.title = donor.title;
+        r.requirement = donor.requirement;
+        r.key_value = donor.key_value ?? r.key_value;
       } else if (!r.effective_date && donor.effective_date && enacted(r)) {
         r.effective_date = donor.effective_date;
         if (r.status === "in_force" && donor.effective_date > QUERY_DATE) r.status = "not_yet_effective";
@@ -238,6 +311,7 @@ function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[]
       for (const r of rest) {
         drop.add(r);
         absorb(keep, r);
+        carryNotes(keep, r);
         note(keep, `Also stated in ${r.source_doc_id} (merged ${r.team_rule_id}).`);
         notes.push(`${r.team_rule_id} merged into ${keep.team_rule_id} (${keep.citation}).`);
       }
@@ -250,10 +324,14 @@ function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[]
   for (const g of groups.values()) {
     const live = g.filter((r) => !drop.has(r) && r.status !== "failed");
     if (live.length < 2 || new Set(live.map((r) => r.status)).size > 1) continue;
+    // Keep the subsection that comes first in the statute ((c) before (c)(4) before
+    // (h)): the core rule usually leads, and its date is the rule's date.
+    const sub = (r: RuleRecord) => sectionKey(r.citation)!.full.slice(sectionKey(r.citation)!.base.length);
     const [main, ...rest] = [...live].sort(
       (a, b) =>
         Number(fromStarter(b)) - Number(fromStarter(a)) ||
         Number(staleFigure(a)) - Number(staleFigure(b)) ||
+        sub(a).localeCompare(sub(b), "en", { numeric: true }) ||
         Number(Boolean(b.key_value)) - Number(Boolean(a.key_value)) ||
         Number(official(b)) - Number(official(a)) ||
         b.confidence - a.confidence,
@@ -262,9 +340,16 @@ function consolidate(rules: RuleRecord[]): { kept: RuleRecord[]; notes: string[]
     const parts = [main, ...rest].map((r) => r.citation);
     main.citation = main.citation.replace(/((?:§+\s*)?[0-9][0-9A-Za-z.:\-½/]*)((?:\([0-9a-zA-Z]{1,4}\))+(?:\s*,\s*(?:\([0-9a-zA-Z]{1,4}\))+)*)/, "$1");
     main.requirement = [main.requirement, ...rest.map((r) => r.requirement)].join(" ");
-    if (!main.effective_date) main.effective_date = rest.find((r) => r.effective_date)?.effective_date ?? null;
-    for (const r of rest) absorb(main, r);
+    // Don't borrow another subsection's date: it is often the date of an amendment
+    // to that subsection, not when the section's rule began (our lawyer's point).
+    for (const r of rest) {
+      absorb(main, r);
+      carryNotes(main, r);
+    }
     note(main, `One card for ${base}: merged ${parts.join("; ")}.`);
+    // A later start date for one subsection stays on the card as text.
+    const own = rest.filter((r) => r.effective_date && r.effective_date !== main.effective_date);
+    if (own.length) note(main, own.map((r) => `${r.citation} applies from ${r.effective_date}.`).join(" "));
     for (const r of rest) {
       drop.add(r);
       notes.push(`${r.team_rule_id} merged into ${main.team_rule_id} (subsections of ${base}).`);
@@ -358,7 +443,9 @@ function inheritCityRentCoverage(rules: RuleRecord[]): string[] {
 
 export type LoadedRules = { rules: RuleRecord[]; warnings: string[]; rejected: { id: string; problems: string[] }[] };
 
-export function normalizeRules(input: unknown): LoadedRules {
+// consolidate: false reads a file that is already one card per law (submission/rules.json),
+// so the app, the checks and the lookups all see exactly the cards we submit.
+export function normalizeRules(input: unknown, opts: { consolidate?: boolean } = {}): LoadedRules {
   const list: unknown[] = Array.isArray(input)
     ? input
     : input && typeof input === "object" && Array.isArray((input as { rules?: unknown }).rules)
@@ -406,11 +493,14 @@ export function normalizeRules(input: unknown): LoadedRules {
       coverage_note: typeof r.coverage_note === "string" ? r.coverage_note : null,
       consolidation_note: typeof r.consolidation_note === "string" ? r.consolidation_note : null,
       verification: r.verification && typeof r.verification === "object" ? (r.verification as RuleRecord["verification"]) : undefined,
+      official_text: r.official_text && typeof r.official_text === "object" ? (r.official_text as RuleRecord["official_text"]) : null,
+      citation_note: typeof r.citation_note === "string" ? r.citation_note : null,
     });
     if (typeof r.effective_date === "string" && r.effective_date && !dateOrNull(r.effective_date)) {
       warnings.push(`${id}: effective_date "${r.effective_date}" is not YYYY-MM-DD; ignored`);
     }
   });
+  if (opts.consolidate === false) return { rules, warnings, rejected };
   const { kept, notes } = consolidate(rules);
   warnings.push(...notes.map((n) => `consolidated: ${n}`));
   warnings.push(...inheritCityRentCoverage(kept).map((n) => `filled: ${n}`));

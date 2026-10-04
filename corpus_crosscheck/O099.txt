@@ -1,0 +1,27 @@
+SOURCE: https://library.municode.com/ma/cambridge/codes/code_of_ordinances?nodeId=TIT8HESA_CH8.71TERIRENO
+RETRIEVED: 2026-10-04 00:52 UTC
+JURISDICTION: Cambridge, MA
+CITES: Cambridge Mun. Code ch. 8.71; § 8.71.010; § 8.71.040 (Ord. No. 2020-15; Ord. No. 2024-3)
+NOTE: Cambridge Code of Ordinances, Title 8, Chapter 8.71 (Tenants' Rights and Resources Notification): chapter heading, § 8.71.010 (Purpose) and § 8.71.040 (Required notice) with history notes, from the city's official code on Municode Library (version Apr 21, 2025, current); other sections omitted; reached from the code's table of contents. Read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+Cambridge, Massachusetts - Code of Ordinances Title 8 - HEALTH AND SAFETY  Chapter 8.71 - TENANTS' RIGHTS AND RESOURCES NOTIFICATION
+
+VERSION: APR 21, 2025 (CURRENT)
+
+Chapter 8.71 - TENANTS' RIGHTS AND RESOURCES NOTIFICATION
+
+Sections:
+
+8.71.010 - Purpose.
+
+The purpose of this Ordinance is to inform residents of Cambridge of housing rights and resources available to them including rights and resources if they receive an eviction notice and to share information and resources with landlords and management companies to maintain housing stability for Cambridge tenants.
+
+(Ord. No. 2020-15, 9-14-2020)
+
+8.71.040 - Required notice.
+
+8.71.040.1 Notice to Tenant/Former Homeowner. At the inception of a tenancy and when a landlord or foreclosing owner serves the tenant or former homeowners any notice to quit or notice of lease nonrenewal or expiration, such landlord or foreclosing owner shall, at the same time, also provide the tenant or former homeowner with a notice of basic housing rights and resources, including a list of organizations available to assist tenants and/or former homeowners with their contact information on a form or forms prepared by the City of Cambridge which shall be attached thereto. Where a landlord or foreclosing owner is exercising a right of lease nonrenewal or expiration, the owner shall give such a written notice prepared by the City of Cambridge at least thirty days prior to commencing any summary process action against the tenant or former homeowner. Such notice shall be provided in-hand or by both certified mail and first-class mail.
+
+8.71.040.2 Notice by the City. The City of Cambridge shall annually publicize the requirements of Chapter 8.71 on the City's website and through other digital City notifications directed at the community, such as daily update e-mails and social media. The City shall use reasonable efforts to mail notice of these requirements to every residential address in the City at least annually; this mailing may be a postcard that contains a QR code or other electronic link to the City's website or may be part of another City mailing that goes to residential addresses. Also, the City shall annually provide information about the requirements of Chapter 8.71 at a City sponsored community event/program that is organized to provide information about housing resources. The City may publicize and provide information at events/programs about the requirements of Chapter 8.71 more frequently.
+
+(Ord. No. 2024-3, 9-9-2024; Ord. No. 2020-15, 9-14-2020)

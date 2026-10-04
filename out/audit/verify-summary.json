@@ -1,10 +1,10 @@
 {
-  "finished_at": "2026-10-03T22:50:35.559Z",
+  "finished_at": "2026-10-04T00:38:03.160Z",
   "model": "claude-sonnet-5-5",
-  "cards": 104,
-  "audited": 104,
-  "all_supported": 34,
+  "cards": 110,
+  "audited": 110,
+  "all_supported": 47,
   "fields_removed": 0,
-  "disputed": 4,
+  "disputed": 3,
   "rejected": 0
 }

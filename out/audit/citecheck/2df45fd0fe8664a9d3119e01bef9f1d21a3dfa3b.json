@@ -1,0 +1,23 @@
+{
+ "key": "2df45fd0fe8664a9d3119e01bef9f1d21a3dfa3b",
+ "team_rule_id": "r-0061",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D007",
+  "O053",
+  "O050",
+  "O095",
+  "O096",
+  "O051"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Berkeley Mun. Code § 13.76.070 (Rent Stabilization and Eviction for Just Cause Ordinance)",
+  "citation_basis": "§ 13.76.070: O095 (also O050); Rent Stabilization and Eviction for Just Cause Ordinance title: O095 § 13.76.010",
+  "source_is_law_text": false,
+  "official_doc_id": "O095",
+  "official_quote": "The interest accrued by said payment or deposit through October 31st of each year shall be returned to the tenant annually in December of each year, either through a rent rebate or cash payment, and shall be at a rate equal to the 12-month average of the average rates of interest paid on six-month certificates of deposit by banks doing business in the City on the first business day of each month for the prior 12 months ending on November 1st, rounded to the nearest tenth. Upon the tenant’s departure from the premises, the balance of any interest accrued since the last October 31st shall be paid at the average monthly rate from the last November 1st to the date of departure and shall be returned to the tenant along with the appropriate part of the principal and any prior unpaid interest.",
+  "is_city_policy": false,
+  "note": "Replaced the nickname 'Berkeley Rent Ordinance' and narrowed the lawyer's 'ch. 13.76 (deposit interest)' to § 13.76.070, which the codified text (O095) shows is the deposit-interest section, and used the chapter's own title instead of the descriptive '(deposit interest)'."
+ }
+}

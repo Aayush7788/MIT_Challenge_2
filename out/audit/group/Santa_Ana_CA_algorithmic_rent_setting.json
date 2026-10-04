@@ -1,0 +1,24 @@
+{
+ "hash": "c7e0cde089f5bf221b3e2bba34627e41c6b3085c",
+ "key": "Santa Ana, CA / algorithmic_rent_setting",
+ "ids": [
+  "r-0101",
+  "r-0102",
+  "r-0103"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0101",
+     "r-0102",
+     "r-0103"
+    ],
+    "key_value": "up to $1,000 per violation",
+    "reason": "All three cards describe the same Santa Ana ordinance banning algorithmic rent-setting software. r-0102 reflects the Feb. 17, 2026 first reading, r-0101 the March 3, 2026 adoption, and r-0103 cites it as Ord. No. NS-3090, effective April 2, 2026. The penalty figure of up to $1,000 per violation is consistent across the cards. The in-force official text (r-0101) does not mention the 'per month' wording from the law-firm alert."
+   }
+  ],
+  "coverage_only": []
+ }
+}

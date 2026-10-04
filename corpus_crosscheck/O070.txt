@@ -1,0 +1,435 @@
+SOURCE: https://www.boston.gov/sites/default/files/file/2021/03/Housing%20Stability%20Notification%20Act.pdf
+RETRIEVED: 2026-10-04 00:21 UTC
+JURISDICTION: Boston, MA
+TYPE: official record (the ordinance as filed in the City Council), not the enacted text
+CITES: Boston City Code, Ordinances ch. X, §§ 10-11.1 to 10-11.7 (Housing Stability Notification Act), incl. § 10-11.4 (Required Notice) and § 10-11.7 (Enforcement)
+NOTE: Ordinance text as filed in Boston City Council Oct 21, 2020, PDF published by the City of Boston on boston.gov and linked as 'Download the Ordinance' from boston.gov/departments/housing/housing-stability-notification-act. The codified text on municode was not checked.
+
+CITY OF BOSTON
+ 
+ 
+IN CITY COUNCIL
+ 
+ 
+AN ORDINANCE CONCERNING HOUSING STABILITY, REQUIRING NOTICE TO
+ 
+TENANTS AND FORMER HOMEOWNERS OF RIGHTS AND RESOURCES
+ 
+ 
+Be it ordained by the City Council of Boston, as follows:
+ 
+ 
+SECTION 1.
+ 
+ 
+City of Boston Code, Ordinances, Chapter X is hereby amended by inserting the
+ 
+following Section after Section 10-10: -
+ 
+ 
+10-11. HOUSING STABILITY NOTIFICATION ACT
+ 
+ 
+10-11.1
+ 
+Purpose
+ 
+ 
+The purpose of this Ordinance is to promote the housing stability of Boston residents.
+ 
+ 
+10-11.2
+ 
+Definitions
+ 
+ 
+When used in this section, unless the context otherwise requires, the following terms
+ 
+shall have the following meanings:
+ 
+ 
+"Applicable laws" means all controlling applicable federal, state and local
+ 
+statutes, regulations, ordinances and administrative rules and orders that have
+ 
+the effect of law, as well as all applicable final, non-appealable judicial opinions.
+ 
+ 
+"Entity" means a business organization, or any other kind of organization,
+ 
+including without limitation a corporation, partnership, trust, limited liability
+ 
+corporation, limited liability partnership, joint venture, sole proprietorship,
+ 
+development or project, or any other category of organization, and any
+ 
+employee, agent, servant or other representative of such entity.
+ 
+ 
+"Former Homeowner" means any natural person or group of natural persons
+ 
+who, prior to foreclosure of a housing accommodation, had been the title owner
+ 
+or owners of such housing accommodation, or who has a legal or beneficial
+ 
+interest in the housing accommodation by dissolution of marriage, separation
+ 
+agreement, survivorship, devise, or intestate succession, and who at the time of
+ 
+foreclosure actually occupied such housing accommodation as a resident or
+ 
+residents.
+ 
+ 
+"Foreclosing Owner" means any natural person or entity that holds title in any
+ 
+capacity, directly or indirectly without limitation, whether in its own name, as
+ 
+trustee or as beneficiary, to a housing accommodation that has been foreclosed
+ 
+upon and either (1) held or owned a mortgage or other security interest in the
+ 
+housing accommodation at any point prior to the foreclosure of the housing
+ 
+accommodation, or is the subsidiary, parent, trustee, or agent thereof; or (2) is an
+ 
+institutional mortgagee that acquires or holds title to the housing accommodation;
+ 
+or (3) is the Federal National Mortgage Association or the Federal Home Loan
+ 
+Mortgage Corporation.
+ 
+ 
+"Landlord" means owner of record, or lessor or sub-lessor of an owner of record,
+ 
+or any other person, project, housing development, or other entity entitled either
+ 
+to receive rent for the use and occupancy of any rental unit or to maintain an
+ 
+action for possession of a rental unit, or an agent, representative, successor, or
+ 
+assignee of any of the foregoing.
+ 
+ 
+"Lease non-renewal or expiration" means a provision in a written rental
+ 
+agreement for a housing accommodation or rental unit that the lease will expire
+ 
+either as of a fixed date, or at the election of the owner for the failure of the
+ 
+tenant to take certain affirmative action.
+ 
+ 
+"Notice to quit" means any written notice sent by a landlord or a foreclosing
+ 
+owner to a tenant or former homeowner of a residential rental unit or housing
+ 
+accommodation seeking to terminate the tenant's tenancy or the former
+ 
+homeowner's occupancy of such rental unit or housing accommodation.
+ 
+ 
+"Office
+of
+Housing
+Stability"
+means
+the
+office
+of
+the
+City
+of
+Boston
+created
+to
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+address
+the
+problem
+of
+displacement
+in
+the
+city,
+or
+any
+subsequent
+or
+successor
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+office
+or
+entity
+similarly
+empowered
+with
+like
+purpose
+or
+responsibility,
+or
+if
+no
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+such
+office
+exists,
+the
+city
+office
+or
+entity
+with
+the
+closest
+corresponding
+purpose
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+or responsibility.
+ 
+ 
+"Owner" means any person or entity that holds title to one or more dwelling units
+ 
+in any manner including but not limited to a partnership, corporation or trust. For
+ 
+purposes of this ordinance the term "owner" shall include one who manages,
+ 
+controls, or customarily accepts rent on behalf of the owner.
+ 
+ 
+"Property" means a parcel of land along with all fixtures, structures and
+ 
+improvements thereupon, located in the City of Boston, that is assessed and
+ 
+taxed as an undivided whole.
+ 
+ 
+"Rental Unit" means a non-owner occupied room or group of related rooms within
+ 
+a dwelling used or intended for use by one family or household for living,
+ 
+sleeping, cooking and eating.
+ 
+ 
+"Skilled Nursing Facility" means a health facility or a distinct part of a hospital that
+ 
+provides, at a minimum, skilled nursing care and supportive care to patients
+ 
+whose primary medical need is the availability of skilled nursing care on an
+ 
+extended basis. Such facility must provide 24 hour inpatient care, an activity
+ 
+program, and medical, nursing, dietary, and pharmaceutical services.
+ 
+Additionally, the facility must provide effective arrangements, confirmed in
+ 
+writing, through which services required by the patients but not regularly provided
+ 
+within the facility can be obtained promptly when needed.
+ 
+ 
+"Tenancy" means occupation or use of a dwelling unit under an express or
+ 
+implied rental agreement.
+ 
+ 
+"Tenant" means any person who inhabits or is entitled to inhabit a dwelling
+ 
+unit under a rental agreement.
+ 
+ 
+10-11.3
+Applicability
+ 
+The provisions of this ordinance shall apply to all rental units and housing
+ 
+accommodations in the City of Boston, in whole or in part, where a notice to quit or
+ 
+other notice of lease nonrenewal or expiration has been served, or should have been
+ 
+served, on the tenant or former homeowner of any such rental unit or housing
+ 
+accommodation as of the effective date of this ordinance, but where any such rental
+ 
+unit or housing accommodation has not yet been vacated or a final order of judgment
+ 
+for possession has not entered as of the effective date of this ordinance. However, the
+ 
+provisions of this ordinance shall not apply to the following types of units: (1) Rental
+ 
+units in any hospital, skilled nursing facility or health facility; and (2) Rental units in a
+ 
+nonprofit facility that has the primary purpose of providing short term treatment,
+ 
+assistance or therapy for alcohol, drug or other substance abuse. Short term treatment
+ 
+is treatment meant to last thirty or fewer days where such housing is incidental to the
+ 
+recovery program and where the client has been informed in writing of the short term,
+ 
+temporary or transitional nature of the housing at its inception,
+ 
+ 
+10-11.4
+Required Notice
+ 
+When a landlord or foreclosing owner serves the tenant or former homeowners any
+ 
+notice to quit or notice of lease nonrenewal or expiration, such landlord or foreclosing
+ 
+owner shall, at the same time, also serve a copy of said notice to quit or notice of
+ 
+lease nonrenewal or expiration on the City of Boston's Office of Housing Stability. All
+ 
+notice to quit or notice of lease nonrenewal or expiration to tenant or former
+ 
+homeowners shall also include a notice of basic housing rights and resources,
+ 
+containing a list of organizations available to assist tenants and
+​
+/
+​
+or former homeowners
+ 
+with their contact information on a form or forms prepared by the City of Boston's
+ 
+Office of Housing Stability, which shall be attached thereto. Where a landlord or
+ 
+foreclosing owner is exercising a right of lease nonrenewal or expiration, the owner
+ 
+shall give such written notice prepared by the City of Boston's Office of Housing
+ 
+Stability to the tenant at least thirty days prior to commencing any summary process
+ 
+action against the tenant or former homeowner. Such notice shall be provided in-hand
+ 
+or by certified mail and electronic mail.
+ 
+ Not withstanding G. L. c. 4, § 7 (26) (c) and the privacy rights therein, a tenant may
+ 
+allow the city to disclose the tenant's information to a public advocacy organization.
+ 
+10-11.5
+Non-Waivability
+ 
+The provisions of this Ordinance may not be waived, and any term of any lease,
+ 
+contract or other agreement which purports to waive or limit a tenant's or former
+ 
+homeowner's substantive or procedural rights under this ordinance is contrary to
+ 
+public policy, unenforceable, and void.
+ 
+ 
+10-11.6
+Partial Invalidity
+ 
+ 
+If any provision of this ordinance or application thereof is held to be invalid or in conflict
+ 
+with applicable laws, this invalidity or conflict shall not affect other provisions or
+ 
+applications of this ordinance which can be given effect without the invalid provisions or
+ 
+applications, and to this end, the provisions and applications of this ordinance are
+ 
+severable.
+ 
+ 
+10-11.7
+Enforcement
+ 
+ 
+The provisions of this Ordinance shall be reported to and investigated by the City of Boston's
+ 
+Office of Fair Housing and Equity and enforced by the Commissioner of Inspectional Services,
+ 
+and their duly authorized agents, officers and employees, by a noncriminal disposition pursuant
+ 
+to Massachusetts General Laws Chapter 40 Section 21D, and if applicable, by seeking to
+ 
+restrain a violation by injunction. Each failure to comply with the requirements set forth in this
+ 
+Ordinance with respect to an individual tenant or occupant entitled to notice hereunder shall be
+ 
+deemed a separate offense triggering a separate warning or a fine of up to three hundred
+ 
+dollars ($300) per day. Unless otherwise provided, a person or entity violating any provisions of
+ 
+this Ordinance shall be warned or fined in accordance with the provisions of the City of Boston
+ 
+Ordinances and/or Boston City Charter. The City may allocate fines collected for violations of
+ 
+this ordinance for rent relief. The provisions of this section may also be enforced according to
+ 
+M.G.L. Chapter 40U as accepted by the City of Boston, also known as the “Green Ticket” law.
+ 
+ 
+Within ten days the City of Boston shall petition the Boston Public Health Commission
+ 
+and the Boston Board of Health to promulgate regulations to prevent or discourage
+ 
+eviction actions during the COVID-19 pandemic by preventing the coerced entry into a
+ 
+unit by a sheriff, constable or other party, forcible removal of tenants and their
+ 
+belongings, and other such actions that would incur or exacerbate public health risk.
+ 
+SECTION 2.
+ 
+ 
+The provisions of this ordinance shall become effective immediately.
+ 
+ 
+ 
+Filed in Council: October 21, 2020

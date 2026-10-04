@@ -1,0 +1,23 @@
+{
+ "key": "520cdd08d45445e66a70ceab19efcdc4da4b8852",
+ "team_rule_id": "r-0011",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D043",
+  "O001",
+  "O003",
+  "O030",
+  "O050",
+  "O040"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Cal. Gov. Code § 66300.6(b)(4)(A) (Housing Crisis Act of 2019, Stats. 2019, ch. 654, SB 330; as amended through Stats. 2025, ch. 511, SB 21)",
+  "citation_basis": "§ 66300.6(b)(4)(A): O001 (and D043); Housing Crisis Act of 2019 and Stats. 2019, ch. 654: O001 chapter heading; SB 330: D043; Stats. 2025, ch. 511, SB 21: O001 history note",
+  "source_is_law_text": false,
+  "official_doc_id": "O001",
+  "official_quote": "The developer agrees to provide both of the following to the existing occupants of any protected units that are lower income households: (A) Relocation benefits that are equivalent to the relocation benefits required to be paid by public entities pursuant to Chapter 16 (commencing with Section 7260) of Division 7 of Title 1 and any implementing regulations.",
+  "is_city_policy": false,
+  "note": "The section cite stays; the amendment parenthetical is updated because O001 shows the section was last amended by Stats. 2025, ch. 511 (SB 21), which the card's 'as amended by SB 8 and AB 1218' omitted."
+ }
+}

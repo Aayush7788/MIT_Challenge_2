@@ -1,0 +1,14 @@
+{
+ "hash": "1ddac1782261893d9afccd69da4190bf0ea47911",
+ "key": "NJ / rent_increase_limits",
+ "ids": [
+  "r-0039",
+  "r-0040",
+  "r-0041"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [],
+  "coverage_only": []
+ }
+}

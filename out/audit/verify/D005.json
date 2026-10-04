@@ -1,96 +1,62 @@
 {
- "key": "66c4ac967dfbb3a71511891e1390cbd7d4e3620e",
+ "key": "ae2d8b12f3ac9bc7d2214f3eabfcd8792d40496e",
  "doc_id": "D005",
  "ids": [
-  "r-0004",
-  "r-0048",
-  "r-0049"
+  "r-0051",
+  "r-0052"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:44:43.692Z",
+ "audited_at": "2026-10-03T23:39:08.531Z",
  "cards": [
   {
-   "team_rule_id": "r-0004",
+   "team_rule_id": "r-0051",
    "requirement": {
     "verdict": "supported",
-    "evidence": "The landlord cannot charge a prospective tenant a screening fee if no rental unit is actually available. The landlord must also return a screening fee to any applicant not selected, or have a policy under which they: (1) review applications in the order received and the first qualified applicant gets the unit, and (2) do not charge a screening fee to any applicant not considered.",
-    "note": "Cap, receipt, itemized list, credit report copy, and refund of unused portion are all stated in the Berkeley page and Civ. Code 1950.6."
-   },
-   "key_value": {
-    "verdict": "supported",
-    "evidence": "The maximum tenant screening fee for 2026 is\n$68.96",
-    "note": null
-   },
-   "effective_date": {
-    "verdict": "partly_supported",
-    "evidence": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
-    "note": "The statute amendment is effective 2026-01-01, and the page says the $68.96 cap is for 2026. The document does not explicitly give 2026-01-01 as the date the $68.96 figure took effect."
-   },
-   "status": {
-    "verdict": "supported",
-    "evidence": "The maximum tenant screening fee for 2026 is\n$68.96",
-    "note": "Presented as current law as of the 2026 retrieval date."
-   },
-   "coverage": {
-    "verdict": "not_applicable",
-    "evidence": null,
-    "note": "Card coverage is empty."
-   },
-   "citation": {
-    "verdict": "supported",
-    "evidence": "For more information, see\nCalifornia Civil Code Section 1950.6",
-    "note": "The citation matches the statute in D026."
-   }
-  },
-  {
-   "team_rule_id": "r-0048",
-   "requirement": {
-    "verdict": "supported",
-    "evidence": "the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under\nCalifornia Civil Code Section 1950.6(b)",
-    "note": null
+    "evidence": "the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under",
+    "note": "Document states the rule; card's plainer wording matches."
    },
    "key_value": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card key_value is empty."
+    "note": "Field is empty on the card."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card effective_date is empty."
+    "note": "Field is empty on the card."
    },
    "status": {
     "verdict": "supported",
     "evidence": "Notification of state law limitation on tenant screening fees (BMC 13.78.010)",
-    "note": "Presented as current law."
+    "note": "Page presents the rule as current law; no effective date needed."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card coverage is empty."
+    "note": "Field is empty on the card."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "Notification of state law limitation on tenant screening fees (BMC 13.78.010)",
-    "note": null
+    "note": "Section 13.78.010 matches the rule."
    }
   },
   {
-   "team_rule_id": "r-0049",
+   "team_rule_id": "r-0052",
    "requirement": {
     "verdict": "supported",
     "evidence": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household.",
-    "note": "Unenforceability of contrary lease terms is stated in BMC 13.78.018."
+    "note": "Lease-terms-unenforceable part comes from BMC 13.78.018, which the document states applies to Chapter 13.78."
    },
    "key_value": {
-    "verdict": "supported",
-    "evidence": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy",
-    "note": "Paraphrased summary of the prohibition."
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card effective_date is empty."
+    "note": "Field is empty on the card."
    },
    "status": {
     "verdict": "supported",
@@ -100,12 +66,12 @@
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card coverage is empty."
+    "note": "Field is empty on the card."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "Applicability to Existing Rental Agreements (BMC 13.78.018)",
-    "note": "Both sections 13.78.016 and 13.78.018 appear in the document."
+    "evidence": "Prohibition of non-refundable application fees associated with existing tenancies (BMC 13.78.016)",
+    "note": "Section matches."
    }
   }
  ]

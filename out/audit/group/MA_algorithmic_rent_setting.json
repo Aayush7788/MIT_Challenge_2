@@ -1,0 +1,23 @@
+{
+ "hash": "55bf9504c813cfe9856cc12ac672a2b2864a7074",
+ "key": "MA / algorithmic_rent_setting",
+ "ids": [
+  "r-0023",
+  "r-0024",
+  "r-0025"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0024",
+     "r-0025"
+    ],
+    "key_value": null,
+    "reason": "Both cards describe Senate bill S.2983 (194th General Court, new draft of S.994 and S.1016), titled 'An Act prohibiting algorithmic rent setting'. It is pending in Senate Ways and Means. H.5222 is a separate House bill, so it stays out."
+   }
+  ],
+  "coverage_only": []
+ }
+}

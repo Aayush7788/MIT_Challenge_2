@@ -1,0 +1,112 @@
+{
+ "key": "99cfb9d5edc1b9a0061cf262f6671569bb1f37ac",
+ "doc_id": "X004",
+ "ids": [
+  "r-0071",
+  "r-0072",
+  "r-0073"
+ ],
+ "model": "claude-sonnet-5-5",
+ "audited_at": "2026-10-04T00:38:02.934Z",
+ "cards": [
+  {
+   "team_rule_id": "r-0071",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "provided, however, that said rental shall be limited to an increase of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit, exclusive of any capital improvement surcharge that is a component of said last rental.",
+    "note": "Card also correctly states later increases are subject to the chapter and the new rent is the base rent. The registration condition is omitted but the card says 'registered'."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "said rental shall be limited to an increase of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential apartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions of this chapter for the new tenant's initial rental",
+    "note": "Document presents the rule as current code, with legislation through 09-02-2026."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "§ 155-31 Dwelling decontrolled and exempted.",
+    "note": "Section matches the 25% rule."
+   }
+  },
+  {
+   "team_rule_id": "r-0072",
+   "requirement": {
+    "verdict": "partly_supported",
+    "evidence": "The landlord shall be entitled to decontrol the apartment unit under this article only under the following circumstances: A. If the tenant vacates the apartment voluntarily without harassment, duress or unreasonable pressure from the landlord or his agents or if the tenant is legally evicted.",
+    "note": "Most is supported, including the court order and holdover exclusion and Board rescission. But the document says the Board determines the issue after a hearing when there is a dispute; it does not say a tenant can ask for one. Also the card does not mention prosecution."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "The landlord shall be entitled to decontrol the apartment unit under this article only under the following circumstances:",
+    "note": "Presented as current code, legislation through 09-02-2026."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "§ 155-32 Circumstances entitling decontrol.",
+    "note": "Section matches."
+   }
+  },
+  {
+   "team_rule_id": "r-0073",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "No dwelling unit shall be decontrolled pursuant to this article more than once in any three-year period.",
+    "note": "The card's tenant-facing consequence follows directly from this limit."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "No dwelling unit shall be decontrolled pursuant to this article more than once in any three-year period.",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "No dwelling unit shall be decontrolled pursuant to this article more than once in any three-year period.",
+    "note": "Presented as current code, legislation through 09-02-2026."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "§ 155-34 Number of times for dwelling units to be decontrolled limited.",
+    "note": "Section matches."
+   }
+  }
+ ]
+}

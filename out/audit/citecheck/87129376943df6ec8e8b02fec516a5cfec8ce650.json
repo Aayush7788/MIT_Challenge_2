@@ -1,0 +1,18 @@
+{
+ "key": "87129376943df6ec8e8b02fec516a5cfec8ce650",
+ "team_rule_id": "r-0089",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D070"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Newark Mun. Code § 19:2-3 (Ord. 6 PSF-A(S), 9-5-17)",
+  "citation_basis": "§ 19:2-3: D070; Ord. 6 PSF-A(S), 9-5-17: D070",
+  "source_is_law_text": false,
+  "official_doc_id": null,
+  "official_quote": null,
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "key": "2383faa0cedf3562402870ff23fd4959167b506e",
+ "team_rule_id": "r-0056",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D004",
+  "O051",
+  "O096",
+  "O050",
+  "O092",
+  "O053"
+ ],
+ "retried": true,
+ "result": {
+  "citation": "Berkeley Mun. Code § 13.76.130(A)(8) (Rent Stabilization and Eviction for Just Cause Ordinance)",
+  "citation_basis": "§ 13.76.130(A)(8): O096 (also O050); short title 'Rent Stabilization and Eviction for Just Cause Ordinance': O050 (§ 13.76.010)",
+  "source_is_law_text": false,
+  "official_doc_id": "O096",
+  "official_quote": "Where a landlord recovers possession of a unit under Subsection 13.76.130(A)(8), the landlord is required to provide standard relocation assistance to tenant households where at least one occupant has resided in the unit for one year or more in the amount of $15,000. The landlord is required to provide an additional $5,000 relocation assistance to tenant households that qualify as low-income; or include disabled or elderly tenants; minor children; or tenancies which began prior to January 1, 1999.",
+  "is_city_policy": false,
+  "note": "The card's nickname-only citation is replaced with the code section, and the lawyer's requested § 13.76.130(A) is narrowed to (A)(8) because the code text (O096) puts the owner move-in relocation payment in (A)(8)(g) and its inflation indexing in (A)(8)(h); the card merges both, so it cites (A)(8), and the parenthetical uses the chapter's own title instead of the Rent Board's 'Good Cause for Eviction' name."
+ }
+}

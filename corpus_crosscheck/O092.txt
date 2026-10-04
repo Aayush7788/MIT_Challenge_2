@@ -1,0 +1,53 @@
+SOURCE: https://berkeley.municipal.codes/BMC/13.77
+RETRIEVED: 2026-10-04 00:44 UTC
+JURISDICTION: Berkeley, CA
+CITES: Berkeley Mun. Code ch. 13.77; § 13.77.055 (incl. § 13.77.055(A)(2) CPI indexing)
+NOTE: Berkeley Municipal Code Chapter 13.77 (Withdrawal of Residential Rental Accommodations from Rent or Lease) heading and § 13.77.055 (Financial mitigation of adverse impact on displaced persons) with history note, from the city's official code publisher berkeley.municipal.codes (page states the code is current through Ordinance 8031-NS, passed July 28, 2026). En-space characters after subsection labels normalized to plain spaces. Read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+Chapter 13.77
+REQUIREMENTS, PROCEDURES, RESTRICTIONS AND MITIGATIONS CONCERNING THE WITHDRAWAL OF RESIDENTIAL RENTAL ACCOMMODATIONS FROM RENT OR LEASE
+
+13.77.055
+Financial mitigation of adverse impact on displaced persons.
+
+A. The tenants of any residential rental unit who are required to move as a result of the owner’s withdrawal of the accommodation from rent or lease shall be entitled to a relocation payment in the sum of $15,000 from the owner. The landlord is required to provide an additional $5,000 relocation assistance to tenant households that qualify as low-income; or include disabled or elderly tenants; minor children; or tenancies which began prior to January 1, 1999. The relocation fees set forth above shall be increased in accordance with the rules set forth in subsection 13.77.055A.2 below. The procedures for payment of this relocation assistance are set forth below in subsection 13.77.055D.
+
+1. The following definitions apply for any tenant households evicted due to withdrawal of the accommodation from rent or lease:
+
+(i) "low-income tenants" means persons and families whose income does not exceed the qualifying limits for lower income families as established and amended from time to time pursuant to Section 8 of the United States Housing Act of 1937, or as otherwise defined in Health and Safety Code Section 50079.5.
+
+(ii) a person is "disabled" if they have a physical or mental impairment that limits one or more of a person’s major life activities within the meaning of the California Fair Housing and Employment Act (Government Code § 12926).
+
+(iii) "elderly" is defined as sixty (60) years of age or older.
+
+(iv) "minor child" means a person who is under 18 years of age.
+
+(v) "tenancy began prior to January 1, 1999" is a tenancy where an "original occupant" (as defined by Berkeley Rent Board Regulation) still permanently resides in the rental unit.
+
+2. Effective January 1 of each year beginning in 2018, the fees set forth above shall increase in an amount based on the Consumer Price Index - All Urban Consumers in the San Francisco-Oakland-San Jose Region averaged for the 12-month period ending June 30, of each year, as determined and published by United States Department of Labor. Any increase shall be published by the Board on or before October 31st of each year.
+
+B. At the time of filing the notice of intent specified in Section 13.77.050.A.3, the owner shall deposit the relocation payments specified in subparagraph A above into escrow with the City. The City or its designated agent shall distribute these funds to the tenants upon request.
+
+C. Low-income, elderly or disabled tenants, tenant households with minor children, and households whose tenancies began prior to January 1, 1999 in a rental unit that is withdrawn from the residential rental market shall be entitled to an additional relocation payment of $5,000 from the owner.
+
+1. An additional relocation payment based on low-income status shall be divided equally among all tenants occupying the rental unit at the time of service on the tenants of the notice of intent to withdraw the unit from rent or lease.
+
+2. An additional relocation payment based on elderly or disabled status shall be divided equally among the qualifying elderly and/or disabled tenants occupying the unit at the time of service on the tenants of the notice of the intent to withdraw the unit from rent or lease.
+
+3. An additional relocation payment based on a tenant household with minor children shall be divided equally among tenants who are the parents or guardians of the minor children occupying the rental unit at the time of service on the tenants of the notice of intent to withdraw the unit from rent or lease.
+
+4. An additional relocation payment based on a tenancy that began prior to January 1, 1999 shall be divided equally among tenants who resided in the rental unit prior to January 1, 1999 and are occupying the rental unit at the time of service on the tenants of the notice of intent to withdraw the unit from rent or lease. Only those persons who have a written or oral agreement with the owner for possession of the rental unit or who have paid rent to the owner shall be deemed tenants for purposes of this section.
+
+5. If a household qualifies for an additional relocation payment based on more than one of the grounds specified in this section, the payment shall be divided equally among all tenants occupying the rental unit at the time of service on the tenants of the notice of intent to withdraw the unit from rent or lease.
+
+D. In order to claim entitlement to the additional $5,000 relocation payment, a tenant must mail the postcards provided under Section 13.77.050A.1 within 30 days of the date the notice required by that section is served. The owner shall deposit the additional relocation payment in escrow in trust for any tenants who claim to qualify for relocation assistance within ten days after such postcard is mailed. Thereafter, the City or its designated agent shall distribute amounts held in escrow as follows:
+
+1. If no written challenge is made to the tenant’s claim of entitlement to additional relocation assistance within ten days after the postcard provided under Section 13.77.050A.1 is mailed, the City shall release the relocation assistance to the tenant upon request.
+
+2. When a tenant household’s eligibility to receive standard or additional relocation assistance as described in section 13.77.055 is disputed, either party may file a Rent Board petition requesting a determination of eligibility or file a claim in a court of competent jurisdiction. The City shall release disputed relocation assistance funds to either the tenant or the landlord upon receipt of either a written agreement by both the landlord and the affected tenant, an order of a court of competent jurisdiction, or an order of a City or Rent Board hearing examiner issued pursuant to a petition process conducted in accordance with applicable Rent Board Regulations.
+
+E. The owner may rescind the notice of intent to withdraw the accommodation from rent or lease and the notice of termination of tenancy prior to any release of relocation payment to the qualifying tenants by serving written notice stating such rescission on the tenants. In such instance, the relocation payment shall be released to the owner. Subsequent to the release of any relocation payment to a qualifying tenant, the owner may rescind the notice of intent to withdraw the accommodation from rent or lease and the notice of termination of tenancy only upon the written agreement of the tenants to remain in possession of the rental unit. If the qualifying tenants remain in possession of the rental units after service of an owner’s written notice of rescission of the eviction, the tenants shall provide an accounting to the owner of the amount of the relocation payment expended for moving costs, return to the owner that portion of the relocation payment not expended for moving costs, and assign to the owner all rights to recover the amount of relocation payment paid to third parties.
+
+F. Where an owner has served a notice of intent to withdraw an accommodation from rent or lease on a tenant prior to the date that this amendment takes effect and withdrawal of the accommodation has not been completed, the owner shall give notice as specified in Section 13.77.050A.1 to all tenants that all tenants are entitled to relocation assistance as provided in subsection 050A and that elderly, low-income and disabled tenants, tenant households with minor children, and tenancies that began prior to January 1, 1999 qualify for additional relocation assistance as provided in subdivision C of this section. The owner shall deposit the full relocation payment in escrow in trust for the tenants within 30 days of the date that the above required notice was served or mailed. Said deposit in escrow for the qualifying tenants shall be made within ten days of the date the postcards provided pursuant to Section 13.77.050A.1 are mailed. The owner shall also increase the amount of the relocation assistance deposited into escrow for each qualified tenant to the amount specified in Section 13.77.055C.
+
+G. Failure of the owner to make any payment specified herein shall be a defense to any action to recover possession of a rental unit based upon the owner’s intent to withdraw the accommodation from rent or lease. In addition, if tenants of a rental unit who qualify for relocation assistance have vacated the unit as a result of a notice of intent to withdraw the accommodation from rent or lease, and the owner fails to make any payment specified herein, the owner shall be liable to the tenants for three times the amount of the payment as well as reasonable attorney fees. (Ord. 7507-NS § 1, 2016; Ord. 7012-NS § 1 (part), 2007; Ord. 6885-NS § 1, 2005; Ord. 6827-NS § 2 (part), 2004; Ord. 6783-NS § 1 (part), 2003; Ord. 6646-NS § 2, 2001; Ord. 6237-NS § 1 (part), 1994; Ord. 6181-NS § 1 (part), 1993; Ord. 5751-NS § 1 (part), 1986)

@@ -1,43 +1,43 @@
 {
- "key": "c23a318f9a62d8ce91997f461c2b71770d5d0afa",
+ "key": "7a84a613925fc84d8551b262760b6d5b4b9ae9a9",
  "doc_id": "D066",
  "ids": [
-  "r-0034"
+  "r-0037"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:46:41.805Z",
+ "audited_at": "2026-10-03T23:38:17.669Z",
  "cards": [
   {
-   "team_rule_id": "r-0034",
+   "team_rule_id": "r-0037",
    "requirement": {
     "verdict": "supported",
     "evidence": "A landlord, or agent thereof, shall not require an application or other similar fee to apply to lease or sublease a residential rental property for dwelling purposes, which exceeds $50.",
-    "note": "Cap, annual CPI adjustment starting January 1 of year after enactment (2027, since approved Jan 2026), reporting mechanism, and refund from penalty are all stated in the text."
+    "note": "CPI adjustment starting January 1 of the year after enactment (2026 enactment, so 2027), reporting mechanism, and refund from penalty are all in the text."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "A landlord, or agent thereof, shall not require an application or other similar fee to apply to lease or sublease a residential rental property for dwelling purposes, which exceeds $50.",
-    "note": "CPI adjustment is in subsection d."
+    "evidence": "the amount of the fee limitation established pursuant to subsection a. of this section shall be adjusted by the Director of the Division of Consumer Affairs in the Department of Law and Public Safety in direct proportion to the percent change in the Consumer Price Index",
+    "note": "$50 cap with annual CPI adjustment (only if the change is greater than zero)."
    },
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "This act shall take effect on the first day of the fourth month next following the date of enactment, except that the Director of the Division of Consumer Affairs in the Department of Law and Public Safety shall be permitted to take anticipatory action necessary to effectuate the provisions of this act.",
-    "note": "With approval on January 20, 2026, the fourth month next following is May, so May 1, 2026 follows by a small computation. The document does not state the date outright."
+    "note": "Approved January 20, 2026, so the fourth month following is May; first day is 2026-05-01. The date is computed, not stated explicitly."
    },
    "status": {
     "verdict": "supported",
     "evidence": "This act shall take effect on the first day of the fourth month next following the date of enactment",
-    "note": "Effective May 1, 2026, which is before 2026-10-01, so in_force holds."
+    "note": "Effective 2026-05-01, before 2026-10-01; no repeal indicated, so in force."
    },
    "coverage": {
     "verdict": "not_supported",
     "evidence": "The requirements of subsection a. of this section shall not apply to: (1) a dwelling unit located in a one-family or two-family dwelling that is offered for rent;",
-    "note": "The document exempts one- and two-family dwellings, so it covers buildings of three or more units. The card's min_units of 3 is a reasonable reading, but the exemption is by dwelling type, not a unit threshold. The licensee exemption is also not captured, and no construction or CO cutoffs exist."
+    "note": "The document exempts units in one- or two-family dwellings, which is roughly a 3+ unit threshold for buildings, but it states no min_units of 3 per se. It also exempts Real Estate Commission licensees who are not the landlord. The card's min_units is a loose paraphrase that omits the licensee exemption and describes dwellings rather than units."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "C.46:8-18.1  Residential rental property application fee not\nto exceed $50.",
-    "note": "The act is P.L. 2025, c.405 (A4899) and codified at C.46:8-18.1, matching the card."
+    "evidence": "C.46:8-18.1  Residential rental property application fee not to exceed $50.",
+    "note": "Matches N.J.S.A. 46:8-18.1, P.L. 2025, c.405, A4899."
    }
   }
  ]

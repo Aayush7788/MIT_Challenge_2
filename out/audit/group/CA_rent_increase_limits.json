@@ -1,0 +1,22 @@
+{
+ "hash": "aaa1357cf17575628e1237491ab640058802b4ca",
+ "key": "CA / rent_increase_limits",
+ "ids": [
+  "r-0012",
+  "r-0013"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0012",
+     "r-0013"
+    ],
+    "key_value": "lesser of 5% + CPI or 10% per 12 months",
+    "reason": "Both cards state Cal. Civ. Code § 1947.12, the statewide rent cap enacted by AB 1482 (Tenant Protection Act of 2019). r-0013 cites the bill alongside the code section. The LA-specific yearly maximums on r-0013 are local applications of the same formula, so the merged card keeps the statewide figure."
+   }
+  ],
+  "coverage_only": []
+ }
+}

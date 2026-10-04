@@ -1,23 +1,23 @@
 {
- "key": "2ce484129fa5ee4dde72b40c33c452d55945bed2",
+ "key": "44bb18cd33f9ef9848661c3e4ba1e3477e3ad24e",
  "doc_id": "D067",
  "ids": [
-  "r-0035",
-  "r-0036",
-  "r-0037",
   "r-0038",
   "r-0039",
-  "r-0044"
+  "r-0040",
+  "r-0041",
+  "r-0042",
+  "r-0047"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:46:57.802Z",
+ "audited_at": "2026-10-03T23:38:33.465Z",
  "cards": [
   {
-   "team_rule_id": "r-0035",
+   "team_rule_id": "r-0038",
    "requirement": {
     "verdict": "supported",
-    "evidence": "No residential landlord may evict or fail to renew a lease, whether it is a written or an oral lease without good cause. The landlord must be able to prove in court that he has grounds for an eviction.",
-    "note": "Notice periods (3 days to 3 years) and the 6x rent relocation for illegal occupancy are also stated in the document."
+    "evidence": "No residential landlord may evict or fail to renew a lease, whether it is a written or an oral lease without good cause.",
+    "note": "Notice ranges (3 days to 3 years) and 6x relocation for illegal occupancy are also in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -27,7 +27,7 @@
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field empty."
+    "note": "Empty on card."
    },
    "status": {
     "verdict": "supported",
@@ -37,7 +37,7 @@
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "This law may not apply to two - or three-unit owner-occupied premises with two (2) or fewer rental units.",
-    "note": "Document is muddled about the exemption; owner-occupied 2-3 family dwellings are treated separately with fewer protections. 3 is plausible but the exception text is inconsistent."
+    "note": "The document is internally inconsistent: it elsewhere treats owner-occupied two- and three-family dwellings under a separate section. The threshold of 3 is roughly supported, but the exemption is not stated cleanly."
    },
    "citation": {
     "verdict": "supported",
@@ -46,21 +46,21 @@
    }
   },
   {
-   "team_rule_id": "r-0036",
+   "team_rule_id": "r-0039",
    "requirement": {
     "verdict": "supported",
     "evidence": "A landlord cannot raise the rent mid-lease term. The old lease must be terminated, and the new lease must have the increased rental payment.",
-    "note": "Unconscionability, local rent control and the note to ask the rent control board are all in the document."
+    "note": "Also states no state law controls rents and the increase must not be unconscionable and must comply with municipal ordinances."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "The increase in rent must not be unconscionable; it must not be so unreasonable as to shock the conscience of a fair and honest person and must comply with any municipal ordinances governing rent increases.",
-    "note": null
+    "evidence": "The State of New Jersey has no laws that establish, govern or control rents.",
+    "note": "The unconscionable standard is stated in the document."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field empty."
+    "note": "Empty on card."
    },
    "status": {
     "verdict": "supported",
@@ -70,7 +70,7 @@
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field empty."
+    "note": "Empty on card."
    },
    "citation": {
     "verdict": "supported",
@@ -79,7 +79,7 @@
    }
   },
   {
-   "team_rule_id": "r-0037",
+   "team_rule_id": "r-0040",
    "requirement": {
     "verdict": "supported",
     "evidence": "If a building is converted to a condominium or cooperative form of ownership, or to fee simple ownership of units, rents may not be increased to cover costs resulting solely from the conversion (N.J.S.A. 2A:18-61.31). This does not mean that rents may not be increased to cover the cost of new services or amenities.",
@@ -88,22 +88,22 @@
    "key_value": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field empty."
+    "note": "Empty on card."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field empty."
+    "note": "Empty on card."
    },
    "status": {
     "verdict": "supported",
     "evidence": "This prohibition applies to all tenants in the building regardless of whether they are eligible for protected tenancy as senior citizens or disabled persons.",
-    "note": "Presented as current."
+    "note": "Presented as current law."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field empty."
+    "note": "Empty on card."
    },
    "citation": {
     "verdict": "supported",
@@ -112,7 +112,7 @@
    }
   },
   {
-   "team_rule_id": "r-0038",
+   "team_rule_id": "r-0041",
    "requirement": {
     "verdict": "supported",
     "evidence": "newly constructed multiple dwellings shall be exempt from any local rent control ordinances for a period of 30 years following completion of construction of the building.",
@@ -126,17 +126,17 @@
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field empty."
+    "note": "Empty on card."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "Under the Newly Constructed Multiple Dwellings Law ( N.J.S.A. 2A:42 -84.5), newly constructed multiple dwellings shall be exempt",
+    "evidence": "newly constructed multiple dwellings shall be exempt from any local rent control ordinances for a period of 30 years following completion of construction of the building.",
     "note": "Presented as current."
    },
    "coverage": {
     "verdict": "supported",
     "evidence": "newly constructed multiple dwellings shall be exempt from any local rent control ordinances for a period of 30 years following completion of construction of the building.",
-    "note": "30-year window matches."
+    "note": "30-year cutoff matches."
    },
    "citation": {
     "verdict": "supported",
@@ -145,11 +145,11 @@
    }
   },
   {
-   "team_rule_id": "r-0039",
+   "team_rule_id": "r-0042",
    "requirement": {
-    "verdict": "partly_supported",
-    "evidence": "requires equal treatment in the sale or rental of housing regardless of race, creed, color, national origin, ancestry, sex, marital status, civil union status, domestic partnership status, familial status, affectional or sexual orientation, gender  identity or expression, mental and physical disability, nationality, or source of lawful income.",
-    "note": "Source of lawful income and complaint avenues are supported; the housing voucher example is not in the document."
+    "verdict": "supported",
+    "evidence": "prohibits discrimination when selling or renting property and requires equal treatment in the sale or rental of housing regardless of race, creed, color, national origin, ancestry, sex, marital status, civil union status, domestic partnership status, familial status, affectional or sexual orientation, gender  identity or expression, mental and physical disability, nationality, or source of lawful income.",
+    "note": "Housing voucher example and complaint venues are supported elsewhere in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -159,7 +159,7 @@
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field empty."
+    "note": "Empty on card."
    },
    "status": {
     "verdict": "supported",
@@ -168,8 +168,8 @@
    },
    "coverage": {
     "verdict": "partly_supported",
-    "evidence": "The law applies to all landlord -tenant relationships, except those involving two -family owner occupied dwellings, rooms in an owner or resident -occupied single home",
-    "note": "Two-family owner-occupied exemption stated, but other exemptions exist and the text ties some to familial status."
+    "evidence": "The law applies to all landlord -tenant relationships, except those involving two -family owner occupied dwellings, rooms in an owner or resident -occupied single home, and residences planned exclusively for and occupied by one sex",
+    "note": "Two-family owner-occupied exemption matches; the document ties some exceptions to familial status and has other exceptions the card omits."
    },
    "citation": {
     "verdict": "supported",
@@ -178,11 +178,11 @@
    }
   },
   {
-   "team_rule_id": "r-0044",
+   "team_rule_id": "r-0047",
    "requirement": {
     "verdict": "supported",
     "evidence": "The maximum-security deposit to be collected by the landlord cannot be more than one and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 ). It can be less. Any additional yearly security deposit increase may not exceed 10% of the current security deposit.",
-    "note": "Return within 30 days with interest and double damages also stated."
+    "note": "Return within 30 days and double damages also stated."
    },
    "key_value": {
     "verdict": "supported",
@@ -192,7 +192,7 @@
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field empty."
+    "note": "Empty on card."
    },
    "status": {
     "verdict": "supported",
@@ -200,14 +200,14 @@
     "note": "Presented as current."
    },
    "coverage": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "The exception is an owner-occupied two-, or three-family dwelling.",
-    "note": "Tenant can opt in after 30 days' written request."
+    "note": "Exemption matches, but tenants there can opt in 30 days after written request."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "The maximum-security deposit to be collected by the landlord cannot be more than one and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 ).",
-    "note": null
+    "note": "Other cited sections (46:8-19, 21.1, 26) also appear."
    }
   }
  ]

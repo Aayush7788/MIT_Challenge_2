@@ -1,0 +1,25 @@
+{
+ "key": "0646169d98a2395b51239737553f31cc3feb68fd",
+ "team_rule_id": "r-0058",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D008",
+  "D009",
+  "D006",
+  "O053",
+  "O050",
+  "O051",
+  "O095",
+  "O096"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Berkeley Mun. Code § 13.76.110 (Ord. No. 7,950-N.S., approved by voters Nov. 5, 2024); Berkeley Rent Stabilization Board Reg. 1148 (Annual General Adjustment Order for 2026)",
+  "citation_basis": "§ 13.76.110: O095, O050; Ord. No. 7,950-N.S.: O050 (also Ord. 7950-NS in O095); Nov. 5, 2024: O050; Reg. 1148: O053, D008",
+  "source_is_law_text": false,
+  "official_doc_id": "O095",
+  "official_quote": "Effective January 1 of each year, the rent ceiling for all rental units covered by this Chapter for which the landlord did not establish an initial rent during the prior calendar year shall be adjusted by 65% of the percentage increase in the Consumer Price Index for All Urban Consumers (CPI-U) in the San Francisco-Oakland-San Jose region as reported and published by the U.S. Department of Labor, Bureau of Labor Statistics, for the twelve month period ending the previous June 30. In determining the allowable percentage rent increase, numbers of .04 and below shall be rounded down to the nearest tenth decimal place and numbers of .05 and above shall be rounded up to the nearest tenth decimal place. In no event, however, shall the allowable annual adjustment be less than zero (0%) or greater than five percent (5%).",
+  "is_city_policy": false,
+  "note": "Followed the lawyer's request to cite § 13.76.110 rather than subsection A, because the card merges the formula and cap (A), notice (B) and eligibility conditions (D). The amending law is identified by its ordinance number, Ord. No. 7,950-N.S., and Reg. 1148 is kept as the order setting the 2026 rate. The name 'Measure BB' is left out because the law text in the documents does not use it."
+ }
+}

@@ -1,18 +1,18 @@
 {
- "key": "2374648af14be5f068cbceb92e21011fff8bd6af",
+ "key": "8ef651c4a99f10cfea1f319fe5768ea6d2753101",
  "doc_id": "D014",
  "ids": [
-  "r-0060"
+  "r-0063"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:48:09.148Z",
+ "audited_at": "2026-10-03T23:39:44.519Z",
  "cards": [
   {
-   "team_rule_id": "r-0060",
+   "team_rule_id": "r-0063",
    "requirement": {
     "verdict": "supported",
     "evidence": "The Notice of Tenants’ Rights and Resources must be delivered at the same time as the Notice to Quit.",
-    "note": "Also supported: copy to the Office of Housing Stability, reporting to FHE at 617-635-2500 or 311, eviction not halted, and ISD fines (warning, then $300 per day)."
+    "note": "Document also covers the copy to the Office of Housing Stability, reporting to FHE at 617-635-2500 or 311, no halt to eviction, and fines (warning, then $300 per day)."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -25,9 +25,9 @@
     "note": null
    },
    "status": {
-    "verdict": "partly_supported",
-    "evidence": "The HSNA becomes effective on November 6, 2020.",
-    "note": "The document presents the ordinance as current, with an effective date in the past relative to 2026-10-01. It does not explicitly confirm that it is still in force as of that date."
+    "verdict": "supported",
+    "evidence": "The Ordinance applies to all landlords/foreclosing owners intending to end a tenancy or post-foreclosure occupancy of a unit in the City of Boston.",
+    "note": "The document presents the ordinance as current law with no repeal mentioned."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -37,7 +37,7 @@
    "citation": {
     "verdict": "supported",
     "evidence": "Housing Stability Notification Act (Sec. 10-11.7)",
-    "note": "The document gives Sec. 10-11.7 as the section number. The 'Boston Code' wording is not stated but the citation is consistent with it."
+    "note": "The document gives Sec. 10-11.7 for the penalty provision. The 'Boston Code' label is a small expansion of the citation."
    }
   }
  ]

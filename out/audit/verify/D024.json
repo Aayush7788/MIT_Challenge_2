@@ -1,18 +1,18 @@
 {
- "key": "9f795ce7482d5d5d1c9b7a8bb1c4fc567a4281c6",
+ "key": "780dd5144196fa63d337ef1ce5c91dfa901293b0",
  "doc_id": "D024",
  "ids": [
-  "r-0010"
+  "r-0012"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:45:11.033Z",
+ "audited_at": "2026-10-03T23:36:40.814Z",
  "cards": [
   {
-   "team_rule_id": "r-0010",
+   "team_rule_id": "r-0012",
    "requirement": {
     "verdict": "supported",
     "evidence": "an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase.",
-    "note": "Two-increment limit, discount exclusion, and damages up to three times the excess for willful conduct are also in the text (subds. (a)(2), (a)(1), (k)(1)(D))."
+    "note": "Two-increment limit in (a)(2) and the new-tenancy initial rate in (b) are also stated."
    },
    "key_value": {
     "verdict": "supported",
@@ -20,24 +20,24 @@
     "note": null
    },
    "effective_date": {
-    "verdict": "supported",
-    "evidence": "(n) This section shall become operative on April 1, 2024.",
-    "note": "Card date matches the operative date. The history note says effective January 1, 2024, but operative April 1, 2024."
+    "verdict": "partly_supported",
+    "evidence": "(h) (1) This section shall apply to all rent increases subject to subdivision (a) occurring on or after March 15, 2019, except as provided in subdivision (i).",
+    "note": "The document does not give 2020-01-01 as the effective date. January 1, 2020 appears only as the reset date for rents. The current section was effective Jan 1, 2024 and operative April 1, 2024, and applies to increases from March 15, 2019."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "(o) This section shall remain in effect until January 1, 2030, and as of that date is repealed.",
-    "note": "As of 2026-10-01 the section is operative (since 2024-04-01) and not yet repealed, so in_force."
+    "evidence": "(n) This section shall become operative on April 1, 2024.\n(o) This section shall remain in effect until January 1, 2030, and as of that date is repealed.",
+    "note": "Operative and not yet repealed as of 2026-10-01."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "(4) Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome.",
-    "note": "The 15-year certificate-of-occupancy exemption is supported. The 'owner_based_exemption_max_units: 2' is not stated; the document has a two-unit owner-occupied exemption (d)(6) and a separately alienable property exemption (d)(5), but no unit cap of 2 as an owner-based exemption. The mobilehome carve-out from the 15-year exemption is not captured."
+    "note": "The 15-year certificate of occupancy exemption is supported. The owner_based_exemption_max_units of 2 is not stated as such. The document has a two-unit owner-occupied exemption in (d)(6) and a separately alienable property exemption in (d)(5), with no unit-count threshold."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "(Repealed (in Sec. 3) and added by Stats. 2023, Ch. 290, Sec. 4.   (SB 567)   Effective January 1, 2024.   Operative April 1, 2024, by its own provisions.",
-    "note": "Section 1947.12, Stats. 2023 Ch. 290, SB 567 all match."
+    "evidence": "1947.12.",
+    "note": "The document is Cal. Civ. Code § 1947.12."
    }
   }
  ]

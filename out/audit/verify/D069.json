@@ -1,43 +1,43 @@
 {
- "key": "d7ff98a2441b53e9f08e8999aec82ab06f246c36",
+ "key": "fb9586a992580037ca16c9410e5375d8b182c049",
  "doc_id": "D069",
  "ids": [
-  "r-0033"
+  "r-0036"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:46:36.376Z",
+ "audited_at": "2026-10-03T23:38:11.603Z",
  "cards": [
   {
-   "team_rule_id": "r-0033",
+   "team_rule_id": "r-0036",
    "requirement": {
     "verdict": "supported",
-    "evidence": "It shall be unlawful and a violation of the “New Jersey Antitrust Act,” P.L.1970, c.73 (C.56:9-1 et seq.) for:",
-    "note": "Document bans landlords from paying for coordinator services, bans parallel pricing coordination, and requires the AG to set up a complaint location. The card's wording is a plainer paraphrase and is adequate."
+    "evidence": "It shall be unlawful and a violation of the “New Jersey Antitrust Act,” P.L.1970, c.73 (C.56:9-1 et seq.) for: a.     a rental property owner, or any agent, representative, or subcontractor thereof, to receive, subscribe to, contract for, or otherwise exchange any form of consideration in return for the use of, the services of a coordinator;",
+    "note": "Card paraphrases sections 4, 3 and 7 accurately: ban on using coordinators, parallel pricing coordination, AG complaint location. Minor simplification of 'coordinating function' definition, which also covers a landlord's own use."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "a rental property owner, or any agent, representative, or subcontractor thereof, to receive, subscribe to, contract for, or otherwise exchange any form of consideration in return for the use of, the services of a coordinator;",
-    "note": "Ban on using or providing coordination services, and violation of the NJ Antitrust Act, are both stated (4.b and 4.e cover providers)."
+    "evidence": "b.    a coordinator to facilitate a tacit or express agreement among rental property owners that restricts competition with respect to residential dwelling units, including by performing a coordinating function;",
+    "note": "Ban on providing/using coordination services and designation as an Antitrust Act violation are stated."
    },
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "This act shall take effect on the first day of the twelfth month next following the date of enactment.",
-    "note": "Document is approved July 20, 2026 and the effective date is computed. The twelfth month following July 2026 is July 2027, so 2027-07-01 follows by a small step. The document does not state the calendar date directly."
+    "note": "Approval date July 20, 2026 is stated; the computation to 2027-07-01 is a small step the card explains. The document does not state the calendar date itself."
    },
    "status": {
     "verdict": "supported",
     "evidence": "This act shall take effect on the first day of the twelfth month next following the date of enactment.",
-    "note": "As of 2026-10-01, the computed effective date of 2027-07-01 is in the future, so not_yet_effective fits."
+    "note": "As of 2026-10-01 the act, approved July 20, 2026, has not yet taken effect, so not_yet_effective follows from the text."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Coverage is empty on the card."
+    "note": "Card coverage is null; the document lists no unit thresholds or construction cutoffs."
    },
    "citation": {
     "verdict": "partly_supported",
-    "evidence": "P.L.\n2026, CHAPTER 43,\napproved July 20, 2026",
-    "note": "P.L. 2026, c.43 and A3497 ACS 1R are supported. The header also shows C.56:9-20 to 56:9-26 for §§1-7, so the N.J.S.A. range matches. It is partly supported because the document names the chapter as Assembly Committee Substitute First Reprint for A3497, and the reprint wording is paraphrased."
+    "evidence": "P.L. 2026, CHAPTER 43, approved July 20, 2026",
+    "note": "The document supports P.L. 2026, c.43 and the C.56:9-20 to 56:9-26 codification range for sections 1-7. The 'N.J.S.A.' prefix and the A3497 ACS 1R reference are consistent with the header, but sections 8-9 are not within that range."
    }
   }
  ]

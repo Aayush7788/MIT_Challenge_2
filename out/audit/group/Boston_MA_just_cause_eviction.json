@@ -1,0 +1,22 @@
+{
+ "hash": "3b3ec224578c4159919ae55e22d9ed8201cf80ef",
+ "key": "Boston, MA / just_cause_eviction",
+ "ids": [
+  "r-0062",
+  "r-0063"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0062",
+     "r-0063"
+    ],
+    "key_value": "Notice of Tenants' Rights and Resources with Notice to Quit; fine up to $300/day",
+    "reason": "Both cards cite Boston Code § 10-11.7, the Housing Stability Notification Act. Each requires a Notice of Tenants' Rights and Resources to be given with a Notice to Quit or non-renewal notice."
+   }
+  ],
+  "coverage_only": []
+ }
+}

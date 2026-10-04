@@ -1,77 +1,77 @@
 {
- "key": "82a4cb0d6d140a527c02bc597302922fea33038d",
+ "key": "6ce81b982a51139824bb7b5b54467874c0d50101",
  "doc_id": "D041",
  "ids": [
-  "r-0075",
-  "r-0080"
+  "r-0077",
+  "r-0083"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:49:03.057Z",
+ "audited_at": "2026-10-03T23:40:37.656Z",
  "cards": [
   {
-   "team_rule_id": "r-0075",
+   "team_rule_id": "r-0077",
    "requirement": {
-    "verdict": "partly_supported",
+    "verdict": "supported",
     "evidence": "All notices to terminate a tenancy for all rental units subject to City’s Rent Stabilization Ordinance (RSO) must be filed with the Los Angeles Housing Department (LAHD) within three (3) business days of service on the tenant",
-    "note": "Lists of at-fault and no-fault reasons, relocation, declaration and 30/60/120-day notices are supported. The 'only for a listed reason' exclusivity is not stated explicitly, and the 'illegal use' and 'nuisance' items are paraphrased."
+    "note": "Document lists at-fault and no-fault reasons, the declaration of intent, 30/60/120-day notices, relocation assistance and the 3-business-day filing. The word 'only' is implied by the list of legal reasons."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "No-fault evictions require the payment of relocation assistance.",
-    "note": "The 3 business days filing is also stated in the document."
+    "note": "Filing within 3 business days is also stated in the document."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field empty on card."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "All notices to terminate a tenancy for all rental units subject to City’s Rent Stabilization Ordinance (RSO) must be filed with the Los Angeles Housing Department (LAHD) within three (3) business days of service on the tenant",
-    "note": "Presented as current law, page last modified September 22, 2026."
+    "evidence": "Legal Reasons for Eviction",
+    "note": "Presented as current law on a page last modified September 22, 2026."
    },
    "coverage": {
     "verdict": "supported",
-    "evidence": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under",
-    "note": "Built-on-or-before cutoff matches the document. The card omits replacement units, but the document says 'generally'."
+    "evidence": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978",
+    "note": "The built-on-or-before cutoff matches the document. The document says 'generally', and lists other conditions."
    },
    "citation": {
-    "verdict": "partly_supported",
+    "verdict": "supported",
     "evidence": "per Los Angeles Municipal Code 151.09.C.9 & 165.05.B.5.",
-    "note": "The document cites § 151.09.C.9 and § 165.05.B.5 for the filing requirement only. It does not cite § 151.09 generally for the eviction reasons or relocation."
+    "note": "Both sections are cited for the 3-day filing. The general § 151.09 label is a reasonable parent reference."
    }
   },
   {
-   "team_rule_id": "r-0080",
+   "team_rule_id": "r-0083",
    "requirement": {
     "verdict": "supported",
     "evidence": "Rent may be increased once every 12 months by the allowable rent increase percentage",
-    "note": "The utilities and dependent changes and LAHD approval for capital improvements are also stated in the document."
+    "note": "Utility and dependent changes effective Feb 2, 2026 are stated. LAHD approval programs such as capital improvements are listed."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "Rent may be increased once every 12 months by the allowable rent increase percentage (click here to view the allowable rent increase PDF). Effective February 2, 2026, the landlord can no longer include an additional percentage increase for utilities.",
-    "note": null
+    "evidence": "Effective February 2, 2026, the landlord can no longer include an additional percentage increase for utilities.",
+    "note": "Once every 12 months and the allowable percentage are also stated."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field empty on card."
    },
    "status": {
     "verdict": "supported",
     "evidence": "Rent may be increased once every 12 months by the allowable rent increase percentage",
-    "note": "Presented as current law, page last modified September 22, 2026."
+    "note": "Presented as current law on a page last modified September 22, 2026."
    },
    "coverage": {
     "verdict": "supported",
-    "evidence": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under",
-    "note": "Matches the cutoff."
+    "evidence": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under LAMC Section 151.28",
+    "note": "Cutoff date matches the document."
    },
    "citation": {
     "verdict": "partly_supported",
-    "evidence": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under",
-    "note": "The document mentions LAMC Section 151.28 for replacement units, but does not cite 'LAMC Chapter XV' for the rent increase rule."
+    "evidence": "as well as replacement units under LAMC Section 151.28",
+    "note": "LAMC § 151.28 is cited for replacement units. The document does not mention 'Chapter XV'."
    }
   }
  ]

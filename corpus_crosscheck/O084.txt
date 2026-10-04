@@ -1,0 +1,59 @@
+SOURCE: https://library.municode.com/nj/jersey_city/codes/code_of_ordinances?nodeId=CH218MUDW
+RETRIEVED: 2026-10-04 00:36 UTC
+JURISDICTION: Jersey City, NJ
+CITES: Jersey City Code ch. 218 (Multiple Dwellings); § 218-12 as currently codified (Exempt dwellings)
+NOTE: Code of Jersey City, New Jersey (Code of Ordinances) on Municode Library, version Apr 3, 2026 (current): Chapter 218 heading with Municode's pending-amendment notes (Ord. Nos. 25-057, 25-098), Article IV heading and § 218-12 as codified. Shows the algorithmic rent-fixing section is not yet codified; a code search for 'algorithmic' returned 0 code results and 3 ordinance results (25-057, 25-076, 25-098). Read in a browser and copied verbatim (SHA-256 of the copied text matched the page); Municode's share/print button labels removed
+
+Jersey City, New Jersey - Code of Ordinances  Chapter 218 - MULTIPLE DWELLINGS
+
+VERSION: APR 3, 2026 (CURRENT)
+
+CODE of JERSEY CITY, NEW JERSEY
+
+Chapter 218 - MULTIPLE DWELLINGS[1]
+Amended by Ordinance No. 25-057
+Amended by Ordinance No. 25-098
+
+_____
+
+Footnotes:
+--- (1) ---
+
+History—Adopted by the Council of the City of Jersey City as indicated in article histories. Amendments noted where applicable.
+
+Cross reference— Uniform construction codes, Ch. 131; discrimination, Ch. 148; elevators, Ch. 155; housing accommodations, ch. 188; property maintenance, Ch. 254; property transfers, Ch. 257; rent control, Ch. 260; taxation, Ch. 304.
+
+ARTICLE IV - Withholding Units from Rental Market
+
+[Adopted 2-11-1987 as Ord. No. C-388]
+
+§ 218-12. - Exempt dwellings.
+Amended by Ordinance No. 25-076
+
+A.
+
+The owner of any dwelling unit, other than those exempted below, shall be subject to the provisions of this article.
+
+B.
+
+The following are exempt from the provisions of this article:
+
+(1)
+
+Units in owner-occupied dwellings where there are three units or less and one of the units is owner-occupied.
+
+(2)
+
+Units in newly constructed buildings which are being rented for the first time. After the first rental, such units will be subject to the provisions of this article.
+
+(3)
+
+Units in a dwelling where the owner has transmitted his or her first sixty-day notice of his or her intention to convert the building into a condominium or cooperative and his or her full plan of conversion to the City Clerk pursuant to N.J.S.A. 2A:18-61.8, so long as the conversation plan is not abandoned.
+
+(4)
+
+Units in dwellings, the owners of which have transmitted notice under N.J.S.A. 2A:18-61.1g or 2A:18-61.1h. This exemption shall remain in effect so long as the owner is in compliance with the provisions of the section under which notice was given.
+
+(5)
+
+Units in hotels or motels.

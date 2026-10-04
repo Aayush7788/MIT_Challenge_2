@@ -2,13 +2,13 @@
   "doc_id": "D005",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "extracted_at": "2026-10-03T17:17:29.239Z",
+  "extracted_at": "2026-10-03T23:30:18.680Z",
   "stop_reason": "end_turn",
   "usage": {
     "input": 1407,
-    "output": 2663,
+    "output": 2576,
     "cache_read": 0,
-    "cache_write": 4936
+    "cache_write": 5819
   },
   "rules": [
     {
@@ -16,11 +16,11 @@
       "level": "state",
       "category": "application_screening_fees",
       "status": "in_force",
-      "title": "Tenant screening fee cap, receipts and refunds (Civil Code 1950.6)",
-      "requirement": "A landlord may charge you at most $68.96 in 2026 to screen your application, must give you a receipt, an itemized cost list, a copy of any credit report, and a refund of any unused part of the fee. The landlord cannot charge a fee if no unit is available, and must refund the fee if you are not selected unless it uses a first-qualified-applicant policy and charges only applicants it considers.",
+      "title": "Tenant screening fee cap, receipt, credit report copy and refund",
+      "requirement": "A landlord may charge no more than the capped screening fee ($68.96 in 2026), and only if a unit is actually available. You are entitled to a receipt, an itemized list of costs, a copy of any credit report within 7 days, and a refund of any unused portion; landlords must also refund fees to applicants not selected (unless they follow a first-qualified-applicant policy) and must accept a reusable screening report if you provide one.",
       "key_value": "$68.96 maximum screening fee (2026)",
       "coverage": {
-        "summary": "All residential rental applicants statewide, including in Berkeley.",
+        "summary": "Applies to residential rental applications throughout California.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -35,10 +35,10 @@
       "effective_date": null,
       "penalty": null,
       "citation": "Cal. Civ. Code § 1950.6",
-      "quoted_span": "The landlord must also return a screening fee to any applicant not selected, or have a policy under which they: (1) review applications in the order received and the first qualified applicant gets the unit, and (2) do not charge a screening fee to any applicant not considered.",
+      "quoted_span": "Prospective tenants should expect to receive a copy of their credit report within 7 days of receipt by the landlord, a receipt for the fee paid and an itemized list of any out-of-pocket expenses and time spent by the landlord on the screening, and a refund of any unused portion of the fee.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "interaction": "Berkeley BMC 13.78.010 requires landlords to disclose this state-law cap and fee rights to applicants.",
+      "interaction": "Berkeley BMC 13.78.010 requires owners to disclose the state fee cap and a tenant screening fee rights statement.",
       "confidence": 0.85,
       "conflict_flag": false,
       "conflict_note": null
@@ -48,11 +48,11 @@
       "level": "city",
       "category": "application_screening_fees",
       "status": "in_force",
-      "title": "Required tenant screening fee rights statement",
-      "requirement": "If a Berkeley landlord charges an application or credit-report fee, it must give you, in the application or a separate disclosure before taking the fee, a Tenant Screening Fee Rights Statement and the maximum fee allowed under state law.",
+      "title": "Required tenant screening fee rights statement and fee cap disclosure",
+      "requirement": "If a Berkeley landlord charges an application or credit-report fee, they must give you, in the application or a separate disclosure before taking the fee, a Tenant Screening Fee Rights Statement and the maximum fee allowed under Civil Code 1950.6(b).",
       "key_value": null,
       "coverage": {
-        "summary": "All residential rental property in Berkeley where the owner charges a screening fee to an applicant; applies regardless of contrary lease terms.",
+        "summary": "All residential rental property in Berkeley where the owner charges a screening/application fee.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -67,11 +67,11 @@
       "effective_date": null,
       "penalty": null,
       "citation": "Berkeley Mun. Code § 13.78.010",
-      "quoted_span": "When an owner or the owner’s agent gets a request to rent residential property in Berkeley from an applicant and the owner charges a fee to purchase a consumer credit report and to validate, review, or otherwise process an application, the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under",
+      "quoted_span": "Pursuant to California law you have tenant screening fee rights, including the right to a copy of your consumer credit report if one is obtained with your screening fee, a refund of any unused portion of the fee and a receipt of the costs of the screening.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "interaction": "Implements notice of the state cap in Cal. Civ. Code § 1950.6(b).",
-      "confidence": 0.85,
+      "interaction": "Implements disclosure of the state cap in Cal. Civ. Code § 1950.6(b). Per BMC 13.78.018, Chapter 13.78 applies to all rental agreements regardless of contrary lease terms.",
+      "confidence": 0.8,
       "conflict_flag": false,
       "conflict_note": null
     },
@@ -80,11 +80,11 @@
       "level": "city",
       "category": "application_screening_fees",
       "status": "in_force",
-      "title": "No non-refundable fees for renewals or roommate changes",
-      "requirement": "Your Berkeley landlord cannot charge you a non-refundable fee to renew your tenancy or to add, replace, or remove a roommate; lease terms saying otherwise are unenforceable.",
-      "key_value": "No non-refundable renewal or roommate fees",
+      "title": "Ban on non-refundable fees for renewals and roommate changes",
+      "requirement": "A Berkeley landlord cannot charge an existing tenant a non-refundable fee to renew a tenancy or to add, replace, or remove a roommate. Lease terms to the contrary are unenforceable.",
+      "key_value": null,
       "coverage": {
-        "summary": "All existing residential tenancies in Berkeley, regardless of contrary lease language.",
+        "summary": "All existing residential tenancies in Berkeley, regardless of lease terms.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -98,15 +98,15 @@
       "exemptions": null,
       "effective_date": null,
       "penalty": null,
-      "citation": "Berkeley Mun. Code § 13.78.016 (see also § 13.78.018)",
+      "citation": "Berkeley Mun. Code § 13.78.016",
       "quoted_span": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "interaction": null,
+      "interaction": "BMC 13.78.018 makes Chapter 13.78 apply to all rental agreements; conflicting lease provisions are unenforceable.",
       "confidence": 0.85,
       "conflict_flag": false,
       "conflict_note": null
     }
   ],
-  "notes": "Berkeley Rent Board page summarizing state Civil Code 1950.6 and Berkeley BMC Chapter 13.78. The $68.96 figure is the 2026 CPI-adjusted state cap as stated on the page. BMC 13.78.018 (applies to all rental agreements notwithstanding contrary lease terms) folded into the city records."
+  "notes": "Official Berkeley Rent Board page summarizing state Civ. Code 1950.6 and Berkeley BMC Chapter 13.78. No effective dates or penalties stated. The $68.96 figure is the 2026 adjusted cap. BMC 13.78.018 (applicability to existing agreements) folded into interaction fields."
 }

@@ -1,18 +1,18 @@
 {
- "key": "2401560d1ee383c7d9ef4859db37e74fb0bba725",
+ "key": "608324fced8bf2f08b2528d15cef583e5130a282",
  "doc_id": "D047",
  "ids": [
-  "r-0022"
+  "r-0025"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:45:53.966Z",
+ "audited_at": "2026-10-03T23:37:31.474Z",
  "cards": [
   {
-   "team_rule_id": "r-0022",
+   "team_rule_id": "r-0025",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "Bill reported favorably by committee and referred to the committee on Senate Ways and Means",
-    "note": "The title 'An Act prohibiting algorithmic rent setting' and the favorable report with referral to Senate Ways and Means on 3/12/2026 are supported. The document gives no bill text, so the specific prohibition on landlords is inferred from the title only. The 'not law' point is supported only by the bill's pending status."
+    "note": "The document supports the title (\"An Act prohibiting algorithmic rent setting\"), the 3/12/2026 favorable report and referral to Senate Ways and Means. The bill text is not shown, so the specific prohibition on landlords is not stated. The card's \"Joint Committee on Housing\" matches the sponsor listing."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -27,7 +27,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "Referred to\nSenate Committee on Ways and Means",
-    "note": "The bill is still in committee as of the retrieval date, so 'pending' is consistent with the document."
+    "note": "Bill is still pending in committee as of the retrieval date, so it is not law. A pending status fits."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -36,8 +36,8 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "Displaying  3 actions for Bill S.2983",
-    "note": "The document is Bill S.2983 in the 194th General Court, and it is a new draft of S994 and S1016."
+    "evidence": "Bill S.2983\nSkip to Content\nBill S.2983\n194th (Current)",
+    "note": "The bill number and the 194th General Court match. The text also shows the 3/12/2026 \"New draft of S994 and S1016\" action, which matches the card's citation."
    }
   }
  ]

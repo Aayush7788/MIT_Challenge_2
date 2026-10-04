@@ -1,0 +1,21 @@
+SOURCE: https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/112/677?f=templates$fn=document-frame.htm$3.0
+RETRIEVED: 2026-10-04 00:22 UTC
+JURISDICTION: NJ
+CITES: N.J.S.A. 2A:18-61.1g
+NOTE: Official NJ Legislature statutes database (lis.njleg.state.nj.us), N.J.S.A. 2A:18-61.1g Relocation of displaced tenant (removal under 2A:18-61.1(g)(3), illegal occupancy); violations, penalty. Found through the site's simple search.
+
+2A:18-61.1g Relocation of displaced tenant; violations, penalty.
+
+3. a. A municipality may enact an ordinance providing that any tenant who receives a notice of eviction pursuant to section 3 of P.L.1974, c.49 (C.2A:18-61.2) that results from zoning or code enforcement activity for an illegal occupancy, as set forth in paragraph (3) of subsection g. of section 2 of P.L.1974, c.49 (C.2A:18-61.1), shall be considered a displaced person and shall be entitled to relocation assistance in an amount equal to six times the monthly rental paid by the displaced person. The owner-landlord of the structure shall be liable for the payment of relocation assistance pursuant to this section.
+
+b. A municipality that has enacted an ordinance pursuant to subsection a. of this section may pay relocation assistance to any displaced person who has not received the required payment from the owner-landlord of the structure at the time of eviction pursuant to subsection a. of this section from a revolving relocation assistance fund established pursuant to section 2 of P.L.1987, c.98 (C.20:4-4.1a). All relocation assistance costs incurred by a municipality pursuant to this subsection shall be repaid by the owner-landlord of the structure to the municipality in the same manner as relocation costs are billed and collected under section 1 of P.L.1983, c.536 (C.20:4-4.1) and section 1 of P.L.1984, c.30 (C.20:4-4.2). These repayments shall be deposited into the municipality's revolving relocation assistance fund.
+
+c. A municipality that has enacted an ordinance pursuant to subsection a. of this section, in addition to requiring reimbursement from the owner-landlord of the structure for relocation assistance paid to a displaced tenant, may require that an additional fine for zoning or housing code violation for an illegal occupancy, up to an amount equal to six times the monthly rental paid by the displaced person, be paid to the municipality by the owner-landlord of the structure. 
+
+In addition to this penalty, a municipality, after affording the owner-landlord an opportunity for a hearing on the matter, may impose upon the owner-landlord, for a second or subsequent violation for an illegal occupancy, a fine equal to the annual tuition cost of any resident of the illegally occupied unit attending a public school, which fine shall be recovered in a civil action by a summary proceeding in the name of the municipality pursuant to "The Penalty Enforcement Law of 1999," P.L.1999, c.274 (C.2A:58-10 et seq.). The municipal court and the Superior Court shall have jurisdiction of proceedings for the enforcement of the penalty provided by this section. The tuition cost shall be determined in the manner prescribed for nonresident pupils pursuant to N.J.S.18A:38-19 and the payment of the fine shall be remitted to the appropriate school district.
+
+d. For the purposes of this section, the owner-landlord of a structure shall exclude mortgagees in possession of a structure through foreclosure.
+
+For the purposes of this section, a "second or subsequent violation for an illegal occupancy" shall be limited to those violations that are new and are a result of distinct and separate zoning or code enforcement activities, and shall not include any continuing violations for which citations are issued by a zoning or code enforcement agent during the time period required for summary dispossession proceedings to conclude if the owner has initiated eviction proceedings in a court of proper jurisdiction.
+
+L.1993,c.342,s.3; amended 1999, c.425.

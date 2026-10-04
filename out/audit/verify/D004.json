@@ -1,67 +1,67 @@
 {
- "key": "4c2aef70d2cc2410ff40a32ca0b2a681e172fefd",
+ "key": "1011c12b75ada37ccf9f82af91b44751f973a6fb",
  "doc_id": "D004",
  "ids": [
-  "r-0050",
-  "r-0053"
+  "r-0053",
+  "r-0056"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:47:37.422Z",
+ "audited_at": "2026-10-03T23:39:13.941Z",
  "cards": [
-  {
-   "team_rule_id": "r-0050",
-   "requirement": {
-    "verdict": "supported",
-    "evidence": "The Ellis Implementation Ordinance requires the same relocation assistance payments for tenants evicted so the owner can remove a property from the rental housing market.",
-    "note": "Amounts and January 1, 2026 start are also stated in the document."
-   },
-   "key_value": {
-    "verdict": "supported",
-    "evidence": "The standard relocation assistance payment will increase to\n$19,413\n.",
-    "note": "Additional $6,471 for qualifying households is also stated in the document."
-   },
-   "effective_date": {
-    "verdict": "supported",
-    "evidence": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026.",
-    "note": null
-   },
-   "status": {
-    "verdict": "partly_supported",
-    "evidence": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026.",
-    "note": "Document presents the increases as taking effect January 1, 2026, which is before 2026-10-01, but it is dated October 2025 and does not say it is still current."
-   },
-   "coverage": {
-    "verdict": "not_applicable",
-    "evidence": null,
-    "note": "Coverage is empty on the card."
-   },
-   "citation": {
-    "verdict": "supported",
-    "evidence": "The Ellis Implementation Ordinance requires the same relocation assistance payments for tenants evicted so the owner can remove a property from the rental housing market.",
-    "note": "The document names the Ellis Implementation Ordinance as the source."
-   }
-  },
   {
    "team_rule_id": "r-0053",
    "requirement": {
     "verdict": "supported",
+    "evidence": "The Ellis Implementation Ordinance requires the same relocation assistance payments for tenants evicted so the owner can remove a property from the rental housing market.",
+    "note": "Amounts and January 1, 2026 start are stated in the document."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "The standard relocation assistance payment will increase to\n$19,413\n.",
+    "note": "Additional payment of $6,471 for qualifying households is also stated."
+   },
+   "effective_date": {
+    "verdict": "supported",
+    "evidence": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026.",
+    "note": null
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026.",
+    "note": "Presented as current law; the 2026 amounts are in effect as of 2026-10-01."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Coverage is empty on the card."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "The Ellis Implementation Ordinance requires the same relocation assistance payments for tenants evicted so the owner can remove a property from the rental housing market.",
+    "note": "The document names the Ellis Implementation Ordinance, but gives no section number."
+   }
+  },
+  {
+   "team_rule_id": "r-0056",
+   "requirement": {
+    "verdict": "supported",
     "evidence": "The Rent Stabilization and Good Cause for Eviction Ordinance requires owners to pay tenants relocation assistance in the event of an owner move-in eviction.",
-    "note": "Amounts and January 1, 2026 start are also stated in the document."
+    "note": "Amounts and January 1, 2026 start are stated in the document."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "The additional relocation assistance payment for qualifying households will increase to\n$6,471\n.",
-    "note": "The standard $19,413 is also stated in the document."
+    "note": "The standard payment of $19,413 is also stated."
    },
    "effective_date": {
     "verdict": "supported",
-    "evidence": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026.",
+    "evidence": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026.",
     "note": null
    },
    "status": {
-    "verdict": "partly_supported",
-    "evidence": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026.",
-    "note": "Document presents the increases as taking effect January 1, 2026, which is before 2026-10-01, but it is dated October 2025 and does not say it is still current."
+    "verdict": "supported",
+    "evidence": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026.",
+    "note": "Presented as current law; the 2026 amounts are in effect as of 2026-10-01."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -71,7 +71,7 @@
    "citation": {
     "verdict": "supported",
     "evidence": "The Rent Stabilization and Good Cause for Eviction Ordinance requires owners to pay tenants relocation assistance in the event of an owner move-in eviction.",
-    "note": "The document names this ordinance as the source."
+    "note": "The document names the ordinance, but gives no section number."
    }
   }
  ]

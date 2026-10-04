@@ -1,0 +1,16 @@
+{
+ "hash": "53b558bf18d1988db6c526c9609e3f417c0e0c82",
+ "key": "Los Angeles, CA / just_cause_eviction",
+ "ids": [
+  "r-0077",
+  "r-0078",
+  "r-0079",
+  "r-0080",
+  "r-0081"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [],
+  "coverage_only": []
+ }
+}

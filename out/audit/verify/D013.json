@@ -1,23 +1,23 @@
 {
- "key": "c7896b5d01eec0e57f939d94d0d4daa9e373c2f1",
+ "key": "3049d49e691f58243729aad061ca7f343d09e0f4",
  "doc_id": "D013",
  "ids": [
-  "r-0059"
+  "r-0062"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:48:05.588Z",
+ "audited_at": "2026-10-03T23:39:40.975Z",
  "cards": [
   {
-   "team_rule_id": "r-0059",
+   "team_rule_id": "r-0062",
    "requirement": {
     "verdict": "supported",
     "evidence": "The Notice of Tenants’ Rights and Resources should be delivered at the same time as the Notice to quit or Notice of non-renewal of lease.",
-    "note": "Document also covers reporting to Fair Housing (617-635-2500 or 311) and that a violation does not halt eviction."
+    "note": "Report to Fair Housing at 617-635-2500 or 311 and the non-halting of eviction are also stated in the document."
    },
    "key_value": {
     "verdict": "partly_supported",
     "evidence": "Failure to submit this information may result in a fine up to $300 per day.",
-    "note": "The $300/day fine in this sentence concerns failing to submit the online city form. The enforcement table says 1st offense is a warning and $300 per day applies to 2nd and later offenses. The card's wording overstates the fine for the notice itself."
+    "note": "The $300/day fine in the document applies to failure to submit the online city notification. The enforcement table says 1st offense is a warning and $300 per day for 2nd and subsequent offenses. The card's key value implies the fine attaches to the tenant notice, and omits the warning for the first offense."
    },
    "effective_date": {
     "verdict": "not_applicable",
@@ -27,7 +27,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "The Housing Stability Notification Act requires ALL LANDLORDS planning to end a tenancy agreement to provide the tenant with a Notice of Tenants’ Rights and Resources.",
-    "note": "Presented as current law with no repeal or suspension noted."
+    "note": "The page presents the act as current law."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -35,9 +35,9 @@
     "note": "Field is empty on the card."
    },
    "citation": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "Housing Stability Notification Act (Sec. 10-11.7)",
-    "note": "The section number matches. The 'Boston City Code' label is the card's own wording, since the document only says City of Boston Ordinances."
+    "note": "The document cites Sec. 10-11.7 but not as 'Boston City Code'. It refers to City of Boston Ordinances, so the code name is a small inference."
    }
   }
  ]

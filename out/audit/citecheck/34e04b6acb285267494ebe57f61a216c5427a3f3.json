@@ -1,0 +1,23 @@
+{
+ "key": "34e04b6acb285267494ebe57f61a216c5427a3f3",
+ "team_rule_id": "r-0079",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D036",
+  "O081",
+  "O084",
+  "D035",
+  "O083",
+  "O082"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Jersey City Mun. Code ch. 260",
+  "citation_basis": "ch. 260: D036 (\"Rent Control Ordinance, Chapter 260 of the Jersey City Municipal Code\") and O081 (\"Chapter 260 - RENT CONTROL\")",
+  "source_is_law_text": false,
+  "official_doc_id": "O081",
+  "official_quote": "Dwellings with four or less housing spaces; provided, however, that this exemption shall be suspended for non-owner occupied dwellings with four or less housing spaces until the end of the state of emergency or six months from adoption of these amendments whichever comes first.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

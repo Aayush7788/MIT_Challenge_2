@@ -1,43 +1,77 @@
 {
- "key": "dcecb321062b11cf05624c1bc03e3bcf1e5a7e0c",
+ "key": "703db871b88bfee929124dcd4d10168cd8770bae",
  "doc_id": "D023",
  "ids": [
-  "r-0007"
+  "r-0009",
+  "r-0010"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:44:45.996Z",
+ "audited_at": "2026-10-03T23:36:28.036Z",
  "cards": [
   {
-   "team_rule_id": "r-0007",
+   "team_rule_id": "r-0009",
    "requirement": {
     "verdict": "supported",
     "evidence": "(a) Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.",
-    "note": "Relocation of one month's rent within 15 days or rent waiver, and void notice for noncompliance, are in (d)(3)(A) and (d)(4). Adult-tenant 12/24 month rule is in (a)(1)-(2)."
+    "note": "Also covers the 24-month alternative and the cure notice requirement in subdivision (c)."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "(A) The amount of relocation assistance or rent waiver shall be equal to one month of the tenant’s rent that was in effect when the owner issued the notice to terminate the tenancy.",
-    "note": "12 months threshold in (a)."
+    "evidence": "If any additional adult tenants are added to the lease before an existing tenant has continuously and lawfully occupied the residential real property for 24 months, then this subdivision shall only apply if either of the following are satisfied:",
+    "note": "12 months, with 24-month rule when adult tenants are added."
    },
    "effective_date": {
-    "verdict": "supported",
-    "evidence": "(m) This section shall become operative on April 1, 2024.",
-    "note": "Card uses the operative date; the current amendment took effect Jan 1, 2026, which the extractor notes mention."
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is null on the card."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "(n) This section shall remain in effect only until January 1, 2030, and as of that date is repealed.",
-    "note": "As of 2026-10-01 the section is operative and not yet repealed, so in force."
+    "evidence": "(Amended by Stats. 2025, Ch. 203, Sec. 1.   (AB 1529)   Effective January 1, 2026.   Repealed as of January 1, 2030, by its own provisions.)",
+    "note": "Operative April 1, 2024 and in effect until January 1, 2030, so in force on 2026-10-01."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "(7) Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome.",
-    "note": "15-year certificate of occupancy exemption is supported. Owner-based exemption of max 2 units is only partly supported: (e)(5)(A) says no more than two units or bedrooms for an owner-occupied single-family residence, and (e)(6) covers a two-unit property; the card's single figure simplifies this and omits other exemptions."
+    "note": "The 15-year certificate-of-occupancy exemption is supported. The owner-occupied exemption is 'no more than two units or bedrooms' in a single-family residence, and the duplex exemption is also present. A single max-units value of 2 simplifies these."
    },
    "citation": {
     "verdict": "supported",
+    "evidence": "California Code,  CIV 1946.2",
+    "note": "Section number matches the document."
+   }
+  },
+  {
+   "team_rule_id": "r-0010",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "The amount of relocation assistance or rent waiver shall be equal to one month of the tenant’s rent that was in effect when the owner issued the notice to terminate the tenancy. Any relocation assistance shall be provided within 15 calendar days of service of the notice.",
+    "note": "The notice requirement and void-notice rule are in (d)(2) and (d)(4). The no-fault causes are listed in (b)(2)."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "The amount of relocation assistance or rent waiver shall be equal to one month of the tenant’s rent that was in effect when the owner issued the notice to terminate the tenancy.",
+    "note": "Matches."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is null on the card."
+   },
+   "status": {
+    "verdict": "supported",
     "evidence": "(Amended by Stats. 2025, Ch. 203, Sec. 1.   (AB 1529)   Effective January 1, 2026.   Repealed as of January 1, 2030, by its own provisions.)",
-    "note": "Section number and amendment history match the document."
+    "note": "Presented as current law, repealed only as of 2030."
+   },
+   "coverage": {
+    "verdict": "partly_supported",
+    "evidence": "(7) Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome.",
+    "note": "The 15-year cutoff is supported. The two-unit owner-occupied exemption is a simplification of the owner-occupied exemptions in (e)(5) and (e)(6)."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "(d) (1) For a tenancy for which just cause is required to terminate the tenancy under subdivision (a), if an owner of residential real property issues a termination notice based on a no-fault just cause described in paragraph (2) of subdivision (b), the owner shall, regardless of the tenant’s income, at the owner’s option, do one of the following:",
+    "note": "Relocation assistance is in subdivision (d) of § 1946.2."
    }
   }
  ]

@@ -1,0 +1,23 @@
+{
+ "key": "d7e2ed56cd9bb274bba75c3744a384f18421f4a2",
+ "team_rule_id": "r-0009",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D023",
+  "O063",
+  "O030",
+  "O088",
+  "O050",
+  "O032"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Cal. Civ. Code § 1946.2",
+  "citation_basis": "§ 1946.2: D023 (official leginfo text of Civil Code section 1946.2)",
+  "source_is_law_text": true,
+  "official_doc_id": "D023",
+  "official_quote": "Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

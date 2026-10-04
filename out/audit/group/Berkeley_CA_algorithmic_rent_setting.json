@@ -1,0 +1,24 @@
+{
+ "hash": "60741167b61f2939a4ec50753072282f78201af8",
+ "key": "Berkeley, CA / algorithmic_rent_setting",
+ "ids": [
+  "r-0048",
+  "r-0049",
+  "r-0050"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0048",
+     "r-0049",
+     "r-0050"
+    ],
+    "key_value": null,
+    "reason": "All three cards describe Berkeley's ban on coordinated rent-pricing algorithms in Berkeley Municipal Code chapter 13.63. r-0048 and r-0049 both cite § 13.63.030 with identical penalties, though they give different ordinance numbers, which may reflect an amendment. r-0050 is a law-firm summary of the same chapter."
+   }
+  ],
+  "coverage_only": []
+ }
+}

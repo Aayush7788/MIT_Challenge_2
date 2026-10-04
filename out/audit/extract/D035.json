@@ -2,13 +2,13 @@
   "doc_id": "D035",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "extracted_at": "2026-10-03T21:01:39.315Z",
+  "extracted_at": "2026-10-03T23:31:49.089Z",
   "stop_reason": "end_turn",
   "usage": {
     "input": 5217,
-    "output": 1642,
-    "cache_read": 0,
-    "cache_write": 5186
+    "output": 1669,
+    "cache_read": 5819,
+    "cache_write": 0
   },
   "rules": [
     {
@@ -17,10 +17,10 @@
       "category": "algorithmic_rent_setting",
       "status": "in_force",
       "title": "Preventing Algorithmic Rent-Fixing in the Rental Housing Market",
-      "requirement": "Jersey City landlords and their agents may not pay for or subscribe to services that collect competitors' rent, occupancy or lease data and use software to recommend rents, lease terms or occupancy levels, and such service providers may not facilitate agreements among landlords not to compete. If you have evidence your landlord uses such a service, you can report it to the Office of Landlord/Tenant Relations or sue for injuries.",
-      "key_value": "Ban on using algorithmic rent-setting service providers; subsequent violations $100-$2,000 per day",
+      "requirement": "Jersey City landlords and their agents may not pay for or contract with a 'service provider' that pools competitors' nonpublic rent, supply or occupancy data and uses software to recommend rents, lease terms or occupancy levels. Service providers may not facilitate agreements among landlords not to compete on rents, fees or other terms. Tenants can report suspected use to the Office of Landlord/Tenant Relations or sue if harmed.",
+      "key_value": "Ban on using algorithmic rent-setting services; subsequent violations $100-$2,000 per day",
       "coverage": {
-        "summary": "All residential dwelling units in Jersey City (houses, apartments, accessory units or other units used as a primary residence), excluding inpatient medical care, licensed long-term care and detention facilities. Owners pricing only their own commonly controlled properties and licensed real estate agents acting under state rules are not service providers.",
+        "summary": "All residential dwelling units in Jersey City used as a primary residence (houses, apartments, accessory units); excludes inpatient medical care, licensed long-term care and detention or correctional facilities.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -30,21 +30,21 @@
         "owner_based_exemption_max_units": null,
         "required_facts_not_in_data": [],
         "minor_exemptions_not_in_data": [
-          "Inpatient medical care, licensed long-term care, and detention or correctional facilities are not residential dwelling units"
+          "Inpatient medical care, licensed long-term care, and detention or correctional facilities"
         ]
       },
-      "exemptions": "Owners of multiple properties acting exclusively on properties controlled by the same owner are exempt from the coordination definition; licensed real estate agents operating under state regulations are not service providers; inpatient medical, long-term care and correctional facilities are excluded.",
-      "effective_date": null,
-      "penalty": "First violation punishable under Jersey City Code § 1-25; subsequent violations fined $100 to $2,000, each day a separate violation. Public civil actions by the Attorney General or municipal/county attorney, a private right of action for injured persons, and mandatory costs and reasonable attorney fees to successful plaintiffs.",
+      "exemptions": "Owners of multiple properties acting exclusively with respect to properties they control are not 'coordinating'; licensed real estate agents operating under state regulations are not service providers; information that is 365+ days old or freely public is not nonpublic competitor information.",
+      "effective_date": "2025-06-10",
+      "penalty": "First violation punishable under Jersey City Code Ch. 1, § 1-25; subsequent violations fined $100 to $2,000; each day is a separate violation. Civil actions by the Attorney General or municipal/county attorneys; private right of action for injured persons; mandatory costs and reasonable attorney fees to successful plaintiffs.",
       "citation": "Jersey City Code § 218-12 (Ord. 25-057)",
       "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise exchange anything of value in return for the services of a Service Provider.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "interaction": null,
-      "confidence": 0.85,
-      "conflict_flag": false,
-      "conflict_note": null
+      "interaction": "Ordinance adopted on final passage May 21, 2025 (mayor approved May 22, 2025) and states no effective date; effective date computed as 20 days after final passage under N.J.S.A. 40:69A-181(b). Text references state Attorney General enforcement as parens patriae.",
+      "confidence": 0.82,
+      "conflict_flag": true,
+      "conflict_note": "Ordinance text calls Chapter 218 both 'Multiple Dwellings' and 'Fees and Charges', and renumbers existing §§ 218-12 through 218-18; codified section number should be verified. Effective date is computed, not stated."
     }
   ],
-  "notes": "Ord. 25-057 was adopted on final reading May 21, 2025 and approved by the Mayor May 22, 2025. The document states no effective date, so effective_date is null. It is in force as of 2026-10-01, since NJ ordinances typically take effect 20 days after final passage and publication, but that rule is not stated in the text. The ordinance labels Chapter 218 inconsistently as 'Multiple Dwellings' and 'Fees and Charges', and renumbers the existing sections 218-12 onward."
+  "notes": "Single algorithmic rent-setting ordinance (Ord. 25-057). Both prohibitions (lessor use of service providers and service-provider facilitation of non-compete agreements) recorded in one record. Effective date computed from May 21, 2025 final passage plus 20 days."
 }

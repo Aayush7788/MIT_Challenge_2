@@ -1,0 +1,23 @@
+{
+ "key": "72cad496e84b920dfab9cc0f3d93639a7972790f",
+ "team_rule_id": "r-0011",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D043",
+  "O001",
+  "O003",
+  "O030",
+  "O050",
+  "O040"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Cal. Gov. Code § 66300.6(b)(4)(A) (Housing Crisis Act of 2019; added by Stats. 2023, ch. 754, AB 1218; amended by Stats. 2025, ch. 511, SB 21)",
+  "citation_basis": "§ 66300.6(b)(4)(A) and Stats. 2025, ch. 511, SB 21: O001; Housing Crisis Act of 2019: O001 and D043; Stats. 2023, ch. 754, AB 1218: O001 (Article 2 added by Stats. 2023, Ch. 754) and O003 (Stats. 2023, Ch. 754 (AB 1218))",
+  "source_is_law_text": false,
+  "official_doc_id": "O001",
+  "official_quote": "(4) The developer agrees to provide both of the following to the existing occupants of any protected units that are lower income households: (A) Relocation benefits that are equivalent to the relocation benefits required to be paid by public entities pursuant to Chapter 16 (commencing with Section 7260) of Division 7 of Title 1 and any implementing regulations.",
+  "is_city_policy": false,
+  "note": "The section and subsection are unchanged, but the history now follows the official code page: AB 1218 (Stats. 2023, ch. 754) added the article and SB 21 (Stats. 2025, ch. 511) made the latest amendment, replacing the agency bulletin's 'SB 330, as amended by SB 8 and AB 1218' wording, which leaves out SB 21."
+ }
+}

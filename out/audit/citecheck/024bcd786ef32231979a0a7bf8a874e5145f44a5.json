@@ -1,0 +1,21 @@
+{
+ "key": "024bcd786ef32231979a0a7bf8a874e5145f44a5",
+ "team_rule_id": "r-0030",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D048",
+  "D059",
+  "O072",
+  "O070"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "M.G.L. c. 40P § 4",
+  "citation_basis": "c. 40P § 4: D048",
+  "source_is_law_text": true,
+  "official_doc_id": "D048",
+  "official_quote": "Section 4. No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

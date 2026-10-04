@@ -1,18 +1,18 @@
 {
- "key": "39ff00657f7a4a5a574929b8a6d3b405f2247f8e",
+ "key": "f13396821c4f2c457e1be0007c8db7dcfddfb9b6",
  "doc_id": "D078",
  "ids": [
-  "r-0097"
+  "r-0100"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:50:12.860Z",
+ "audited_at": "2026-10-03T23:41:48.935Z",
  "cards": [
   {
-   "team_rule_id": "r-0097",
+   "team_rule_id": "r-0100",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.",
-    "note": "The document supports that the ordinance protects residents with arrest or conviction history in affordable housing decisions. It does not say the ordinance limits how that history can be used. It also does not say a Fair Chance complaint can be filed with HRC; the only complaint process mentioned is for the Sanctuary City Ordinance."
+    "note": "The document says the ordinance protects people with arrest or conviction history in affordable housing decisions. It does not say how the history use is limited. It also does not say that complaints about the Fair Chance Ordinance go to HRC. The only complaint process it describes is for the Sanctuary City Ordinance."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -27,7 +27,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.",
-    "note": "The document presents the ordinance in the present tense as current protection, with no effective date given."
+    "note": "The document presents the ordinance as current law, in the present tense. No effective date is given."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -35,9 +35,9 @@
     "note": "Field is empty on the card."
    },
    "citation": {
-    "verdict": "supported",
-    "evidence": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.",
-    "note": "The card cites the ordinance by name, and the document names it. No section number is given on the card or in the document."
+    "verdict": "partly_supported",
+    "evidence": "Affordable housing protections for people with criminal history",
+    "note": "The document names the Fair Chance Ordinance but gives no code section or other formal citation. The card's citation is just the ordinance name."
    }
   }
  ]

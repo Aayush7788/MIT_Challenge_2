@@ -1,19 +1,19 @@
 {
- "key": "62aafb42fdc252e693ad82e4602f92b29f8e927c",
+ "key": "536d34bfe404de3b690a833bf26189a8826b3eed",
  "doc_id": "D073",
  "ids": [
-  "r-0087",
-  "r-0088"
+  "r-0090",
+  "r-0091"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:49:39.030Z",
+ "audited_at": "2026-10-03T23:41:13.617Z",
  "cards": [
   {
-   "team_rule_id": "r-0087",
+   "team_rule_id": "r-0090",
    "requirement": {
     "verdict": "supported",
     "evidence": "A landlord shall not terminate a tenancy without just cause. For purposes of this Division, just cause includes at-fault just cause and no-fault just cause.",
-    "note": "At-fault and no-fault causes, the 30 or 60 day notice under Civil Code 1946.1, and the void-notice rule are all stated in §98.0704, §98.0706(b)(1) and §98.0706(e)."
+    "note": "The at-fault and no-fault causes listed, the 30 or 60 day notice under CC 1946.1, and the void-notice rule (98.0706(e), 98.0710) are all in the text."
    },
    "key_value": {
     "verdict": "supported",
@@ -28,30 +28,30 @@
    "status": {
     "verdict": "supported",
     "evidence": "(Amended 2-27-2024 by O-21769 N.S.; effective 3-28-2024.)",
-    "note": "The document presents the rule as current law with no repeal. The retrieval date is 2026-10-01, and the text carries a 3-2024 header."
+    "note": "The document presents the rule as current law, with the latest amendment effective 3-28-2024."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "(k) housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome; and",
-    "note": "The 15-year certificate-of-occupancy exemption is supported. The 'owner_based_exemption_max_units: 2' value is only loosely supported: §98.0703(i)(1) limits a landlord-occupant to renting no more than two bedrooms or two ADUs/JADUs, and §98.0703(j) covers a two-unit property. It is not a clean two-unit threshold. Many other exemptions are omitted."
+    "note": "The 15-year certificate-of-occupancy exemption is supported. The owner_based_exemption_max_units of 2 is a loose summary: the exemptions refer to no more than two bedrooms or ADUs, or a two-unit property with an owner-occupant, not a plain 2-unit cap."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "§98.0704 Just Cause Required for Termination of Tenancy",
-    "note": "The section number and the ordinances O-21647 and O-21769 match the document."
+    "note": "The section is correct, and the O-21647 and O-21769 amendment history matches."
    }
   },
   {
-   "team_rule_id": "r-0088",
+   "team_rule_id": "r-0091",
    "requirement": {
     "verdict": "supported",
-    "evidence": "(ii) If the tenant is a senior or disabled, the direct payment to the tenant shall be in an amount equal to three months of actual rent under the tenant’s lease in effect at the date of the notice.",
-    "note": "Two months for the standard case, the senior definition (62 or older), the waiver option, and payment within 15 days all appear in §98.0706(b)(1)(B)(i) and §98.0706(c). The 'regardless of income or length of tenancy' wording is in §98.0706(c)(1)."
+    "evidence": "(i) Unless section 98.0706(c)(1)(A)(ii) applies, the direct payment to the tenant shall be in an amount equal to two months of actual rent under the tenant’s lease in effect at the date of the notice.",
+    "note": "The three-month senior/disabled amount, the rent-waiver alternative, and the 15-day payment deadline are all stated (98.0706(b)(1)(B)(i), (c))."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "the direct payment to the tenant shall be in an amount equal to two months of actual rent under the tenant’s lease in effect at the date of the notice.",
-    "note": "Three months for seniors and disabled tenants is stated in §98.0706(c)(1)(A)(ii)."
+    "evidence": "(ii) If the tenant is a senior or disabled, the direct payment to the tenant shall be in an amount equal to three months of actual rent under the tenant’s lease in effect at the date of the notice.",
+    "note": "Senior is defined as 62 or older."
    },
    "effective_date": {
     "verdict": "supported",
@@ -61,17 +61,17 @@
    "status": {
     "verdict": "supported",
     "evidence": "(“Requirements Upon Termination of Tenancy” added 5-25-2023 by O-21647 N.S.; effective 6-24-2023.)",
-    "note": "The document presents the section as current law with no repeal noted."
+    "note": "The document presents the rule as current law with no repeal."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "(k) housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome; and",
-    "note": "The 15-year certificate-of-occupancy exemption is supported. The 2-unit owner-based exemption is only loosely supported, since §98.0703(i) and (j) are bedroom/ADU and two-dwelling-unit based, not a plain two-unit threshold."
+    "note": "The 15-year certificate-of-occupancy exemption is supported. The owner_based_exemption_max_units of 2 is a loose summary of the owner-occupied exemptions."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "§98.0706 Requirements Upon Termination of Tenancy",
-    "note": "The section and ordinance match. The §98.0706(c) provision was not amended in 2024, so citing only O-21647 is consistent."
+    "evidence": "(c) Relocation Assistance for Termination of Tenancy for No-Fault Just Cause.",
+    "note": "98.0706(c) matches."
    }
   }
  ]

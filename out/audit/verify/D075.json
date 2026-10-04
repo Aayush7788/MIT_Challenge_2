@@ -1,43 +1,43 @@
 {
- "key": "47a53dfc75dd9a78fba0eb9330c0d6aa16c40720",
+ "key": "4fceffcdcd78f2c9d9e98536b739c87a8f6c2e2a",
  "doc_id": "D075",
  "ids": [
-  "r-0089"
+  "r-0092"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:49:43.488Z",
+ "audited_at": "2026-10-03T23:41:18.228Z",
  "cards": [
   {
-   "team_rule_id": "r-0089",
+   "team_rule_id": "r-0092",
    "requirement": {
     "verdict": "supported",
-    "evidence": "It is unlawful for any person to use a financial or income standard for entering into or renewing a tenancy that does either of the following:",
-    "note": "The document covers refusal to rent or renew, termination, false unavailability, advertising, and the aggregate income standard for co-tenants and cosigners. The mention of 'Section 8' is a plain-language gloss for federal rental assistance."
+    "evidence": "It is unlawful for any person to do any of the following acts, wholly or in part, based on a person’s source of income  (except as may be necessary to comply with any program requirements related to source of income ):",
+    "note": "Refusal to rent/renew, termination, false unavailability, advertising, and aggregate-income standards are all in §98.0803; the definition in §98.0802 covers rental, deposit, and homeless assistance. 'Section 8' is covered via federal rental assistance programs."
    },
    "key_value": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "If the court determines that a violation occurred during a tenancy, then the court shall award to the individual whose rights are violated three (3) times the amount of one month’s rent that was being charged for the rental-unit at the time of violation.",
-    "note": "The damages are 3x one month's rent, awarded by a court. Punitive damages and fees may also be awarded."
+    "note": "3x one month's rent is stated, but only as a court award, and for pre-tenancy violations the basis is the advertised rent. The card omits these details; 'per violation' is not stated."
    },
    "effective_date": {
     "verdict": "supported",
-    "evidence": "(“Prohibition of Discrimination Based on a Tenant’s Source of Income” added 9-18-2018 by O–20986 N.S.; effective 10-18-2018.)",
-    "note": "The effective date of 2018-10-18 matches."
+    "evidence": "(“Prohibition of Discrimination Based on a Tenant’s Source of Income”  added 9-18-2018 by O–20986 N.S.; effective 10-18-2018.)",
+    "note": "Matches 2018-10-18. Note that the damages remedy applies to violations on or after August 1, 2019."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "(“Prohibition of Discrimination Based on a Tenant’s Source of Income” added 9-18-2018 by O–20986 N.S.; effective 10-18-2018.)",
-    "note": "The document presents the division as current law, with no repeal noted."
+    "evidence": "(“Prohibition of Discrimination Based on a Tenant’s Source of Income”  added 9-18-2018 by O–20986 N.S.; effective 10-18-2018.)",
+    "note": "The document presents the Division as current law with no repeal noted."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "The coverage field is empty on the card."
+    "note": "Coverage is null on the card."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "§98.0803 Prohibited Activity",
-    "note": "The section numbers and ordinance O-20986 N.S. match, and §§98.0801-98.0806 are in the document."
+    "note": "The citation to §98.0803 and O-20986 N.S., with the §§ 98.0801-98.0806 range, matches the document."
    }
   }
  ]

@@ -1,0 +1,25 @@
+{
+ "hash": "d38c91cad570af85ffe0028878878d881b57ac26",
+ "key": "Hoboken, NJ / rent_increase_limits",
+ "ids": [
+  "r-0071",
+  "r-0072",
+  "r-0073",
+  "r-0074",
+  "r-0075"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0074",
+     "r-0075"
+    ],
+    "key_value": "lesser of 5% or CPI change; one increase per 12 months",
+    "reason": "Both cards cite Hoboken Code § 155-5 and state the same annual increase cap: the lesser of 5% or CPI. r-0074 also summarizes the vacancy decontrol figures, but those come from §§ 155-31 and 155-34, which stay as their own cards."
+   }
+  ],
+  "coverage_only": []
+ }
+}

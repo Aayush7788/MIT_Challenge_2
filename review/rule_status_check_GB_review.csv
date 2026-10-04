@@ -1,0 +1,93 @@
+team_rule_id,your_status,your_effective_date,official_source_you_used,your_note
+r-0001,in_force,2026-01-01,"Cal. Bus. & Prof. Code § 16729 (leginfo); AB 325 chaptered 10/06/2025 → Cal. Const. art. IV §8(c) default effective Jan 1, 2026","OK. Duplicate of r-0002/r-0003 (same section, source X001 is not a pack doc id). Keep one record per subsection (0002 = (a), 0003 = (b)) and drop this one. Statewide, applies to every CA address regardless of units/age. This is CA-ALG-01."
+r-0002,in_force,2026-01-01,leginfo AB 325 (D022),"OK. CA-ALG-01 for test T1: not in force on 2025-12-31, in force on 2026-01-01."
+r-0003,in_force,2026-01-01,leginfo AB 325 (D022),OK.
+r-0004,in_force,,Cal. Civ. Code § 1950.6 (D026),Effective date wrong: § 1950.6 has been in force since 1998 (Stats. 1997); 2026-01-01 is only the date of the 2026 CPI-adjusted fee figure ($68.96). Put the figure in key_value with 'for 2026' and leave effective_date blank. Cite D026 (statute); D005 (Berkeley page) is secondary.
+r-0005,in_force,2025-01-01,Cal. Civ. Code § 1950.6(c) history note (D026),"Effective date wrong: the refund / first-come rules were added by AB 2493 (Stats. 2024), effective Jan 1, 2025, not 2026-01-01. Confirm the chapter number from the section's history note on leginfo."
+r-0006,in_force,2025-01-01,"Cal. Civ. Code § 1950.6(d),(f) (D026)","Receipt requirement is original (1998); the mandatory credit-report copy came with AB 2493 (Jan 1, 2025). Use 2025-01-01 or blank — not 2026-01-01."
+r-0007,in_force,2020-01-01,"Cal. Civ. Code § 1946.2 (D023); AB 1482, Stats. 2019 ch. 597","FLAGGED — resolved: the just-cause duty has been in force since Jan 1, 2020 (AB 1482). 'Operative April 1, 2024' = SB 567 amendments; 'Jan 1, 2026' = AB 1529 amendment; sunset Jan 1, 2030. Use the ORIGINAL date for effective_date and list the amendments in the note. Two coverage points for the engine: (1) the 15-year certificate-of-occupancy exemption is ROLLING — exempt if CO issued within 15 years before the as-of date (year_built > as_of_year−15 → exempt; == → unknown); (2) where a local just-cause ordinance applies (SF, LA, Berkeley, San Diego, Santa Ana) the local rule governs → result 'superseded' for this record at that address."
+r-0008,in_force,2020-01-01,"Cal. Gov. Code § 66300.6 (SB 330, Housing Crisis Act, eff. Jan 1, 2020)",Low value; source is an LA bulletin (secondary) for a state statute. Keep only if you cite the Gov. Code section itself. Not test-relevant.
+r-0010,in_force,2020-01-01,"Cal. Civ. Code § 1947.12 (D024); AB 1482, Stats. 2019 ch. 597","FLAGGED — resolved: cap in force since Jan 1, 2020 (AB 1482), applied retroactively to increases after March 15, 2019 — do NOT use 2019-03-15 or 2024-04-01 as effective_date. 2024-04-01 = SB 567 amendments (penalties); sunset 2030-01-01. Same rolling 15-year CO exemption as r-0007. Where a stricter local rent cap applies (Berkeley, SF, LA RSO, Santa Ana) → 'superseded'. Separately alienable single-family/condo exemption needs owner type + notice → 'unknown' from our data."
+r-0011,in_force,2020-01-01,Cal. Gov. Code § 12955 (D027); SB 329 (2019),"OK. Source-of-income (incl. vouchers) protection added by SB 329 effective Jan 1, 2020. Date cosmetic."
+r-0012,in_force,2020-01-01,Gov. Code § 12955(o) (D027),OK.
+r-0013,in_force,2024-01-01,Gov. Code § 12955(o)(1)(B) (D027),OK.
+r-0014,in_force,2020-01-01,"D016 (CRD page, secondary)",Duplicate of r-0011 (FEHA = Gov. Code § 12955). Merge into r-0011.
+r-0015,in_force,2024-07-01,"D007 (Berkeley page, secondary)",Duplicate of r-0016 (AB 12 = Civ. Code § 1950.5(c)). Merge into r-0016.
+r-0016,in_force,2024-07-01,Cal. Civ. Code § 1950.5(c) (D025),OK. Small-landlord 2-month exception needs owner type → 'unknown' from our data; say so in the explanation.
+r-0017,in_force,2025-04-01,§ 1950.5(c)(4) (D025),OK.
+r-0018,in_force,,"§ 1950.5(h),(m) (D025)",OK.
+r-0019,in_force,,§ 1950.5(n) (D025),OK.
+r-0020,pending,,malegislature.gov H.5222 bill history (D045),"OK — MA-ALG-P1. Check the bill-history page on the run date: if it was reported out or enacted after 10/1/2026 the status changes. Formal session ended 7/31/2026; bill stays 'pending' until the 194th General Court ends (Jan 2027). Result must be 'pending', never 'applies'."
+r-0021,pending,,S.2983 bill history (D047),OK — MA-ALG-P2. Same as r-0020.
+r-0024,in_force,2025-08-01,M.G.L. c. 112 § 87DDD½ as amended by St. 2025 c. 9 (D057),OK.
+r-0025,in_force,2025-08-01,M.G.L. c. 186 § 15B(1)(b) (D052),"OK for the broker-fee amendment; the base rule (no application fee at all) is decades old. key_value should read 'no application fee permitted; only first, last, deposit, lock/key'."
+r-0026,in_force,,M.G.L. c. 186 § 11 (D050),Status OK but CATEGORY: MA has no just-cause statute. Keep this in just_cause_eviction only with explanation 'MA requires no just cause; this is the notice-to-quit procedure for nonpayment (14 days)'. Do not word the answer as if MA had a just-cause rule.
+r-0027,in_force,,M.G.L. c. 186 § 12 (D051),Same as r-0026: 'no cause required; notice only'. key_value 'no just cause required'.
+r-0028,in_force,2021-01-01,M.G.L. c. 186 § 31 (D058); St. 2020 c. 257,OK; added by St. 2020 c. 257 (effective around 12/31/2020). Date cosmetic.
+r-0029,in_force,1995-01-01,"M.G.L. c. 40P § 4 (D048); St. 1994 c. 368 (ballot Question 9, Nov 1994)","FLAGGED — resolved: in force since Jan 1, 1995. This is the MA precedence rule: any city-level rent_increase_limits record in MA → 'superseded' with conflict_flag. It also explains why Boston H.3744 (r-0061/62) needed a home-rule petition."
+r-0031,failed,,"Cella v. Attorney General, SJC-13893 (June 23, 2026) (D059)","OK — MA-RENT-P1 for test T5. Status 'failed'; never output a cap from it. Put the decision date (2026-06-23) in the note, not in effective_date."
+r-0032,in_force,,M.G.L. c. 151B § 4(10) (D049),OK.
+r-0033,in_force,,c. 186 § 15B(1)(b)(iii) (D052),OK.
+r-0034,in_force,,"c. 186 § 15B(4),(6),(7) (D052)",OK.
+r-0035,not_yet_effective,2027-07-01,"P.L. 2026, c. 43 (D069): approved July 20, 2026; § 9 'first day of the twelfth month next following enactment'","FLAGGED — confirmed: Aug 2026 is month 1 … July 2027 is month 12 → effective 2027-07-01. NJ-ALG-01 for tests T2/T3: not_yet_effective on 2026-10-01, in_force on 2027-07-01. § 6(b) bars conflicting municipal ordinances → from 2027-07-01 flag Jersey City (r-0070) and Hoboken (r-0066) with conflict_flag; before that date the local ordinances stand alone."
+r-0036,in_force,2026-05-01,"P.L. 2025, c. 405 (D066): approved Jan 20, 2026; 'first day of the fourth month next following enactment'","OK — Feb=1, Mar=2, Apr=3, May=4 → 2026-05-01 is right. Exemption: units in 1- or 2-family dwellings → predicate units <= 2 → does not apply; units unknown → unknown."
+r-0037,in_force,,"N.J.S.A. 2A:18-61.1 (D067 is the DCA guide, secondary — cite the statute)","OK. Owner-occupied ≤3-unit exemption needs owner-occupancy, which we don't have → buildings with units >= 4 'applies'; units <= 3 'unknown'."
+r-0038,in_force,,N.J.S.A. 2A:18-61.1(f),OK as the 'no statewide cap' placeholder; useful for the explanation text.
+r-0039,in_force,,N.J.S.A. 2A:18-61.31,"OK, niche."
+r-0040,in_force,1987-06-25,"N.J.S.A. 2A:42-84.1 to -84.6 (P.L. 1987, c. 153, eff. June 25, 1987)","FLAGGED — resolved: effective June 25, 1987 (that is why Hoboken's exemption says 'built after June 25, 1987'). The exemption is NOT automatic: the owner must file a notice with the municipal construction official and DCA (2A:42-84.4), 'multiple dwelling' = 3+ units, and the term is 30 years from completion or the initial mortgage amortization period, whichever is less. Engine rule: NJ local rent control on a building completed within the last 30 years → 'unknown' (exemption depends on the filing), not 'does not apply'."
+r-0041,in_force,,"N.J.S.A. 10:5-12(g),(h)","OK; cite statute, D067 secondary."
+r-0042,in_force,2022-01-01,"P.L. 2021, c. 110 (D065)",OK.
+r-0043,in_force,2022-01-01,"P.L. 2021, c. 110 (D065)",OK.
+r-0044,in_force,2022-01-01,"P.L. 2021, c. 110 (D065)",OK.
+r-0045,in_force,,"D068 (DCR brochure, secondary)",Duplicate of r-0041. Merge.
+r-0046,in_force,,N.J.S.A. 46:8-21.2,OK.
+r-0047,in_force,2026-01-01,"Berkeley Ord. 7,992-N.S. (D001): passed to print Nov 18, 2025, adopted Dec 2, 2025; Berkeley ordinances take effect 30 days after adoption","Add effective_date ≈ 2026-01-01 (30 days after 12/2/2025 adoption). The ordinance 'amends' ch. 13.63, so an earlier version existed — if you find the earlier ordinance, the ban may have been in force since 2025; say 'amended version effective 2026-01-01'. Applies to every Berkeley address."
+r-0048,in_force,,BMC § 13.78.010 (D005),OK.
+r-0049,in_force,,BMC § 13.78.016 (D005),OK.
+r-0050,in_force,2026-01-01,D004,OK (2026 amounts).
+r-0051,in_force,,"Measure BB (Nov 5, 2024), effective on certification (Dec 2024)","Add effective_date = date the Council declared the election results (Dec 2024) if you can find it on the City Clerk page; otherwise leave blank. Pre-2025, so no test impact."
+r-0052,in_force,,D009 (Rent Board coverage chart),"This is a coverage table, not a rule — fold it into the coverage_conditions of r-0051/r-0054/r-0056 rather than reporting it as its own rule. The quoted span ('Most condominiums** Partially Covered Yes No Yes Yes') will read badly in a demo."
+r-0053,in_force,2026-01-01,D004,OK.
+r-0054,in_force,,Measure BB (Nov 2024); Rent Ordinance (D006),"FLAGGED — resolved: status in_force; effective date = Measure BB certification (Dec 2024), fill if found, otherwise blank (pre-2025, no test impact). 1980 cutoff: Rent Board's own definition is 'certificate of occupancy after June 30, 1980' → year_built > 1980 exempt from the ceiling; year_built == 1980 → unknown; < 1980 → covered. Record that as an inference in the explanation. Also note separately-alienable units (single-family, condos) are exempt from the rent ceiling by Costa-Hawkins (Civ. Code § 1954.52) — that is why the chart says 'partially covered'."
+r-0055,in_force,2026-01-01,D008,OK. Berkeley-level cap: with r-0054 this is what supersedes the state cap (r-0010) at Berkeley addresses.
+r-0056,in_force,,D009,"FLAGGED — resolved: same 1980-06-30 cutoff as r-0054; treat year_built 1980 as unknown. This record is coverage, not a rule — merge into r-0054/r-0055 coverage_conditions."
+r-0057,in_force,,BMC ch. 13.106 (D003),OK. Owner-occupied 1–3 unit exemption needs owner-occupancy → units >= 4 applies; units <= 3 unknown.
+r-0058,in_force,,D007,OK.
+r-0059,in_force,,Boston Code § 10-11.7 (D013),"Status OK. Date: the ordinance passed Council in Dec 2020; keep your date only if it is the signing/effective date from boston.gov, otherwise blank. Explanation must say 'notice-of-rights requirement only — Boston has no just-cause law'."
+r-0061,failed,,H.3744 bill history (D011): 'Accompanied a study order' = killed in the 193rd session,OK. Check whether Boston refiled the home-rule petition in the 194th General Court (2025–26); if so add a second record with status 'pending'.
+r-0062,failed,,Same as r-0061,"OK. Even if refiled, M.G.L. c. 40P § 4 (r-0029) is why it needs state approval."
+r-0063,in_force,,D010,"OK, but coverage is limited to DND-funded / IDP providers, which we cannot see from the address data → result 'unknown' for every Boston address, with the explanation saying why."
+r-0064,in_force,,D012,"Weak span (it is an example sentence, not the rule). Replace with a sentence from the regulation text or drop; state law r-0032 already covers source of income."
+r-0065,in_force,,Cambridge Mun. Code ch. 14.04 (D029),OK; owner-occupied 2-family exemption → unknown without owner-occupancy.
+r-0066,in_force,2025-07-29,"Hoboken ordinance adopted July 9, 2025 (D034); N.J.S.A. 40:49-2(b) / 40:69A-181(b): an ordinance takes effect 20 days after final passage and mayoral approval","FLAGGED — resolved: HOB-ALG-01. 'Immediately upon passage and publication' still runs through the 20-day rule in NJ, so use 2025-07-29 (20 days after 7/9/2025) and say 'publication date not seen'. Either date is before every test as-of date, so the result does not change. Codified number (§ 158-2 vs § 154-8): cite both as 'Hoboken Code § 158-2 (ordinance text headed § 154-8)' and verify on ecode360 — not test-affecting. Applies to every Hoboken address. From 2027-07-01 flag conflict with r-0035."
+r-0067,in_force,,"Hoboken Code § 155-31 (ecode360, D032/D033)","OK. Note the November 2024 referendum to change rent control was DEFEATED, so the ordinance is unchanged — add a separate 'failed' record for the referendum (useful as the NJ twin of T5). Cite the live code; hobokenmsta.com is a Feb 2024 mirror — say so in conflict_note if the span came from it."
+r-0068,in_force,,"Hoboken Code § 155-5, Ord. B-532 (Feb 1, 2023) (ecode360, D033)","CONFIRMED against the live ecode360 text: 'greater than 5% or the percentage difference between the consumer price index … whichever is less'; one cost-of-living increase per 12 months regardless of tenant changes. Fix source to D033 (live code); hobokenmsta.com PDF is a mirror. Coverage predicates: new construction exempt per r-0040 (30 years, filing required → unknown); no unit-count threshold appears in the quoted text — confirm against § 155-1 definitions before assuming 1–4 unit buildings are covered."
+r-0069,in_force,,D033 (city news page),Not a rule — it is the registration/proof condition for r-0068. Merge into r-0068's exemptions/conditions or drop (confidence 0.55).
+r-0070,in_force,,"Jersey City Ord. 25-057, Code § 218-12 (D035)","JC-ALG-01. Effective date missing: take the adoption date from the ordinance PDF (last page) and add 20 days (N.J.S.A. 40:69A-181(b)). It is 2025, so in force on every test date; flag conflict with r-0035 from 2027-07-01. Applies to every Jersey City address."
+r-0071,in_force,,Jersey City Code ch. 260 (D036),OK. Predicate units >= 5 (1–4 exempt); units unknown → unknown. Add the state 30-year new-construction exemption (r-0040) → buildings completed within 30 years → unknown.
+r-0080,in_force,2017-09-05,Newark Code § 19:2-3 (D070),OK. Coverage thresholds not on the page → unknown for owner-occupied/small buildings; say so.
+r-0072,in_force,,LAMC § 151.09 (D041),"OK. RSO coverage = certificate of occupancy before Oct 1, 1978 → year_built < 1978 covered; 1978 unknown; > 1978 not covered (then JCO r-0074 applies instead)."
+r-0073,in_force,2026-07-01,LAMC § 151.09.G / § 165.06; LAHD Bulletins A & B (D043),"FLAGGED — resolved: keep 2026-07-01 as the date of the FY 2026-27 AMOUNTS and say in the note that the obligation itself is older (RSO 1979; JCO 2023-01-27). Bulletin A's chart (July 1, 2026–June 30, 2027) is the current one; Bulletin B's label (2025-26) is the prior year. '3 days' vs '3 business days': use '3 business days' (the more specific text) and keep the discrepancy in conflict_note. Not test-affecting."
+r-0074,in_force,2023-01-27,"LAHD JCO page (D040): JCO, Ord. No. 187737, effective Jan 27, 2023","Effective date wrong: 2023-03-27 is the date of the one-month-FMR nonpayment threshold (the page says 'Effective March 27, 2023, landlords may not evict a tenant who falls behind…'). The JCO itself took effect Jan 27, 2023 (the page's 'Notice of Renters' Protections … on or after January 27, 2023'). Pre-2025, cosmetic."
+r-0075,in_force,2025-02-11,D043,OK (hedged: verify the ordinance effective date on the LA City Clerk page).
+r-0076,in_force,,D044,"Not a rule — it is RSO coverage (CO before Oct 1, 1978) taken from a deposit-interest bulletin; span is garbled ('intere st'). Fold into r-0077's coverage_conditions and drop."
+r-0077,in_force,,LAMC ch. XV (D041),OK. Local cap → state cap r-0010 'superseded' at RSO addresses.
+r-0078,in_force,2026-02-02,LAHD RSO calculator page (D042),FLAGGED — resolved: use 2026-02-02 (the specific operative date on the LAHD page). 2025-07-01 is only the start of the annual allowable-increase year. Not test-affecting.
+r-0079,in_force,,LAMC § 151.06.02 (D044),OK; key_value 3.03% is the 2026 rate.
+r-0082,in_force,2025-06-21,"SDMC § 98.1103, O-21955 (D074)",OK (plausible: 30 days after adoption; verify on the ordinance's last page).
+r-0083,in_force,2023-06-24,SDMC § 98.0704 (D073),OK. Same rolling 15-year CO exemption as the state rule; local supersedes r-0007 at San Diego addresses.
+r-0084,in_force,2023-06-24,SDMC § 98.0706(c) (D073),OK.
+r-0085,in_force,2018-10-18,SDMC § 98.0803 (D075),OK.
+r-0086,in_force,2024-10-14,"S.F. Admin. Code § 37.10C (D081, city news page)",OK (verify against the ordinance; pre-2025 so cosmetic). Applies to every SF address.
+r-0087,in_force,,S.F. Admin. Code § 37.9(a) (D079),OK. Local supersedes r-0007 at SF addresses.
+r-0088,in_force,2026-03-01,§ 37.9A (D083),OK. Duplicate of r-0090 — merge.
+r-0089,in_force,2026-03-01,§ 37.9C (D083),OK.
+r-0090,in_force,2026-03-01,D082,Duplicate of r-0088. Merge.
+r-0091,in_force,2026-03-01,§ 37.3 (D080),"OK. Coverage: rent control = units with a certificate of occupancy before June 13, 1979 → year_built < 1979 covered; 1979 unknown; > 1979 not covered; single-family/condos exempt (Costa-Hawkins). Local supersedes r-0010 at covered SF addresses."
+r-0092,in_force,2026-03-01,D083,Duplicate of r-0091. Merge.
+r-0093,in_force,,D078,OK but affordable housing only → 'unknown' for most addresses.
+r-0094,in_force,,"Santa Ana newsletter (D086): adopted March 3, 2026","Effective date missing: a CA city ordinance takes effect 30 days after its final (second-reading) adoption (Gov. Code § 36937). If March 3 was the second reading → ~2026-04-02; if first reading, ~mid/late April. Either way in force on 2026-10-01. Find the ordinance number on the city's legislative page."
+r-0096,in_force,2021-11-19,D085,OK. Rolling 15-year new-construction exemption as in r-0007; local supersedes state at Santa Ana addresses.
+r-0097,in_force,,D084,Duplicate of r-0096 (secondary page). Merge.
+r-0098,in_force,,D084,Duplicate of r-0099 with the 2026-27 figure (2.87%). Merge: keep r-0099 as the rule and put 2.87% in key_value.
+r-0099,in_force,2021-11-19,D085,"OK. Coverage: built on or before Feb 1, 1995 → year_built < 1995 covered; 1995 unknown; > 1995 exempt. Local supersedes r-0010."

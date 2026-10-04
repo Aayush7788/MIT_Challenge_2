@@ -1,20 +1,20 @@
 {
- "key": "d0a9dac32d1465f1a1382bb9f460c2e668fb395c",
+ "key": "9b0a13382c0e20dcd90c7138f5e1ab457287bb03",
  "doc_id": "D065",
  "ids": [
-  "r-0040",
-  "r-0041",
-  "r-0042"
+  "r-0043",
+  "r-0044",
+  "r-0045"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:47:06.937Z",
+ "audited_at": "2026-10-03T23:38:42.258Z",
  "cards": [
   {
-   "team_rule_id": "r-0040",
+   "team_rule_id": "r-0043",
    "requirement": {
     "verdict": "supported",
     "evidence": "A housing provider shall not make any oral or written inquiry regarding an applicant’s criminal record prior to making a conditional offer.",
-    "note": "Exceptions for methamphetamine production on federally assisted housing and lifetime sex offender registration, and the right to provide evidence of inaccuracies or rehabilitation, are in section 4a."
+    "note": "Exceptions (meth production on federally assisted housing, lifetime sex offender registration) and applicant's right to provide evidence are in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -24,45 +24,45 @@
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "This act shall take effect on the first day of the seventh month next following the date of enactment,",
-    "note": "Approved June 18, 2021; the seventh month following is January 2022, so Jan 1, 2022 follows by a small computation. The card does not explain it."
+    "note": "Approved June 18, 2021; seventh month following is January 1, 2022 by computation; the document does not state the date directly."
    },
    "status": {
     "verdict": "supported",
     "evidence": "This act shall take effect on the first day of the seventh month next following the date of enactment,",
-    "note": "The document is presented as current law, retrieved 2026-10-01, with no repeal indicated."
+    "note": "Document presents the act as enacted law with no repeal; effective date passed before 2026-10-01."
    },
    "coverage": {
     "verdict": "supported",
     "evidence": "“Rental dwelling unit” means a dwelling unit offered for rent by a housing provider for residential purposes, other than a dwelling unit in an owner-occupied premises of not more than four dwelling units.",
-    "note": "The 4-unit owner-occupied exemption is stated."
+    "note": null
    },
    "citation": {
     "verdict": "supported",
     "evidence": "C.46:8-55  Application process.",
-    "note": "Section 4 of P.L. 2021 c.110 is codified at C.46:8-55."
+    "note": "Section 4 of P.L. 2021, c.110 codified at C.46:8-55."
    }
   },
   {
-   "team_rule_id": "r-0041",
+   "team_rule_id": "r-0044",
    "requirement": {
     "verdict": "supported",
     "evidence": "Prior to accepting any application fee, a housing provider shall disclose in writing to the applicant:",
-    "note": "Both disclosure items are listed in b(1) and b(2)."
+    "note": "Both disclosure items match subsection b(1) and b(2)."
    },
    "key_value": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Empty on the card."
+    "note": "Field is empty on the card."
    },
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "This act shall take effect on the first day of the seventh month next following the date of enactment,",
-    "note": "Approved June 18, 2021; the date of Jan 1, 2022 is computed, not stated."
+    "note": "Enactment June 18, 2021 gives January 1, 2022 by computation."
    },
    "status": {
     "verdict": "supported",
     "evidence": "This act shall take effect on the first day of the seventh month next following the date of enactment,",
-    "note": "The document presents the rule as current law."
+    "note": "Presented as current law, effective date passed."
    },
    "coverage": {
     "verdict": "supported",
@@ -71,41 +71,41 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "C.46:8-55  Application process.",
-    "note": "Subsection b of section 4."
+    "evidence": "4.\na.  (1)",
+    "note": "Subsection b of section 4 is codified at C.46:8-55; the document's heading is C.46:8-55  Application process."
    }
   },
   {
-   "team_rule_id": "r-0042",
+   "team_rule_id": "r-0045",
    "requirement": {
     "verdict": "supported",
-    "evidence": "A housing provider shall not, either before or after the issuance of a conditional offer, evaluate an applicant based on any of the following types of criminal records:",
-    "note": "Also covers lookback periods, written reasons, individualized assessment, and the 30-day request for information free of charge. The card says 'listed serious convictions' for the b(1) offenses."
+    "evidence": "(4)   is for an indictable offense of the fourth degree that was issued, or if the conviction resulted in a prison sentence that sentence concluded, within one year immediately preceding the issuance of the conditional offer.",
+    "note": "Lookbacks, exclusions, written reasons, individualized assessment, 30-day request and free-of-charge information all appear in section 5."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "(2)   is for an indictable offense of the first degree that was issued, or if the conviction resulted in a prison sentence that sentence concluded, within the six years immediately preceding the issuance of the conditional offer;",
-    "note": "The 4-year (2nd/3rd degree) and 1-year (4th degree) periods are also stated."
+    "evidence": "(3)   is for an indictable offense of the second or third degree that was issued, or if the conviction resulted in a prison sentence that sentence concluded, within the four years immediately preceding the issuance of the conditional offer; or",
+    "note": "6 years for first degree, 4 for second/third, 1 for fourth are all stated."
    },
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "This act shall take effect on the first day of the seventh month next following the date of enactment,",
-    "note": "Approved June 18, 2021; Jan 1, 2022 is computed."
+    "note": "Computed January 1, 2022 from approval June 18, 2021."
    },
    "status": {
     "verdict": "supported",
     "evidence": "This act shall take effect on the first day of the seventh month next following the date of enactment,",
-    "note": "The document presents the rule as current law."
+    "note": "Presented as current law."
    },
    "coverage": {
     "verdict": "supported",
     "evidence": "“Rental dwelling unit” means a dwelling unit offered for rent by a housing provider for residential purposes, other than a dwelling unit in an owner-occupied premises of not more than four dwelling units.",
-    "note": "The lookback cutoffs are in the key value and requirement."
+    "note": null
    },
    "citation": {
     "verdict": "supported",
     "evidence": "C.46:8-56  Housing provider’s consideration of applicant’s record.",
-    "note": "Section 5 is codified at C.46:8-56."
+    "note": "Section 5 codified at C.46:8-56."
    }
   }
  ]

@@ -1,43 +1,43 @@
 {
- "key": "ce2d8859e1a779e59323e65ebd4b8d3b87c3e80a",
+ "key": "528cdaaf41141804f85babcab7767f1925988700",
  "doc_id": "D033",
  "ids": [
-  "r-0070"
+  "r-0072"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:48:46.800Z",
+ "audited_at": "2026-10-03T23:40:22.455Z",
  "cards": [
   {
-   "team_rule_id": "r-0070",
+   "team_rule_id": "r-0072",
    "requirement": {
     "verdict": "supported",
     "evidence": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
-    "note": "Card's plain-language summary matches the cap and the one-increase-per-12-months rule, including regardless of tenant turnover."
+    "note": "Card paraphrases the cap, the one-increase-per-12-months limit, and the tenant-turnover point; \"renews\" is a plain-language gloss on expiration."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "No more than one such cost-of-living rental increase in any one twelve-month period shall be permitted irrespective of the number of different tenants occupying said housing space during said twelve-month period.",
-    "note": "Lesser of 5% or CPI change and one increase per 12 months are both stated."
+    "note": "Lesser of 5% or CPI change is stated in the first sentence."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card's effective_date is null."
+    "note": "Field is empty on the card."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "[Amended 2-1-2023 by Ord. No. B-532]At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5%",
-    "note": "Document presents the section as current code text, so in_force is supported."
+    "evidence": "[Amended 2-1-2023 by Ord. No. B-532]At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent",
+    "note": "Document presents the section as current code text; no repeal or expiration is indicated."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card's coverage is null."
+    "note": "Field is empty on the card."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "§ 155-5 Expiration or termination of lease. [Amended 2-1-2023 by Ord. No. B-532]",
-    "note": "Section number and ordinance number match the document; the document names Hoboken Code Chapter 155."
+    "note": "Section number and amending ordinance match the document."
    }
   }
  ]

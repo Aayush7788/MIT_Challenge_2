@@ -253,7 +253,7 @@
    "A0500"
   ],
   "conflict_flag_address_ids": [],
-  "notes": "Matched team rules: r-0002 (Cal. Bus. & Prof. Code § 16729 (AB 325, Stats. 2025, ch. 338); in_force, effective 2026-01-01). Affected = addresses whose result changes between 2025-12-31 and 2026-01-02. 250 affected, 0 flagged for human review.",
+  "notes": "Matched team rules: r-0002 (Cal. Bus. & Prof. Code § 16729 (Stats. 2025, ch. 338, AB 325); in_force, effective 2026-01-01). Affected = addresses whose result changes between 2025-12-31 and 2026-01-02. 250 affected, 0 flagged for human review.",
   "team_rule_ids": [
    "r-0002"
   ],
@@ -1445,10 +1445,10 @@
    "A0490",
    "A0495"
   ],
-  "notes": "Matched team rules: r-0068 (Hoboken Code § 158-2 (ordinance adopted Jul 9, 2025; body heading reads § 154-8); in_force, effective 2025-07-09); r-0073 (Jersey City Code § 218-12 (Ord. 25-057); in_force). 90 affected, 90 flagged for human review.",
+  "notes": "Matched team rules: r-0070 (Hoboken Code § 158-2 (Ord. No. B-781); in_force, effective 2025-07-29); r-0078 (Jersey City Code § 218-12 (Ord. 25-057, as amended by Ord. 25-076); in_force, effective 2025-06-10). 90 affected, 90 flagged for human review.",
   "team_rule_ids": [
-   "r-0068",
-   "r-0073"
+   "r-0070",
+   "r-0078"
   ],
   "before_after": {
    "A0002": {
@@ -2048,9 +2048,9 @@
    "A0490",
    "A0495"
   ],
-  "notes": "Matched team rules: r-0033 (N.J.S.A. 56:9-20 to 56:9-26 (P.L. 2026, c.43; A3497 ACS 1R); not_yet_effective, effective 2027-07-01). Affected = addresses whose result changes between 2026-10-01 and 2027-07-02. 140 affected, 90 flagged for human review.",
+  "notes": "Matched team rules: r-0036 (N.J.S.A. 56:9-20 to 56:9-26 (P.L. 2026, c.43; A3497 ACS 1R); not_yet_effective, effective 2027-07-01). Affected = addresses whose result changes between 2026-10-01 and 2027-07-02. 140 affected, 90 flagged for human review.",
   "team_rule_ids": [
-   "r-0033"
+   "r-0036"
   ],
   "before_after": {
    "A0002": {
@@ -2729,460 +2729,460 @@
    "A0488"
   ],
   "conflict_flag_address_ids": [],
-  "notes": "Matched team rules: r-0020 (H.5222 (194th General Court; new draft of H.1564); pending); r-0021 (Mass. Senate Bill S.2983 (194th General Court) (new draft of S.994 and S.1016); pending). Pending bills, never in force; affected = addresses they would reach if enacted as written. 110 affected, 0 flagged for human review.",
+  "notes": "Matched team rules: r-0023 (H.5222 (194th General Court; new draft of H.1564); pending); r-0024 (Mass. Senate Bill S.2983 (194th General Court) (new draft of S.994 and S.1016); pending). Pending bills, never in force; affected = addresses they would reach if enacted as written. 110 affected, 0 flagged for human review.",
   "team_rule_ids": [
-   "r-0020",
-   "r-0021"
+   "r-0023",
+   "r-0024"
   ],
   "before_after": {
    "A0006": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0009": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0010": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0015": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0024": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0034": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0036": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0039": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0043": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0046": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0048": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0052": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0053": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0054": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0056": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0063": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0064": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0065": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0068": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0070": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0071": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0073": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0075": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0077": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0082": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0083": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0086": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0093": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0095": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0096": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0098": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0118": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0123": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0124": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0128": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0134": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0140": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0143": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0144": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0149": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0151": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0155": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0166": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0169": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0174": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0175": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0176": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0191": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0194": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0195": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0198": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0199": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0203": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0209": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0211": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0214": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0217": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0218": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0220": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0221": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0226": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0230": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0232": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0233": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0242": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0245": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0258": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0272": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0284": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0286": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0290": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0291": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0292": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0294": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0295": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0298": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0300": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0301": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0302": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0306": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0310": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0312": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0332": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0336": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0339": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0342": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0354": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0356": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0361": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0362": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0366": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0376": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0380": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0403": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0406": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0422": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0423": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0429": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0444": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0446": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0453": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0463": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0464": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0465": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0466": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0467": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0468": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0473": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0485": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    },
    "A0488": {
-    "before": null,
-    "after": "applies"
+    "before": "pending",
+    "after": "would_apply_if_enacted"
    }
   }
  },
  "T5": {
   "affected_address_ids": [],
   "conflict_flag_address_ids": [],
-  "notes": "Matched team rules: r-0029 (Massachusetts statewide rent control initiative petition (Cella v. Attorney General, SJC-13893); failed). Struck or failed measures are never reported as in force. Recorded as failed: Massachusetts statewide rent control initiative petition (Cella v. Attorney General, SJC-13893). 0 affected, 0 flagged for human review.",
+  "notes": "Matched team rules: r-0032 (Massachusetts statewide rent control initiative petition (Cella v. Attorney General, SJC-13893); failed). Struck or failed measures are never reported as in force. Recorded as failed: Massachusetts statewide rent control initiative petition (Cella v. Attorney General, SJC-13893). 0 affected, 0 flagged for human review.",
   "team_rule_ids": [
-   "r-0029"
+   "r-0032"
   ],
   "before_after": {}
  }

@@ -1,0 +1,13 @@
+{
+ "hash": "b8fc06c6900aac135ccfdc06be192eb4e7230dc3",
+ "key": "MA / security_deposits",
+ "ids": [
+  "r-0034",
+  "r-0035"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [],
+  "coverage_only": []
+ }
+}

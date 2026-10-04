@@ -1,0 +1,22 @@
+{
+ "key": "0fb8dcd1deb9c90ad8517fe841ba90dfdbb990a4",
+ "team_rule_id": "r-0033",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D049",
+  "O072",
+  "O070",
+  "O100",
+  "O099"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "M.G.L. c. 151B § 4",
+  "citation_basis": "c. 151B § 4 (incl. subsections 10 and 7B): D049",
+  "source_is_law_text": true,
+  "official_doc_id": "D049",
+  "official_quote": "For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program.",
+  "is_city_policy": false,
+  "note": "The citation now names the whole section, because the card merges the subsection 10 discrimination ban with the subsection 7B advertising ban."
+ }
+}

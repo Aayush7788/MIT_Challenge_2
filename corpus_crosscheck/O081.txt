@@ -1,0 +1,100 @@
+SOURCE: https://library.municode.com/nj/jersey_city/codes/code_of_ordinances?nodeId=CH260RECO
+RETRIEVED: 2026-10-04 00:33 UTC
+JURISDICTION: Jersey City, NJ
+CITES: Jersey City Code § 260-1 (Ch. 260, Rent Control; 'Dwelling' definition, exemption A.1 for dwellings with four or less housing spaces)
+NOTE: Code of Jersey City, New Jersey (Code of Ordinances), Chapter 260 Rent Control: chapter history footnote and § 260-1 Definitions, from the city's official code on Municode Library (version Apr 3, 2026, current); the city clerk's Municipal Codes page points to this publisher; read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+Jersey City, New Jersey - Code of Ordinances  Chapter 260 - RENT CONTROL
+
+VERSION: APR 3, 2026 (CURRENT)
+
+CODE of JERSEY CITY, NEW JERSEY
+
+Chapter 260 - RENT CONTROL[1]
+Footnotes:
+--- (1) ---
+
+History—Adopted by the Council of the City of Jersey City February 7, 1986 by Ord. No. C-14A. Amendments noted where applicable.
+
+Cross reference— Condominium conversion, Ch. 128; discrimination, Ch. 148; fees and charges, Ch. 160; housing accommodations, Ch. 188; multiple dwellings, Ch. 218; property maintenance, Ch. 254.
+
+§ 260-1. - Definitions.
+
+As used in this chapter, the following terms shall have the meanings indicated:
+
+AVAILABLE FOR RENT TO TENANTS—Fit for habitation as defined by the statutes, codes and ordinances in full force and effect in the State of New Jersey, County of Hudson and City of Jersey City, and occupied or unoccupied and offered for rent.
+
+BASE RENT—The legal rent charged or actually received by the landlord for the rental of a housing space as of January 11, 1983; or if not occupied at that date the "base rent" shall be that actually charged to and received from the previous tenant, plus any increases under § 260-3 of this chapter or the ordinance to which this is an amendment, or if insufficient evidence is available from which the Rent Leveling Administrator or Board can determine the legal rent charged or actually received as provided above, then the Rent Leveling Administrator and Board have the power to determine the legal "base rent" by considering the legal base rent of other units, subject to the provisions of this chapter, which are comparable in size, location and facilities to the subject unit.
+
+[Amended 4-27-1989 by Ord. No. C-944]
+
+CAPITAL IMPROVEMENT—A permanent improvement that adds to value or substantially extends the useful life of the landlord's property and can be claimed by the landlord for depreciation on his or her federal tax returns. Specifically excluded are ordinary repairs, maintenance and conversion to heat/hot water units for individual apartments where the cost of providing the heat/hot water service is transferred from the landlord to the tenant.
+
+CONSUMER PRICE INDEX—The consumer price index (all items, base year 1967 = 100) for the region of the United States of which Jersey City is a part, published periodically by the United States Department of Labor, Bureau of Labor Statistics.
+
+DWELLING—Any building or other structures containing housing spaces rented or offered for rent to one or more tenants consisting of a household or family as defined in this chapter. A dwelling includes buildings or structures that are exempt from the restrictions of rent increases mandated under this chapter.
+
+[Amended 10-24-12 by Ord. No. 12-137; 6-28-2017 by Ord. No. 17-080; 5-6-2020 by Ord. No. 20-036; 9-10-2020 by Ord. No. 20-067; 12-2-2020 by Ord. No. 20-100; 3-10-2021 by Ord. No. 21-013]
+
+A.
+
+Exempt from this definition are:
+
+1.
+
+Dwellings with four or less housing spaces; provided, however, that this exemption shall be suspended for non-owner occupied dwellings with four or less housing spaces until the end of the state of emergency or six months from adoption of these amendments whichever comes first. This paragraph shall be effective March 15, 2021.
+
+2.
+
+Licensed hotels or motels and commercial and industrial space.
+
+3.
+
+Newly constructed dwellings with 25 or more dwelling units located within a redevelopment area as defined in Section 5 of the Redevelopment Agencies Law, N.J.S.A. 40:55C-5(o), for which the City Council has approved a redevelopment plan, in accordance with Section 17 of the Redevelopment Agencies Law, N.J.S.A. 40:55C-17. [2]
+
+4.
+
+Low rent public housing developments.
+
+5.
+
+All buildings or structures, hotels, motels or guesthouses which are converted from any previous use as a nonpermanent dwelling to use as a dwelling on or after October 1, 1983. For the purpose of this exemption, a building shall be deemed converted for use as a dwelling on the date on which the certificate of occupancy for dwelling use is issued.
+
+B.
+
+Any new dwelling or housing spaces being rented for the first time for the initial rental only.
+
+EQUITY IN REAL PROPERTY INVESTMENT—The actual cash contribution of the purchaser at the time of closing of Title and any principal payments to outstanding mortgages subsequent to acquisition of title by the purchaser.
+
+FAIR RETURN—The percentage of return on equity of real property investment. The amount of return shall be measured by the net income before depreciation. A "fair return" on the equity investment in real property shall be considered to be 2.5% above the maximum passbook demand deposit savings account interest rate available in the municipality.
+
+[Amended 5-8-2019 by Ord. No. 19-044]
+
+HOUSING SPACE—Includes that portion of a dwelling rented or offered for rent for living and dwelling purposes with all privileges, services, furnishings, furniture, equipment, facilities and improvements connected with the use or occupancy of such portion of the real property.
+
+JUST CAUSE FOR EVICTION—That the landlord recovered possession of a housing space or dwelling for one of the reasons outlined in State law (N.J.S.A. 2A:18-53 as amended or N.J.S.A. 2A:18-61.1 et seq.).
+
+LANDLORD REGISTRATION STATEMENT—A statement to be completed and filed with the Bureau of Rent Leveling pursuant to § 260-2 E, F and G by all owner(s) and landlord(s) of housing spaces and/or dwellings in the City of Jersey City.
+
+[Added 10-24-12 by Ord. No. 12-137]
+
+LIVING AREA—The amount of total rentable space applicable to any given housing space, measured either in terms of rooms or square footage.
+
+RENT—Any price for the use of a housing space. It includes any charge, no matter how set forth, paid by the tenant for the use of any service in connection with the housing space. Security deposits and charges for accessories, such as boats, mobile homes and automobiles, not used in connection with the housing space shall not be construed as "rent." No charges shall be permitted for late rent, whether termed a late rental fee or interest on rent paid late, in excess of $35.00, returned check fees in excess of $35.00, or any other similar charges; provided, however, that no landlord may collect any penalty or interest, however defined, for late payment of rent until the end of the state of emergency or six months from adoption of these amendments whichever comes first. This paragraph shall be effective March 15, 2021.
+
+[Amended 2-27-02 by Ord. No. 02-017; 5-6-2020 by Ord. No. 20-036; 9-10-2020 by Ord. No. 20-067; 12-2-2020 by Ord. No. 20-100; 3-10-2021 by Ord. No. 21-013]
+
+RENTAL STATEMENT—The statement a landlord shall be required to sign and deliver to each tenant at the inception of the tenancy, identifying the name and address of the landlord and his or her agent, if any, identifying the name, address and telephone number of the superintendent, if any, providing a twenty-four-hour emergency telephone number for the landlord or his or her agent, describing the housing space rented, the related services and equipment involved (whether or not including use of basement, garage, clothesline, washing equipment, utilities, heat, hot water, garbage removal, repairs, maintenance and the like) as of January 11, 1973; and the base rental as of the date of the inception of the tenancy; and the rent of the prior tenant and notification of the existence of the rent registration law.
+
+SERVICE—The provision of light, heat, hot water, maintenance, painting, elevator service, air conditioning, storm windows, screens, superintendent service and any other benefit, privilege or facility connected with the use or occupancy of any dwelling or housing space.
+
+SERVICE SURCHARGE—An additional charge over and above the rental due for new or additional services.
+
+SUBSTANTIAL COMPLIANCE WITH APPLICABLE HEALTH AND MAINTENANCE CODES—The housing space and dwelling are free from the major health, safety and fire hazards as well as in compliance with heat and hot water and sanitary requirements. Compliance is to be determined with the aid of appropriate City and State regulatory agencies based upon current code inspection reports which shall be not less than six months old at the time of the initial hearing on a rent increase application under § 260-10, Hardship rental increases, and § 260-5, Capital improvements.
+
+[Amended 3-13-1986 by Ord. No. C-183]
+
+Footnotes:
+--- (2) ---
+
+Editor's note— N.J.S.A. 40:55C-5(o) and 40:55C-17 were repealed by L. 1992, c. 79, § 59. For current provisions, see N.J.S.A. 40A:12A-1 et seq.

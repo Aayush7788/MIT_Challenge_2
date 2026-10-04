@@ -1,0 +1,22 @@
+{
+ "key": "eeca7d8831cd60f490cfb14bc71a4bab4766d54e",
+ "team_rule_id": "r-0029",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D053",
+  "O072",
+  "O070",
+  "O099",
+  "O100"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "M.G.L. c. 186 § 18",
+  "citation_basis": "c. 186 § 18: D053",
+  "source_is_law_text": true,
+  "official_doc_id": "D053",
+  "official_quote": "The receipt of any notice of termination of tenancy, except for nonpayment of rent, or, of increase in rent, or, of any substantial alteration in the terms of tenancy within six months after the tenant has commenced, proceeded with, or obtained relief in such action, exercised such rights, made such report or complaint, or organized or joined such tenants' union or within six months after any other person has taken such action or actions on behalf of the tenant or in, or relating to, the building in which the tenant resides, shall create a rebuttable presumption that such notice or other action is a reprisal against the tenant for engaging in such activities. Such presumption shall be rebutted only by clear and convincing evidence that such person's action was not a reprisal against the tenant and that such person had sufficient independent justification for taking such action, and would have in fact taken such action, in the same manner and at the same time the action was taken, regardless of tenants engaging in, or the belief that tenants had engaged in, activities protected under this section.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

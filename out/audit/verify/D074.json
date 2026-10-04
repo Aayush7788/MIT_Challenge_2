@@ -1,43 +1,43 @@
 {
- "key": "c6911d41dbf1b3cfb5b4ab75c37e9a8cc6811d93",
+ "key": "5daebd6b93c294058743582eb75c10178e05b617",
  "doc_id": "D074",
  "ids": [
-  "r-0086"
+  "r-0089"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:49:30.198Z",
+ "audited_at": "2026-10-03T23:41:04.988Z",
  "cards": [
   {
-   "team_rule_id": "r-0086",
+   "team_rule_id": "r-0089",
    "requirement": {
     "verdict": "supported",
-    "evidence": "It is unlawful for a person to sell, license, or otherwise provide an algorithmic device to a landlord.",
-    "note": "Also matches §98.1103(b), the definition of algorithmic device (nonpublic data of two or more landlords), and §98.1104(a) remedies including fees to a prevailing tenant. The card omits the prevailing-landlord fee rule and the exclusions, which is acceptable in a summary."
+    "evidence": "(a) It is unlawful for a person to sell, license, or otherwise provide an algorithmic device to a landlord. (b) It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.",
+    "note": "Definition of algorithmic device (nonpublic competitor data of two or more landlords) and remedies (injunction, damages, penalties up to $1,000, fees to prevailing party) are also in the document. The card says fees for a winning tenant; the document gives fees to a prevailing landlord or tenant, a minor omission."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "For each month a violation of section 98.1103(b) exists or continues, and for each residential rental property a landlord uses an algorithmic device, it shall constitute a separate and distinct violation.",
-    "note": "The $1,000 per violation cap is in §98.1104(a): \"civil penalties of up to $1,000 per violation\". The separate-violation rule applies to 98.1103(b) use violations, not to sales."
+    "evidence": "A tenant may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation of this Division, in a civil action against a landlord.",
+    "note": "Each month and each property as a separate violation is stated in §98.1103: \"For each month a violation of section 98.1103(b) exists or continues, and for each residential rental property a landlord uses an algorithmic device, it shall constitute a separate and distinct violation.\""
    },
    "effective_date": {
     "verdict": "supported",
-    "evidence": "(“Prohibition of Anti-Competitive Automated Rent Price-Fixing” added 5-22-2025 by O-21955 N.S.; effective 6-21-2025.)",
-    "note": "2025-06-21 matches."
+    "evidence": "(“Use and Sale of Algorithmic Devices Prohibited” added 5-22-2025 by O-21955 N.S.; effective 6-21-2025.)",
+    "note": "Matches 2025-06-21."
    },
    "status": {
     "verdict": "supported",
     "evidence": "(“Prohibition of Anti-Competitive Automated Rent Price-Fixing” added 5-22-2025 by O-21955 N.S.; effective 6-21-2025.)",
-    "note": "The document presents the division as current adopted code text with no repeal or sunset, so in_force as of 2026-10-01 is reasonable."
+    "note": "Document presents the division as current adopted code text with no repeal or sunset, so in_force as of 2026-10-01."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Coverage is null on the card."
+    "note": "Card coverage is empty."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "§98.1103 Use and Sale of Algorithmic Devices Prohibited",
-    "note": "The cited sections 98.1102, 98.1103, 98.1104 and ordinance O-21955 N.S. all appear in the document."
+    "evidence": "(“Use and Sale of Algorithmic Devices Prohibited” added 5-22-2025 by O-21955 N.S.; effective 6-21-2025.)",
+    "note": "§98.1103, ordinance O-21955 N.S., and §§98.1102 and 98.1104 all appear in the document."
    }
   }
  ]

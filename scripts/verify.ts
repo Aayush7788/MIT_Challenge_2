@@ -54,7 +54,7 @@ const SYSTEM = `You are the second reviewer on a team that turns housing law int
 
 For each card, judge these fields: requirement, key_value, effective_date, status (as of 2026-10-01), coverage (the unit thresholds and construction or certificate-of-occupancy cutoffs listed) and citation.
 - supported: the document states it. Copy the sentence that states it into evidence, character for character.
-- partly_supported: the document supports part of it, or the value follows from the text by a small step the card explains (for example a date computed from "the first day of the twelfth month next following the date of enactment" and a stated enactment date). Copy the supporting text and say in note what is missing.
+- partly_supported: the document supports part of it, or the value follows from the text by a small step the card explains. Examples: a date computed from "the first day of the twelfth month next following the date of enactment" and a stated enactment date; an effective date computed from a stated adoption date and the default rule the card names (a New Jersey municipal ordinance takes effect 20 days after final passage, N.J.S.A. 40:69A-181(b); a California city ordinance takes effect 30 days after final adoption, Gov. Code § 36937). Copy the supporting text and say in note what is missing.
 - not_supported: the document does not state it, or says something different. Say why in note. Put contradicting text in evidence if there is any.
 - not_applicable: the field is empty on the card.
 
@@ -148,6 +148,7 @@ function dateInText(date: string, text: string): boolean {
     `${month} ${d}, ${y}`,
     `${month} ${d} ${y}`,
     `${month.slice(0, 3)}. ${d}, ${y}`,
+    `${month.slice(0, 3)} ${d}, ${y}`,
     `${month} ${y}`,
   ];
   const flat = text.replace(/\s+/g, " ");
@@ -157,7 +158,18 @@ const numbersIn = (s: string) => s.match(/\d+(?:\.\d+)?/g) ?? [];
 function plainCheck(field: Field, r: Card, text: string): boolean | null {
   const flat = text.replace(/\s+/g, " ");
   if (field === "key_value") return r.key_value ? numbersIn(r.key_value).every((n) => flat.includes(n)) : null;
-  if (field === "effective_date") return r.effective_date ? dateInText(r.effective_date, text) : null;
+  if (field === "effective_date") {
+    if (!r.effective_date) return null;
+    if (dateInText(r.effective_date, text)) return true;
+    // A date computed from a stated adoption date and a named default rule counts
+    // when the adoption date (effective date minus the default period) is in the text.
+    const why = `${r.interaction ?? ""} ${r.conflict_note ?? ""}`;
+    const days = /40:69A-181/.test(why) ? 20 : /36937/.test(why) ? 30 : null;
+    if (days == null || r.effective_date.length < 10) return false;
+    const [y, m, d] = r.effective_date.split("-").map(Number);
+    const adopted = new Date(Date.UTC(y, m - 1, d) - days * 86400000).toISOString().slice(0, 10);
+    return dateInText(adopted, text);
+  }
   if (field === "coverage") {
     const c = r.coverage_conditions;
     const years = [c.built_on_or_before, c.built_after].filter((x): x is string => Boolean(x)).map((d) => d.slice(0, 4));

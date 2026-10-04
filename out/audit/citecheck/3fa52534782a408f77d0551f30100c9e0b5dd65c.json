@@ -1,0 +1,23 @@
+{
+ "key": "3fa52534782a408f77d0551f30100c9e0b5dd65c",
+ "team_rule_id": "r-0083",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D040",
+  "O088",
+  "O089",
+  "O031",
+  "O030",
+  "O033"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "L.A. Mun. Code §§ 151.09(A)(1), 165.03(A) (Ord. No. 187763)",
+  "citation_basis": "§ 151.09(A)(1): O088, O031; § 165.03(A): O089, O031; Ord. No. 187763: O031, O088, O089",
+  "source_is_law_text": false,
+  "official_doc_id": "O089",
+  "official_quote": "The tenant has defaulted in the payment of rent to which the landlord is entitled; provided, however, that the landlord’s right to evict a tenant lawfully in possession of residential housing under this subsection is limited to defaults in payment where the amount due exceeds one month of fair market rent for the Los Angeles metro area set annually by the U.S. Department of Housing and Urban Development for an equivalent sized rental unit as that occupied by the tenant.",
+  "is_city_policy": false,
+  "note": "The requested cite (§ 165.00 et seq., Ord. No. 187737) was not used: the fair-market-rent threshold was added by Ord. No. 187763 to § 165.03(A) (JCO units) and § 151.09(A)(1) (RSO units), while Ord. No. 187737 had enacted only a bare nonpayment ground, so the card, which covers both RSO and JCO units, now cites both subsections and Ord. No. 187763."
+ }
+}

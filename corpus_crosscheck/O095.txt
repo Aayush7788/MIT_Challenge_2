@@ -1,0 +1,43 @@
+SOURCE: https://berkeley.municipal.codes/BMC/13.76
+RETRIEVED: 2026-10-04 00:46 UTC
+JURISDICTION: Berkeley, CA
+CITES: Berkeley Mun. Code ch. 13.76; § 13.76.010; § 13.76.070; § 13.76.110
+NOTE: Berkeley Municipal Code Chapter 13.76 (Rent Stabilization and Eviction for Just Cause Ordinance) as codified: chapter heading, § 13.76.010 (Title), § 13.76.070 (Security deposits, interest) and § 13.76.110 (Annual general adjustment), with history notes; latest history entry on every section of ch. 13.76 is Ord. 7950-NS § 2, 2024. Official code publisher berkeley.municipal.codes (current through Ordinance 8031-NS, passed July 28, 2026). Read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+Division IX. Rent Stabilization
+
+Chapter 13.76
+RENT STABILIZATION AND EVICTION FOR JUST CAUSE ORDINANCE
+
+13.76.010
+Title.
+
+This Chapter shall be known as the Rent Stabilization and Eviction for Just Cause Ordinance. (Ord. 7950-NS § 2, 2024; Ord. 5467-NS § 1, 1982; Ord. 5261-NS § 1, 1980)
+
+13.76.070
+Security deposits.
+
+Any payment or deposit of monies by the tenant, the primary function of which is to secure the performance of a rental agreement or any part of such agreement, including an advance payment of rent, shall be held by the landlord, in a fiduciary capacity for the benefit of the tenant and shall accrue simple interest at the rate equal to the average rates of interest paid on six-month certificates of deposit by banks doing business in the City until such time as the payment or deposit is returned to the tenant or entitled to be used by the landlord as provided in Civil Code Section 1950.5. The interest accrued by said payment or deposit through October 31st of each year shall be returned to the tenant annually in December of each year, either through a rent rebate or cash payment, and shall be at a rate equal to the 12-month average of the average rates of interest paid on six-month certificates of deposit by banks doing business in the City on the first business day of each month for the prior 12 months ending on November 1st, rounded to the nearest tenth. On or before November 15th of each year, the Board shall give public notice of the rate to be effective for the following December. Upon the tenant’s departure from the premises, the balance of any interest accrued since the last October 31st shall be paid at the average monthly rate from the last November 1st to the date of departure and shall be returned to the tenant along with the appropriate part of the principal and any prior unpaid interest. The Board shall compute and publicize the interest rate applicable under this section on an ongoing basis. (Ord. 7950-NS § 2, 2024; Ord. 7525-NS § 2, 2016; Ord. 6833-NS § 3 (part), 2004; Ord. 5467-NS § 7, 1982; Ord. 5261-NS § 7, 1980)
+
+13.76.110
+Annual general adjustment of rent ceilings.
+
+A. Effective January 1 of each year, the rent ceiling for all rental units covered by this Chapter for which the landlord did not establish an initial rent during the prior calendar year shall be adjusted by 65% of the percentage increase in the Consumer Price Index for All Urban Consumers (CPI-U) in the San Francisco-Oakland-San Jose region as reported and published by the U.S. Department of Labor, Bureau of Labor Statistics, for the twelve month period ending the previous June 30. In determining the allowable percentage rent increase, numbers of .04 and below shall be rounded down to the nearest tenth decimal place and numbers of .05 and above shall be rounded up to the nearest tenth decimal place. In no event, however, shall the allowable annual adjustment be less than zero (0%) or greater than five percent (5%). The Board shall publish and publicize the annual general adjustment on or about October 31st of each year.
+
+B. An upward general adjustment in rent ceilings does not automatically provide for a rent increase. Allowable rent increases pursuant to a general upward adjustment shall become effective only after the landlord gives the tenant at least a 30 days written notice of such rent increase and the notice period expires.
+
+C. If the maximum allowable rent specified under this Chapter for a rental unit is greater than the rent specified for such unit in the rental agreement, the lower rent specified in the rental agreement shall be the maximum allowable rent until the rental agreement expires. If the maximum allowable rent specified under this Chapter for a rental unit is less than the rent specified for such unit in the rental agreement, the lower rent specified under this Chapter shall be the maximum allowable rent.
+
+D. No rent increase pursuant to an upward general adjustment of a rent ceiling shall be effective if the landlord:
+
+1. Has continued to fail to comply, after order of the Board, with any provisions of this Chapter and/or orders or regulations issued thereunder;
+
+2. Has failed to bring the rental unit into compliance with the implied warranty of habitability;
+
+3. Has failed to make repairs as ordered by the housing inspection services of the; or
+
+4. Has failed to completely register by July 1, except as provided in Subsection E below.
+
+E. The amount of an upward general adjustment for which a landlord shall be eligible shall decrease by ten percent (10%) per month for each month beyond October 1 for which the landlord fails to register.
+
+F. An owner who has previously been out of compliance with the ordinance, regulations, or applicable housing, health and safety codes, and has been denied Annual General Adjustments, may be granted them prospectively as set forth in Board regulations. (Ord. 7950-NS § 2, 2024; Ord. 7525-NS § 3, 2016; Ord. 6832-NS § 1, 2004; Ord. 6008-NS § 1, 1990; Ord. 5467-NS § 11, 1982; Ord. 5261-NS § 11, 1980)

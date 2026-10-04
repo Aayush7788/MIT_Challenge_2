@@ -1,0 +1,30 @@
+SOURCE: https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-195527
+RETRIEVED: 2026-10-04 00:38 UTC
+JURISDICTION: Los Angeles, CA
+CITES: L.A. Mun. Code § 151.06.02
+NOTE: Los Angeles Municipal Code § 151.06.02 (Payment of Interest on Security Deposits), full section with history notes, official code publisher American Legal Publishing (codelibrary.amlegal.com), version 2026 Rev. 9 (current). Read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+CA
+Los Angeles
+Los Angeles Municipal Code
+SEC. 151.06.02. PAYMENT OF INTEREST ON SECURITY DEPOSITS.
+2026 Rev. 9 (current)
+CHAPTER XV RENT STABILIZATION ORDINANCE
+
+SEC. 151.06.02. PAYMENT OF INTEREST ON SECURITY DEPOSITS.
+(Added by Ord. No. 166,368, Eff. 12/6/90.)
+A.   Security deposit is defined in Section 1950.5 of the California Civil Code.
+B.   (Amended by Ord. No. 174,017, Eff. 7/16/01.) A landlord who is subject to the provisions of Section 1950.5 of the California Civil Code shall pay annually interest on all security deposits held for at least one year for their tenants as follows:
+1.   (Amended by Ord. No. 175,020, Eff. 2/1/03.) Beginning January 1, 2003, the landlord may determine the annual rate of interest by either of the following methods:
+(a)   Using the annual rate of interest established by the Rent Adjustment Commission (RAC). That rate shall be based on the average of the interest rates on savings accounts paid on September 1 of the previous year, by at least five Federal Deposit Insurance Corporation (FDIC) insured banks with branches in Los Angeles. RAC shall adopt the rate by November 30 of each year and shall publish that rate in a newspaper of general circulation within one week after it is established each year. The interest rate established by the RAC shall be the rate in effect from January 1 through December 31 of the subsequent year.
+(b)   Using the actual interest earned on each security deposit account each year. If the landlord chooses this method of determining the amount of interest due at the time of payment of the security deposit interest, the landlord shall provide the tenant with bank statements indicating the amount of interest earned on the security deposit for that year. In the event the landlord fails to provide that information to the tenant at the time it transmits payment of the interest to the tenant, the interest rate required to be paid, shall be the rate set by RAC.
+(c)   No interest shall accrue on security deposits for the period of January 1, 2002 through December 31, 2002.
+2.   The annual interest rate shall be 2% simple interest per annum for tenants’ security deposits held during the period of January 1, 2001, through December 31, 2001.
+3.   The annual interest rate shall be 5% simple interest per annum for tenants’ security deposits held during the period of November 1, 1990, through December 31, 2000.
+4.   The Los Angeles Housing Department (“LAHD”) shall identify the established interest rate in the annual rental unit registration billings mailed to landlords. LAHD shall publish the established interest rate in a newspaper of general circulation. (Amended by Ord. No. 187,122, Eff. 8/8/21.)
+C.   (Amended by Ord. No. 174,017, Eff. 7/16/01.) Interest shall begin accruing on November 1, 1990, on a monthly basis. A tenant shall be given the unpaid accrued interest in the form of either a direct payment or a credit against the tenant’s rent. The landlord shall choose between these two methods of payment and notify the tenant in writing of the landlord’s choice. The landlord may elect to pay the accrued interest on a monthly or yearly basis.
+D.   Upon termination of tenancy, only the tenant whose security deposit has been held for one year or more shall be entitled to payment of any unpaid accumulated interest on the security deposit. Such payment shall be made at the same time and in the same manner as required for return of security deposits in California Civil Code Section 1950.5(f).
+E.   Upon termination of a landlord’s interest in a property, all accumulated interest on security deposits shall be disposed of in the same manner as required for security deposits by California Civil Code Sections 1950.5(g) and (h).
+F.   Nothing herein shall preclude a landlord from exercising their discretion in investing security deposits.
+G.   In the event the landlord fails to pay interest on the security deposit as provided in this section, the tenant may bring an action for recovery of the amount owed in a court of the appropriate jurisdiction including, but not limited to, small claims court.
+H.   The provisions of this section shall not govern mobile home parks.

@@ -1,0 +1,25 @@
+{
+ "hash": "fe80420b2a52dbc0d3122a41f9892f2596380d46",
+ "key": "NJ / screening_restrictions",
+ "ids": [
+  "r-0042",
+  "r-0043",
+  "r-0044",
+  "r-0045",
+  "r-0046"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0042",
+     "r-0046"
+    ],
+    "key_value": null,
+    "reason": "Both state the NJ Law Against Discrimination's ban on source-of-lawful-income discrimination in housing. r-0042 cites it by code section, N.J.S.A. 10:5-12(g)-(h), and r-0046 cites it by name (LAD)."
+   }
+  ],
+  "coverage_only": []
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "key": "536296bb6feb29b4426bc083183c0744362c271f",
+ "team_rule_id": "r-0012",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D024",
+  "D040",
+  "O030",
+  "O002",
+  "O040",
+  "O033",
+  "O050"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Cal. Civ. Code § 1947.12",
+  "citation_basis": "§ 1947.12: D024 (also named in D040 and O030)",
+  "source_is_law_text": true,
+  "official_doc_id": "D024",
+  "official_quote": "Subject to subdivision (b), an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

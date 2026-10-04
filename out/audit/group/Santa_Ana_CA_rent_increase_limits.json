@@ -1,0 +1,22 @@
+{
+ "hash": "4451872d06daacc51b4d6a08f29bf3c4a03b2cfb",
+ "key": "Santa Ana, CA / rent_increase_limits",
+ "ids": [
+  "r-0106",
+  "r-0107"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0106",
+     "r-0107"
+    ],
+    "key_value": "lesser of 3% or 80% of CPI change (0% if CPI negative); 2.87% for 2026-09-01 to 2027-08-31",
+    "reason": "Both cards describe the same Santa Ana Rent Stabilization (and Just Cause Eviction) Ordinance annual cap: lesser of 3% or 80% of CPI, adjusted once a year with a September 1 effective date."
+   }
+  ],
+  "coverage_only": []
+ }
+}

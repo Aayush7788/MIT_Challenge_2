@@ -1,0 +1,13 @@
+SOURCE: https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/112/1246?f=templates$fn=document-frame.htm$3.0
+RETRIEVED: 2026-10-04 00:20 UTC
+JURISDICTION: NJ
+CITES: N.J.S.A. 2A:42-84.2
+NOTE: Official NJ Legislature statutes database (lis.njleg.state.nj.us), N.J.S.A. 2A:42-84.2 Applicability of municipal rent control ordinances (30-year new-construction exemption, P.L.1987, c.153, s.2, as amended). Found through the site's simple search.
+
+2A:42-84.2. Applicability of municipal rent control ordinances
+
+2. a. In any municipality which has enacted or which hereafter enacts a rent control or rent leveling ordinance, other than under the authority of P.L.1966, c.168 (C.2A:42-74 et seq.), those provisions of the ordinance which limit the periodic or regular increases in base rentals of dwelling units shall not apply to multiple dwellings constructed after the effective date of this act, for a period of time not to exceed the period of amortization of any initial mortgage loan obtained for the multiple dwelling, or for 30 years following completion of construction, whichever is less.
+
+b. In the event that there is no initial mortgage financing, the period of exemption from a rent control or rent leveling ordinance shall be 30 years from the completion of construction.
+
+L.1987,c.153,s.2; amended 1999, c.291, s.1.

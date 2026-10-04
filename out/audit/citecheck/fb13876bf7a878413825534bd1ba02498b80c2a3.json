@@ -1,0 +1,20 @@
+{
+ "key": "fb13876bf7a878413825534bd1ba02498b80c2a3",
+ "team_rule_id": "r-0066",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D010",
+  "O072",
+  "O070"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Boston DND Fair Chance Tenant Selection Policy (February 2017)",
+  "citation_basis": "Policy name, issuing agency (Department of Neighborhood Development) and date (February 2017): D010",
+  "source_is_law_text": false,
+  "official_doc_id": null,
+  "official_quote": null,
+  "is_city_policy": true,
+  "note": "unchanged"
+ }
+}

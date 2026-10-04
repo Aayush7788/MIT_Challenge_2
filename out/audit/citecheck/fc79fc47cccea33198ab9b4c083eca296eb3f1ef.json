@@ -1,0 +1,25 @@
+{
+ "key": "fc79fc47cccea33198ab9b4c083eca296eb3f1ef",
+ "team_rule_id": "r-0086",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D041",
+  "D044",
+  "D042",
+  "O034",
+  "O033",
+  "O030",
+  "O032",
+  "O085"
+ ],
+ "retried": true,
+ "result": {
+  "citation": "L.A. Mun. Code § 151.06 (annual increase, as amended by Ord. No. 188795), § 151.02 (coverage) (Rent Stabilization Ordinance)",
+  "citation_basis": "§ 151.06 and Ord. No. 188795: O032; § 151.02: O085, O034; 'Rent Stabilization Ordinance' as the chapter's own title: O033 (§ 151.00), O085",
+  "source_is_law_text": false,
+  "official_doc_id": "O032",
+  "official_quote": "The allowable annual rent adjustment shall be 90 percent of the percentage change rounded off to the nearest whole number as determined by the Department. If the allowable annual rent adjustment is less than one percent, a landlord may increase the maximum or maximum adjusted rent by up to one percent. In no event, however, may an annual rent increase under this subsection exceed four percent.",
+  "is_city_policy": false,
+  "note": "Replaced the nickname-style cite with the lawyer's § 151.06 and § 151.02 and added Ord. No. 188795, which O032 shows amended § 151.06 effective Feb. 2, 2026 to end the utility and dependent add-ons; the whole section is cited because the card merges several subsections."
+ }
+}

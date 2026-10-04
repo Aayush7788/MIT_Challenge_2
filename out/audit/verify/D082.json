@@ -1,43 +1,43 @@
 {
- "key": "f606ba3570cc11b2f9da240d0c37b800af929a1f",
+ "key": "7a71439e3062c424a86cc87f9d4a502ffe786c95",
  "doc_id": "D082",
  "ids": [
-  "r-0094"
+  "r-0097"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:50:04.268Z",
+ "audited_at": "2026-10-03T23:41:39.813Z",
  "cards": [
   {
-   "team_rule_id": "r-0094",
+   "team_rule_id": "r-0097",
    "requirement": {
     "verdict": "supported",
     "evidence": "3/01/26 – 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90",
-    "note": "Table for Ellis Act evictions lists these amounts per tenant, max per unit, and additional for elderly (62+) or disabled tenant for notices served in that period."
+    "note": "The Ellis Act table gives these amounts per tenant, per unit maximum, and the additional amount for elderly (62 or older) or disabled tenants, for notices served 3/1/26–2/28/27."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "3/01/26 – 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90",
-    "note": "Amounts and period match the Ellis Act table; the 62+ age is in the column header."
+    "note": "The figures match the table row for the Ellis Act, including the 62+ age threshold in the column header."
    },
    "effective_date": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "3/01/26 – 2/28/27",
-    "note": "Rate period begins 3/1/2026, matching 2026-03-01."
+    "note": "The document gives the rate period for notice service starting 3/01/26, but it does not label this as an effective date of a rule. The card's date follows from the start of the period."
    },
    "status": {
     "verdict": "partly_supported",
     "evidence": "3/01/26 – 2/28/27",
-    "note": "The page lists this as the latest rate period, which covers 2026-10-01, but it is an archive page and never uses the words 'in force' or 'current law'."
+    "note": "The page is retrieved 2026-10-01, which falls inside this rate period, and it presents the rate as current. It is an archive page and does not explicitly say in force."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Coverage field is empty on the card."
+    "note": "Coverage is empty on the card."
    },
    "citation": {
-    "verdict": "partly_supported",
-    "evidence": "Relocation payments for tenants evicted under the Ellis Act",
-    "note": "The document names the Rent Ordinance only for Section 37.9C, which applies to the other table. It gives no section for Ellis Act payments, so the card's general 'S.F. Rent Ordinance' citation is not stated for this rule."
+    "verdict": "not_supported",
+    "evidence": null,
+    "note": "The document does not name the S.F. Rent Ordinance section for the Ellis Act relocation payments. It only mentions Rent Ordinance Section 37.9C in a footnote about other evictions. The Ellis Act is mentioned only in the table heading."
    }
   }
  ]

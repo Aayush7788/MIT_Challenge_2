@@ -2,12 +2,12 @@
   "doc_id": "D040",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "extracted_at": "2026-10-03T17:22:55.139Z",
+  "extracted_at": "2026-10-03T23:31:22.827Z",
   "stop_reason": "end_turn",
   "usage": {
     "input": 3641,
-    "output": 3782,
-    "cache_read": 4936,
+    "output": 4164,
+    "cache_read": 5819,
     "cache_write": 0
   },
   "rules": [
@@ -16,11 +16,11 @@
       "level": "city",
       "category": "just_cause_eviction",
       "status": "in_force",
-      "title": "Los Angeles Just Cause for Eviction Ordinance (JCO)",
-      "requirement": "If you rent in Los Angeles in a unit not covered by the Rent Stabilization Ordinance, your landlord can evict you only for a listed at-fault or no-fault reason once you have lived there six months or your original lease has expired. For no-fault evictions, such as owner move-in or demolition, the landlord must pay relocation assistance.",
+      "title": "Los Angeles Just Cause Ordinance (JCO): just cause required, relocation assistance for no-fault evictions",
+      "requirement": "If you rent in Los Angeles in a unit not covered by the Rent Stabilization Ordinance and have lived there at least six months (or your original lease has expired), your landlord can evict you only for a listed at-fault or no-fault reason. For no-fault reasons, such as an owner move-in, demolition or removal from the rental market, the landlord may have to pay you relocation assistance.",
       "key_value": "Just cause required after 6 months' tenancy or lease expiration; relocation assistance for no-fault evictions",
       "coverage": {
-        "summary": "Most residential rental properties in the City of Los Angeles not regulated by the RSO, including buildings newer than October 1, 1978 and properties with only one single-family dwelling. It applies once the tenant has lived in the unit for six months or the original lease has expired, whichever comes first.",
+        "summary": "Most residential rental properties in the City of Los Angeles not regulated by the Rent Stabilization Ordinance, including buildings newer than October 1, 1978 and single-family dwellings. Applies once the tenant has lived in the unit at least six months or the original lease has expired, whichever comes first.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -35,18 +35,18 @@
           "fraternity or sorority houses",
           "owner's roommate",
           "cooperatives under certain circumstances",
-          "some non-profit facilities for the homeless or short-term substance abuse treatment centers",
+          "some non-profit homeless facilities or short-term substance abuse treatment centers",
           "some properties owned by HACLA or the government"
         ]
       },
-      "exemptions": "Units regulated by the RSO (which have their own protections), transient hotels, licensed care facilities, fraternity/sorority houses, owner's roommate, certain cooperatives, some non-profit homeless or treatment facilities, and some HACLA/government-owned properties.",
+      "exemptions": "Units under the RSO (covered separately); transient hotels, licensed care facilities, fraternity/sorority houses, owner's roommate, certain cooperatives, some non-profit homeless or treatment facilities, some HACLA or government properties. Tenancies under six months whose original lease has not expired.",
       "effective_date": null,
       "penalty": null,
       "citation": "Los Angeles Just Cause Ordinance (JCO)",
       "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
-      "interaction": "The page says single-family homes and condos exempt from state just-cause law (AB 1482) under the corporate-ownership and notice conditions are still covered by the JCO.",
+      "interaction": "Covers units not regulated by the City's RSO. Single-family homes and condos exempt from state AB 1482 may still be covered by the JCO.",
       "confidence": 0.8,
       "conflict_flag": false,
       "conflict_note": null
@@ -56,9 +56,9 @@
       "level": "city",
       "category": "just_cause_eviction",
       "status": "in_force",
-      "title": "Minimum rent arrearage (Fair Market Rent threshold) for nonpayment evictions",
-      "requirement": "In any RSO or JCO unit in Los Angeles, your landlord cannot evict you for falling behind on rent unless you owe more than one month's Fair Market Rent for your unit's bedroom size.",
-      "key_value": "Arrears must exceed Fair Market Rent (by bedroom size)",
+      "title": "No eviction for nonpayment unless arrears exceed Fair Market Rent",
+      "requirement": "In Los Angeles RSO and JCO units, your landlord cannot evict you for falling behind on rent unless you owe more than one month's Fair Market Rent for your unit's bedroom size.",
+      "key_value": "Arrears must exceed the Fair Market Rent (FMR) for the unit's bedroom size",
       "coverage": {
         "summary": "All RSO and JCO rental units in the City of Los Angeles.",
         "min_units": null,
@@ -74,7 +74,7 @@
       "exemptions": null,
       "effective_date": "2023-03-27",
       "penalty": null,
-      "citation": "Los Angeles Just Cause Ordinance (JCO)",
+      "citation": "Los Angeles Just Cause Ordinance (JCO) / Rent Stabilization Ordinance (RSO)",
       "quoted_span": "Effective March 27, 2023, landlords may not evict a tenant who falls behind in rent unless the tenant owes an amount higher than the Fair Market Rent (FMR).",
       "yields_to_local_rule": false,
       "may_preempt_local_rules": false,
@@ -84,47 +84,15 @@
       "conflict_note": null
     },
     {
-      "jurisdiction": "Los Angeles, CA",
-      "level": "city",
-      "category": "just_cause_eviction",
-      "status": "in_force",
-      "title": "Eviction notices must be filed with LAHD",
-      "requirement": "Your landlord must file any eviction notice served on you with the Los Angeles Housing Department within three business days. You can check with LAHD whether your notice was filed.",
-      "key_value": "3 business days",
-      "coverage": {
-        "summary": "All JCO and RSO rental properties in the City of Los Angeles.",
-        "min_units": null,
-        "max_units": null,
-        "built_on_or_before": null,
-        "built_after": null,
-        "cutoff_uses_certificate_of_occupancy": false,
-        "exempt_if_newer_than_years": null,
-        "owner_based_exemption_max_units": null,
-        "required_facts_not_in_data": [],
-        "minor_exemptions_not_in_data": []
-      },
-      "exemptions": null,
-      "effective_date": null,
-      "penalty": null,
-      "citation": "Los Angeles Just Cause Ordinance (JCO)",
-      "quoted_span": "All eviction notices issued to tenants in the City of Los Angeles must be filed with LAHD within three (3) business days of service on the tenant.",
-      "yields_to_local_rule": false,
-      "may_preempt_local_rules": false,
-      "interaction": null,
-      "confidence": 0.7,
-      "conflict_flag": false,
-      "conflict_note": null
-    },
-    {
       "jurisdiction": "CA",
       "level": "state",
       "category": "rent_increase_limits",
       "status": "in_force",
-      "title": "California Tenant Protection Act (AB 1482) statewide rent cap",
-      "requirement": "If your unit is more than 15 years old and not under local rent control, your annual rent increase is capped at 5% plus the regional cost-of-living change, or 10%, whichever is lower. Units already covered by Los Angeles's RSO follow the RSO instead.",
-      "key_value": "lesser of 5% + CPI or 10%",
+      "title": "Tenant Protection Act of 2019 (AB 1482) statewide rent cap",
+      "requirement": "If your unit is more than 15 years old and not under local rent control, annual rent increases are capped at 5% plus regional inflation, or 10%, whichever is lower. In Los Angeles the maximum was 8.9% for August 1, 2024 to July 31, 2025.",
+      "key_value": "lesser of 5% + CPI or 10% (8.9% in LA for 8/1/2024–7/31/2025; 8.8% for 8/1/2023–7/31/2024)",
       "coverage": {
-        "summary": "Residential units more than 15 years old (rolling), excluding units already subject to local rent control (LA RSO) and other listed exemptions.",
+        "summary": "Residential units more than 15 years old (rolling), excluding units subject to local rent control (LA RSO), deed-restricted affordable units, certain dormitories, owner-occupied duplexes, and individually owned single-family homes and condos with proper written notice.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -134,23 +102,23 @@
         "owner_based_exemption_max_units": 2,
         "required_facts_not_in_data": [],
         "minor_exemptions_not_in_data": [
-          "deed-restricted affordable housing",
+          "units deed-restricted to low or moderate income households",
           "certain dormitories",
-          "single-family homes and condominiums not owned by a REIT, corporation, or LLC with a corporate member, where the tenant was given written notice"
+          "single-family homes and condominiums not owned by a REIT, corporation, or LLC with a corporate member, with written notice to tenant"
         ]
       },
-      "exemptions": "Units built within the last 15 years (rolling); deed-restricted affordable units; certain dormitories; two-unit properties where the owner occupied the other unit for the entire tenancy; qualifying single-family homes and condos with written notice; units already subject to the RSO.",
+      "exemptions": "Units built within the last 15 years (rolling); deed-restricted affordable units; certain dormitories; two-unit property where owner occupied the other unit for the entire tenancy; individually owned single-family homes/condos with written notice (not where another dwelling unit is on the lot); units subject to the City's RSO.",
       "effective_date": null,
       "penalty": null,
-      "citation": "Cal. Civ. Code § 1947.12 (AB 1482)",
-      "quoted_span": "rent increases are limited to no more than 5% plus the percentage change in the cost of living for the region in which the property is located, or 10% whichever is lower",
+      "citation": "Cal. Civ. Code § 1947.12 (AB 1482, Tenant Protection Act of 2019)",
+      "quoted_span": "nual rent increases are limited to no more than 5% plus the percentage change in the cost of living for the region in which the property is located, or 10% whichever is lower).",
       "yields_to_local_rule": true,
       "may_preempt_local_rules": false,
-      "interaction": "Units already subject to the City's RSO are not covered by AB 1482.",
-      "confidence": 0.7,
+      "interaction": "Does not apply to units already subject to the Los Angeles RSO. Effective date not stated on this page; the rolling-exemption example implies the law applied as of January 1, 2020.",
+      "confidence": 0.8,
       "conflict_flag": false,
       "conflict_note": null
     }
   ],
-  "notes": "The city page does not cite LAMC section numbers for the JCO, so citations use the ordinance name. The page gives AB 1482 caps for the LA region of 8.9% (Aug 2024 to Jul 2025) and 8.8% (Aug 2023 to Jul 2024), but no figure for the period covering the 2026-10-01 query date. The JCO's coverage of buildings newer than Oct 1, 1978 was not coded as a built_after cutoff, because the JCO also covers older non-RSO properties such as single-family homes. The registration and notice-posting requirements (Right to Counsel, Renters' Protections) were not extracted as separate rules."
+  "notes": "City agency summary page. JCO citation (LAMC section) and effective date not stated, so left generic/null. Eviction-notice filing with LAHD, Right to Counsel notice, Renters' Protections notice and registration requirements treated as procedural and not recorded. The page says JCO 'can apply' to buildings newer than October 1, 1978 but also covers single-family dwellings, so no built_after cutoff was set. No RSO rent cap figures are stated."
 }

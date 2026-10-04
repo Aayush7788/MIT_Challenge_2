@@ -1,0 +1,20 @@
+{
+ "key": "506f1c12cf8fa8606a8282b37a87568b9907160f",
+ "team_rule_id": "r-0068",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D031",
+  "O099",
+  "O100"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Cambridge Mun. Code § 8.71.040.1 (Ord. No. 2020-15; Ord. No. 2024-3)",
+  "citation_basis": "ch. 8.71, § 8.71.040.1, Ord. No. 2020-15, Ord. No. 2024-3: O099 (ch. 8.71 also D031)",
+  "source_is_law_text": false,
+  "official_doc_id": "O099",
+  "official_quote": "At the inception of a tenancy and when a landlord or foreclosing owner serves the tenant or former homeowners any notice to quit or notice of lease nonrenewal or expiration, such landlord or foreclosing owner shall, at the same time, also provide the tenant or former homeowner with a notice of basic housing rights and resources, including a list of organizations available to assist tenants and/or former homeowners with their contact information on a form or forms prepared by the City of Cambridge which shall be attached thereto.",
+  "is_city_policy": false,
+  "note": "Narrowed the chapter cite to § 8.71.040.1, the subsection requiring the notice when a notice to quit is served, and added the enacting and amending ordinances shown in the official code's history note."
+ }
+}

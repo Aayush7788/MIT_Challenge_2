@@ -179,6 +179,9 @@ say(f"Change tracking   {chg_score:5.1f} / 15")
 for t, s, g, w in chg:
     say(f"    {t}: overlap {s:.2f} (ours {g}, expected {w})")
 say(f"SCRIPTED TOTAL    {total:5.1f} / 75")
+if os.path.exists("out/audit/lawyer-check.txt"):
+    say("")
+    say(open("out/audit/lawyer-check.txt").read().split("\n\n")[0])
 print("\n".join(lines))
 os.makedirs("out/audit", exist_ok=True)
 open("out/audit/selfscore.txt", "w").write("\n".join(lines) + "\n")

@@ -1,18 +1,18 @@
 {
- "key": "e80da517eab736fdaac8792ccd8687f52f70146d",
+ "key": "ade234f9a677eebb52e7f04dc63ff599542b0582",
  "doc_id": "D049",
  "ids": [
-  "r-0030"
+  "r-0033"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:46:30.936Z",
+ "audited_at": "2026-10-03T23:38:05.978Z",
  "cards": [
   {
-   "team_rule_id": "r-0030",
+   "team_rule_id": "r-0033",
    "requirement": {
     "verdict": "supported",
     "evidence": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program.",
-    "note": "Both parts are stated. Section 4(10) covers the discrimination ban. Section 4(7B) bars notices and advertisements indicating a preference, limitation or discrimination based on public assistance recipiency."
+    "note": "Ad preference ban is supported by § 4(7B), which lists public assistance recipiency among prohibited bases for advertisements."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -26,8 +26,8 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program.",
-    "note": "The document presents the rule as current law, with no repeal or expiry noted."
+    "evidence": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies",
+    "note": "The document presents the rule as current law, retrieved 2026-10-01."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -36,8 +36,8 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance",
-    "note": "The document is M.G.L. c. 151B § 4. Subsection 10 is the source-of-income rule, and 7B contains the advertising provision."
+    "evidence": "7B. For any person to make print, or publish, or cause to be made, printed, or published any notice, statement or advertisement, with respect to the sale or rental of multiple dwelling, contiguously located, publicly assisted or other covered housing accommodations that indicates any preference, limitation, or discrimination based on race, color, religion, sex, gender identity, sexual orientation which shall not include persons whose sexual orientation involves minor children as the sex object, national origin, genetic information, ancestry, children, marital status, public assistance recipiency, or handicap",
+    "note": "Citations to c. 151B § 4(10) and § 4(7B) match the document's provisions."
    }
   }
  ]

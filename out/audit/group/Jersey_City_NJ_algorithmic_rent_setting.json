@@ -1,0 +1,22 @@
+{
+ "hash": "81aae9389169baed62ee2c41810a2bc32deef08c",
+ "key": "Jersey City, NJ / algorithmic_rent_setting",
+ "ids": [
+  "r-0074",
+  "r-0075"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0074",
+     "r-0075"
+    ],
+    "key_value": "Ban on using algorithmic rent-setting services; violations $100-$2,000 per day",
+    "reason": "Both cards cite Jersey City Code § 218-12. The second card adds the enacting ordinance, Ord. 25-057. Both describe the same ban on algorithmic rent-setting services with the same fine ceiling of $2,000 per day."
+   }
+  ],
+  "coverage_only": []
+ }
+}

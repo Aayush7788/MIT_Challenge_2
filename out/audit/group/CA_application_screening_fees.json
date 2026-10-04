@@ -1,0 +1,16 @@
+{
+ "hash": "33ea8eb99222cea029ffac530b5c381f2afe3d49",
+ "key": "CA / application_screening_fees",
+ "ids": [
+  "r-0004",
+  "r-0005",
+  "r-0006",
+  "r-0007",
+  "r-0008"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [],
+  "coverage_only": []
+ }
+}

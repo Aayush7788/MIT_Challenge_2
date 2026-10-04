@@ -1,77 +1,179 @@
 {
- "key": "b36689da50decb4a5ac9a56db4684e76640dd603",
+ "key": "e3b4c8485b8ff1b345de8c416cfb63836631f7f8",
  "doc_id": "D026",
  "ids": [
+  "r-0004",
   "r-0005",
-  "r-0006"
+  "r-0006",
+  "r-0007",
+  "r-0008"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:44:43.396Z",
+ "audited_at": "2026-10-03T23:36:31.182Z",
  "cards": [
+  {
+   "team_rule_id": "r-0004",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant.",
+    "note": "The \"ask for the current figure\" advice is added, but the cap and CPI adjustment are stated in the text."
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+    "note": "Also matches the actual out-of-pocket cost limit in (b)."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
+    "note": "Presented as current law as of the retrieval date."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant.",
+    "note": "The cap is in subdivision (b) of § 1950.6; the card cites the section generally."
+   }
+  },
   {
    "team_rule_id": "r-0005",
    "requirement": {
     "verdict": "supported",
     "evidence": "A landlord or their agent shall not charge an applicant an application screening fee when they know or should have known that no rental unit is available at that time or will be available within a reasonable period of time.",
-    "note": "The card also correctly describes the two alternatives in (c)(2): the first-come process with written criteria and charging only when considered, or a full refund to non-selected applicants within 7 days of selection or 30 days of submission, whichever is first."
-   },
-   "key_value": {
-    "verdict": "supported",
-    "evidence": "An application screening process in which the landlord or their agent returns the entire screening fee to any applicant who is not selected for tenancy, regardless of the reason, within 7 days of selecting an applicant for tenancy or 30 days of when the application was submitted, whichever occurs first.",
     "note": null
    },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty."
+   },
    "effective_date": {
-    "verdict": "partly_supported",
-    "evidence": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
-    "note": "The document gives January 1, 2026 as the effective date of the latest amendment of the section, not necessarily of the subdivision (c) rules themselves. It is reasonable as the current version's date."
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty."
    },
    "status": {
     "verdict": "supported",
     "evidence": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
-    "note": "The document presents the section as current law, retrieved 2026-10-01, after the January 1, 2026 effective date."
+    "note": "Presented as current law."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "The coverage field is empty on the card."
+    "note": "Field is empty."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "(c) (1) A landlord or their agent shall not charge an applicant an application screening fee when they know or should have known that no rental unit is available at that time or will be available within a reasonable period of time.",
-    "note": "Section 1950.6(c) contains the described rules."
+    "note": null
    }
   },
   {
    "team_rule_id": "r-0006",
    "requirement": {
     "verdict": "supported",
-    "evidence": "The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant, which receipt shall itemize the out-of-pocket expenses and time spent by the landlord or their agent to obtain and process the information about the applicant.",
-    "note": "Email delivery by agreement is in the next sentence of (d), and the 7-day credit report copy is in (f)."
+    "evidence": "(B) An application screening process in which the landlord or their agent returns the entire screening fee to any applicant who is not selected for tenancy, regardless of the reason, within 7 days of selecting an applicant for tenancy or 30 days of when the application was submitted, whichever occurs first.",
+    "note": "Both alternatives in (c)(2)(A) and (B) are stated in the text, including the 7-day refund for inadvertent collection."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "If an application screening fee has been paid by the applicant, the landlord or their agent shall provide a copy of the consumer credit report to the applicant who is the subject of that report by personal delivery, mail, or email within seven days of the landlord or their agent receiving the report.",
-    "note": "The itemized receipt requirement is in (d)."
+    "evidence": "within 7 days of selecting an applicant for tenancy or 30 days of when the application was submitted, whichever occurs first.",
+    "note": null
    },
    "effective_date": {
-    "verdict": "partly_supported",
-    "evidence": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
-    "note": "The document gives January 1, 2026 as the effective date of the latest amendment of the section, not necessarily of the (d) and (f) rules themselves."
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty."
    },
    "status": {
     "verdict": "supported",
     "evidence": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
-    "note": "The document presents the section as current law as of retrieval on 2026-10-01."
+    "note": "Presented as current law."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "The coverage field is empty on the card."
+    "note": "Field is empty."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "(d) The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant",
-    "note": "Subdivisions (d) and (f) contain the described rules."
+    "evidence": "(2) A landlord or their agent may charge an applicant an application screening fee only if the landlord or their agent, at the time the application screening fee is collected, offers any of the following:",
+    "note": null
+   }
+  },
+  {
+   "team_rule_id": "r-0007",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant, which receipt shall itemize the out-of-pocket expenses and time spent by the landlord or their agent to obtain and process the information about the applicant.",
+    "note": "The (e) refund duty is also stated, in similar terms."
+   },
+   "key_value": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty."
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
+    "note": "Presented as current law."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "If the landlord or their agent does not perform a personal reference check or does not obtain a consumer credit report, the landlord or their agent shall return any amount of the screening fee that is not used for the purposes authorized by this section to the applicant.",
+    "note": "Subdivisions (d) and (e) match the cited provisions."
+   }
+  },
+  {
+   "team_rule_id": "r-0008",
+   "requirement": {
+    "verdict": "supported",
+    "evidence": "If an application screening fee has been paid by the applicant, the landlord or their agent shall provide a copy of the consumer credit report to the applicant who is the subject of that report by personal delivery, mail, or email within seven days of the landlord or their agent receiving the report.",
+    "note": null
+   },
+   "key_value": {
+    "verdict": "supported",
+    "evidence": "within seven days of the landlord or their agent receiving the report.",
+    "note": null
+   },
+   "effective_date": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty."
+   },
+   "status": {
+    "verdict": "supported",
+    "evidence": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
+    "note": "Presented as current law."
+   },
+   "coverage": {
+    "verdict": "not_applicable",
+    "evidence": null,
+    "note": "Field is empty."
+   },
+   "citation": {
+    "verdict": "supported",
+    "evidence": "(f) If an application screening fee has been paid by the applicant, the landlord or their agent shall provide a copy of the consumer credit report to the applicant who is the subject of that report by personal delivery, mail, or email within seven days of the landlord or their agent receiving the report.",
+    "note": null
    }
   }
  ]

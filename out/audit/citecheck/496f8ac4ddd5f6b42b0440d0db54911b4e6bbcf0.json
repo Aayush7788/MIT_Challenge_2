@@ -1,0 +1,23 @@
+{
+ "key": "496f8ac4ddd5f6b42b0440d0db54911b4e6bbcf0",
+ "team_rule_id": "r-0036",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D069",
+  "D034",
+  "O083",
+  "O020",
+  "O011",
+  "D035"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "N.J.S.A. 56:9-20 to 56:9-26 (P.L. 2026, c.43; A3497 ACS 1R)",
+  "citation_basis": "N.J.S.A. 56:9-20 to 56:9-26: D069 ('C.56:9-20 to 56:9-26'); P.L. 2026, c.43: D069 ('P.L. 2026, CHAPTER 43'); A3497 ACS 1R: D069 ('Assembly Committee Substitute (First Reprint) for Assembly, No. 3497')",
+  "source_is_law_text": true,
+  "official_doc_id": "D069",
+  "official_quote": "It shall be unlawful and a violation of the “New Jersey Antitrust Act,” P.L.1970, c.73 (C.56:9-1 et seq.) for: a. a rental property owner, or any agent, representative, or subcontractor thereof, to receive, subscribe to, contract for, or otherwise exchange any form of consideration in return for the use of, the services of a coordinator;",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

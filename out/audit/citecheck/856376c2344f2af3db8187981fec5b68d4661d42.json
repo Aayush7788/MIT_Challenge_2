@@ -1,0 +1,21 @@
+{
+ "key": "856376c2344f2af3db8187981fec5b68d4661d42",
+ "team_rule_id": "r-0070",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D034",
+  "D033",
+  "X003",
+  "X004"
+ ],
+ "retried": true,
+ "result": {
+  "citation": "Hoboken Code § 158-2 (ordinance adopted July 9, 2025)",
+  "citation_basis": "§ 158-2: D034 (ordinance title and Section One); adopted July 9, 2025: D034 (adoption record and meeting history)",
+  "source_is_law_text": true,
+  "official_doc_id": "D034",
+  "official_quote": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing. For purposes of this chapter, “price fixing using algorithmic pricing”shall be defined as the use of software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information from other real estate lessors in order to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels for residential dwelling units among competing real estate lessors.",
+  "is_city_policy": false,
+  "note": "Added the July 9, 2025 adoption date because D034 states no ordinance number, and kept § 158-2 as the ordinance title and Section One state, though the ordinance body is headed '§ 154-8', a conflict for the reviewer note."
+ }
+}

@@ -35,7 +35,7 @@ const SYSTEM = `You translate rule cards for a renter-facing housing law tool in
 type Entry = { title: string; requirement: string; key_value: string | null; source_hash: string };
 
 async function main() {
-  const rules = normalizeRules(JSON.parse(fs.readFileSync("submission/rules.json", "utf8"))).rules;
+  const rules = normalizeRules(JSON.parse(fs.readFileSync("submission/rules.json", "utf8")), { consolidate: false }).rules;
   const cache: Record<string, Entry> = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : {};
   const hash = (r: (typeof rules)[number]) => crypto.createHash("sha1").update(`${r.title}\n${r.requirement}\n${r.key_value ?? ""}`).digest("hex");
   const todo = rules.filter((r) => cache[r.team_rule_id]?.source_hash !== hash(r));

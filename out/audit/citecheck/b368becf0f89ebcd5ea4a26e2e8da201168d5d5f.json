@@ -1,0 +1,22 @@
+{
+ "key": "b368becf0f89ebcd5ea4a26e2e8da201168d5d5f",
+ "team_rule_id": "r-0076",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "X003",
+  "X004",
+  "D033",
+  "D034",
+  "O080"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Hoboken Public Question, Nov. 5, 2024 general election (initiative ordinance amending Hoboken Code § 155-31)",
+  "citation_basis": "Nov. 5, 2024 general election: X003; § 155-31: X003 (also X004)",
+  "source_is_law_text": true,
+  "official_doc_id": "X003",
+  "official_quote": "Shall the ordinance submitted by initiative petition, providing for an amendment to Hoboken City Code Chapter 155 (Rent Control) at Section 155-31 to provide an option to landlords to pay a fee of $2,500 to the Hoboken Affordable Housing Fund in order to lease voluntarily vacated apartments at a freely negotiated rent, which thereafter remain subject to the provisions of the Rent Control ordinance, including limitations on annual increases, be adopted?",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

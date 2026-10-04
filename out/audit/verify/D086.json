@@ -1,18 +1,18 @@
 {
- "key": "2812affa2f94761726cf7a12027f02a9da11495e",
+ "key": "0f69e0360ed642c63792154bd467dab30c1b7782",
  "doc_id": "D086",
  "ids": [
-  "r-0098"
+  "r-0101"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:50:17.635Z",
+ "audited_at": "2026-10-03T23:41:53.377Z",
  "cards": [
   {
-   "team_rule_id": "r-0098",
+   "team_rule_id": "r-0101",
    "requirement": {
-    "verdict": "partly_supported",
-    "evidence": "Bans Price-Fixing Software: Prohibits the use of certain algorithmic rent-setting tools in the local rental market.",
-    "note": "The ban on certain algorithmic tools and the lowered burden of proof (only use of the software, not collusion) are stated. The newsletter says the concern is tools using nonpublic data and that tools relying on public data are not restricted, but it does not define the prohibited software precisely as 'relies on nonpublic market data'. The card also leaves out the exemptions for public data, historical trends and affordable housing compliance."
+    "verdict": "supported",
+    "evidence": "Prohibits the use of certain algorithmic rent-setting tools in the local rental market.",
+    "note": "The document also covers nonpublic data, the civil action, the lower burden of proof, and the remedies. The card's wording is plainer but consistent with the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -20,14 +20,14 @@
     "note": null
    },
    "effective_date": {
-    "verdict": "not_applicable",
-    "evidence": null,
-    "note": "The card's effective_date is null."
+    "verdict": "partly_supported",
+    "evidence": "Approved on March 3, 2026, this action responds to concerns that some tools use nonpublic market data",
+    "note": "The document gives only the approval date of March 3, 2026. The card adds 30 days under Gov. Code § 36937 to reach 2026-04-02, which assumes March 3 was final adoption. March 3 plus 30 days is April 2, so the arithmetic is right, but the document states no effective date."
    },
    "status": {
     "verdict": "supported",
     "evidence": "The Santa Ana City Council has adopted a new ordinance to strengthen renter protections by limiting the use of certain rent-setting software for residential properties.",
-    "note": "The document presents the ordinance as adopted, current law. No effective date is given, which is acceptable for in_force."
+    "note": "The document presents the ordinance as adopted. The card's computed effective date of April 2, 2026 is before the as-of date of 2026-10-01, so in_force is consistent."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -37,7 +37,7 @@
    "citation": {
     "verdict": "supported",
     "evidence": "Approved on March 3, 2026, this action responds to concerns that some tools use nonpublic market data—such as real-time rents, lease activity, and occupancy levels—to influence pricing in ways that may drive rents higher.",
-    "note": "The adoption date of March 3, 2026 is stated. The document gives no ordinance number, as the card acknowledges."
+    "note": "The card names the ordinance, the March 3, 2026 adoption date, and the missing section numbers, all consistent with the document."
    }
   }
  ]

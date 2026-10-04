@@ -1,0 +1,13 @@
+{
+ "hash": "a9293fcdffd5b04ca84dd591b63b1354fac70121",
+ "key": "Berkeley, CA / application_screening_fees",
+ "ids": [
+  "r-0051",
+  "r-0052"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [],
+  "coverage_only": []
+ }
+}

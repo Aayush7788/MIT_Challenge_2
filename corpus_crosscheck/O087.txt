@@ -1,0 +1,23 @@
+SOURCE: https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-195445
+RETRIEVED: 2026-10-04 00:39 UTC
+JURISDICTION: Los Angeles, CA
+CITES: L.A. Mun. Code § 151.06(D)
+NOTE: Los Angeles Municipal Code § 151.06 (Automatic Adjustments): heading, history note, opening sentence and Subsection D (annual adjustment, as amended by Ord. No. 188,795 and Ord. No. 188,911); Subsections A-C and E-G omitted. Official code publisher American Legal Publishing (codelibrary.amlegal.com), version 2026 Rev. 9 (current). Read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+CA
+Los Angeles
+Los Angeles Municipal Code
+SEC. 151.06. AUTOMATIC ADJUSTMENTS.
+2026 Rev. 9 (current)
+CHAPTER XV RENT STABILIZATION ORDINANCE
+
+SEC. 151.06. AUTOMATIC ADJUSTMENTS.
+(Title Amended by Ord. No. 153,552, Eff. 5/1/80; Section Amended by Ord. No. 154,237, Eff. 8/30/80, Oper. 9/1/80.)
+The maximum rent or maximum adjusted rent for a rental unit may be increased without permission of the Rent Adjustment Commission or the Department, as follows:
+D.   (Amended by Ord. No. 188,795, Eff. 2/2/26.) The maximum rent or maximum adjusted rent may be increased annually based on 90 percent of the difference between the average of the Consumer Price Index for All Urban Consumers for All items in Los Angeles-Long Beach-Anaheim, CA for the most recent consecutive 12-month period ending on September 30 and the average of the same index for the prior consecutive 12-month period ending on September 30, calculated as a percentage and rounded off to the nearest whole number.
+The allowable annual rent adjustment shall be 90 percent of the percentage change rounded off to the nearest whole number as determined by the Department. If the allowable annual rent adjustment is less than one percent, a landlord may increase the maximum or maximum adjusted rent by up to one percent. In no event, however, may an annual rent increase under this subsection exceed four percent. An annual rent adjustment under this subsection may be applied to any annual rent increase that first becomes effective on or before July 1, through June 30, of each year. The Department shall publish in a newspaper of general circulation the allowable annual rent adjustment on or before May 30 of each year. No rent increase may be imposed pursuant to this subsection within twelve consecutive months of the effective date of a prior rent increase pursuant to this subsection or Subsections A., B., C., D., or F.1. of this section.
+Any annual rent increase that goes into effect on or after the effective date of this subsection shall comply with this subsection. (Amended by Ord. No. 188,911, Eff. 4/20/26.)
+A landlord shall not impose an annual rent increase for a rental unit pursuant to this subsection if any of the following apply:
+1.   The rental unit is the subject of a notice of noncompliance sent to the Franchise Tax Board pursuant to Revenue and Taxation Code Section 17274 as may be amended, and the violations that were the subject of the Notice have not been corrected;
+2.   The rental unit is the subject of a notice of rent reduction issued under to this chapter or a Notice of Acceptance into the Rent Escrow Account Program under Chapter 15, Article 2 of this Code, and the conditions that caused the placement have not been corrected; or
+3.   A criminal conviction has been obtained related to the landlord’s failure to comply with a citation or order issued by the Department of Building and Safety, Fire Department, or the Los Angeles County Department of Health about the subject rental unit, and the conditions that caused the conviction have not been corrected.

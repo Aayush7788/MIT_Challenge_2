@@ -1,0 +1,23 @@
+{
+ "key": "6a21d45735070d0dcbd838f0720682d4f22f607b",
+ "team_rule_id": "r-0060",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D003",
+  "O094",
+  "O050",
+  "O092",
+  "O053",
+  "X002"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Berkeley Mun. Code ch. 13.106",
+  "citation_basis": "ch. 13.106: O094 (also D003, 'BMC 13.106')",
+  "source_is_law_text": false,
+  "official_doc_id": "O094",
+  "official_quote": "Except as provided in Paragraphs B and C of this Section, a Housing Provider shall not, at any time or by any means, whether direct or indirect, inquire about an Applicant’s Criminal History, require an Applicant to disclose their Criminal History, require an Applicant to authorize the release of their Criminal History or, if such information is received, base an Adverse Action in whole or in part on an Applicant’s Criminal History. The Housing Provider shall provide the Applicant an opportunity to respond with rebutting or mitigating information prior to the denial of the Applicant’s housing application.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

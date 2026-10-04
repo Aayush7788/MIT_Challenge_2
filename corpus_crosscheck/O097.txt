@@ -1,0 +1,81 @@
+SOURCE: https://library.municode.com/ca/santa_ana/codes/code_of_ordinances?nodeId=PTIITHCO_CH8BUST_ARTXXIVPRANMPAUREPRXI
+RETRIEVED: 2026-10-04 00:48 UTC
+JURISDICTION: Santa Ana, CA
+CITES: Santa Ana Mun. Code ch. 8, art. XXIV, §§ 8-3700 to 8-3703 (Ord. No. NS-3090, § 3, 3-3-26)
+NOTE: Santa Ana Code of Ordinances, Chapter 8, Article XXIV (Prohibition of Anti-Competitive Automated Rent Price-Fixing), whole article as codified, from the city's official code on Municode Library (version Sep 1, 2026, current); reached from the code's table of contents. Municode's share/print button labels and 'new' badges removed. Read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+Santa Ana, California - Code of Ordinances Chapter 8 - BUILDINGS AND STRUCTURES  ARTICLE XXIV. - PROHIBITION OF ANTI-COMPETITIVE AUTOMATED RENT PRICE-FIXING
+
+VERSION: SEP 1, 2026 (CURRENT)
+
+ARTICLE XXIV. - PROHIBITION OF ANTI-COMPETITIVE AUTOMATED RENT PRICE-FIXING
+
+Sec. 8-3700. - Purpose and intent.
+
+The purpose and intent of this Article is to protect the residents of Santa Ana from artificially inflated rental rates and unfair rent increases by prohibiting the sale, licensing, and use of Algorithmic Devices. This Article also provides Tenants with remedies for violations of this Article.
+
+(Ord. No. NS-3090, § 3, 3-3-26)
+
+Sec. 8-3701. - Definitions.
+
+(a)
+
+For purposes of this Article, the words and phrases shall be defined as set forth herein, unless the context clearly indicates a different meaning is intended.
+
+(b)
+
+Words and phrases used in this Article, which are not specifically defined, shall be construed according to their context and the customary usage of the language.
+
+(c)
+
+Words and phrases defined:
+
+"Algorithmic Device" means a software or product that uses or incorporates one or more algorithms to perform calculations of Nonpublic Competitor Data concerning rental rates, occupancy levels, or other information regarding the leasing of Residential Rental Property to advise a Landlord on, or recommend to a Landlord, rental rates or occupancy levels that may be achieved for a Residential Rental Property in the City of Santa Ana. Algorithmic Device does not include either of the following:
+
+1)
+
+A software or product used by a Person to publish reports regarding rental rates or occupancy levels from aggregated historical Nonpublic Competitor Data that is more than 90 days old, or from information available to the general public, and does not recommend rental rates or occupancy levels for future Residential Rental Property Leases or renewals.
+
+2)
+
+A software or product used by a Person to establish rental rates or income limits in accordance with local, state, or federal affordable housing program guidelines.
+
+"Landlord" means an owner and any Person, acting as principal or through an agent, who has the right to offer Residential Real Property for rent, and includes a predecessor in interest to the Landlord.
+
+"Lease" means any lease, sublease, or agreement, written or oral, for the use and occupancy of Residential Rental Property.
+
+"Nonpublic Competitor Data" means information that is not available to the general public, whether the information is attributable to a specific competitor or anonymized or whether the information is derived from or otherwise provided by another Person. Nonpublic Competitor Data includes information about actual rental rates, rental rate changes, Residential Rental Property supply levels, occupancy levels, or Lease start and end dates.
+
+"Person" means any natural person, firm, joint venture, joint stock company, partnership, association, club, company, corporation, business trust, organization, or the manager, lessee, agent, servant, officer or employee of any of them or any other entity which is recognized by law as the subject of rights or duties.
+
+"Residential Rental Property" means any dwelling or unit that is intended for human habitation, including any dwelling or unit in a mobile home park.
+
+"Tenant" means a tenant, subtenant, lessee, sublessee, or any other natural person entitled to Lease any Residential Real Property.
+
+(Ord. No. NS-3090, § 3, 3-3-26)
+
+Sec. 8-3702. - Use and sale of algorithmic devices prohibited.
+
+(a)
+
+It is unlawful for a person to sell, license, or otherwise provide an Algorithmic Device to a Landlord.
+
+(b)
+
+It is unlawful for a Landlord to use an Algorithmic Device to set rental rates or occupancy levels for Residential Real Property. For each month a violation of Section 8-3702(b) exists or continues, and for each Residential Rental Property a Landlord uses an Algorithmic Device, it shall constitute a separate and distinct violation.
+
+(Ord. No. NS-3090, § 3, 3-3-26)
+
+Sec. 8-3703. - Remedies.
+
+(a)
+
+A Tenant may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation of this Article, in a civil action against a Landlord. In an action brought under this Article, a prevailing Tenant shall recover costs and reasonable attorney's fees. A prevailing Tenant includes a Tenant granted an order for injunctive relief. A Lease provision that limits a Tenant from recovering attorney's fees shall not be enforceable against a Tenant's claim for attorney's fees that arise under this Article.
+
+(b)
+
+The remedies under Section 8-3703 are cumulative and are in addition to any other remedies in this Article or at law, statute, or ordinance.
+
+(Ord. No. NS-3090, § 3, 3-3-26)
+
+Secs. 8-3704—8-3799. - Reserved.

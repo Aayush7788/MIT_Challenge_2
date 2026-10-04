@@ -1,0 +1,13 @@
+{
+ "hash": "a213644696d2eadd6881bdc610408c59554f2d82",
+ "key": "Boston, MA / screening_restrictions",
+ "ids": [
+  "r-0066",
+  "r-0067"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [],
+  "coverage_only": []
+ }
+}

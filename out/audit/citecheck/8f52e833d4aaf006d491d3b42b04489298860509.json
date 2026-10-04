@@ -1,0 +1,24 @@
+{
+ "key": "8f52e833d4aaf006d491d3b42b04489298860509",
+ "team_rule_id": "r-0014",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D027",
+  "D016",
+  "O050",
+  "O030",
+  "O063",
+  "O041",
+  "O064"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Cal. Gov. Code § 12955",
+  "citation_basis": "§ 12955: D027",
+  "source_is_law_text": true,
+  "official_doc_id": "D027",
+  "official_quote": "(o) (1) In instances in which there is a government rent subsidy, to do either of the following: (A) Use a financial or income standard in assessing eligibility for the rental of housing that is not based on the portion of the rent to be paid by the tenant.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

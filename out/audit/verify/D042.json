@@ -1,18 +1,18 @@
 {
- "key": "9040588430355d64e84f3403e602f3976889b6d3",
+ "key": "fa3698a097892a7dac1fdcfab8a51378c7c7b831",
  "doc_id": "D042",
  "ids": [
-  "r-0081"
+  "r-0084"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:49:14.880Z",
+ "audited_at": "2026-10-03T23:40:49.792Z",
  "cards": [
   {
-   "team_rule_id": "r-0081",
+   "team_rule_id": "r-0084",
    "requirement": {
     "verdict": "supported",
     "evidence": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
-    "note": "Document applies this to RSO units in context; card's wording is plainer but matches."
+    "note": "Card's wording matches; the document states it in the context of RSO units' annual increase."
    },
    "key_value": {
     "verdict": "supported",
@@ -22,22 +22,22 @@
    "effective_date": {
     "verdict": "supported",
     "evidence": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
-    "note": "The 2026-02-02 date is stated. The 2025-07-01 date in extractor notes relates to the 3% annual increase period, not this rule."
+    "note": "The date 2026-02-02 matches. The 2025-07-01 date in the extractor notes refers to the 3% annual increase period, not this rule."
    },
    "status": {
     "verdict": "supported",
     "evidence": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
-    "note": "Presented as current law; the date is before 2026-10-01, so in force as of that date."
+    "note": "The page, retrieved 2026-10-01, presents the rule as current law and the date has passed."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Coverage is null on the card."
+    "note": "Coverage is empty on the card."
    },
    "citation": {
     "verdict": "partly_supported",
     "evidence": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective",
-    "note": "The document names the RSO generally but cites no specific section of the ordinance for the utilities rule; the citation is only a general name."
+    "note": "The document refers to the RSO generally but gives no section number. The card cites only the ordinance name, which is consistent with the page but not a specific provision."
    }
   }
  ]

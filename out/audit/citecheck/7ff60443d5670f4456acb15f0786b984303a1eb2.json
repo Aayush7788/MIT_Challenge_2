@@ -1,0 +1,24 @@
+{
+ "key": "7ff60443d5670f4456acb15f0786b984303a1eb2",
+ "team_rule_id": "r-0014",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D027",
+  "D016",
+  "O050",
+  "O030",
+  "O063",
+  "O041",
+  "O064"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Cal. Gov. Code § 12955",
+  "citation_basis": "§ 12955: D027 (leginfo code section text)",
+  "source_is_law_text": true,
+  "official_doc_id": "D027",
+  "official_quote": "(a) For the owner of any housing accommodation to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information of that person. (o) (1) In instances in which there is a government rent subsidy, to do either of the following: (A) Use a financial or income standard in assessing eligibility for the rental of housing that is not based on the portion of the rent to be paid by the tenant.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

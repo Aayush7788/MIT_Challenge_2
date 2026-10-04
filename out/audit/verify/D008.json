@@ -1,18 +1,18 @@
 {
- "key": "bee79c26f024a1ef23f44aadd1b2315a21ff77e3",
+ "key": "5e33ea64522ed8e18e5ae63475b0f81734191a61",
  "doc_id": "D008",
  "ids": [
-  "r-0055"
+  "r-0058"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:47:56.678Z",
+ "audited_at": "2026-10-03T23:39:31.944Z",
  "cards": [
   {
-   "team_rule_id": "r-0055",
+   "team_rule_id": "r-0058",
    "requirement": {
     "verdict": "supported",
     "evidence": "adopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
-    "note": "Regulation 1148 conditions, notice, and contact number are all stated in the notice. \"No more than 1.0%\" is a slight paraphrase of the stated increase."
+    "note": "Regulation 1148 conditions, notice, and contact number are also stated in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -20,24 +20,24 @@
     "note": null
    },
    "effective_date": {
-    "verdict": "partly_supported",
-    "evidence": "which will allow eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
-    "note": "January 1, 2026 is the earliest date the increase may be taken, not formally the effective date of the order, though this is a small step."
+    "verdict": "supported",
+    "evidence": "increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
+    "note": "Jan 1, 2026 is the earliest date increases may take effect."
    },
    "status": {
     "verdict": "supported",
     "evidence": "adopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
-    "note": "The notice presents the order as adopted and current. As of 2026-10-01, nothing in the document indicates it was repealed."
+    "note": "Presented as current law; adopted Oct 2025 and effective Jan 2026, so in force as of 2026-10-01."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "The card's coverage field is null."
+    "note": "Coverage is empty on the card."
    },
    "citation": {
-    "verdict": "partly_supported",
+    "verdict": "supported",
     "evidence": "See Berkeley Municipal Code section 13.76.110A. for rules related to establishing the AGA.",
-    "note": "The notice cites BMC 13.76.110A for establishing the AGA and identifies the Order as Rent Board Regulation 1148. The card ties both to one citation, which is acceptable, but 110A is about establishing the AGA, not the order's conditions."
+    "note": "Regulation 1148 is also named in the document as the Order."
    }
   }
  ]

@@ -1,0 +1,41 @@
+SOURCE: https://library.municode.com/ca/santa_ana/codes/code_of_ordinances?nodeId=PTIITHCO_CH8BUST_ARTXIXRESTJUCAEVOR
+RETRIEVED: 2026-10-04 00:49 UTC
+JURISDICTION: Santa Ana, CA
+CITES: Santa Ana Mun. Code ch. 8, art. XIX; § 8-3100; § 8-3120(a); § 8-3140
+NOTE: Santa Ana Code of Ordinances, Chapter 8, Article XIX (Rent Stabilization and Just Cause Eviction Ordinance), excerpt as codified: article heading, § 8-3100 (Title), Division 2 heading, § 8-3120 heading, subsection (a) and history note (rest of the 22,800-character section omitted), Division 3 heading, § 8-3140 (Prohibited increases). Official code on Municode Library (version Sep 1, 2026, current); history notes list Ord. Nos. NS-3027 (10-18-22), NS-3052 (10-17-23) and NS-3073 (11-5-24) only. Municode button labels removed. Read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+Santa Ana, California - Code of Ordinances Chapter 8 - BUILDINGS AND STRUCTURES  ARTICLE XIX. - RENT STABILIZATION AND JUST CAUSE EVICTION ORDINANCE
+
+VERSION: SEP 1, 2026 (CURRENT)
+
+ARTICLE XIX. - RENT STABILIZATION AND JUST CAUSE EVICTION ORDINANCE
+
+Sec. 8-3100 - Title.
+
+This Article shall be known in its entirety as the "City of Santa Ana Rent Stabilization and Just Cause Eviction Ordinance" and, for the sake of convenience, as the "Rent Stabilization and Just Cause Eviction Ordinance."
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3073, § 1, 11-5-24)
+
+DIVISION 2. - JUST CAUSE EVICTIONS
+
+Sec. 8-3120. - Restrictions on termination of tenancy without just cause.
+
+(a)
+
+After a Tenant has continuously and lawfully occupied a Residential Real Property for thirty (30) days, the Owner of the Residential Real Property shall not terminate the Tenancy without just cause, which shall be stated in the written notice to terminate Tenancy. The provisions of this section related to the termination of Tenants shall not apply to Mobilehomes or Mobilehome Spaces in Mobilehome Parks subject to the termination provisions of the Mobilehome Residency Law, Civil Code section 798.56, as applicable.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3052, § 4, 10-17-23; Ord. No. NS-3073, § 1, 11-5-24)
+
+DIVISION 3. - RENT STABILIZATION
+
+Sec. 8-3140. - Prohibited increases.
+
+(a)
+
+Increases in Rent on Residential Real Property or Mobilehome Spaces in the City of Santa Ana in excess of three percent (3%), or eighty (80%) of the change in the Consumer Price Index, whichever is less, and more than one Rent Increase in any twelve (12) month period, are prohibited, unless expressly exempt under the Costa-Hawkins Rental Housing Act codified in California Civil Code section 1954.50, et seq., or the Mobilehome Residency Law codified in California Civil Code sections 798, et seq. If the change in the Consumer Price Index is negative, no Rent Increase is permitted. The term Consumer Price Index means, at the time of the adjustment calculation completed by the City pursuant to subsection (b), the percentage increase in the United State Consumer Price Index for all Urban Consumers in the Los Angeles-Long Beach-Anaheim Metropolitan Area published by the Bureau of Labor Statistics, not seasonally adjusted, for the most recent twelve (12) month period ending prior to the City's calculation pursuant to subsection (b). A violation of this section occurs upon the service of notice or demand for a prohibited increase in Rent.
+
+(b)
+
+No later than June 30 each year, beginning with the year 2022, the City shall announce the amount of allowable Rent Increase based on subsection (a) herein, which shall be effective as of September 1 of that year.
+
+(Ord. No. NS-3027, § 3, 10-18-22; Ord. No. NS-3052, § 6, 10-17-23; Ord. No. NS-3073, § 1, 11-5-24)

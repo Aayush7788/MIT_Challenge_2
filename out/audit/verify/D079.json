@@ -1,23 +1,23 @@
 {
- "key": "1f77e23fec424bc5bcbdabd469c60c8d124b4bfa",
+ "key": "5c362e95d28a9b4a3d33b3eb6ceafab05de546ea",
  "doc_id": "D079",
  "ids": [
-  "r-0091"
+  "r-0094"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:49:51.424Z",
+ "audited_at": "2026-10-03T23:41:26.651Z",
  "cards": [
   {
-   "team_rule_id": "r-0091",
+   "team_rule_id": "r-0094",
    "requirement": {
     "verdict": "supported",
     "evidence": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction.",
-    "note": "Also supported: expiration/ownership change not just cause; housing services need just cause."
+    "note": "Document also states expiration of the agreement or a change in ownership is not just cause, and that just cause is needed to remove housing services such as parking, storage, laundry. Card says 'building being sold', a plain paraphrase of change in ownership."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "The 17 just cause reasons for eviction under",
-    "note": "Document states 17 reasons under Ordinance Section 37.9(a)."
+    "evidence": "The 17 just cause reasons for eviction under\nOrdinance Section 37.9(a)\nare summarized below:",
+    "note": null
    },
    "effective_date": {
     "verdict": "not_applicable",
@@ -37,7 +37,7 @@
    "citation": {
     "verdict": "supported",
     "evidence": "The 17 just cause reasons for eviction under\nOrdinance Section 37.9(a)\nare summarized below:",
-    "note": "Document cites Ordinance Section 37.9(a); the card's S.F. Admin. Code framing is a minor expansion, but the section number matches."
+    "note": "Card cites S.F. Admin. Code § 37.9(a); the document names Ordinance Section 37.9(a) (the 'S.F. Admin. Code' label is not in the text but the section matches)."
    }
   }
  ]

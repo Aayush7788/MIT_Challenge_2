@@ -1,0 +1,647 @@
+SOURCE: https://cityclerk.lacity.org/onlinedocs/2021/21-0042-S3_ord_187737_1-27-23.pdf
+RETRIEVED: 2026-10-04 00:21 UTC
+JURISDICTION: Los Angeles, CA
+CITES: Ord. No. 187737; L.A. Mun. Code ch. XVI, art. 5, §§ 165.00-165.08 (Just Cause for Eviction Ordinance, as enacted), incl. § 165.03, § 165.05(B)(5), § 165.06; L.A. Mun. Code § 151.09(A)(8)(c), § 151.09(C)(9), § 151.09(G)(5) (as added/amended)
+NOTE: Ordinance No. 187737 (adds Article 5, Just Cause for Eviction Ordinance, to LAMC Chapter XVI), Los Angeles City Clerk PDF, Council File 21-0042-S3; passed Jan. 20, 2023, published and effective Jan. 27, 2023. Text extracted in reading order (pypdf layout mode); the PDF text layer reads some '(1)' as '(D' and '165.03(I)' as '165.03(1)'.
+
+ORDINANCE NO.             187737
+
+        An ordinance adding Article 5 to Chapter XVI of the Los Angeles Municipal Code
+prohibiting terminations of tenancies without just cause and requiring relocation
+assistance for no-fault evictions, as specified; amending the Rent Stabilization
+Ordinance's provisions on resident manager evictions, tenant notifications, and
+relocation assistance; and repealing duplicative or expired provisions of the Los
+Angeles Municipal Code relating to evictions.
+
+        WHEREAS, the City of Los Angeles is experiencing a rental housing shortage
+and a humanitarian crisis of homelessness at unprecedented levels;
+
+        WHEREAS, the City’s Rent Stabilization Ordinance (“RSO”), Chapter XV of the
+Los Angeles Municipal Code, has helped stabilize rents and provide eviction protections
+to over 640,000 households citywide;
+
+        WHEREAS, the California legislature passed the Tenant Protection Act of 2019,
+Assembly Bill 1482 (“TPA”), which prohibits evictions without “just cause” and owners of
+residential rental property from increasing rents more than 5 percent plus the
+percentage change in the cost of living or 10 percent, whichever is lower, per year;
+
+        WHEREAS, the TPA provides renter protections to approximately 138,000
+households in the City that are not protected by the RSO;
+
+        WHEREAS, the TPA implemented modest eviction protections for rental units
+built more than 15 years ago and does not protect all residential tenants;
+
+        WHEREAS, the TPA permits municipalities to adopt local ordinances with
+greater tenant protections;
+
+        WHEREAS, the City of Los Angeles wishes to provide stronger tenant
+protections citywide to protect renters from displacement and homelessness and to
+promote housing and neighborhood stability; and
+
+        WHEREAS, the City of Los Angeles wishes to extend just cause eviction
+protections to residential rental properties citywide.
+
+        NOW, THEREFORE,
+
+                       THE PEOPLE OF THE CITY OF LOS ANGELES
+                                    DO ORDAIN AS FOLLOWS:
+
+        Section 1. Article 5 is added to Chapter XVI of the Los Angeles Municipal Code
+to read as follows:
+
+                                                     1
+                                               ARTICLE 5
+
+                          JUST CAUSE FOR EVICTION ORDINANCE
+
+SEC. 165.00. TITLE.
+
+        This Article shall be known as the Just Cause for Eviction Ordinance of the City
+of Los Angeles.
+
+SEC. 165.01. FINDINGS AND DECLARATION OF PURPOSE.
+
+        Displacement through arbitrary evictions affects the public health, safety and
+welfare of Los Angeles residents. Evictions destabilize communities by disrupting
+longstanding community networks, uprooting children from their schools, forcing low-
+income residents to pay unaffordable relocation costs, and pushing City residents away
+from important public services. Additionally, arbitrary evictions are a key driver of
+homelessness.
+
+        Approximately 76 percent of the multi-family rental units in the City of Los
+Angeles are regulated by the Rent Stabilization Ordinance (“RSO”), which protects
+renters from excessive rent increases and arbitrary evictions. The Tenant Protection
+Act of 2019 (“TPA”), codified at California Civil Code Sections 1946.2,1947.12, and
+1947.13, provides some protections against price gouging and evictions that did not
+previously exist for the approximately 138,000 households not covered by the RSO.
+Hundreds of thousands of Los Angeles households are not protected under either law.
+
+        Accordingly, the City adopts this Ordinance to provide just cause eviction
+protections to renters city-wide.
+
+        The TPA provides that municipalities may adopt protections after September 1,
+2019, that are consistent and more protective than those provided under California Civil
+Code Section 1946.2. The local municipality must also make a binding finding that its
+ordinance is more protective than the provisions of Civil Code Section 1946.2. The City
+finds that this Ordinance is consistent with Civil Code Section 1946.2 and is more
+protective than Civil Code Section 1946.2 by further limiting the reasons for termination
+of a residential tenancy, providing for higher relocation assistance amounts, and
+providing additional tenant protections that are not prohibited by any other provision of
+law.
+
+SEC. 165.02. DEFINITIONS.
+
+       The following words and phrases, whenever used in this Article, shall be
+construed as defined in this section.
+
+                                                     2
+         Department. The Los Angeles Housing Department and any successor
+department.
+
+         Landlord. An owner, lessor, or sublessor (including any person, firm,
+corporation, partnership, or other entity) who is entitled to offer residential real property
+for rent, receive rent for the use or occupancy of residential real property, or maintain an
+action for possession of residential real property, or the agent, representative or
+successor of any of the foregoing.
+
+        Qualified Tenant. Any tenant who satisfies any of the following criteria on the
+date of service of the written notice of termination: aged 62 or older; handicapped as
+defined in Section 50072 of the California Health and Safety Code; disabled as defined
+in Title 42 United States Code § 423; or a person residing with and on whom is legally
+dependent (as determined for federal income tax purposes) one or more minor children.
+
+        Rent. The consideration, including any bonus, benefits or gratuity, demanded or
+received by a landlord for or in connection with the use or occupancy of residential real
+property, including, but not limited to, monies demanded or paid for the following: meals
+when required by the landlord as a condition of the tenancy; parking; furnishings; other
+housing services of any kind; subletting; or security deposits.
+
+        Residential real property. Any dwelling or unit that is intended for human
+habitation.
+
+        Tenant. A tenant, subtenant, lessee, sublessee or any other person entitled to
+use or occupancy of residential real property.
+
+SEC. 165.03. JUST CAUSE EVICTIONS.
+
+        A landlord shall not terminate a tenancy unless it is based upon one or more of
+the following grounds:
+
+        A.       The tenant has defaulted in the payment of rent.
+
+        B.       The tenant has violated a lawful obligation or covenant of the tenancy and
+has failed to cure the violation after having received written notice from the landlord,
+except when:
+
+                 (D      The obligation requires the surrendering of possession upon proper
+        notice.
+
+                 (2)         The obligation limits the number of occupants if the additional
+        occupant is one or more minor dependent children or one adult. The landlord
+        has the right to approve the additional adult occupant provided that approval is
+        not unreasonably withheld.
+
+                                                      3
+                  (3)     The obligation is based on a change in the terms of the tenancy
+         that is not the result of an express written agreement signed by both of the
+         parties. For purposes ofthis subsection, a landlord may not unilaterally change
+         the terms of the tenancy under California Civil Code Section 827 and then evict
+         the tenant for the violation of the added covenant unless the tenant has agreed in
+         writing to the additional covenant. The tenant must knowingly consent, without
+         threat or coercion, to each change in the terms of the tenancy. A landlord is not
+         required to obtain a tenant’s written consent to a change in the terms of the
+         tenancy if the change in the terms of the tenancy is authorized by federal, state,
+         or local law. Nothing in this paragraph shall exempt a landlord from providing
+         legally required notice of a change in the terms of the tenancy.
+
+                 (4)      A landlord shall not change the terms of a tenancy to prohibit pets
+         and then evict the tenant for keeping a pet kept and allowed prior to the change,
+         unless the landlord can establish that the pet constitutes a nuisance and the
+         nuisance has not been abated upon proper notice to the tenant.
+
+         C.      The tenant is committing or permitting to exist a nuisance in or is causing
+damage to residential real property, appurtenances or common areas of residential real
+property, or is creating an unreasonable interference with the comfort, safety, or
+enjoyment of other residents of the rental complex or within a 1,000 foot radius
+extending from the boundary line of the rental complex.
+
+         D.      The tenant is using or permitting use of residential real property, common
+areas, or an area within a 1,000 foot radius from the boundary line of the rental complex
+for an unlawful purpose. The term "unlawful purpose” does not include the use of
+housing accommodations that lack a legally-approved use or that has been cited for
+occupancy or other housing code violations.
+
+         E.      The tenant had a written lease that terminated on or after the effective
+date of this Article, and after a written request or demand from the landlord, the tenant
+has refused to execute a written extension or renewal of the lease for an additional term
+of similar duration with similar provisions, provided that those terms do not violate this
+Article or any other provision of law.
+
+        F.       The tenant has refused the landlord reasonable access to the residential
+real property for the purpose of making repairs or improvements, forthe purpose of
+inspection as permitted or required by the lease or by law, or for the purpose of showing
+the residential real property to any prospective purchaser or mortgagee.
+
+        G.       The person in possession of residential real property at the end of a lease
+term is a subtenant not approved by the landlord.
+
+                                                       4
+         H.      The landlord seeks in good faith to recover possession of residential real
+property for use and occupancy as a primary place of residence by:
+
+                 (D      The landlord; or
+
+                 (2)         The landlord’s spouse, domestic partner, grandchildren, children,
+        parents, or grandparents; or
+
+                 (3)     A resident manager when a residential manager, janitor,
+        housekeeper, caretaker, or other responsible person is required to reside upon
+        the premises by law or under the terms of an affordable housing covenant or
+        regulatory agreement.
+
+        Landlords seeking to recover possession under this subdivision must comply with
+the restrictions and requirements of Los Angeles Municipal Code Section 151.30.
+
+        I.       The landlord seeks in good faith to recover possession of residential real
+property under the following circumstances:
+
+                 d)      to demolish the residential real property.
+
+                 (2) to substantially remodel the residential real property, provided the
+        landlord has secured permits necessary to substantially remodel the residential
+        real property from applicable government agencies, and served a copy of the
+        permits with a written termination notice stating the reason for termination, the
+        type and scope of the work to be performed, why the work cannot be reasonably
+        accomplished in a safe manner with the tenant in place, and why the work
+        requires the tenant to vacate the residential real property for at least 30 days.
+        “Substantially remodel” shall have the same meaning as the term defined in
+        California Civil Code Section 1946.2.
+
+                (3)         to withdraw the residential real property permanently from rental
+        housing use when the landlord is withdrawing from rent or lease all residential
+        real property on the same parcel of land.
+
+        J.      The landlord seeks in good faith to recover possession of residential real
+property to comply with a court order or governmental agency’s order to vacate, order to
+comply, order to abate, or any other order that necessitates vacating the residential real
+property.
+
+        K.      The Secretary of Housing and Urban Development seeks to recover
+possession to vacate the property prior to sale and has complied with all tenant
+notification requirements under federal law and administrative regulations.
+
+        L.      The residential real property is in a Residential Hotel, and the landlord
+seeks to recover possession to Convert or Demolish the unit, as those terms are
+
+                                                      5
+defined in Article 7.1 of Chapter IV of this Code. A landlord may recover possession
+only after the Los Angeles Housing Department has approved an Application for
+Clearance under Article 7.1 of Chapter IV of this Code.
+
+         M.      The landlord seeks to recover possession of residential real property for
+conversion to affordable housing accommodations.
+
+        “Affordable housing accommodations" means housing accommodations with a
+government imposed regulatory agreement that has been recorded with the Los
+Angeles County Recorder, or which shall be recorded within six months of the filing of
+an exemption pursuant to this subdivision with the Department, guaranteeing that the
+housing accommodations will be affordable to either lower income or very low income
+households for a period of at least 55 years, with units affordable only to households
+with an income at 60 percent of the Area Median Income or less. None of the subject
+housing accommodations shall be affordable only to households with incomes greater
+than 60 percent of the Area Median Income, as these terms are defined by the U.S.
+Department of Housing and Urban Development. “Lower Income or very low income
+households” is defined according with California Health and Safety Code Sections
+50079.5 and 50105.
+
+        To recover possession of residential real property under this subdivision, the
+landlord must first obtain an exemption from the Department indicating satisfaction of
+the following conditions:
+
+                 (1)     the housing accommodations are only available to lower income or
+        very low income households with none of the subject accommodations affordable
+        only to households with income greater than 60% of Area Median Income; and,
+
+                 (2)     the rent levels conform to the amounts set by the U.S. Department
+        of Housing and Urban Development, or the California Department of Housing
+        and Community Development, as applicable, based on the public funding source
+        for the subject accommodations.
+
+        The Department shall have the authority to revoke an exemption issued pursuant
+to this subdivision for failure to adhere to any of the conditions for an exemption set
+forth in this subdivision.
+
+        If the landlord fails to record a government imposed regulatory agreement within
+six months of the filing of the affordable housing exemption with the Department, and
+the landlord seeks to offer the residential real property for rent or lease, the landlord
+shall first offer to rent or lease the unit to the tenant displaced from that unit pursuant to
+this subdivision, provided that the tenant advised the landlord in writing within 30 days
+of displacement of the tenant’s desire to consider an offer to renew the tenancy and
+provided the landlord with an address to which that offer is to be directed. The tenant
+may subsequently advise the landlord of a change of address to which an offer is to be
+directed. A landlord who re-offers the unit pursuant to the provisions of this subdivision
+
+                                                      6
+shall deposit the offer in the United States mail, by registered or certified mail with
+postage prepaid, addressed to the displaced tenant at the address furnished to the
+landlord as provided in this subdivision, and shall describe the terms of the offer. The
+displaced tenant shall have 30 days from the deposit of the offer in the mail to accept
+the offer by personal delivery of that acceptance to the Department or deposit of the
+acceptance in the United States mail by registered or certified mail with postage
+prepaid.
+
+         N.      The landlord seeks to recover possession of residential real property for
+conversion to non-residential use.
+
+SEC. 165.04. APPLICABILITY.
+
+        This Article shall not apply until the expiration of an initial original lease or after
+six months of continuous and lawful occupancy, whichever comes first, or to the
+following types of residential real properties or residential circumstances:
+
+        (A)      Rental units subject to the Rent Stabilization Ordinance.
+
+        (B) Transient and tourist hotel occupancy as defined in Subdivision (b) of
+California Civil Code Section 1940, unless the landlord violates California Civil Code
+Section 1940.1 to maintain transient occupancy status.
+
+        (C) Housing accommodations in any hospital, asylum, religious facility,
+extended care facility, licensed residential care facility for the elderly, as defined in
+Section 1569.2 of the California Health and Safety Code, or an adult residential facility,
+as defined in Chapter 6 of Division 6 of Title 22 of the Manual of Policies and
+Procedures published by the State Department of Social Services.
+
+        (D)      Housing accommodations in a fraternity or sorority house or any housing
+accommodation owned and operated by an institution of higher education, a high
+school, or elementary school for occupancy by students.
+
+        (E)      Housing accommodations in which the tenant shares bathroom or kitchen
+facilities with the owner who maintains their principal residence at the residential real
+property.
+
+        (F)        A dwelling unit in a nonprofit stock cooperative while occupied by a
+shareholder tenant of the nonprofit stock cooperative.
+
+        (G)        Housing accommodations in limited equity housing cooperatives, as
+defined in California Civil Code Sections 817 and 817.1, when occupied by a member
+tenant of the limited equity housing cooperative. However, if the cooperative acquired
+the property pursuant to California Government Code Section 54237(d), then all
+dwellings in the limited-equity housing cooperative shall be exempt from this Article.
+
+                                                      7
+        (H)        Housing accommodations in an Interim Motel Housing Project pursuant to
+Los Angeles Municipal Code Section 14.00(A)(12). This exception shall apply only to
+housing accommodations that have been issued an exemption by the Department
+indicating satisfaction of the following conditions:
+
+                 (1)        the housing accommodations are subject to and operating in
+        accordance with a Supportive Housing or Transitional Housing contract; and
+
+                 (2) any tenant remaining in the housing accommodations at the
+        commencement of the Supportive Housing or Transitional Housing contract shall
+        be afforded all rights and protections provided by this Article.
+
+        The Department shall have the authority to revoke an exemption issued pursuant
+to this subdivision for failure to adhere to any of the conditions for an exemption set
+forth in this subdivision.
+
+        This exemption shall be deemed automatically revoked upon termination of the
+Supportive Housing or Transitional Housing contract or failure to operate in accordance
+with the Supportive Housing or Transitional Housing contract.
+
+        0)       Housing accommodations in a nonprofit facility that has the primary
+purpose of providing short term treatment, assistance, or therapy for alcohol, drug, or
+other substance abuse and the housing is provided incident to the recovery program,
+and when the client has been informed in writing of the temporary or transitional nature
+of the housing at its inception.
+
+        (J)         Housing accommodations in a nonprofit facility that provides a structured
+living environment that has the primary purpose of helping homeless persons obtain the
+skills necessary for independent living in permanent housing and when occupancy is
+restricted to a limited and specific period of time of not more than twenty-four (24)
+months and when the client has been informed in writing of the temporary or transitional
+nature of the housing at its inception.
+
+        (K)        Occupancy in a housing accommodation leased by or otherwise paid for
+by a government entity or agency with the primary purpose of helping homeless
+persons obtain temporary or transitional housing.
+
+        <L)     Housing accommodations owned and operated by the Los Angeles City
+Housing Authority, or housing accommodations owned, operated, or managed by any
+other government unit, agency, or authority and which are specifically exempted from
+municipal regulations on evictions by state or federal law or administrative regulation, or
+housing accommodations specifically exempted from municipal regulations on evictions
+by state or federal law or administrative regulation.
+
+                                                     8
+SEC. 165.05. NOTICES.
+
+        A.       A landlord of residential real property subject to this Article shall provide
+notice of the protections of this Article as follows:
+
+                 (1) For any tenancy commenced or renewed on or after the effective
+        date of this Article as a written notice to the tenant.
+
+                 (2) The landlord shall post a notification in a form prescribed by the
+        Department in an accessible common area of the property.
+
+        B.       In any action to recover possession of residential real property, the
+landlord shall serve on the tenant a written notice setting forth the reasons for the
+termination. The written notice shall be as described in Civil Code Section 1946 or
+Code of Civil Procedure Sections 1161 and 1161a. The notice shall be given in the
+manner prescribed by Code of Civil Procedure Section 1162 and must also comply with
+the following:
+
+                 (1) When the termination of tenancy is based on any of the grounds set
+        forth in Section 165.03(B) through 165.03(G), the termination notice must set
+        forth specific facts to permit a determination of the date, place, witnesses and
+        circumstances concerning the eviction reason.
+
+                 (2) When the termination of tenancy is based on the grounds set forth
+        in Section 165.03(H), the landlord shall file with the Department a declaration on
+        a form and in the number prescribed by the Department identifying the person to
+        be moved into the residential real property, the date on which the person will
+        move in, the rent presently charged for the residential real property, and the date
+        of the last rental increase. This declaration shall be served on the tenant in the
+        manner prescribed by Code of Civil Procedure Section 1162. When filing the
+        declaration, the landlord shall pay an administrative fee in the amount of $75.
+        The fee shall pay for the cost of administering and enforcing the provisions of Los
+        Angeles Municipal Code Section 151.30.
+
+                 (3)         When the termination of tenancy is based on any of the grounds set
+        forth in Section 165.03(1) or 165.03(K) through 165.03(N), the landlord shall file
+        with the Department a declaration on a form and in the number prescribed by the
+        Department stating the reason for eviction. This declaration shall be served on
+        the tenant in the manner prescribed by Code of Civil Procedure Section 1162.
+
+                (4)         When the termination of tenancy is based on the ground set forth in
+        Section 165.03(J), then the landlord shall file with the Department a declaration
+        on a form and in the number prescribed by the Department stating that the
+        landlord intends to evict in order to comply with a court order or governmental
+        agency’s order to vacate residential real property. The landlord shall attach a
+
+                                                      9
+        copy of the order to this declaration. This notice shall be served on the tenant in
+        the manner prescribed by Code of Civil Procedure Section 1162.
+
+                 (5)         A copy of any written notice terminating a tenancy shall be filed with
+        the Department within three business days of service on the tenant.
+
+SEC. 165.06. RELOCATION ASSISTANCE.
+
+        A.       If the termination of tenancy is based on any of the grounds set forth in
+Sections 165.03(H) through 165.03(N), then the landlord shall pay relocation assistance
+to the tenant as follows:
+
+                (1)      For tenants who resided at the residential real property for fewer
+        than three years: $19,400 to qualified tenants and $9,200 to all other tenants;
+
+                (2)      For tenants who resided at the residential real property for three
+        years of longer: $22,950 to qualified tenants and $12,050 to all other tenants;
+
+                (3)      For tenants whose household income is 80% or below Area Median
+        Income (AMI), as adjusted for household size, as defined by the U.S. Department
+        of Housing and Urban Development, regardless of length of tenancy: $22,950 to
+        qualified tenants and $12,050 to all other tenants.
+
+                (4)         The amounts of relocation in Sections 165.06(A)(1) through
+        165.06(A)(3) do not apply if lower relocation assistance is applicable under Los
+        Angeles Municipal Code Section 151.30(E).
+
+                (5)      Relocation fees owed to terminate tenancies under Section
+        165.03(K) or 165.03(M) shall be based on the applicable provisions of the
+        Uniform Relocation Act, California Relocation Assistance Act, or the amounts set
+        forth in this section, whichever is greater.
+
+                (6)         When the residential real property is a single-family dwelling and
+        the owner is a natural person, including natural persons who hold properties in a
+        trust or registered legal entity controlled by that natural person, who owns no
+        more than four dwelling units and a single-family home on a separate lot in the
+        City of Los Angeles: one month’s rent that was in effect when the landlord
+        served the written notice to terminate the tenancy, as either a monetary payment
+        or credit. Los Angeles Municipal Code Section 151.30(E) shall not apply.
+
+                (7)      If more than one relocation assistance payment applies, the
+        landlord shall pay the highest of the applicable payment. Nothing relieves the
+        landlord from the obligation to provide relocation assistance pursuant to City
+        administrative agency action or any other provision of local, state or federal law.
+        If a tenant is entitled to monetary relocation benefits pursuant to City
+        administrative agency action or any provision of local, state or federal law, then
+
+                                                     10
+        those benefits shall operate as a credit against any fee required to be paid to the
+        tenant under this section.
+
+         B.      Tenants who claim eligibility based on their income shall file a statement
+with the Department verifying their income on a form prescribed by the Department.
+
+        C.       Requests for a hearing to appeal a decision regarding a tenant’s
+relocation assistance eligibility, including disputes about eligibility for higher relocation
+assistance based on a tenant’s income, age, length of tenancy, family status or
+disability status, must be filed in writing on the form prescribed by the Department and
+received by the Department within 15 calendar days of the date of the Department’s
+notification of its decision regarding tenant relocation assistance. The Department shall
+charge a fee of $300 for any hearing request to pay for the cost of the appeal hearing.
+
+        D.       The payment amounts shall be adjusted on an annual basis pursuant to
+the formula set forth in Los Angeles Municipal Code Section 151.06.D. The adjusted
+amount shall be rounded to the nearest $50 increment.
+
+        E.       Relocation assistance payments to the tenant shall be made as follows:
+
+                 (1)     The entire fee shall be paid to a tenant who is the only tenant in the
+        residential real property.
+
+                 (2) If the residential real property is occupied by two or more tenants,
+        then each tenant shall be paid an equal, pro-rata share of the fee.
+
+        F.       If the termination of tenancy is based on the grounds set forth in Section
+165.03(H), 165.03(1), 165.03(J), 165.03(K), or 165.03(N), then the landlord shall also
+pay the City a fee for the purpose of providing relocation assistance by the City’s
+Relocation Assistance Service Provider, as defined in Los Angeles Municipal Code
+Sections 47.06.B. and 47.07.B. The fee shall be $840 for each unit occupied by a
+qualified tenant and $522 for each unit occupied by other tenants, and an additional $72
+per unit to pay for the administrative costs associated with this service. The fees may
+be increased in an amount based on the Consumer Price Index - All Urban Consumers
+averaged for the first 12-month period ending September 30, of each year, as
+determined and published by the Los Angeles Housing Department on or before May
+30, of each year, pursuant to Los Angeles Municipal Code Section 151.07.A.6. The
+Relocation Assistance Service Provider will provide the relocation assistance services
+listed in Los Angeles Municipal Code Sections 47.06.D and 47.07.D. These fees shall
+not be charged when Section 165.06(A)(6) applies.
+
+        G.      The landlord shall perform the acts described in this section within 15 days
+of service of a written notice of termination described in California Civil Code Section
+1946. The landlord may in its sole discretion elect to pay the monetary relocation
+benefits pursuant to this section to an escrow account to be disbursed to the tenant
+upon certification of vacation of the unit. The escrow account shall provide for the
+
+                                                      11
+payment prior to vacation of all or a portion of the monetary relocation benefits for actual
+relocation expenses incurred or to be incurred by the tenant prior to vacation, including
+but not limited to security deposits, moving expense deposits and utility connection
+charges. Rent Adjustment Commission Regulations governing Relocation Assistance
+Escrow Accounts, Section 960.00 et seq., shall govern the establishment of escrow
+accounts, disbursements, disputes, and closure.
+
+         H.      Any tenant subject to displacement because of a notice to vacate or other
+order requiring the vacation of an unpermitted dwelling unit in violation of the municipal
+code or any other provision of law, when the landlord has had a reasonable opportunity
+to correct the violation, shall be entitled to relocation payable by the landlord to the
+tenant within 15 days of service of the written notice of termination of the tenancy in
+accordance with this section.
+
+                 No relocation assistance payment shall be required in the following
+circumstances:
+
+                 (D      The landlord seeks in good faith to recover possession of the
+        residential real property for use and occupancy by a resident manager, provided
+        that the resident manager is replacing the existing resident manager in the same
+        unit.
+
+                 (2) The Department determines that the unit or structure became
+        unsafe or hazardous as the result of a fire, flood, earthquake, or other event
+        beyond the control of the owner or the designated agent and the owner or
+        designated agent did not cause or contribute to the condition.
+
+        J.       A landlord may offset the tenant's accumulated rent against any relocation
+assistance due under this section, unless the relocation assistance is owed because a
+termination of tenancy is required by a governmental agency order to vacate or comply
+issued for an unpermitted dwelling.
+
+SEC. 165.07. REMEDIES.
+
+        In any action by a landlord to recover possession of residential real property, the
+tenant may raise as an affirmative defense the failure of the landlord to comply with this
+Article. In addition, any landlord who fails to provide monetary relocation assistance as
+required by Section 165.06 shall be liable in a civil action to the tenant to whom such
+assistance is due for damages in the amount the landlord has failed to pay, together
+with reasonable attorney fees and costs as determined by the court. Violations of this
+Article shall be a misdemeanor.
+
+SEC. 165.08. RENT ADJUSTMENT COMMISSION.
+
+        The Rent Adjustment Commission shall have the authority to promulgate
+policies, rules and regulations to effectuate the purposes of this Article. All such rules
+
+                                                      12
+and regulations shall be published once in a daily newspaper of general circulation in
+the City of Los Angeles, and shall take effect upon such publication.
+
+        The Commission may make such studies and investigations, conduct such
+hearings, and obtain such information as it deems necessary to effectuate the purposes
+of this Article.
+
+        Sec. 2. Paragraph (c) of Subdivision 8 of Subsection A of Section 151.09 of the
+Los Angeles Municipal Code is amended to read as follows:
+
+                (c) A resident manager when a residential manager, janitor,
+        housekeeper, caretaker, or other responsible person is required to reside upon
+        the premises by law or under the terms of an affordable housing covenant or
+        regulatory agreement.
+
+        Sec. 3. Subdivision 9 is added to Subsection C of Section 151.09 of the
+Los Angeles Municipal Code as follows:
+
+                9.       A copy of any written notice terminating a tenancy shall be filed with
+        the Department within three business days of service on the tenant.
+
+        Sec. 4. Subdivision 5 is added to Subsection G of Section 151.09 of the Los
+Angeles Municipal Code as follows:
+
+                5.       The landlord may offset the tenant’s accumulated rent against any
+        relocation assistance due under this Subsection, unless the relocation assistance
+        is owed because a termination of tenancy is required by a governmental agency
+        order to vacate or comply issued for an unpermitted dwelling unit.
+
+        Sec. 5. Article 14.1 of Chapter IV of the Los Angeles Municipal Code is
+repealed.
+
+        Sec. 6. Article 14.5 of Chapter IV of the Los Angeles Municipal Code is
+repealed.
+
+        Sec. 7. Article .18 of Chapter IV of the Los Angeles Municipal Code is repealed.
+
+        Sec. 8. URGENCY CLAUSE. The City Council finds and declares that this
+ordinance is required for the immediate protection of the public peace, health and safety
+for the following reasons: the City of Los Angeles will suffer irreparable damage,
+including loss of life and property, from displacement of tenants from evictions. The
+Council, therefore, adopts this ordinance to become effective upon publication pursuant
+to Los Angeles City Charter Section 253.
+
+                                                     13
+        Sec. 9. The City Clerk shall certify to the passage of this ordinance and have it
+published in accordance with Council policy, either in a daily newspaper circulated in
+the City of Los Angeles or by posting for ten days in three public places in the City of
+Los Angeles: one copy on the bulletin board located at the Main Street entrance to the
+Los Angeles City Hall; one copy on the bulletin board located at the Main Street
+entrance to the Los Angeles City Hall East; and one copy on the bulletin board located
+at the Temple Street entrance to the Los Angeles County Hall of Records.
+
+Approved as to Form and Legality
+
+HYDEE FELDSTEIN SOTO, City Attorney
+
+By
+               ELAINE ZHONG
+            Deputy City Attorney
+Date          1/2,0 /
+
+File No.     21-0042-S3
+
+M:\Housing\LAHD\Zhong\01. Ordinances and Council MotionsVJust Cause Evictions (CF17-0454)\Final Ordinance Re Just Cause
+Evictions.docx
+
+The Clerk of the City of Los Angeles
+hereby certifies that the foregoing
+ordinance was passed by the Council of
+the City of Los Angeles, by a vote of not
+less than three-fourths of all its
+members.
+
+CITY CLERK                                                 MAYOR
+
+Ordinance Passed       January 20, 2023                    Approved     01/25/2023
+
+ Published Date: 01/27/2023
+ Ordinance Effective Date: 01/27/2023

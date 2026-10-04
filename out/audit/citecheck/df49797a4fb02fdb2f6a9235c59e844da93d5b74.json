@@ -1,0 +1,23 @@
+{
+ "key": "df49797a4fb02fdb2f6a9235c59e844da93d5b74",
+ "team_rule_id": "r-0045",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D065",
+  "D035",
+  "O010",
+  "D070",
+  "X003",
+  "O017"
+ ],
+ "retried": true,
+ "result": {
+  "citation": "N.J.S.A. 46:8-56 (P.L. 2021, c.110, § 5)",
+  "citation_basis": "N.J.S.A. 46:8-56: D065 (C.46:8-56 heading); P.L. 2021, c.110 and § 5: D065",
+  "source_is_law_text": true,
+  "official_doc_id": "D065",
+  "official_quote": "The applicant may request, within 30 days after the housing provider's notice of the withdrawal, that the housing provider afford the applicant a copy of all information that the housing provider relied upon in considering the applicant, including criminal records.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

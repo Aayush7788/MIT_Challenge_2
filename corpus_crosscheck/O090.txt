@@ -1,0 +1,35 @@
+SOURCE: https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-213998
+RETRIEVED: 2026-10-04 00:41 UTC
+JURISDICTION: Los Angeles, CA
+CITES: L.A. Mun. Code ch. XVI, art. 5, §§ 165.00-165.12 (Just Cause for Eviction Ordinance; added by Ord. No. 187,737); § 165.00
+NOTE: Los Angeles Municipal Code Chapter XVI, Article 5 (Just Cause for Eviction Ordinance): article heading, history note, section list and § 165.00 (Title). Official code publisher American Legal Publishing (codelibrary.amlegal.com), version 2026 Rev. 9 (current). Read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+CA
+Los Angeles
+Los Angeles Municipal Code
+ARTICLE 5 JUST CAUSE FOR EVICTION ORDINANCE
+2026 Rev. 9 (current)
+CHAPTER XVI HOUSING REGULATIONS
+
+ARTICLE 5
+JUST CAUSE FOR EVICTION ORDINANCE
+
+(Added by Ord. No. 187,737, Eff. 1/27/23.)
+
+Section
+165.00   Title.
+165.01   Findings and Declaration of Purpose.
+165.02   Definitions.
+165.03   Just Cause Evictions.
+165.04   Applicability.
+165.05   Notices.
+165.06   Relocation Assistance.
+165.07   Remedies.
+165.08   Rent Adjustment Commission.
+165.09   Relocation Assistance for Economic Displacement.
+165.10   Just Cause Enforcement Fee.
+165.11   Creation and Administration of the Just Cause Enforcement Fee Trust Fund.
+165.12   Severability.
+
+SEC. 165.00. TITLE.
+This Article shall be known as the Just Cause for Eviction Ordinance of the City of Los Angeles.

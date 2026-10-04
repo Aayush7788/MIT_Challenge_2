@@ -141,6 +141,19 @@ export type RuleRecord = {
   source_jurisdiction?: string; // the jurisdiction the source document belongs to (a city page can state a state rule)
   consolidation_note?: string | null; // set when the record took a date from, or absorbed, another record
   verification?: Verification; // second check (scripts/verify.ts)
+  official_text?: OfficialText | null; // the cited law's own words (scripts/citecheck.ts)
+  citation_note?: string | null; // what the cite-check changed in the citation, and why
+};
+
+// A quote from the text of the law the citation names. The card's own quote stays
+// from the supplied corpus (the citation metric counts only that); when the corpus
+// gives an agency page or guide, this one comes from the statute or code itself.
+export type OfficialText = {
+  doc_id: string;
+  url: string;
+  retrieved_at: string | null;
+  quoted_span: string;
+  in_supplied_corpus: boolean;
 };
 
 export type Verification = {

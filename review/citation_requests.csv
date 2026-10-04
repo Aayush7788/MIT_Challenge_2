@@ -1,0 +1,21 @@
+jurisdiction,category,match,requested_citation,reviewer_note
+San Diego, CA,algorithmic_rent_setting,98\.110,San Diego Mun. Code § 98.1103 (Ord. O-21955 N.S.),"The ordinance was adopted; drop ""proposed"" and the draft number."
+CA,security_deposits,1950\.5|AB 12,"Cal. Civ. Code § 1950.5(c) (Stats. 2023, ch. 733, AB 12)",The AB 12 deposit cap is subdivision (c).
+NJ,screening_restrictions,10:5-12|Law Against Discrimination,N.J.S.A. 10:5-12(g),"""NJ LAD"" is a nickname, not a citation."
+"Berkeley, CA",just_cause_eviction,Ellis,Berkeley Mun. Code ch. 13.77 (Ellis Implementation Ordinance),
+"Berkeley, CA",just_cause_eviction,Measure BB,"Berkeley Mun. Code § 13.76.130 (as amended by Measure BB, Nov. 5, 2024)",The nonpayment threshold is in § 13.76.130.
+"Berkeley, CA",rent_increase_limits,13\.76\.110|Measure BB|AGA,"Berkeley Mun. Code § 13.76.110 (as amended by Measure BB, Nov. 5, 2024)",
+"Berkeley, CA",just_cause_eviction,Good Cause.*relocation|relocation assistance,Berkeley Mun. Code § 13.76.130(A),
+"Berkeley, CA",security_deposits,Rent Ordinance|deposit,Berkeley Mun. Code ch. 13.76 (deposit interest),
+"Los Angeles, CA",just_cause_eviction,^Los Angeles Just Cause Ordinance,L.A. Mun. Code § 165.00 et seq. (Ord. No. 187737),
+"Los Angeles, CA",rent_increase_limits,Rent Stabilization|RSO,"L.A. Mun. Code § 151.06 (annual increase), § 151.02 (coverage)",
+"San Francisco, CA",just_cause_eviction,37\.9A,S.F. Admin. Code § 37.9A(e),
+"San Francisco, CA",rent_increase_limits,37\.3,S.F. Admin. Code § 37.3(a),
+"San Francisco, CA",screening_restrictions,Fair Chance,"S.F. Police Code art. 49, § 4901 et seq. (Fair Chance Ordinance)",
+"Santa Ana, CA",algorithmic_rent_setting,.,Santa Ana ordinance number from the council agenda (March 2026),
+"Santa Ana, CA",rent_increase_limits,.,"Santa Ana Mun. Code ch. 8, art. XIX (rent stabilization, Ord. NS-3010)",Verify the article numbers on the city code.
+"Santa Ana, CA",just_cause_eviction,.,"Santa Ana Mun. Code ch. 8, art. XX (just cause, Ord. NS-3011)",Verify the article numbers on the city code.
+"Boston, MA",screening_restrictions,Fair Housing,"The Boston Code chapter for the Fair Housing Commission regulations, or mark as ""regulation, section not stated""",
+"Boston, MA",screening_restrictions,Fair Chance Tenant,(citation unchanged),"A city policy, not law: say ""policy"" in the title."
+"Hoboken, NJ",algorithmic_rent_setting,158,"Hoboken Code § 158-2 (ordinance adopted July 9, 2025)","The ordinance body's ""§ 154-8"" heading belongs in the reviewer note, not the citation."
+MA,rent_increase_limits,Cella|initiative,"Cella v. Attorney General, SJC-13893 (Mass. June 23, 2026)",

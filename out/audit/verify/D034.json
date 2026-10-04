@@ -1,43 +1,43 @@
 {
- "key": "f8b9f3403e4052f332f7f36925757364b55e58d8",
+ "key": "f39dcec1d6407c1c4ea6269c92f1072043218125",
  "doc_id": "D034",
  "ids": [
-  "r-0068"
+  "r-0070"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:48:35.336Z",
+ "audited_at": "2026-10-03T23:40:11.788Z",
  "cards": [
   {
-   "team_rule_id": "r-0068",
+   "team_rule_id": "r-0070",
    "requirement": {
     "verdict": "supported",
     "evidence": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing.",
-    "note": "Prohibition definition and enforcement by Division of Housing or aggrieved private citizen in Municipal Court are both stated."
+    "note": "Prohibition, the 365-day nonpublic information definition, and enforcement by the Division of Housing or an aggrieved private citizen in Municipal Court are all in the text. The card's wording is plainer."
    },
    "key_value": {
     "verdict": "partly_supported",
-    "evidence": "2. By a fine not exceeding $2,000.00; or,\n\n3. By a period of community service not exceeding ninety (90) days.",
-    "note": "Fine and community service are stated, but penalties also include those under N.J.S.A. 40:49-5, which the card omits."
+    "evidence": "2. By a fine not exceeding $2,000.00; or,\n\n3. By a period of community service not exceeding ninety (90) days. ",
+    "note": "The fine and community service are stated. The card omits the third option, penalties under N.J.S.A. 40:49-5, and that the penalties are alternatives available upon conviction."
    },
    "effective_date": {
     "verdict": "partly_supported",
-    "evidence": "This Ordinance shall take effect immediately upon passage and publication as provided by law.",
-    "note": "Adopted Jul 9, 2025, but effect depends on publication, whose date is not stated; 2025-07-09 is an approximation."
+    "evidence": "This Ordinance shall take effect immediately upon passage and publication as provided by law. ",
+    "note": "The document gives adoption on Jul 9, 2025 and an effective date of immediately upon passage and publication. It does not state the 20-day rule under N.J.S.A. 40:69A-181(b) or the date 2025-07-29. Publication date is not given. The card's date depends on outside law that contradicts the ordinance's own 'immediately' wording."
    },
    "status": {
-    "verdict": "partly_supported",
+    "verdict": "supported",
     "evidence": "RESULT:ADOPTED [UNANIMOUS]",
-    "note": "Adopted and presented as current; no repeal or amendment appears. Effect upon publication is not confirmed, but in_force is reasonable."
+    "note": "The ordinance was adopted Jul 9, 2025, with no repeal or amendment shown. It is presented as current law."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Card coverage is empty."
+    "note": "The card's coverage is empty. The document lists no unit thresholds or construction cutoffs."
    },
    "citation": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "ORDINANCE AMENDING AND SUPPLEMENTING CHAPTER 158 (RENT INCREASES) OF THE HOBOKEN CITY CODE BY ADDING A NEW SECTION 158-2, ENTITLED “PROHIBITION AGAINST ALGORITHMIC RENT-FIXING IN THE RENTAL HOUSING MARKET”",
-    "note": "Title says § 158-2, body heading says § 154-8, adoption date Jul 9, 2025; the card notes the discrepancy."
+    "note": "The title says Section 158-2, but the body heading reads § 154-8. The document is internally inconsistent, and the codified number is not confirmed."
    }
   }
  ]

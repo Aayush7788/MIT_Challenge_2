@@ -1,0 +1,23 @@
+{
+ "key": "8015271fd885a11069aa8bab7937049659f74aaa",
+ "team_rule_id": "r-0053",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D004",
+  "O050",
+  "O051",
+  "O096",
+  "O092",
+  "O053"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Berkeley Mun. Code § 13.77.055(A)",
+  "citation_basis": "ch. 13.77 and § 13.77.055(A), including (A)(2): O092 (also referenced in O051)",
+  "source_is_law_text": false,
+  "official_doc_id": "O092",
+  "official_quote": "The tenants of any residential rental unit who are required to move as a result of the owner’s withdrawal of the accommodation from rent or lease shall be entitled to a relocation payment in the sum of $15,000 from the owner. The landlord is required to provide an additional $5,000 relocation assistance to tenant households that qualify as low-income; or include disabled or elderly tenants; minor children; or tenancies which began prior to January 1, 1999. The relocation fees set forth above shall be increased in accordance with the rules set forth in subsection 13.77.055A.2 below.",
+  "is_city_policy": false,
+  "note": "Replaced the nickname with the codified section (§ 13.77.055(A), covering the base amounts and the (A)(2) CPI indexing) and left out the requested '(Ellis Implementation Ordinance)' because the chapter's own text never uses that name; only Rent Board pages do, and the 2026 dollar figures come from the Rent Board notice, not the code."
+ }
+}

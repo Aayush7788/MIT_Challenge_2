@@ -1,0 +1,55 @@
+SOURCE: https://berkeley.municipal.codes/BMC/13.78
+RETRIEVED: 2026-10-04 00:44 UTC
+JURISDICTION: Berkeley, CA
+CITES: Berkeley Mun. Code ch. 13.78; § 13.78.010; § 13.78.015; § 13.78.016; § 13.78.017; § 13.78.020
+NOTE: Berkeley Municipal Code Chapter 13.78 (Tenant Screening and Lease Fees), whole chapter with history notes, from the city's official code publisher berkeley.municipal.codes (current through Ordinance 8031-NS, passed July 28, 2026). Read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+Chapter 13.78
+TENANT SCREENING AND LEASE FEES
+
+13.78.010
+Notification of state law limitation on tenant screening fees.
+
+When an owner of residential rental property or the owner’s agent receives a request to rent residential property in the City of Berkeley from an applicant and the owner charges that applicant a fee to purchase a consumer credit report and to validate, review, or otherwise process an application for the rent or lease of residential rental property, the owner shall provide, either in the rental application or in a separate disclosure prior to receipt of the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under California Civil Code Section 1950.6(b). The "Tenant Screening Fee Rights Statement" shall mean the following statement or a statement substantially similar to the following statement:
+
+"Pursuant to California law you have tenant screening fee rights, including the right to a copy of your consumer credit report if one is obtained with your screening fee, a refund of any unused portion of the fee and a receipt of the costs of the screening. For more information about your rights, please visit [URL to be provided by City]."
+
+(Ord. 7697-NS § 1, 2020; Ord. 7379-NS § 1, 2014; Ord. 7171-NS § 1 (part), 2011)
+
+13.78.015
+Calculation and publication of maximum allowable tenant screening fee.
+
+Beginning on January 1, 2015, the Rent Stabilization Board shall calculate and publish on an annual basis the maximum allowable tenant screening fee in accordance with California Civil Code Section 1950.6(b). (Ord. 7697-NS § 1, 2020; Ord. 7379-NS § 2, 2014)
+
+13.78.016
+Prohibition of Non-refundable Application Fees Associated with Existing Tenancies.
+
+It is unlawful for an owner of residential rental property or the owner’s agent to charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household.
+
+Nothing in this law is intended to disallow a property owner, or the owner’s agent, to charge a "tenant screening fee" as permitted under California Civil Code Section 1950.6 to any tenant, including any new or additional roommate who seeks to be added to an existing rental agreement or lease, seeking to rent or lease residential rental property. (Ord. 7697-NS § 1, 2020)
+
+13.78.017
+Prohibition of Lease Termination Fees.
+
+It is unlawful for an owner of residential property, or the owner’s agent, to charge any fee for the termination of their tenancy prior to the expiration of a lease. Nothing in this section shall prohibit a landlord from recovering any charges, fees or damages associated with termination of tenancies that are authorized under California Civil Code Section 1951.2. Negotiations between the parties, occurring when the tenants notified the landlord to their intention to exit the lease, in order to terminate a tenant’s liabilities are not precluded by the ordinance. (Ord. 7720-NS § 2, 2020; Ord. 7697-NS § 1, 2020)
+
+13.78.018
+Applicability to Existing Rental Agreements.
+
+This chapter is applicable to all residential rental agreements regardless of any contractual language in any rental agreement or lease to the contrary. Any provision of an existing rental agreement or lease that violates the provisions of this chapter shall be null, void, and unenforceable. (Ord. 7697-NS § 1, 2020)
+
+13.78.019
+Reserved.
+
+(Ord. 7697-NS § 1, 2020)
+
+13.78.020
+Remedies--Civil penalty--Not exclusive.
+
+A. The remedies provided under this section are in addition to any the City or any person might have under applicable law.
+
+B. Any owner of residential rental property shall be liable to any applicant or tenant harmed for a civil penalty of two hundred fifty dollars ($250.00) if the owner fails to comply with any part of this Chapter.
+
+C. Any person aggrieved by the owner’s failure to comply with this Chapter may bring a civil action against the owner of the residential rental property for all appropriate relief including damages and costs which the applicant may have incurred as a result of the owner’s failure to comply with this Chapter.
+
+D. In any action to recover damages resulting from a violation of this Chapter the prevailing plaintiff(s) shall be entitled to reasonable attorneys’ fees in addition to other costs, and in addition to any liability for damages. (Ord. 7697-NS § 1, 2020; Ord. 7379-NS § 3, 2014; Ord. 7171-NS § 1 (part), 2011)

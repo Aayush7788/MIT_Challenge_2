@@ -1,0 +1,23 @@
+{
+ "key": "f135f1194ddc42e6a7373c94974e28b290b89e1d",
+ "team_rule_id": "r-0043",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D065",
+  "D035",
+  "O025",
+  "D070",
+  "O010",
+  "O017"
+ ],
+ "retried": true,
+ "result": {
+  "citation": "N.J.S.A. 46:8-55 (P.L. 2021, c.110, § 4; Fair Chance in Housing Act)",
+  "citation_basis": "N.J.S.A. 46:8-55: D065 ('C.46:8-55 Application process'); P.L. 2021, c.110, § 4: D065 ('P.L. 2021, c.110', section '4.' under C.46:8-55); Fair Chance in Housing Act: D065 short title (C.46:8-52)",
+  "source_is_law_text": true,
+  "official_doc_id": "D065",
+  "official_quote": "A housing provider shall not make any oral or written inquiry regarding an applicant’s criminal record prior to making a conditional offer.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

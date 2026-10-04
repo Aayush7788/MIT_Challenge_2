@@ -41,6 +41,7 @@ export type MemoItem = {
   confidence_reasons: string[];
   second_check: string | null;
   source_added: boolean; // the source is a text we captured, outside the supplied corpus
+  official_text: RuleRecord["official_text"]; // the cited law's own words, when the source is a summary
 };
 
 export type Memo = {
@@ -68,7 +69,7 @@ function trust(e: Evaluation, facts: FactSheet): { level: MemoItem["confidence_l
   if (e.result === "unknown") low.push("coverage depends on a fact the public data does not have");
   // Preemption can change whether the rule applies at all, so it counts as low.
   // Other flags (two sources give different dates, etc.) only drop it to medium.
-  if (e.conflict_flag && /Flag for review: (may preempt|possible conflict)/.test(e.explanation)) low.push("a state law may preempt the local rule; flagged for human review");
+  if (e.conflict_flag && /Flag for review: (from [^,]+, )?(may preempt|possible conflict)/.test(e.explanation)) low.push("a state law may preempt the local rule; flagged for human review");
   else if (e.conflict_flag) mid.push("sources differ on a detail; see the reviewer note");
   if (!r.span_verified) low.push("quote not found word for word in the source");
   if ((r.source_type ?? "").startsWith("secondary")) mid.push("source is a news report or a copy of the code, not the official text");
@@ -118,6 +119,7 @@ function item(e: Evaluation, facts: FactSheet): MemoItem {
       ? `${Object.values(r.verification.verdicts).filter((v) => v === "supported").length} of ${Object.values(r.verification.verdicts).filter((v) => v !== "not_applicable").length} fields confirmed by a second model, with ${r.verification.evidence.length} supporting quotes found in the source`
       : null,
     source_added: r.source_in_starter_corpus === false,
+    official_text: r.official_text && r.official_text.doc_id !== r.source_doc_id ? r.official_text : null,
   };
 }
 

@@ -1,0 +1,14 @@
+{
+ "hash": "8065dc4e83e5c9879445274f643e858a08fff212",
+ "key": "CA / just_cause_eviction",
+ "ids": [
+  "r-0009",
+  "r-0010",
+  "r-0011"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [],
+  "coverage_only": []
+ }
+}

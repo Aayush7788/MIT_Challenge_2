@@ -4,7 +4,7 @@
 //
 //   npx tsx scripts/extract.ts                    # all documents (reuses cached per-doc outputs)
 //   npx tsx scripts/extract.ts --fresh            # ignore the cache, call the model for every document
-//   npx tsx scripts/extract.ts --docs D001,D004   # only these documents
+//   npx tsx scripts/extract.ts --docs D001,D004   # re-read these documents; the rest come from the cache
 //   npx tsx scripts/extract.ts --corpus <dir>     # another corpus folder (e.g. the hour-16 drop)
 import "./load-env";
 import fs from "node:fs";
@@ -48,7 +48,7 @@ Instructions
 1. Return one record per distinct rule this document states, as its own enacted text, a bill, a ballot measure, or an official summary of the governing law. Cite the underlying law, not the web page. Return an empty list if the document has no rule in scope. Never invent a rule, number, date or citation that the document does not state.
 2. jurisdiction: "CA", "NJ" or "MA" for state law (level "state"); "City, ST" for a city rule (level "city"), e.g. "Berkeley, CA". Use the plain city name, e.g. "San Francisco, CA" for the City and County of San Francisco.
 3. status as of the query date ${QUERY_DATE}: "in_force" if enacted and effective on or before that date; "not_yet_effective" if enacted with a later effective date; "pending" for bills, proposals and measures not yet adopted; "failed" for measures that were struck, defeated, vetoed or withdrawn. A ballot measure that voters rejected, or that a court removed from the ballot, is "failed": record it under the jurisdiction it would have covered (the state, for a statewide question), cite it by its number (e.g. "Initiative Petition 25-21") and state in the requirement that it is not law.
-4. effective_date: YYYY-MM-DD when the document states it, including code history notes ("Effective January 1, 2026", "effective 6-21-2025"). An ordinance that takes effect "immediately upon passage" takes its final adoption date when the document states it. If the document gives two different effective dates, use the one in the operative text and set conflict_flag with a conflict_note naming both.
+4. effective_date: YYYY-MM-DD, the date the rule first took effect. A code section's history note ("Amended by Stats. 2025 ... Effective January 1, 2026", "Operative April 1, 2024") gives the date of its latest amendment or re-enactment, not when the rule began; use that date only when the amendment created the rule, otherwise take the start date from the operative text (e.g. a transition clause that sets "the applicable rent on January 1, 2020") or leave it null, and name the amendment in interaction. A figure published "for 2026" dates the figure, not the rule: put the year in key_value. When an ordinance states only its final adoption or passage date, compute the effective date from the jurisdiction's default and say so in interaction: a New Jersey municipal ordinance takes effect 20 days after final passage (N.J.S.A. 40:69A-181(b)), even if it says "immediately upon passage and publication"; a California city ordinance takes effect 30 days after final adoption (Gov. Code § 36937). Use the date the whole ordinance took effect, not the date one of its later provisions began. If the document gives two different effective dates, use the one in the operative text and set conflict_flag with a conflict_note naming both.
 5. quoted_span: copy one to three contiguous sentences character for character from this document, at least 20 characters, containing the operative requirement (the cap, the number, the prohibition). Do not paraphrase, shorten with ellipses, or merge separate passages.
 6. citation: put the primary official citation first: the code section if the rule is codified, otherwise the ordinance, session-law or bill number. Add alternates in parentheses. Examples: "Cal. Civ. Code § 1950.5", "Cal. Bus. & Prof. Code § 16729", "S.F. Admin. Code § 37.3", "Hoboken Code § 158-2", "Jersey City Code § 218-12", "Newark Mun. Code § 19:2-3", "San Diego Mun. Code § 98.1103", "N.J.S.A. 46:8-21.2", "M.G.L. c. 186 § 15B", or the ordinance or bill number ("Ord. No. 1234", "A.123") when there is no code section.
 7. coverage: fill the structured fields only from what the text states.
@@ -91,7 +91,7 @@ const client = new Anthropic({ maxRetries: 6 });
 
 async function extractDoc(doc: CorpusDoc): Promise<DocResult> {
   const cacheFile = path.join(auditDir, `${doc.doc_id}.json`);
-  if (!flag("fresh") && fs.existsSync(cacheFile)) {
+  if (!flag("fresh") && !onlyDocs?.includes(doc.doc_id) && fs.existsSync(cacheFile)) {
     return { ...(JSON.parse(fs.readFileSync(cacheFile, "utf8")) as DocResult), cached: true };
   }
 
@@ -173,8 +173,8 @@ function normDate(d: string | null): string | null {
 }
 
 async function main() {
-  let docs = loadCorpus(corpusDir);
-  if (onlyDocs) docs = docs.filter((d) => onlyDocs.includes(d.doc_id));
+  // --docs re-reads only the named documents, but rules.json always covers every document.
+  const docs = loadCorpus(corpusDir);
   console.log(`Extracting from ${docs.length} documents with ${MODEL} (effort ${EFFORT}), ${concurrency} at a time`);
 
   const started = Date.now();

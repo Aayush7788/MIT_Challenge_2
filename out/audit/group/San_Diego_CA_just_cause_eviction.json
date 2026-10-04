@@ -1,0 +1,13 @@
+{
+ "hash": "7da2016250537550fe3daf16189eec9c1dcdcc48",
+ "key": "San Diego, CA / just_cause_eviction",
+ "ids": [
+  "r-0090",
+  "r-0091"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [],
+  "coverage_only": []
+ }
+}

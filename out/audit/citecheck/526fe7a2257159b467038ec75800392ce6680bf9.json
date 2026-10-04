@@ -1,0 +1,21 @@
+{
+ "key": "526fe7a2257159b467038ec75800392ce6680bf9",
+ "team_rule_id": "r-0097",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D079",
+  "O040",
+  "O041",
+  "O042"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "S.F. Admin. Code § 37.9",
+  "citation_basis": "§ 37.9: D079 (\"Ordinance Section 37.9(a)\") and O040 (Rent Ordinance text, §§ 37.9(a), 37.9(c))",
+  "source_is_law_text": false,
+  "official_doc_id": null,
+  "official_quote": null,
+  "is_city_policy": false,
+  "note": "Dropped subsection (a) because the card merges the just-cause list in § 37.9(a) with the dominant-motive rule in § 37.9(c) (and housing services in § 37.2(r)); no quote is given because O040, the only copy of the text, says it is not the official record."
+ }
+}

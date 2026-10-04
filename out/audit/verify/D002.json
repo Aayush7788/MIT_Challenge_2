@@ -1,18 +1,17 @@
 {
- "key": "9f73df7ed2d76737b27ee20fee5d90a4bb7aa2bf",
+ "key": "a147d88c84f2d933a75fed80068d04f700425665",
  "doc_id": "D002",
  "ids": [
-  "r-0046",
-  "r-0067",
-  "r-0072",
-  "r-0085",
-  "r-0100"
+  "r-0050",
+  "r-0074",
+  "r-0088",
+  "r-0103"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:47:26.837Z",
+ "audited_at": "2026-10-03T23:39:03.924Z",
  "cards": [
   {
-   "team_rule_id": "r-0046",
+   "team_rule_id": "r-0050",
    "requirement": {
     "verdict": "supported",
     "evidence": "Prohibits coordinated pricing algorithms; recurring unit/month violations and private remedies, previously at issue in RealPage, Inc. v. City of Berkeley et al., (N.D. Cal.) (voluntarily dismissed with prejudice Jan. 14, 2026).",
@@ -21,88 +20,55 @@
    "key_value": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field empty on card."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field empty on card."
    },
    "status": {
     "verdict": "supported",
     "evidence": "Berkeley Mun. Code ch. 13.63 (effective January 2026)",
-    "note": "Presented as current law, effective January 2026 and before the 2026-10-01 date. The RealPage challenge was dismissed."
+    "note": "Presented as current law, effective January 2026, before 2026-10-01; challenge was voluntarily dismissed."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field empty on card."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "Berkeley Mun. Code ch. 13.63 (effective January 2026)",
-    "note": "Citation matches."
+    "note": "Citation matches the document."
    }
   },
   {
-   "team_rule_id": "r-0067",
+   "team_rule_id": "r-0074",
    "requirement": {
     "verdict": "supported",
-    "evidence": "Prohibits landlords from using software, algorithms or data-sharing platforms to coordinate or recommend rents, lease terms, or occupancy.",
-    "note": null
-   },
-   "key_value": {
-    "verdict": "not_applicable",
-    "evidence": null,
-    "note": "Field is empty on the card."
-   },
-   "effective_date": {
-    "verdict": "not_applicable",
-    "evidence": null,
-    "note": "Field is empty on the card. The document gives July 2025 but the card omits it."
-   },
-   "status": {
-    "verdict": "supported",
-    "evidence": "Hoboken City Code, ch. 158-2 (effective July 2025)",
-    "note": "Presented as current law and effective before 2026-10-01."
-   },
-   "coverage": {
-    "verdict": "not_applicable",
-    "evidence": null,
-    "note": "Field is empty on the card."
-   },
-   "citation": {
-    "verdict": "partly_supported",
-    "evidence": "Hoboken City Code, ch. 158-2 (effective July 2025)",
-    "note": "The document cites 'ch. 158-2', not '§ 158-2'. This is a minor form difference."
-   }
-  },
-  {
-   "team_rule_id": "r-0072",
-   "requirement": {
-    "verdict": "supported",
-    "evidence": "Prohibits a landlord's use of algorithmic rent coordination services; includes public and private enforcement; fines up to $2,000 per day.",
+    "evidence": "Prohibits a landlord’s use of algorithmic rent coordination services; includes public and private enforcement; fines up to $2,000 per day.",
     "note": null
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "Prohibits a landlord's use of algorithmic rent coordination services; includes public and private enforcement; fines up to $2,000 per day.",
+    "evidence": "Prohibits a landlord’s use of algorithmic rent coordination services; includes public and private enforcement; fines up to $2,000 per day.",
     "note": null
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field empty on card."
    },
    "status": {
     "verdict": "supported",
     "evidence": "Jersey City Code § 218-12 (effective June 2025)",
-    "note": "Presented as current law and effective before 2026-10-01."
+    "note": "Presented as current law, effective June 2025."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field empty on card."
    },
    "citation": {
     "verdict": "supported",
@@ -111,11 +77,11 @@
    }
   },
   {
-   "team_rule_id": "r-0085",
+   "team_rule_id": "r-0088",
    "requirement": {
     "verdict": "supported",
     "evidence": "San Diego similarly authorizes tenant suits for damages, injunctive relief and penalties of up to $1,000 per violation, with each month and affected rental property potentially constituting a separate violation.",
-    "note": "The prohibition on prohibited RealPage-type products is described in the table and case summary."
+    "note": "Prohibition on algorithmic products using RealPage described in the document."
    },
    "key_value": {
     "verdict": "supported",
@@ -125,26 +91,26 @@
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field empty on card."
    },
    "status": {
     "verdict": "supported",
     "evidence": "San Diego Mun. Code §§ 98.1101–98.1104 (effective June 2025)",
-    "note": "Presented as current law and effective before 2026-10-01."
+    "note": "Presented as current law."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field empty on card."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "San Diego Mun. Code §§ 98.1101–98.1104 (effective June 2025)",
-    "note": "The document also cites § 98.1103."
+    "note": "Section 98.1103 is also cited in the text."
    }
   },
   {
-   "team_rule_id": "r-0100",
+   "team_rule_id": "r-0103",
    "requirement": {
     "verdict": "supported",
     "evidence": "Ordinance NS-3090 prohibits specified anticompetitive automated rent price-fixing; private tenant claims and up to $1,000 per violation and per month.",
@@ -158,17 +124,17 @@
    "effective_date": {
     "verdict": "supported",
     "evidence": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)",
-    "note": "April 2, 2026 is 2026-04-02."
+    "note": null
    },
    "status": {
     "verdict": "supported",
     "evidence": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)",
-    "note": "Effective before 2026-10-01 and presented as current law."
+    "note": "Effective before 2026-10-01 and presented as current."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field empty on card."
    },
    "citation": {
     "verdict": "supported",

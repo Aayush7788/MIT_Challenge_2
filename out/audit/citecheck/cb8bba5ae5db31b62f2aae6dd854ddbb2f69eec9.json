@@ -1,0 +1,20 @@
+{
+ "key": "cb8bba5ae5db31b62f2aae6dd854ddbb2f69eec9",
+ "team_rule_id": "r-0067",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D012",
+  "O072",
+  "O070"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Boston Fair Housing Commission Regulations, Reg. 1.01, 1.02(kk), 1.04(m) (adopted Mar. 1, 2001) (regulation; authority: City of Boston Code, Ordinances, Title 10, §§ 150-157 (1982), and St. 1994, c. 37)",
+  "citation_basis": "Reg. 1.01, 1.02(kk), 1.04(m), Mar. 1, 2001: O072; Title 10, §§ 150-157 (1982), St. 1994, c. 37: O072",
+  "source_is_law_text": false,
+  "official_doc_id": "O072",
+  "official_quote": "It is unlawful to deny equal access to or to discriminate in housing regardless of the public or private source of denial or discrimination against an individual or group based on race, color, religious creed, marital status, handicap, military status, children, national origin, sex, age, ancestry, sexual orientation or source of income.",
+  "is_city_policy": false,
+  "note": "Replaced the uncited regulation name with the specific Commission regulations (Reg. 1.01, 1.02(kk) and 1.04(m), adopted Mar. 1, 2001) and their enabling ordinance (Title 10, §§ 150-157), as shown in O072; the document gives no current codified Boston Code chapter, and it closes with a certification calling itself the proposed amended regulations, so the lawyer should confirm the adopted text."
+ }
+}

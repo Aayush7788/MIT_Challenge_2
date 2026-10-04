@@ -1,0 +1,23 @@
+{
+ "key": "ee1336668acf2fdd1414676eabcc223d2cc5fa65",
+ "team_rule_id": "r-0051",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D005",
+  "O093",
+  "O050",
+  "O053",
+  "X002",
+  "O052"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Berkeley Mun. Code § 13.78.010",
+  "citation_basis": "§ 13.78.010: O093 (also D005)",
+  "source_is_law_text": false,
+  "official_doc_id": "O093",
+  "official_quote": "When an owner of residential rental property or the owner’s agent receives a request to rent residential property in the City of Berkeley from an applicant and the owner charges that applicant a fee to purchase a consumer credit report and to validate, review, or otherwise process an application for the rent or lease of residential rental property, the owner shall provide, either in the rental application or in a separate disclosure prior to receipt of the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under California Civil Code Section 1950.6(b).",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

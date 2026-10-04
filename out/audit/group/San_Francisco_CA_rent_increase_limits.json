@@ -1,0 +1,22 @@
+{
+ "hash": "39ae9fea9f0fd1900b4de76cee4a9f1191351122",
+ "key": "San Francisco, CA / rent_increase_limits",
+ "ids": [
+  "r-0098",
+  "r-0099"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0098",
+     "r-0099"
+    ],
+    "key_value": "1.6%",
+    "reason": "Both state the San Francisco Rent Ordinance's allowable annual increase (Admin. Code § 37.3) of 1.6% for March 1, 2026 – February 28, 2027. One card cites the code section and the other cites the ordinance and Rent Board form, but it is the same rule."
+   }
+  ],
+  "coverage_only": []
+ }
+}

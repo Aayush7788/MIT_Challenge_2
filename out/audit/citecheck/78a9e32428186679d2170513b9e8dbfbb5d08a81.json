@@ -1,0 +1,20 @@
+{
+ "key": "78a9e32428186679d2170513b9e8dbfbb5d08a81",
+ "team_rule_id": "r-0090",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D076",
+  "D074",
+  "D075"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "San Diego Mun. Code § 98.1101 et seq. (Ord. O-21955 N.S.)",
+  "citation_basis": "§ 98.1101 et seq. (Division 11, §§ 98.1101-98.1104): D074; Ord. O-21955 N.S.: D074",
+  "source_is_law_text": false,
+  "official_doc_id": "D074",
+  "official_quote": "(a) It is unlawful for a person to sell, license, or otherwise provide an algorithmic device to a landlord. (b) It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property. (a) A tenant may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation of this Division, in a civil action against a landlord.",
+  "is_city_policy": false,
+  "note": "Cites the whole adopted Division 11 as § 98.1101 et seq. (Ord. O-21955 N.S.) because the card merges the ban in § 98.1103 with the definition in § 98.1102 and the remedies in § 98.1104. The quote now comes from the adopted code text in D074, not the draft in D076. The card should also be checked against D074 on two points: attorney's fees go to a prevailing landlord or tenant, and the adopted definition is limited to nonpublic competitor data of two or more landlords."
+ }
+}

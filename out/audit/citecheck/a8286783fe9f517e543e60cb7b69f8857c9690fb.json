@@ -1,0 +1,23 @@
+{
+ "key": "a8286783fe9f517e543e60cb7b69f8857c9690fb",
+ "team_rule_id": "r-0052",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D005",
+  "O093",
+  "O050",
+  "O052",
+  "X002",
+  "O096"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Berkeley Mun. Code §§ 13.78.016, 13.78.018 (Ord. 7697-NS)",
+  "citation_basis": "§ 13.78.016: O093, D005; § 13.78.018: O093, D005; Ord. 7697-NS: O093 (history notes to §§ 13.78.016 and 13.78.018)",
+  "source_is_law_text": false,
+  "official_doc_id": "O093",
+  "official_quote": "It is unlawful for an owner of residential rental property or the owner’s agent to charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household. Any provision of an existing rental agreement or lease that violates the provisions of this chapter shall be null, void, and unenforceable.",
+  "is_city_policy": false,
+  "note": "Added § 13.78.018 because the card's rule that contrary lease terms are unenforceable comes from that section, and added the enacting ordinance number from the code's history notes."
+ }
+}

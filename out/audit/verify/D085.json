@@ -1,19 +1,19 @@
 {
- "key": "4f64edd88494cb509236733ec83d3ac692825886",
+ "key": "c1c26fceb9fce165bec88db20b4bc6b69050ae8d",
  "doc_id": "D085",
  "ids": [
-  "r-0101",
-  "r-0104"
+  "r-0104",
+  "r-0107"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:50:29.414Z",
+ "audited_at": "2026-10-03T23:42:08.305Z",
  "cards": [
   {
-   "team_rule_id": "r-0101",
+   "team_rule_id": "r-0104",
    "requirement": {
-    "verdict": "supported",
-    "evidence": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice.",
-    "note": "Other elements (cure notice for at-fault, no-fault causes, 3 months relocation or rent waiver) are also stated in the document."
+    "verdict": "partly_supported",
+    "evidence": "Under a no-fault just cause termination, the owner shall either provide 3 months of relocation assistance or waive payment of rent for the final 3 months of the tenancy.",
+    "note": "The 30 days, written notice, cure period, and no-fault causes are all in the document. The card's phrase \"for at-fault causes must first give you a chance to fix\" is a slight narrowing: the document says notice of violation with time to fix comes before a just cause termination notice. The \"3 months\" relocation or waiver is stated."
    },
    "key_value": {
     "verdict": "supported",
@@ -28,25 +28,25 @@
    "status": {
     "verdict": "supported",
     "evidence": "The new ordinances are not effective until November 19, 2021.",
-    "note": "Effective date has passed as of 2026-10-01; the page (with 2026 news) presents the rule as current, with no repeal mentioned."
+    "note": "The effective date is past as of 2026-10-01, and the page, with a 2026 newsletter listed, presents the rule as current law. No repeal is mentioned."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters.",
-    "note": "The 15-year exemption is supported, but the card omits the other exemptions (deed-restricted, hotel, hospital, dormitories, etc.)."
+    "note": "The 15-year exemption is stated. The card omits the other exemptions (deed-restricted housing, hotels, and so on). Also, the document gives no cutoff date for the 15 years."
    },
    "citation": {
     "verdict": "partly_supported",
-    "evidence": "a Just Cause Eviction Ordinance, which limits the allowed reasons for which a renter can be evicted.",
-    "note": "The ordinance is named in the document, but no section or ordinance number is given."
+    "evidence": "The Santa Ana City Council on Tuesday night adopted two new ordinances to help protect renters: a Rent Stabilization Ordinance, which limits residential rent increases to no more than 3% per year, and a Just Cause Eviction Ordinance, which limits the allowed reasons for which a renter can be evicted.",
+    "note": "The ordinance is named in the document, but no section number is given."
    }
   },
   {
-   "team_rule_id": "r-0104",
+   "team_rule_id": "r-0107",
    "requirement": {
-    "verdict": "supported",
+    "verdict": "partly_supported",
     "evidence": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period. If the CPI is negative, no rent increase is permitted.",
-    "note": "Publication by June 30, effective September 1, and written notice requirement are also stated."
+    "note": "The cap, CPI rule, June 30 publication, September 1 effective date, and notice requirement are all supported. The building-date scope is \"constructed after February 1, 1995\" exempt, so the card's \"on or before\" is a reasonable inverse. The mobile home space exemption is omitted."
    },
    "key_value": {
     "verdict": "supported",
@@ -60,18 +60,18 @@
    },
    "status": {
     "verdict": "supported",
-    "evidence": "The new ordinances are not effective until November 19, 2021.",
-    "note": "Page presents the rule as current, with a Rent Stabilization Newsletter from September 2026."
+    "evidence": "Rent Stabilization Newsletter: September 2026",
+    "note": "The page presents the rule as current law and a 2026 newsletter on rent stabilization is listed. No repeal is mentioned."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990.",
-    "note": "The 1995-02-01 cutoff is supported, but the mobile home space cutoff (after January 1, 1990) is omitted."
+    "note": "The card's built_on_or_before 1995-02-01 is the inverse of the stated exemption. The mobile home cutoff of January 1, 1990 is omitted."
    },
    "citation": {
     "verdict": "partly_supported",
-    "evidence": "a Rent Stabilization Ordinance, which limits residential rent increases to no more than 3% per year",
-    "note": "The ordinance is named, but no section or ordinance number is given."
+    "evidence": "The Santa Ana City Council on Tuesday night adopted two new ordinances to help protect renters: a Rent Stabilization Ordinance, which limits residential rent increases to no more than 3% per year, and a Just Cause Eviction Ordinance, which limits the allowed reasons for which a renter can be evicted.",
+    "note": "The ordinance is named in the document, but no section number is given."
    }
   }
  ]

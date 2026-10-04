@@ -1,0 +1,22 @@
+{
+ "key": "2bdd83c91290d4aa0129f31487dd61a5eb9babce",
+ "team_rule_id": "r-0075",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D033",
+  "X003",
+  "X004",
+  "D034",
+  "O080"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Hoboken Code § 155-5 (Ord. No. B-532)",
+  "citation_basis": "§ 155-5: D033; Ord. No. B-532: D033",
+  "source_is_law_text": true,
+  "official_doc_id": "D033",
+  "official_quote": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less. For a periodic tenant or for a tenant whose lease terms shall be less than one year, said tenant shall not suffer or be caused to pay more than one rent increase in any twelve-month period which exceeds 5% or the consumer price index percentage differential for the twelve-month period commencing 15 months prior to and ending three months prior to the effective date of the proposed increase, whichever is less. No more than one such cost-of-living rental increase in any one twelve-month period shall be permitted irrespective of the number of different tenants occupying said housing space during said twelve-month period.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "key": "55a293f6ccf0e11dee52af6b6f1f9375a5247275",
+ "team_rule_id": "r-0078",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D035",
+  "D002",
+  "O083",
+  "O082",
+  "O084",
+  "O081"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Jersey City Code § 218-12 (Ord. 25-057, as amended by Ord. 25-076)",
+  "citation_basis": "§ 218-12: D035, O082; Ord. 25-057: D035; Ord. 25-076: O082",
+  "source_is_law_text": true,
+  "official_doc_id": "D035",
+  "official_quote": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise exchange anything of value in return for the services of a Service Provider. No service provider shall facilitate an agreement not to compete among real estate lessors with respect to any aspect of residential dwelling units, including rental pricing, fees, or any other rental terms.",
+  "is_city_policy": false,
+  "note": "Added Ord. 25-076, which amended § 218-12(2)(a) on July 16, 2025 to also bar otherwise utilizing a Service Provider; the quote is the original Ord. 25-057 text, and the section is still uncodified (Municode's current § 218-12 is 'Exempt dwellings'), so § 218-12 rests on the ordinance numbering."
+ }
+}

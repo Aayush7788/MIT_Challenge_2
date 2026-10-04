@@ -1,0 +1,24 @@
+{
+ "hash": "8d117317ea3a1edffcab9b3d81961162141ab248",
+ "key": "CA / screening_restrictions",
+ "ids": [
+  "r-0014",
+  "r-0015",
+  "r-0016",
+  "r-0017"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0014",
+     "r-0017"
+    ],
+    "key_value": null,
+    "reason": "Both state California's ban on source-of-income discrimination in rental housing, including Section 8 and other vouchers. Gov. Code § 12955 is part of the Fair Employment and Housing Act (FEHA), so the FEHA card and the § 12955(a),(p) card cite the same statute."
+   }
+  ],
+  "coverage_only": []
+ }
+}

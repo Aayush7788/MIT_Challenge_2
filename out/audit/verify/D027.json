@@ -1,53 +1,53 @@
 {
- "key": "26dc779e0afa6d83fe1985515003d7951ac949ba",
+ "key": "09e96675391864e42b3011b03d47eb46e2fd57d0",
  "doc_id": "D027",
  "ids": [
-  "r-0011",
-  "r-0012",
-  "r-0013"
+  "r-0014",
+  "r-0015",
+  "r-0016"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:45:19.525Z",
+ "audited_at": "2026-10-03T23:36:58.317Z",
  "cards": [
   {
-   "team_rule_id": "r-0011",
+   "team_rule_id": "r-0014",
    "requirement": {
     "verdict": "supported",
     "evidence": "(a) For the owner of any housing accommodation to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information of that person.",
-    "note": "Ad prohibition in (c) and source-of-income definition in (p) also in the text; 'refuse to rent' is covered by discriminate."
+    "note": "Subdivision (p) defines source of income to include Section 8 and VASH vouchers and public assistance; (c) bars ads indicating preference or limitation based on source of income."
    },
    "key_value": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty."
+    "note": "Field empty."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty."
+    "note": "Field empty."
    },
    "status": {
     "verdict": "supported",
     "evidence": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)",
-    "note": "Presented as current law, effective already as of 2026-10-01."
+    "note": "Document presents the section as current law as of retrieval."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty."
+    "note": "Field empty."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "(p) (1) For the purposes of this section, “source of income” means lawful, verifiable income paid directly to a tenant, or to a representative of a tenant, or paid to a housing owner or landlord on behalf of a tenant, including federal, state, or local public assistance, and federal, state, or local housing subsidies",
-    "note": "Subdivisions (a) and (p) exist and match; (c) is also relevant to ads but is not cited."
+    "note": "Subdivisions (a) and (p) are in Gov. Code 12955; (c) on ads is also relevant but not cited."
    }
   },
   {
-   "team_rule_id": "r-0012",
+   "team_rule_id": "r-0015",
    "requirement": {
     "verdict": "supported",
     "evidence": "(A) Use a financial or income standard in assessing eligibility for the rental of housing that is not based on the portion of the rent to be paid by the tenant.",
-    "note": "Applies where there is a government rent subsidy; the card's plain wording is consistent."
+    "note": "Applies where there is a government rent subsidy."
    },
    "key_value": {
     "verdict": "supported",
@@ -57,7 +57,7 @@
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty."
+    "note": "Field empty."
    },
    "status": {
     "verdict": "supported",
@@ -67,7 +67,7 @@
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty."
+    "note": "Field empty."
    },
    "citation": {
     "verdict": "supported",
@@ -76,7 +76,7 @@
    }
   },
   {
-   "team_rule_id": "r-0013",
+   "team_rule_id": "r-0016",
    "requirement": {
     "verdict": "supported",
     "evidence": "(B) (i) Use a person’s credit history as part of the application process for a rental accommodation without offering the applicant the option, at the applicant’s discretion, of providing lawful, verifiable alternative evidence of the applicant’s reasonable ability to pay the portion of the rent to be paid by the tenant, including, but not limited to, government benefit payments, pay records, and bank statements.",
@@ -85,12 +85,12 @@
    "key_value": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty."
+    "note": "Field empty."
    },
    "effective_date": {
     "verdict": "partly_supported",
     "evidence": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)",
-    "note": "The document gives the effective date of the 2023 amendment, but does not say that subdivision (o)(1)(B) first took effect then."
+    "note": "The document gives the effective date of the amendment (SB 267). It does not state that (o)(1)(B) was first added then, though that is plausible."
    },
    "status": {
     "verdict": "supported",
@@ -100,12 +100,12 @@
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty."
+    "note": "Field empty."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)",
-    "note": "Subdivision (o)(1)(B) and the SB 267 amendment are both in the text."
+    "note": "Section (o)(1)(B) and SB 267 match the document."
    }
   }
  ]

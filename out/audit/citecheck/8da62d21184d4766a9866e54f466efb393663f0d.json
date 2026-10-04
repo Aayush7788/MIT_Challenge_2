@@ -1,0 +1,22 @@
+{
+ "key": "8da62d21184d4766a9866e54f466efb393663f0d",
+ "team_rule_id": "r-0096",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D081",
+  "D002",
+  "O040",
+  "O042",
+  "O041"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "S.F. Admin. Code § 37.10C (Ord. No. 224-24)",
+  "citation_basis": "§ 37.10C: D081, D002, O040; Ord. No. 224-24: O040 (history note and table of recent changes)",
+  "source_is_law_text": false,
+  "official_doc_id": null,
+  "official_quote": null,
+  "is_city_policy": false,
+  "note": "Added the enacting ordinance number (Ord. No. 224-24, from O040). No quote is given because D081 is a Rent Board news page, D002 is a law-firm alert, and O040 is the Rent Board's copy, which says it is not the official record (American Legal is the official publisher)."
+ }
+}

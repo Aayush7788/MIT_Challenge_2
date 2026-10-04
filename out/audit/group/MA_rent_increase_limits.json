@@ -1,0 +1,22 @@
+{
+ "hash": "3cf5d3c008562cb7c94d0b52569c85b4b879cbb3",
+ "key": "MA / rent_increase_limits",
+ "ids": [
+  "r-0030",
+  "r-0031"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0030",
+     "r-0031"
+    ],
+    "key_value": null,
+    "reason": "Both cards describe the Massachusetts statewide ban on local rent control, the Rent Control Prohibition Act at M.G.L. c. 40P. The news report omits the citation, but it describes the same law."
+   }
+  ],
+  "coverage_only": []
+ }
+}

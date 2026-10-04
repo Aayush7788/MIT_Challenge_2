@@ -1,0 +1,23 @@
+{
+ "key": "eedb4d9321f9d643f107d74469a10a62adedcd42",
+ "team_rule_id": "r-0088",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D044",
+  "O086",
+  "O033",
+  "O030",
+  "O088",
+  "O091"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "L.A. Mun. Code § 151.06.02 (Ord. No. 175020; Ord. No. 166368; Ord. No. 174017)",
+  "citation_basis": "§ 151.06.02: O086, D044; Ord. No. 175020: O086, D044; Ord. No. 166368: O086, D044; Ord. No. 174017: O086, D044",
+  "source_is_law_text": false,
+  "official_doc_id": "O086",
+  "official_quote": "A landlord who is subject to the provisions of Section 1950.5 of the California Civil Code shall pay annually interest on all security deposits held for at least one year for their tenants as follows: A tenant shall be given the unpaid accrued interest in the form of either a direct payment or a credit against the tenant’s rent.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

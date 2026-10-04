@@ -8,6 +8,7 @@ import path from "node:path";
 import { loadAddresses, parseCsv } from "../src/lib/law/corpus";
 import { lookup, toEntries } from "../src/lib/law/engine";
 import { buildingFrom, factSheet } from "../src/lib/law/facts";
+import { applyCiteCheck } from "../src/lib/law/cite";
 import { normalizeRules } from "../src/lib/law/rules";
 import type { LookupEntry } from "../src/lib/law/schema";
 
@@ -18,7 +19,10 @@ const opt = (name: string, dflt: string) => {
 };
 const AS_OF = opt("as-of", "2026-10-01");
 // Use the second-checked rules when scripts/verify.ts has run.
-const RULES_IN = opt("rules", process.env.RULES_IN ?? (fs.existsSync("out/rules.verified.json") ? "out/rules.verified.json" : "out/rules.json"));
+const RULES_IN = opt(
+  "rules",
+  process.env.RULES_IN ?? ["out/rules.grouped.json", "out/rules.verified.json", "out/rules.json"].find((f) => fs.existsSync(f))!,
+);
 const OUT = opt("out", "submission/lookups.json");
 
 export type ResolvedAddress = { address_id: string; state: string; city: string | null; county: string | null; method: string; matched_address: string | null };
@@ -27,7 +31,10 @@ function main() {
   const loaded = normalizeRules(JSON.parse(fs.readFileSync(RULES_IN, "utf8")));
   for (const r of loaded.rejected) console.warn(`REJECTED ${r.id}: ${r.problems.join("; ")}`);
   for (const w of loaded.warnings) console.warn(`warning: ${w}`);
-  const rules = loaded.rules;
+  // Citations and official-text quotes from the cite-check (scripts/citecheck.ts).
+  // Merging is done by now, so a renamed citation never merges two cards.
+  const checked = fs.existsSync("out/citecheck.json") ? JSON.parse(fs.readFileSync("out/citecheck.json", "utf8")) : null;
+  const rules = applyCiteCheck(loaded.rules, checked);
 
   const jur: Record<string, ResolvedAddress> = JSON.parse(fs.readFileSync("data/derived/jurisdictions.json", "utf8"));
   const overrides = new Map(

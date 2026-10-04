@@ -1,19 +1,19 @@
 {
- "key": "014ff8202135a66e233c31d8c38da6617e6c3b6a",
+ "key": "c1b45dacfa291bc4d65de330337f1c9cb649dd8e",
  "doc_id": "D022",
  "ids": [
   "r-0002",
   "r-0003"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:44:42.191Z",
+ "audited_at": "2026-10-03T23:36:26.299Z",
  "cards": [
   {
    "team_rule_id": "r-0002",
    "requirement": {
     "verdict": "partly_supported",
     "evidence": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
-    "note": "The ban is supported. The document does not mention rent-setting software or landlords. It also says nothing about reporting to the Attorney General, so that sentence is unsupported."
+    "note": "The core prohibition is supported. The document does not mention rent-setting software or landlords, and it says nothing about reporting to the Attorney General. The Attorney General reporting advice is unsupported."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -28,7 +28,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "Approved  by\nGovernor\nOctober 06, 2025.",
-    "note": "The document presents the chaptered act as current law. It gives no effective date or repeal."
+    "note": "The document presents the chaptered act as current law. It states no effective date, but the card gives none either."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -37,8 +37,8 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "16729.\n(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
-    "note": "Section 16729(a) and Chapter 338 match. The year 2025 is consistent with the approval date."
+    "evidence": "Section 16729 is added to the Business and Professions Code, to read:",
+    "note": "Section 16729(a) matches the cited text. The document also shows Chapter 338 and the 2025 approval."
    }
   },
   {
@@ -46,7 +46,7 @@
    "requirement": {
     "verdict": "supported",
     "evidence": "(b) It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
-    "note": "The ban and the commercial-term examples (level of service, availability) match the text. The rent remark is an illustration that the document does not state."
+    "note": "The statute covers commercial terms such as availability and level of service. The rent-specific example is a plain-language gloss that follows from the general rule."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -61,7 +61,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "Approved  by\nGovernor\nOctober 06, 2025.",
-    "note": "The document presents the chaptered act as current law. It gives no effective date or repeal."
+    "note": "The document presents the chaptered act as current law."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -71,7 +71,7 @@
    "citation": {
     "verdict": "supported",
     "evidence": "(b) It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
-    "note": "Section 16729(b) and Chapter 338 match."
+    "note": "Section 16729(b) and Chapter 338 match the document."
    }
   }
  ]

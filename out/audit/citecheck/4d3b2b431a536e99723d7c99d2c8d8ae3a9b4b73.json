@@ -1,0 +1,24 @@
+{
+ "key": "4d3b2b431a536e99723d7c99d2c8d8ae3a9b4b73",
+ "team_rule_id": "r-0012",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D024",
+  "D040",
+  "O030",
+  "O002",
+  "O040",
+  "O033",
+  "O050"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Cal. Civ. Code § 1947.12 (Stats. 2023, ch. 290, SB 567)",
+  "citation_basis": "§ 1947.12: D024; Stats. 2023, ch. 290, SB 567: D024 (history note 'Repealed (in Sec. 3) and added by Stats. 2023, Ch. 290, Sec. 4. (SB 567)')",
+  "source_is_law_text": true,
+  "official_doc_id": "D024",
+  "official_quote": "Subject to subdivision (b), an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase. If the same tenant remains in occupancy of a unit of residential real property over any 12-month period, the gross rental rate for the unit of residential real property shall not be increased in more than two increments over that 12-month period, subject to the other restrictions of this subdivision governing gross rental rate increase. For a new tenancy in which no tenant from the prior tenancy remains in lawful possession of the residential real property, the owner may establish the initial rental rate not subject to subdivision (a).",
+  "is_city_policy": false,
+  "note": "Kept the section-level cite because the card merges subdivisions (a)(1), (a)(2) and (b), and added the enacting chapter and bill (Stats. 2023, ch. 290, SB 567) that D024's history note gives for the current text."
+ }
+}

@@ -1,0 +1,36 @@
+SOURCE: https://ecode360.com/15252572
+RETRIEVED: 2026-10-04 00:31 UTC
+JURISDICTION: Hoboken, NJ
+CITES: Hoboken Code § 155-31; § 155-32; § 155-33; § 155-34
+NOTE: Hoboken Code Chapter 155 (Rent Control), Article VII (Vacancy Decontrol), §§ 155-31 to 155-34, from the city's official code on ecode360 (General Code; customer HO0741; page metadata: 'Includes legislation through 09-02-2026'); reached from the Chapter 155 table of contents; read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+City of Hoboken, NJ (ecode360 customer HO0741)
+Chapter 155, Rent Control
+
+Article VII
+Vacancy Decontrol
+
+§ 155-31
+Dwelling decontrolled and exempted.
+
+Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential apartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions of this chapter for the new tenant's initial rental; provided, however, that said rental shall be limited to an increase of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit, exclusive of any capital improvement surcharge that is a component of said last rental. However, any additional rental increase beyond the initial rental of the new tenant shall be subject to the provisions of this chapter. For the purpose of any computations under this chapter, the initial base rent charged to the new tenant under this section shall be considered the base rent.
+
+§ 155-32
+Circumstances entitling decontrol.
+
+The landlord shall be entitled to decontrol the apartment unit under this article only under the following circumstances:
+A. If the tenant vacates the apartment voluntarily without harassment, duress or unreasonable pressure from the landlord or his agents or if the tenant is legally evicted.
+B. If the tenant vacates the apartment as a result of a court order from a court of competent jurisdiction. This ground shall not be available to a landlord who receives a court order to dispossess a tenant based upon the tenant holding over and continuing in possession of the premises after the expiration of his term. Whenever there is an issue as to the circumstances under which a tenant has vacated an apartment unit, that issue shall be determined by the Rent Control Board after a hearing. If the Board finds that a landlord is seeking to decontrol or has decontrolled an apartment unit and the tenant has vacated the unit under circumstances other than those set forth in this section, the Rent Board may rescind the decontrol of the apartment unit, and the rent shall revert to that rental on the apartment unit prior to the vacation of the apartment, and prosecute the landlord for violation of the chapter under § 155-21.
+
+§ 155-33
+Filing of certificate for decontrolled units.
+
+[Amended 4-3-2023 by Ord. No. B-549]
+When any apartment unit is decontrolled under this article, the landlord shall file a certificate, provided by the Rent Leveling Board, including a filing fee in the amount of $50, indicating the name of the vacating tenant, the existing rental, the circumstances under which the tenant vacated the apartment unit, the name of the new tenant, the new rental and the effective date of the new rental.
+
+§ 155-34
+Number of times for dwelling units to be decontrolled limited.
+
+No dwelling unit shall be decontrolled pursuant to this article more than once in any three-year period.[1],[2]
+[1] Editor's Note: Former §§ 155-35, Vacancy decontrol, added 12-21-1988 by Ord. No. P-27, was repealed 2-15-1989 by Ord. No. P-42.
+[2] Editor's Note: Former Art. VIII, Condominiums and Family-Owner Occupied Residential Units, added 9-7-1994 by Ord. No. R-65, which consisted of §§ 155-35 through 155-36, was repealed 12-7-1994 by Ord. No. R-91.

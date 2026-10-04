@@ -80,10 +80,14 @@ function main() {
   run("npx", ["tsx", "scripts/extract.ts"]);
   console.log("\n== second check of the new cards");
   run("npx", ["tsx", "scripts/verify.ts"]);
+  console.log("\n== same-law grouping");
+  run("npx", ["tsx", "scripts/group.ts"]);
+  console.log("\n== cite-check (citation style, a quote from the law's own text)");
+  run("npx", ["tsx", "scripts/citecheck.ts"]);
   console.log("\n== every address, as of 2026-10-01");
   run("npx", ["tsx", "scripts/lookup.ts"]);
 
-  const rules = normalizeRules(JSON.parse(fs.readFileSync("submission/rules.json", "utf8"))).rules;
+  const rules = normalizeRules(JSON.parse(fs.readFileSync("submission/rules.json", "utf8")), { consolidate: false }).rules;
   const fresh = rules.filter((r) => docIds.includes(r.source_doc_id));
   console.log(`\n== ${fresh.length} rule card(s) from the new document(s)`);
   for (const r of fresh) {

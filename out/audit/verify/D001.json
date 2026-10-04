@@ -1,43 +1,43 @@
 {
- "key": "f4fe77474a5540accf00cedb446773afc3b06fb6",
+ "key": "4c44ad3c0b0d4b8fe766b65bb19ae951a31247c5",
  "doc_id": "D001",
  "ids": [
-  "r-0047"
+  "r-0049"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:47:31.670Z",
+ "audited_at": "2026-10-03T23:38:55.479Z",
  "cards": [
   {
-   "team_rule_id": "r-0047",
+   "team_rule_id": "r-0049",
    "requirement": {
     "verdict": "supported",
-    "evidence": "“Competitor Data” means information that is not available to the general public concerning actual rent prices, occupancy rates, lease start and end dates, and similar data regarding a property other than a property that is owned or managed by the landlord who is the recipient or user of the generated recommendation, when such data is less than 90 days old.",
-    "note": "Sections 13.63.030 and 13.63.040 cover the landlord and vendor prohibitions, the tenant suit, the remedies and the attorney's fees."
+    "evidence": "It shall be unlawful for a landlord to use a coordinated pricing algorithm described in subsection A when setting rents or occupancy levels for residential dwelling units in the City of Berkeley.",
+    "note": "Prohibition on use and sale, the 90-day competitor data definition, and tenant remedies (injunctive relief, damages, penalties up to $1,000, attorney's fees) are all in the text. The City Attorney's separate enforcement power is omitted, but the card does not say otherwise."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "Each separate month that a violation exists or continues, and each separate residential dwelling unit for which the landlord used the coordinated pricing algorithm, shall constitute a separate and distinct violation.",
-    "note": "The $1,000 per violation cap is stated in 13.63.040(A) and (B)."
+    "note": "The $1,000 per violation cap appears in 13.63.040(A) and (B)."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "The card leaves the field empty."
+    "note": "Field is empty on the card."
    },
    "status": {
-    "verdict": "supported",
-    "evidence": "It shall be unlawful for a landlord to use a coordinated pricing algorithm described in subsection A when setting rents or occupancy levels for residential dwelling units in the City of Berkeley.",
-    "note": "The document presents the rule as current law. It was passed on Nov 18, 2025 and no repeal is shown."
+    "verdict": "partly_supported",
+    "evidence": "At a regular meeting of the Council of the City of Berkeley held on November 18, 2025, this Ordinance was passed to print and ordered published by posting by the following vote:",
+    "note": "The document presents the chapter as current law, but only shows passage to print. Final adoption and effective date are not stated, so in_force as of 2026-10-01 is not confirmed by the text."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "The card leaves the field empty."
+    "note": "Field is empty on the card."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "13.63.030   Use and sale of coordinated pricing algorithms prohibited.",
-    "note": "The chapter, section and ordinance number match. The remedies sit in § 13.63.040, but the prohibition is correctly cited."
+    "note": "Section 13.63.030 and Ordinance No. 7,992-N.S. are in the document, and remedies are at 13.63.040."
    }
   }
  ]

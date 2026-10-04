@@ -1,0 +1,20 @@
+{
+ "key": "91393a5c11d7546a14860b8611f6a6d45c1d439a",
+ "team_rule_id": "r-0094",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D073",
+  "D075",
+  "D074"
+ ],
+ "retried": true,
+ "result": {
+  "citation": "San Diego Mun. Code § 98.0706 (Ord. O-21647 N.S.)",
+  "citation_basis": "§ 98.0706 and Ord. O-21647 N.S.: D073",
+  "source_is_law_text": true,
+  "official_doc_id": "D073",
+  "official_quote": "(i) Unless section 98.0706(c)(1)(A)(ii) applies, the direct payment to the tenant shall be in an amount equal to two months of actual rent under the tenant’s lease in effect at the date of the notice. (ii) If the tenant is a senior or disabled, the direct payment to the tenant shall be in an amount equal to three months of actual rent under the tenant’s lease in effect at the date of the notice.",
+  "is_city_policy": false,
+  "note": "Dropped the '(c)' subsection because the card merges the payment amounts and rent-waiver option in § 98.0706(c) with the 15-day payment rule in § 98.0706(b)(1)(B)(i), so it cites the whole section."
+ }
+}

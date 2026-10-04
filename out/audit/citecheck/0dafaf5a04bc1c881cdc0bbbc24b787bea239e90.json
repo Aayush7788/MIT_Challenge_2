@@ -1,0 +1,20 @@
+{
+ "key": "0dafaf5a04bc1c881cdc0bbbc24b787bea239e90",
+ "team_rule_id": "r-0093",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D073",
+  "D075",
+  "D074"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "San Diego Mun. Code § 98.0704 (Ord. O-21647 N.S., amended by O-21769 N.S.)",
+  "citation_basis": "§ 98.0704: D073; Ord. O-21647 N.S. (added 5-25-2023, effective 6-24-2023): D073; O-21769 N.S. (amended 2-27-2024, effective 3-28-2024): D073",
+  "source_is_law_text": true,
+  "official_doc_id": "D073",
+  "official_quote": "A landlord shall not terminate a tenancy without just cause. For purposes of this Division, just cause includes at-fault just cause and no-fault just cause.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

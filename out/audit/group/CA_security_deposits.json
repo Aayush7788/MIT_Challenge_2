@@ -1,0 +1,25 @@
+{
+ "hash": "25bb35ced1c07df166e68781369b20d7cc04a861",
+ "key": "CA / security_deposits",
+ "ids": [
+  "r-0018",
+  "r-0019",
+  "r-0020",
+  "r-0021",
+  "r-0022"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0018",
+     "r-0019"
+    ],
+    "key_value": null,
+    "reason": "AB 12 amended Civ. Code § 1950.5(c) to set the one-month deposit cap, effective July 1, 2024. Both cards state the same cap and the same small-landlord exception, with the same figure."
+   }
+  ],
+  "coverage_only": []
+ }
+}

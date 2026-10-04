@@ -1,77 +1,77 @@
 {
- "key": "d4a2dc0e1126e6d843740e9eb79ce88ce5836a6f",
+ "key": "973d3f210b7914f95096929b55945b8e5567b171",
  "doc_id": "D057",
  "ids": [
-  "r-0023",
-  "r-0024"
+  "r-0026",
+  "r-0027"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:46:00.878Z",
+ "audited_at": "2026-10-03T23:37:37.805Z",
  "cards": [
   {
-   "team_rule_id": "r-0023",
+   "team_rule_id": "r-0026",
    "requirement": {
-    "verdict": "partly_supported",
+    "verdict": "supported",
     "evidence": "No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman as defined in section eighty-seven PP of chapter one hundred and twelve.",
-    "note": "The statute bars unlicensed persons from engaging in the business of finding housing for a fee. The card's added instruction not to pay a finder's fee to an unlicensed person is a plain-language gloss not stated in the text."
+    "note": "The card restates the licensing requirement in plainer words. The advice about not paying an unlicensed person follows from it."
    },
    "key_value": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "The field is empty on the card."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "The field is empty on the card."
    },
    "status": {
     "verdict": "supported",
     "evidence": "No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman as defined in section eighty-seven PP of chapter one hundred and twelve.",
-    "note": "The document presents the rule as current law, in both the pre- and post-August 2025 versions."
+    "note": "The document presents the rule as current law. It appears in both the pre-August 2025 and the amended text."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "The field is empty on the card."
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "Section 87DDD1/2. No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman as defined in section eighty-seven PP of chapter one hundred and twelve.",
-    "note": "The section is c. 112 § 87DDD 1/2, as cited."
+    "evidence": "Section 87DDD1/2. No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman",
+    "note": "The citation matches the section in the document."
    }
   },
   {
-   "team_rule_id": "r-0024",
+   "team_rule_id": "r-0027",
    "requirement": {
     "verdict": "supported",
     "evidence": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson.",
-    "note": "The statement that a tenant cannot be made to pay a fee when the landlord hired the broker follows directly from this text."
+    "note": "The card's conclusion about landlord-hired brokers follows directly from this sentence."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson.",
-    "note": null
+    "note": "The card's key value paraphrases this sentence."
    },
    "effective_date": {
     "verdict": "supported",
     "evidence": "[ Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]",
-    "note": "The amended text is effective August 1, 2025."
+    "note": "The document states the August 1, 2025 effective date for the amended text."
    },
    "status": {
     "verdict": "supported",
     "evidence": "[ Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]",
-    "note": "As of 2026-10-01 the August 1, 2025 text is the current version."
+    "note": "The amended text took effect before 2026-10-01 and is the current version in the document."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "The field is empty on the card."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "[ Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]",
-    "note": "The citation to St. 2025, c. 9, § 43 matches the document."
+    "note": "The citation to c. 112 § 87DDD1/2 as amended by St. 2025, c. 9, § 43 matches the document."
    }
   }
  ]

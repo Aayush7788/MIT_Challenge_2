@@ -1,0 +1,30 @@
+SOURCE: https://berkeley.municipal.codes/BMC/13.76
+RETRIEVED: 2026-10-04 00:47 UTC
+JURISDICTION: Berkeley, CA
+CITES: Berkeley Mun. Code § 13.76.130(A)(1); § 13.76.130(A)(8)(g); § 13.76.130(A)(8)(h)
+NOTE: Berkeley Municipal Code § 13.76.130 (Just cause required for eviction), excerpt as codified: heading, Subsection A opening, (A)(1) Non-payment of Rent (fair market rent threshold), (A)(8) heading, (A)(8)(g) owner move-in relocation and (A)(8)(h) CPI indexing, and the section history note; the rest of the 28,000-character section omitted. Official code publisher berkeley.municipal.codes (current through Ordinance 8031-NS, passed July 28, 2026). Read in a browser and copied verbatim (SHA-256 of the copied text matched the page)
+
+13.76.130
+Just cause required for eviction.
+
+A. No landlord shall be entitled to recover possession of a rental unit covered by the terms of this Chapter unless said landlord shows the existence of one of the following grounds:
+
+1. Non-payment of Rent. The tenant has failed to pay rent to which the landlord is legally entitled pursuant to the lease or rental agreement and under the provisions of state or local law, unless the tenant has withheld rent pursuant to applicable law; and said failure has continued after service on the tenant of a written notice setting forth the amount of rent then due and requiring it to be paid, within a period, specified in the notice, of not less than three days. Rent that is lawfully withheld pursuant to emergency legislation that authorizes rent withholding during the effective period of a state of emergency applicable in the City shall not constitute grounds for recovery of possession except as expressly provided in the applicable emergency legislation. Emergency legislation adopted during the emergency may prohibit recovery of possession for lawfully withheld rent even after the expiration of a state or local emergency. This subsection shall not constitute grounds where the amount of rent demanded is less than one month of fair market rent for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR as determined by the U.S. Department of Housing and Urban Development for the fiscal year in which the rent is demanded.
+
+8. Owner Move-in Evictions.
+
+(g) Where a landlord recovers possession of a unit under Subsection 13.76.130(A)(8), the landlord is required to provide standard relocation assistance to tenant households where at least one occupant has resided in the unit for one year or more in the amount of $15,000. The landlord is required to provide an additional $5,000 relocation assistance to tenant households that qualify as low-income; or include disabled or elderly tenants; minor children; or tenancies which began prior to January 1, 1999. The relocation fees set forth above shall be increased in accordance with the rules set forth in Subsection 13.76.130(A)(7) below. The procedures for payment of this relocation assistance are set forth below in Subsection 13.76.130(A)(8)(p)(i) through 13.76.130(A)(8)(p)(iv). The following definitions apply for any tenant households evicted for owner move-in under Subsection 13.76.130(A)(8):
+
+i. "Low-income tenants" means persons and families whose income does not exceed the qualifying limits for lower income families as established and amended from time to time pursuant to Section 8 of the United States Housing Act of 1937, or as otherwise defined in Health and Safety Code Section 50079.5.
+
+ii. A person is "disabled" if that person has a physical or mental impairment that limits one or more of a person’s major life activities within the meaning of the California Fair Housing and Employment Act (Government Code § 12926).
+
+iii. "Elderly" is defined as sixty (60) years of age or older.
+
+iv. "Minor child" means a person who is under 18 years of age.
+
+v. "Tenancy began prior to January 1, 1999" is a tenancy where an "original occupant" (as defined by Board regulation) still permanently resides in the rental unit.
+
+(h) Effective January 1 of each year beginning in 2018, the fees set forth above in Subsection 13.76.130(A)(8)(g), shall be increased in an amount based on the Consumer Price Index - All Urban Consumers in the San Francisco-Oakland-San Jose Region averaged for the 12-month period ending June 30, of each year, as determined and published by United States Department of Labor. Any increase shall be published by the Board on or before October 31st of each year.
+
+(Ord. 7950-NS § 2, 2024; Ord. 7747-NS § 4, 2020; Ord. 7525-NS § 4, 2016; Ord. 6833-NS § 6 (part), 2004; Ord. 6602-NS § 1, 2000; Ord. 6007-NS § 1, 1990; Ord. 5467-NS § 13, 1982; Ord. 5261-NS § 13, 1980)

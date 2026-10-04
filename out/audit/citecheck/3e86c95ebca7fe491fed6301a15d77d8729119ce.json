@@ -1,0 +1,24 @@
+{
+ "key": "3e86c95ebca7fe491fed6301a15d77d8729119ce",
+ "team_rule_id": "r-0042",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D067",
+  "D068",
+  "O017",
+  "O025",
+  "O010",
+  "D035",
+  "D070"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "N.J.S.A. 10:5-12(g)",
+  "citation_basis": "N.J.S.A. 10:5-12 and subsection g.: O017 (also D067)",
+  "source_is_law_text": false,
+  "official_doc_id": "O017",
+  "official_quote": "(4) To refuse to sell, rent, lease, assign, or sublease or otherwise to deny to or withhold from any person or group of persons any real property or part or portion thereof because of the source of any lawful income received by the person or the source of any lawful rent payment to be paid for the real property, including, but not limited to, by refusing to accept as payment any source of lawful income or by applying, in assessing eligibility for the rental of housing, any minimum income requirement or financial standard that is not based exclusively on the portion of the rent to be paid by the tenant; or",
+  "is_city_policy": false,
+  "note": "Narrowed from 10:5-12(g)-(h) to 10:5-12(g), as the lawyer asked, because the official statute text (O017) puts the landlord and owner rental bar in subsection g. Subsection h covers brokers and salespersons."
+ }
+}

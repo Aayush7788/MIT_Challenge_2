@@ -101,6 +101,18 @@ export default function RulesPage() {
                     <p className="mt-2 font-mono text-xs">{r.citation}</p>
                     <details className="mt-2 text-xs text-stone-600">
                       <summary className="cursor-pointer text-blue-700">Source and quote</summary>
+                      {r.official_text && r.official_text.doc_id !== r.source_doc_id && (
+                        <>
+                          <p className="mt-2 font-medium text-stone-800">The law&rsquo;s own text</p>
+                          <blockquote className="mt-1 border-l-2 border-stone-500 pl-3 italic">&ldquo;{r.official_text.quoted_span}&rdquo;</blockquote>
+                          <p className="mt-1">
+                            {r.official_text.doc_id}, retrieved {r.official_text.retrieved_at?.slice(0, 10) ?? "?"} ·{" "}
+                            <a href={r.official_text.url} target="_blank" rel="noreferrer" className="text-blue-700 underline">open</a>
+                            {!r.official_text.in_supplied_corpus && " · saved by our team; the supplied corpus has only a summary of this law"}
+                          </p>
+                          <p className="mt-2 font-medium text-stone-800">The supplied corpus</p>
+                        </>
+                      )}
                       <blockquote className="mt-2 border-l-2 border-stone-300 pl-3 italic">&ldquo;{r.quoted_span}&rdquo;</blockquote>
                       <p className="mt-2">
                         <span className={`mr-1 rounded px-1.5 py-0.5 ${src.cls}`}>{src.label}</span>
@@ -111,6 +123,7 @@ export default function RulesPage() {
                       {r.conflict_note && <p className="mt-1 text-rose-700">Review note: {r.conflict_note}</p>}
                       {r.coverage_note && <p className="mt-1">{r.coverage_note}</p>}
                       {r.consolidation_note && <p className="mt-1">{r.consolidation_note}</p>}
+                      {r.citation_note && <p className="mt-1">Citation: {r.citation_note}</p>}
                       {r.verification && (
                         <p className="mt-1">
                           Second check ({r.verification.model}):{" "}

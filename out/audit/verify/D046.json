@@ -1,18 +1,18 @@
 {
- "key": "0261f1233f74c3311a8960cbb076b7cd71cad3b6",
+ "key": "5c083e397cae0c4d514754fc632c2eedd0832fe8",
  "doc_id": "D046",
  "ids": [
-  "r-0021"
+  "r-0024"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:45:50.357Z",
+ "audited_at": "2026-10-03T23:37:27.331Z",
  "cards": [
   {
-   "team_rule_id": "r-0021",
+   "team_rule_id": "r-0024",
    "requirement": {
     "verdict": "partly_supported",
-    "evidence": "An Act prohibiting algorithmic rent setting",
-    "note": "Title supports a bill to prohibit algorithmic rent setting, and history shows referral to Senate Ways and Means. The document gives no bill text, so the substance of the ban is not shown; 'gives renters no rights yet' is inference."
+    "evidence": "Bill reported favorably by committee and referred to the committee on Senate Ways and Means",
+    "note": "The document supports that the bill is titled 'An Act prohibiting algorithmic rent setting' and was referred to Senate Ways and Means. The bill text is not included, so the content of the ban is inferred from the title only."
    },
    "key_value": {
     "verdict": "not_applicable",
@@ -27,7 +27,7 @@
    "status": {
     "verdict": "supported",
     "evidence": "Bill reported favorably by committee and referred to the committee on Senate Ways and Means",
-    "note": "Document shows the bill is still pending in the Senate, with no enactment, so pending as of 2026-10-01 is consistent with it. The page was retrieved 2026-10-01."
+    "note": "The bill is still in the Senate and has not been enacted as of the latest action listed (3/12/2026), so pending is consistent. The document does not show any later action."
    },
    "coverage": {
     "verdict": "not_applicable",
@@ -36,8 +36,8 @@
    },
    "citation": {
     "verdict": "supported",
-    "evidence": "Displaying  3 actions for Bill S.2983",
-    "note": "Bill number, 194th General Court and new draft of S994 and S1016 are all stated in the document."
+    "evidence": "report the accompanying bill (Senate, No. 2983).",
+    "note": "The bill number, the 194th General Court, and the new draft of S994 and S1016 all appear in the document."
    }
   }
  ]

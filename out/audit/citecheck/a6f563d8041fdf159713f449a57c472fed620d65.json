@@ -1,0 +1,20 @@
+{
+ "key": "a6f563d8041fdf159713f449a57c472fed620d65",
+ "team_rule_id": "r-0090",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D076",
+  "D074",
+  "D075"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "San Diego Mun. Code § 98.1101 et seq. (Ord. O-21955 N.S.)",
+  "citation_basis": "§ 98.1101 et seq. (Division 11, §§ 98.1101-98.1104): D074; Ord. O-21955 N.S.: D074",
+  "source_is_law_text": false,
+  "official_doc_id": "D074",
+  "official_quote": "It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property. For each month a violation of section 98.1103(b) exists or continues, and for each residential rental property a landlord uses an algorithmic device, it shall constitute a separate and distinct violation. A tenant may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation of this Division, in a civil action against a landlord.",
+  "is_city_policy": false,
+  "note": "The card merges the definition (§ 98.1102), the prohibitions (§ 98.1103) and the remedies (§ 98.1104), so it now cites the whole Division 11 with 'et seq.' in place of a single section plus a 'see also' list, and the ordinance number is put in house form; the card's source D076 is only the unadopted draft (O-2025-107), so the quote comes from the adopted code text D074, which also makes attorney's fees two-way (prevailing landlord or tenant)."
+ }
+}

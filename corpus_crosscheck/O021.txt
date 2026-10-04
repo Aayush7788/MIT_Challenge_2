@@ -1,0 +1,11 @@
+SOURCE: https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/44283/44482?f=templates$fn=document-frame.htm$3.0
+RETRIEVED: 2026-10-04 00:23 UTC
+JURISDICTION: NJ
+CITES: N.J.S.A. 46:8-26
+NOTE: Official NJ Legislature statutes database (lis.njleg.state.nj.us), N.J.S.A. 46:8-26 Application of act (security deposit law applies to all rental dwelling units except owner-occupied premises with not more than two rental units where the tenant has not given 30 days written notice invoking it). Found through the site's simple search.
+
+46:8-26. Application of act
+
+The provisions of this act shall apply to all rental premises or units used for dwelling purposes except owner-occupied premises with not more than two rental units where the tenant has failed to provide 30 days written notice to the landlord invoking the provisions of this act.
+
+L.1967, c. 265, s. 8, eff. Jan. 1, 1968. Amended by L.1968, c. 46, s. 1, eff. May 22, 1968; L.1971, c. 223, s. 7, eff. June 21, 1971; L.1979, c. 28, s. 3, eff. Feb. 22, 1979.

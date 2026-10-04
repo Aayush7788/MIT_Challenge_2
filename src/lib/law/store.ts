@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import addressesJson from "../../../data/derived/addresses.json";
 import rulesJson from "../../../submission/rules.json";
 import rulesEs from "../../../data/derived/rules_es.json";
@@ -6,12 +7,20 @@ import { normalizeRules } from "./rules";
 
 // What the API routes read: the rule cards we submit and the 500 resolved addresses.
 
-export const RULES = normalizeRules(rulesJson as unknown).rules;
+export const RULES = normalizeRules(rulesJson as unknown, { consolidate: false }).rules;
 export const ADDRESSES = addressesJson as unknown as AddressRow[];
 const BY_ID = new Map(ADDRESSES.map((a) => [a.address_id, a]));
 
-// Spanish text for each card, made by scripts/translate.ts.
-export const RULES_ES = rulesEs as unknown as Record<string, { title: string; requirement: string; key_value: string | null }>;
+// Spanish text for each card, made by scripts/translate.ts. An entry counts only
+// while it matches the English card it was made from (ids can be reused).
+type EsEntry = { title: string; requirement: string; key_value: string | null; source_hash?: string };
+const esHash = (r: { title: string; requirement: string; key_value: string | null }) => createHash("sha1").update(`${r.title}\n${r.requirement}\n${r.key_value ?? ""}`).digest("hex");
+export const RULES_ES: Record<string, EsEntry> = Object.fromEntries(
+  RULES.flatMap((r) => {
+    const es = (rulesEs as unknown as Record<string, EsEntry>)[r.team_rule_id];
+    return es && es.source_hash === esHash(r) ? [[r.team_rule_id, es]] : [];
+  }),
+);
 
 export const findAddress = (id: string) => BY_ID.get(id.trim().toUpperCase()) ?? null;
 

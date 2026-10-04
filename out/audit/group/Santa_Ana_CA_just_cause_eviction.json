@@ -1,0 +1,22 @@
+{
+ "hash": "38863c03def35964d3589c021f1bfb529309fc5f",
+ "key": "Santa Ana, CA / just_cause_eviction",
+ "ids": [
+  "r-0104",
+  "r-0105"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0104",
+     "r-0105"
+    ],
+    "key_value": null,
+    "reason": "Both cards describe the just-cause eviction and relocation-assistance requirements of Santa Ana's Rent Stabilization and Just Cause Eviction Ordinance, cited once by its just-cause name and once by its full name. Keep r-0104's figure: 3 months relocation assistance or 3 months rent waiver."
+   }
+  ],
+  "coverage_only": []
+ }
+}

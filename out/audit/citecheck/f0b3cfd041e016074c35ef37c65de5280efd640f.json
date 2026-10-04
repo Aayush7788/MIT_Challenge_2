@@ -1,0 +1,23 @@
+{
+ "key": "f0b3cfd041e016074c35ef37c65de5280efd640f",
+ "team_rule_id": "r-0039",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D067",
+  "O010",
+  "O011",
+  "O022",
+  "O026",
+  "O023"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "N.J.S.A. 2A:18-61.1(f)",
+  "citation_basis": "N.J.S.A. 2A:18-61.1 and subsection f.: O010 (also cited in D067)",
+  "source_is_law_text": false,
+  "official_doc_id": "O010",
+  "official_quote": "The person has failed to pay rent after a valid notice to quit and notice of increase of said rent, provided the increase in rent is not unconscionable and complies with any and all other laws or municipal ordinances governing rent increases.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

@@ -1,0 +1,54 @@
+SOURCE: https://santa-ana.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=45db94b5-fc30-4fc8-abb1-fec195994cfc
+RETRIEVED: 2026-10-04 00:20 UTC
+JURISDICTION: Santa Ana, CA
+TYPE: official record (staff report), not the law's text
+CITES: Santa Ana Ord. No. NS-3090; Santa Ana Mun. Code §§ 8-3700 to 8-3703 (ch. 8, art. XXIV) per this report
+NOTE: Santa Ana Community Development Agency staff report, City Council meeting March 3, 2026, item 19 (second reading and adoption of Ordinance No. NS-3090). Published on the City's PrimeGov agenda portal. Not the ordinance text; it states the ordinance number and the code sections. PDF text extracted with pypdf.
+
+Community Development Agency
+www.santa-ana.org/cd
+Item # 19
+City of Santa Ana
+20 Civic Center Plaza, Santa Ana, CA 92701
+ Staff Report
+March 3, 2026
+TOPIC: Second Reading and Adopt an Ordinance Prohibiting Anti-Competitive 
+Automated Rent Price-Fixing
+AGENDA TITLE
+Second Reading and Adoption of an Ordinance Prohibiting Anti-Competitive Automated 
+Rent Price-Fixing  
+First reading February 17, 2026 City Council meeting and approved by a vote of (6-0-1) 
+(Mayor Amezcua absent). Published in the OC Reporter on February 18, 2026.
+RECOMMENDED ACTION
+Conduct a second reading of and adopt an ordinance of the City Council approving 
+Ordinance No. NS-3090 to add Article XXIV to Chapter 8 (Buildings and Structures) of 
+the Santa Ana Municipal Code prohibiting anti-competitive automated rent price fixing 
+software.
+ORDINANCE NO. NS-3090 entitled AN ORDINANCE OF THE CITY COUNCIL OF THE 
+CITY OF SANTA ANA PROHIBITING ANTI-COMPETITIVE AUTOMATED RENT 
+PRICE FIXING 
+GOVERNMENT CODE §84308 APPLIES: No
+DISCUSSION
+At the February 17, 2026 regular meeting, the City Council approved the first reading of 
+an ordinance, Ordinance No. NS-3090, adding Sections 8-3700 to 8-3703 of Article 
+XXIV, of Chapter 8 (Buildings and Structures) of the Santa Ana Municipal Code (SAMC) 
+prohibiting anti-competitive automated rent price fixing software.  The ordinance, 
+approved by a vote of 6:0, requires a second reading.  
+No changes to the ordinance were made by City Council. A copy of the ordinance for 
+second reading and adoption is attached to this report as Exhibit 1.  
+ 
+FISCAL IMPACT
+There is no fiscal impact associated with this item.
+ 
+
+Second Reading - Ordinance Prohibiting Anti-Competitive Automated Rent Price-Fixing 
+March 3, 2026
+Page 2
+5
+6
+1
+6
+EXHIBIT(S)
+1. Ordinance for Second Reading
+Submitted By: Michael L. Garcia, Executive Director, Community Development Agency
+Approved By: Alvaro Nuñez, City Manager

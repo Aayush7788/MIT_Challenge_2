@@ -1,0 +1,29 @@
+{
+ "hash": "d974b6333ba78ab781554d99d06e6ff639a7db86",
+ "key": "Los Angeles, CA / rent_increase_limits",
+ "ids": [
+  "r-0082",
+  "r-0083",
+  "r-0084"
+ ],
+ "model": "claude-opus-5-5",
+ "result": {
+  "same_law": [
+   {
+    "cards": [
+     "r-0083",
+     "r-0084"
+    ],
+    "key_value": null,
+    "reason": "Both state the RSO annual allowable rent increase rule. r-0083 already includes the February 2, 2026 removal of the extra utility percentage that r-0084 states alone, so r-0084 is one part of the same provision."
+   }
+  ],
+  "coverage_only": [
+   {
+    "card": "r-0082",
+    "describes": "r-0083",
+    "reason": "This card only says which Los Angeles units the RSO covers (certificate of occupancy before October 1, 1978). It sets no rent-increase rule of its own."
+   }
+  ]
+ }
+}

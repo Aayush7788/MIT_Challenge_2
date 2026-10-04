@@ -1,15 +1,15 @@
 {
- "key": "fd94257bebc3205484f44a4f08fcdaab0562174f",
+ "key": "0f2a6aac999f3084fd2d5824f0a4bb6e31a2fc43",
  "doc_id": "X003",
  "ids": [
-  "r-0069",
-  "r-0071"
+  "r-0071",
+  "r-0073"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:48:42.486Z",
+ "audited_at": "2026-10-03T23:40:17.872Z",
  "cards": [
   {
-   "team_rule_id": "r-0069",
+   "team_rule_id": "r-0071",
    "requirement": {
     "verdict": "supported",
     "evidence": "Currently, annual rent increases are capped at either 5% or the Consumer Price Index (CPI) rate, whichever is lower (excluding certain surcharges). However, when a unit has been occupied for three years or more and becomes vacant, landlords can raise the rent by up to 25%—a process known as \"partial vacancy decontrol.\" This increase can only happen once every three years for the same unit.",
@@ -18,60 +18,60 @@
    "key_value": {
     "verdict": "supported",
     "evidence": "Currently, annual rent increases are capped at either 5% or the Consumer Price Index (CPI) rate, whichever is lower (excluding certain surcharges).",
-    "note": "Both the cap and the 25% vacancy increase after three years are stated."
+    "note": "Both values are stated in the interpretive statement."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field is empty."
    },
    "status": {
     "verdict": "supported",
     "evidence": "Currently, annual rent increases are capped at either 5% or the Consumer Price Index (CPI) rate, whichever is lower (excluding certain surcharges).",
-    "note": "The document presents the rules as current, and the measure to change them was rejected."
+    "note": "The document presents the cap as current law, and the reviewer note says the measure was rejected and Chapter 155 is unchanged."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field is empty."
    },
    "citation": {
     "verdict": "partly_supported",
-    "evidence": "Hoboken's City Code, Chapter 155, controls how much landlords can raise rent for residential units, both while a tenant is living there and when a new tenant moves in.",
-    "note": "Chapter 155 is supported. Section 155-5 appears only in the REVIEWER_NOTE, not in the substantive text. The document does not tie the cap to that section."
+    "evidence": "REVIEWER_NOTE: Voters rejected; Chapter 155 unchanged (the measure would have amended § 155-31; the § 155-5 cap stands).",
+    "note": "The document supports Chapter 155 and mentions the § 155-5 cap in a note, but does not say which section contains the vacancy decontrol provision."
    }
   },
   {
-   "team_rule_id": "r-0071",
+   "team_rule_id": "r-0073",
    "requirement": {
     "verdict": "supported",
     "evidence": "CITY OF HOBOKEN Total 6,082 16,371 0 26,336",
-    "note": "The question text describes the $2,500 fee option. The yes/no counts of 6,082 and 16,371 show it was rejected. The date is given as November 05, 2024."
+    "note": "Yes 6,082 and no 16,371 are given. The $2,500 fee proposal is in the question text, and the reviewer note says voters rejected it."
    },
    "key_value": {
     "verdict": "supported",
-    "evidence": "Shall the ordinance submitted by initiative petition, providing for an amendment to Hoboken City Code Chapter 155 (Rent Control) at Section 155-31 to provide an option to landlords to pay a fee of $2,500 to the Hoboken Affordable Housing Fund in order to lease voluntarily vacated apartments at a freely negotiated rent, which thereafter remain subject to the provisions of the Rent Control ordinance, including limitations on annual increases, be adopted?",
-    "note": "The rejection is shown by the vote totals."
+    "evidence": "Shall the ordinance submitted by initiative petition, providing for an amendment to Hoboken City Code Chapter 155 (Rent Control) at Section 155-31 to provide an option to landlords to pay a fee of $2,500 to the Hoboken Affordable Housing Fund in order to lease voluntarily vacated apartments at a freely negotiated rent",
+    "note": "The rejection comes from the reviewer note and the vote totals."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field is empty."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "CITY OF HOBOKEN Total 6,082 16,371 0 26,336",
-    "note": "YES 6,082 against NO 16,371 means the measure failed."
+    "evidence": "REVIEWER_NOTE: Voters rejected; Chapter 155 unchanged (the measure would have amended § 155-31; the § 155-5 cap stands).",
+    "note": "Failed matches the rejection."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field is empty."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "Shall the ordinance submitted by initiative petition, providing for an amendment to Hoboken City Code Chapter 155 (Rent Control) at Section 155-31",
-    "note": "The document supports the Nov. 5, 2024 election, the initiative and the § 155-31 amendment."
+    "note": "The November 5, 2024 election and the § 155-31 amendment are both in the document."
    }
   }
  ]

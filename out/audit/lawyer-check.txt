@@ -1,0 +1,42 @@
+LAWYER REVIEW (Gulnur Bekmukhanbetova, 92 cards)
+  matched to a current card   89/92
+  status agrees               89/89
+  effective date agrees       37/48
+  duplicates merged           9/9
+  coverage notes folded       4/4
+  test rule map agrees        7/7
+  cite a code section or chapter 59/65 enacted rules
+  quote the law's own text       50/65 (18 from the supplied corpus)
+
+DATE   r-0005 Cal. Civ. Code § 1950.6(c): lawyer 2025-01-01, ours blank (r-0004)
+DATE   r-0006 Cal. Civ. Code § 1950.6(d), (f): lawyer 2025-01-01, ours blank (r-0004)
+DATE   r-0007 Cal. Civ. Code § 1946.2 (as amended by Stats. 2025: lawyer 2020-01-01, ours blank (r-0009)
+DATE   r-0008 Cal. Gov. Code § 66300.6(b)(4)(A) (Housing Crisis : lawyer 2020-01-01, ours blank (r-0011)
+DATE   r-0011 Cal. Gov. Code § 12955(a), (p): lawyer 2020-01-01, ours blank (r-0014)
+DATE   r-0012 Cal. Gov. Code § 12955(o)(1)(A): lawyer 2020-01-01, ours blank (r-0014)
+DATE   r-0014 California Fair Employment and Housing Act (FEHA): lawyer 2020-01-01, ours blank (r-0014)
+DATE   r-0029 M.G.L. c. 40P § 4: lawyer 1995-01-01, ours blank (r-0030)
+DATE   r-0040 N.J.S.A. 2A:42-84.5 (Newly Constructed Multiple Dw: lawyer 1987-06-25, ours blank (r-0041)
+DATE   r-0047 Berkeley Mun. Code ch. 13.63, § 13.63.030 (Ord. No: lawyer 2026-01-01, ours 2026-03-01 (r-0049)
+DATE   r-0074 Los Angeles Just Cause Ordinance (JCO): lawyer 2023-01-27, ours blank (r-0082)
+CITE   r-0066 Boston DND Fair Chance Tenant Selection Policy (February 2017): no code section in the citation
+CITE   r-0084 L.A. Mun. Code (Ord. No. 188481; Ord. No. 188482): no code section in the citation
+CITE   r-0103 San Francisco Fair Chance Ordinance: no code section in the citation
+CITE   r-0104 Santa Ana Ord. No. NS-3090: no code section in the citation
+CITE   r-0107 Santa Ana Just Cause Eviction Ordinance: no code section in the citation
+CITE   r-0109 Santa Ana Rent Stabilization and Just Cause Eviction Ordinance: no code section in the citation
+WORDS  r-0062 Boston City Code §§ 10-11.4, 10-11.7 (Housing Stability Notification A: no quote from the law's own text
+WORDS  r-0066 Boston DND Fair Chance Tenant Selection Policy (February 2017): no quote from the law's own text
+WORDS  r-0081 L.A. Mun. Code § 151.09.G (RSO); L.A. Mun. Code § 165.06 (JCO) (see al: no quote from the law's own text
+WORDS  r-0084 L.A. Mun. Code (Ord. No. 188481; Ord. No. 188482): no quote from the law's own text
+WORDS  r-0089 Newark Mun. Code § 19:2-3 (Ord. 6 PSF-A(S), 9-5-17): no quote from the law's own text
+WORDS  r-0094 San Diego Mun. Code § 98.0706(c) (Ord. O-21647 N.S.): no quote from the law's own text
+WORDS  r-0096 S.F. Admin. Code § 37.10C (Ord. No. 224-24): no quote from the law's own text
+WORDS  r-0097 S.F. Admin. Code § 37.9: no quote from the law's own text
+WORDS  r-0098 S.F. Admin. Code § 37.9A (Rent Ordinance Section 37.9A): no quote from the law's own text
+WORDS  r-0099 S.F. Admin. Code § 37.9C (Rent Ordinance Section 37.9C): no quote from the law's own text
+WORDS  r-0101 S.F. Admin. Code § 37.3: no quote from the law's own text
+WORDS  r-0103 San Francisco Fair Chance Ordinance: no quote from the law's own text
+WORDS  r-0104 Santa Ana Ord. No. NS-3090: no quote from the law's own text
+WORDS  r-0107 Santa Ana Just Cause Eviction Ordinance: no quote from the law's own text
+WORDS  r-0109 Santa Ana Rent Stabilization and Just Cause Eviction Ordinance: no quote from the law's own text

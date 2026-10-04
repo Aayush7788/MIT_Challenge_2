@@ -1,0 +1,23 @@
+{
+ "key": "be75bd7c5cb9d13c8911cfdc68d5cb1988e7cac8",
+ "team_rule_id": "r-0084",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D043",
+  "O034",
+  "O033",
+  "O030",
+  "O085",
+  "O032"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "L.A. Mun. Code (section not stated) (Ord. No. 188481; Ord. No. 188482)",
+  "citation_basis": "Ord. No. 188481 and Ord. No. 188482, effective 2/11/2025: D043 (LAHD Relocation Assistance Bulletin B); no document states the L.A. Mun. Code section that codifies the RPO",
+  "source_is_law_text": false,
+  "official_doc_id": null,
+  "official_quote": null,
+  "is_city_policy": false,
+  "note": "I dropped LAMC § 165.03.I(1) and §§ 151.22-151.28 because they are the JCO and Ellis Act filing provisions, not the RPO relocation rule; I put the code name first with '(section not stated)' because no document gives the RPO's code section; and I removed the 'Resident Protections Ordinance' nickname because only the LAHD bulletin uses it, not the ordinance text."
+ }
+}

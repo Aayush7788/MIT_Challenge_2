@@ -1,0 +1,39 @@
+SOURCE: https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/44283/44469?f=templates$fn=document-frame.htm$3.0
+RETRIEVED: 2026-10-04 00:21 UTC
+JURISDICTION: NJ
+CITES: N.J.S.A. 46:8-19
+NOTE: Official NJ Legislature statutes database (lis.njleg.state.nj.us), N.J.S.A. 46:8-19 Security deposits; investment, deposit, disposition. Found through the site's simple search.
+
+46:8-19. Security deposits; investment, deposit, disposition
+
+1. Whenever money or other form of security shall be deposited or advanced on a contract, lease or license agreement for the use or rental of real property as security for performance of the contract, lease or agreement or to be applied to payments upon such contract, lease or agreement when due, such money or other form of security, until repaid or so applied including the tenant's portion of the interest or earnings accumulated thereon as hereinafter provided, shall continue to be the property of the person making such deposit or advance and shall be held in trust by the person with whom such deposit or advance shall be made for the use in accordance with the terms of the contract, lease or agreement and shall not be mingled with the personal property or become an asset of the person receiving the same.
+
+The person receiving money so deposited or advanced shall:
+
+a. (1) Invest that money in shares of an insured money market fund established by an investment company based in this State and registered under the "Investment Company Act of 1940," 54 Stat. 789 (15 U.S.C.s.80a-1 et seq.) whose shares are registered under the "Securities Act of 1933," 48 Stat. 74 (15 U.S.C.s.77a. et seq.) and the only investments of which fund are instruments maturing in one year or less, or (2) deposit that money in a State or federally chartered bank, savings bank or savings and loan association in this State insured by an agency of the federal government in an account bearing a variable rate of interest, which shall be established at least quarterly, which is similar to the average rate of interest on active interest-bearing money market transaction accounts paid by the bank or association, or equal to similar accounts of an investment company described in paragraph (1) of this subsection.
+
+This subsection shall not apply to persons receiving money for less than 10 rental units except where required by the Commissioner of Banking and Insurance by rule or regulation. The commissioner shall apply the provisions of this subsection to some or all persons receiving money for less than 10 rental units where the commissioner finds that it is practicable to deposit or invest the money received with an investment company or State or federally chartered bank, savings bank or savings and loan association in accordance with this subsection. Except as expressly provided herein, nothing in this subsection shall affect or modify the rights or obligations of persons receiving money for rental premises or units, tenants, licensees or contractees under any other law.
+
+b. Persons not required to invest or deposit money in accordance with subsection a. of this section shall deposit such money in a State or federally chartered bank, savings bank or savings and loan association in this State insured by an agency of the federal government in an account bearing interest at the rate currently paid by such institutions and associations on time or savings deposits.
+
+c. The person investing the security deposit pursuant to subsection a. or b. of this section shall notify in writing each of the persons making such security deposit or advance, giving the name and address of the investment company, State or federally chartered bank, savings bank or savings and loan association in which the deposit or investment of security money is made, the type of account in which the security deposit is deposited or invested, the current rate of interest for that account, and the amount of such deposit or investment, in accordance with the following:
+
+(1) within 30 days of the receipt of the security deposit from the tenant;
+
+(2) within 30 days of moving the deposit from one depository institution or fund to another, except in the case of a merger of institutions or funds, then within 30 days of the date the person investing the security deposit receives notice of that merger, or from one account to another account, if the change in the account or institution occurs more than 60 days prior to the annual interest payment;
+
+(3) within 30 days after the effective date of P.L.2003, c.188 (C.46:8-21.4 et al.);
+
+(4) at the time of each annual interest payment; and
+
+(5) within 30 days after the transfer or conveyance of ownership or control of the property pursuant to section 2 of P.L.1967, c.265 (C.46:8-20).
+
+All of the money so deposited or advanced may be deposited or invested by the person receiving the same in one interest-bearing or dividend yielding account as long as he complies with all the other requirements of this act.
+
+The interest or earnings paid thereon by the investment company, State or federally chartered bank, savings bank or savings and loan association, shall belong to the person making the deposit or advance and shall be paid to the tenant in cash, or be credited toward the payment of rent due on the renewal or anniversary of said tenant's lease or on January 31, if the tenant has been given written notice after the effective date of P.L.2003, c.188 and before the next anniversary of the tenant's lease, that subsequent interest payments will be made on January 31 of each year.
+
+If the person receiving a security deposit fails to invest or deposit the security money in the manner required under this section or to provide the notice or pay the interest to the tenant as required under this subsection, the tenant may give written notice to that person that such security money plus an amount representing interest at the rate of seven percent per annum be applied on account of rent payment or payments due or to become due from the tenant, and thereafter the tenant shall be without obligation to make any further security deposit and the person receiving the money so deposited shall not be entitled to make further demand for a security deposit. However, in the case of a failure by the person receiving the security deposit to pay the annual interest or to provide the annual notice at the time of the annual interest payment, if the annual notice is not also serving as a notice of change of account or institution, before the tenant may apply the security deposit plus interest on account of the rent payment or payments due or to become due on the part of the tenant, the tenant shall first give that person a written notice of his failure and shall allow that person 30 days from the mailing date or hand delivery of this notice to comply with the annual interest payment or annual notice, or both.
+
+d. The provisions of this section requiring that the security advanced be deposited or invested in a money market fund, or in an interest bearing account in a State or federally chartered bank, savings bank or savings and loan association shall not apply to any security advanced on a contract, lease or license agreement for the seasonal use or rental of real property. For purposes of this paragraph "seasonal use or rental" means use or rental for a term of not more than 125 consecutive days for residential purposes by a person having a permanent place of residence elsewhere. "Seasonal use or rental" does not mean use or rental of living quarters for seasonal, temporary or migrant farm workers in connection with any work or place where work is being performed. The landlord shall have the burden of proving that the use or rental of the residential property is seasonal.
+
+L.1967,c.265,s.1; amended 1971, c.223, s.1; 1973, c.195; 1979, c.28, s.1; 1985, c.42, s.1; 1990, c.100; 1997, c.310; 2003, c.188,s.1.

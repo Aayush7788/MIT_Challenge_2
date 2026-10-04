@@ -2,13 +2,13 @@
   "doc_id": "D023",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "extracted_at": "2026-10-03T17:20:14.458Z",
+  "extracted_at": "2026-10-03T23:30:28.540Z",
   "stop_reason": "end_turn",
   "usage": {
     "input": 8426,
-    "output": 2210,
-    "cache_read": 4936,
-    "cache_write": 0
+    "output": 3701,
+    "cache_read": 0,
+    "cache_write": 5819
   },
   "rules": [
     {
@@ -16,11 +16,11 @@
       "level": "state",
       "category": "just_cause_eviction",
       "status": "in_force",
-      "title": "Tenant Protection Act statewide just cause eviction requirement",
-      "requirement": "Once you have lawfully lived in your unit for 12 months (or, if adult tenants were added, all tenants for 12 months or one tenant for 24 months), your landlord can only end your tenancy for a just cause listed in the law and must state it in the written notice. For no-fault evictions, such as owner move-in, withdrawal from the rental market, or substantial remodel, the landlord must pay one month's rent as relocation assistance within 15 days or waive your final month's rent; otherwise the notice is void.",
-      "key_value": "Just cause required after 12 months of tenancy; no-fault relocation of 1 month's rent",
+      "title": "Tenant Protection Act just-cause eviction requirement",
+      "requirement": "Once all tenants have lawfully lived in the unit for 12 months (or at least one tenant for 24 months), your landlord may evict only for a listed at-fault or no-fault just cause, and the cause must be stated in the written termination notice. For a curable lease violation, the landlord must first give you a notice and a chance to fix it.",
+      "key_value": "Just cause required after 12 months of tenancy (24 months if adult tenants were added)",
       "coverage": {
-        "summary": "Covers most residential rental property in California after 12 months of tenancy. Exempt: housing with a certificate of occupancy issued within the previous 15 years; owner-occupied duplexes; owner-occupied single-family homes renting no more than two units or bedrooms; units where the tenant shares a kitchen or bath with a resident owner; separately alienable single-family homes or condos not owned by a REIT, corporation or corporate-member LLC, if proper notice was given; deed-restricted affordable housing; hotels, dorms and care facilities. Does not apply where a qualifying local just cause ordinance governs the unit.",
+        "summary": "Residential rental property statewide, except housing with a certificate of occupancy issued within the previous 15 years, owner-occupied duplexes and owner-occupied single-family homes, certain individually owned single-family homes and condos (non-corporate owners who give the required exemption notice), and other listed exemptions. Does not apply where a qualifying local just-cause ordinance covers the unit.",
         "min_units": null,
         "max_units": null,
         "built_on_or_before": null,
@@ -31,27 +31,68 @@
         "required_facts_not_in_data": [],
         "minor_exemptions_not_in_data": [
           "Transient and tourist hotel occupancy",
-          "Nonprofit hospital, religious, extended care, residential care for the elderly, or adult residential facilities",
-          "Dormitories owned by schools or institutions of higher education",
-          "Tenant shares a bathroom or kitchen with a resident owner",
+          "Nonprofit hospital, religious, extended care, residential care for the elderly, and adult residential facilities",
+          "Dormitories owned by higher education institutions or K-12 schools",
+          "Units where the tenant shares bathroom or kitchen with an owner who lives there",
           "Owner-occupied single-family residences renting no more than two units or bedrooms",
-          "Single-family homes or condos alienable separately and not owned by a REIT, corporation or corporate-member LLC, with the required exemption notice",
+          "Single-family homes or condos alienable separately and not owned by a REIT, corporation, or LLC with a corporate member, with written exemption notice",
           "Deed-restricted or subsidized affordable housing",
-          "Homeowner of a mobilehome"
+          "Mobilehome homeowners"
         ]
       },
-      "exemptions": "Hotels; care facilities; school dorms; units sharing a kitchen or bath with a resident owner; owner-occupied single-family homes renting up to two units or bedrooms; owner-occupied duplexes (neither unit an ADU); housing with a certificate of occupancy within the previous 15 years (except mobilehomes); separately alienable property not owned by a REIT, corporation or corporate-member LLC, with written notice; deed-restricted affordable housing; property covered by a qualifying local just cause ordinance.",
-      "effective_date": "2024-04-01",
-      "penalty": "Notice void for noncompliance. For material violation: actual damages, discretionary attorney's fees and costs, up to three times actual damages plus punitive damages for willful, oppressive, fraudulent or malicious conduct. The Attorney General, city attorney or county counsel may seek injunctive relief.",
-      "citation": "Cal. Civ. Code § 1946.2 (as amended by Stats. 2025, Ch. 203 (AB 1529))",
+      "exemptions": "Hotels; nonprofit hospitals, religious and care facilities; school dormitories; shared kitchen/bath with resident owner; owner-occupied single-family homes (renting up to two units/bedrooms) and owner-occupied duplexes; housing with certificate of occupancy within the previous 15 years (unless a mobilehome); separately alienable homes/condos not owned by a REIT, corporation or LLC with a corporate member, if tenants received the statutory exemption notice; deed-restricted or subsidized affordable housing; property covered by a qualifying local just-cause ordinance.",
+      "effective_date": null,
+      "penalty": "Noncompliant termination notice is void. Owner who attempts to recover possession in material violation is liable for actual damages, discretionary attorney's fees and costs, up to three times actual damages for willful, oppressive, fraudulent or malicious conduct, and punitive damages; Attorney General, city attorney or county counsel may seek injunctive relief.",
+      "citation": "Cal. Civ. Code § 1946.2",
       "quoted_span": "Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.",
       "yields_to_local_rule": true,
       "may_preempt_local_rules": true,
-      "interaction": "Does not apply to property covered by a local just cause ordinance adopted on or before Sept. 1, 2019, or to a later-adopted or amended local ordinance that is more protective (with a binding local finding); in those cases the local ordinance applies. A property cannot be subject to both. A local ordinance adopted after Sept. 1, 2019 that is less protective cannot be enforced unless this section is repealed.",
-      "confidence": 0.88,
+      "interaction": "Does not apply to property covered by a local just-cause ordinance adopted on or before September 1, 2019, or a later ordinance that is more protective and contains a binding finding to that effect; a property cannot be subject to both. A local ordinance adopted after September 1, 2019 that is less protective shall not be enforced unless this section is repealed. Current text operative April 1, 2024 and last amended by Stats. 2025, Ch. 203 (AB 1529), effective January 1, 2026; repealed as of January 1, 2030. The document does not state when the just-cause requirement first took effect, so effective_date is left null.",
+      "confidence": 0.85,
       "conflict_flag": true,
-      "conflict_note": "Two dates appear: subdivision (m) says the section became operative April 1, 2024, while the history note says the current amendment (AB 1529) took effect January 1, 2026. The section is repealed as of January 1, 2030. The state law also overrides less protective local ordinances adopted after Sept. 1, 2019."
+      "conflict_note": "State law displaces less-protective local just-cause ordinances adopted after September 1, 2019 while yielding to earlier or more-protective local ordinances; local coverage must be checked."
+    },
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Relocation assistance for no-fault just-cause terminations",
+      "requirement": "If your landlord ends a covered tenancy for a no-fault reason (owner move-in, withdrawal from the rental market, a government order, or demolition or substantial remodel), they must either pay you one month's rent as relocation assistance within 15 calendar days of the notice or waive your final month's rent in writing. The notice must tell you about this right; if the landlord does not strictly comply, the notice is void.",
+      "key_value": "1 month rent (direct payment within 15 days or final-month rent waiver)",
+      "coverage": {
+        "summary": "Tenancies requiring just cause under Cal. Civ. Code § 1946.2(a) that are terminated for a no-fault just cause; same building coverage and exemptions as the statewide just-cause rule.",
+        "min_units": null,
+        "max_units": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "cutoff_uses_certificate_of_occupancy": true,
+        "exempt_if_newer_than_years": 15,
+        "owner_based_exemption_max_units": 2,
+        "required_facts_not_in_data": [],
+        "minor_exemptions_not_in_data": [
+          "Transient and tourist hotel occupancy",
+          "Nonprofit hospital, religious, and care facilities",
+          "School dormitories",
+          "Shared kitchen or bath with resident owner",
+          "Owner-occupied single-family residences",
+          "Single-family homes or condos not owned by a REIT, corporation, or LLC with a corporate member, with exemption notice",
+          "Deed-restricted or subsidized affordable housing",
+          "Mobilehome homeowners"
+        ]
+      },
+      "exemptions": "Same exemptions as Cal. Civ. Code § 1946.2(e); no relocation assistance if a government agency or court finds the tenant at fault for the condition triggering a vacate order.",
+      "effective_date": null,
+      "penalty": "Owner's failure to strictly comply renders the notice of termination void; relocation paid is recoverable as damages if tenant fails to vacate.",
+      "citation": "Cal. Civ. Code § 1946.2(d)",
+      "quoted_span": "The amount of relocation assistance or rent waiver shall be equal to one month of the tenant’s rent that was in effect when the owner issued the notice to terminate the tenancy.",
+      "yields_to_local_rule": true,
+      "may_preempt_local_rules": false,
+      "interaction": "Relocation assistance under this section is credited against any other relocation assistance required by other law. Does not apply to property governed by a qualifying local just-cause ordinance. Current text operative April 1, 2024, amended by Stats. 2025, Ch. 203 (AB 1529), effective January 1, 2026.",
+      "confidence": 0.82,
+      "conflict_flag": false,
+      "conflict_note": null
     }
   ],
-  "notes": "Official code text of Cal. Civ. Code § 1946.2. The operative date of April 1, 2024 from subdivision (m) is used. The section sunsets January 1, 2030. The required tenant notice references the § 1947.12 rent cap, but that rule is not stated in this document, so it was not extracted."
+  "notes": "Official statutory text of Cal. Civ. Code § 1946.2 (Tenant Protection Act just cause). The section's operative date (April 1, 2024) and latest amendment (Stats. 2025, Ch. 203, eff. Jan 1, 2026) date re-enactments, not the rule's start, so effective_date is null. Section sunsets January 1, 2030. The notice-content requirements (owner move-in and remodel notice contents, tenant-rights disclosure) were not recorded separately as they govern notice form. No rent-increase coverage stated beyond a cross-reference to § 1947.12."
 }

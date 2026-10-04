@@ -1,0 +1,20 @@
+{
+ "key": "d060e7483e8605839f21df71c2998f2c6a7d5186",
+ "team_rule_id": "r-0069",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D029",
+  "O100",
+  "O099"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Cambridge Mun. Code § 14.04.040 (Ord. No. 1414, as amended by Ord. No. 2023-8B)",
+  "citation_basis": "ch. 14.04, § 14.04.040, Ord. No. 1414, Ord. No. 2023-8B: O100",
+  "source_is_law_text": false,
+  "official_doc_id": "O100",
+  "official_quote": "For any person to refuse to rent, lease, sell, or negotiate for sale, or otherwise to deny or withhold from any person or persons a dwelling or any services or facilities in connection therewith, or to print, publicize, advertise, make any written or oral statement, or otherwise communicate publicly or privately, in a manner that indicates any preference, limitation, or discrimination because of race, color, religious creed, sex, age, disability, national origin or ancestry, sexual orientation, relationship status, family structure, gender identity, marital status, family status, military status, or source of income. \"Source of income\" means public assistance recipiency.",
+  "is_city_policy": false,
+  "note": "Changed to the standard 'Cambridge Mun. Code' form, cited the unlawful-practices section § 14.04.040 with its ordinance numbers from O100, and dropped 'Cambridge Fair Housing Ordinance' because only the agency page uses that name, not the code text."
+ }
+}

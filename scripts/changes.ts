@@ -80,7 +80,7 @@ function mapRules(testRuleId: string, test: ChangeTest, rules: RuleRecord[]): Ru
 }
 
 function main() {
-  const rules = normalizeRules(JSON.parse(fs.readFileSync(RULES_IN, "utf8"))).rules;
+  const rules = normalizeRules(JSON.parse(fs.readFileSync(RULES_IN, "utf8")), { consolidate: RULES_IN !== "submission/rules.json" }).rules;
   const tests: ChangeTest[] = TESTS.flatMap((f) => JSON.parse(fs.readFileSync(f, "utf8")));
   const jur = JSON.parse(fs.readFileSync("data/derived/jurisdictions.json", "utf8"));
   const overrides = new Map(parseCsv(fs.readFileSync("data/derived/address_overrides.csv", "utf8")).map((o) => [o.address_id, o.legal_city]));
@@ -104,7 +104,8 @@ function main() {
 
     const affected: string[] = [];
     const conflicts: string[] = [];
-    const beforeAfter: Record<string, { before: Result | null; after: Result | null }> = {};
+    // For a pending bill, "after" is a what-if: the bill is never reported as applying.
+    const beforeAfter: Record<string, { before: Result | null; after: Result | "would_apply_if_enacted" | "might_apply_if_enacted" | null }> = {};
     for (const a of addresses) {
       if (t.type === "as_of") {
         const before = pick(lookup(ruleSet, a.building, t.as_of_before ?? DEFAULT_AS_OF));
@@ -121,7 +122,10 @@ function main() {
         const r = strongest(now);
         if (r && (t.type !== "pending" || r === "applies" || r === "unknown")) {
           affected.push(a.id);
-          beforeAfter[a.id] = { before: null, after: r };
+          beforeAfter[a.id] =
+            t.type === "pending"
+              ? { before: strongest(pick(lookup(rules, a.building, t.as_of ?? DEFAULT_AS_OF))), after: r === "applies" ? "would_apply_if_enacted" : "might_apply_if_enacted" }
+              : { before: null, after: r };
         }
         if (now.some((e) => e.conflict_flag)) conflicts.push(a.id);
       }

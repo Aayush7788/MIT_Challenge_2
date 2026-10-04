@@ -1,0 +1,23 @@
+{
+ "key": "fab040ff78438312bc19e111feb5a66e4c1e1d18",
+ "team_rule_id": "r-0004",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D026",
+  "O033",
+  "O002",
+  "O030",
+  "O041",
+  "O040"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "Cal. Civ. Code § 1950.6",
+  "citation_basis": "§ 1950.6: D026",
+  "source_is_law_text": true,
+  "official_doc_id": "D026",
+  "official_quote": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+  "is_city_policy": false,
+  "note": "unchanged"
+ }
+}

@@ -1,24 +1,24 @@
 {
- "key": "1cac42f95ba3e3bb41e72698b45eb52b9b747cdf",
+ "key": "cc8f92b702ac577b79ab475a3c2158bb1f5a78e6",
  "doc_id": "D007",
  "ids": [
-  "r-0015",
-  "r-0058"
+  "r-0018",
+  "r-0061"
  ],
  "model": "claude-sonnet-5-5",
- "audited_at": "2026-10-03T22:45:30.368Z",
+ "audited_at": "2026-10-03T23:37:08.614Z",
  "cards": [
   {
-   "team_rule_id": "r-0015",
+   "team_rule_id": "r-0018",
    "requirement": {
     "verdict": "supported",
     "evidence": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and furnished units",
-    "note": "Last month's rent and first month's rent points, and the small landlord two-month allowance, are also stated in the document."
+    "note": "Last/first month's rent and small landlord two-month allowance also stated in the document."
    },
    "key_value": {
     "verdict": "supported",
     "evidence": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons",
-    "note": "One month general cap, two months for qualifying small landlords."
+    "note": "One month general cap and two months for qualifying small landlords match."
    },
    "effective_date": {
     "verdict": "supported",
@@ -28,21 +28,21 @@
    "status": {
     "verdict": "supported",
     "evidence": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and furnished units",
-    "note": "Presented as current law on a page retrieved 2026-10-01; no indication of repeal."
+    "note": "Presented as current law."
    },
    "coverage": {
     "verdict": "partly_supported",
     "evidence": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons",
-    "note": "Four units total is supported, but the exemption also requires owning only two rental properties and specific ownership types; the card's single field omits these conditions."
+    "note": "The four-unit total is stated, but the card omits the two-property limit and ownership-type conditions. No construction or certificate-of-occupancy cutoffs are listed."
    },
    "citation": {
     "verdict": "supported",
     "evidence": "A California law, Assembly Bill 12 , changed the amount landlords can charge as a security deposit to the amounts described above starting July 1, 2024.",
-    "note": "Document names Assembly Bill 12 as the source."
+    "note": "The document names Assembly Bill 12."
    }
   },
   {
-   "team_rule_id": "r-0058",
+   "team_rule_id": "r-0061",
    "requirement": {
     "verdict": "supported",
     "evidence": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year.",
@@ -51,27 +51,27 @@
    "key_value": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field is empty."
    },
    "effective_date": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field is empty."
    },
    "status": {
     "verdict": "supported",
-    "evidence": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year.",
-    "note": "Presented as current requirement; no effective date needed."
+    "evidence": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year",
+    "note": "Presented as current law."
    },
    "coverage": {
     "verdict": "not_applicable",
     "evidence": null,
-    "note": "Field is empty on the card."
+    "note": "Field is empty."
    },
    "citation": {
-    "verdict": "supported",
-    "evidence": "security deposit interest requirements under the Berkeley Rent Ordinance.",
-    "note": "Document attributes the interest requirement to the Berkeley Rent Ordinance, though no section number is given."
+    "verdict": "partly_supported",
+    "evidence": "landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year.",
+    "note": "The document refers to Berkeley's Rent Ordinance generally but gives no section number."
    }
   }
  ]

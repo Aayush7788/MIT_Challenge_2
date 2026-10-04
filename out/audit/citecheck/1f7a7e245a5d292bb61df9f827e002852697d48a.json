@@ -1,0 +1,23 @@
+{
+ "key": "1f7a7e245a5d292bb61df9f827e002852697d48a",
+ "team_rule_id": "r-0082",
+ "model": "claude-opus-5-5",
+ "docs": [
+  "D040",
+  "O030",
+  "O088",
+  "O032",
+  "O033",
+  "O034"
+ ],
+ "retried": false,
+ "result": {
+  "citation": "L.A. Mun. Code § 165.00 et seq. (Ord. No. 187737)",
+  "citation_basis": "§ 165.00 (and Article 5, Chapter XVI): O030; Ord. No. 187737: O030 (also O088 history note 'Added by Ord. No. 187,737')",
+  "source_is_law_text": false,
+  "official_doc_id": "O030",
+  "official_quote": "This Article shall not apply until the expiration of an initial original lease or after six months of continuous and lawful occupancy, whichever comes first, or to the following types of residential real properties or residential circumstances: (A) Rental units subject to the Rent Stabilization Ordinance.",
+  "is_city_policy": false,
+  "note": "Replaced the nickname 'Los Angeles Just Cause Ordinance (JCO)' with the requested code cite, which Ordinance No. 187737 (O030) supports because it adds Article 5, §§ 165.00–165.08, to Chapter XVI."
+ }
+}
